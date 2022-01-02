@@ -1,0 +1,1820 @@
+{
+    "data": [
+        {
+            "lang": "de",
+            "text": "RT @faznet: 💉💉💉 In einem Hotel am Duisburger Hauptbahnhof hat der Neurologe Ahmad-Mujtaba Mostakiem einen 81-stündigen #Corona-Impfmarathon…",
+            "author_id": "937054785425027072",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474482288897495048"
+                }
+            ],
+            "conversation_id": "1474487204353347587",
+            "created_at": "2021-12-24T21:08:38.000Z",
+            "id": "1474487204353347587",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @TRTDeutsch: US-Präsident Biden hat ein Importverbot für chinesische Waren aus der Uiguren-Provinz Xinjiang unterzeichnet. Die USA werfe…",
+            "author_id": "4278903981",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474485125714952197"
+                }
+            ],
+            "conversation_id": "1474486758385590282",
+            "created_at": "2021-12-24T21:06:52.000Z",
+            "id": "1474486758385590282",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @TRTDeutsch: US-Präsident Biden hat ein Importverbot für chinesische Waren aus der Uiguren-Provinz Xinjiang unterzeichnet. Die USA werfe…",
+            "author_id": "490046742",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474485125714952197"
+                }
+            ],
+            "conversation_id": "1474485405739364352",
+            "created_at": "2021-12-24T21:01:29.000Z",
+            "id": "1474485405739364352",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Corona-Liveblog: Biden will laut Medien Einreisebeschränkungen wegen Omikron aufheben https://t.co/aI8AWFq5hF",
+            "author_id": "833733476373377024",
+            "conversation_id": "1474485161727246343",
+            "created_at": "2021-12-24T21:00:31.000Z",
+            "id": "1474485161727246343",
+            "source": "WordPress.com",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "US-Präsident Biden hat ein Importverbot für chinesische Waren aus der Uiguren-Provinz Xinjiang unterzeichnet. Die USA werfen China zudem erneut vor, einen Genozid an dem muslimischen Turkvolk begangen zu haben.\n\nhttps://t.co/XUKJsnCYkb",
+            "author_id": "1094919628097290240",
+            "conversation_id": "1474485125714952197",
+            "created_at": "2021-12-24T21:00:23.000Z",
+            "id": "1474485125714952197",
+            "source": "Buffer",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 1,
+                "like_count": 30,
+                "quote_count": 1
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @Dirty_Diehl: @KaiWang77716866 @RepGeoffDiehl Geoff Diehl is for Joe Biden",
+            "author_id": "2403738209",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474112876549976066"
+                }
+            ],
+            "conversation_id": "1474485037341028362",
+            "created_at": "2021-12-24T21:00:02.000Z",
+            "id": "1474485037341028362",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @RusPerspective: Die berüchtigte @Inaruck kritisierte Putins PK, da keine russ. Medien mit Status \"Auslandsagent\" dabei waren. Obwohl si…",
+            "author_id": "159236844",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474412922478678021"
+                }
+            ],
+            "conversation_id": "1474484587896135685",
+            "created_at": "2021-12-24T20:58:15.000Z",
+            "id": "1474484587896135685",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: 💉💉💉 In einem Hotel am Duisburger Hauptbahnhof hat der Neurologe Ahmad-Mujtaba Mostakiem einen 81-stündigen #Corona-Impfmarathon…",
+            "author_id": "1114762932",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474482288897495048"
+                }
+            ],
+            "conversation_id": "1474482567063740418",
+            "created_at": "2021-12-24T20:50:13.000Z",
+            "id": "1474482567063740418",
+            "source": "TweetDeck",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "💉💉💉 In einem Hotel am Duisburger Hauptbahnhof hat der Neurologe Ahmad-Mujtaba Mostakiem einen 81-stündigen #Corona-Impfmarathon gestartet. Geimpft werden soll im Drei-Schicht-Betrieb rund um die Uhr. Alle Entwicklungen in unserem Corona-Liveblog: https://t.co/atm88oseyl",
+            "author_id": "18047862",
+            "conversation_id": "1474482288897495048",
+            "created_at": "2021-12-24T20:49:06.000Z",
+            "id": "1474482288897495048",
+            "source": "SocialFlow",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 8,
+                "like_count": 41,
+                "quote_count": 2
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @krus_stern: #Biden soll umgehend Sanktionen gegen Folterer im KZ \"Izolyatsia\" (Isolation) in der von #Russland besetzten Ost-#Ukraine e…",
+            "author_id": "832606422458314753",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474392109302099973"
+                }
+            ],
+            "conversation_id": "1474479485332381696",
+            "created_at": "2021-12-24T20:37:58.000Z",
+            "id": "1474479485332381696",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: In #Großbritannien verbreitet sich die hoch ansteckende #Omikron-Mutante rasch. Viele Branchen wie die Verkehrsbetriebe kämpfen…",
+            "author_id": "1465111339072897028",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436235729031168"
+                }
+            ],
+            "conversation_id": "1474477969011789824",
+            "created_at": "2021-12-24T20:31:56.000Z",
+            "id": "1474477969011789824",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @KidaneNizer: Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. E…",
+            "author_id": "1434510609442349060",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474462271334141952"
+                }
+            ],
+            "conversation_id": "1474477219032485888",
+            "created_at": "2021-12-24T20:28:58.000Z",
+            "id": "1474477219032485888",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "\"Christmas\" Twitternde folgen zu\n11,1 % Elon Musk (@elonmusk)\n10,7 % Barack Obama (@BarackObama)\n8,1 % Joe Biden (@JoeBiden)\n7,4 % 방탄소년단 (@BTS_twt)\n7,2 % President Biden (@POTUS)",
+            "author_id": "1447186176406917120",
+            "conversation_id": "1474477094990233603",
+            "created_at": "2021-12-24T20:28:28.000Z",
+            "id": "1474477094990233603",
+            "source": "Twitter",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: In #Großbritannien verbreitet sich die hoch ansteckende #Omikron-Mutante rasch. Viele Branchen wie die Verkehrsbetriebe kämpfen…",
+            "author_id": "49201190",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436235729031168"
+                }
+            ],
+            "conversation_id": "1474476289197330432",
+            "created_at": "2021-12-24T20:25:16.000Z",
+            "id": "1474476289197330432",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @RusPerspective: Die berüchtigte @Inaruck kritisierte Putins PK, da keine russ. Medien mit Status \"Auslandsagent\" dabei waren. Obwohl si…",
+            "author_id": "816717166900809729",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474412922478678021"
+                }
+            ],
+            "conversation_id": "1474476204149424132",
+            "created_at": "2021-12-24T20:24:56.000Z",
+            "id": "1474476204149424132",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: In #Großbritannien verbreitet sich die hoch ansteckende #Omikron-Mutante rasch. Viele Branchen wie die Verkehrsbetriebe kämpfen…",
+            "author_id": "132480278",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436235729031168"
+                }
+            ],
+            "conversation_id": "1474475611267682306",
+            "created_at": "2021-12-24T20:22:34.000Z",
+            "id": "1474475611267682306",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @krus_stern: #Biden soll umgehend Sanktionen gegen Folterer im KZ \"Izolyatsia\" (Isolation) in der von #Russland besetzten Ost-#Ukraine e…",
+            "author_id": "8110432",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474392109302099973"
+                }
+            ],
+            "conversation_id": "1474473932879273992",
+            "created_at": "2021-12-24T20:15:54.000Z",
+            "id": "1474473932879273992",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@derspiegel Biden versteht das als Kriegserklärung. 🤦🏻‍♂️",
+            "author_id": "1211236004557774850",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474469935648632832"
+                }
+            ],
+            "conversation_id": "1474469935648632832",
+            "created_at": "2021-12-24T20:15:35.000Z",
+            "in_reply_to_user_id": "2834511",
+            "id": "1474473852025683975",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Biden ächtet Provinz Xinjiang mit Importverbot https://t.co/rKUr4xVp47",
+            "author_id": "1412797952343658496",
+            "conversation_id": "1474470764673912845",
+            "created_at": "2021-12-24T20:03:19.000Z",
+            "id": "1474470764673912845",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Ein Dinosaurier-Baby wurde in einem Ei entdeckt, das 72 Mio. Jahre alt ist.\nDas ist der größte Beitrag zu unserem Verständnis davon wie die Welt vor 72 Mio. Jahren aussah neben den  Aussagen des Zeitzeugen Joe Biden.",
+            "author_id": "797130752710295552",
+            "conversation_id": "1474470463292293121",
+            "created_at": "2021-12-24T20:02:07.000Z",
+            "id": "1474470463292293121",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "36778159",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474469911913287680",
+            "created_at": "2021-12-24T19:59:55.000Z",
+            "id": "1474469911913287680",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @krus_stern: #Biden soll umgehend Sanktionen gegen Folterer im KZ \"Izolyatsia\" (Isolation) in der von #Russland besetzten Ost-#Ukraine e…",
+            "author_id": "524122127",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474392109302099973"
+                }
+            ],
+            "conversation_id": "1474468181477666819",
+            "created_at": "2021-12-24T19:53:03.000Z",
+            "id": "1474468181477666819",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@ryanstruyk Dammit biden",
+            "author_id": "1440530656526618626",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474201425399922691"
+                }
+            ],
+            "conversation_id": "1243205876951003136",
+            "created_at": "2021-12-24T19:42:32.000Z",
+            "in_reply_to_user_id": "309822757",
+            "id": "1474465537287622660",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "1372525493254291458",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474464790844420096",
+            "created_at": "2021-12-24T19:39:35.000Z",
+            "id": "1474464790844420096",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@ntvde Und die Nato inklusive USA tun das gleiche. Biden wird sich an Russland die Zähne ausbeißen.",
+            "author_id": "1065659909444960257",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474458747816660993"
+                }
+            ],
+            "conversation_id": "1474458747816660993",
+            "created_at": "2021-12-24T19:37:55.000Z",
+            "in_reply_to_user_id": "19232587",
+            "id": "1474464373817102336",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 3,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. Erhält ein Komplize @AbiyAhmedAli's einen Preis von der @_DASonline. Eine Schande! @Ard @nouripour @HeikoMaas @sz… https://t.co/vVPJ3N22nY",
+            "author_id": "1458038908596391946",
+            "conversation_id": "1474462271334141952",
+            "created_at": "2021-12-24T19:29:34.000Z",
+            "id": "1474462271334141952",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@districtX68X @BolzGustav In den USA ist es komplex das Militär hier zu beschreiben. Kurz gesagt 97% der Militärischen KÖPFE sind Republikaner und sind für 4Jahre Fest im Sattel. so steht es in der Verfassung 🐸 Biden kann nicht einfach sagen jetzt gibt's Krieg. Sagen sie anderen NÖ LGB",
+            "author_id": "1412773553766907907",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474460374896451595"
+                }
+            ],
+            "conversation_id": "1474047703537655812",
+            "created_at": "2021-12-24T19:28:47.000Z",
+            "in_reply_to_user_id": "1446771128991686656",
+            "id": "1474462074512289794",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "1270092303215087616",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474461752591060997",
+            "created_at": "2021-12-24T19:27:30.000Z",
+            "id": "1474461752591060997",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Wegen Zwangsarbeit: Biden unterzeichnet Gesetz zum Importverbot von Gütern aus Xinjiang https://t.co/bef7XZg0Vr",
+            "author_id": "1335892394961739777",
+            "conversation_id": "1474459863325442055",
+            "created_at": "2021-12-24T19:20:00.000Z",
+            "id": "1474459863325442055",
+            "source": "TweetDeck",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "558068553",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474458886325346317",
+            "created_at": "2021-12-24T19:16:07.000Z",
+            "id": "1474458886325346317",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: In #Großbritannien verbreitet sich die hoch ansteckende #Omikron-Mutante rasch. Viele Branchen wie die Verkehrsbetriebe kämpfen…",
+            "author_id": "1466770368799158278",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436235729031168"
+                }
+            ],
+            "conversation_id": "1474458474994184208",
+            "created_at": "2021-12-24T19:14:29.000Z",
+            "id": "1474458474994184208",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: In #Großbritannien verbreitet sich die hoch ansteckende #Omikron-Mutante rasch. Viele Branchen wie die Verkehrsbetriebe kämpfen…",
+            "author_id": "1332348692804800514",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436235729031168"
+                }
+            ],
+            "conversation_id": "1474458259016847360",
+            "created_at": "2021-12-24T19:13:37.000Z",
+            "id": "1474458259016847360",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Gibt ja doch noch was zu Lachen heute.... 😂😂😂 https://t.co/24EjCpV6YH",
+            "author_id": "1464521601056219138",
+            "conversation_id": "1474457924902735872",
+            "created_at": "2021-12-24T19:12:18.000Z",
+            "id": "1474457924902735872",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@BolzGustav @districtX68X DONALD TRUMP SAGTE IMMER UND IMMER WIEDER... ES GEHT WELTWEIT NUR ÜBER DAS MILITÄR.\n\nJoe Biden hat keine Gewalt über das Militär 🐸🐸🐸🐸🐸 https://t.co/oB7hLsovrg",
+            "author_id": "1412773553766907907",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474047703537655812"
+                }
+            ],
+            "conversation_id": "1474047703537655812",
+            "created_at": "2021-12-24T19:11:01.000Z",
+            "in_reply_to_user_id": "1380039362210054149",
+            "id": "1474457604407627790",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "#GeneralRelativity4Dummy\n#KantEinsteinOnOurWorld\n#KantMarxAndChina\n#learnKantAndEinstein\n#LearnTheDamnedPhysics \n#ChinaUSAhas2bUnderstoodTogether\n#businessmodelofccpchinainc\n#stateModelofHegelLeninMaoDengXi\n\n&amp;\n#RealEcon201\n\nBiden/Xi: 😂\n\nKant/Einstein: 😂\n\nhttps://t.co/BUT54uiREB",
+            "author_id": "971187804758687744",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1292161978069209088"
+                },
+                {
+                    "type": "replied_to",
+                    "id": "1474455792162009089"
+                }
+            ],
+            "conversation_id": "1473666172235046922",
+            "created_at": "2021-12-24T19:08:19.000Z",
+            "in_reply_to_user_id": "971187804758687744",
+            "id": "1474456924737335298",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@tagesschau Sicher, bei #Biden #USA oder #Merkel, #Scholz, gibt es jedes Mal was „Neues“ 🤦‍♂️",
+            "author_id": "816715915379216385",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474073458644561921"
+                }
+            ],
+            "conversation_id": "1474073458644561921",
+            "created_at": "2021-12-24T19:07:20.000Z",
+            "in_reply_to_user_id": "5734902",
+            "id": "1474456676791197696",
+            "source": "Twitter for iPad",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "2157568702",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474456351476703232",
+            "created_at": "2021-12-24T19:06:02.000Z",
+            "id": "1474456351476703232",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. Erhält ein Komplize @AbiyAhmedAli's einen Preis von der @_DASonline. Eine Schande! @Ard @nouripour @HeikoMaas @sz… https://t.co/OD5FpE3hqs",
+            "author_id": "1396793333859635203",
+            "conversation_id": "1474456274209284103",
+            "created_at": "2021-12-24T19:05:44.000Z",
+            "id": "1474456274209284103",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @faznet: In #Großbritannien verbreitet sich die hoch ansteckende #Omikron-Mutante rasch. Viele Branchen wie die Verkehrsbetriebe kämpfen…",
+            "author_id": "845937503697862657",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436235729031168"
+                }
+            ],
+            "conversation_id": "1474456272070135814",
+            "created_at": "2021-12-24T19:05:43.000Z",
+            "id": "1474456272070135814",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "956914832191737856",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474456123633811460",
+            "created_at": "2021-12-24T19:05:08.000Z",
+            "id": "1474456123633811460",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "@SocksQueen @LiberalMut Biden will das als Ersatz für Waterboarding.\n\n💦",
+            "author_id": "2597129400",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474450750793261063"
+                }
+            ],
+            "conversation_id": "1474450401609109505",
+            "created_at": "2021-12-24T19:04:09.000Z",
+            "in_reply_to_user_id": "1090200068907565057",
+            "id": "1474455874802536457",
+            "source": "Twitter for iPad",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 3,
+                "like_count": 19,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "1705 – Nach der Spritze von Biden kennst Du, nicht den Präservativ der USA, brauchst Du keine Maske mehr tragen aber, Deinen Sarg bestellen kennst Du den Papst, der erteilt Dir noch gerne den letzten Segen https://t.co/Har8WOucy1",
+            "author_id": "245782855",
+            "conversation_id": "1474455186072498178",
+            "created_at": "2021-12-24T19:01:25.000Z",
+            "id": "1474455186072498178",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @zeynawi2: Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. Erhä…",
+            "author_id": "1375201586100723713",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474415324451770376"
+                }
+            ],
+            "conversation_id": "1474455108683538435",
+            "created_at": "2021-12-24T19:01:06.000Z",
+            "id": "1474455108683538435",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 7,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "59847952",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474454967616516097",
+            "created_at": "2021-12-24T19:00:32.000Z",
+            "id": "1474454967616516097",
+            "source": "Twitter for iPad",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "PolitikMuss man sich ernsthafte Sorgen um den Gesundheitszustand von US-Präsident Joe Biden machen? Der 79-Jährige lieferte einen Corona-Auftritt ab, der erhebliche Zweifel schürte, wie gut es... https://t.co/CKBQmPLVYR",
+            "author_id": "18017258",
+            "conversation_id": "1474454930832470017",
+            "created_at": "2021-12-24T19:00:24.000Z",
+            "id": "1474454930832470017",
+            "source": "CleverPush",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "1429390717986693125",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474454568213831686",
+            "created_at": "2021-12-24T18:58:57.000Z",
+            "id": "1474454568213831686",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "biden abi komm raus shisha cafe https://t.co/EwlWU70y8r",
+            "author_id": "2938791892",
+            "conversation_id": "1474454485372178433",
+            "created_at": "2021-12-24T18:58:38.000Z",
+            "id": "1474454485372178433",
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 27,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "RT @haintz_markus: 🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with…",
+            "author_id": "1317545219798204417",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474453835410251783"
+                }
+            ],
+            "conversation_id": "1474454457815601162",
+            "created_at": "2021-12-24T18:58:31.000Z",
+            "id": "1474454457815601162",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "text": "🇺🇸 Made my day - Grüße von Sleepy Joe #Biden\n\nThe old man who pretends to be president responds to a Christmas call with \"Let´s Go Brandon\"! \n\nDer alte Mann, der vorgibt, Präsident zu sein, antwortet auf einen Weihnachtsanruf mit #LetsGoBrandon \n\n#CovidRegime stoppen, #FreeSanta https://t.co/5ObNeczIO4",
+            "author_id": "1422936798066577411",
+            "conversation_id": "1474453835410251783",
+            "created_at": "2021-12-24T18:56:03.000Z",
+            "id": "1474453835410251783",
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 7,
+                "like_count": 51,
+                "quote_count": 2
+            }
+        },
+        {
+            "lang": "de",
+            "text": "HAHAHAHAHAH WOLLTE GERADE EIN KLEINES KIND KITZELN UND HABE DAN AUSVERSEHEN DEN KOPF VON DEM RICHTIG AUF DEM BIDEN GEKNALLT",
+            "author_id": "1468468334597652483",
+            "conversation_id": "1474453725242609671",
+            "created_at": "2021-12-24T18:55:36.000Z",
+            "id": "1474453725242609671",
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "id": "937054785425027072",
+                "name": "parcelpanic",
+                "verified": false,
+                "username": "parcelpanic",
+                "description": "leicht chaotischer wahlruhrgebietler⚒\ngefühlslegastheniker, zyniker, logistiker, workaholic & hundenarr ~\ngeburtsbrite ~\n\n*life is a journey, not a destination*",
+                "public_metrics": {
+                    "followers_count": 210,
+                    "following_count": 555,
+                    "tweet_count": 15323,
+                    "listed_count": 4
+                },
+                "created_at": "2017-12-02T20:24:05.000Z"
+            },
+            {
+                "id": "4278903981",
+                "name": "иɒzɒи🇹🇷",
+                "verified": false,
+                "username": "66_nzn",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 4496,
+                    "following_count": 4680,
+                    "tweet_count": 158331,
+                    "listed_count": 0
+                },
+                "created_at": "2015-11-25T22:35:08.000Z"
+            },
+            {
+                "id": "490046742",
+                "name": "kelkitli",
+                "verified": false,
+                "username": "Erkanb01",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 308,
+                    "following_count": 924,
+                    "tweet_count": 26431,
+                    "listed_count": 0
+                },
+                "created_at": "2012-02-12T05:10:06.000Z"
+            },
+            {
+                "id": "833733476373377024",
+                "name": "Klaus-D. Sedlacek",
+                "verified": false,
+                "username": "sedlacek_d",
+                "description": "Meine Nachrichten als #Autor und #Herausgeber in den Bereichen:   #Wissen, populäres #Sachbuch, #Bewusstsein, #Roman, #Buchvorstellung. Folge mir!",
+                "public_metrics": {
+                    "followers_count": 243,
+                    "following_count": 25,
+                    "tweet_count": 175501,
+                    "listed_count": 5
+                },
+                "created_at": "2017-02-20T17:42:05.000Z"
+            },
+            {
+                "id": "1094919628097290240",
+                "name": "TRT Deutsch",
+                "verified": true,
+                "username": "TRTDeutsch",
+                "description": "Die digitale Plattform für globale Berichte aus Politik, Wirtschaft und Kultur.",
+                "public_metrics": {
+                    "followers_count": 32009,
+                    "following_count": 4,
+                    "tweet_count": 15283,
+                    "listed_count": 110
+                },
+                "created_at": "2019-02-11T11:22:36.000Z"
+            },
+            {
+                "id": "2403738209",
+                "name": "Kai Wang",
+                "verified": false,
+                "username": "KaiWang77716866",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 124,
+                    "following_count": 494,
+                    "tweet_count": 194562,
+                    "listed_count": 2
+                },
+                "created_at": "2014-03-12T02:56:01.000Z"
+            },
+            {
+                "id": "159236844",
+                "name": "Alexander K.",
+                "verified": false,
+                "username": "kalibr73",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 81,
+                    "following_count": 86,
+                    "tweet_count": 5031,
+                    "listed_count": 1
+                },
+                "created_at": "2010-06-24T21:03:44.000Z"
+            },
+            {
+                "id": "1114762932",
+                "name": "O.W. Hadek 😷 💉💉💉#ImpfenJetzt",
+                "verified": false,
+                "username": "lobbyfA",
+                "description": "Bartträger wünscht mehr Respekt ggü Mitmenschen! ... gerne mal #trollig 😏 ... selten #drollig 😉 ... häufig #besorgt 😫 ... vielfach #angekotzt 🤮 🖤💛🇪🇺🇩🇪",
+                "public_metrics": {
+                    "followers_count": 371,
+                    "following_count": 1237,
+                    "tweet_count": 90279,
+                    "listed_count": 3
+                },
+                "created_at": "2013-01-23T16:39:23.000Z"
+            },
+            {
+                "id": "18047862",
+                "name": "Frankfurter Allgemeine",
+                "verified": true,
+                "username": "faznet",
+                "description": "Die wichtigsten Nachrichten des Tages, die besten Faz.net-Artikel und Empfehlungen der Redaktion.\n\nImpressum: https://t.co/UeypcoqdNs\nDatenschutz: https://t.co/UBMvMgddMZ",
+                "public_metrics": {
+                    "followers_count": 692956,
+                    "following_count": 330,
+                    "tweet_count": 220567,
+                    "listed_count": 6243
+                },
+                "created_at": "2008-12-11T14:14:57.000Z"
+            },
+            {
+                "id": "832606422458314753",
+                "name": "…📌… (💉modernasiert💉)",
+                "verified": false,
+                "username": "PaulWal97169800",
+                "description": "#DrostenUltra und geimpftes Schlafschaf",
+                "public_metrics": {
+                    "followers_count": 205,
+                    "following_count": 797,
+                    "tweet_count": 26633,
+                    "listed_count": 4
+                },
+                "created_at": "2017-02-17T15:03:34.000Z"
+            },
+            {
+                "id": "1465111339072897028",
+                "name": "Alex",
+                "verified": false,
+                "username": "weitergehen_",
+                "description": "👣 #Gehtweiter",
+                "public_metrics": {
+                    "followers_count": 13,
+                    "following_count": 1700,
+                    "tweet_count": 470,
+                    "listed_count": 0
+                },
+                "created_at": "2021-11-29T00:12:30.000Z"
+            },
+            {
+                "id": "1434510609442349060",
+                "name": "TDF ወርቂ ♥💛💊",
+                "verified": false,
+                "username": "ICnS5AnJq8o6T4r",
+                "description": "ሃገረ ትግራይ ዓዲ ጀጋኑ♥💛💪   https://t.co/IEEL60yAMl",
+                "public_metrics": {
+                    "followers_count": 1473,
+                    "following_count": 1137,
+                    "tweet_count": 41405,
+                    "listed_count": 1
+                },
+                "created_at": "2021-09-05T13:37:43.000Z"
+            },
+            {
+                "id": "1447186176406917120",
+                "name": "FreundlicherStatistikBot",
+                "verified": false,
+                "username": "StatistikBot12",
+                "description": "Ich bin ein freundlicher Bot und mag Statistiken. Bin hier privat, die gesammelten Benutzerdaten werden also nicht für die Welteroberung verwendet, versprochen.",
+                "public_metrics": {
+                    "followers_count": 233,
+                    "following_count": 0,
+                    "tweet_count": 2264,
+                    "listed_count": 1
+                },
+                "created_at": "2021-10-10T13:04:23.000Z"
+            },
+            {
+                "id": "49201190",
+                "name": "Diewolke",
+                "verified": false,
+                "username": "Yodemocra",
+                "description": "Empresaria, Detesto el Caviar . Orbiting the planet ,zwischen Drei Kontinenten, eine Frau in einer verrückten Welt leben. Agnóstica 🇺🇸 🇩🇪 🇬🇧 🇪🇸🇨🇭",
+                "public_metrics": {
+                    "followers_count": 1795,
+                    "following_count": 1314,
+                    "tweet_count": 67915,
+                    "listed_count": 7
+                },
+                "created_at": "2009-06-21T02:27:41.000Z"
+            },
+            {
+                "id": "816717166900809729",
+                "name": "MrStone5❌GETTR⬛🟧",
+                "verified": false,
+                "username": "mrstone0856",
+                "description": "Every day, the future looks a little bit darker. But the past... even the grimy parts of it... keep on getting brighter.",
+                "public_metrics": {
+                    "followers_count": 937,
+                    "following_count": 719,
+                    "tweet_count": 562511,
+                    "listed_count": 6
+                },
+                "created_at": "2017-01-04T18:45:21.000Z"
+            },
+            {
+                "id": "132480278",
+                "name": "Tappy",
+                "verified": false,
+                "username": "HJD1981",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 138,
+                    "following_count": 854,
+                    "tweet_count": 77260,
+                    "listed_count": 0
+                },
+                "created_at": "2010-04-13T10:33:54.000Z"
+            },
+            {
+                "id": "8110432",
+                "name": "Margus Särglepp",
+                "verified": false,
+                "username": "SargleppMargus",
+                "description": "DCM at @Estonia_in_US\n\nRetweet ≠ endorcement\n\nThink positive, stay negative!",
+                "public_metrics": {
+                    "followers_count": 88,
+                    "following_count": 514,
+                    "tweet_count": 2804,
+                    "listed_count": 2
+                },
+                "created_at": "2007-08-10T18:59:46.000Z"
+            },
+            {
+                "id": "1211236004557774850",
+                "name": "rené_engel",
+                "verified": false,
+                "username": "engel_rene",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 107,
+                    "tweet_count": 1826,
+                    "listed_count": 0
+                },
+                "created_at": "2019-12-29T10:42:51.000Z"
+            },
+            {
+                "id": "2834511",
+                "name": "DER SPIEGEL",
+                "verified": true,
+                "username": "derspiegel",
+                "description": "Nachrichten, Analysen, Kommentare, Videos, Podcasts: Mehr als 500 SPIEGEL-Journalistinnen und Journalisten decken auf, setzen Themen und sorgen für Kontext.",
+                "public_metrics": {
+                    "followers_count": 2854691,
+                    "following_count": 345,
+                    "tweet_count": 235756,
+                    "listed_count": 9334
+                },
+                "created_at": "2007-03-29T12:54:46.000Z"
+            },
+            {
+                "id": "1412797952343658496",
+                "name": "Chris",
+                "verified": false,
+                "username": "Chris90983363",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 6,
+                    "tweet_count": 206,
+                    "listed_count": 0
+                },
+                "created_at": "2021-07-07T15:37:46.000Z"
+            },
+            {
+                "id": "797130752710295552",
+                "name": "Landstreicher",
+                "verified": false,
+                "username": "Geschichtsgeis1",
+                "description": "Ich durchstreiche das Land wie Vivaldi seine Violine.",
+                "public_metrics": {
+                    "followers_count": 26,
+                    "following_count": 69,
+                    "tweet_count": 2507,
+                    "listed_count": 0
+                },
+                "created_at": "2016-11-11T17:35:56.000Z"
+            },
+            {
+                "id": "36778159",
+                "name": "Sebastian",
+                "verified": false,
+                "username": "s_zimmermann86",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 78,
+                    "following_count": 420,
+                    "tweet_count": 602,
+                    "listed_count": 0
+                },
+                "created_at": "2009-04-30T21:28:43.000Z"
+            },
+            {
+                "id": "524122127",
+                "name": "Andreas Umland",
+                "verified": false,
+                "username": "UmlandAndreas",
+                "description": "Analyst @SCEEUS_UI @UISweden. Доцент @NaUKMA. Board @FascismJournal @RightsinRussia https://t.co/52yGgxQXK9 https://t.co/J3lPwjnF6q. Personal tweets on Ukraine, Russia, IR, politics.",
+                "public_metrics": {
+                    "followers_count": 15584,
+                    "following_count": 10481,
+                    "tweet_count": 204994,
+                    "listed_count": 525
+                },
+                "created_at": "2012-03-14T07:50:03.000Z"
+            },
+            {
+                "id": "1440530656526618626",
+                "name": "Cody",
+                "verified": false,
+                "username": "JoeAndTheHo3",
+                "description": "investor in crypto and sports. #Theta #shib #btc\n\nhttps://t.co/DGuzMQkOcC…",
+                "public_metrics": {
+                    "followers_count": 23,
+                    "following_count": 345,
+                    "tweet_count": 3731,
+                    "listed_count": 4
+                },
+                "created_at": "2021-09-22T04:17:39.000Z"
+            },
+            {
+                "id": "309822757",
+                "name": "Ryan Struyk",
+                "verified": true,
+                "username": "ryanstruyk",
+                "description": "I work for @CNN. Michigan native. @Calvin_Uni grad. Recovering math major. Christian. ENTJ. #1 fan of @ABC, @AP and @WOODTV. #nooxfordcomma",
+                "public_metrics": {
+                    "followers_count": 112566,
+                    "following_count": 1884,
+                    "tweet_count": 58104,
+                    "listed_count": 1656
+                },
+                "created_at": "2011-06-02T18:41:54.000Z"
+            },
+            {
+                "id": "1372525493254291458",
+                "name": "Corazon",
+                "verified": false,
+                "username": "Corazon37957770",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 445,
+                    "following_count": 606,
+                    "tweet_count": 3327,
+                    "listed_count": 1
+                },
+                "created_at": "2021-03-18T12:30:31.000Z"
+            },
+            {
+                "id": "1065659909444960257",
+                "name": "Steffen aus Grambow",
+                "verified": false,
+                "username": "AusGrambow",
+                "description": "Arbeitet als Hausmeister in einem Seniorenheim",
+                "public_metrics": {
+                    "followers_count": 20,
+                    "following_count": 57,
+                    "tweet_count": 2047,
+                    "listed_count": 0
+                },
+                "created_at": "2018-11-22T17:34:56.000Z"
+            },
+            {
+                "id": "19232587",
+                "name": "ntv Nachrichten",
+                "verified": true,
+                "username": "ntvde",
+                "description": "#WirBleibenDran • Mehr von #ntv: @ntv_EIL • @ntvde_politik •  @teleboerse • @ntvde_Sport • @ntvde_Auto • @ntvpodcast • https://t.co/A9AJrldhaq",
+                "public_metrics": {
+                    "followers_count": 727680,
+                    "following_count": 34021,
+                    "tweet_count": 310322,
+                    "listed_count": 5034
+                },
+                "created_at": "2009-01-20T11:53:45.000Z"
+            },
+            {
+                "id": "1458038908596391946",
+                "name": "mizer Kidane",
+                "verified": false,
+                "username": "KidaneNizer",
+                "description": "22",
+                "public_metrics": {
+                    "followers_count": 228,
+                    "following_count": 299,
+                    "tweet_count": 2046,
+                    "listed_count": 0
+                },
+                "created_at": "2021-11-09T11:49:29.000Z"
+            },
+            {
+                "id": "1412773553766907907",
+                "name": "William W. Guardian of Scotland.",
+                "verified": false,
+                "username": "Snakepit_One",
+                "description": "Wer kniend lebt, hat sein Kopf immer in Arschhöhe stehend Lebender.\n\nIch bin nicht Links oder Rechts aber ich gehe mit sehenden Auge durchs Leben.",
+                "public_metrics": {
+                    "followers_count": 462,
+                    "following_count": 247,
+                    "tweet_count": 5263,
+                    "listed_count": 0
+                },
+                "created_at": "2021-07-07T14:01:30.000Z"
+            },
+            {
+                "id": "1446771128991686656",
+                "name": "FollowMe",
+                "verified": false,
+                "username": "districtX68X",
+                "description": "Die Demokratie wurde im alten Griechenland erfunden der ÖRR im 3. Reich! Der ÖRR muss weg!",
+                "public_metrics": {
+                    "followers_count": 417,
+                    "following_count": 485,
+                    "tweet_count": 4552,
+                    "listed_count": 1
+                },
+                "created_at": "2021-10-09T09:37:02.000Z"
+            },
+            {
+                "id": "1270092303215087616",
+                "name": "Jean-Luc Kanonan 🟢🟢🟢",
+                "verified": false,
+                "username": "JKanonan",
+                "description": "Viel Glück uns allen in diesen Zeiten",
+                "public_metrics": {
+                    "followers_count": 278,
+                    "following_count": 208,
+                    "tweet_count": 23373,
+                    "listed_count": 1
+                },
+                "created_at": "2020-06-08T20:36:32.000Z"
+            },
+            {
+                "id": "1335892394961739777",
+                "name": "SNA",
+                "verified": false,
+                "username": "snanews_de",
+                "description": "SNA ist ein modernes Massenmedium in deutscher Sprache, Teil der internationalen Medien-Gruppe „Rossiya Segodnya“ | https://t.co/vcXM50gPwv",
+                "public_metrics": {
+                    "followers_count": 715,
+                    "following_count": 182,
+                    "tweet_count": 22251,
+                    "listed_count": 6
+                },
+                "created_at": "2020-12-07T10:23:32.000Z"
+            },
+            {
+                "id": "558068553",
+                "name": "Sonja Meier MD",
+                "verified": false,
+                "username": "sonjameier2",
+                "description": "Consultant Anaesthetist. SMHP• Therapeutic Carb Restriction • Relaxed Carnivore • IF/TRE• Regenerative farming • Go against the grain • STOP covid coercion",
+                "public_metrics": {
+                    "followers_count": 2232,
+                    "following_count": 2950,
+                    "tweet_count": 8744,
+                    "listed_count": 17
+                },
+                "created_at": "2012-04-19T19:28:28.000Z"
+            },
+            {
+                "id": "1466770368799158278",
+                "name": "Anne-Christine Barra",
+                "verified": false,
+                "username": "dineccc",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 33,
+                    "tweet_count": 621,
+                    "listed_count": 0
+                },
+                "created_at": "2021-12-03T14:05:31.000Z"
+            },
+            {
+                "id": "1332348692804800514",
+                "name": "Noah Karl🌏 🇪🇺🇩🇪",
+                "verified": false,
+                "username": "NoahKarl1",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 28,
+                    "following_count": 424,
+                    "tweet_count": 3343,
+                    "listed_count": 1
+                },
+                "created_at": "2020-11-27T15:41:35.000Z"
+            },
+            {
+                "id": "1464521601056219138",
+                "name": "Muttley 17 🇦🇹",
+                "verified": false,
+                "username": "Muttley71179",
+                "description": "Freidenker & frei von pharmazeutischer Kontamination aller Art. Jede(r), wie er/sie will. Aber ich eben auch. ;) War schon mal hier. ;)♏️🎹🎵🐕🐿🐺🌿🌌📷⚽️🏒🎱",
+                "public_metrics": {
+                    "followers_count": 135,
+                    "following_count": 228,
+                    "tweet_count": 260,
+                    "listed_count": 0
+                },
+                "created_at": "2021-11-27T09:09:22.000Z"
+            },
+            {
+                "id": "1380039362210054149",
+                "name": "Bolz,Gustav",
+                "verified": false,
+                "username": "BolzGustav",
+                "description": "Retraité",
+                "public_metrics": {
+                    "followers_count": 60,
+                    "following_count": 74,
+                    "tweet_count": 1612,
+                    "listed_count": 0
+                },
+                "created_at": "2021-04-08T06:07:01.000Z"
+            },
+            {
+                "id": "971187804758687744",
+                "name": "Voltrader_ 思辨😂iscool",
+                "verified": false,
+                "username": "readtw271",
+                "description": "🇨🇳🇨🇭🇺🇸\n#GeneralRelativity4Dummy\n#KantEinsteinOnOurWorld\n#习总讲党史讲政治\n\n0927 TSLA\nDWAC $18in $100out\n1104 NVDA\n1213 MSFT\n1217 ⬆️TSLA NVDA QCOM\n#finance1001",
+                "public_metrics": {
+                    "followers_count": 802,
+                    "following_count": 526,
+                    "tweet_count": 46135,
+                    "listed_count": 14
+                },
+                "created_at": "2018-03-07T00:56:31.000Z"
+            },
+            {
+                "id": "816715915379216385",
+                "name": "Paul Myers",
+                "verified": false,
+                "username": "paulmye13817810",
+                "description": "Recht und Ordnung im eigenen Land zu verlangen, die Zwangsmigration abzulehnen, ist weder \"rechtsextremes Gedankengut\" noch fremdenfeindlich.",
+                "public_metrics": {
+                    "followers_count": 16,
+                    "following_count": 98,
+                    "tweet_count": 4999,
+                    "listed_count": 1
+                },
+                "created_at": "2017-01-04T18:40:22.000Z"
+            },
+            {
+                "id": "5734902",
+                "name": "tagesschau",
+                "verified": true,
+                "username": "tagesschau",
+                "description": "Schlagzeilen von https://t.co/sUyyRPnseF - Rückfragen an https://t.co/qvffY6fJge",
+                "public_metrics": {
+                    "followers_count": 3216063,
+                    "following_count": 321,
+                    "tweet_count": 219740,
+                    "listed_count": 9852
+                },
+                "created_at": "2007-05-03T08:42:42.000Z"
+            },
+            {
+                "id": "2157568702",
+                "name": "Conne",
+                "verified": false,
+                "username": "Conne_X",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 79,
+                    "tweet_count": 25,
+                    "listed_count": 0
+                },
+                "created_at": "2013-10-28T18:47:45.000Z"
+            },
+            {
+                "id": "1396793333859635203",
+                "name": "Amanuel BERHE république du tigré.",
+                "verified": false,
+                "username": "AmanuelBERHE17",
+                "description": "ንትግራይ ብኩሉ መዳይ መስዋኢት ንምክፋል ድሉዉ ኩን።\nኣብ ዓለም ዝምነያ ሓንት ሃገር ትግራይ ጥርሕ ኢያ።",
+                "public_metrics": {
+                    "followers_count": 1790,
+                    "following_count": 2185,
+                    "tweet_count": 4111,
+                    "listed_count": 0
+                },
+                "created_at": "2021-05-24T11:41:13.000Z"
+            },
+            {
+                "id": "845937503697862657",
+                "name": "Rüdiger Schäfer",
+                "verified": false,
+                "username": "RuedigerSchaf1",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 227,
+                    "following_count": 741,
+                    "tweet_count": 5416,
+                    "listed_count": 0
+                },
+                "created_at": "2017-03-26T09:56:32.000Z"
+            },
+            {
+                "id": "956914832191737856",
+                "name": "Markus Keller",
+                "verified": false,
+                "username": "MarkusK82698761",
+                "description": "🇩🇪🏈🍗😎",
+                "public_metrics": {
+                    "followers_count": 236,
+                    "following_count": 445,
+                    "tweet_count": 3356,
+                    "listed_count": 0
+                },
+                "created_at": "2018-01-26T15:40:49.000Z"
+            },
+            {
+                "id": "2597129400",
+                "name": "Roger",
+                "verified": false,
+                "username": "rogerwh_",
+                "description": "Masterprüfung 2021: Ein*e Bauernde verkauft einen Sack*in Kartoffeln für 50 €. Die Erzeugendenkosten*innnen betragen 40 €. Berechne den Gew*inn.",
+                "public_metrics": {
+                    "followers_count": 374,
+                    "following_count": 174,
+                    "tweet_count": 398,
+                    "listed_count": 5
+                },
+                "created_at": "2014-07-01T00:46:40.000Z"
+            },
+            {
+                "id": "1090200068907565057",
+                "name": "Queen of Sock Puppets",
+                "verified": false,
+                "username": "SocksQueen",
+                "description": "European Enthusiast, totally unbiased, pronouns: she/her, Sock of (Dis-)Colour",
+                "public_metrics": {
+                    "followers_count": 348,
+                    "following_count": 396,
+                    "tweet_count": 13991,
+                    "listed_count": 3
+                },
+                "created_at": "2019-01-29T10:48:46.000Z"
+            },
+            {
+                "id": "245782855",
+                "name": "manfredmaassen",
+                "verified": false,
+                "username": "neutrinoquacks",
+                "description": "Den Sinn des Lebens leben - Ungerechtigkeit besiegen",
+                "public_metrics": {
+                    "followers_count": 218,
+                    "following_count": 48,
+                    "tweet_count": 7586,
+                    "listed_count": 5
+                },
+                "created_at": "2011-02-01T13:22:44.000Z"
+            },
+            {
+                "id": "1375201586100723713",
+                "name": "saron",
+                "verified": false,
+                "username": "saron47305332",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 214,
+                    "following_count": 215,
+                    "tweet_count": 2518,
+                    "listed_count": 0
+                },
+                "created_at": "2021-03-25T21:43:15.000Z"
+            },
+            {
+                "id": "59847952",
+                "name": "Hellegatt (Leppalúði)",
+                "verified": false,
+                "username": "Hellegatt",
+                "description": "\"Der Weg zur Hölle beginnt mit dem Monopol auf die Moral.\"",
+                "public_metrics": {
+                    "followers_count": 711,
+                    "following_count": 832,
+                    "tweet_count": 43351,
+                    "listed_count": 9
+                },
+                "created_at": "2009-07-24T18:11:06.000Z"
+            },
+            {
+                "id": "18017258",
+                "name": "news.de",
+                "verified": false,
+                "username": "news_de",
+                "description": "Promi-News, Politik, Kurioses. \n\nImpressum: https://t.co/UO9E1QX852\nDatenschutzerklärung: https://t.co/p5thFZ6jNd",
+                "public_metrics": {
+                    "followers_count": 3178,
+                    "following_count": 288,
+                    "tweet_count": 146272,
+                    "listed_count": 243
+                },
+                "created_at": "2008-12-10T11:31:10.000Z"
+            },
+            {
+                "id": "1429390717986693125",
+                "name": "Mia Wander",
+                "verified": false,
+                "username": "mia_wander",
+                "description": "...",
+                "public_metrics": {
+                    "followers_count": 9,
+                    "following_count": 18,
+                    "tweet_count": 2828,
+                    "listed_count": 0
+                },
+                "created_at": "2021-08-22T10:31:34.000Z"
+            },
+            {
+                "id": "2938791892",
+                "name": "slan",
+                "verified": false,
+                "username": "high0ne_",
+                "description": "☁️",
+                "public_metrics": {
+                    "followers_count": 199,
+                    "following_count": 260,
+                    "tweet_count": 401,
+                    "listed_count": 0
+                },
+                "created_at": "2014-12-23T20:53:59.000Z"
+            },
+            {
+                "id": "1317545219798204417",
+                "name": "🇦🇱🇩🇪",
+                "verified": false,
+                "username": "MuctaxiDivideet",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 705,
+                    "following_count": 960,
+                    "tweet_count": 41145,
+                    "listed_count": 3
+                },
+                "created_at": "2020-10-17T19:17:26.000Z"
+            },
+            {
+                "id": "1422936798066577411",
+                "name": "Markus Haintz",
+                "verified": false,
+                "username": "haintz_markus",
+                "description": "German lawyer, journalist and freedom activist / Anwalt, Journalist und Freiheitsaktivist. Dieser private Account verbreitet Nachrichten und Meinungen.",
+                "public_metrics": {
+                    "followers_count": 6823,
+                    "following_count": 24,
+                    "tweet_count": 1428,
+                    "listed_count": 37
+                },
+                "created_at": "2021-08-04T15:07:23.000Z"
+            },
+            {
+                "id": "1468468334597652483",
+                "name": "du hurrensohn",
+                "verified": false,
+                "username": "Iamhorn33980764",
+                "description": "Alcoholic 666 ok du hurrensohn",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 24,
+                    "tweet_count": 191,
+                    "listed_count": 0
+                },
+                "created_at": "2021-12-08T06:32:16.000Z"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1474487204353347587",
+        "oldest_id": "1474453725242609671",
+        "result_count": 50,
+        "next_token": "b26v89c19zqg8o3fpe170wyx2zoqnpb38cvfcbfcb9oxp"
+    }
+}

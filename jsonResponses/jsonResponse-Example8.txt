@@ -1,0 +1,3532 @@
+{
+    "data": [
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530326546366475",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "872224558383869958",
+            "id": "1474530326546366475"
+        },
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530325917229061",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for Android",
+            "author_id": "1389378526286057474",
+            "id": "1474530325917229061"
+        },
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 340,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474478695981092865"
+                }
+            ],
+            "conversation_id": "1474530324168253441",
+            "lang": "en",
+            "text": "RT @therealsupes: Playing Marvel’s Spider-Man hits so much different after watching #SpiderManNoWayHome",
+            "source": "Twitter for iPhone",
+            "author_id": "1281408417782018048",
+            "id": "1474530324168253441"
+        },
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 1965,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474382201659682820"
+                }
+            ],
+            "conversation_id": "1474530324042371076",
+            "lang": "en",
+            "text": "RT @UsagiYohimbo10: The “Scorsese Vs Marvel” discourse is neverending and annoying, especially because\n1) he wasn’t that harsh on them\n2) h…",
+            "source": "Twitter for iPhone",
+            "author_id": "1020441742531842049",
+            "id": "1474530324042371076"
+        },
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 3614,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473696571913084938"
+                }
+            ],
+            "conversation_id": "1474530323941580801",
+            "lang": "en",
+            "text": "RT @BorkEternal: Sam Raimi’s             Sam Raimi’s\nSpider-Man           Doctor Strange https://t.co/D1O2j6V9CV",
+            "source": "Twitter for Android",
+            "author_id": "2380425654",
+            "id": "1474530323941580801"
+        },
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530323530719232",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "715896877",
+            "id": "1474530323530719232"
+        },
+        {
+            "created_at": "2021-12-24T23:59:59.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530323027292162",
+            "lang": "en",
+            "text": "Dream likes Spider-Man god we are so alike",
+            "source": "Twitter for iPhone",
+            "author_id": "1459376722244112387",
+            "id": "1474530323027292162"
+        },
+        {
+            "created_at": "2021-12-24T23:59:58.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530320854749188",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "1461506807164293125",
+            "id": "1474530320854749188"
+        },
+        {
+            "created_at": "2021-12-24T23:59:57.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474528361946963968"
+                }
+            ],
+            "in_reply_to_user_id": "1250609751517528066",
+            "conversation_id": "1474526133018406916",
+            "lang": "en",
+            "text": "@itslondonbaby2 Spider-Man 2 or this most recent one 😙",
+            "source": "Twitter for iPhone",
+            "author_id": "343244734",
+            "id": "1474530315649626115"
+        },
+        {
+            "created_at": "2021-12-24T23:59:56.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530313497980929",
+            "lang": "en",
+            "text": "Person who just watched the 18th version of the same Spider-Man movie:\n“ Martin Scorsese just keeps making the same movie over and over again” 🤣",
+            "source": "Twitter for iPhone",
+            "author_id": "587204559",
+            "id": "1474530313497980929"
+        },
+        {
+            "created_at": "2021-12-24T23:59:56.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530312168292355",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for iPhone",
+            "author_id": "1210373487484948480",
+            "id": "1474530312168292355"
+        },
+        {
+            "created_at": "2021-12-24T23:59:55.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530309567827968",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "1163030472647159808",
+            "id": "1474530309567827968"
+        },
+        {
+            "created_at": "2021-12-24T23:59:55.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530307768348673",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for Android",
+            "author_id": "911025316402835457",
+            "id": "1474530307768348673"
+        },
+        {
+            "created_at": "2021-12-24T23:59:55.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530306849914883",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "2591017267",
+            "id": "1474530306849914883"
+        },
+        {
+            "created_at": "2021-12-24T23:59:55.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530306132693005",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter Web App",
+            "author_id": "1289582245297164288",
+            "id": "1474530306132693005"
+        },
+        {
+            "created_at": "2021-12-24T23:59:54.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530304828350464",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for Android",
+            "author_id": "1284955387620458496",
+            "id": "1474530304828350464"
+        },
+        {
+            "created_at": "2021-12-24T23:59:54.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530304782004224",
+            "lang": "en",
+            "text": "HE HAS THE PS5 FOR SPIDER-MAN I CANT TAKE IT ANYMORE /pos",
+            "source": "Twitter Web App",
+            "author_id": "1324275582792691712",
+            "id": "1474530304782004224"
+        },
+        {
+            "created_at": "2021-12-24T23:59:53.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530300831178756",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "1093462034",
+            "id": "1474530300831178756"
+        },
+        {
+            "created_at": "2021-12-24T23:59:53.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 742,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474143019062415367"
+                }
+            ],
+            "conversation_id": "1474530299786764292",
+            "lang": "en",
+            "text": "RT @Cybrid101: WHY HASN’T THIS SUIT BEEN ADDED TO SPIDER-MAN PS4/PS5 YET?? @insomniacgames https://t.co/6IjTYFmkz9",
+            "source": "Twitter for Android",
+            "author_id": "2733776410",
+            "id": "1474530299786764292"
+        },
+        {
+            "created_at": "2021-12-24T23:59:53.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 11,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474303080313376784"
+                }
+            ],
+            "conversation_id": "1474530298792751110",
+            "lang": "en",
+            "text": "RT @PinkNews: Spider-Man's Marisa Tomei begged Marvel to give Aunt May a girlfriend https://t.co/mJs0aBmBni",
+            "source": "Twitter for iPhone",
+            "author_id": "91026663",
+            "id": "1474530298792751110"
+        },
+        {
+            "created_at": "2021-12-24T23:59:52.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 967,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472340782610849803"
+                }
+            ],
+            "conversation_id": "1474530297186340866",
+            "lang": "en",
+            "text": "RT @hpspideywayne: spider-man no way home spoilers\n.\n.\n.\n.\n.\n.\nThis Spider-Man's dark side gives me chills. Tom Holland's acting was outsta…",
+            "source": "Twitter for iPhone",
+            "author_id": "350930442",
+            "id": "1474530297186340866"
+        },
+        {
+            "created_at": "2021-12-24T23:59:52.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 448,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474302650866753541"
+                }
+            ],
+            "conversation_id": "1474530295764377600",
+            "lang": "en",
+            "text": "RT @barbiesswanlake: this gwen stacy figure with a swappable mary jane head is literally how cishet guys view spider-man love interests htt…",
+            "source": "Twitter for Android",
+            "author_id": "786640961724088321",
+            "id": "1474530295764377600"
+        },
+        {
+            "created_at": "2021-12-24T23:59:52.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6303,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474421876818645004"
+                }
+            ],
+            "conversation_id": "1474530295433121797",
+            "lang": "en",
+            "text": "RT @korysverse: the man is literally spider-man",
+            "source": "Twitter for Android",
+            "author_id": "1649273581",
+            "id": "1474530295433121797"
+        },
+        {
+            "created_at": "2021-12-24T23:59:51.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530292614549505",
+            "lang": "en",
+            "text": "if they add tobey and andrews spider-man to fortnite i will cry and spend every last penny",
+            "source": "Twitter for iPhone",
+            "author_id": "843432676812079108",
+            "id": "1474530292614549505"
+        },
+        {
+            "created_at": "2021-12-24T23:59:51.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530289368145920",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "1422190666793242627",
+            "id": "1474530289368145920"
+        },
+        {
+            "created_at": "2021-12-24T23:59:50.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 410,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474377643067904003"
+                }
+            ],
+            "conversation_id": "1474530287187116040",
+            "lang": "en",
+            "text": "RT @spideypooldiary: the spider-man and deadpool holiday special 🎄🎁 https://t.co/WzlyvhSpAh",
+            "source": "Twitter for iPhone",
+            "author_id": "1402778388830556162",
+            "id": "1474530287187116040"
+        },
+        {
+            "created_at": "2021-12-24T23:59:49.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530280832520194",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "1195866744469852161",
+            "id": "1474530280832520194"
+        },
+        {
+            "created_at": "2021-12-24T23:59:48.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 697,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474517368093216770"
+                }
+            ],
+            "conversation_id": "1474530279976931328",
+            "lang": "en",
+            "text": "RT @spideygifs: Spider-Man 3 https://t.co/X3XrStJUv1",
+            "source": "Twitter Web App",
+            "author_id": "1431400392185712643",
+            "id": "1474530279976931328"
+        },
+        {
+            "created_at": "2021-12-24T23:59:48.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530278202769409",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for iPhone",
+            "author_id": "1158601231239188481",
+            "id": "1474530278202769409"
+        },
+        {
+            "created_at": "2021-12-24T23:59:47.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530274738200578",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "2149066484",
+            "id": "1474530274738200578"
+        },
+        {
+            "created_at": "2021-12-24T23:59:47.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530273194917888",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for Android",
+            "author_id": "3064020388",
+            "id": "1474530273194917888"
+        },
+        {
+            "created_at": "2021-12-24T23:59:46.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530272037249027",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "1354989703246852101",
+            "id": "1474530272037249027"
+        },
+        {
+            "created_at": "2021-12-24T23:59:46.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530269663219715",
+            "lang": "en",
+            "text": "dream gonna play spider-man on his ps5 my breath is getting faint",
+            "source": "Twitter for iPhone",
+            "author_id": "1328571621502750720",
+            "id": "1474530269663219715"
+        },
+        {
+            "created_at": "2021-12-24T23:59:46.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 707,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500650650292228"
+                }
+            ],
+            "conversation_id": "1474530268274851843",
+            "lang": "en",
+            "text": "RT @38___sr: ready to welcome 2022 with a new adventure, i am so excited (and still in incredible shock) to share that starting in january…",
+            "source": "Twitter for Android",
+            "author_id": "1449189713814884354",
+            "id": "1474530268274851843"
+        },
+        {
+            "created_at": "2021-12-24T23:59:45.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 508,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474239387156234240"
+                }
+            ],
+            "conversation_id": "1474530266383368193",
+            "lang": "en",
+            "text": "RT @CarsonRThorn: doodling spider-man https://t.co/BfrHeR2nRc",
+            "source": "Twitter for iPhone",
+            "author_id": "1372799891278233601",
+            "id": "1474530266383368193"
+        },
+        {
+            "created_at": "2021-12-24T23:59:45.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 707,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500650650292228"
+                }
+            ],
+            "conversation_id": "1474530265632493571",
+            "lang": "en",
+            "text": "RT @38___sr: ready to welcome 2022 with a new adventure, i am so excited (and still in incredible shock) to share that starting in january…",
+            "source": "Twitter for iPhone",
+            "author_id": "2288847752",
+            "id": "1474530265632493571"
+        },
+        {
+            "created_at": "2021-12-24T23:59:45.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474333485158567943"
+                }
+            ],
+            "in_reply_to_user_id": "155685870",
+            "conversation_id": "1474333485158567943",
+            "lang": "en",
+            "text": "@SamuelGavin I wanna say the establishing shot of his apartment is lifted directly from Spider-Man 2. And for clarity’s sake, it was the homemade suit that got me jazzed for more of this Spider-Man. It was like they finally understood what makes the best of his stories sing.",
+            "source": "Twitter for iPhone",
+            "author_id": "328810471",
+            "id": "1474530264571281408"
+        },
+        {
+            "created_at": "2021-12-24T23:59:44.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530262927253505",
+            "lang": "en",
+            "text": "BEST SPIDER-MAN MOVIE HANDS DOWN",
+            "source": "Twitter for iPhone",
+            "geo": {
+                "place_id": "67b98f17fdcf20be"
+            },
+            "author_id": "883017906",
+            "id": "1474530262927253505"
+        },
+        {
+            "created_at": "2021-12-24T23:59:44.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 8846,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474268629206114307"
+                }
+            ],
+            "conversation_id": "1474530262511804416",
+            "lang": "en",
+            "text": "RT @C4STAMERE: no bc tell me why i was just like “why do black widow and spider-man have the same pose” THEYRE ARACHNIDS YOU FOOL",
+            "source": "Twitter Web App",
+            "author_id": "814238245286383616",
+            "id": "1474530262511804416"
+        },
+        {
+            "created_at": "2021-12-24T23:59:44.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530262092587016",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for Android",
+            "author_id": "1351737100471824384",
+            "id": "1474530262092587016"
+        },
+        {
+            "created_at": "2021-12-24T23:59:44.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 25,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474508189374758914"
+                }
+            ],
+            "conversation_id": "1474530261484331016",
+            "lang": "en",
+            "text": "RT @awkwardphaser: Maybe I'll name my penis Spider-Man so at least one person will demand more pictures of it.",
+            "source": "Twitter for iPhone",
+            "author_id": "3358166548",
+            "id": "1474530261484331016"
+        },
+        {
+            "created_at": "2021-12-24T23:59:44.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 8846,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474268629206114307"
+                }
+            ],
+            "conversation_id": "1474530260548866048",
+            "lang": "en",
+            "text": "RT @C4STAMERE: no bc tell me why i was just like “why do black widow and spider-man have the same pose” THEYRE ARACHNIDS YOU FOOL",
+            "source": "Twitter for Android",
+            "author_id": "4782475932",
+            "id": "1474530260548866048"
+        },
+        {
+            "created_at": "2021-12-24T23:59:44.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530260314120198",
+            "lang": "en",
+            "text": "spider-man was the best play station games of all time",
+            "source": "Twitter for iPhone",
+            "author_id": "1435034547628957702",
+            "id": "1474530260314120198"
+        },
+        {
+            "created_at": "2021-12-24T23:59:43.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530257281638403",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "904308695277953029",
+            "id": "1474530257281638403"
+        },
+        {
+            "created_at": "2021-12-24T23:59:43.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530256929406987",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "4145629289",
+            "id": "1474530256929406987"
+        },
+        {
+            "created_at": "2021-12-24T23:59:43.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474530071864131584"
+                }
+            ],
+            "conversation_id": "1474530256845422593",
+            "lang": "en",
+            "text": "RT @AGORAPHOBICSAP: #DREAM: what are you gonna play on the ps5 ? SPIDER-MAN &gt;:)\nHES SO CUTE IM IN TEARS",
+            "source": "Twitter for iPhone",
+            "author_id": "801830631701434368",
+            "id": "1474530256845422593"
+        },
+        {
+            "created_at": "2021-12-24T23:59:43.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530256837033984",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "2745564437",
+            "id": "1474530256837033984"
+        },
+        {
+            "created_at": "2021-12-24T23:59:43.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530256627257348",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for Android",
+            "author_id": "742176710183899136",
+            "id": "1474530256627257348"
+        },
+        {
+            "created_at": "2021-12-24T23:59:43.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 656,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473177297582702593"
+                }
+            ],
+            "conversation_id": "1474530256069537799",
+            "lang": "en",
+            "text": "RT @Robertvrse: spider-man after getting home idk i didn’t watch the movie  https://t.co/pZr1qGHN5s",
+            "source": "Twitter for iPhone",
+            "author_id": "1217492352023060481",
+            "id": "1474530256069537799"
+        },
+        {
+            "created_at": "2021-12-24T23:59:42.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530253565353985",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for Android",
+            "author_id": "1196288555514941440",
+            "id": "1474530253565353985"
+        },
+        {
+            "created_at": "2021-12-24T23:59:42.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6303,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474421876818645004"
+                }
+            ],
+            "conversation_id": "1474530253498421248",
+            "lang": "en",
+            "text": "RT @korysverse: the man is literally spider-man",
+            "source": "Twitter for iPhone",
+            "author_id": "907138981204303872",
+            "id": "1474530253498421248"
+        },
+        {
+            "created_at": "2021-12-24T23:59:41.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530248142299138",
+            "lang": "en",
+            "text": "Finally seeing Spider-Man. Can’t wait to see my Andrew :((((",
+            "source": "Twitter for iPhone",
+            "author_id": "143130977",
+            "id": "1474530248142299138"
+        },
+        {
+            "created_at": "2021-12-24T23:59:40.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530245394972675",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for Android",
+            "author_id": "881936667308945410",
+            "id": "1474530245394972675"
+        },
+        {
+            "created_at": "2021-12-24T23:59:40.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530243411124230",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter Web App",
+            "author_id": "1250811312340426752",
+            "id": "1474530243411124230"
+        },
+        {
+            "created_at": "2021-12-24T23:59:39.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530241909567497",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "1231760803541417984",
+            "id": "1474530241909567497"
+        },
+        {
+            "created_at": "2021-12-24T23:59:39.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530239439011843",
+            "lang": "en",
+            "text": "i need to know which spider-man is dream’s favorite",
+            "source": "Twitter for iPhone",
+            "author_id": "1143732700018171904",
+            "id": "1474530239439011843"
+        },
+        {
+            "created_at": "2021-12-24T23:59:39.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 2145,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474491450452811779"
+                }
+            ],
+            "conversation_id": "1474530239082639363",
+            "lang": "en",
+            "text": "RT @BrandonDavisBD: Andrew Garfield should continue playing #SpiderMan in Sony's Spider-Man Universe.\n\nTom Holland should continue to be th…",
+            "source": "Twitter for Android",
+            "author_id": "798572230754107392",
+            "id": "1474530239082639363"
+        },
+        {
+            "created_at": "2021-12-24T23:59:38.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530237727789056",
+            "lang": "en",
+            "text": "spider-man dream 🥰",
+            "source": "Twitter for iPhone",
+            "author_id": "863087637095120896",
+            "id": "1474530237727789056"
+        },
+        {
+            "created_at": "2021-12-24T23:59:38.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 4988,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474082511475019777"
+                }
+            ],
+            "conversation_id": "1474530237098741764",
+            "lang": "en",
+            "text": "RT @JDWRudy25: Reminder: this is a real crossfade from the first episode of the '60s Spider-Man cartoon https://t.co/EdwWoEbvdG",
+            "source": "Twitter for Android",
+            "author_id": "1339629420026490880",
+            "id": "1474530237098741764"
+        },
+        {
+            "created_at": "2021-12-24T23:59:38.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530236989644803",
+            "lang": "en",
+            "text": "SPIDER-MAN WAS SOOOO GOOD THX",
+            "source": "Twitter for iPhone",
+            "author_id": "397616238",
+            "id": "1474530236989644803"
+        },
+        {
+            "created_at": "2021-12-24T23:59:38.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530236259872768",
+            "lang": "en",
+            "text": "the spider-man ps game is genuiinely so fucking good, its one of the only one's ive 100% completed",
+            "source": "Twitter Web App",
+            "author_id": "1347942974882263041",
+            "id": "1474530236259872768"
+        },
+        {
+            "created_at": "2021-12-24T23:59:38.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530234988994567",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for Android",
+            "author_id": "989929546756444161",
+            "id": "1474530234988994567"
+        },
+        {
+            "created_at": "2021-12-24T23:59:38.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 7426,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473857707522277378"
+                }
+            ],
+            "conversation_id": "1474530234615611405",
+            "lang": "en",
+            "text": "RT @TheDoctorX11: Sam Raimi after dropping Spider-man 3 https://t.co/QkbgJ4ecnM",
+            "source": "Twitter for Android",
+            "author_id": "995429806849146881",
+            "id": "1474530234615611405"
+        },
+        {
+            "created_at": "2021-12-24T23:59:37.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530233525153798",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "2811435406",
+            "id": "1474530233525153798"
+        },
+        {
+            "created_at": "2021-12-24T23:59:37.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 101,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474459894757531648"
+                }
+            ],
+            "conversation_id": "1474530232115757058",
+            "lang": "en",
+            "text": "RT @Prxm02257484: @BrandonDavisBD Yeah, I'll do you one better.\n\nSpider-Man: kilometres from Home https://t.co/UBXApR16qM",
+            "source": "Twitter for Android",
+            "author_id": "118061340",
+            "id": "1474530232115757058"
+        },
+        {
+            "created_at": "2021-12-24T23:59:36.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530230174121984",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for Android",
+            "author_id": "1342193597311946752",
+            "id": "1474530230174121984"
+        },
+        {
+            "created_at": "2021-12-24T23:59:36.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530227850252293",
+            "lang": "en",
+            "text": "Spider-Man no way home… was  amazing. 🎥 \n#SpiderManNoWayHome",
+            "source": "Twitter for iPhone",
+            "author_id": "572059357",
+            "id": "1474530227850252293"
+        },
+        {
+            "created_at": "2021-12-24T23:59:36.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530227682435076",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "3098503472",
+            "id": "1474530227682435076"
+        },
+        {
+            "created_at": "2021-12-24T23:59:35.000Z",
+            "reply_settings": "following",
+            "public_metrics": {
+                "retweet_count": 4581,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474258255727796225"
+                }
+            ],
+            "conversation_id": "1474530225832841217",
+            "lang": "en",
+            "text": "RT @isuperebba: what a fucking year for marvel\n- WandaVision\n- Falcon and the Winter Soldier\n- Black Widow\n- Loki\n- What If\n- Shang Chi\n- V…",
+            "source": "Twitter for iPhone",
+            "author_id": "856113708724105216",
+            "id": "1474530225832841217"
+        },
+        {
+            "created_at": "2021-12-24T23:59:35.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530224125755396",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "533184362",
+            "id": "1474530224125755396"
+        },
+        {
+            "created_at": "2021-12-24T23:59:35.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6303,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474421876818645004"
+                }
+            ],
+            "conversation_id": "1474530223593082880",
+            "lang": "en",
+            "text": "RT @korysverse: the man is literally spider-man",
+            "source": "Twitter for Android",
+            "author_id": "861188310894555136",
+            "id": "1474530223593082880"
+        },
+        {
+            "created_at": "2021-12-24T23:59:34.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530221122412545",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "173227016",
+            "id": "1474530221122412545"
+        },
+        {
+            "created_at": "2021-12-24T23:59:34.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 6106,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473066140708524032"
+                }
+            ],
+            "conversation_id": "1474530217846784008",
+            "lang": "en",
+            "text": "RT @garffields: andrew garfield as spider-man you will always be famous! https://t.co/WRXAkhkPFr",
+            "source": "Twitter Web App",
+            "author_id": "1097242223333257227",
+            "id": "1474530217846784008"
+        },
+        {
+            "created_at": "2021-12-24T23:59:33.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530217309974530",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for iPhone",
+            "author_id": "1161660596598771715",
+            "id": "1474530217309974530"
+        },
+        {
+            "created_at": "2021-12-24T23:59:33.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530217188282372",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "391049231",
+            "id": "1474530217188282372"
+        },
+        {
+            "created_at": "2021-12-24T23:59:33.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474519372525973504"
+                }
+            ],
+            "in_reply_to_user_id": "19217369",
+            "conversation_id": "1474519372525973504",
+            "lang": "en",
+            "text": "@neontaster Spiderman No Way Home hit a surprising balance of fan service and a decent story\nI was afraid it would be Spider-Man 3 all over again",
+            "source": "Twitter for Android",
+            "author_id": "16736628",
+            "id": "1474530214717886473"
+        },
+        {
+            "created_at": "2021-12-24T23:59:32.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474229763954855936"
+                }
+            ],
+            "in_reply_to_user_id": "1330747959366049792",
+            "conversation_id": "1474229763954855936",
+            "lang": "en",
+            "text": "@DarkTheEnigma Nobody says white Spider-Man. Peter is Spider-man.",
+            "source": "Twitter Web App",
+            "author_id": "789273638633472001",
+            "id": "1474530213388341252"
+        },
+        {
+            "created_at": "2021-12-24T23:59:32.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530211584610308",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for Android",
+            "author_id": "1381256102554316800",
+            "id": "1474530211584610308"
+        },
+        {
+            "created_at": "2021-12-24T23:59:32.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 2773,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474457389684436992"
+                }
+            ],
+            "conversation_id": "1474530210976518151",
+            "lang": "en",
+            "text": "RT @BrandonDavisBD: Spider-Man: Miles From Home",
+            "source": "Twitter for iPhone",
+            "author_id": "1428384436941373441",
+            "id": "1474530210976518151"
+        },
+        {
+            "created_at": "2021-12-24T23:59:32.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530210364198917",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "777079460",
+            "id": "1474530210364198917"
+        },
+        {
+            "created_at": "2021-12-24T23:59:31.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530209240080384",
+            "lang": "en",
+            "text": "i don't want i NEED a Spider-Man PS4 dream playthrough",
+            "source": "Twitter for Android",
+            "author_id": "1170121274615574529",
+            "id": "1474530209240080384"
+        },
+        {
+            "created_at": "2021-12-24T23:59:31.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530208929787906",
+            "lang": "en",
+            "text": "I really REALLY hate y’all and these damn Spider-Man spoilers",
+            "source": "Twitter for iPhone",
+            "author_id": "287960212",
+            "id": "1474530208929787906"
+        },
+        {
+            "created_at": "2021-12-24T23:59:31.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530208866881536",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for iPhone",
+            "author_id": "1179916765654069248",
+            "id": "1474530208866881536"
+        },
+        {
+            "created_at": "2021-12-24T23:59:30.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 8846,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474268629206114307"
+                }
+            ],
+            "conversation_id": "1474530201115713537",
+            "lang": "en",
+            "text": "RT @C4STAMERE: no bc tell me why i was just like “why do black widow and spider-man have the same pose” THEYRE ARACHNIDS YOU FOOL",
+            "source": "Twitter for iPhone",
+            "author_id": "750017058",
+            "id": "1474530201115713537"
+        },
+        {
+            "created_at": "2021-12-24T23:59:30.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 8,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530201006657536",
+            "lang": "en",
+            "text": "Spending the holidays alone BUT IM FINALLY ABOUT TO WATCH SPIDER-MAN LFGGGGG",
+            "source": "Twitter for iPhone",
+            "geo": {
+                "place_id": "10045f6eef169000"
+            },
+            "author_id": "364664350",
+            "id": "1474530201006657536"
+        },
+        {
+            "created_at": "2021-12-24T23:59:29.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 1296,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474458325425160192"
+                }
+            ],
+            "conversation_id": "1474530200084000771",
+            "lang": "en",
+            "text": "RT @ursRockrider: Evolution of @TomHolland1996 Spider-Man in the MCU! \n\nPresenting my new poster work on this special day, by only using @i…",
+            "source": "Twitter Web App",
+            "author_id": "955033574784274432",
+            "id": "1474530200084000771"
+        },
+        {
+            "created_at": "2021-12-24T23:59:29.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 30125,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474203027577974789"
+                }
+            ],
+            "conversation_id": "1474530197307330560",
+            "lang": "en",
+            "text": "RT @cyankyber: watching the og spider-man thinking of this post https://t.co/V84ORKts5d",
+            "source": "Twitter for Android",
+            "author_id": "4864501036",
+            "id": "1474530197307330560"
+        },
+        {
+            "created_at": "2021-12-24T23:59:28.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 456,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474147751432634375"
+                }
+            ],
+            "conversation_id": "1474530194513805316",
+            "lang": "en",
+            "text": "RT @m_giacchino: Wow! This is fantastic! Thank you and  long live Spider-Man!\n\n@SpiderMan @MarvelStudios",
+            "source": "Twitter Web App",
+            "author_id": "1280325557360758785",
+            "id": "1474530194513805316"
+        },
+        {
+            "created_at": "2021-12-24T23:59:28.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530193867902977",
+            "lang": "en",
+            "text": "i cant believe i’m really gonna finish the tobey spider-man trilogy today ????? woah????",
+            "source": "Twitter for iPhone",
+            "author_id": "1330966568553959430",
+            "id": "1474530193867902977"
+        },
+        {
+            "created_at": "2021-12-24T23:59:28.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474530071864131584"
+                }
+            ],
+            "conversation_id": "1474530192731389959",
+            "lang": "en",
+            "text": "RT @AGORAPHOBICSAP: #DREAM: what are you gonna play on the ps5 ? SPIDER-MAN &gt;:)\nHES SO CUTE IM IN TEARS",
+            "source": "Twitter for iPhone",
+            "author_id": "1324428743906107393",
+            "id": "1474530192731389959"
+        },
+        {
+            "created_at": "2021-12-24T23:59:27.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 4988,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474082511475019777"
+                }
+            ],
+            "conversation_id": "1474530191817031682",
+            "lang": "en",
+            "text": "RT @JDWRudy25: Reminder: this is a real crossfade from the first episode of the '60s Spider-Man cartoon https://t.co/EdwWoEbvdG",
+            "source": "Twitter for Android",
+            "author_id": "4707323660",
+            "id": "1474530191817031682"
+        },
+        {
+            "created_at": "2021-12-24T23:59:27.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530191221444617",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for Android",
+            "author_id": "1255191181497176069",
+            "id": "1474530191221444617"
+        },
+        {
+            "created_at": "2021-12-24T23:59:27.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530190315474946",
+            "lang": "en",
+            "text": "this is still possibly the worst live action design for a spider-man villain ever it’s so bad https://t.co/eS2tbiBm5B",
+            "source": "Twitter for iPhone",
+            "author_id": "1434983441662099459",
+            "id": "1474530190315474946"
+        },
+        {
+            "created_at": "2021-12-24T23:59:26.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 14,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474197236523352068"
+                }
+            ],
+            "conversation_id": "1474530184590245906",
+            "lang": "en",
+            "text": "Spider-Man, got your answer now Tripi, it wasn’t minecraft after all https://t.co/JpCWPKy4Ch",
+            "source": "Twitter for iPhone",
+            "author_id": "1380699528718860290",
+            "id": "1474530184590245906"
+        },
+        {
+            "created_at": "2021-12-24T23:59:25.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 9057,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474444898803884032"
+                }
+            ],
+            "conversation_id": "1474530180488126471",
+            "lang": "en",
+            "text": "RT @modsiwW: Looks based on Spider-Man No Way Home villains :) https://t.co/mbtJkJacEk",
+            "source": "Twitter for iPhone",
+            "author_id": "1242979265089429505",
+            "id": "1474530180488126471"
+        },
+        {
+            "created_at": "2021-12-24T23:59:24.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 12681,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474137529330798593"
+                }
+            ],
+            "conversation_id": "1474530179531743237",
+            "lang": "en",
+            "text": "RT @SMGold_: Spider-Man fans when they see Peter is living paycheck to paycheck, depressed, and at the lowest point in his life with no one…",
+            "source": "Twitter for iPhone",
+            "author_id": "742193010197155840",
+            "id": "1474530179531743237"
+        },
+        {
+            "created_at": "2021-12-24T23:59:24.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "conversation_id": "1474530179062149120",
+            "lang": "en",
+            "text": "IM LITERALLY PLAYING SPIDER-MAN RN. PROOF THE WORLD REVOLVES AROUND ME. https://t.co/cUwz6Py48Q",
+            "source": "Twitter for iPhone",
+            "author_id": "1411898970591449088",
+            "id": "1474530179062149120"
+        },
+        {
+            "created_at": "2021-12-24T23:59:24.000Z",
+            "reply_settings": "everyone",
+            "public_metrics": {
+                "retweet_count": 13359,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474022200558727173"
+                }
+            ],
+            "conversation_id": "1474530178302885888",
+            "lang": "en",
+            "text": "RT @Miles8341: “spider-man isn’t bi” TO YOU. i know him personally",
+            "source": "Twitter for Android",
+            "author_id": "884786098806939649",
+            "id": "1474530178302885888"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "name": "Jesss! ♥",
+                "created_at": "2017-06-06T22:51:54.000Z",
+                "verified": false,
+                "id": "872224558383869958",
+                "username": "jesskaitory",
+                "description": "\"And I think as long as a song has beautiful lyrics, I'm so happy.\" - Julie Andrews",
+                "public_metrics": {
+                    "followers_count": 20,
+                    "following_count": 182,
+                    "tweet_count": 1710,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "We spindashing into the new year",
+                "created_at": "2021-05-04T00:37:20.000Z",
+                "verified": false,
+                "id": "1389378526286057474",
+                "username": "Lowerdefense",
+                "description": "Z4ck/LeeR🦟🦗\nformer TikTaker\n⚓priv @K1nggRoy",
+                "public_metrics": {
+                    "followers_count": 435,
+                    "following_count": 760,
+                    "tweet_count": 23652,
+                    "listed_count": 6
+                }
+            },
+            {
+                "name": "Pito",
+                "created_at": "2020-07-10T02:02:39.000Z",
+                "verified": false,
+                "id": "1281408417782018048",
+                "username": "DonPitoPR",
+                "description": "Actor/Writer in Puerto Rico #Releasethesnydercut #Releasetheayercut #IStandWithRayFisher #RestoreTheSnyderVerse #MakeTheBatfleckMovie #ZackSnydersJusticeLeague",
+                "public_metrics": {
+                    "followers_count": 47,
+                    "following_count": 325,
+                    "tweet_count": 12405,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "✨Peaches✨",
+                "created_at": "2018-07-20T22:54:05.000Z",
+                "verified": false,
+                "id": "1020441742531842049",
+                "username": "PeejDraws",
+                "description": "Comic artist, dumb bitch (they/them)",
+                "public_metrics": {
+                    "followers_count": 103,
+                    "following_count": 2889,
+                    "tweet_count": 12544,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "⎊ Unicorn Blood ϟ",
+                "created_at": "2014-03-09T12:54:27.000Z",
+                "verified": false,
+                "id": "2380425654",
+                "username": "Mickey_skr",
+                "description": "In progress of living my life ... 📷🎒",
+                "public_metrics": {
+                    "followers_count": 936,
+                    "following_count": 141,
+                    "tweet_count": 205981,
+                    "listed_count": 107
+                }
+            },
+            {
+                "name": "g开lørë⁷ 🎄 ~ #ChristmasEveL",
+                "created_at": "2012-07-25T11:08:04.000Z",
+                "verified": false,
+                "id": "715896877",
+                "username": "gleam_galore",
+                "description": "🏳️‍🌈 • dani • ‘97 ♓️ • she/her • 🇮🇹 • ☕️🍵 • infj-a • chaotic neutral • k-pop • multifandom",
+                "public_metrics": {
+                    "followers_count": 218,
+                    "following_count": 1298,
+                    "tweet_count": 48192,
+                    "listed_count": 12
+                }
+            },
+            {
+                "name": "kenna🎄",
+                "created_at": "2021-11-13T04:25:07.000Z",
+                "verified": false,
+                "id": "1459376722244112387",
+                "username": "ihatecdream",
+                "description": "DREAMS DEFENSE LAYWER CSGODWT",
+                "public_metrics": {
+                    "followers_count": 256,
+                    "following_count": 196,
+                    "tweet_count": 3708,
+                    "listed_count": 16
+                }
+            },
+            {
+                "name": "mudkipi",
+                "created_at": "2021-11-19T01:29:17.000Z",
+                "verified": false,
+                "id": "1461506807164293125",
+                "username": "tweetkipi",
+                "description": "ween guy (any pronouns)",
+                "public_metrics": {
+                    "followers_count": 27,
+                    "following_count": 506,
+                    "tweet_count": 6408,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "fineokay",
+                "created_at": "2011-07-27T08:12:38.000Z",
+                "verified": true,
+                "id": "343244734",
+                "username": "fineokay_",
+                "description": "Professional SMITE Solo Laner! Powered by @GFuelEnergy CODE \"Fine\"! @duckyquackerz 😍 \n\nBusiness Inquiries: fineokay@moreyellow.com\nfineokayfonzo@gmail.com",
+                "public_metrics": {
+                    "followers_count": 25659,
+                    "following_count": 312,
+                    "tweet_count": 4155,
+                    "listed_count": 41
+                }
+            },
+            {
+                "name": "london.",
+                "created_at": "2020-04-16T02:19:43.000Z",
+                "verified": false,
+                "id": "1250609751517528066",
+                "username": "itslondonbaby2",
+                "description": "Mod for the GOATs themselves @mPandaCat and @fineokay_ | Ball in Peace JoJo 🕊🖤 | #G2Army #Winnable",
+                "public_metrics": {
+                    "followers_count": 64,
+                    "following_count": 562,
+                    "tweet_count": 739,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Mary",
+                "created_at": "2012-05-22T04:00:50.000Z",
+                "verified": false,
+                "id": "587204559",
+                "username": "mariootsa",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 643,
+                    "following_count": 994,
+                    "tweet_count": 105169,
+                    "listed_count": 12
+                }
+            },
+            {
+                "name": "Caro ♡’s Cas",
+                "created_at": "2019-12-27T01:35:26.000Z",
+                "verified": false,
+                "id": "1210373487484948480",
+                "username": "valntynecal96",
+                "description": "#TAYLOR : I don't wanna keep secrets just to keep you ♥️ || — 18 years old 🌿 || 189 days ‼️",
+                "public_metrics": {
+                    "followers_count": 435,
+                    "following_count": 833,
+                    "tweet_count": 12234,
+                    "listed_count": 17
+                }
+            },
+            {
+                "name": "JoJo//ジョジョ⭐️",
+                "created_at": "2019-08-18T10:10:54.000Z",
+                "verified": false,
+                "id": "1163030472647159808",
+                "username": "tvskatesyou",
+                "description": "22、マンガを読みことが好き",
+                "public_metrics": {
+                    "followers_count": 69,
+                    "following_count": 425,
+                    "tweet_count": 25865,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Gabriel Mcmurray",
+                "created_at": "2017-09-22T00:32:16.000Z",
+                "verified": false,
+                "id": "911025316402835457",
+                "username": "BlackBird2255",
+                "description": "I just be liking and retweeting\n/23/",
+                "public_metrics": {
+                    "followers_count": 71,
+                    "following_count": 1616,
+                    "tweet_count": 10164,
+                    "listed_count": 4
+                }
+            },
+            {
+                "name": "Rolls-Royce Rob💰",
+                "created_at": "2014-06-27T07:54:41.000Z",
+                "verified": false,
+                "id": "2591017267",
+                "username": "ROLLSROYCEROB15",
+                "description": "Photographer 📸 |254|UTSA",
+                "public_metrics": {
+                    "followers_count": 539,
+                    "following_count": 951,
+                    "tweet_count": 6548,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "❄🎀A Jingling Brooke🎀❄",
+                "created_at": "2020-08-01T15:22:32.000Z",
+                "verified": false,
+                "id": "1289582245297164288",
+                "username": "BabblesOfBrooke",
+                "description": "She/Her 🏳️‍⚧️(26), Poly. Gay af. \n\nAn actual bean.\n\nA small town girl.\n\nNSFW, minors dni.\n\nProfile Pic by @floralfallen\nBanner by @SquirrelCurls",
+                "public_metrics": {
+                    "followers_count": 253,
+                    "following_count": 347,
+                    "tweet_count": 55847,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "p. as in perry the platypus",
+                "created_at": "2020-07-19T20:57:10.000Z",
+                "verified": false,
+                "id": "1284955387620458496",
+                "username": "etoilephilnte",
+                "description": "phil, 22, he/him — choi chanhee thinker",
+                "public_metrics": {
+                    "followers_count": 157,
+                    "following_count": 64,
+                    "tweet_count": 12688,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "maryam ✿",
+                "created_at": "2020-11-05T09:01:31.000Z",
+                "verified": false,
+                "id": "1324275582792691712",
+                "username": "tubbutton",
+                "description": "LOVE U FOREVER ｡ﾟ•┈୨♡୧┈•ﾟ｡ bench enjoyer (pfp: https://t.co/lRNx8WBkN7)",
+                "public_metrics": {
+                    "followers_count": 534,
+                    "following_count": 757,
+                    "tweet_count": 34228,
+                    "listed_count": 39
+                }
+            },
+            {
+                "name": "kaldur'ahm 🐉🇵🇷",
+                "created_at": "2013-01-15T22:50:44.000Z",
+                "verified": false,
+                "id": "1093462034",
+                "username": "oceanxkev",
+                "description": "the time to live and the time to die",
+                "public_metrics": {
+                    "followers_count": 397,
+                    "following_count": 703,
+                    "tweet_count": 63708,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "Caleb Byington",
+                "created_at": "2014-08-05T00:11:35.000Z",
+                "verified": false,
+                "id": "2733776410",
+                "username": "Seriously_Caleb",
+                "description": "I like to draw and stuff. 🤙🏻 DCJ Studios | YouTube 💯 Lynn Annette Wyrick 🌹❤️",
+                "public_metrics": {
+                    "followers_count": 104,
+                    "following_count": 312,
+                    "tweet_count": 1069,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "≾ᴇḀͦɪℕᴇ♡",
+                "created_at": "2009-11-19T03:26:30.000Z",
+                "verified": false,
+                "id": "91026663",
+                "username": "SeaineLove",
+                "description": "🏳️‍⚧️ | Boise",
+                "public_metrics": {
+                    "followers_count": 1590,
+                    "following_count": 2371,
+                    "tweet_count": 86690,
+                    "listed_count": 14
+                }
+            },
+            {
+                "name": "Sarah",
+                "created_at": "2011-08-08T14:47:04.000Z",
+                "verified": false,
+                "id": "350930442",
+                "username": "saali71021",
+                "description": "‘We are the cosmos dreaming of itself’ | she/her | BLM | Future Salesforce Admin🌸",
+                "public_metrics": {
+                    "followers_count": 159,
+                    "following_count": 588,
+                    "tweet_count": 5536,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Sarah The Dark One🖤🤍💜🌽",
+                "created_at": "2016-10-13T18:53:15.000Z",
+                "verified": false,
+                "id": "786640961724088321",
+                "username": "SarahLynnRober2",
+                "description": "Your Friendly Neighborhood Ace,Intersec-Feminist Pagan. Co-founder of @fundMSabortions. She/Her They/Them. NOTERFSALLOWED",
+                "public_metrics": {
+                    "followers_count": 521,
+                    "following_count": 1750,
+                    "tweet_count": 88379,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "letícia ⎊",
+                "created_at": "2013-08-06T02:29:02.000Z",
+                "verified": false,
+                "id": "1649273581",
+                "username": "starksdis",
+                "description": "I assure you brother, the sun will shine on us again",
+                "public_metrics": {
+                    "followers_count": 1481,
+                    "following_count": 1398,
+                    "tweet_count": 144715,
+                    "listed_count": 17
+                }
+            },
+            {
+                "name": "yukia",
+                "created_at": "2017-03-19T12:03:15.000Z",
+                "verified": false,
+                "id": "843432676812079108",
+                "username": "pinkiieparker",
+                "description": "i love tasm and marvel!",
+                "public_metrics": {
+                    "followers_count": 50,
+                    "following_count": 94,
+                    "tweet_count": 111,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "SUPER CHAMCHI",
+                "created_at": "2021-08-02T13:41:04.000Z",
+                "verified": false,
+                "id": "1422190666793242627",
+                "username": "MONOLOVEHOTEL",
+                "description": "#십년더하자 - Yoongi to Namjoon, on September 12, 2021. ♡",
+                "public_metrics": {
+                    "followers_count": 16,
+                    "following_count": 147,
+                    "tweet_count": 12045,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "ؘ",
+                "created_at": "2021-06-10T00:03:35.000Z",
+                "verified": false,
+                "id": "1402778388830556162",
+                "username": "parkertopia",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 127,
+                    "following_count": 140,
+                    "tweet_count": 2569,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "𝚔𝚒𝚔𝚜 🪴",
+                "created_at": "2019-11-17T00:50:36.000Z",
+                "verified": false,
+                "id": "1195866744469852161",
+                "username": "kikslacola",
+                "description": "✨🪐🌙🌈🌱🦦🍒🧡",
+                "public_metrics": {
+                    "followers_count": 14,
+                    "following_count": 145,
+                    "tweet_count": 686,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "It's Me, Billy",
+                "created_at": "2021-08-27T23:38:09.000Z",
+                "verified": false,
+                "id": "1431400392185712643",
+                "username": "NarcissistCBN",
+                "description": "Ableist piece of shit | Field agent of the Narcissist Gang, #VoteForKingpin",
+                "public_metrics": {
+                    "followers_count": 58,
+                    "following_count": 137,
+                    "tweet_count": 6617,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "marni🌳",
+                "created_at": "2019-08-06T04:50:34.000Z",
+                "verified": false,
+                "id": "1158601231239188481",
+                "username": "blueowl_j",
+                "description": "Estudiante ⚖️",
+                "public_metrics": {
+                    "followers_count": 37,
+                    "following_count": 237,
+                    "tweet_count": 1837,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "jasmine",
+                "created_at": "2013-10-22T13:43:52.000Z",
+                "verified": false,
+                "id": "2149066484",
+                "username": "hippestcampus",
+                "description": "https://t.co/CuvTI4AJxz",
+                "public_metrics": {
+                    "followers_count": 591,
+                    "following_count": 376,
+                    "tweet_count": 139192,
+                    "listed_count": 31
+                }
+            },
+            {
+                "name": "Mailman Detective ★",
+                "created_at": "2015-02-26T16:56:20.000Z",
+                "verified": false,
+                "id": "3064020388",
+                "username": "Zasne_II",
+                "description": "Grab a seat, and let me tell you of the time Spider-Man killed Mary Jane with his radioactive semen.",
+                "public_metrics": {
+                    "followers_count": 445,
+                    "following_count": 4991,
+                    "tweet_count": 405082,
+                    "listed_count": 15
+                }
+            },
+            {
+                "name": "Big Dik Energy",
+                "created_at": "2021-01-29T03:08:29.000Z",
+                "verified": false,
+                "id": "1354989703246852101",
+                "username": "PickiVicki94",
+                "description": "Here for some dumb shit and something to do. I don’t judge but if you do, please delete me",
+                "public_metrics": {
+                    "followers_count": 30,
+                    "following_count": 76,
+                    "tweet_count": 1313,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "angie !!",
+                "created_at": "2020-11-17T05:32:26.000Z",
+                "verified": false,
+                "id": "1328571621502750720",
+                "username": "lesbiangie",
+                "description": "LOVE U ALWAYS - they/them",
+                "public_metrics": {
+                    "followers_count": 120,
+                    "following_count": 289,
+                    "tweet_count": 6774,
+                    "listed_count": 8
+                }
+            },
+            {
+                "name": "𝒟𝒶𝓇𝓀𝓃𝑒𝓈𝓈 𝒻𝑜𝓁𝓁𝑜𝓌𝓈 / Blue 💙",
+                "created_at": "2021-10-16T01:45:44.000Z",
+                "verified": false,
+                "id": "1449189713814884354",
+                "username": "Jeweledhero",
+                "description": "| any art used is not mine. | watch rwby | #vp | she/her | poly :3 | Spider-Man, RWBY, DC fanatic",
+                "public_metrics": {
+                    "followers_count": 150,
+                    "following_count": 582,
+                    "tweet_count": 4370,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "El is in love with Drukkari🕯",
+                "created_at": "2021-03-19T06:40:16.000Z",
+                "verified": false,
+                "id": "1372799891278233601",
+                "username": "marvxlbuck",
+                "description": "Bionic staring machine stan☀️« we will say hello again »",
+                "public_metrics": {
+                    "followers_count": 210,
+                    "following_count": 648,
+                    "tweet_count": 826,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "RJ (物の哀れ)",
+                "created_at": "2014-01-13T00:15:32.000Z",
+                "verified": false,
+                "id": "2288847752",
+                "username": "ColePasadena",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 552,
+                    "following_count": 1573,
+                    "tweet_count": 111726,
+                    "listed_count": 42
+                }
+            },
+            {
+                "name": "Payton Tarver",
+                "created_at": "2011-07-04T02:22:00.000Z",
+                "verified": false,
+                "id": "328810471",
+                "username": "pm_tarver",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 106,
+                    "following_count": 47,
+                    "tweet_count": 6419,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Sam Gavin (Sam's Channel) #BLM",
+                "created_at": "2010-06-14T20:43:22.000Z",
+                "verified": false,
+                "id": "155685870",
+                "username": "SamuelGavin",
+                "description": "Editor or Guy-who-once-in-a-while-uploads-a-YouTube-video.",
+                "public_metrics": {
+                    "followers_count": 1200,
+                    "following_count": 1243,
+                    "tweet_count": 16565,
+                    "listed_count": 19
+                }
+            },
+            {
+                "name": "Bry Gulley",
+                "created_at": "2012-10-15T20:04:00.000Z",
+                "verified": false,
+                "id": "883017906",
+                "username": "brysongulley2",
+                "description": "“You are loved forever “ - Romans 8:38-39 RIP Mom 👼🏽❤️🙏🏽💯 #WATTK 🤑 #BlackLivesMatter✊🏾 | Benedict’23 🐯🏀| 2021 AAC Conference Champion 🏆",
+                "public_metrics": {
+                    "followers_count": 900,
+                    "following_count": 1318,
+                    "tweet_count": 29888,
+                    "listed_count": 23
+                }
+            },
+            {
+                "name": "BLM ✨",
+                "created_at": "2016-12-28T22:35:00.000Z",
+                "verified": false,
+                "id": "814238245286383616",
+                "username": "Miukanii",
+                "description": "Student of the Avengers Institute!\nthe name is Beebag, but all my friends call me Bee.\nHe/Him transmasc",
+                "public_metrics": {
+                    "followers_count": 124,
+                    "following_count": 396,
+                    "tweet_count": 4282,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Bee!",
+                "created_at": "2021-01-20T03:43:39.000Z",
+                "verified": false,
+                "id": "1351737100471824384",
+                "username": "Lemonbabe9",
+                "description": "fnaf fan (i don't like Scott lol) genderfluid and omnisexual laugh out loud. ||this is now a chris pratt hatepage. (fight me)11/3/21||",
+                "public_metrics": {
+                    "followers_count": 16,
+                    "following_count": 64,
+                    "tweet_count": 1874,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Boobsy Snickerdoodle",
+                "created_at": "2015-07-04T05:25:15.000Z",
+                "verified": false,
+                "id": "3358166548",
+                "username": "chloethesiren",
+                "description": "she/her • live nude cartoon • avi by @kbuddyartist • header by @DrawingButts • tweets: https://t.co/Rg96rXw8AZ",
+                "public_metrics": {
+                    "followers_count": 7351,
+                    "following_count": 991,
+                    "tweet_count": 23014,
+                    "listed_count": 72
+                }
+            },
+            {
+                "name": "ces.",
+                "created_at": "2016-01-19T10:26:32.000Z",
+                "verified": false,
+                "id": "4782475932",
+                "username": "fortemint",
+                "description": "211103",
+                "public_metrics": {
+                    "followers_count": 1626,
+                    "following_count": 1697,
+                    "tweet_count": 140712,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "avxry 🥀",
+                "created_at": "2021-09-07T00:18:02.000Z",
+                "verified": false,
+                "id": "1435034547628957702",
+                "username": "bitchitsavery",
+                "description": "YOOOOO *･゜ﾟ･*:.｡..｡.:*･'(*ﾟ▽ﾟ*)'･*:.｡. .｡.:*･゜ﾟ･* (dttwt) (honktwt) (quacktwt) ifb 16+",
+                "public_metrics": {
+                    "followers_count": 534,
+                    "following_count": 889,
+                    "tweet_count": 2949,
+                    "listed_count": 4
+                }
+            },
+            {
+                "name": "TIA⁷🎄",
+                "created_at": "2017-09-03T11:42:49.000Z",
+                "verified": false,
+                "id": "904308695277953029",
+                "username": "hoseokglksy",
+                "description": "#BTS : I mean I don’t even know why you girls bother at this point 🤣! ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀⠀ ⠀ ✰ FAN ACCOUNT ✰ she/her ✰ 17",
+                "public_metrics": {
+                    "followers_count": 2961,
+                    "following_count": 3959,
+                    "tweet_count": 67130,
+                    "listed_count": 26
+                }
+            },
+            {
+                "name": "Leah Lindsay",
+                "created_at": "2015-11-09T01:05:37.000Z",
+                "verified": false,
+                "id": "4145629289",
+                "username": "lealinz41",
+                "description": "I pay more taxes than Jeff Bezos        she/her",
+                "public_metrics": {
+                    "followers_count": 388,
+                    "following_count": 434,
+                    "tweet_count": 9861,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "christmas kay ✻",
+                "created_at": "2016-11-24T16:51:34.000Z",
+                "verified": false,
+                "id": "801830631701434368",
+                "username": "sheeshgnf",
+                "description": "LOVE YOU FOREVER | fan account",
+                "public_metrics": {
+                    "followers_count": 1956,
+                    "following_count": 3108,
+                    "tweet_count": 31617,
+                    "listed_count": 90
+                }
+            },
+            {
+                "name": "Simp Baeless🌹",
+                "created_at": "2014-08-17T18:13:20.000Z",
+                "verified": false,
+                "id": "2745564437",
+                "username": "CheesusChristYT",
+                "description": "23 | @PlayApex | Trashcan Apex Player | Free 🇵🇸|",
+                "public_metrics": {
+                    "followers_count": 119,
+                    "following_count": 277,
+                    "tweet_count": 11506,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "⚡✨ Big Boy ✨⚡",
+                "created_at": "2016-06-13T02:08:11.000Z",
+                "verified": false,
+                "id": "742176710183899136",
+                "username": "sketchiiii",
+                "description": "Jake • trans-masc agender dude 🏳️‍🌈🏳️‍⚧️ (he/him) • 19 • ADHD • character artist • Comms: Open | • mostly dnd and ocs • +18 please",
+                "public_metrics": {
+                    "followers_count": 524,
+                    "following_count": 430,
+                    "tweet_count": 9743,
+                    "listed_count": 9
+                }
+            },
+            {
+                "name": "Hammad Ul Haq",
+                "created_at": "2020-01-15T17:03:06.000Z",
+                "verified": false,
+                "id": "1217492352023060481",
+                "username": "cherhoephobic",
+                "description": "Not anyone’s favourite, just a convenient alternative.",
+                "public_metrics": {
+                    "followers_count": 21,
+                    "following_count": 98,
+                    "tweet_count": 3999,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Lord Darko",
+                "created_at": "2019-11-18T04:46:37.000Z",
+                "verified": false,
+                "id": "1196288555514941440",
+                "username": "LordDarko8",
+                "description": "I'm 23\n🔞But +20 is strongly suggested. Born may 1998, May 19th.\n(Backgeound pic isn't mine, it belongs to @Lyzergide.)\nDiscord: Dragondarko#9278",
+                "public_metrics": {
+                    "followers_count": 235,
+                    "following_count": 629,
+                    "tweet_count": 88546,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Selina",
+                "created_at": "2017-09-11T07:09:21.000Z",
+                "verified": false,
+                "id": "907138981204303872",
+                "username": "ECNALHANID",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 3650,
+                    "following_count": 1961,
+                    "tweet_count": 74751,
+                    "listed_count": 31
+                }
+            },
+            {
+                "name": "kris thee graduate",
+                "created_at": "2010-05-12T17:35:07.000Z",
+                "verified": false,
+                "id": "143130977",
+                "username": "wowthatsangie1",
+                "description": "kris/ange. grown. NOT A STAN ACC",
+                "public_metrics": {
+                    "followers_count": 25,
+                    "following_count": 95,
+                    "tweet_count": 4933,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "woah",
+                "created_at": "2017-07-03T18:04:21.000Z",
+                "verified": false,
+                "id": "881936667308945410",
+                "username": "ruva_nyamupa",
+                "description": "Bless me achooo",
+                "public_metrics": {
+                    "followers_count": 80,
+                    "following_count": 220,
+                    "tweet_count": 4812,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Beckett Mariner 🧚🏾‍♀️🍯🌸",
+                "created_at": "2020-04-16T15:40:39.000Z",
+                "verified": false,
+                "id": "1250811312340426752",
+                "username": "lissa_elle",
+                "description": "💚                                                      \n\n            livestream of breakdowns, hyperbole n\nmelancholic rants \n\n      hilarity in pain\n\nvgang 🌱",
+                "public_metrics": {
+                    "followers_count": 62,
+                    "following_count": 140,
+                    "tweet_count": 18465,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Lana ♡",
+                "created_at": "2020-02-24T02:03:20.000Z",
+                "verified": false,
+                "id": "1231760803541417984",
+                "username": "lananichellee",
+                "description": "southernU🐆",
+                "public_metrics": {
+                    "followers_count": 451,
+                    "following_count": 406,
+                    "tweet_count": 6258,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "gray (grinch arc)",
+                "created_at": "2019-06-26T04:08:19.000Z",
+                "verified": false,
+                "id": "1143732700018171904",
+                "username": "glaivedotcom",
+                "description": "- please forget your scarf in my life @glaivesucks - https://t.co/ww5ksG3mRQ -",
+                "public_metrics": {
+                    "followers_count": 545,
+                    "following_count": 724,
+                    "tweet_count": 16141,
+                    "listed_count": 11
+                }
+            },
+            {
+                "name": "GameplayXtreme: No Way Home",
+                "created_at": "2016-11-15T17:03:51.000Z",
+                "verified": false,
+                "id": "798572230754107392",
+                "username": "RGameplayXtreme",
+                "description": "To all who come to this happy account, welcome. Gamer, 24/7 Disney Addict, rollercoaster thoosie with 73 credits.\nHappily blocked by @PETA",
+                "public_metrics": {
+                    "followers_count": 270,
+                    "following_count": 1666,
+                    "tweet_count": 17582,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "kay ッ",
+                "created_at": "2017-05-12T17:45:02.000Z",
+                "verified": false,
+                "id": "863087637095120896",
+                "username": "sunflowrdan",
+                "description": "🧣 treacherous (taylor’s version) stan",
+                "public_metrics": {
+                    "followers_count": 1555,
+                    "following_count": 639,
+                    "tweet_count": 39408,
+                    "listed_count": 23
+                }
+            },
+            {
+                "name": "Yulen_chan",
+                "created_at": "2020-12-17T17:52:21.000Z",
+                "verified": false,
+                "id": "1339629420026490880",
+                "username": "Yulen_chan",
+                "description": "Hi! I am a mexican artist who is still learning and loves Sonic the hedgehog.\n\nFemale - 14 years old\n\nI can speak spanish and english :3",
+                "public_metrics": {
+                    "followers_count": 69,
+                    "following_count": 372,
+                    "tweet_count": 5949,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "sadie",
+                "created_at": "2011-10-24T22:57:39.000Z",
+                "verified": false,
+                "id": "397616238",
+                "username": "nervedamagedtoe",
+                "description": "carry on, let the good times roll",
+                "public_metrics": {
+                    "followers_count": 1770,
+                    "following_count": 82,
+                    "tweet_count": 67891,
+                    "listed_count": 9
+                }
+            },
+            {
+                "name": "m ❄️",
+                "created_at": "2021-01-09T16:27:15.000Z",
+                "verified": false,
+                "id": "1347942974882263041",
+                "username": "gnfGIow",
+                "description": "look in the mirror, you’ll see who my bitch is .ೃ࿔",
+                "public_metrics": {
+                    "followers_count": 623,
+                    "following_count": 941,
+                    "tweet_count": 8225,
+                    "listed_count": 7
+                }
+            },
+            {
+                "name": "andrea⁷ 🌌",
+                "created_at": "2018-04-27T18:09:30.000Z",
+                "verified": false,
+                "id": "989929546756444161",
+                "username": "interlude_hyyh",
+                "description": "since dec '19",
+                "public_metrics": {
+                    "followers_count": 83,
+                    "following_count": 92,
+                    "tweet_count": 22171,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Mario P",
+                "created_at": "2018-05-12T22:25:34.000Z",
+                "verified": false,
+                "id": "995429806849146881",
+                "username": "BabydikMario74",
+                "description": "I'm probably jerkin off right now",
+                "public_metrics": {
+                    "followers_count": 89,
+                    "following_count": 84,
+                    "tweet_count": 12916,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "tommy j. gunn",
+                "created_at": "2014-10-06T20:07:38.000Z",
+                "verified": false,
+                "id": "2811435406",
+                "username": "Jesutomisin_",
+                "description": "world's most unqualified engineer. i do usually be writing. doing a thing for @snapchat. currently a tech bae to @nee_ceey and @asarivpn",
+                "public_metrics": {
+                    "followers_count": 834,
+                    "following_count": 563,
+                    "tweet_count": 22085,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "Habis Makan Cuci Piring",
+                "created_at": "2010-02-27T13:36:45.000Z",
+                "verified": false,
+                "id": "118061340",
+                "username": "CriwilBileam",
+                "description": "menyenangkan berada disini",
+                "public_metrics": {
+                    "followers_count": 848,
+                    "following_count": 497,
+                    "tweet_count": 37399,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "Migz",
+                "created_at": "2020-12-24T19:41:32.000Z",
+                "verified": false,
+                "id": "1342193597311946752",
+                "username": "itsyaboimigzzz",
+                "description": "I will follow you to the end, like I always have.",
+                "public_metrics": {
+                    "followers_count": 142,
+                    "following_count": 590,
+                    "tweet_count": 6955,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "SARAH 🐺",
+                "created_at": "2012-05-05T20:44:10.000Z",
+                "verified": false,
+                "id": "572059357",
+                "username": "SarahMarafi_",
+                "description": "I’m not crazy I prefer the term:”mentally hilarious” Pizza lover🍕90’s kid",
+                "public_metrics": {
+                    "followers_count": 2008,
+                    "following_count": 1211,
+                    "tweet_count": 20877,
+                    "listed_count": 7
+                }
+            },
+            {
+                "name": "Jay 🦅",
+                "created_at": "2015-03-20T00:48:55.000Z",
+                "verified": false,
+                "id": "3098503472",
+                "username": "AintHeLowkey",
+                "description": "I just be retweeting shit fr, but at the end of the day life is gravy baby 📿",
+                "public_metrics": {
+                    "followers_count": 586,
+                    "following_count": 543,
+                    "tweet_count": 23368,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "라우🍂",
+                "created_at": "2017-04-23T11:53:08.000Z",
+                "verified": false,
+                "id": "856113708724105216",
+                "username": "vitaminwei",
+                "description": "my life basically revolves around music",
+                "public_metrics": {
+                    "followers_count": 95,
+                    "following_count": 108,
+                    "tweet_count": 1403,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Mans not Hot",
+                "created_at": "2012-03-22T14:24:45.000Z",
+                "verified": false,
+                "id": "533184362",
+                "username": "CharlieMcGnarly",
+                "description": "#SoFlo Car Enthusiast // S197 5.0 🇬🇧x🇳🇬",
+                "public_metrics": {
+                    "followers_count": 371,
+                    "following_count": 346,
+                    "tweet_count": 96028,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "haneul🦸SAW NWH",
+                "created_at": "2017-05-07T11:57:48.000Z",
+                "verified": false,
+                "id": "861188310894555136",
+                "username": "wondershitwoman",
+                "description": "stream still with you🦸\nkinda nsfw\n\nany pronouns | bi | bts | ariana | florence pugh  | tom holland | bollywood\n\nlove u @staraprukfa @midnightkoo and @diaryjae",
+                "public_metrics": {
+                    "followers_count": 660,
+                    "following_count": 2563,
+                    "tweet_count": 27047,
+                    "listed_count": 6
+                }
+            },
+            {
+                "name": "nae 🌙",
+                "created_at": "2010-07-31T20:00:33.000Z",
+                "verified": false,
+                "id": "173227016",
+                "username": "babybl3ue",
+                "description": "earthy lil bay baby | aries sun and rising taurus moon",
+                "public_metrics": {
+                    "followers_count": 315,
+                    "following_count": 330,
+                    "tweet_count": 42838,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "AAAAAAAAAAHHHHHHHHH",
+                "created_at": "2019-02-17T21:11:46.000Z",
+                "verified": false,
+                "id": "1097242223333257227",
+                "username": "KunoUwu",
+                "description": "AAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHH",
+                "public_metrics": {
+                    "followers_count": 13,
+                    "following_count": 144,
+                    "tweet_count": 2358,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "marcie :) SAW NWH",
+                "created_at": "2019-08-14T15:27:23.000Z",
+                "verified": false,
+                "id": "1161660596598771715",
+                "username": "idlymccarrell",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 2781,
+                    "following_count": 2218,
+                    "tweet_count": 38358,
+                    "listed_count": 59
+                }
+            },
+            {
+                "name": "Houdini 🤫🌸✨",
+                "created_at": "2011-10-14T23:48:01.000Z",
+                "verified": false,
+                "id": "391049231",
+                "username": "Animosit_y",
+                "description": "i go to school part time, I work part time but I'm annoying full time.",
+                "public_metrics": {
+                    "followers_count": 454,
+                    "following_count": 417,
+                    "tweet_count": 167229,
+                    "listed_count": 4
+                }
+            },
+            {
+                "name": "Les G. O'Brandon🚁 👨‍✈️🩸",
+                "created_at": "2008-10-14T11:31:58.000Z",
+                "verified": false,
+                "id": "16736628",
+                "username": "Chimptactical",
+                "description": "Raymond Sestmann\nFather, primate, purveyor of nuclear provisions\nLicensed rotary pilot, chartered oceanic tours available",
+                "public_metrics": {
+                    "followers_count": 369,
+                    "following_count": 931,
+                    "tweet_count": 21985,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Noam Blum",
+                "created_at": "2009-01-20T03:20:21.000Z",
+                "verified": true,
+                "id": "19217369",
+                "username": "neontaster",
+                "description": "CTO @tabletmag || עברית || 日本語 || also see @neon2ster || opinions always my own",
+                "public_metrics": {
+                    "followers_count": 127943,
+                    "following_count": 973,
+                    "tweet_count": 247332,
+                    "listed_count": 1150
+                }
+            },
+            {
+                "name": "Austin Hibbert",
+                "created_at": "2016-10-21T01:14:34.000Z",
+                "verified": false,
+                "id": "789273638633472001",
+                "username": "ABHibbs21",
+                "description": "Love anything having to do with animation and hope to accomplish a career animating.",
+                "public_metrics": {
+                    "followers_count": 271,
+                    "following_count": 850,
+                    "tweet_count": 22177,
+                    "listed_count": 4
+                }
+            },
+            {
+                "name": "Dark",
+                "created_at": "2020-11-23T05:40:28.000Z",
+                "verified": false,
+                "id": "1330747959366049792",
+                "username": "DarkTheEnigma",
+                "description": "Take care of yourself and never lose hope. |Taken|",
+                "public_metrics": {
+                    "followers_count": 7220,
+                    "following_count": 7077,
+                    "tweet_count": 38648,
+                    "listed_count": 43
+                }
+            },
+            {
+                "name": "bells ✪",
+                "created_at": "2021-04-11T14:41:44.000Z",
+                "verified": false,
+                "id": "1381256102554316800",
+                "username": "bellssantiago",
+                "description": "/a/ela/-a/  ê/elu/-e/",
+                "public_metrics": {
+                    "followers_count": 76,
+                    "following_count": 306,
+                    "tweet_count": 3415,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "ilosvy",
+                "created_at": "2021-08-19T15:52:50.000Z",
+                "verified": false,
+                "id": "1428384436941373441",
+                "username": "sourcrypt",
+                "description": "I am the bird on the summer breeze I drive fast",
+                "public_metrics": {
+                    "followers_count": 185,
+                    "following_count": 935,
+                    "tweet_count": 4539,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "tyler",
+                "created_at": "2012-08-24T00:45:43.000Z",
+                "verified": false,
+                "id": "777079460",
+                "username": "officialtylerxo",
+                "description": "you’re such a whiner",
+                "public_metrics": {
+                    "followers_count": 278,
+                    "following_count": 136,
+                    "tweet_count": 19132,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "lia CIA DAY",
+                "created_at": "2019-09-06T23:47:22.000Z",
+                "verified": false,
+                "id": "1170121274615574529",
+                "username": "giuliwastaken",
+                "description": "dream team christmas | htgc",
+                "public_metrics": {
+                    "followers_count": 567,
+                    "following_count": 939,
+                    "tweet_count": 42430,
+                    "listed_count": 69
+                }
+            },
+            {
+                "name": "koobz.✨",
+                "created_at": "2011-04-26T00:30:16.000Z",
+                "verified": false,
+                "id": "287960212",
+                "username": "KingKoobz",
+                "description": "Blair Waldorf but Black.",
+                "public_metrics": {
+                    "followers_count": 604,
+                    "following_count": 570,
+                    "tweet_count": 32039,
+                    "listed_count": 4
+                }
+            },
+            {
+                "name": "♱ vriska / harley ♱",
+                "created_at": "2019-10-04T00:31:03.000Z",
+                "verified": false,
+                "id": "1179916765654069248",
+                "username": "mrhhyde",
+                "description": "✧･ﾟ:*as above so below, i am lower than low*:･ﾟ✧",
+                "public_metrics": {
+                    "followers_count": 60,
+                    "following_count": 187,
+                    "tweet_count": 4064,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "A🌙",
+                "created_at": "2012-08-10T20:41:54.000Z",
+                "verified": false,
+                "id": "750017058",
+                "username": "_provolonie",
+                "description": "a collection of thoughts that probably don’t make any sense | scorpio gal",
+                "public_metrics": {
+                    "followers_count": 268,
+                    "following_count": 277,
+                    "tweet_count": 41015,
+                    "listed_count": 5
+                }
+            },
+            {
+                "name": "PabloPicasshole",
+                "created_at": "2011-08-30T03:44:49.000Z",
+                "verified": false,
+                "id": "364664350",
+                "username": "Transparentsea_",
+                "description": "Luis M. iPhone on silent I don’t need the stress.",
+                "public_metrics": {
+                    "followers_count": 303,
+                    "following_count": 196,
+                    "tweet_count": 18814,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Swodah",
+                "created_at": "2018-01-21T11:05:22.000Z",
+                "verified": false,
+                "id": "955033574784274432",
+                "username": "Swodah3319",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 63,
+                    "following_count": 740,
+                    "tweet_count": 16753,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "maria",
+                "created_at": "2016-01-30T17:25:43.000Z",
+                "verified": false,
+                "id": "4864501036",
+                "username": "membpq",
+                "description": "(a/ela/-a)",
+                "public_metrics": {
+                    "followers_count": 267,
+                    "following_count": 898,
+                    "tweet_count": 20295,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "DΣΣPDΛЯK ✸",
+                "created_at": "2020-07-07T02:19:55.000Z",
+                "verified": false,
+                "id": "1280325557360758785",
+                "username": "ekrizdideepdark",
+                "description": "𝘊𝘩𝘪𝘦𝘧 𝘋𝘦𝘦𝘱𝘥𝘢𝘳𝘬 (ᛞᛖᛖᛈᛞᚨᚱᚴ) 𝘢𝘬𝘢 𝘉𝘭𝘶𝘦 𝘚𝘱𝘪𝘳𝘪𝘵, 𝘝𝘰𝘳𝘵𝘪𝘨𝘦𝘳𝘯, 𝘞𝘪𝘥𝘰𝘸 𝘢𝘯𝘥 𝘵𝘩𝘦 𝘌𝘬𝘳𝘪𝘻𝘥𝘪𝘴.",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 98,
+                    "tweet_count": 649,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "kayla!!! ☼",
+                "created_at": "2020-11-23T20:09:00.000Z",
+                "verified": false,
+                "id": "1330966568553959430",
+                "username": "lightreyber",
+                "description": "❁ — # 1 rey skywalker protector ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀@reyskythinker! | @aIderaanians stan acc",
+                "public_metrics": {
+                    "followers_count": 2513,
+                    "following_count": 1520,
+                    "tweet_count": 46785,
+                    "listed_count": 77
+                }
+            },
+            {
+                "name": "Fray ✡︎ Sobbing rn",
+                "created_at": "2020-11-05T19:10:07.000Z",
+                "verified": false,
+                "id": "1324428743906107393",
+                "username": "Falling_Pluto",
+                "description": "I’m just.... here :DD LVJY appreciator and occasionally watching block men 🙄 || icons from @impcraig !!||",
+                "public_metrics": {
+                    "followers_count": 325,
+                    "following_count": 641,
+                    "tweet_count": 1459,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "on the good side of weird",
+                "created_at": "2016-01-04T06:17:22.000Z",
+                "verified": false,
+                "id": "4707323660",
+                "username": "barghestbaby",
+                "description": "baggy/white/24/any pronouns/i could be a lot better, but i could be dead, so i'm doing okay!/dating @ClownPinatas 💗🐝💗🐝",
+                "public_metrics": {
+                    "followers_count": 222,
+                    "following_count": 1470,
+                    "tweet_count": 76255,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "manu. 💗",
+                "created_at": "2020-04-28T17:44:43.000Z",
+                "verified": false,
+                "id": "1255191181497176069",
+                "username": "glimpseofmanu",
+                "description": "esperando speak now (taylor's version)",
+                "public_metrics": {
+                    "followers_count": 967,
+                    "following_count": 848,
+                    "tweet_count": 19835,
+                    "listed_count": 11
+                }
+            },
+            {
+                "name": "zack🎄SAW NWH",
+                "created_at": "2021-09-06T20:54:54.000Z",
+                "verified": false,
+                "id": "1434983441662099459",
+                "username": "spideytylerr",
+                "description": "anyone can wear the mask",
+                "public_metrics": {
+                    "followers_count": 330,
+                    "following_count": 436,
+                    "tweet_count": 4872,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "lime flavored ammar",
+                "created_at": "2021-04-10T01:50:03.000Z",
+                "verified": false,
+                "id": "1380699528718860290",
+                "username": "ammarioqueens",
+                "description": "gnf’s sous chef",
+                "public_metrics": {
+                    "followers_count": 1175,
+                    "following_count": 997,
+                    "tweet_count": 22392,
+                    "listed_count": 83
+                }
+            },
+            {
+                "name": "noel",
+                "created_at": "2020-03-26T00:58:52.000Z",
+                "verified": false,
+                "id": "1242979265089429505",
+                "username": "cinevern",
+                "description": "wuts 2 minus 1",
+                "public_metrics": {
+                    "followers_count": 180,
+                    "following_count": 167,
+                    "tweet_count": 6533,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Ron 🍺",
+                "created_at": "2016-06-13T03:12:57.000Z",
+                "verified": false,
+                "id": "742193010197155840",
+                "username": "Ron_Raccoon_",
+                "description": "Commissions = Closed | 25 | Animator/Cartoonist | Twitch Affiliate | Certified Badass | Hidden Yeen Vibes",
+                "public_metrics": {
+                    "followers_count": 3540,
+                    "following_count": 733,
+                    "tweet_count": 17860,
+                    "listed_count": 20
+                }
+            },
+            {
+                "name": "🪑 mikayla",
+                "created_at": "2021-07-05T04:05:31.000Z",
+                "verified": false,
+                "id": "1411898970591449088",
+                "username": "mikaylasillac",
+                "description": "·͙*̩̩͙˚̩̥̩̥*̩̩̥͙　✩　*̩̩̥͙˚̩̥̩̥*̩̩͙‧͙  she/her  ·͙*̩̩͙˚̩̥̩̥*̩̩̥͙　✩　*̩̩̥͙˚̩̥̩̥*̩̩͙‧͙",
+                "public_metrics": {
+                    "followers_count": 52,
+                    "following_count": 74,
+                    "tweet_count": 248,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "Vers a Myh 🌈 | #MAKETASM3 🕸️",
+                "created_at": "2017-07-11T14:46:59.000Z",
+                "verified": false,
+                "id": "884786098806939649",
+                "username": "versamyh",
+                "description": "LEIA O FIXADO 💥 | Ela/Dela 🍓 | Bissexual 🌈 | Chalé 13 💀 | Casa Tyrell 🌸 | Sonse-Lufa 💅🏻",
+                "public_metrics": {
+                    "followers_count": 150,
+                    "following_count": 133,
+                    "tweet_count": 10135,
+                    "listed_count": 0
+                }
+            }
+        ],
+        "places": [
+            {
+                "geo": {
+                    "type": "Feature",
+                    "bbox": [
+                        -71.191421,
+                        42.227797,
+                        -70.986004,
+                        42.399542
+                    ],
+                    "properties": {}
+                },
+                "full_name": "Boston, MA",
+                "name": "Boston",
+                "country_code": "US",
+                "place_type": "city",
+                "id": "67b98f17fdcf20be",
+                "country": "United States"
+            },
+            {
+                "geo": {
+                    "type": "Feature",
+                    "bbox": [
+                        -97.70475130630261,
+                        30.298453483215024,
+                        -97.70475130630261,
+                        30.298453483215024
+                    ],
+                    "properties": {}
+                },
+                "full_name": "Alamo Drafthouse Cinema",
+                "name": "Alamo Drafthouse Cinema",
+                "country_code": "US",
+                "place_type": "poi",
+                "id": "10045f6eef169000",
+                "country": "United States"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1474530326546366475",
+        "oldest_id": "1474530178302885888",
+        "result_count": 98,
+        "next_token": "b26v89c19zqg8o3fpe170z31ivr668xg5q722m2cqhmyl"
+    }
+}

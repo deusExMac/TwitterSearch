@@ -1,0 +1,3771 @@
+{
+    "data": [
+        {
+            "created_at": "2021-12-24T20:13:02.000Z",
+            "author_id": "1892771791",
+            "reply_settings": "everyone",
+            "conversation_id": "1474473208904486912",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473208904486912",
+            "text": "People acting like they weren't the very guys bullying others if the answer to the 'who's your fav #spiderman?' question wasn't Tom Holland.\nLike I'm glad some guys are out of their closets. Go celebrate. But i hope everyone starts reflecting soon. Even if it's just for a second. https://t.co/E7SWvkEepB",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1366178461425958912",
+            "created_at": "2021-12-24T20:13:01.000Z",
+            "author_id": "1079771075926544385",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471595833847808"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474405557729697798",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474473208476844039",
+            "text": "@hifamousfriend I really like it, it’s a lot more modern and seems less cringe(my opinion cause I could barely get through the other ones) but the bullying is way more violent which changes things up",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:57.000Z",
+            "author_id": "1383312042",
+            "reply_settings": "everyone",
+            "conversation_id": "1474473187886911497",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474473187886911497",
+            "text": "as a whole it’s time to bring back bullying, some of y’all need your ass beat BADLY",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:56.000Z",
+            "author_id": "829885482196561921",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474451625079099394"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473186771099651",
+            "public_metrics": {
+                "retweet_count": 153,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473186771099651",
+            "text": "RT @RVAwonk: This supposed headline saying teachers should tolerate bullying of unvaccinated children is going viral in right-wing circles,…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:51.000Z",
+            "author_id": "1178711182024175616",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473166453960704",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473166453960704",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:50.000Z",
+            "author_id": "249183323",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474120049367695368"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473162133757952",
+            "public_metrics": {
+                "retweet_count": 1375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474473162133757952",
+            "text": "RT @ReutersFacts: An image purporting to show a screenshot of an opinion piece published by the New York Times calling for teachers to “tol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:50.000Z",
+            "author_id": "1388640812402151431",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "285670822264307712"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473161391497223",
+            "public_metrics": {
+                "retweet_count": 423779,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473161391497223",
+            "text": "RT @tylerthecreator: Hahahahahahahaha How The Fuck Is Cyber Bullying Real Hahahaha Nigga Just Walk Away From The Screen Like Nigga Close Yo…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:39.000Z",
+            "author_id": "1420479401465192450",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474170115524550661"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473115027652610",
+            "public_metrics": {
+                "retweet_count": 1385,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474473115027652610",
+            "text": "RT @APFactCheck: Twitter users are sharing a headline purporting to be from a New York Times opinion piece calling on teachers to permit bu…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:31.000Z",
+            "author_id": "1235806578718081026",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474120049367695368"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473081209036802",
+            "public_metrics": {
+                "retweet_count": 1375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473081209036802",
+            "text": "RT @ReutersFacts: An image purporting to show a screenshot of an opinion piece published by the New York Times calling for teachers to “tol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:27.000Z",
+            "author_id": "2922221046",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474421269781262341"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473063899148289",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474473063899148289",
+            "text": "RT @slimedloner: bring bullying back",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1259857917504872450",
+            "created_at": "2021-12-24T20:12:20.000Z",
+            "author_id": "1320430597257515009",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474472819924901902"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471217700773891",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473032957796358",
+            "text": "@rhgkoo06 RE ESO ES BULLYING 🤕",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:12.000Z",
+            "author_id": "24545904",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474305409389195264"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474473002376974336",
+            "public_metrics": {
+                "retweet_count": 998,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474473002376974336",
+            "text": "RT @Chellaney: Tiny Lithuania, with a population smaller than the smallest second-tier Chinese city, has stood up to China's bullying in wa…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:04.000Z",
+            "author_id": "2187545648",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474204303606878208"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472966691987459",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472966691987459",
+            "text": "RT @genqqe: it’s yt saviors attacking black people with almond eyes or monolids that’s setting us back. they need to start checking these k…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:03.000Z",
+            "author_id": "926156155277266946",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472965177761795",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472965177761795",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:12:01.000Z",
+            "author_id": "950819237198811136",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472956638203907",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472956638203907",
+            "text": "LinkedIn is soft. You wouldn’t believe what they consider bullying on that platform. Those peeps would never last on Twitter. 🤣🤣🤣",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:57.000Z",
+            "author_id": "5409972",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474170115524550661"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472940141953024",
+            "public_metrics": {
+                "retweet_count": 1385,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472940141953024",
+            "text": "RT @APFactCheck: Twitter users are sharing a headline purporting to be from a New York Times opinion piece calling on teachers to permit bu…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "140109615",
+            "created_at": "2021-12-24T20:11:51.000Z",
+            "author_id": "19076408",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471706714644489"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474373395928207367",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472913671708676",
+            "text": "@willbxtn @Ado_biy @SibthorpeMark @SaraLBennett60 I've done a word search on the phrase you quote - but it doesn't appear on this thread.  Got a link.\n\n\"You don't even recognise your own bullying, gaslighting' methods. \"\n\nLoving your closing statement.",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:45.000Z",
+            "author_id": "1265629705593597953",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474472809065820164"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472889097363460",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472889097363460",
+            "text": "bullying us atp https://t.co/sSMUQIndrc",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:36.000Z",
+            "author_id": "274731376",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474431854992363537"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472850417405960",
+            "public_metrics": {
+                "retweet_count": 357,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472850417405960",
+            "text": "RT @aczu4: @zahavimeansgold Whole ocean looking at him get scooped up. Imagine that shark bullying some small fish then- YANK! I'm inconsol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:34.000Z",
+            "author_id": "748111292",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474431854992363537"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472841806594059",
+            "public_metrics": {
+                "retweet_count": 357,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472841806594059",
+            "text": "RT @aczu4: @zahavimeansgold Whole ocean looking at him get scooped up. Imagine that shark bullying some small fish then- YANK! I'm inconsol…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "15670515",
+            "created_at": "2021-12-24T20:11:32.000Z",
+            "author_id": "1172029011406381056",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474108925641478148"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474108925641478148",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472834265059330",
+            "text": "@Windows A rigidly bland, unattractive broker who takes more than a modest cut from my productivity, constantly bullying me to adhere to how it wants to work without considering my needs or understanding my process - all while leaving me desperately pining for previous generations. 😞😣😖",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:30.000Z",
+            "author_id": "1402839306608254976",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472826178572293",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 8,
+                "quote_count": 0
+            },
+            "source": "PlayStation®Network",
+            "id": "1474472826178572293",
+            "text": "Please I should not be bullying...\n\nhttps://t.co/OiBQwEXvt3 https://t.co/EiWmj4XHkM",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:19.000Z",
+            "author_id": "240459037",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474461006386515973"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472778686341120",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472778686341120",
+            "text": "RT @SlagerAmy: So Santa knows who’s naughty and nice but didn’t know all the reindeer were bullying Rudolph? Under his own roof? Suss.",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:16.000Z",
+            "author_id": "1383197702075215875",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474115955039121409"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472766980112388",
+            "public_metrics": {
+                "retweet_count": 277,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472766980112388",
+            "text": "RT @NYTimesPR: From @ReutersFacts: \"Image purporting to show New York Times opinion piece calling for teachers to ‘tolerate bullying toward…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:14.000Z",
+            "author_id": "1383197702075215875",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474170115524550661"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472758671253513",
+            "public_metrics": {
+                "retweet_count": 1385,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472758671253513",
+            "text": "RT @APFactCheck: Twitter users are sharing a headline purporting to be from a New York Times opinion piece calling on teachers to permit bu…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:08.000Z",
+            "author_id": "1383197702075215875",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474120049367695368"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472732444213250",
+            "public_metrics": {
+                "retweet_count": 1375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472732444213250",
+            "text": "RT @ReutersFacts: An image purporting to show a screenshot of an opinion piece published by the New York Times calling for teachers to “tol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:11:03.000Z",
+            "author_id": "390424081",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1445493266258878464"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472713293082629",
+            "public_metrics": {
+                "retweet_count": 1271,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472713293082629",
+            "text": "RT @Bella623: Enjoy an award-winning FREE #Book \n❤️💃Vampires?\n🎉Rising Tide is PERMA FREE🥳\n@NewAppleAwards 🥇\n@IndieAuthorProj 🏆\nClean YA Par…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:58.000Z",
+            "author_id": "796359059511320577",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472689167482889",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472689167482889",
+            "text": "Pls stop bullying that baikal seal",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:57.000Z",
+            "author_id": "78783253",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474115955039121409"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472685287747584",
+            "public_metrics": {
+                "retweet_count": 277,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472685287747584",
+            "text": "RT @NYTimesPR: From @ReutersFacts: \"Image purporting to show New York Times opinion piece calling for teachers to ‘tolerate bullying toward…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:52.000Z",
+            "author_id": "741136296047980544",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472665322643458",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472665322643458",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:44.000Z",
+            "author_id": "102941337",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474170115524550661"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472632057798659",
+            "public_metrics": {
+                "retweet_count": 1385,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPad",
+            "id": "1474472632057798659",
+            "text": "RT @APFactCheck: Twitter users are sharing a headline purporting to be from a New York Times opinion piece calling on teachers to permit bu…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:31.000Z",
+            "author_id": "2321682552",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474465833434951689"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472575598137344",
+            "public_metrics": {
+                "retweet_count": 22,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472575598137344",
+            "text": "RT @hellotraincat: Forget about this absolutely insane statement on artistry for a second and let’s all focus on how no Marvel actor or exe…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "738707454029094912",
+            "created_at": "2021-12-24T20:10:13.000Z",
+            "author_id": "633935019",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471289763028995"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474383263611371524",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472501409464326",
+            "text": "@komzyyyyyy Instead wey you go dey busy dey fry chicken, you are here bullying me",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:05.000Z",
+            "author_id": "856969871023890433",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474388217570992133"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472468337152000",
+            "public_metrics": {
+                "retweet_count": 20,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472468337152000",
+            "text": "RT @Reuters: China's commerce ministry calls U.S. Xinjiang ban 'economic bullying' https://t.co/sgoDRZMJRv https://t.co/C5gVHaeTmV",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:10:02.000Z",
+            "author_id": "331509925",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472453766361095",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Hootsuite Inc.",
+            "id": "1474472453766361095",
+            "text": "Are you aged 11-19 and need advice❓\n\nWe can help you with mental health, relationships, alcohol, smoking, bullying &amp; more ✅\n\nFor confidential &amp; anonymous advice from a Specialist Community Nurse in Warrington, send a text to:\n\n07507330101 https://t.co/Cu4nYuAMyG",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:58.000Z",
+            "author_id": "335717747",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474431854992363537"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472439472324608",
+            "public_metrics": {
+                "retweet_count": 357,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472439472324608",
+            "text": "RT @aczu4: @zahavimeansgold Whole ocean looking at him get scooped up. Imagine that shark bullying some small fish then- YANK! I'm inconsol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:57.000Z",
+            "author_id": "978543868135202816",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472436280311816",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472436280311816",
+            "text": "if i gave up on bullying u into downloading signal ur a 10",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:43.000Z",
+            "author_id": "865784763994341376",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474128155103281152"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472377153048580",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472377153048580",
+            "text": "RT @stu6162: @ChrissieFoster7 Sickening.  Do they have no shame?\n\nThis type of bullying happens for two reasons.  To discourage more claims…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1175267127575613441",
+            "created_at": "2021-12-24T20:09:41.000Z",
+            "author_id": "3020784370",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474425099491201024"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474424740475543553",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472368022208522",
+            "text": "@DragonTsurai @PokemonUnite Bro they shaftet this guy with his mega evolution. Why they bullying my boy like that in every game 😭",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:39.000Z",
+            "author_id": "904381420096942080",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474431854992363537"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472361013518343",
+            "public_metrics": {
+                "retweet_count": 357,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472361013518343",
+            "text": "RT @aczu4: @zahavimeansgold Whole ocean looking at him get scooped up. Imagine that shark bullying some small fish then- YANK! I'm inconsol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:35.000Z",
+            "author_id": "1353077599178645506",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1405972745251430401"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472344202747913",
+            "public_metrics": {
+                "retweet_count": 375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472344202747913",
+            "text": "RT @8RosarioSanchez: A very small and non-exhaustive list of superb and brave women that the Institute of Race Relations (@IRR_News @Race_C…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:35.000Z",
+            "author_id": "3164641406",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472341266579457",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472341266579457",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:34.000Z",
+            "author_id": "706025400",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474431854992363537"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472337194033159",
+            "public_metrics": {
+                "retweet_count": 357,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472337194033159",
+            "text": "RT @aczu4: @zahavimeansgold Whole ocean looking at him get scooped up. Imagine that shark bullying some small fish then- YANK! I'm inconsol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:29.000Z",
+            "author_id": "1435464443455021058",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "65266100887240704"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472316147015682",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472316147015682",
+            "text": "but y'all wanna talk about bullying. k girl. https://t.co/geuxkSAjsc",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:21.000Z",
+            "author_id": "1357007966335954944",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474450090005778438"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472284295364610",
+            "public_metrics": {
+                "retweet_count": 54,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472284295364610",
+            "text": "RT @zachhomol_: We don’t tolerate bullying in the Homol Home \n\nCrew is taught to stand up for himself \n\nI’ll beat up the kids fuckin dad to…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:14.000Z",
+            "author_id": "1216414215843520512",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472253685481481",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 30,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472253685481481",
+            "text": "Why did the part where ranboo said sorry for bullying me make it in sneegs new video 🧍‍♂️",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:12.000Z",
+            "author_id": "470354195",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472244147781633",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "twittbot.net",
+            "id": "1474472244147781633",
+            "text": "Whether it's about bullying, love or friendship, Sket Dan's club members are ready to help you, even if it means dirtying their own hands.",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1407761225908424705",
+            "created_at": "2021-12-24T20:09:09.000Z",
+            "author_id": "1311017258173583363",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471102969786372"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474470744058994688",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472234479722497",
+            "text": "@CabronJoao BULLYING!!!!",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:08.000Z",
+            "author_id": "1469069673308303372",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474452382905876483"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472229048143878",
+            "public_metrics": {
+                "retweet_count": 43,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472229048143878",
+            "text": "RT @dhritiiiiiiii: COLORS BE FAIR WITH PRATIK\n-shows love angles \n-who is more determined to win this show is sidelined\n-promotes bullying…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1374110736667004934",
+            "created_at": "2021-12-24T20:09:08.000Z",
+            "author_id": "1250535383533748226",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474472154628595718"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471823853162498",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472227835895809",
+            "text": "@filmarthurguy just bullying u",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "281877818",
+            "created_at": "2021-12-24T20:09:07.000Z",
+            "author_id": "98879145",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474470887462256643"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474467400917688325",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472224333647882",
+            "text": "@Noahpinion Well then this is just bullying.",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "59950183",
+            "created_at": "2021-12-24T20:09:05.000Z",
+            "author_id": "85742010",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474470433181343750"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474470433181343750",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472215999651845",
+            "text": "@scifichat A1. Also, if there was ever an inquiry into the alleged bullying at the Reindeer Games I never heard. #scifichat",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1099679688346296320",
+            "created_at": "2021-12-24T20:09:04.000Z",
+            "author_id": "1289170045935943680",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474472039180386305"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471746740830208",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472214414036993",
+            "text": "@pingwjnki @Iinothinker stop bullying monia",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:09:03.000Z",
+            "author_id": "1427514742847860736",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436153239429123"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472207900241920",
+            "public_metrics": {
+                "retweet_count": 19,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472207900241920",
+            "text": "RT @JariqaOde: \"This is a hands-free experience~\"\n\nTalked about bullying @marksthottwt so often that this was inevitable. Enjoy~\n(1/3) http…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:59.000Z",
+            "author_id": "1263507849885495296",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474391692857987080"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472192578658309",
+            "public_metrics": {
+                "retweet_count": 217,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472192578658309",
+            "text": "RT @SophNar0747: Oh man, the amount of bullying this poor guy has probably endured. https://t.co/1TxOU1CZ3n",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:59.000Z",
+            "author_id": "1075639448619098112",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474347513301782528"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472190846324739",
+            "public_metrics": {
+                "retweet_count": 18,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472190846324739",
+            "text": "RT @GenderNouveau: God, I there anything as good as bullying cute girls https://t.co/Twm8rmwse3",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "713382697008128000",
+            "created_at": "2021-12-24T20:08:59.000Z",
+            "author_id": "713382697008128000",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471728344535045"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471728344535045",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472190242213888",
+            "text": "Obviously bullying kids because they aren't vaccinated is messed up since they're kids (and in certain cases, its the law that kinda prevents them from even getting the jab) but like man the way adults react to this and yet ignore when actual bullying happens...hm",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:52.000Z",
+            "author_id": "308915052",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474451625079099394"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472161255428096",
+            "public_metrics": {
+                "retweet_count": 153,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472161255428096",
+            "text": "RT @RVAwonk: This supposed headline saying teachers should tolerate bullying of unvaccinated children is going viral in right-wing circles,…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:51.000Z",
+            "author_id": "811915720254779393",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472159921721347",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472159921721347",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:43.000Z",
+            "author_id": "1032922624890994689",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474467776563748865"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472122458116097",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472122458116097",
+            "text": "What Psychological Warfare and Stalking does?\nThe Oppressive State?\nBullying and Intimidation?\nThan murder ?\nThey have already attempted? https://t.co/cZLHTgpPkd https://t.co/Wq4W44hULm",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:37.000Z",
+            "author_id": "22109714",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474120049367695368"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472098932215808",
+            "public_metrics": {
+                "retweet_count": 1375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474472098932215808",
+            "text": "RT @ReutersFacts: An image purporting to show a screenshot of an opinion piece published by the New York Times calling for teachers to “tol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:35.000Z",
+            "author_id": "1043277458",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1430128274362011648"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472092867432455",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472092867432455",
+            "text": "bullying works https://t.co/UigqPIp0dx",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1252555349607026688",
+            "created_at": "2021-12-24T20:08:34.000Z",
+            "author_id": "1358916641069883393",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471993261051921"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474206023640563716",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472086802509827",
+            "text": "@Valke_Art this is bullying",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1368188223529381891",
+            "created_at": "2021-12-24T20:08:30.000Z",
+            "author_id": "3251113148",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474386802895110146"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474386802895110146",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474472068448194566",
+            "text": "@arise_nj Authoritative bullying , do not comply !",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:21.000Z",
+            "author_id": "2758304476",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474472031190138884",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472031190138884",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:19.000Z",
+            "author_id": "1386828032745394180",
+            "reply_settings": "everyone",
+            "conversation_id": "1474472022751301638",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472022751301638",
+            "text": "Why is everyone bullying JK and BTS army are the best ! https://t.co/YSioF6CPns",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1446980001069473792",
+            "created_at": "2021-12-24T20:08:17.000Z",
+            "author_id": "706411916835557376",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474469191558307844"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474469191558307844",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474472015935553543",
+            "text": "@ImmaKKKmember Imma still Rock em because kids don’t care and nobody bullying anyone for wearing pink shoes",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:08:11.000Z",
+            "author_id": "1727008657",
+            "reply_settings": "everyone",
+            "conversation_id": "1474471990820016140",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471990820016140",
+            "text": "Republicans bullying election officials achieve their ends even in failure https://t.co/bmLio1XS1l via @msnbc",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1397891995503411200",
+            "created_at": "2021-12-24T20:08:09.000Z",
+            "author_id": "1434615078150619136",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471665442639873"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474383080181874703",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471981697445894",
+            "text": "@VILEFALLACY Bullying your ass rfn",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1367531",
+            "created_at": "2021-12-24T20:08:07.000Z",
+            "author_id": "2932756707",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474464896351813632"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474464896351813632",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474471974042701824",
+            "text": "@FoxNews Because MAGA is all about bullying. It's all they have.",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:53.000Z",
+            "author_id": "1239457963",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474451625079099394"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471913531523088",
+            "public_metrics": {
+                "retweet_count": 153,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471913531523088",
+            "text": "RT @RVAwonk: This supposed headline saying teachers should tolerate bullying of unvaccinated children is going viral in right-wing circles,…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:46.000Z",
+            "author_id": "1433836637927186433",
+            "reply_settings": "everyone",
+            "conversation_id": "1474471886524489736",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474471886524489736",
+            "text": "The world doesn't respect the poor. That is how it is.\nLets pull #Ethiopia #Africa to the top, earn ourselves respect. The bullying, disregard, contempt, will then stagnate. A nation is on the rise. Our Rage &amp; frustration is morphing into diligence, desire &amp; perseverance #NoMore",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:40.000Z",
+            "author_id": "1219812818104483840",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471860557471749",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471860557471749",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:38.000Z",
+            "author_id": "1463018037838106628",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474450090005778438"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471852298813442",
+            "public_metrics": {
+                "retweet_count": 54,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471852298813442",
+            "text": "RT @zachhomol_: We don’t tolerate bullying in the Homol Home \n\nCrew is taught to stand up for himself \n\nI’ll beat up the kids fuckin dad to…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1043494523739885569",
+            "created_at": "2021-12-24T20:07:38.000Z",
+            "author_id": "1448250537862909959",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471168732463105"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474470473463635968",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471850638032900",
+            "text": "@sunjaykeist @Mothelawn_07 team rocket but instead of taking over the world we're bullying you to go to sleep ‼️",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:36.000Z",
+            "author_id": "1412541750271385600",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474106792200196096"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471845143343105",
+            "public_metrics": {
+                "retweet_count": 23,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471845143343105",
+            "text": "RT @teachergrind: I swear some of y’all really come for the most gracious educators on this app who take the time to call us in, share anot…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:30.000Z",
+            "author_id": "1273383752023113728",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474170115524550661"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471818530820097",
+            "public_metrics": {
+                "retweet_count": 1385,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474471818530820097",
+            "text": "RT @APFactCheck: Twitter users are sharing a headline purporting to be from a New York Times opinion piece calling on teachers to permit bu…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:28.000Z",
+            "author_id": "1235398882139312129",
+            "reply_settings": "everyone",
+            "conversation_id": "1474471807877005312",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471807877005312",
+            "text": "bullying white people 😸SEND https://t.co/auKbQUGyyb",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:27.000Z",
+            "author_id": "1329634390335483904",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474115955039121409"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471804186021892",
+            "public_metrics": {
+                "retweet_count": 277,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471804186021892",
+            "text": "RT @NYTimesPR: From @ReutersFacts: \"Image purporting to show New York Times opinion piece calling for teachers to ‘tolerate bullying toward…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:26.000Z",
+            "author_id": "2807929539",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474215039674433538"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471802181230606",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471802181230606",
+            "text": "It only took them three tries to get it right. \n\nAgain, bullying works! https://t.co/mbQAD9T8LC",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:24.000Z",
+            "author_id": "1415333341583265792",
+            "reply_settings": "everyone",
+            "conversation_id": "1474471793792622600",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 4,
+                "like_count": 7,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471793792622600",
+            "text": "my friends are bullying me because of how burned i like my marshmallows",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:20.000Z",
+            "author_id": "1329634390335483904",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474170115524550661"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471776331739146",
+            "public_metrics": {
+                "retweet_count": 1385,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471776331739146",
+            "text": "RT @APFactCheck: Twitter users are sharing a headline purporting to be from a New York Times opinion piece calling on teachers to permit bu…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:12.000Z",
+            "author_id": "1462487668583895042",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474452382905876483"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471742756163584",
+            "public_metrics": {
+                "retweet_count": 43,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471742756163584",
+            "text": "RT @dhritiiiiiiii: COLORS BE FAIR WITH PRATIK\n-shows love angles \n-who is more determined to win this show is sidelined\n-promotes bullying…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:09.000Z",
+            "author_id": "713382697008128000",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474453242062979074"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471728344535045",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471728344535045",
+            "text": "crazy how folks fall for that fake article and get super pissed about it and yet i don't see that same energy from them when real bullying and outright discrimination happens https://t.co/FXwk2VWd1n",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:08.000Z",
+            "author_id": "1240304731542532097",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474120049367695368"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471727111487488",
+            "public_metrics": {
+                "retweet_count": 1375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471727111487488",
+            "text": "RT @ReutersFacts: An image purporting to show a screenshot of an opinion piece published by the New York Times calling for teachers to “tol…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "1390276191999840257",
+            "created_at": "2021-12-24T20:07:07.000Z",
+            "author_id": "1186495965500497920",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471292804173824"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471292804173824",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471721784782848",
+            "text": "@jillygilliana Uuuuu we start bullying them now.. I love it 😂😂😂",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:07:05.000Z",
+            "author_id": "1454260872180764677",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474436153239429123"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471715514171392",
+            "public_metrics": {
+                "retweet_count": 19,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471715514171392",
+            "text": "RT @JariqaOde: \"This is a hands-free experience~\"\n\nTalked about bullying @marksthottwt so often that this was inevitable. Enjoy~\n(1/3) http…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "132660956",
+            "created_at": "2021-12-24T20:07:02.000Z",
+            "author_id": "169626752",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471314463285254"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471314463285254",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471699483709443",
+            "text": "@Nick_Pettigrew I can’t condone bullying at school, but he’s asking for it",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "352972298",
+            "created_at": "2021-12-24T20:07:00.000Z",
+            "author_id": "857590992",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471286625689608"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474458251563524100",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471693691281410",
+            "text": "@SibaMteza Of course he will.\nYou seem pretty good at bullying 😭.\n\nSo we’re straight.",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:56.000Z",
+            "author_id": "1273383752023113728",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474120049367695368"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471676318519304",
+            "public_metrics": {
+                "retweet_count": 1375,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474471676318519304",
+            "text": "RT @ReutersFacts: An image purporting to show a screenshot of an opinion piece published by the New York Times calling for teachers to “tol…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:48.000Z",
+            "author_id": "2740502877",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474463191115649032"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471641413570574",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474471641413570574",
+            "text": "Cancelo bullying worked and he didn't wear black 💃 https://t.co/gAjkMeKIyo",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:43.000Z",
+            "author_id": "842728074311618560",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474465833434951689"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471619087249413",
+            "public_metrics": {
+                "retweet_count": 22,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471619087249413",
+            "text": "RT @hellotraincat: Forget about this absolutely insane statement on artistry for a second and let’s all focus on how no Marvel actor or exe…",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:42.000Z",
+            "author_id": "1047021613617745927",
+            "reply_settings": "everyone",
+            "conversation_id": "1474471616222539776",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 11,
+                "like_count": 28,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471616222539776",
+            "text": "if you have a crush on rufus, he WILL put extra theatrics into eating you or squishing you or bullying you",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:39.000Z",
+            "author_id": "33919022",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474470709246283777"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471604516237313",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPad",
+            "id": "1474471604516237313",
+            "text": "RT @Evi1Geniu5: #ElfOnTheShelfToldSanta Can I live with you because they keep bullying me",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:39.000Z",
+            "author_id": "892576298039562242",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474438520483639303"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471604247748611",
+            "public_metrics": {
+                "retweet_count": 459,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471604247748611",
+            "text": "RT @Cybershell: I've heard from some of my fans about getting bullied at school for liking Sonic, I just want to say that this type of bull…",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "888296286977482753",
+            "created_at": "2021-12-24T20:06:38.000Z",
+            "author_id": "888296286977482753",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474471519078297606"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471519078297606",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 9,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474471602217754624",
+            "text": "he is just a little guy why are you bullying him!!! he make the funnie noise",
+            "lang": "en"
+        },
+        {
+            "in_reply_to_user_id": "215394809",
+            "created_at": "2021-12-24T20:06:34.000Z",
+            "author_id": "369899987",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474469725707112448"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474469725707112448",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474471583402106884",
+            "text": "@DaftLimmy Bullying a child on Christmas Eve.",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:34.000Z",
+            "author_id": "1275365647132884992",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474060790445527042"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471582550556673",
+            "public_metrics": {
+                "retweet_count": 16,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471582550556673",
+            "text": "RT @filmhllnd: and y’all would be bullying him like y’all do jake",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:29.000Z",
+            "author_id": "952417705",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474086814793224201"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471563118485504",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471563118485504",
+            "text": "This is bullying, not coaching. https://t.co/i1Of2aiSOc",
+            "lang": "en"
+        },
+        {
+            "created_at": "2021-12-24T20:06:25.000Z",
+            "author_id": "1253071101988687876",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474465583479488513"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474471546513207304",
+            "public_metrics": {
+                "retweet_count": 74,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474471546513207304",
+            "text": "RT @lizzo: People are bullying my dog on TikTok 😔 twitter be kind https://t.co/M7ZBdcHpTj",
+            "lang": "en"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "verified": false,
+                "created_at": "2013-09-22T06:41:49.000Z",
+                "name": "Nam",
+                "username": "gidwaninaman",
+                "id": "1892771791",
+                "public_metrics": {
+                    "followers_count": 175,
+                    "following_count": 616,
+                    "tweet_count": 3109,
+                    "listed_count": 2
+                },
+                "description": "movies"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-12-31T16:07:40.000Z",
+                "name": "Mist^🎓",
+                "username": "sann11e",
+                "id": "1079771075926544385",
+                "public_metrics": {
+                    "followers_count": 323,
+                    "following_count": 417,
+                    "tweet_count": 3619,
+                    "listed_count": 18
+                },
+                "description": "I-"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-01T00:08:43.000Z",
+                "name": "joey ✰",
+                "username": "hifamousfriend",
+                "id": "1366178461425958912",
+                "public_metrics": {
+                    "followers_count": 345,
+                    "following_count": 377,
+                    "tweet_count": 1037,
+                    "listed_count": 5
+                },
+                "description": "multi"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-04-27T02:07:19.000Z",
+                "name": "burberry mary",
+                "username": "ewwmary",
+                "id": "1383312042",
+                "public_metrics": {
+                    "followers_count": 1524,
+                    "following_count": 554,
+                    "tweet_count": 11880,
+                    "listed_count": 6
+                },
+                "description": "aquarius sun, pisces moon, virgo rising"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-02-10T02:51:32.000Z",
+                "name": "John #ProtectThackerPass",
+                "username": "Johnnthelefty",
+                "id": "829885482196561921",
+                "public_metrics": {
+                    "followers_count": 12390,
+                    "following_count": 1927,
+                    "tweet_count": 18037,
+                    "listed_count": 152
+                },
+                "description": "Research & Report on right wing extremism, citizen journalist covering protests, photographer, activist, non-conformist and critical thinker."
+            },
+            {
+                "verified": false,
+                "created_at": "2019-09-30T16:40:26.000Z",
+                "name": "Somari 💙 - Almond (Hint of Honey)",
+                "username": "somari8591",
+                "id": "1178711182024175616",
+                "public_metrics": {
+                    "followers_count": 966,
+                    "following_count": 3468,
+                    "tweet_count": 168351,
+                    "listed_count": 8
+                },
+                "description": "Autistic Bisexual :3 (BLM bitches)\nhmu for that discord server (#Somari5510)\n💙💙💙@Bird47104840💙💙💙"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-02-08T15:07:59.000Z",
+                "name": "STERN FAN GIRL",
+                "username": "SternFanGirl",
+                "id": "249183323",
+                "public_metrics": {
+                    "followers_count": 2873,
+                    "following_count": 2114,
+                    "tweet_count": 23030,
+                    "listed_count": 47
+                },
+                "description": "@HowardStern superfan, nature geek, football obsessed #Seahawks #Lions #GOBUCKS! I once had dinner w/@jdharm & @shalomshuli."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-05-01T23:45:53.000Z",
+                "name": "BIG092 ﾒ𝔬",
+                "username": "BIG092Ye",
+                "id": "1388640812402151431",
+                "public_metrics": {
+                    "followers_count": 137,
+                    "following_count": 276,
+                    "tweet_count": 3457,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-28T20:21:37.000Z",
+                "name": "Dangerfield Newby's Journal",
+                "username": "DNewbysjournal",
+                "id": "1420479401465192450",
+                "public_metrics": {
+                    "followers_count": 70,
+                    "following_count": 237,
+                    "tweet_count": 1079,
+                    "listed_count": 0
+                },
+                "description": "Posthumous Journal of D. Newby, as related to his humble instrument: educator, crime novelist"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-03-06T05:57:18.000Z",
+                "name": "Lawrence Forbes Jr",
+                "username": "LawrenceForbe16",
+                "id": "1235806578718081026",
+                "public_metrics": {
+                    "followers_count": 787,
+                    "following_count": 1044,
+                    "tweet_count": 10505,
+                    "listed_count": 6
+                },
+                "description": "Thinkn in The Land O Lincoln"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-12-08T03:17:21.000Z",
+                "name": "Percules🥷🏽💫",
+                "username": "RixhNoQuann",
+                "id": "2922221046",
+                "public_metrics": {
+                    "followers_count": 231,
+                    "following_count": 103,
+                    "tweet_count": 8504,
+                    "listed_count": 0
+                },
+                "description": "10/28♏️| IG @rixhnoquanfr | #apercadaykeepsthedemonsaway"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-10-25T18:22:58.000Z",
+                "name": "miruu lvs mari ★ | (📚)",
+                "username": "jkt0wn",
+                "id": "1320430597257515009",
+                "public_metrics": {
+                    "followers_count": 1949,
+                    "following_count": 2319,
+                    "tweet_count": 21061,
+                    "listed_count": 5
+                },
+                "description": "• › 𝗯𝗮𝗻𝗴𝘁𝗮𝗻 with you i finally see the light shine and the fog is gone. be my solar ray that i will accompany you to the happy ending. 방탄소년단 ♡ @BTS_twt"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-11T14:49:32.000Z",
+                "name": "Re lvs koo★ ♥︎ 탄. 𝐛𝐚𝐧𝐠𝐭𝐚𝐧 ! ⩩ ִֶָ",
+                "username": "rhgkoo06",
+                "id": "1259857917504872450",
+                "public_metrics": {
+                    "followers_count": 2630,
+                    "following_count": 4801,
+                    "tweet_count": 34090,
+                    "listed_count": 7
+                },
+                "description": "♡ᵎ  # BTS 𝘮𝘢𝘬𝘦𝘴 𝘮𝘦 𝘩𝘢𝘱𝘱𝘺 𝘦𝘷𝘦𝘳𝘺𝘥𝘢𝘺 🏹 \n정국 : 𝑎 𝑔𝑜𝑙𝑑𝑒𝑛 𝑏𝑜𝑦 𝑤𝑖𝑡𝘩 𝑎 𝑔𝑜𝑙𝑑𝑒\n\n\n\n\n\n\n✦ 포옹하고 싶어 𝐦𝐲 𝐰𝐢𝐧𝐭𝐞𝐫 𝐛𝐞𝐚𝐫  🧸 ❜   "
+            },
+            {
+                "verified": false,
+                "created_at": "2009-03-15T16:32:22.000Z",
+                "name": "Rich Gupta",
+                "username": "rkgs11",
+                "id": "24545904",
+                "public_metrics": {
+                    "followers_count": 446,
+                    "following_count": 652,
+                    "tweet_count": 480,
+                    "listed_count": 52
+                },
+                "description": "CEO, Board member, Crypto, Blockchain, Fintech, Healthtech"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-11-11T02:33:13.000Z",
+                "name": "Ana",
+                "username": "musiclover1909",
+                "id": "2187545648",
+                "public_metrics": {
+                    "followers_count": 510,
+                    "following_count": 1458,
+                    "tweet_count": 163528,
+                    "listed_count": 21
+                },
+                "description": "19 | she(?)/they | cashapp: analovesmusic"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-11-02T18:36:49.000Z",
+                "name": "█▓▒░",
+                "username": "PencilVoid",
+                "id": "926156155277266946",
+                "public_metrics": {
+                    "followers_count": 380,
+                    "following_count": 3859,
+                    "tweet_count": 84247,
+                    "listed_count": 5
+                },
+                "description": "name’s hydra ¦ art @SPACEST4TI0N3RY ¦ retweet hell below"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-01-09T19:59:06.000Z",
+                "name": "Heretic",
+                "username": "muthafnstargrl",
+                "id": "950819237198811136",
+                "public_metrics": {
+                    "followers_count": 561,
+                    "following_count": 403,
+                    "tweet_count": 9886,
+                    "listed_count": 1
+                },
+                "description": "“If you find this world bad, you should see some of the others.”~P.K.Dick"
+            },
+            {
+                "verified": false,
+                "created_at": "2007-04-22T19:27:27.000Z",
+                "name": "Mandahl",
+                "username": "Mandahl",
+                "id": "5409972",
+                "public_metrics": {
+                    "followers_count": 1042,
+                    "following_count": 4369,
+                    "tweet_count": 204947,
+                    "listed_count": 103
+                },
+                "description": "Cloud traveler, poet"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-01-16T17:32:33.000Z",
+                "name": "I'm the messenger. Fire away!",
+                "username": "bmc875",
+                "id": "19076408",
+                "public_metrics": {
+                    "followers_count": 5868,
+                    "following_count": 4935,
+                    "tweet_count": 273535,
+                    "listed_count": 51
+                },
+                "description": "The original Brian McCulloch. Determined to see a free and prosperous Scotland."
+            },
+            {
+                "verified": false,
+                "created_at": "2010-05-04T16:16:31.000Z",
+                "name": "Will Buxton",
+                "username": "willbxtn",
+                "id": "140109615",
+                "public_metrics": {
+                    "followers_count": 239,
+                    "following_count": 2365,
+                    "tweet_count": 9109,
+                    "listed_count": 1
+                },
+                "description": "Dad, Spurs fan, beer enthusiast. Pub quiz mercenary but love them - help! Poxy Southerner. Annoying Lefty-Liberal type."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-27T13:03:42.000Z",
+                "name": "soph",
+                "username": "louiciouss",
+                "id": "1265629705593597953",
+                "public_metrics": {
+                    "followers_count": 817,
+                    "following_count": 475,
+                    "tweet_count": 43908,
+                    "listed_count": 25
+                },
+                "description": "louis! just louis!...... and mel"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-03-30T23:03:18.000Z",
+                "name": "✨Dee✨",
+                "username": "iAmDeeObsession",
+                "id": "274731376",
+                "public_metrics": {
+                    "followers_count": 916,
+                    "following_count": 886,
+                    "tweet_count": 101584,
+                    "listed_count": 2
+                },
+                "description": "*insert something cute & memorable here* https://t.co/GUscyamc7q"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-08-09T23:00:23.000Z",
+                "name": "Crow's Eye",
+                "username": "Legace_",
+                "id": "748111292",
+                "public_metrics": {
+                    "followers_count": 1758,
+                    "following_count": 1207,
+                    "tweet_count": 287199,
+                    "listed_count": 8
+                },
+                "description": "'Irene Adler is dead. Call me Bond, James Bond' . #Santa13 @LFC #MIAbaga #Wretch32 #EL"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-09-12T06:08:22.000Z",
+                "name": "We Are NIM - Highly Problematic Data Witch 🧙‍♀️",
+                "username": "WeAreNIM",
+                "id": "1172029011406381056",
+                "public_metrics": {
+                    "followers_count": 400,
+                    "following_count": 980,
+                    "tweet_count": 14641,
+                    "listed_count": 0
+                },
+                "description": "#gamedev veteran, #indiedev hobbyist, black cats, trans brat, opinions aren't facts\n\nNo Gods or Kings ⸸ We Are Machines\n#ActuallyAutistic Non-binary Trans-femme"
+            },
+            {
+                "verified": true,
+                "created_at": "2008-07-31T03:43:16.000Z",
+                "name": "Windows",
+                "username": "Windows",
+                "id": "15670515",
+                "public_metrics": {
+                    "followers_count": 6756346,
+                    "following_count": 1345,
+                    "tweet_count": 364587,
+                    "listed_count": 20065
+                },
+                "description": "Brings you closer to what you love."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-06-10T04:05:43.000Z",
+                "name": "Jela Dior @ Quarantine💗",
+                "username": "Jeladiorr",
+                "id": "1402839306608254976",
+                "public_metrics": {
+                    "followers_count": 161,
+                    "following_count": 168,
+                    "tweet_count": 2999,
+                    "listed_count": 0
+                },
+                "description": "Bc Nicki💕 (Jay•La) She/Her🇭🇹 Pan🏳️‍🌈 @lisaalewinsky ❤️"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-01-20T00:06:11.000Z",
+                "name": "Chelly Chel",
+                "username": "CheldonWest",
+                "id": "240459037",
+                "public_metrics": {
+                    "followers_count": 752,
+                    "following_count": 341,
+                    "tweet_count": 17474,
+                    "listed_count": 11
+                },
+                "description": "You can be anything you want, except me. You can't be me.®"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-04-16T23:16:57.000Z",
+                "name": "IrishScreenwriterInCali",
+                "username": "IrishScripter",
+                "id": "1383197702075215875",
+                "public_metrics": {
+                    "followers_count": 152,
+                    "following_count": 5003,
+                    "tweet_count": 17632,
+                    "listed_count": 0
+                },
+                "description": "Back from the dead like a Romero zombie"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-10-13T23:32:58.000Z",
+                "name": "Wendy Wortham",
+                "username": "texastwins2",
+                "id": "390424081",
+                "public_metrics": {
+                    "followers_count": 19046,
+                    "following_count": 19395,
+                    "tweet_count": 173349,
+                    "listed_count": 1033
+                },
+                "description": "#TexasTwinsEvents #TDCJOfficiant #TexasTwinsTV #ThePawningPlanners #PrisonWeddings  #WendyWortham https://t.co/LyiDJXDbAi"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-11-09T14:29:30.000Z",
+                "name": "Live Harmless Reptile",
+                "username": "nekomance",
+                "id": "796359059511320577",
+                "public_metrics": {
+                    "followers_count": 226,
+                    "following_count": 378,
+                    "tweet_count": 11262,
+                    "listed_count": 2
+                },
+                "description": "fairy type enjoyer 🌸 pfp : @moggiedelight 💕 i cosplay but mostly post it on ig! ⬇️"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-10-01T02:54:32.000Z",
+                "name": "Dolphin Riot",
+                "username": "dolphinriot",
+                "id": "78783253",
+                "public_metrics": {
+                    "followers_count": 1256,
+                    "following_count": 469,
+                    "tweet_count": 76185,
+                    "listed_count": 33
+                },
+                "description": "➡ Downtown Losers: https://t.co/Xw3MPqY3NP\n// Escribo en @Rock_Bottom_Mag // Podcast de 'Los Riots', con\n@msflores4th ➡ https://t.co/ilZQlbXEkt"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-06-10T05:13:57.000Z",
+                "name": "Odin",
+                "username": "Odinseer",
+                "id": "741136296047980544",
+                "public_metrics": {
+                    "followers_count": 186,
+                    "following_count": 1852,
+                    "tweet_count": 17848,
+                    "listed_count": 1
+                },
+                "description": "21. Melee Nothing with too many secondaries, P+ something, Prepare for lots of retweets."
+            },
+            {
+                "verified": false,
+                "created_at": "2010-01-08T09:51:55.000Z",
+                "name": "Kris Troske",
+                "username": "krist117",
+                "id": "102941337",
+                "public_metrics": {
+                    "followers_count": 1232,
+                    "following_count": 1748,
+                    "tweet_count": 96212,
+                    "listed_count": 1
+                },
+                "description": "@missmalevolent just called me a slut for supporting abortion rights. I couldn’t be prouder."
+            },
+            {
+                "verified": false,
+                "created_at": "2014-02-01T03:11:41.000Z",
+                "name": "Morgue-an",
+                "username": "MorganL666",
+                "id": "2321682552",
+                "public_metrics": {
+                    "followers_count": 532,
+                    "following_count": 637,
+                    "tweet_count": 177155,
+                    "listed_count": 4
+                },
+                "description": "Sexual deviant, neurodivergent, genderfuck. Tweeting my way through self care. Chronically ill. 27\nAntichrist.\nPronouns: they/them/themself"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-07-12T16:21:24.000Z",
+                "name": "The protagonist( idoma son)",
+                "username": "Benjaminpeter3",
+                "id": "633935019",
+                "public_metrics": {
+                    "followers_count": 1867,
+                    "following_count": 1888,
+                    "tweet_count": 7392,
+                    "listed_count": 1
+                },
+                "description": "A humanitarian/developmentalist. PROGRAM AREAS\n---➡️\nmalaria, ECD, PET, OVC programming, PHC system strengthening and SEAH"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-06-03T12:22:36.000Z",
+                "name": "komzy 🌹💙🖤",
+                "username": "komzyyyyyy",
+                "id": "738707454029094912",
+                "public_metrics": {
+                    "followers_count": 6789,
+                    "following_count": 6254,
+                    "tweet_count": 3471,
+                    "listed_count": 1
+                },
+                "description": "Hospitality consultant. Foodie. Baker. Script writer. Story teller"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-04-25T20:35:13.000Z",
+                "name": "Mark Dominic",
+                "username": "Mark45dominic",
+                "id": "856969871023890433",
+                "public_metrics": {
+                    "followers_count": 3220,
+                    "following_count": 4979,
+                    "tweet_count": 378414,
+                    "listed_count": 31
+                },
+                "description": "#iot #digital #ai #Data #jewish #Geopolitics #technology  #Israel  #breaking  #cybercrime  #robot #indopacific #military #AI \nmy account bkup @mark45Dominic2"
+            },
+            {
+                "verified": true,
+                "created_at": "2011-07-08T08:48:19.000Z",
+                "name": "Bridgewater NHS",
+                "username": "Bridgewater_NHS",
+                "id": "331509925",
+                "public_metrics": {
+                    "followers_count": 8234,
+                    "following_count": 360,
+                    "tweet_count": 24782,
+                    "listed_count": 200
+                },
+                "description": "Bridgewater Community Healthcare NHS Foundation Trust provides community #NHS #health services to areas of the North West. Mon-Fri 9am-5pm. 🌈#TeamBridgewater."
+            },
+            {
+                "verified": false,
+                "created_at": "2011-07-15T03:46:09.000Z",
+                "name": "King Dante 💮",
+                "username": "thatkidspence",
+                "id": "335717747",
+                "public_metrics": {
+                    "followers_count": 988,
+                    "following_count": 825,
+                    "tweet_count": 178600,
+                    "listed_count": 6
+                },
+                "description": "IG/SC: thatkidspence l Word is Bond l 🇯🇲🇬🇭"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-03-27T08:06:53.000Z",
+                "name": "⋂ 𝚘",
+                "username": "vilifiedfakecel",
+                "id": "978543868135202816",
+                "public_metrics": {
+                    "followers_count": 114,
+                    "following_count": 400,
+                    "tweet_count": 896,
+                    "listed_count": 1
+                },
+                "description": "🥛"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-05-20T04:22:28.000Z",
+                "name": "Colleen MCK",
+                "username": "colleenmmck618",
+                "id": "865784763994341376",
+                "public_metrics": {
+                    "followers_count": 1605,
+                    "following_count": 2617,
+                    "tweet_count": 294309,
+                    "listed_count": 6
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2015-02-06T00:11:46.000Z",
+                "name": "Matri.",
+                "username": "Matri_Gems",
+                "id": "3020784370",
+                "public_metrics": {
+                    "followers_count": 298,
+                    "following_count": 354,
+                    "tweet_count": 8368,
+                    "listed_count": 3
+                },
+                "description": "dedicated to #PokemonUnite || Pokemon VGC"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-09-21T04:35:06.000Z",
+                "name": "TsuraiDragon",
+                "username": "DragonTsurai",
+                "id": "1175267127575613441",
+                "public_metrics": {
+                    "followers_count": 251,
+                    "following_count": 1111,
+                    "tweet_count": 19955,
+                    "listed_count": 1
+                },
+                "description": "just an novice Christian 3D Animator post work in progress of Pokémon and dragon animations 🙃"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-09-03T16:31:47.000Z",
+                "name": "laz",
+                "username": "fallforIeigh",
+                "id": "904381420096942080",
+                "public_metrics": {
+                    "followers_count": 430,
+                    "following_count": 441,
+                    "tweet_count": 11952,
+                    "listed_count": 3
+                },
+                "description": "16 | Little Mix mashups on my yt 😘\nhttps://t.co/ysM3vm35sn"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-01-23T20:30:47.000Z",
+                "name": "Dr Christine Gaffney",
+                "username": "DrChristineGaf1",
+                "id": "1353077599178645506",
+                "public_metrics": {
+                    "followers_count": 688,
+                    "following_count": 1374,
+                    "tweet_count": 3667,
+                    "listed_count": 0
+                },
+                "description": "Irish Feminist.\nCo-founder of the Irish Women's Lobby\n@Irish_WL\nCampaigning to protect sex-based rights"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-04-20T01:52:36.000Z",
+                "name": "The Mundy Sea",
+                "username": "wand_of_gamelon",
+                "id": "3164641406",
+                "public_metrics": {
+                    "followers_count": 376,
+                    "following_count": 75,
+                    "tweet_count": 82168,
+                    "listed_count": 3
+                },
+                "description": "CD-i Nintendo and moth apologist. Profile pic by @usbfig"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-07-19T23:56:33.000Z",
+                "name": "👑",
+                "username": "ChrisEvindi",
+                "id": "706025400",
+                "public_metrics": {
+                    "followers_count": 2245,
+                    "following_count": 300,
+                    "tweet_count": 238761,
+                    "listed_count": 77
+                },
+                "description": "Figure out. #HalaMadrid"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-08T04:46:39.000Z",
+                "name": "Bitchington Whoreworth.",
+                "username": "snzzbby",
+                "id": "1435464443455021058",
+                "public_metrics": {
+                    "followers_count": 127,
+                    "following_count": 129,
+                    "tweet_count": 2228,
+                    "listed_count": 0
+                },
+                "description": "the executive producer, bitch, rest in peace. \nmusician. rudest little Leo. 🦄 hacked once, kicked off twice. triple nap, like you bitches' kitchens."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-03T16:48:30.000Z",
+                "name": "Devil Anse",
+                "username": "DEVlL_ANSE",
+                "id": "1357007966335954944",
+                "public_metrics": {
+                    "followers_count": 342,
+                    "following_count": 591,
+                    "tweet_count": 4991,
+                    "listed_count": 2
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2020-01-12T17:38:51.000Z",
+                "name": "Janice",
+                "username": "JaniceCantSpell",
+                "id": "1216414215843520512",
+                "public_metrics": {
+                    "followers_count": 432,
+                    "following_count": 657,
+                    "tweet_count": 7553,
+                    "listed_count": 7
+                },
+                "description": "- - Sneeg memer by day, MILF hunter by night\n\n♤\n   \n° 19  They/Them ° Lesbian ° Sneegsnag Mod °\n\n\npfp: @Z00lea"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-01-21T17:32:59.000Z",
+                "name": "Sket Dan",
+                "username": "officialsketdan",
+                "id": "470354195",
+                "public_metrics": {
+                    "followers_count": 196,
+                    "following_count": 0,
+                    "tweet_count": 73181,
+                    "listed_count": 1
+                },
+                "description": "Support-Kindness-Encourage-Troubleshoot. Bossun, Himeko and Switch, ready to help! [status: inactive]"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-09-29T18:57:35.000Z",
+                "name": "gio ෂ",
+                "username": "s0uldreaming",
+                "id": "1311017258173583363",
+                "public_metrics": {
+                    "followers_count": 250,
+                    "following_count": 577,
+                    "tweet_count": 6004,
+                    "listed_count": 0
+                },
+                "description": "d/ela"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-06-23T18:03:37.000Z",
+                "name": "João Cabron",
+                "username": "CabronJoao",
+                "id": "1407761225908424705",
+                "public_metrics": {
+                    "followers_count": 44,
+                    "following_count": 233,
+                    "tweet_count": 426,
+                    "listed_count": 0
+                },
+                "description": "Sempre fui hétero e gostei de garotas, mas esse Neymar desperta algo em mim que nunca senti com outros caras, eu seria capaz de experimentar tudo com ele."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-12-09T22:21:29.000Z",
+                "name": "BadshahPratik",
+                "username": "MRuby0628",
+                "id": "1469069673308303372",
+                "public_metrics": {
+                    "followers_count": 61,
+                    "following_count": 84,
+                    "tweet_count": 10924,
+                    "listed_count": 0
+                },
+                "description": "Pratik Bio - Ashique bhi hu...katil bhi hu..sabke dilon me shamil bhi hu..\n#BadshahPratik #PratikSehajpal #BBKingPratik (Pratik Fan)"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-04-15T21:24:32.000Z",
+                "name": "twat face",
+                "username": "cowgirlcvnt",
+                "id": "1250535383533748226",
+                "public_metrics": {
+                    "followers_count": 2181,
+                    "following_count": 1607,
+                    "tweet_count": 42628,
+                    "listed_count": 22
+                },
+                "description": "pretentious asshole ︎☠︎ ︎pee pee @filmarthurguy"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-22T21:28:33.000Z",
+                "name": "arthur/warren/milo",
+                "username": "filmarthurguy",
+                "id": "1374110736667004934",
+                "public_metrics": {
+                    "followers_count": 1233,
+                    "following_count": 1076,
+                    "tweet_count": 29538,
+                    "listed_count": 24
+                },
+                "description": "i almost only watch horror (cw for gore/blood/sometimes nsfw) poo poo @cowgirlcvnt"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-12-23T13:25:25.000Z",
+                "name": "(((Barak)))",
+                "username": "lawnerdbarak",
+                "id": "98879145",
+                "public_metrics": {
+                    "followers_count": 732,
+                    "following_count": 356,
+                    "tweet_count": 104177,
+                    "listed_count": 10
+                },
+                "description": "Make Nazis Afraid Again. he/him."
+            },
+            {
+                "verified": true,
+                "created_at": "2011-04-14T04:25:41.000Z",
+                "name": "Noah Smith 🐇",
+                "username": "Noahpinion",
+                "id": "281877818",
+                "public_metrics": {
+                    "followers_count": 229369,
+                    "following_count": 1023,
+                    "tweet_count": 334195,
+                    "listed_count": 4804
+                },
+                "description": "Writes about economics, tweets about rabbits.\n\nCheck out my Substack: https://t.co/DVCTF3obvl"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-10-28T04:20:03.000Z",
+                "name": "The Hero of Three Faces - BLM",
+                "username": "HeroOf3Faces",
+                "id": "85742010",
+                "public_metrics": {
+                    "followers_count": 312,
+                    "following_count": 542,
+                    "tweet_count": 30813,
+                    "listed_count": 33
+                },
+                "description": "Fanfiction, but it's a comic  strip with stick figures, but they're triangles. Also did @AKOTAS. he/him, 12 years old since 1971"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-07-25T02:01:45.000Z",
+                "name": "David A. Rozansky",
+                "username": "scifichat",
+                "id": "59950183",
+                "public_metrics": {
+                    "followers_count": 974,
+                    "following_count": 38,
+                    "tweet_count": 10420,
+                    "listed_count": 192
+                },
+                "description": "Anchor of #SciFiChat. Moderator: @DavidRozansky. Next: Fri, Sept. 9, 3-5pET. Topic: Bloodbowl, or Sports in Fantasy and SciFi. On channel 2: #SciFiChat2"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-31T12:04:33.000Z",
+                "name": "mya",
+                "username": "dteamie",
+                "id": "1289170045935943680",
+                "public_metrics": {
+                    "followers_count": 634,
+                    "following_count": 385,
+                    "tweet_count": 16777,
+                    "listed_count": 19
+                },
+                "description": "she said she liked wilbur soot so i became her new boyfriend"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-02-24T14:37:23.000Z",
+                "name": "niki",
+                "username": "pingwjnki",
+                "id": "1099679688346296320",
+                "public_metrics": {
+                    "followers_count": 36,
+                    "following_count": 40,
+                    "tweet_count": 1473,
+                    "listed_count": 0
+                },
+                "description": "no school. no works. just meow meow."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-17T06:17:20.000Z",
+                "name": "Devilish angel",
+                "username": "Devilis_angel9",
+                "id": "1427514742847860736",
+                "public_metrics": {
+                    "followers_count": 337,
+                    "following_count": 5001,
+                    "tweet_count": 56564,
+                    "listed_count": 1
+                },
+                "description": "Hay👋|I’m 18|🏳️‍🌈|and I’m just here to explore. Follow at your own risk. 🔞(mostly) But I will be kind💜|@ChilDavedemon Bf| @MindsTraveling is my sfw|"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-21T16:32:20.000Z",
+                "name": "I Don't Pay 4 NFT's",
+                "username": "TMcgrathlong",
+                "id": "1263507849885495296",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 97,
+                    "tweet_count": 7310,
+                    "listed_count": 0
+                },
+                "description": "Axl low main\nSleep deprived\nPansexual \nhe/him (as far as you know ^×^)\nPaying 4 NFTS is cringe"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-12-20T06:30:03.000Z",
+                "name": "TomTom80",
+                "username": "Tommer701",
+                "id": "1075639448619098112",
+                "public_metrics": {
+                    "followers_count": 280,
+                    "following_count": 968,
+                    "tweet_count": 22883,
+                    "listed_count": 3
+                },
+                "description": "Hi, i Love ABDL; Age-Play; Chastity; Latex; Chubby Woman; Shemale, TS, Sissy and Crossdresser\n\nI'm 40 and come from Germany 🇩🇪 near Rostock (Baltic Sea)"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-03-25T15:11:03.000Z",
+                "name": "🅂🄰🄺🅄🅁🄰🄽🄴 🐈‍⬛",
+                "username": "XinguIarity",
+                "id": "713382697008128000",
+                "public_metrics": {
+                    "followers_count": 346,
+                    "following_count": 498,
+                    "tweet_count": 91938,
+                    "listed_count": 3
+                },
+                "description": "🐈‍⬛ᴇᴠᴇʀʏ ɴɪɢʜᴛ ɪ ʟɪᴇ ɪɴ ᴍʏ ʙᴇᴅ, ᴛʀʏɪɴɢ ᴛᴏ ᴇꜱᴄᴀᴘᴇ ꜰʀᴏᴍ ᴍʏ ʜᴇᴀᴅ. 🐈‍⬛ | 20 | ꜱʜᴇ/ʜᴇʀ 🏳️‍⚧️ | 🇵🇭🇨🇳 | (ᴀʀᴛ ᴀᴄᴄᴏᴜɴᴛ: @XinraCorp)"
+            },
+            {
+                "verified": true,
+                "created_at": "2011-06-01T06:30:31.000Z",
+                "name": "Ali Swenson",
+                "username": "AliSwenson",
+                "id": "308915052",
+                "public_metrics": {
+                    "followers_count": 1311,
+                    "following_count": 1079,
+                    "tweet_count": 2033,
+                    "listed_count": 28
+                },
+                "description": "Misinfo/fact-checking reporter @AP. Probably talking about coffee. Definitely drinking it."
+            },
+            {
+                "verified": false,
+                "created_at": "2016-12-22T12:46:07.000Z",
+                "name": "the evil mr. dark ★",
+                "username": "candy_chateau",
+                "id": "811915720254779393",
+                "public_metrics": {
+                    "followers_count": 737,
+                    "following_count": 4398,
+                    "tweet_count": 49103,
+                    "listed_count": 4
+                },
+                "description": "🏳️‍⚧️he/they・19・read link byf\n⚠️CW 🎩×🔥×🇬🇧×🇫🇷\n📔talk→@jung_rhythm\n\nmagician is my husband & i draw him a lot.\nplay ar tonelico 1+2.\n\nbanner: @citronrat"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-08-24T09:28:39.000Z",
+                "name": "BR",
+                "username": "raj65025523",
+                "id": "1032922624890994689",
+                "public_metrics": {
+                    "followers_count": 1245,
+                    "following_count": 1056,
+                    "tweet_count": 220906,
+                    "listed_count": 5
+                },
+                "description": "Mental Health and Wellbeing Supporter! encouraging to create healing gardens for oneself! Fighting Oppression and Tyranny? Never complicit in silence!"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-02-27T05:00:49.000Z",
+                "name": "Alex Brown 🐀 (they/them)",
+                "username": "QueenOfRats",
+                "id": "22109714",
+                "public_metrics": {
+                    "followers_count": 6389,
+                    "following_count": 738,
+                    "tweet_count": 111087,
+                    "listed_count": 129
+                },
+                "description": "librarian, historian, author, TorDotCom & Locus reviewer, Ignyte award-winning critic - genderqueer, ace/aro, biracial Black\n\nprofile @cabezadealteza"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-12-28T22:19:24.000Z",
+                "name": ".",
+                "username": "buiIdcastles",
+                "id": "1043277458",
+                "public_metrics": {
+                    "followers_count": 2408,
+                    "following_count": 338,
+                    "tweet_count": 59448,
+                    "listed_count": 35
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-08T23:12:44.000Z",
+                "name": "zero !",
+                "username": "zzerocrownzz",
+                "id": "1358916641069883393",
+                "public_metrics": {
+                    "followers_count": 674,
+                    "following_count": 439,
+                    "tweet_count": 8373,
+                    "listed_count": 27
+                },
+                "description": "#batstwt || follow here and on twitch ;) || pfp by @pumpkinnnppie"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-04-21T11:11:02.000Z",
+                "name": "Happy Validays ♡ Heathers Brainrot RN",
+                "username": "Valke_Art",
+                "id": "1252555349607026688",
+                "public_metrics": {
+                    "followers_count": 26,
+                    "following_count": 91,
+                    "tweet_count": 90,
+                    "listed_count": 0
+                },
+                "description": "Val || LGBTQ+ || 18+ || Artist and Mod for @PurgatorySMP || I’m trying my best || I also play Genshin (AR55) and Horror Games"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-06-21T01:08:32.000Z",
+                "name": "Susan DeAngelis",
+                "username": "Susanangel1234",
+                "id": "3251113148",
+                "public_metrics": {
+                    "followers_count": 46,
+                    "following_count": 356,
+                    "tweet_count": 689,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-06T13:14:42.000Z",
+                "name": "Arise NJ",
+                "username": "arise_nj",
+                "id": "1368188223529381891",
+                "public_metrics": {
+                    "followers_count": 861,
+                    "following_count": 54,
+                    "tweet_count": 211,
+                    "listed_count": 1
+                },
+                "description": "Citizens for better education. Be active, Be involved. We can show you how."
+            },
+            {
+                "verified": false,
+                "created_at": "2014-09-01T15:16:30.000Z",
+                "name": "Fucked Up Wizard Nik | BLM",
+                "username": "nik_hass16",
+                "id": "2758304476",
+                "public_metrics": {
+                    "followers_count": 103,
+                    "following_count": 1819,
+                    "tweet_count": 93050,
+                    "listed_count": 2
+                },
+                "description": "21 | he/they | biromantic asexual | I have an art twitter | time to get lost in the sauce"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-04-26T23:44:38.000Z",
+                "name": "Geenan🥰",
+                "username": "hamza31230007",
+                "id": "1386828032745394180",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 3,
+                    "tweet_count": 9,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2016-03-06T09:31:40.000Z",
+                "name": "ً",
+                "username": "automaetopia",
+                "id": "706411916835557376",
+                "public_metrics": {
+                    "followers_count": 980,
+                    "following_count": 497,
+                    "tweet_count": 46808,
+                    "listed_count": 4
+                },
+                "description": "diaries deserved to be closed, this account is powered by “intrusive thoughts”."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-09T23:25:01.000Z",
+                "name": "Zubar",
+                "username": "ImmaKKKmember",
+                "id": "1446980001069473792",
+                "public_metrics": {
+                    "followers_count": 1154,
+                    "following_count": 798,
+                    "tweet_count": 7428,
+                    "listed_count": 3
+                },
+                "description": "I wake up and touch my dick to remind myself who the hardest out here ---- Pia Cousin -- RIP JGunz"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-09-03T23:51:33.000Z",
+                "name": "#primalscreamgrammy",
+                "username": "mary_swilling",
+                "id": "1727008657",
+                "public_metrics": {
+                    "followers_count": 17304,
+                    "following_count": 18521,
+                    "tweet_count": 544758,
+                    "listed_count": 346
+                },
+                "description": "Grammy, atheist, historian, Married 48yrs, Marine's daughter, Postcards-to-voters.\nUnderestimate DEMOCRATS, that'll be fun!"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-05T20:31:13.000Z",
+                "name": "KEATON",
+                "username": "SAINTOLIC",
+                "id": "1434615078150619136",
+                "public_metrics": {
+                    "followers_count": 274,
+                    "following_count": 169,
+                    "tweet_count": 1383,
+                    "listed_count": 15
+                },
+                "description": "⠀⠀ ⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀ ⠀⠀ ⠀⠀⠀ ⠀⠀ ⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀ ⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀ ⠀⠀ ⠀⠀ ⠀⠀⠀ ⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀⠀ ⠀⠀ ⠀⠀ ⠀ ⠀⠀ ⠀⠀ ⠀ ⠀⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀ ⠀ ⠀⠀"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-05-27T12:27:12.000Z",
+                "name": "ia.",
+                "username": "VILEFALLACY",
+                "id": "1397891995503411200",
+                "public_metrics": {
+                    "followers_count": 223,
+                    "following_count": 90,
+                    "tweet_count": 379,
+                    "listed_count": 5
+                },
+                "description": "ㅤㅤ\nㅤ⠀ ⠀  ㅤ ㅤ ⠀ ㅤ ⠀ ⠀  ㅤㅤㅤㅤㅤㅤ\n  ⠀ ⠀  ⠀ ⠀   ⠀ ⠀  ⠀ㅤㅤㅤㅤㅤㅤㅤ ⠀  \nㅤㅤㅤㅤ"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-12-19T23:24:21.000Z",
+                "name": "KNoel",
+                "username": "KNoel714",
+                "id": "2932756707",
+                "public_metrics": {
+                    "followers_count": 489,
+                    "following_count": 2494,
+                    "tweet_count": 17013,
+                    "listed_count": 2
+                },
+                "description": "🇺🇸\nDogs are better than people.🐶 ❤💙"
+            },
+            {
+                "verified": true,
+                "created_at": "2007-03-17T19:01:26.000Z",
+                "name": "Fox News",
+                "username": "FoxNews",
+                "id": "1367531",
+                "public_metrics": {
+                    "followers_count": 20519282,
+                    "following_count": 264,
+                    "tweet_count": 443876,
+                    "listed_count": 69976
+                },
+                "description": "Follow America's #1 cable news network, delivering you breaking news, insightful analysis, and must-see videos. https://t.co/sXA1eVB5Gv"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-03-03T17:46:08.000Z",
+                "name": "Iron Joe - Ashley for whatever game can have her",
+                "username": "IronJoeBro",
+                "id": "1239457963",
+                "public_metrics": {
+                    "followers_count": 728,
+                    "following_count": 3035,
+                    "tweet_count": 76553,
+                    "listed_count": 4
+                },
+                "description": "He/him. Point those out if you stink. Wario’s pretty cool. Avatar by @SirDusterBuster. CatDog/Octodad main"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-03T16:57:58.000Z",
+                "name": "Manuhe",
+                "username": "Ariealmanuhe",
+                "id": "1433836637927186433",
+                "public_metrics": {
+                    "followers_count": 161,
+                    "following_count": 583,
+                    "tweet_count": 6469,
+                    "listed_count": 0
+                },
+                "description": "ETHIOPIA PREVAILS!"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-01-22T02:43:44.000Z",
+                "name": "❄️🎄Cooper is Drinking Cocoa with Amy🎄❄️",
+                "username": "xdCallMeCooper",
+                "id": "1219812818104483840",
+                "public_metrics": {
+                    "followers_count": 614,
+                    "following_count": 772,
+                    "tweet_count": 37058,
+                    "listed_count": 14
+                },
+                "description": "✨💙@EmeLovesCooper💙✨ | bunny lover | artist | modder | workin on @GNGModFNF | he/him, 15, bi | NSFW DNI | banner by @ramenynoodley"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-23T05:34:37.000Z",
+                "name": "Ordinary Woman",
+                "username": "OrdinaryWoman24",
+                "id": "1463018037838106628",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 56,
+                    "tweet_count": 437,
+                    "listed_count": 0
+                },
+                "description": "🌱 🗽🕯️🏛️ 🏰 👑 🐕"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-13T11:33:45.000Z",
+                "name": "nina 🎄",
+                "username": "simpingforyn",
+                "id": "1448250537862909959",
+                "public_metrics": {
+                    "followers_count": 16,
+                    "following_count": 59,
+                    "tweet_count": 621,
+                    "listed_count": 0
+                },
+                "description": "Nina // 22                                                                        \n                not living the y/n life"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-09-22T13:37:36.000Z",
+                "name": "nics 👉🏼🤪👈🏼",
+                "username": "sunjaykeist",
+                "id": "1043494523739885569",
+                "public_metrics": {
+                    "followers_count": 65,
+                    "following_count": 83,
+                    "tweet_count": 1008,
+                    "listed_count": 0
+                },
+                "description": "show me a photo of Sunoo and I WILL cry"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-06T22:39:43.000Z",
+                "name": "hot queer shit",
+                "username": "lolssantana",
+                "id": "1412541750271385600",
+                "public_metrics": {
+                    "followers_count": 62,
+                    "following_count": 57,
+                    "tweet_count": 1064,
+                    "listed_count": 0
+                },
+                "description": "gender-fluid | they/she | bay area, california🤘🏽"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-17T22:36:03.000Z",
+                "name": "Katy ✍️",
+                "username": "katinhat15",
+                "id": "1273383752023113728",
+                "public_metrics": {
+                    "followers_count": 378,
+                    "following_count": 420,
+                    "tweet_count": 13436,
+                    "listed_count": 4
+                },
+                "description": "Activist and pacifist. Blue all the way & a passionate animal lover. I detest cruelty in all its forms and do not suffer fools, gladly or otherwise."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-03-05T02:57:05.000Z",
+                "name": "zoo kid",
+                "username": "ifearmydeath",
+                "id": "1235398882139312129",
+                "public_metrics": {
+                    "followers_count": 2853,
+                    "following_count": 693,
+                    "tweet_count": 26481,
+                    "listed_count": 3
+                },
+                "description": "has it been this long"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-11-20T03:55:44.000Z",
+                "name": "Patrick Rizzo",
+                "username": "patrick_rizzo10",
+                "id": "1329634390335483904",
+                "public_metrics": {
+                    "followers_count": 295,
+                    "following_count": 1069,
+                    "tweet_count": 7792,
+                    "listed_count": 3
+                },
+                "description": "PhD student in Earth Sciences/CUNY. NBS/NNBF. 316ppm. Retired journalist (Reuters, AP, NBC), husband, father, writer, surfer, cat butler."
+            },
+            {
+                "verified": false,
+                "created_at": "2014-10-05T14:30:56.000Z",
+                "name": "Elevation Jones",
+                "username": "elevationjones",
+                "id": "2807929539",
+                "public_metrics": {
+                    "followers_count": 562,
+                    "following_count": 1655,
+                    "tweet_count": 24082,
+                    "listed_count": 28
+                },
+                "description": "Retired duckpin bowler. #dadlife #redsox #allfly #panthers #cltfc #roaringriot"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-14T15:32:39.000Z",
+                "name": "cal......",
+                "username": "PURGASHR00M",
+                "id": "1415333341583265792",
+                "public_metrics": {
+                    "followers_count": 451,
+                    "following_count": 145,
+                    "tweet_count": 2592,
+                    "listed_count": 0
+                },
+                "description": "he/they/xe/rat/rot/kit/knife, archangel of energy drinks, madcom breastmilk maniac, actual sewer rat. @wrathzputin 💕"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-21T18:27:07.000Z",
+                "name": "Hiyaaa🐝(Pratik fangirl🇧🇩)",
+                "username": "HinataHiya",
+                "id": "1462487668583895042",
+                "public_metrics": {
+                    "followers_count": 155,
+                    "following_count": 293,
+                    "tweet_count": 8548,
+                    "listed_count": 0
+                },
+                "description": "InshaAllah Alhamdulilla ❤"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-03-18T15:51:16.000Z",
+                "name": "🇺🇸Sgt Pharaoh🇺🇸",
+                "username": "PapaLima120",
+                "id": "1240304731542532097",
+                "public_metrics": {
+                    "followers_count": 641,
+                    "following_count": 1287,
+                    "tweet_count": 15445,
+                    "listed_count": 1
+                },
+                "description": "USAF retiree.  Always support the military/first responders. Land of the free because of the brave. NYY, NYR, NYG!"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-10-22T04:14:26.000Z",
+                "name": "andré | LCDP | MSHD|🐟",
+                "username": "serquel_alvitz",
+                "id": "1186495965500497920",
+                "public_metrics": {
+                    "followers_count": 1172,
+                    "following_count": 4183,
+                    "tweet_count": 6257,
+                    "listed_count": 2
+                },
+                "description": "Nosotros somos los protagonistas\nEstoy contigo\n\nSi no, dejaría de parecerte el genio del crimen del que te enamoraste como una quinceañera\nPero que tonto eres"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-05-06T12:04:24.000Z",
+                "name": "audrey #RaquelSpiral",
+                "username": "jillygilliana",
+                "id": "1390276191999840257",
+                "public_metrics": {
+                    "followers_count": 185,
+                    "following_count": 138,
+                    "tweet_count": 2651,
+                    "listed_count": 2
+                },
+                "description": "you are the magic trick."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-30T01:36:55.000Z",
+                "name": "Angel The Service Bunny Boi",
+                "username": "LewdQote",
+                "id": "1454260872180764677",
+                "public_metrics": {
+                    "followers_count": 94,
+                    "following_count": 89,
+                    "tweet_count": 394,
+                    "listed_count": 0
+                },
+                "description": "🔞 NSFW Service Bun Boy doing Service Bun Boy things. Will block empty and underage accounts."
+            },
+            {
+                "verified": false,
+                "created_at": "2010-07-22T19:59:24.000Z",
+                "name": "MushyMelbowHead",
+                "username": "MushyMelbowHead",
+                "id": "169626752",
+                "public_metrics": {
+                    "followers_count": 1772,
+                    "following_count": 4348,
+                    "tweet_count": 253455,
+                    "listed_count": 97
+                },
+                "description": "Failed recluse"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-04-13T21:12:39.000Z",
+                "name": "Nick Pettigrew",
+                "username": "Nick_Pettigrew",
+                "id": "132660956",
+                "public_metrics": {
+                    "followers_count": 28618,
+                    "following_count": 1174,
+                    "tweet_count": 71969,
+                    "listed_count": 174
+                },
+                "description": "The paperback edition of ‘Anti Social’ is out now. Buy it, why don’t you?"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-10-02T06:45:06.000Z",
+                "name": "Mkhulu Thamsanqa 📿 🌊🕯",
+                "username": "Chris_JNdonga",
+                "id": "857590992",
+                "public_metrics": {
+                    "followers_count": 2829,
+                    "following_count": 2259,
+                    "tweet_count": 66119,
+                    "listed_count": 0
+                },
+                "description": "traditional healer. unapologetically bold. lifetime scholar. at law. For consultations: DM or Email CJNdonga@gmail.com Founder:@ROOTED_ZA 🌳"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-08-11T10:43:32.000Z",
+                "name": "Siba Mteza",
+                "username": "SibaMteza",
+                "id": "352972298",
+                "public_metrics": {
+                    "followers_count": 1427,
+                    "following_count": 561,
+                    "tweet_count": 57954,
+                    "listed_count": 7
+                },
+                "description": "funny, sometimes. nice, always ✨"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-08-12T04:57:45.000Z",
+                "name": "Asma'",
+                "username": "Stfusj",
+                "id": "2740502877",
+                "public_metrics": {
+                    "followers_count": 1460,
+                    "following_count": 622,
+                    "tweet_count": 59542,
+                    "listed_count": 5
+                },
+                "description": "There's no cure for life"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-03-17T13:23:24.000Z",
+                "name": "Fionn Lover Supreme",
+                "username": "Teatitty",
+                "id": "842728074311618560",
+                "public_metrics": {
+                    "followers_count": 113,
+                    "following_count": 241,
+                    "tweet_count": 57030,
+                    "listed_count": 5
+                },
+                "description": "Trash in general. 23. Cries over everything. Who knows what I'll fixate on next. 🔞🔞🔞. She/Her, They/Them, Fae/Faer. Bi-Ace writer."
+            },
+            {
+                "verified": false,
+                "created_at": "2018-10-02T07:13:00.000Z",
+                "name": "BIG bad (festive) wolf",
+                "username": "mootdoodles",
+                "id": "1047021613617745927",
+                "public_metrics": {
+                    "followers_count": 2099,
+                    "following_count": 363,
+                    "tweet_count": 14747,
+                    "listed_count": 4
+                },
+                "description": "shoe • 22 • they/he • public AD account of @mintymalamute • bellies, burps, vore, etc. • 🔞 minors will be blocked"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-04-21T14:27:47.000Z",
+                "name": "MFBabyNewYear",
+                "username": "stamishinc",
+                "id": "33919022",
+                "public_metrics": {
+                    "followers_count": 3521,
+                    "following_count": 2200,
+                    "tweet_count": 79107,
+                    "listed_count": 7
+                },
+                "description": "https://t.co/85GoJpD7Rk"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-08-02T02:42:27.000Z",
+                "name": "Atronima - 2%",
+                "username": "Atronimaa",
+                "id": "892576298039562242",
+                "public_metrics": {
+                    "followers_count": 333,
+                    "following_count": 963,
+                    "tweet_count": 12843,
+                    "listed_count": 7
+                },
+                "description": "They/Them | I do art | EXTREMELY Retweet heavy | @ruby151106 🧡"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-07-21T07:15:13.000Z",
+                "name": "rhys 🪐🔨 may the board preserve and keep you",
+                "username": "spacemanrhys",
+                "id": "888296286977482753",
+                "public_metrics": {
+                    "followers_count": 1973,
+                    "following_count": 1421,
+                    "tweet_count": 108541,
+                    "listed_count": 36
+                },
+                "description": "he/it/bear/she | 22 | genderfluid man | white | actor who loves podcasts! | pfp by @anushnush |🧡@mattyoksmith🧡| Linus in @starsfellradio, Finn in @qtrqpod"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-09-08T03:57:18.000Z",
+                "name": "Sproatocaster",
+                "username": "sproatotocaster",
+                "id": "369899987",
+                "public_metrics": {
+                    "followers_count": 257,
+                    "following_count": 147,
+                    "tweet_count": 819,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": true,
+                "created_at": "2010-11-13T20:31:30.000Z",
+                "name": "twitch.tv/Limmy",
+                "username": "DaftLimmy",
+                "id": "215394809",
+                "public_metrics": {
+                    "followers_count": 555052,
+                    "following_count": 1,
+                    "tweet_count": 56295,
+                    "listed_count": 1113
+                },
+                "description": "Livestream jester: https://t.co/VIuzqxS8ft"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-23T09:50:50.000Z",
+                "name": "🪐.",
+                "username": "blabber2319",
+                "id": "1275365647132884992",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 38,
+                    "tweet_count": 3745,
+                    "listed_count": 1
+                },
+                "description": "Fuck beauty contests."
+            },
+            {
+                "verified": false,
+                "created_at": "2012-11-16T21:03:00.000Z",
+                "name": "Leah Thais",
+                "username": "Leah_thais",
+                "id": "952417705",
+                "public_metrics": {
+                    "followers_count": 1409,
+                    "following_count": 1452,
+                    "tweet_count": 15228,
+                    "listed_count": 4
+                },
+                "description": "At home in the EU. #FBPE Secondary English teacher. Empty-nester. Loathed PE at school, turned into a basketball mum. Sometimes retweet Medieval History stuff."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-04-22T21:20:18.000Z",
+                "name": "Jïk löves Sixx, Mick & t-bone & Vinnie",
+                "username": "JikkiSixx1313",
+                "id": "1253071101988687876",
+                "public_metrics": {
+                    "followers_count": 597,
+                    "following_count": 1733,
+                    "tweet_count": 14471,
+                    "listed_count": 1
+                },
+                "description": "I’m still young wasting my youth I’ll grow up next summer. l saw Kells & the gang 10/27/21. “without in my life I slowly wilt and die”. Crüehead for life, EST"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1474473208904486912",
+        "oldest_id": "1474471546513207304",
+        "result_count": 100,
+        "next_token": "b26v89c19zqg8o3fpe170wziksrlpc3w2u6wpbkd1cznh"
+    }
+}

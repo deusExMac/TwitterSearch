@@ -1,0 +1,1937 @@
+{
+    "data": [
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475114534700466179",
+            "text": "@TB_Times All under Biden....",
+            "created_at": "2021-12-26T23:52:36.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "14304462",
+            "reply_settings": "everyone",
+            "author_id": "245850814",
+            "id": "1475253240786608129",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475114534700466179"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475252963279052807",
+            "text": "RT @MarkusEhrler: Biden (zusammen mit seinen Marionettenspielern in Hinterzimmern) ist ein Weltmeister faschistisch erzeugter Fehlentwicklu…",
+            "created_at": "2021-12-26T23:51:29.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1176139025951993856",
+            "id": "1475252963279052807",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475242923000225794"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPad",
+            "conversation_id": "1475252784354275334",
+            "text": "The Intercept berichtet, dass Joe Biden die Regeln für Drohnenangriffe, die Obama aufgestellt hat und die von Trump weitesgehend abgeschafft wurden, von Biden nicht wieder installiert wurden. (Perlentaucher) https://t.co/hc6NmKzNix",
+            "created_at": "2021-12-26T23:50:47.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1250148018613075971",
+            "id": "1475252784354275334",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPad",
+            "conversation_id": "1475238033972736001",
+            "text": "@Fredlewin @MartinCJanssen Nicht mit Biden Plagiat im WH",
+            "created_at": "2021-12-26T23:31:26.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "123898876",
+            "reply_settings": "everyone",
+            "author_id": "755430782852825092",
+            "id": "1475247916608544774",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475242026627223558"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475247827584536582",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T23:31:05.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1436231596944863235",
+            "id": "1475247827584536582",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "TweetDeck",
+            "conversation_id": "1475247443453300739",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T23:29:33.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "27246731",
+            "id": "1475247443453300739",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475247248925773826",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T23:28:47.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "2195030496",
+            "id": "1475247248925773826",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475247200489852931",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T23:28:36.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "318362924",
+            "id": "1475247200489852931",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475245135244017670",
+            "text": "#Qualitweet:\"Let's go Brandon\" - eine eigentlich harmlose Phrase, die in den USA aber zum Schlachtruf gegen Präsident #Biden geworden ist. Viele benutzen sie als Synonym für \"F*** Joe Biden\". Zuletzt stimmte zu Weihnachten sogar der Präsident selbst ein - unwissentlich natürlich.",
+            "created_at": "2021-12-26T23:20:23.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1450763829042888707",
+            "id": "1475245135244017670",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 10,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475245023188992000",
+            "text": "RT @MarkusEhrler: Biden (zusammen mit seinen Marionettenspielern in Hinterzimmern) ist ein Weltmeister faschistisch erzeugter Fehlentwicklu…",
+            "created_at": "2021-12-26T23:19:56.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "159133559",
+            "id": "1475245023188992000",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475242923000225794"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475244070545289219",
+            "text": "RT @mazemoore: Merry Christmas Dr. Biden. https://t.co/KH8FrFLRiO",
+            "created_at": "2021-12-26T23:16:09.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1391399854274871300",
+            "id": "1475244070545289219",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474813118320685060"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 99,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475242923000225794",
+            "text": "Biden (zusammen mit seinen Marionettenspielern in Hinterzimmern) ist ein Weltmeister faschistisch erzeugter Fehlentwicklungen.\nhttps://t.co/yEMkAoPWFi  @welt Lieferketten: „Die Nation ignoriert diese Krise“ – der wahre Grund für Amerikas Waren-Engpass",
+            "created_at": "2021-12-26T23:11:36.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "497968900",
+            "id": "1475242923000225794",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475242745002348547",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T23:10:53.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "958385148633993216",
+            "id": "1475242745002348547",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475224822191898626",
+            "text": "@nathaliejacoby1 Biden supporter hasv 236 followers",
+            "created_at": "2021-12-26T22:44:52.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "1280478731874848769",
+            "reply_settings": "everyone",
+            "author_id": "1375935391438667782",
+            "id": "1475236194686484485",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475224822191898626"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475235210728026118",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T22:40:57.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "121131345",
+            "id": "1475235210728026118",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "TweetDeck",
+            "conversation_id": "1475233904231686147",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T22:35:45.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1387077718525812738",
+            "id": "1475233904231686147",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475233811789225987",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T22:35:23.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1223398639969734657",
+            "id": "1475233811789225987",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475233636672753668",
+            "text": "RT @Fuechsinvonwelt: Bitte erinnert euch auch an diesem Weihnachtsfest daran, dass es nicht Biden war der Kevin den Weg zur Eingangshalle z…",
+            "created_at": "2021-12-26T22:34:42.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "752304324898848768",
+            "id": "1475233636672753668",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474833155576184844"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 67,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475233569450647559",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T22:34:26.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "463211584",
+            "id": "1475233569450647559",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter",
+            "conversation_id": "1475232457188388870",
+            "text": "BVTV: Business-wary Biden - Reuters https://t.co/RfIaV8Pcif",
+            "created_at": "2021-12-26T22:30:00.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1697903767",
+            "id": "1475232457188388870",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475223582837985283",
+            "text": "@robin_urban Ob Menschen wie Biden, Xi, Putin, Scholz, Bezos und Musk den Film wohl sehen? Werden die sich wiedererkennen?",
+            "created_at": "2021-12-26T22:28:17.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "1124648551",
+            "reply_settings": "everyone",
+            "author_id": "1958901528",
+            "id": "1475232021836353536",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475228442723590150"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475228644310228992",
+            "text": "RT @Doppelgeist60: Joe Biden streckt dem Verbündeten die Hand aus. Nun muss sich auch Deutschland bewegen. Mein Senf zur Nominierung der Po…",
+            "created_at": "2021-12-26T22:14:51.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "4319220868",
+            "id": "1475228644310228992",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1411089219972390916"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475186142131671051",
+            "text": "@nikitheblogger Nach donnie/ Biden jijiping sind die anderen nicht so viel mieser🧨🧨🧨🧨🧨🧨🧨😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️",
+            "created_at": "2021-12-26T22:14:34.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "809188392089092097",
+            "reply_settings": "everyone",
+            "author_id": "97116935",
+            "id": "1475228570901487625",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475186142131671051"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475228459786031113",
+            "text": "RT @SHomburg: In den rot markierten US-Staaten ist Bidens #Impfzwang von Gerichten blockiert worden, zuletzt bundesweit.\n\nSo geht Rechtssta…",
+            "created_at": "2021-12-26T22:14:07.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1355540059857051648",
+            "id": "1475228459786031113",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1468604077781225476"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 1600,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475228066955907082",
+            "text": "RT @SZ: Beim \"Americafest 2021\" in Phoenix dominiert die Paranoia: \"Wir\" gegen \"sie\", \"die\" haben es auf \"uns\" abgesehen. Wer gemeint ist?…",
+            "created_at": "2021-12-26T22:12:34.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "28545697",
+            "id": "1475228066955907082",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475181312818483201"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475224685495336965",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T21:59:08.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "167712771",
+            "id": "1475224685495336965",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475224629954457605",
+            "text": "RT @MarianKamensky1: RUSSLAND VERSUS UKRAINE\nBitte lesen:\nhttps://t.co/oY7FHUQLs0\nhttps://t.co/VusIgU38Hx\nhttps://t.co/MHSFcJzyGa\nhttps://t…",
+            "created_at": "2021-12-26T21:58:54.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "705306076",
+            "id": "1475224629954457605",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475046669842534401"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475224496386846720",
+            "text": "RT @visevic: Heute hat in den USA der Demokrat Joe Manchin all das zerstört, wofür Präsident Joe Biden angetreten ist: Klimapolitik, Sozial…",
+            "created_at": "2021-12-26T21:58:22.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "186773163",
+            "id": "1475224496386846720",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472705502190657541"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 51,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475196676264574983",
+            "text": "@JonOfUs @Jon_Geb @wersnocjwach @JerryHebestreit @BekiffteTweets @replayNIKO @prinzessinrena @keepitliberalDE Ich klicke da nicht drauf. Hab nicht Mal TikTok. Biden kriegt meine Daten, xi aber nicht.",
+            "created_at": "2021-12-26T21:48:56.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "4163727183",
+            "reply_settings": "everyone",
+            "author_id": "1134802797365473282",
+            "id": "1475222119906750477",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475221733376466944"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475221850955423747",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T21:47:52.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "959783225311801344",
+            "id": "1475221850955423747",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475221318861737987",
+            "text": "RT @Blog1600Penn: So bewerten US-Amerikaner die Arbeit von Präsident @JoeBiden: \n\n44,1% positiv\n52,1% negativ\n\nQuelle: @RealClearNews Durch…",
+            "created_at": "2021-12-26T21:45:45.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "3195419603",
+            "id": "1475221318861737987",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475028107727818752"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475220578470699008",
+            "text": "RT @MarianKamensky1: ÖKO-POLIZIST ÖZDEMIR\nBitte lesen:\nhttps://t.co/odHPlGcsjW\nhttps://t.co/VusIgU38Hx\nhttps://t.co/MHSFcJzyGa\nhttps://t.co…",
+            "created_at": "2021-12-26T21:42:48.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "705306076",
+            "id": "1475220578470699008",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475128697925640192"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475218581042475009",
+            "text": "RT @Fuechsinvonwelt: Bitte erinnert euch auch an diesem Weihnachtsfest daran, dass es nicht Biden war der Kevin den Weg zur Eingangshalle z…",
+            "created_at": "2021-12-26T21:34:52.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1166759151722217472",
+            "id": "1475218581042475009",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474833155576184844"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 67,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475187964934246407",
+            "text": "@markusdd5 @KebabChris Er konnte es nicht mit seinem Ego vereinbaren gegen Biden verloren zu haben. Das ist die traurige Wahrheit. Leider sahen sich einige zu gewalttätigen Aktionen veranlasst, die Menschenleben forderten, obwohl ihr Anführer Trump vor Ort gar nicht auftauchte. Aufstacheln und abhauen.",
+            "created_at": "2021-12-26T21:33:55.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "1234150606518063105",
+            "reply_settings": "everyone",
+            "author_id": "1007381922",
+            "id": "1475218342441070593",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475214553327800321"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475216509802889228",
+            "text": "RT @Fuechsinvonwelt: Bitte erinnert euch auch an diesem Weihnachtsfest daran, dass es nicht Biden war der Kevin den Weg zur Eingangshalle z…",
+            "created_at": "2021-12-26T21:26:38.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "956914832191737856",
+            "id": "1475216509802889228",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474833155576184844"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 67,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475216429033177094",
+            "text": "RT @Fuechsinvonwelt: Bitte erinnert euch auch an diesem Weihnachtsfest daran, dass es nicht Biden war der Kevin den Weg zur Eingangshalle z…",
+            "created_at": "2021-12-26T21:26:19.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1259440570956685312",
+            "id": "1475216429033177094",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474833155576184844"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 67,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475216400813858824",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T21:26:12.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "3254549021",
+            "id": "1475216400813858824",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475216303153717248",
+            "text": "DER SPIEGEL\nUSA: Sehr unterschiedliche Weihnachtsgrüße von Biden, Obama und Trump\nJohanna Soll - Gestern um 21:45",
+            "created_at": "2021-12-26T21:25:49.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "2950202113",
+            "id": "1475216303153717248",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475216133452095489",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T21:25:09.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1346564513437511681",
+            "id": "1475216133452095489",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475215968506978306",
+            "text": "US-PRÄSIDENT BIDEN WEISS, DASS DIE BRZEZINSKI-DOKTRIN KRACHEND GESCHEITERT IST, EBENSO WEISS BIDEN, DASS DIE NATO GELTENDE VEREINBARUNGEN MIT RUSSLAND SEIT JAHRZEHNTEN IGNORIERT: Bedingt eskalationsfähig  https://t.co/Go4VMjXoPL + https://t.co/nWg93pFQea",
+            "created_at": "2021-12-26T21:24:29.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "604278309",
+            "id": "1475215968506978306",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475215675039920137",
+            "text": "RT @Efeu62112443: #Handelsblatt: Joe Biden geht mit düsteren Aussichten ins neue Jahr\nhttps://t.co/jrvUesfnoo",
+            "created_at": "2021-12-26T21:23:19.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1420269716220878851",
+            "id": "1475215675039920137",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475136400139956228"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475213779864625158",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T21:15:47.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1330197875184295937",
+            "id": "1475213779864625158",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475191023005581318",
+            "text": "@MartinCJanssen Er weiss aber nicht was es bedeutet - das war doch in den USA sicher schon zig Mal in den Medien nur liest Biden halt keine Zeitungen oder schaut kein TV wie es aussieht.",
+            "created_at": "2021-12-26T21:06:35.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "1283680511102193666",
+            "reply_settings": "everyone",
+            "author_id": "1106688022475608066",
+            "id": "1475211460817129481",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475210959371313155"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475191023005581318",
+            "text": "@MartinCJanssen Lets go Brandon steht für „fuck joe biden“. Das Biden selber das sagt ist ein Zeichen dafür dass er das nicht kennt. Ich wette der Mann liest schon lange keine Zeitungen mehr. Der hat NULL Ahnung von gar nichts. Was nicht vom Teleprompter kommt kennt er nicht.",
+            "created_at": "2021-12-26T21:01:34.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "1283680511102193666",
+            "reply_settings": "everyone",
+            "author_id": "1106688022475608066",
+            "id": "1475210201192087559",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475191023005581318"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 3,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475208996198002689",
+            "text": "RT @stephede70: @FrancisLWhite2 Also Fauci, Gates, Biden, Zuckerberg,  Johnson, Ardern, Trudeau......",
+            "created_at": "2021-12-26T20:56:47.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "127204945",
+            "id": "1475208996198002689",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475069751130951683"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475207526094413839",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T20:50:56.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1155110852221120518",
+            "id": "1475207526094413839",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPhone",
+            "conversation_id": "1475143162205245447",
+            "text": "@1sthisr34l Okay..\nIch kenne das Video etwas anders. \nIn meiner Version ertastet Biden mit seiner Hand die Hand des Jungen.\nDann gibt er Ihm seine alte Maske. Dann guckt der Junge blöd dahin und steckt sie sich in die Tasche.\nArmbewegung läuft rückwärts und Maske durch Ampulle getauscht🤷‍♂️",
+            "created_at": "2021-12-26T20:48:45.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "1280496515694440449",
+            "reply_settings": "everyone",
+            "author_id": "1907592877",
+            "id": "1475206973016743941",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475143162205245447"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPad",
+            "conversation_id": "1475206770570280962",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T20:47:56.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "969919213962977282",
+            "id": "1475206770570280962",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for iPad",
+            "conversation_id": "1475166381813424133",
+            "text": "@putzfor @HappHappHappy1 @mailmannz @TaxReformExpert Diane Feinstein, Nancy Pelosi, Joe Biden….",
+            "created_at": "2021-12-26T20:40:35.000Z",
+            "lang": "de",
+            "in_reply_to_user_id": "48743040",
+            "reply_settings": "everyone",
+            "author_id": "21348171",
+            "id": "1475204918663258112",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1475196917143334916"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter Web App",
+            "conversation_id": "1475203837166301184",
+            "text": "RT @SZ: Beim \"Americafest 2021\" in Phoenix dominiert die Paranoia: \"Wir\" gegen \"sie\", \"die\" haben es auf \"uns\" abgesehen. Wer gemeint ist?…",
+            "created_at": "2021-12-26T20:36:17.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "236412458",
+            "id": "1475203837166301184",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475181312818483201"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "source": "Twitter for Android",
+            "conversation_id": "1475203232427302912",
+            "text": "RT @eatlovepray211: 💥BA💥\n\n💥💥💥...BOOOM... 💥💥💥\n\nBald, in jedem Moment, wird eine Wendung der Ereignisse das Unglaubliche auslösen. Unsere ges…",
+            "created_at": "2021-12-26T20:33:53.000Z",
+            "lang": "de",
+            "reply_settings": "everyone",
+            "author_id": "1425525318425718790",
+            "id": "1475203232427302912",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1475162099051601923"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 70,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "created_at": "2011-02-01T16:13:06.000Z",
+                "verified": false,
+                "username": "nycgirl2002",
+                "name": "Deirdre O'Neill",
+                "description": "",
+                "id": "245850814",
+                "public_metrics": {
+                    "followers_count": 101,
+                    "following_count": 768,
+                    "tweet_count": 6009,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2008-04-04T17:14:50.000Z",
+                "verified": true,
+                "username": "TB_Times",
+                "name": "Tampa Bay Times",
+                "description": "Florida's largest newspaper with 13 Pulitzer Prizes. Have story ideas or tips? DM us. Support our local journalism: https://t.co/9cTNKzUWzN",
+                "id": "14304462",
+                "public_metrics": {
+                    "followers_count": 297612,
+                    "following_count": 5599,
+                    "tweet_count": 251698,
+                    "listed_count": 3062
+                }
+            },
+            {
+                "created_at": "2019-09-23T14:19:58.000Z",
+                "verified": false,
+                "username": "CatWeaz45215111",
+                "name": "CatWeazle",
+                "description": "Mehr Bürger müssen politische Inhalte verlangen,\nstatt Lagerkämpfe, Personenkult und Symbolpolitik.",
+                "id": "1176139025951993856",
+                "public_metrics": {
+                    "followers_count": 846,
+                    "following_count": 907,
+                    "tweet_count": 22128,
+                    "listed_count": 2
+                }
+            },
+            {
+                "created_at": "2020-04-14T19:45:00.000Z",
+                "verified": false,
+                "username": "monikam12642408",
+                "name": "monikamidel",
+                "description": "societies must take action to reign in the devastating effects of climate change and every one of us can contribute",
+                "id": "1250148018613075971",
+                "public_metrics": {
+                    "followers_count": 21,
+                    "following_count": 125,
+                    "tweet_count": 515,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2016-07-19T15:55:08.000Z",
+                "verified": false,
+                "username": "Terri_Malon",
+                "name": "Terri Malon ungeimpft",
+                "description": "Fashion & Lifestyle Nachrichten allgemein News Politik News",
+                "id": "755430782852825092",
+                "public_metrics": {
+                    "followers_count": 611,
+                    "following_count": 674,
+                    "tweet_count": 21270,
+                    "listed_count": 4
+                }
+            },
+            {
+                "created_at": "2010-03-17T15:21:41.000Z",
+                "verified": false,
+                "username": "Fredlewin",
+                "name": "Fred LeWin",
+                "description": "Wegen massiver Behinderung der Meinungsäusserung auf Sozial Media nun zum Zuschauer verdammt. Zensur schreitet voran und die Narren der Menschheit sind gelähmt.",
+                "id": "123898876",
+                "public_metrics": {
+                    "followers_count": 68,
+                    "following_count": 127,
+                    "tweet_count": 101,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2021-09-10T07:34:51.000Z",
+                "verified": false,
+                "username": "Xx17965797",
+                "name": "Xx",
+                "description": "",
+                "id": "1436231596944863235",
+                "public_metrics": {
+                    "followers_count": 468,
+                    "following_count": 1098,
+                    "tweet_count": 5030,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2009-03-28T15:27:33.000Z",
+                "verified": false,
+                "username": "_Boelie_",
+                "name": "Boelie",
+                "description": "",
+                "id": "27246731",
+                "public_metrics": {
+                    "followers_count": 574,
+                    "following_count": 1648,
+                    "tweet_count": 9332,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2013-11-14T23:33:25.000Z",
+                "verified": false,
+                "username": "PhoenixHjh",
+                "name": "Phoenix 🇳🇱🇧🇷🇰🇷",
+                "description": "I Am United With God!\nPatriotas acorda, levanta! #PresidenteJairBolsonaro\nPatriots wake up, stand up! #MAGA",
+                "id": "2195030496",
+                "public_metrics": {
+                    "followers_count": 5718,
+                    "following_count": 6264,
+                    "tweet_count": 102607,
+                    "listed_count": 2
+                }
+            },
+            {
+                "created_at": "2011-06-16T11:12:52.000Z",
+                "verified": false,
+                "username": "jokebronkhorst",
+                "name": "🇳🇱 Oma Joke 🇳🇱",
+                "description": "Moeder van 3 geweldige kinderen ! Oma van 2 kleinzoons, en 1 kleindochter!  Ik volg altijd terug. ik wil geen DM ! Gab: http://No_Joke.ga",
+                "id": "318362924",
+                "public_metrics": {
+                    "followers_count": 7676,
+                    "following_count": 5808,
+                    "tweet_count": 104557,
+                    "listed_count": 6
+                }
+            },
+            {
+                "created_at": "2021-10-20T10:00:41.000Z",
+                "verified": false,
+                "username": "actuallymathias",
+                "name": "Mathias Huber",
+                "description": "20 years old, studying Journalism and PR in Graz. Passionate about Music, Politics and Sports. Also, i'm new here.#JPR21",
+                "id": "1450763829042888707",
+                "public_metrics": {
+                    "followers_count": 82,
+                    "following_count": 168,
+                    "tweet_count": 165,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2010-06-24T15:04:47.000Z",
+                "verified": false,
+                "username": "pilgerpetrus",
+                "name": "Peter Schumann",
+                "description": "In Zeitz geboren, jung im Kopf; Bäume gepflanzt, Haus gebaut, Kind gezeugt, Buch geschrieben. Journalist, freier Autor, Visionär; folge lebendigen Personen",
+                "id": "159133559",
+                "public_metrics": {
+                    "followers_count": 5534,
+                    "following_count": 3953,
+                    "tweet_count": 69062,
+                    "listed_count": 119
+                }
+            },
+            {
+                "created_at": "2021-05-09T14:31:50.000Z",
+                "verified": false,
+                "username": "sunshinegirl410",
+                "name": "EspinosaLLA51484💙💜❤️",
+                "description": "A simple woman, ❤Singing🎤 Arts,Writting✍  ❤️ GOD🙏 TRUMP🇺🇸❤️ FB by @RealMattCouch @michaeljohns @EricMMatheny @PapiTrumpo @ACTforAmerica @drefanzor @NautPoso",
+                "id": "1391399854274871300",
+                "public_metrics": {
+                    "followers_count": 6356,
+                    "following_count": 6973,
+                    "tweet_count": 112879,
+                    "listed_count": 5
+                }
+            },
+            {
+                "created_at": "2012-02-20T15:12:58.000Z",
+                "verified": false,
+                "username": "MarkusEhrler",
+                "name": "Markus Ehrler",
+                "description": "Have the courage to be free, but protect the freedom of all others. Immanuel Kant",
+                "id": "497968900",
+                "public_metrics": {
+                    "followers_count": 6606,
+                    "following_count": 7108,
+                    "tweet_count": 112993,
+                    "listed_count": 101
+                }
+            },
+            {
+                "created_at": "2018-01-30T17:03:20.000Z",
+                "verified": false,
+                "username": "WBrouer",
+                "name": "Willem Brouwer",
+                "description": "I am on GAB, MeWe, Parler and Bitchute",
+                "id": "958385148633993216",
+                "public_metrics": {
+                    "followers_count": 950,
+                    "following_count": 354,
+                    "tweet_count": 153779,
+                    "listed_count": 6
+                }
+            },
+            {
+                "created_at": "2021-03-27T22:19:30.000Z",
+                "verified": false,
+                "username": "0108Georgie",
+                "name": "Georgie 0108",
+                "description": "Working hard at retirement\nClimate change rager, tree lover🇮🇪🇺🇸",
+                "id": "1375935391438667782",
+                "public_metrics": {
+                    "followers_count": 252,
+                    "following_count": 429,
+                    "tweet_count": 19726,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2020-07-07T12:28:59.000Z",
+                "verified": false,
+                "username": "nathaliejacoby1",
+                "name": "Nathalie Jacoby",
+                "description": "Kindness matters most of all. Loves animals and farm life! Democrat #Resist #antiracist #BLM #LGBTQIA+ #Equality #AntiBullying NO DM’s please NO LISTS",
+                "id": "1280478731874848769",
+                "public_metrics": {
+                    "followers_count": 133399,
+                    "following_count": 54919,
+                    "tweet_count": 58130,
+                    "listed_count": 182
+                }
+            },
+            {
+                "created_at": "2010-03-08T14:30:21.000Z",
+                "verified": false,
+                "username": "KLaaroversteek",
+                "name": "Klaarover",
+                "description": "Happy traveler in personal leadership development.",
+                "id": "121131345",
+                "public_metrics": {
+                    "followers_count": 205,
+                    "following_count": 165,
+                    "tweet_count": 31371,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2021-04-27T16:14:53.000Z",
+                "verified": false,
+                "username": "jurfaber",
+                "name": "GrafeenOxide ( Covid-19 = GO )",
+                "description": "Grafeenoxide veroorzaakt Covid-19\nGrafeenoxide zit in de injecties, chemtrails, mondmaskers\nhttps://t.co/2GWRwayRCB",
+                "id": "1387077718525812738",
+                "public_metrics": {
+                    "followers_count": 721,
+                    "following_count": 435,
+                    "tweet_count": 9864,
+                    "listed_count": 2
+                }
+            },
+            {
+                "created_at": "2020-02-01T00:12:35.000Z",
+                "verified": false,
+                "username": "CTimmer4",
+                "name": "CTimmer",
+                "description": "Twitteraccount gemaakt om het echte nieuws te horen. Helemaal klaar met de Europese Unie en het verstikkende klimaat dat gecreëerd wordt. Hoop op een Nexit!",
+                "id": "1223398639969734657",
+                "public_metrics": {
+                    "followers_count": 572,
+                    "following_count": 780,
+                    "tweet_count": 9545,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2016-07-11T00:51:43.000Z",
+                "verified": false,
+                "username": "RTUllmann",
+                "name": "R. Thomas Ullmann",
+                "description": "Postdoc Trying to Connect Simulation Methodology Development and HPC Computing with Applied Simulations. Private profile. All views my own.",
+                "id": "752304324898848768",
+                "public_metrics": {
+                    "followers_count": 371,
+                    "following_count": 671,
+                    "tweet_count": 15558,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2012-01-13T21:15:06.000Z",
+                "verified": false,
+                "username": "Peterherman2019",
+                "name": "Demissionair WEF Kabinet",
+                "description": "Waarom ik niet meedoe aan het QR-Code systeem\nhttps://t.co/J7uJ7cU4tj\n\n🇳🇱Netherlands🇳🇱\n\n🇳🇱FVD Lid🇳🇱\n\n🇳🇱Forum Voor Democratie🇳🇱",
+                "id": "463211584",
+                "public_metrics": {
+                    "followers_count": 814,
+                    "following_count": 1001,
+                    "tweet_count": 26724,
+                    "listed_count": 2
+                }
+            },
+            {
+                "created_at": "2013-08-25T01:49:58.000Z",
+                "verified": false,
+                "username": "typewriternews",
+                "name": "Typewriter News",
+                "description": "Delivers in-depth coverage on all language the international, politics, lifestyle, business, and entertainment news.",
+                "id": "1697903767",
+                "public_metrics": {
+                    "followers_count": 2438,
+                    "following_count": 2,
+                    "tweet_count": 428148,
+                    "listed_count": 112
+                }
+            },
+            {
+                "created_at": "2013-10-13T15:48:02.000Z",
+                "verified": false,
+                "username": "aguleB",
+                "name": "Beluga - It's still the climate, stupid!",
+                "description": "Anthropocene sucks",
+                "id": "1958901528",
+                "public_metrics": {
+                    "followers_count": 301,
+                    "following_count": 641,
+                    "tweet_count": 10651,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2013-01-27T10:29:29.000Z",
+                "verified": false,
+                "username": "robin_urban",
+                "name": "Robin for Future 🌍",
+                "description": "Tweets, die euch zum Nachdenken bringen und gleichzeitig eure Intelligenz beleidigen. #notjustsad, sondern oft auch ziemlich angepisst.",
+                "id": "1124648551",
+                "public_metrics": {
+                    "followers_count": 5274,
+                    "following_count": 1050,
+                    "tweet_count": 86323,
+                    "listed_count": 37
+                }
+            },
+            {
+                "created_at": "2015-11-29T15:11:28.000Z",
+                "verified": false,
+                "username": "wasserhoevel",
+                "name": "Jakob Wasserhoevel",
+                "description": "Sidney Harris: Democracy is the only system that persists in asking the powers that be whether they are the powers that ought to be.",
+                "id": "4319220868",
+                "public_metrics": {
+                    "followers_count": 538,
+                    "following_count": 4979,
+                    "tweet_count": 78384,
+                    "listed_count": 5
+                }
+            },
+            {
+                "created_at": "2009-12-16T02:37:06.000Z",
+                "verified": false,
+                "username": "summerbird3077",
+                "name": "fanchini fredy",
+                "description": "",
+                "id": "97116935",
+                "public_metrics": {
+                    "followers_count": 15,
+                    "following_count": 93,
+                    "tweet_count": 1300,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2016-12-15T00:08:41.000Z",
+                "verified": false,
+                "username": "nikitheblogger",
+                "name": "Neverforgetniki",
+                "description": "YouTuber mit 300.000 Abonnenten, freier Journalist und politischer Blogger",
+                "id": "809188392089092097",
+                "public_metrics": {
+                    "followers_count": 55639,
+                    "following_count": 64,
+                    "tweet_count": 7520,
+                    "listed_count": 144
+                }
+            },
+            {
+                "created_at": "2021-01-30T15:35:31.000Z",
+                "verified": false,
+                "username": "StefanK2277",
+                "name": "Stephanski",
+                "description": "true democracy & freedom in a rightful, honest & healthy world! Prosperity for all of us - Crypto and DEFI environment - This change is our biggest chance ♒︎",
+                "id": "1355540059857051648",
+                "public_metrics": {
+                    "followers_count": 172,
+                    "following_count": 59,
+                    "tweet_count": 2860,
+                    "listed_count": 7
+                }
+            },
+            {
+                "created_at": "2009-04-03T11:46:11.000Z",
+                "verified": false,
+                "username": "haunerjo",
+                "name": "Johannes Hauner",
+                "description": "GF @SZ Digitale Medien // Volkswirt",
+                "id": "28545697",
+                "public_metrics": {
+                    "followers_count": 737,
+                    "following_count": 1073,
+                    "tweet_count": 1819,
+                    "listed_count": 27
+                }
+            },
+            {
+                "created_at": "2010-07-17T08:35:24.000Z",
+                "verified": false,
+                "username": "richardvanbeek",
+                "name": "Richard van Beek",
+                "description": "Waarheidszoeker en amateur filosoof!",
+                "id": "167712771",
+                "public_metrics": {
+                    "followers_count": 139,
+                    "following_count": 289,
+                    "tweet_count": 1681,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2013-10-08T17:58:11.000Z",
+                "verified": false,
+                "username": "JohnnyTame",
+                "name": "Uwe Reuß/Johnny Tame",
+                "description": "#noborders",
+                "id": "705306076",
+                "public_metrics": {
+                    "followers_count": 104,
+                    "following_count": 45,
+                    "tweet_count": 6723,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2010-09-04T10:38:21.000Z",
+                "verified": false,
+                "username": "gestaltpaed",
+                "name": "Gemeinwohl-Ökonomie am Körper lernen 🏳️‍🌈",
+                "description": "Gemeinde-, Regional- und Schul- Entwicklung durch Gesundheits-Bewusstsein, zukunftsorient. Inklusion, selbstorgan. Lernen, soziale Gestalt und Diversity 🏳️‍🌈",
+                "id": "186773163",
+                "public_metrics": {
+                    "followers_count": 654,
+                    "following_count": 2867,
+                    "tweet_count": 7504,
+                    "listed_count": 16
+                }
+            },
+            {
+                "created_at": "2019-06-01T12:44:05.000Z",
+                "verified": false,
+                "username": "juanpanda47",
+                "name": "Juan",
+                "description": "",
+                "id": "1134802797365473282",
+                "public_metrics": {
+                    "followers_count": 775,
+                    "following_count": 404,
+                    "tweet_count": 9401,
+                    "listed_count": 9
+                }
+            },
+            {
+                "created_at": "2015-11-11T12:34:27.000Z",
+                "verified": false,
+                "username": "JonOfUs",
+                "name": "Jon Of Us ☀️ (geboostert)",
+                "description": "Mache was mit Politik @spdDE 🌹 | was mit Social Media @ Bundestag 🏛 | was mit Klima 🌱 | und Jura @ TÜ macht was mit mir ⚖️ | 🌈 | he/him | @socialdebatesde |",
+                "id": "4163727183",
+                "public_metrics": {
+                    "followers_count": 3995,
+                    "following_count": 719,
+                    "tweet_count": 21437,
+                    "listed_count": 9
+                }
+            },
+            {
+                "created_at": "2018-02-03T13:38:47.000Z",
+                "verified": false,
+                "username": "Alex_loves_XRP",
+                "name": "Alex🚜🇳🇱🇺🇲",
+                "description": "Have your ❤ in the right place, but don't be a naive idealist, be a realist.",
+                "id": "959783225311801344",
+                "public_metrics": {
+                    "followers_count": 1028,
+                    "following_count": 1442,
+                    "tweet_count": 84336,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2015-04-22T17:19:22.000Z",
+                "verified": false,
+                "username": "Blog1600Penn",
+                "name": "1600 Pennsylvania 🇺🇸",
+                "description": "Politikwissenschaftler Kai-Uwe Hülss🇪🇺 Führender 🇩🇪sprachiger Blog zur Politik des Weißen Hauses🇺🇸 Als 🇧🇾Veteran derzeit auch News zur dortigen Lage.",
+                "id": "3195419603",
+                "public_metrics": {
+                    "followers_count": 4524,
+                    "following_count": 2050,
+                    "tweet_count": 49841,
+                    "listed_count": 58
+                }
+            },
+            {
+                "created_at": "2019-08-28T17:07:38.000Z",
+                "verified": false,
+                "username": "Area5164372149",
+                "name": "Edgar Wallace sein Untermieter",
+                "description": "Patriot 🇩🇪 - Das Leben ist schön, von einfach war nie die Rede.\n\nUngeimpft",
+                "id": "1166759151722217472",
+                "public_metrics": {
+                    "followers_count": 138,
+                    "following_count": 194,
+                    "tweet_count": 2283,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2012-12-12T21:54:16.000Z",
+                "verified": false,
+                "username": "HLiepelt",
+                "name": "HLiepelt",
+                "description": "Liberal - „Keine Unterwerfung ist so vollkommen wie die, die den Anschein der Freiheit wahrt. Damit lässt sich selbst der Wille gefangen nehmen.“ Rousseau",
+                "id": "1007381922",
+                "public_metrics": {
+                    "followers_count": 254,
+                    "following_count": 603,
+                    "tweet_count": 20459,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2020-03-01T16:16:58.000Z",
+                "verified": false,
+                "username": "markusdd5",
+                "name": "markusdd",
+                "description": "Electronics Engineer. East German. Electric Car Driver.\n32. 🗽 but without party. Contains traces of sarcasm.\n\nThe most entertaining outcome is the most likely.",
+                "id": "1234150606518063105",
+                "public_metrics": {
+                    "followers_count": 3671,
+                    "following_count": 139,
+                    "tweet_count": 60579,
+                    "listed_count": 15
+                }
+            },
+            {
+                "created_at": "2018-01-26T15:40:49.000Z",
+                "verified": false,
+                "username": "MarkusK82698761",
+                "name": "Markus Keller",
+                "description": "🇩🇪🏈🍗😎",
+                "id": "956914832191737856",
+                "public_metrics": {
+                    "followers_count": 236,
+                    "following_count": 445,
+                    "tweet_count": 3356,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2020-05-10T11:10:25.000Z",
+                "verified": false,
+                "username": "SchwarzeHexe5",
+                "name": "SchwarzeHexe",
+                "description": "",
+                "id": "1259440570956685312",
+                "public_metrics": {
+                    "followers_count": 2304,
+                    "following_count": 2479,
+                    "tweet_count": 264219,
+                    "listed_count": 3
+                }
+            },
+            {
+                "created_at": "2015-05-14T19:21:25.000Z",
+                "verified": false,
+                "username": "mjm_alert",
+                "name": "Martin Damming",
+                "description": "Security, Politics, F1 & Rock!",
+                "id": "3254549021",
+                "public_metrics": {
+                    "followers_count": 275,
+                    "following_count": 182,
+                    "tweet_count": 77396,
+                    "listed_count": 2
+                }
+            },
+            {
+                "created_at": "2014-12-29T12:55:03.000Z",
+                "verified": false,
+                "username": "maas_dominic",
+                "name": "MAAS",
+                "description": "",
+                "id": "2950202113",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 40,
+                    "tweet_count": 2639,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2021-01-05T21:09:56.000Z",
+                "verified": false,
+                "username": "doncartouche1",
+                "name": "De Zeeuwse Patriot",
+                "description": "Geen politieke kleur vrijheid strijder Tegen EU zeg wat ik doe doe wat ik zeg tweet wat ik belangrijk vind  Ben een autonoom persoon",
+                "id": "1346564513437511681",
+                "public_metrics": {
+                    "followers_count": 902,
+                    "following_count": 1267,
+                    "tweet_count": 25606,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2012-06-10T04:44:31.000Z",
+                "verified": false,
+                "username": "ArbosTheatre",
+                "name": "Herbert Gantschacher",
+                "description": "http://t.co/QCijXK4J\r\nhttp://t.co/OwYAlRUE",
+                "id": "604278309",
+                "public_metrics": {
+                    "followers_count": 48,
+                    "following_count": 7,
+                    "tweet_count": 26612,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2021-07-28T06:27:58.000Z",
+                "verified": false,
+                "username": "carpe_diem070",
+                "name": "A.A",
+                "description": "My first account was suspended. It takes strength and courage to admit the truth. Rick Riordan",
+                "id": "1420269716220878851",
+                "public_metrics": {
+                    "followers_count": 78,
+                    "following_count": 456,
+                    "tweet_count": 918,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2020-11-21T17:14:45.000Z",
+                "verified": false,
+                "username": "Halina75847141",
+                "name": "⚓️Halina",
+                "description": "",
+                "id": "1330197875184295937",
+                "public_metrics": {
+                    "followers_count": 469,
+                    "following_count": 976,
+                    "tweet_count": 15559,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2019-03-15T22:46:00.000Z",
+                "verified": false,
+                "username": "zupfhodler",
+                "name": "Thomas Zupfhodler 🇨🇭",
+                "description": "ehemaliger Lehrer, befreit von allen Zwängen - Schnauze voll von rot-grün-linkem-buntem Bullshit. Nach Quoten schreien nur unqualifizierte Schwätzer*Innen",
+                "id": "1106688022475608066",
+                "public_metrics": {
+                    "followers_count": 141,
+                    "following_count": 420,
+                    "tweet_count": 3213,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2020-07-16T08:31:25.000Z",
+                "verified": false,
+                "username": "MartinCJanssen",
+                "name": "Martin Janssen",
+                "description": "Ökonom, Unternehmer, Professor, freiheitlicher Dissident. \nFür Gesundheit und Freiheit, gegen staatliche Diskriminierung.",
+                "id": "1283680511102193666",
+                "public_metrics": {
+                    "followers_count": 8267,
+                    "following_count": 445,
+                    "tweet_count": 40372,
+                    "listed_count": 23
+                }
+            },
+            {
+                "created_at": "2010-03-28T12:25:36.000Z",
+                "verified": false,
+                "username": "TK_Golf_Buys",
+                "name": "Politics Polly",
+                "description": "",
+                "id": "127204945",
+                "public_metrics": {
+                    "followers_count": 220,
+                    "following_count": 349,
+                    "tweet_count": 19434,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2019-07-27T13:41:02.000Z",
+                "verified": false,
+                "username": "roemerwolf",
+                "name": "Ötzi",
+                "description": "Patriot, Unternehmer, #Identitäre\n #antilinks #antiantifa  #patriot #Salzburg #Austria #einprozent #saytheirnames",
+                "id": "1155110852221120518",
+                "public_metrics": {
+                    "followers_count": 853,
+                    "following_count": 676,
+                    "tweet_count": 15708,
+                    "listed_count": 4
+                }
+            },
+            {
+                "created_at": "2013-09-26T11:21:57.000Z",
+                "verified": false,
+                "username": "QAetherQ",
+                "name": "xX-JARVIS-Xx",
+                "description": "",
+                "id": "1907592877",
+                "public_metrics": {
+                    "followers_count": 68,
+                    "following_count": 291,
+                    "tweet_count": 6353,
+                    "listed_count": 0
+                }
+            },
+            {
+                "created_at": "2020-07-07T13:39:08.000Z",
+                "verified": false,
+                "username": "1sthisr34l",
+                "name": "Isthisreal",
+                "description": "Is this real ?  \nQuestion everything \nThe truth shall reveal itself , once you've opened your eyes.",
+                "id": "1280496515694440449",
+                "public_metrics": {
+                    "followers_count": 4942,
+                    "following_count": 4981,
+                    "tweet_count": 13733,
+                    "listed_count": 11
+                }
+            },
+            {
+                "created_at": "2018-03-03T12:55:35.000Z",
+                "verified": false,
+                "username": "irene89945223",
+                "name": "irene",
+                "description": "amateur kunstenares, moeder en oma met veel liefde. Vrijheid - blijheid! en trotse wappie!",
+                "id": "969919213962977282",
+                "public_metrics": {
+                    "followers_count": 277,
+                    "following_count": 273,
+                    "tweet_count": 6392,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2009-02-19T22:41:17.000Z",
+                "verified": false,
+                "username": "Madame_CHC",
+                "name": "I'm Not Batman",
+                "description": "i haven't had my morning coffee yet. #KAG #Twexit @Atlas24 on #Parler",
+                "id": "21348171",
+                "public_metrics": {
+                    "followers_count": 382,
+                    "following_count": 1073,
+                    "tweet_count": 6566,
+                    "listed_count": 5
+                }
+            },
+            {
+                "created_at": "2009-06-19T15:59:46.000Z",
+                "verified": false,
+                "username": "putzfor",
+                "name": "the farb",
+                "description": "likes animals more than people. I can’t spell well and don’t use caps. I voted for republicans until I grew up.",
+                "id": "48743040",
+                "public_metrics": {
+                    "followers_count": 40,
+                    "following_count": 992,
+                    "tweet_count": 12166,
+                    "listed_count": 1
+                }
+            },
+            {
+                "created_at": "2011-01-10T14:47:36.000Z",
+                "verified": false,
+                "username": "Die_Alexs",
+                "name": "Z",
+                "description": "LieblingsJob: Österr. #HanfPartei LieblingsHobby: Planet Begrünen LieblingsSpaß: Kluge Leute Lesen",
+                "id": "236412458",
+                "public_metrics": {
+                    "followers_count": 2315,
+                    "following_count": 812,
+                    "tweet_count": 288775,
+                    "listed_count": 172
+                }
+            },
+            {
+                "created_at": "2021-08-11T18:31:45.000Z",
+                "verified": false,
+                "username": "nebukenazzer3",
+                "name": "#QR▶️Weigeraar 📴❌",
+                "description": "",
+                "id": "1425525318425718790",
+                "public_metrics": {
+                    "followers_count": 339,
+                    "following_count": 622,
+                    "tweet_count": 14101,
+                    "listed_count": 2
+                }
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1475253240786608129",
+        "oldest_id": "1475203232427302912",
+        "result_count": 51,
+        "next_token": "b26v89c19zqg8o3fpe17fy9wr7tohvjuo4hn2bloqn1q5"
+    }
+}

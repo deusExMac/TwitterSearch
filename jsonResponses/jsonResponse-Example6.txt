@@ -1,0 +1,3803 @@
+{
+    "data": [
+        {
+            "author_id": "1382729343550464007",
+            "conversation_id": "1474509870992740355",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:38:42.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509870992740355",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1466801956849168387",
+            "conversation_id": "1474509869248098308",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:42.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509869248098308",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1411381327945822208",
+            "conversation_id": "1474509867377299456",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:42.000Z",
+            "text": "RT @JoeMiller101: “We’ve upgraded our civilians and settlements since the last game in Horizon Forbidden West with much better crowd system…",
+            "lang": "en",
+            "id": "1474509867377299456",
+            "public_metrics": {
+                "retweet_count": 86,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474395453420711936"
+                }
+            ]
+        },
+        {
+            "author_id": "22214801",
+            "in_reply_to_user_id": "3025394476",
+            "conversation_id": "1474507854648389636",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:41.000Z",
+            "text": "@Avxry a PS5 and this kidney stone to pass out of my body. it's been a month now.",
+            "lang": "en",
+            "id": "1474509863975800833",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474507854648389636"
+                }
+            ]
+        },
+        {
+            "author_id": "1256287257130082310",
+            "in_reply_to_user_id": "588412269",
+            "conversation_id": "1474448694963433475",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:40.000Z",
+            "text": "@ExpSevDavis @hylianwitcher I’m a pony, but the fps is in fact better on Series X in RT mode. Doesn’t take away the superior loading times and awesome DualSense features on PS5. I’d always pick the PS5 version in this case.",
+            "lang": "en",
+            "id": "1474509859819294722",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474500848579489800"
+                }
+            ]
+        },
+        {
+            "author_id": "1909779156",
+            "in_reply_to_user_id": "703745781111484419",
+            "conversation_id": "1474505545608351746",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:38.000Z",
+            "text": "@EtheriosPh0enix @ahriuwu69 ps5 this ps5 that 😡😡😡",
+            "lang": "en",
+            "id": "1474509854152691713",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474508301329211392"
+                }
+            ]
+        },
+        {
+            "author_id": "1028405179522142209",
+            "conversation_id": "1474509847559344132",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:38:37.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509847559344132",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "353993072",
+            "conversation_id": "1474509845709606913",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:36.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509845709606913",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "397758398",
+            "in_reply_to_user_id": "1245237850016223233",
+            "conversation_id": "1474214510869237790",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:34.000Z",
+            "text": "@bIackandtired @LulTreyy5 @aayye_Renee2 @JpgPnj @jaalenking The sentimental value of how a woman sees a teddy bear she may or may not sleep with and a ps5 are completely different. Obviously you’d have to tell the new person it’s a gift from an Ex as well. I promise I ain’t getting on a ps5 to play COD thinking “damn I miss my Ex”",
+            "lang": "en",
+            "id": "1474509833525252099",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474453465233506317"
+                }
+            ]
+        },
+        {
+            "author_id": "1219540938",
+            "conversation_id": "1474509831331532804",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:33.000Z",
+            "text": "#bitcoincash #btc #cryptomining $cmerge #erc20 #stocks $smeg $leash #SAFEMOON $cake #PS5 #wealth #Cryptocurrency #SHIBARMY #bscgems #webull #Mandox #MandoxMilitia #MandoxMissions #goosgang https://t.co/CgsPZmEBNV",
+            "lang": "en",
+            "id": "1474509831331532804",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474507815741841408"
+                }
+            ]
+        },
+        {
+            "author_id": "1308032192048697344",
+            "in_reply_to_user_id": "783163980",
+            "conversation_id": "1474468613214113792",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:33.000Z",
+            "text": "@swan931 @mrpyo1 Cool! I just recently got my Xbox only friend into PS5 and He has started to slowly delve into Demon's Souls. He is enjoying it so far.",
+            "lang": "en",
+            "id": "1474509831126069250",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 6,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474474766035828739"
+                }
+            ]
+        },
+        {
+            "author_id": "1041121496595398661",
+            "in_reply_to_user_id": "1137095883017871361",
+            "conversation_id": "1471616127411253250",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:32.000Z",
+            "text": "@Daytxnium @Jimjone88396869 @NBA2K I think I've been by that it's nothing there.  All the vids I've seen pretty much say PS5 and Xbox Series X get nothing.  🤦🏽‍♂️",
+            "lang": "en",
+            "id": "1474509826180980740",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474504353503498242"
+                }
+            ]
+        },
+        {
+            "author_id": "1360794847964200962",
+            "in_reply_to_user_id": "730549091277492224",
+            "conversation_id": "1474474249872158724",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:31.000Z",
+            "text": "@TrueAsianGamer_ @NeonDaGoat not flexing, just happened to be at my cousins house where he was playing on the ps5 when I seen the tweet 😕",
+            "lang": "en",
+            "id": "1474509824108994565",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474508261361655810"
+                }
+            ]
+        },
+        {
+            "author_id": "1438192008653414400",
+            "in_reply_to_user_id": "220081566",
+            "conversation_id": "1474164234976169985",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:26.000Z",
+            "text": "@RichardsonLewis @roddyribeye @0verFang @autipulatious @sadcrib which gon last longer? The ps5 or dude?",
+            "lang": "en",
+            "id": "1474509803460468742",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 18,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474505837024530438"
+                }
+            ]
+        },
+        {
+            "author_id": "321862986",
+            "in_reply_to_user_id": "230567644",
+            "conversation_id": "1474488772372795396",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:26.000Z",
+            "text": "@CpuSugoii My data slow rn and was waiting for the pic to load. Thought it was going to be a ps5.",
+            "lang": "en",
+            "id": "1474509802927636482",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474488772372795396"
+                }
+            ]
+        },
+        {
+            "author_id": "1442491341875806210",
+            "conversation_id": "1474509791376646147",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:23.000Z",
+            "text": "RT @JoeMiller101: According to former Santa Monica Studios’ animator, God of War Ragnarok is going to be utterly Mind-Blowing! 👀\n\n#GodOfWar…",
+            "lang": "en",
+            "id": "1474509791376646147",
+            "public_metrics": {
+                "retweet_count": 132,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474190844244729856"
+                }
+            ]
+        },
+        {
+            "author_id": "706960345085005825",
+            "conversation_id": "1474509773747863552",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:19.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509773747863552",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "1264014624938172417",
+            "conversation_id": "1474509763681853445",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:17.000Z",
+            "text": "RT @pushsquare: Ooft! Horizon Forbidden West just looks better and better and better. https://t.co/L89dZcmVoa #Repost #Sony #PS5 #PS4 #Hori…",
+            "lang": "en",
+            "id": "1474509763681853445",
+            "public_metrics": {
+                "retweet_count": 39,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474180534821654534"
+                }
+            ]
+        },
+        {
+            "author_id": "973250893046042625",
+            "conversation_id": "1474509750519930888",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:14.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509750519930888",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1413105876605472770",
+            "conversation_id": "1474509727786835968",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:08.000Z",
+            "text": "RT @GamingPhotos15: Today i got my 15th platinum with Spiderman:Miles Morales🥳\nProbably the easiest platinum i've ever got😅\n\nI loved this g…",
+            "lang": "en",
+            "id": "1474509727786835968",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474024739983220737"
+                }
+            ]
+        },
+        {
+            "author_id": "3046871879",
+            "conversation_id": "1474509702511927296",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:02.000Z",
+            "text": "RT @theWellRedMage: When I asked Santa for a PS5, he just laughed at me https://t.co/qcwZEvNmpx",
+            "lang": "en",
+            "id": "1474509702511927296",
+            "public_metrics": {
+                "retweet_count": 48,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474276553781612545"
+                }
+            ]
+        },
+        {
+            "author_id": "1329250969171890179",
+            "conversation_id": "1474509702125932548",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:38:02.000Z",
+            "text": "RT @AvGamingcouple: The Destiny duo on Xmas eve!\nGoal for 3 average viewers! &lt;3\n\nLive now! https://t.co/wTCdLF2v0s\n\n#SupportSmallStreams #S…",
+            "lang": "en",
+            "id": "1474509702125932548",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474486753033654272"
+                }
+            ]
+        },
+        {
+            "author_id": "293084349",
+            "conversation_id": "1474509697004838914",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:38:01.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509697004838914",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "16028702",
+            "conversation_id": "1474509688188272641",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:37:59.000Z",
+            "text": "Continuing our themed circles:\nPS5 for Christmas Tier:\n@VaRedemption\n@AbyssalBrews\n@all_rants_day\n@BakeryCrewKen\n@dbzyanni1\n@RickStevensPI\n@DMDMStudios\n@The_BellaLuna",
+            "lang": "en",
+            "id": "1474509688188272641",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 7,
+                "like_count": 12,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1463540440544817156",
+            "in_reply_to_user_id": "1451674761604571138",
+            "conversation_id": "1473989715334414336",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:37:55.000Z",
+            "text": "@PRIMARK_B @TraaaashPanda Usually holding a grudge for long periods of time is a symptom of stuff that's a lot worse than not getting a PS5 lol",
+            "lang": "en",
+            "id": "1474509671729971204",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474433620387368964"
+                }
+            ]
+        },
+        {
+            "author_id": "3049064778",
+            "conversation_id": "1474509661738979330",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:37:53.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509661738979330",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1431575568",
+            "conversation_id": "1474509659822243848",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:52.000Z",
+            "text": "RT @KASSSHHHH_: Buying ya nigga a PS5 when you know he need a Leap frog is krazy",
+            "lang": "en",
+            "id": "1474509659822243848",
+            "public_metrics": {
+                "retweet_count": 26,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474109292751974436"
+                }
+            ]
+        },
+        {
+            "author_id": "1441751115842818055",
+            "conversation_id": "1474509639760982020",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:37:47.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509639760982020",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "467093845",
+            "conversation_id": "1474509637802156041",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:47.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509637802156041",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "20717669",
+            "conversation_id": "1474509628981526534",
+            "source": "PlayStation®Network",
+            "created_at": "2021-12-24T22:37:45.000Z",
+            "text": "...and the credits roll on Ratchet and Clank, Rift Apart! I dunno if it's the PS5 visuals talking but this might be my fav R&amp;C. Crack in Time might still edge it out though #PS5Share, #RatchetClankRiftApart https://t.co/uQH8AB5xQd",
+            "lang": "en",
+            "id": "1474509628981526534",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "2349416082",
+            "conversation_id": "1474509607091380224",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:40.000Z",
+            "text": "RT @EatDaMulz274: \"It's the thought that counts.\"\n\nFuck off Where's my PS5 you rude dude...",
+            "lang": "en",
+            "id": "1474509607091380224",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474277711585558528"
+                }
+            ]
+        },
+        {
+            "author_id": "3645639137",
+            "conversation_id": "1474509602544889862",
+            "source": "H.P. Lovecraft Bot",
+            "created_at": "2021-12-24T22:37:38.000Z",
+            "text": "RT @SmurfnGear: gamingaddict, bluelightblockingglasses Wireless Bluetooth 3.0 Gamepad Joystick https://t.co/lwL7oLzavs\n\n#gamer #PS5 #videog…",
+            "lang": "en",
+            "id": "1474509602544889862",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474509294527787008"
+                }
+            ]
+        },
+        {
+            "author_id": "1313271654169153536",
+            "conversation_id": "1474509595691429892",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:37.000Z",
+            "text": "Who the fuck buys a PS5 for their kid to play Among Us",
+            "lang": "en",
+            "id": "1474509595691429892",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1447135353656258560",
+            "conversation_id": "1474509594403741703",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:37:37.000Z",
+            "text": "RT @amagicmantv: Christmas For The Kids Without❤️\n\n2800 VBUCKS\n1000 VBUCKS\n2x Deep Freeze\nGolden Touch\nPolar Legends\nTech Future\n10x Cataxe…",
+            "lang": "en",
+            "id": "1474509594403741703",
+            "public_metrics": {
+                "retweet_count": 1248,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474398325398859779"
+                }
+            ]
+        },
+        {
+            "author_id": "3018655993",
+            "conversation_id": "1474509590435971075",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:37:36.000Z",
+            "text": "So is the best controller for PC on the market the PS5 Dualsense?\n#pcperipherals #hardware",
+            "lang": "en",
+            "id": "1474509590435971075",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1081481808171151360",
+            "conversation_id": "1474509584672899078",
+            "source": "XboxInfos",
+            "created_at": "2021-12-24T22:37:34.000Z",
+            "text": "RT @SmurfnGear: gamingaddict, bluelightblockingglasses Wireless Bluetooth 3.0 Gamepad Joystick https://t.co/lwL7oLzavs\n\n#gamer #PS5 #videog…",
+            "lang": "en",
+            "id": "1474509584672899078",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474509294527787008"
+                }
+            ]
+        },
+        {
+            "author_id": "1285254749630140419",
+            "conversation_id": "1474509570651394048",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:31.000Z",
+            "text": "RT @Xunr999: #PS5Share\nPs5 made? Rt app https://t.co/gbTNSLsJpY",
+            "lang": "en",
+            "id": "1474509570651394048",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474509148150763520"
+                }
+            ]
+        },
+        {
+            "author_id": "1129098650",
+            "conversation_id": "1474509561390370820",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:37:29.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509561390370820",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "1159260728894873602",
+            "conversation_id": "1474509547993714692",
+            "source": "Stream Caster",
+            "created_at": "2021-12-24T22:37:25.000Z",
+            "text": "RT @CurbsideGaming_: RECEP!! Check out CHRISTMAS EVE GRIND!! ROAD TO AVG 3 VIEWERS: GTA VICE CITY DEFINITIVE EDITION  follow! sub! https://…",
+            "lang": "en",
+            "id": "1474509547993714692",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474509525201965056"
+                }
+            ]
+        },
+        {
+            "author_id": "756383456",
+            "conversation_id": "1474509535515578368",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:37:22.000Z",
+            "text": "RT @NextGenPlayer: Blue Box Studios promise to reveal more of their PS5 exclusive Abandoned in Q1 2022 🤔🤔🤔 \n\nhttps://t.co/ziBI5WhXG9 https:…",
+            "lang": "en",
+            "id": "1474509535515578368",
+            "public_metrics": {
+                "retweet_count": 61,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474394776724287495"
+                }
+            ]
+        },
+        {
+            "author_id": "1320531312155992065",
+            "conversation_id": "1474509526091108353",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:37:20.000Z",
+            "text": "RT @VastGG: We've teamed up with @dkdynamite1 for this PS5 Bundle or $550 giveaway!\n\nTo enter, perform these actions via the link below.\n-…",
+            "lang": "en",
+            "id": "1474509526091108353",
+            "public_metrics": {
+                "retweet_count": 2096,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1465458151361241090"
+                }
+            ]
+        },
+        {
+            "author_id": "1225456402199646208",
+            "conversation_id": "1474509525201965056",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:20.000Z",
+            "text": "RECEP!! Check out CHRISTMAS EVE GRIND!! ROAD TO AVG 3 VIEWERS: GTA VICE CITY DEFINITIVE EDITION  follow! sub! https://t.co/vr8ZHOj4UY #gtatrilogy #GTADefinitiveEdition #gtavicecity #rockstargames #streamer #livestream #ps5 #twitchtv #SmallStreamersConnect #SupportSmallStreams https://t.co/KtYKzlguRc",
+            "lang": "en",
+            "id": "1474509525201965056",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1343284911126401024",
+            "conversation_id": "1474509517358452738",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:18.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509517358452738",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "168379144",
+            "conversation_id": "1474509506474295301",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:16.000Z",
+            "text": "RT @DottaPo: My brother has a brand new in Box PS5 disk version… will give it to someone for $600 shipped (retail price) … he wants it to g…",
+            "lang": "en",
+            "id": "1474509506474295301",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474455590038609922"
+                }
+            ]
+        },
+        {
+            "author_id": "564790115",
+            "conversation_id": "1474509505471733762",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:37:15.000Z",
+            "text": "RT @TheOregonDuck: sorry one last thing santa,\ncan you bring me a ps5, it would be a christmas miracle\nxoxo,\n🦆",
+            "lang": "en",
+            "id": "1474509505471733762",
+            "public_metrics": {
+                "retweet_count": 35,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474443505678356482"
+                }
+            ]
+        },
+        {
+            "author_id": "2925381242",
+            "in_reply_to_user_id": "1210578085415919621",
+            "conversation_id": "1474090393956491270",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:37:15.000Z",
+            "text": "@boyretron So, people say that about Xbox all the time, and yet Xbox had games.. Does PS5 has games, sure, the have Returnal and Rachet and Clank.. But, if you are upset about one saying, but not another? I honestly look at it more as the consoles didn't have a game they wanted to play..",
+            "lang": "en",
+            "id": "1474509504406454272",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474090393956491270"
+                }
+            ]
+        },
+        {
+            "author_id": "2782530120",
+            "conversation_id": "1474509488912805899",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:37:11.000Z",
+            "text": "RT @RUSHGGOfficial: XMAS PS5 Giveaway! 🎄🔥\n\nWe wish you all a lot of presents, happy moments with your family and a lot of joyful activities…",
+            "lang": "en",
+            "id": "1474509488912805899",
+            "public_metrics": {
+                "retweet_count": 1206,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474373869385437184"
+                }
+            ]
+        },
+        {
+            "author_id": "1320531312155992065",
+            "conversation_id": "1474509451709325318",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:37:03.000Z",
+            "text": "RT @dkdynamite1: 🔹 Holiday Announcement 🔹\n\nI’ve teamed up with @VastGG for this PS5 Bundle or $550 giveaway!\nTo enter, perform these action…",
+            "lang": "en",
+            "id": "1474509451709325318",
+            "public_metrics": {
+                "retweet_count": 1346,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1466181584944574468"
+                }
+            ]
+        },
+        {
+            "author_id": "1130431495506501632",
+            "conversation_id": "1474509438815928321",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:59.000Z",
+            "text": "RT @HooncorpE: Merry Christmas from Hooncorp Esports! Thank you all so much for the support you've shown this year, have a wonderful holida…",
+            "lang": "en",
+            "id": "1474509438815928321",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474509342690799616"
+                }
+            ]
+        },
+        {
+            "author_id": "252889933",
+            "conversation_id": "1474509427009110019",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:57.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509427009110019",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1398377544290684929",
+            "conversation_id": "1474509426325278720",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:56.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509426325278720",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "2258800013",
+            "conversation_id": "1474509412421320709",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:53.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509412421320709",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "1462092367494844418",
+            "in_reply_to_user_id": "1267112997174030336",
+            "conversation_id": "1474504777983746061",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:50.000Z",
+            "text": "@connorshirkie05 you fat dosser if my ps5 isn’t here pronto im putting laxatives in the cookies you bastard",
+            "lang": "en",
+            "id": "1474509401063051265",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474504777983746061"
+                }
+            ]
+        },
+        {
+            "author_id": "2873701713",
+            "conversation_id": "1474509400408797186",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:50.000Z",
+            "text": "RT @ForeverknightGG: I'm in a happy holiday mood so I'm going to be doing a Christmas gift card giveaway! \n\nRules:\n1. Must like, RT and be…",
+            "lang": "en",
+            "id": "1474509400408797186",
+            "public_metrics": {
+                "retweet_count": 441,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474217462228869121"
+                }
+            ]
+        },
+        {
+            "author_id": "900394320385249280",
+            "conversation_id": "1474509396151525387",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:49.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509396151525387",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1448854035621163042",
+            "conversation_id": "1474509389549744133",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:48.000Z",
+            "text": "RT @PS5Drop: 🎅 Holiday Giveaway! ☃️\n\n🎁 | 1x PS5\n\nTo Enter: \n\n• Follow @nestio_, @FlipMonsters, @Dakozaio, and @PS5Drop \n\n• Like &amp; Retweet…",
+            "lang": "en",
+            "id": "1474509389549744133",
+            "public_metrics": {
+                "retweet_count": 2297,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474107731757854729"
+                }
+            ]
+        },
+        {
+            "author_id": "895852050176716801",
+            "in_reply_to_user_id": "3025394476",
+            "conversation_id": "1474507854648389636",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:47.000Z",
+            "text": "@Avxry Ssd for my ps5 please and thank you :)",
+            "lang": "en",
+            "id": "1474509386089443332",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474507854648389636"
+                }
+            ]
+        },
+        {
+            "author_id": "564790115",
+            "conversation_id": "1474509370767540224",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:43.000Z",
+            "text": "RT @Home_Alone_Kev: Explaining why the PS5 isn’t the same thing as the PS4 and why it’s a great deal even though its price tag is a little…",
+            "lang": "en",
+            "id": "1474509370767540224",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1331022622952484865"
+                }
+            ]
+        },
+        {
+            "author_id": "1408188748320448513",
+            "conversation_id": "1474509365830893568",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:42.000Z",
+            "text": "RT @PS5Drop: 🎅 Holiday Giveaway! ☃️\n\n🎁 | 1x PS5\n\nTo Enter: \n\n• Follow @nestio_, @FlipMonsters, @Dakozaio, and @PS5Drop \n\n• Like &amp; Retweet…",
+            "lang": "en",
+            "id": "1474509365830893568",
+            "public_metrics": {
+                "retweet_count": 2297,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474107731757854729"
+                }
+            ]
+        },
+        {
+            "author_id": "1183499887180050432",
+            "conversation_id": "1474509359677775874",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:41.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509359677775874",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "45107386",
+            "in_reply_to_user_id": "1890139842",
+            "conversation_id": "1474508514273935369",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:39.000Z",
+            "text": "@johnnymorris80 Ps5 all the way bud",
+            "lang": "en",
+            "id": "1474509355160645641",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474508514273935369"
+                }
+            ]
+        },
+        {
+            "author_id": "6791062",
+            "conversation_id": "1474509352052543491",
+            "source": "OzBargain Updater",
+            "created_at": "2021-12-24T22:36:39.000Z",
+            "text": "dreamstation: [PS4/PS5] Tribes of Midgard: Deluxe Edition $20 + Delivery ($0 Prime/ $39+) @ Amazon AU / EB Games https://t.co/RB9NRfdIMT",
+            "lang": "en",
+            "id": "1474509352052543491",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1346532125852528648",
+            "in_reply_to_user_id": "1341108069812453377",
+            "conversation_id": "1474502656458588161",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:37.000Z",
+            "text": "@PS5restocks_etc Did that amazon drop yet cause i miss the GameStop drop, now Christmas imma be sad and no ps5",
+            "lang": "en",
+            "id": "1474509343190138882",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474509190970286082"
+                }
+            ]
+        },
+        {
+            "author_id": "1370609298745610242",
+            "conversation_id": "1474509342690799616",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:37.000Z",
+            "text": "Merry Christmas from Hooncorp Esports! Thank you all so much for the support you've shown this year, have a wonderful holiday with friends and family, and make sure not to overdo the turkey! 🥂🍻🦃\n\n#Hooncorp #eSports #MerryChristmas #Christmas #PS5 #PS4 #Fireworks https://t.co/edCmekkGVg",
+            "lang": "en",
+            "id": "1474509342690799616",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 23,
+                "quote_count": 1
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "3395086565",
+            "conversation_id": "1474509305294381060",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:28.000Z",
+            "text": "My mom gave me a early present to open &amp; it’s a ps5 :0",
+            "lang": "en",
+            "id": "1474509305294381060",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 2,
+                "like_count": 11,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1440420689257791502",
+            "conversation_id": "1474509294527787008",
+            "source": "SocialRabbit Plugin",
+            "created_at": "2021-12-24T22:36:25.000Z",
+            "text": "gamingaddict, bluelightblockingglasses Wireless Bluetooth 3.0 Gamepad Joystick https://t.co/lwL7oLzavs\n\n#gamer #PS5 #videogames #game #xbox #twitch #fortnite #pcgaming #gamers #gamingcommunity #xboxone #gamergirl #gta #nintendo #callofduty #streamer #bhfyp https://t.co/aHtByokrhn",
+            "lang": "en",
+            "id": "1474509294527787008",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1260328690023464960",
+            "conversation_id": "1474509289481900032",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:36:24.000Z",
+            "text": "RT @PSUdotcom: Global Chip Shortage To Continue Into 2023, Says Intel Boss\nhttps://t.co/39KcgbxZ62\n\n#Chip #Intel #Shortage #PS5 #XboxSeries…",
+            "lang": "en",
+            "id": "1474509289481900032",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500135216373764"
+                }
+            ]
+        },
+        {
+            "author_id": "2984757353",
+            "conversation_id": "1474509282779480069",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:22.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509282779480069",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "968219714974568448",
+            "in_reply_to_user_id": "70319365",
+            "conversation_id": "1474499603135438853",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:21.000Z",
+            "text": "@JMaine518 PS5 gonna lack exclusive for a few years lol. With it having cross gen titles and games on PC, these guys gotta stand back. “Console exclusive” or “Playstation Exclusive” isn’t an exclusive.",
+            "lang": "en",
+            "id": "1474509275724668928",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 1
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474499603135438853"
+                }
+            ]
+        },
+        {
+            "author_id": "968262539560792064",
+            "in_reply_to_user_id": "371085933",
+            "conversation_id": "1474509273593954308",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:20.000Z",
+            "text": "@Jitokeze can u get me the ps5",
+            "lang": "en",
+            "id": "1474509273593954308",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1143719946876329989",
+            "in_reply_to_user_id": "337354088",
+            "conversation_id": "1474436105952968704",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:19.000Z",
+            "text": "@mrpyo1 Nice, cool laid out plan. I'll try and balance it out between ps5 and xbox series x . And switch as well, hit me up on ps5 sometime. \nTake care",
+            "lang": "en",
+            "id": "1474509268317573121",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474436105952968704"
+                }
+            ]
+        },
+        {
+            "author_id": "4185816620",
+            "conversation_id": "1474509264374935556",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:36:18.000Z",
+            "text": "hory sheeeit i got a ps5 :D",
+            "lang": "en",
+            "id": "1474509264374935556",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "894322835568701441",
+            "conversation_id": "1474509263586402307",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:18.000Z",
+            "text": "RT @PS5restocks_etc: [Holiday Flash Giveaway #1]\n\nFor a $10 PlayStation Store Gift Card\n\n✅Like, Retweet &amp; Be Following!\n✅Tag a friend!\n✅Com…",
+            "lang": "en",
+            "id": "1474509263586402307",
+            "public_metrics": {
+                "retweet_count": 192,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474502656458588161"
+                }
+            ]
+        },
+        {
+            "author_id": "1036840704721354752",
+            "conversation_id": "1474509254522400768",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:15.000Z",
+            "text": "RT @TryMetafy: DAYS 11/12\nWe doubled up days in the spirit of laziness and giving!\nWe even made you a Holiday Video AND we're giving away a…",
+            "lang": "en",
+            "id": "1474509254522400768",
+            "public_metrics": {
+                "retweet_count": 750,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474402346545422377"
+                }
+            ]
+        },
+        {
+            "author_id": "1116550391204929536",
+            "conversation_id": "1474509243982270478",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:13.000Z",
+            "text": "Saw Pirates of the Caribbean Curse of the Black Pearl earlier and it was so good. Played a game on my PS5, The Last of Us. Ate some of that good meal. Watching another movie, While You We’re Sleeping, a rom com. I like those too. Nice relaxing Christmas Eve.",
+            "lang": "en",
+            "id": "1474509243982270478",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1453102068122669059",
+            "conversation_id": "1474509240807079946",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:12.000Z",
+            "text": "RT @RUSHGGOfficial: XMAS PS5 Giveaway! 🎄🔥\n\nWe wish you all a lot of presents, happy moments with your family and a lot of joyful activities…",
+            "lang": "en",
+            "id": "1474509240807079946",
+            "public_metrics": {
+                "retweet_count": 1206,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474373869385437184"
+                }
+            ]
+        },
+        {
+            "author_id": "1256313637725224961",
+            "conversation_id": "1474509236650622979",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:11.000Z",
+            "text": "RT @RUSHGGOfficial: XMAS PS5 Giveaway! 🎄🔥\n\nWe wish you all a lot of presents, happy moments with your family and a lot of joyful activities…",
+            "lang": "en",
+            "id": "1474509236650622979",
+            "public_metrics": {
+                "retweet_count": 1206,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474373869385437184"
+                }
+            ]
+        },
+        {
+            "author_id": "2536508782",
+            "conversation_id": "1474509223929204738",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-24T22:36:08.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509223929204738",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "36271902",
+            "conversation_id": "1474509215993499649",
+            "source": "Instagram",
+            "created_at": "2021-12-24T22:36:06.000Z",
+            "text": "Squeaky clean...more ps5 later https://t.co/ts4en6g0VB",
+            "lang": "en",
+            "id": "1474509215993499649",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1273672507351011330",
+            "conversation_id": "1474509212105547785",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:05.000Z",
+            "text": "TGALeagues NBA2K Canada Cup Series 36 PS5 Trauma Unit Over Evergreen GAME 2 #TGALeagues #CANADACUP #NBA2K #SERIES36 #PS5 #5V5PROAM @LeaguesTGA https://t.co/EtqjDKlN7y",
+            "lang": "en",
+            "id": "1474509212105547785",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1416180383981445122",
+            "conversation_id": "1474509206602534924",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:04.000Z",
+            "text": "RT @PS5Drop: Free PS5!",
+            "lang": "en",
+            "id": "1474509206602534924",
+            "public_metrics": {
+                "retweet_count": 243,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474479352163160065"
+                }
+            ]
+        },
+        {
+            "author_id": "1467621212096540673",
+            "in_reply_to_user_id": "1284510174041067520",
+            "conversation_id": "1474472182474498050",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:04.000Z",
+            "text": "@Xbox_Series_XS Is this the only way you can purchase a PS5?",
+            "lang": "en",
+            "id": "1474509205663006720",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474472182474498050"
+                }
+            ]
+        },
+        {
+            "author_id": "1354158106339639297",
+            "conversation_id": "1474509203452710916",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:03.000Z",
+            "text": "IF I DONT OPEN A PS5 TOMORROW IM STARTING A PURGE",
+            "lang": "en",
+            "id": "1474509203452710916",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 4,
+                "like_count": 14,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1360848586028761090",
+            "conversation_id": "1474509200881602564",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:03.000Z",
+            "text": "Reasons why Xbox is better playstation, backwards compatibility.\n\nDemon Souls is available on PS3 but not PS4, and the new Demon Souls remake is available on PS5 and not PS4. Would be cool if they would make it available on PS4 since getting a PS5 is near impossible....",
+            "lang": "en",
+            "id": "1474509200881602564",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "898789144465420288",
+            "in_reply_to_user_id": "246981058",
+            "conversation_id": "1474509197668724736",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:36:02.000Z",
+            "text": "@SMITEGame my smite game freezez only on my main account everytime I q up for rank I have a ps5 and 1gig internet? I keep getting a ton of penalty time",
+            "lang": "en",
+            "id": "1474509197668724736",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1106718413890543616",
+            "in_reply_to_user_id": "759660076214853632",
+            "conversation_id": "1474189704216129540",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:36:00.000Z",
+            "text": "@adinross Cop me a PS5 adin these waiting lists too long buddy https://t.co/6Z6Vxa95oC",
+            "lang": "en",
+            "id": "1474509190915760128",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474189704216129540"
+                }
+            ]
+        },
+        {
+            "author_id": "1197969233751228416",
+            "conversation_id": "1474509181709434891",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:58.000Z",
+            "text": "RT @TmarTn: MY GIRL GOT ME A PS5 FOR CHRISTMAS!!\n\nhad to import it straight from japan\n\nwasn't gonna pay those scalper prices https://t.co/…",
+            "lang": "en",
+            "id": "1474509181709434891",
+            "public_metrics": {
+                "retweet_count": 124,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474448790417330176"
+                }
+            ]
+        },
+        {
+            "author_id": "3269343938",
+            "conversation_id": "1474509168858083329",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:55.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509168858083329",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "1454455779877130242",
+            "conversation_id": "1474509165183832066",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:35:54.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509165183832066",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "1447191987942268934",
+            "conversation_id": "1474509148150763520",
+            "source": "PlayStation®Network",
+            "created_at": "2021-12-24T22:35:50.000Z",
+            "text": "#PS5Share\nPs5 made? Rt app https://t.co/gbTNSLsJpY",
+            "lang": "en",
+            "id": "1474509148150763520",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "3026351082",
+            "conversation_id": "1474509145873211396",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:50.000Z",
+            "text": "RT @Cybrid101: WHY HASN’T THIS SUIT BEEN ADDED TO SPIDER-MAN PS4/PS5 YET?? @insomniacgames https://t.co/6IjTYFmkz9",
+            "lang": "en",
+            "id": "1474509145873211396",
+            "public_metrics": {
+                "retweet_count": 742,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474143019062415367"
+                }
+            ]
+        },
+        {
+            "author_id": "299833819",
+            "conversation_id": "1474509131700658183",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:35:46.000Z",
+            "text": "If you ain’t gotta Ps5 by tmrrw just chop it up champ.",
+            "lang": "en",
+            "id": "1474509131700658183",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 2
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "2269643722",
+            "conversation_id": "1474509127720353792",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:35:45.000Z",
+            "text": "RT @PS5Drop: 🎅 Holiday Giveaway! ☃️\n\n🎁 | 1x PS5\n\nTo Enter: \n\n• Follow @nestio_, @FlipMonsters, @Dakozaio, and @PS5Drop \n\n• Like &amp; Retweet…",
+            "lang": "en",
+            "id": "1474509127720353792",
+            "public_metrics": {
+                "retweet_count": 2297,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474107731757854729"
+                }
+            ]
+        },
+        {
+            "author_id": "1511442091",
+            "conversation_id": "1474509119927242754",
+            "source": "TweetDeck",
+            "created_at": "2021-12-24T22:35:43.000Z",
+            "text": "RT @ForeverknightGG: I'm in a happy holiday mood so I'm going to be doing a Christmas gift card giveaway! \n\nRules:\n1. Must like, RT and be…",
+            "lang": "en",
+            "id": "1474509119927242754",
+            "public_metrics": {
+                "retweet_count": 441,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474217462228869121"
+                }
+            ]
+        },
+        {
+            "author_id": "188790863",
+            "conversation_id": "1474509116047568906",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:35:42.000Z",
+            "text": "RT @CabooseEK: #SpiderMan PS5 Remastered - 2 MORE Suits That NEED To Be in the Game! #SpiderManNoWayHome https://t.co/JgJwAawAAg https://t.…",
+            "lang": "en",
+            "id": "1474509116047568906",
+            "public_metrics": {
+                "retweet_count": 31,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474486461072384004"
+                }
+            ]
+        },
+        {
+            "author_id": "1365733811196166148",
+            "conversation_id": "1474509110674694155",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:41.000Z",
+            "text": "RT @mattswider: 🛷🛹Like my sleigh?🎅Merry Christmas from 34th Street. I hand-delivered #PS5 + #Xbox to FedEx:\n\n✅ PS5 to a military vet\n✅ Xbox…",
+            "lang": "en",
+            "id": "1474509110674694155",
+            "public_metrics": {
+                "retweet_count": 555,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474500068053032964"
+                }
+            ]
+        },
+        {
+            "author_id": "75090244",
+            "conversation_id": "1474509100952268801",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:39.000Z",
+            "text": "RT @mattswider: 🎁3 Nightly Deals + Giveaway winner pick @ 10pm ET\n➡️Enter https://t.co/p3b8CeFTtr\n➡️Livestream https://t.co/ngR5MakF1E\n\n🔥1.…",
+            "lang": "en",
+            "id": "1474509100952268801",
+            "public_metrics": {
+                "retweet_count": 434,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473117868011237382"
+                }
+            ]
+        },
+        {
+            "author_id": "809544990410047489",
+            "conversation_id": "1474509095717818375",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:38.000Z",
+            "text": "RT @Sharito742: Some angry replies in here but I'm just stating the true. This is due to 4 things:\n\n1. Censorship.\n2. PS5 supply troubles.…",
+            "lang": "en",
+            "id": "1474509095717818375",
+            "public_metrics": {
+                "retweet_count": 100,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474394701818208265"
+                }
+            ]
+        },
+        {
+            "author_id": "407889682",
+            "in_reply_to_user_id": "874414836968456193",
+            "conversation_id": "1474508479616503810",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-24T22:35:37.000Z",
+            "text": "@NotZackforWork I heard the PC version has stuttering issues so I'm gonna play it on ps5 as well",
+            "lang": "en",
+            "id": "1474509094354567170",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474508946702573573"
+                }
+            ]
+        },
+        {
+            "author_id": "1438284729753690117",
+            "in_reply_to_user_id": "19161407",
+            "conversation_id": "1319280766744838153",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-24T22:35:34.000Z",
+            "text": "@JamesStevenson Maybe we will get it in Spider-man ps5",
+            "lang": "en",
+            "id": "1474509078684700680",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1319516153660620801"
+                }
+            ]
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "verified": false,
+                "created_at": "2021-04-15T16:15:50.000Z",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 20,
+                    "tweet_count": 196,
+                    "listed_count": 0
+                },
+                "username": "Sam75811819",
+                "id": "1382729343550464007",
+                "description": "",
+                "name": "Sam"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-12-03T16:10:47.000Z",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 34,
+                    "tweet_count": 59,
+                    "listed_count": 0
+                },
+                "username": "Mind2Reality",
+                "id": "1466801956849168387",
+                "description": "",
+                "name": "Mark"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-03T17:48:33.000Z",
+                "public_metrics": {
+                    "followers_count": 29,
+                    "following_count": 189,
+                    "tweet_count": 3980,
+                    "listed_count": 1
+                },
+                "username": "Thameez_Gamer",
+                "id": "1411381327945822208",
+                "description": "B.E Civil Engineer 🏗️, PS Gamer 🎮, Thalapathy vijay and Hrithik Roshan fan 😎, movies and series lover ❤️.",
+                "name": "Thameez"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-02-28T01:22:15.000Z",
+                "public_metrics": {
+                    "followers_count": 125,
+                    "following_count": 272,
+                    "tweet_count": 33980,
+                    "listed_count": 6
+                },
+                "username": "thejamiesters",
+                "id": "22214801",
+                "description": "female. 85-liner, sports fan. music fan. kpop fan. gamer. save the turtles! \n#BTS 190511 170329 | #BSBMIN 190720 | #KARD 170915 | #BAP 160423",
+                "name": "JME 🐢 💜"
+            },
+            {
+                "verified": true,
+                "created_at": "2015-02-08T18:38:43.000Z",
+                "public_metrics": {
+                    "followers_count": 351820,
+                    "following_count": 993,
+                    "tweet_count": 42098,
+                    "listed_count": 133
+                },
+                "username": "Avxry",
+                "id": "3025394476",
+                "description": "24. YouTuber & Streamer | Business Inquiries chase@avxry.com",
+                "name": "Avery"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-01T18:20:07.000Z",
+                "public_metrics": {
+                    "followers_count": 212,
+                    "following_count": 709,
+                    "tweet_count": 12827,
+                    "listed_count": 0
+                },
+                "username": "Marble19841",
+                "id": "1256287257130082310",
+                "description": "",
+                "name": "Power Button"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-05-23T14:33:15.000Z",
+                "public_metrics": {
+                    "followers_count": 1921,
+                    "following_count": 1226,
+                    "tweet_count": 33248,
+                    "listed_count": 7
+                },
+                "username": "ExpSevDavis",
+                "id": "588412269",
+                "description": "Homosexual Protagonist.\n.\nHe/Him/His 🏳️‍🌈\n.\n#GameDev\n.\nDemocrat\n.\nJamaican🇯🇲/American 🇺🇲Living in 🏴󠁧󠁢󠁳󠁣󠁴󠁿\n.\nPSN ID: SeviredGamer\nIG: Sir.S_Deezy",
+                "name": "Mr.Deezy #Returnal Stan | #FamilyofGamers"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-09-27T02:10:36.000Z",
+                "public_metrics": {
+                    "followers_count": 333516,
+                    "following_count": 420,
+                    "tweet_count": 14389,
+                    "listed_count": 762
+                },
+                "username": "ahriuwu",
+                "id": "1909779156",
+                "description": "♥ 小さなバナナ 🍌 Ero Model ♡ Cosplayer ♡https://t.co/zM58kJbYEl ₍ᐢ ̥ ̞ ̥ᐢ₎",
+                "name": "ahri アリ⛄️❄️"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-02-28T00:57:23.000Z",
+                "public_metrics": {
+                    "followers_count": 201,
+                    "following_count": 1457,
+                    "tweet_count": 6496,
+                    "listed_count": 3
+                },
+                "username": "EtheriosPh0enix",
+                "id": "703745781111484419",
+                "description": "Aspiring Voice Actor, Goofball, Anime Enthusiast, Fighting/RPG gamer #PresidentBiden 🇺🇲 #BlackLivesMatter #BidenHarris2020",
+                "name": "🎄Winter❄Wonder❄Ph0enix🎄"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-08-11T22:17:56.000Z",
+                "public_metrics": {
+                    "followers_count": 11,
+                    "following_count": 44,
+                    "tweet_count": 194,
+                    "listed_count": 1
+                },
+                "username": "SirDyzeALot",
+                "id": "1028405179522142209",
+                "description": "Twitch Streamer | Logo and Banner by @RamiroDesigns",
+                "name": "SirDyzeALot"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-08-12T23:45:16.000Z",
+                "public_metrics": {
+                    "followers_count": 239,
+                    "following_count": 563,
+                    "tweet_count": 2920,
+                    "listed_count": 0
+                },
+                "username": "nanaue23",
+                "id": "353993072",
+                "description": "Even though we're going through it And it makes you feel alone Just know that I would die for you💖",
+                "name": "Engel🦖"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-10-25T03:35:28.000Z",
+                "public_metrics": {
+                    "followers_count": 92,
+                    "following_count": 111,
+                    "tweet_count": 2484,
+                    "listed_count": 0
+                },
+                "username": "JustMe_Chillin",
+                "id": "397758398",
+                "description": "Funniest jit on Twitter with no followers 🤷🏾‍♂️ Producer for TBG Productions and SoundEFX 🎹🎼🎧. PSN: xTwo_Killz",
+                "name": "Vibe"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-04-01T06:33:41.000Z",
+                "public_metrics": {
+                    "followers_count": 812,
+                    "following_count": 1059,
+                    "tweet_count": 5032,
+                    "listed_count": 0
+                },
+                "username": "bIackandtired",
+                "id": "1245237850016223233",
+                "description": "19. black. he/him. 50% human 50% @kornbreadTMFS stan. I am right 99.9% of the time. I’m probably sleeping or eating a muffin right now tbh. 😌",
+                "name": "𝖇𝖎𝖘𝖍𝖔𝖕"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-02-25T18:52:22.000Z",
+                "public_metrics": {
+                    "followers_count": 107,
+                    "following_count": 232,
+                    "tweet_count": 6511,
+                    "listed_count": 1
+                },
+                "username": "weepeli",
+                "id": "1219540938",
+                "description": "Crypto flounderer. 🚀🌕 but still very much 🌍.",
+                "name": "Crypto Weepeli"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-09-21T13:16:04.000Z",
+                "public_metrics": {
+                    "followers_count": 100,
+                    "following_count": 83,
+                    "tweet_count": 7783,
+                    "listed_count": 1
+                },
+                "username": "Jdawg23274103",
+                "id": "1308032192048697344",
+                "description": "Operative, operator, agent, samurai, knight, Astra scout, Spartan, navy seal, ISA soldier, combat car driver, God of war, Helghast, legend and 1%er",
+                "name": "Skeletor"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-08-26T20:46:46.000Z",
+                "public_metrics": {
+                    "followers_count": 587,
+                    "following_count": 762,
+                    "tweet_count": 65349,
+                    "listed_count": 7
+                },
+                "username": "swan931",
+                "id": "783163980",
+                "description": "Just your everyday Swan who likes anime, gaming, singing, and sports. GT:swan931 PSN:Swaner18 https://t.co/5uZNls6ck5",
+                "name": "Swan Strife"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-09-16T00:28:02.000Z",
+                "public_metrics": {
+                    "followers_count": 59,
+                    "following_count": 1158,
+                    "tweet_count": 5025,
+                    "listed_count": 1
+                },
+                "username": "SupaCoop30",
+                "id": "1041121496595398661",
+                "description": "",
+                "name": "SupaCoop30"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-06-07T20:35:59.000Z",
+                "public_metrics": {
+                    "followers_count": 23,
+                    "following_count": 90,
+                    "tweet_count": 26,
+                    "listed_count": 0
+                },
+                "username": "Daytxnium",
+                "id": "1137095883017871361",
+                "description": "",
+                "name": "Day🤫"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-14T03:35:55.000Z",
+                "public_metrics": {
+                    "followers_count": 62,
+                    "following_count": 387,
+                    "tweet_count": 2693,
+                    "listed_count": 0
+                },
+                "username": "tabosthegreat",
+                "id": "1360794847964200962",
+                "description": "hi, second account, also french",
+                "name": "tabos"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-05-12T00:04:11.000Z",
+                "public_metrics": {
+                    "followers_count": 525,
+                    "following_count": 501,
+                    "tweet_count": 4882,
+                    "listed_count": 1
+                },
+                "username": "TrueAsianGamer_",
+                "id": "730549091277492224",
+                "description": "18 | He / him | Furry Filipino Cat Gamer | Content Creator for @mansaesports | 150k on YouTube | @Twitch Affiliate | Banner and PFP: @Olive_Cow",
+                "name": "TrueAsianGamer 🇵🇭"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-15T17:24:47.000Z",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 22,
+                    "tweet_count": 5,
+                    "listed_count": 0
+                },
+                "username": "Nehbu_akhemu",
+                "id": "1438192008653414400",
+                "description": "",
+                "name": "Nehbu"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-11-26T18:39:20.000Z",
+                "public_metrics": {
+                    "followers_count": 1139,
+                    "following_count": 627,
+                    "tweet_count": 12949,
+                    "listed_count": 0
+                },
+                "username": "RichardsonLewis",
+                "id": "220081566",
+                "description": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🇯🇲",
+                "name": "Lewis"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-06-22T07:47:55.000Z",
+                "public_metrics": {
+                    "followers_count": 518,
+                    "following_count": 103,
+                    "tweet_count": 26336,
+                    "listed_count": 9
+                },
+                "username": "FREEIPODBOT",
+                "id": "321862986",
+                "description": "Number 🥇 iPod giveaway page on Twitter",
+                "name": "Follow For a Free iPod"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-12-26T00:36:03.000Z",
+                "public_metrics": {
+                    "followers_count": 5068,
+                    "following_count": 1722,
+                    "tweet_count": 81650,
+                    "listed_count": 13
+                },
+                "username": "CpuSugoii",
+                "id": "230567644",
+                "description": "Pokemon is kinda my life. and I play a shit-Ton of Genshin Impact!",
+                "name": "[Sevy] ?"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-27T14:08:40.000Z",
+                "public_metrics": {
+                    "followers_count": 113,
+                    "following_count": 207,
+                    "tweet_count": 920,
+                    "listed_count": 0
+                },
+                "username": "Lucas_Chaavees",
+                "id": "1442491341875806210",
+                "description": "Apenas um mano bípede falando groselha pelas redes",
+                "name": "Lulu🫂"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-03-07T21:50:55.000Z",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 42,
+                    "tweet_count": 81,
+                    "listed_count": 0
+                },
+                "username": "Jrod79171",
+                "id": "706960345085005825",
+                "description": "@jrod7917@instagram",
+                "name": "Jrod7917"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-23T02:05:58.000Z",
+                "public_metrics": {
+                    "followers_count": 67,
+                    "following_count": 146,
+                    "tweet_count": 9238,
+                    "listed_count": 0
+                },
+                "username": "Mira_Yorudan",
+                "id": "1264014624938172417",
+                "description": "With God all things are possible‼️",
+                "name": "Jordan Miller"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-03-12T17:34:29.000Z",
+                "public_metrics": {
+                    "followers_count": 15,
+                    "following_count": 20,
+                    "tweet_count": 49,
+                    "listed_count": 0
+                },
+                "username": "Wongishere",
+                "id": "973250893046042625",
+                "description": "",
+                "name": "wong"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-08T12:01:16.000Z",
+                "public_metrics": {
+                    "followers_count": 496,
+                    "following_count": 901,
+                    "tweet_count": 21277,
+                    "listed_count": 2
+                },
+                "username": "AyoPanthersRpt2",
+                "id": "1413105876605472770",
+                "description": "Panthers fan, Cam Newton Stan, LeBron Stan, Drake Stan 🦉#CLB, old twitter acc: AyoPanthersRprt",
+                "name": "ACE BOOG1E BACK"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-02-20T14:08:18.000Z",
+                "public_metrics": {
+                    "followers_count": 1024,
+                    "following_count": 1784,
+                    "tweet_count": 27629,
+                    "listed_count": 101
+                },
+                "username": "SkooPants",
+                "id": "3046871879",
+                "description": "My name is Skoo and I play games for fun! PS4, Xbox One, PC & Switch gamer, father of 6 and devoted fiancée!",
+                "name": "MrSkooPants - Gamer, Father, Absolute Muppet."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-11-19T02:32:00.000Z",
+                "public_metrics": {
+                    "followers_count": 1348,
+                    "following_count": 2154,
+                    "tweet_count": 49499,
+                    "listed_count": 7
+                },
+                "username": "malinee34667365",
+                "id": "1329250969171890179",
+                "description": "Confidences",
+                "name": "malineemarss!"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-05-04T18:43:13.000Z",
+                "public_metrics": {
+                    "followers_count": 274,
+                    "following_count": 1730,
+                    "tweet_count": 12000,
+                    "listed_count": 21
+                },
+                "username": "icon722",
+                "id": "293084349",
+                "description": "Broad-shouldered; raised to have a big heart, sympathetic ear, & to be a life-long friend. Insta: icon722 \n\nhttps://t.co/xPlgt4MXRC",
+                "name": "icon722"
+            },
+            {
+                "verified": false,
+                "created_at": "2008-08-28T16:06:29.000Z",
+                "public_metrics": {
+                    "followers_count": 700,
+                    "following_count": 1501,
+                    "tweet_count": 14113,
+                    "listed_count": 19
+                },
+                "username": "Gamersledge",
+                "id": "16028702",
+                "description": "🎮 Helping you wisely spend your 💰 and ⏰ on games, movies and more since 1997!\n\n🎸Support Us - https://t.co/MZ5v6GNY5B",
+                "name": "Gamersledge"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-24T16:10:18.000Z",
+                "public_metrics": {
+                    "followers_count": 47,
+                    "following_count": 97,
+                    "tweet_count": 492,
+                    "listed_count": 0
+                },
+                "username": "Casey__yeh",
+                "id": "1463540440544817156",
+                "description": "Hi\n17\ncat lover\nbored 24/7\nDM's open to all, encouraged cuz bored\nmy alt account is @fmxhd_hd\ndm on discord\nCasey#9653",
+                "name": "FMXHD"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-22T22:21:22.000Z",
+                "public_metrics": {
+                    "followers_count": 21,
+                    "following_count": 39,
+                    "tweet_count": 1887,
+                    "listed_count": 1
+                },
+                "username": "PRIMARK_B",
+                "id": "1451674761604571138",
+                "description": "Traditional artist ⋅ Bisexual Femboy ⋅ Furry ⋅ knows a lot of random facts \nsmort ⋅ will take requests ⋅ very charismatic ⋅ desperately needs SLEEP",
+                "name": "PLus the protogensssssssssssssssss requests closed"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-02-28T08:14:04.000Z",
+                "public_metrics": {
+                    "followers_count": 1065,
+                    "following_count": 752,
+                    "tweet_count": 7894,
+                    "listed_count": 1
+                },
+                "username": "WrestlingGuy630",
+                "id": "3049064778",
+                "description": "College Graduate. Associates Degree for Psychology. Just a person who likes wrestling. I hate Politics. 22 🇲🇽",
+                "name": "Good Wrestling Guy ➐"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-05-15T22:03:20.000Z",
+                "public_metrics": {
+                    "followers_count": 554,
+                    "following_count": 538,
+                    "tweet_count": 9573,
+                    "listed_count": 0
+                },
+                "username": "eliwrld999",
+                "id": "1431575568",
+                "description": "free cleve | free ace | free larro | rip dt | rip j | nlmb",
+                "name": "ebk eli"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-25T13:07:23.000Z",
+                "public_metrics": {
+                    "followers_count": 9,
+                    "following_count": 112,
+                    "tweet_count": 17,
+                    "listed_count": 0
+                },
+                "username": "rakk283",
+                "id": "1441751115842818055",
+                "description": "Just a family man!",
+                "name": "Rakk283"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-01-18T03:30:38.000Z",
+                "public_metrics": {
+                    "followers_count": 76,
+                    "following_count": 1182,
+                    "tweet_count": 874,
+                    "listed_count": 0
+                },
+                "username": "SnowAster",
+                "id": "467093845",
+                "description": "",
+                "name": "J."
+            },
+            {
+                "verified": false,
+                "created_at": "2009-02-12T20:59:34.000Z",
+                "public_metrics": {
+                    "followers_count": 714,
+                    "following_count": 1813,
+                    "tweet_count": 15845,
+                    "listed_count": 25
+                },
+                "username": "AesopB3EF",
+                "id": "20717669",
+                "description": "Father. Gamer. Game Dev. Writer. Love creating things. Making video games under @GoodCatGames - Watch @ https://t.co/iBe64kDNkM",
+                "name": "Austin Clark"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-02-18T02:39:36.000Z",
+                "public_metrics": {
+                    "followers_count": 615,
+                    "following_count": 525,
+                    "tweet_count": 10665,
+                    "listed_count": 1
+                },
+                "username": "GHOSTdook",
+                "id": "2349416082",
+                "description": "I’m a dad, dancer and dunce.",
+                "name": "DookTheDad"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-09-13T20:23:53.000Z",
+                "public_metrics": {
+                    "followers_count": 2693,
+                    "following_count": 30,
+                    "tweet_count": 234351,
+                    "listed_count": 195
+                },
+                "username": "hplbot",
+                "id": "3645639137",
+                "description": "H.P. Lovecraft retweet bot.",
+                "name": "Never Explain Anything"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-10-06T00:15:58.000Z",
+                "public_metrics": {
+                    "followers_count": 38,
+                    "following_count": 83,
+                    "tweet_count": 12978,
+                    "listed_count": 0
+                },
+                "username": "mr_contrition",
+                "id": "1313271654169153536",
+                "description": "brice 28 va depressed bisexual official™️ | mediocre white man",
+                "name": "ᕕ( ᐛ )ᕗ"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-10T09:42:55.000Z",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 7,
+                    "tweet_count": 4,
+                    "listed_count": 0
+                },
+                "username": "Jokers67882",
+                "id": "1447135353656258560",
+                "description": "",
+                "name": "Joker"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-02-13T15:44:06.000Z",
+                "public_metrics": {
+                    "followers_count": 86,
+                    "following_count": 176,
+                    "tweet_count": 784,
+                    "listed_count": 2
+                },
+                "username": "CatchABee_",
+                "id": "3018655993",
+                "description": "Racing & simulation racing. Enjoying life at the bottom of the standings.",
+                "name": "Catch"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-01-05T09:25:30.000Z",
+                "public_metrics": {
+                    "followers_count": 2282,
+                    "following_count": 13,
+                    "tweet_count": 82467,
+                    "listed_count": 10
+                },
+                "username": "XboxInfos",
+                "id": "1081481808171151360",
+                "description": "All #Xbox Tweets",
+                "name": "Xbox Infos"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-20T16:47:44.000Z",
+                "public_metrics": {
+                    "followers_count": 111,
+                    "following_count": 132,
+                    "tweet_count": 7533,
+                    "listed_count": 0
+                },
+                "username": "qiRising",
+                "id": "1285254749630140419",
+                "description": "R6 Player. @LuvSaziir",
+                "name": "qRising"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-01-28T20:11:10.000Z",
+                "public_metrics": {
+                    "followers_count": 41,
+                    "following_count": 39,
+                    "tweet_count": 15242,
+                    "listed_count": 8
+                },
+                "username": "Isabele_Kuran",
+                "id": "1129098650",
+                "description": "I play video games on twitch as isabelekuran and will be doing more streams soon. On youtube as IsabeleKuranVidGamer. Web link if you wanna donate ^w^ *heart*",
+                "name": "Chelsea Pruitt"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-08-08T00:31:10.000Z",
+                "public_metrics": {
+                    "followers_count": 22509,
+                    "following_count": 10,
+                    "tweet_count": 877609,
+                    "listed_count": 70
+                },
+                "username": "stream_caster",
+                "id": "1159260728894873602",
+                "description": "Official Account for Stream Caster\n#Streamcaster to re-tweet.",
+                "name": "Stream Caster"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-08-14T03:33:04.000Z",
+                "public_metrics": {
+                    "followers_count": 359,
+                    "following_count": 2001,
+                    "tweet_count": 50084,
+                    "listed_count": 1
+                },
+                "username": "donovanmartin5",
+                "id": "756383456",
+                "description": "hard worker, passion: movies and film making, multimedia. animal lover. descendants fan. @anyataylorjoy fan and supporter, #animation @zbrush, @photoshop",
+                "name": "donovan (Cruel and Unusual @ StoneQuarryHewn)"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-10-26T01:03:01.000Z",
+                "public_metrics": {
+                    "followers_count": 48,
+                    "following_count": 268,
+                    "tweet_count": 1209,
+                    "listed_count": 0
+                },
+                "username": "CorpusLandon",
+                "id": "1320531312155992065",
+                "description": "Lead with Compassion - Be Weird - Chill and Vibe - Love Animals - Vidya Game Streamer https://t.co/VRO8CSKrTu (Lando, he/him)",
+                "name": "CorpusLandon"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-02-06T16:29:50.000Z",
+                "public_metrics": {
+                    "followers_count": 81,
+                    "following_count": 87,
+                    "tweet_count": 631,
+                    "listed_count": 1
+                },
+                "username": "CurbsideGaming_",
+                "id": "1225456402199646208",
+                "description": "CURBSIDE GAMING 🎮 Chill Vibes Only. Enjoy the Ride.. Follow! & Sub! Links Below 👇🏾",
+                "name": "Curbside Gaming"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-12-27T19:57:43.000Z",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 12,
+                    "tweet_count": 152,
+                    "listed_count": 0
+                },
+                "username": "andreaa66773329",
+                "id": "1343284911126401024",
+                "description": "",
+                "name": "andrea almanza"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-07-19T05:01:00.000Z",
+                "public_metrics": {
+                    "followers_count": 873,
+                    "following_count": 309,
+                    "tweet_count": 23244,
+                    "listed_count": 7
+                },
+                "username": "JeffKbtw",
+                "id": "168379144",
+                "description": "Trust God ✝️ | Founder of @OneMoreGCL | #MFAM #CowboysNation | https://t.co/B6sEuyhMLO",
+                "name": "JeffKbtw"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-04-27T17:44:56.000Z",
+                "public_metrics": {
+                    "followers_count": 42,
+                    "following_count": 3387,
+                    "tweet_count": 45358,
+                    "listed_count": 1
+                },
+                "username": "Todd906",
+                "id": "564790115",
+                "description": "#BeTheChange💪#RunningOnHope🏃‍♀️#BraveLikeGabe💚@SimonPagenaud🐶@JimmieJohnson⛷@RGrosjean🏄#WeRaceAsOne🌎 @RobertWickens🇨🇦#FiveYearsOut🧠#ChangeAccelerated⚡️",
+                "name": "Todd Healy Crawley🇺🇸🇮🇪🇺🇳🏔🌲🦆🦦🐻🦁🦅🦫🦊🦙"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-12-10T08:04:56.000Z",
+                "public_metrics": {
+                    "followers_count": 451,
+                    "following_count": 491,
+                    "tweet_count": 8620,
+                    "listed_count": 8
+                },
+                "username": "Kalibandrahcir",
+                "id": "2925381242",
+                "description": "im just me, a dork into prowrestling, video games, anime, and anything that can keep me busy..",
+                "name": "Richard Hamasaki"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-12-27T15:08:10.000Z",
+                "public_metrics": {
+                    "followers_count": 244,
+                    "following_count": 840,
+                    "tweet_count": 331,
+                    "listed_count": 0
+                },
+                "username": "boyretron",
+                "id": "1210578085415919621",
+                "description": "Always pushing for the future, but an old soul at heart. Just a Tech Loving, Music Producing, Video Game Lover who happens to have an addiction to Sega Saturn!",
+                "name": "Retron"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-08-31T16:28:08.000Z",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 197,
+                    "tweet_count": 64,
+                    "listed_count": 0
+                },
+                "username": "PewLevi",
+                "id": "2782530120",
+                "description": "",
+                "name": "Dominik"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-05-20T11:14:05.000Z",
+                "public_metrics": {
+                    "followers_count": 95,
+                    "following_count": 139,
+                    "tweet_count": 559,
+                    "listed_count": 0
+                },
+                "username": "nismonath5",
+                "id": "1130431495506501632",
+                "description": "Head Hoon at Hooncorp and Hooncorp Esports",
+                "name": "Nathan Howe"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-02-16T03:36:41.000Z",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 49,
+                    "tweet_count": 39,
+                    "listed_count": 0
+                },
+                "username": "LMiddleton77",
+                "id": "252889933",
+                "description": "",
+                "name": "Lee"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-05-28T20:36:13.000Z",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 15,
+                    "tweet_count": 13,
+                    "listed_count": 0
+                },
+                "username": "Jess92824394",
+                "id": "1398377544290684929",
+                "description": "GCU 22",
+                "name": "Jess"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-01-02T20:21:22.000Z",
+                "public_metrics": {
+                    "followers_count": 190,
+                    "following_count": 211,
+                    "tweet_count": 941,
+                    "listed_count": 0
+                },
+                "username": "chife1170",
+                "id": "2258800013",
+                "description": "",
+                "name": "Mike"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-20T16:16:16.000Z",
+                "public_metrics": {
+                    "followers_count": 10,
+                    "following_count": 366,
+                    "tweet_count": 252,
+                    "listed_count": 0
+                },
+                "username": "JamieH8sSpurs",
+                "id": "1462092367494844418",
+                "description": "Arsenal FC | (used to be @Jam1eAFC)",
+                "name": "Jamie ‼️"
+            },
+            {
+                "verified": true,
+                "created_at": "2020-05-31T15:17:44.000Z",
+                "public_metrics": {
+                    "followers_count": 3492,
+                    "following_count": 1178,
+                    "tweet_count": 9269,
+                    "listed_count": 4
+                },
+                "username": "connorshirkie05",
+                "id": "1267112997174030336",
+                "description": "footballer @cobhramblersfc",
+                "name": "Connor Shirkie"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-11-12T13:23:01.000Z",
+                "public_metrics": {
+                    "followers_count": 548,
+                    "following_count": 599,
+                    "tweet_count": 2643,
+                    "listed_count": 1
+                },
+                "username": "MrDJPea",
+                "id": "2873701713",
+                "description": "Retro to current gen gamer/collector.\nHome of #1tweetgamereviews\n*All opinions are unbiased and my own*\nXBL and PSN - MrDJPea\nSW-4912-3590-1131\n*Play nice 👍🤘*",
+                "name": "Dan"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-08-23T16:28:29.000Z",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 35,
+                    "tweet_count": 42,
+                    "listed_count": 0
+                },
+                "username": "idrflit",
+                "id": "900394320385249280",
+                "description": "",
+                "name": "idrfli"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-15T03:31:54.000Z",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 100,
+                    "tweet_count": 40,
+                    "listed_count": 1
+                },
+                "username": "Antiochas01",
+                "id": "1448854035621163042",
+                "description": "",
+                "name": "Antiochas"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-08-11T03:39:07.000Z",
+                "public_metrics": {
+                    "followers_count": 33,
+                    "following_count": 735,
+                    "tweet_count": 2511,
+                    "listed_count": 1
+                },
+                "username": "og_r3ap3r",
+                "id": "895852050176716801",
+                "description": "Cashapp:$DarinLouisRussellJr Twitch is og_r3ap3r1 #OttoSquad",
+                "name": "OG_R3AP3R"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-06-24T22:22:27.000Z",
+                "public_metrics": {
+                    "followers_count": 15,
+                    "following_count": 358,
+                    "tweet_count": 1026,
+                    "listed_count": 0
+                },
+                "username": "wonkykicks",
+                "id": "1408188748320448513",
+                "description": "waashed 🤡",
+                "name": "wonkykicks"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-10-13T21:49:07.000Z",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 20,
+                    "tweet_count": 4,
+                    "listed_count": 0
+                },
+                "username": "DanielS30426849",
+                "id": "1183499887180050432",
+                "description": "",
+                "name": "Daniel Santiago"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-06-06T10:39:19.000Z",
+                "public_metrics": {
+                    "followers_count": 44,
+                    "following_count": 145,
+                    "tweet_count": 1742,
+                    "listed_count": 2
+                },
+                "username": "KevinAndrews79",
+                "id": "45107386",
+                "description": "I am me, a take it or leave it kinda chap..........",
+                "name": "Kahama"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-09-21T13:21:44.000Z",
+                "public_metrics": {
+                    "followers_count": 676,
+                    "following_count": 1054,
+                    "tweet_count": 23423,
+                    "listed_count": 6
+                },
+                "username": "johnnymorris80",
+                "id": "1890139842",
+                "description": "I like to hit the gym,play sport or chill out on the Xbox. Living with Leukaemia.\nhttps://t.co/St2Fm9KYFE",
+                "name": "Johnny Morrow (x0TheMechanic0x)"
+            },
+            {
+                "verified": false,
+                "created_at": "2007-06-13T14:17:27.000Z",
+                "public_metrics": {
+                    "followers_count": 10049,
+                    "following_count": 1,
+                    "tweet_count": 364222,
+                    "listed_count": 320
+                },
+                "username": "ozbargain",
+                "id": "6791062",
+                "description": "Australia's #1 bargain site tweeting every new deal. For frontpage deals follow @OzBargainHot, OzBargain crew @OzBargainBuzz, Comps @OzBargainComps.",
+                "name": "OzBargain"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-01-05T19:00:59.000Z",
+                "public_metrics": {
+                    "followers_count": 36,
+                    "following_count": 29,
+                    "tweet_count": 38,
+                    "listed_count": 0
+                },
+                "username": "zion02578643",
+                "id": "1346532125852528648",
+                "description": "",
+                "name": "zion"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-12-21T19:47:52.000Z",
+                "public_metrics": {
+                    "followers_count": 138840,
+                    "following_count": 273,
+                    "tweet_count": 41626,
+                    "listed_count": 453
+                },
+                "username": "PS5restocks_etc",
+                "id": "1341108069812453377",
+                "description": "⚡️#PS5 #Xbox Restock Alerts 24/7!🚨\nTap the 🔔 for Instant Updates + Tips!\nConsole News, Gaming Deals🎮\nRetweet ≠ Restock! Some tweets contain affiliate links.",
+                "name": "STOCK TRACKER: PS5 Alerts & Tips • Xbox • GPU!"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-13T05:35:08.000Z",
+                "public_metrics": {
+                    "followers_count": 61,
+                    "following_count": 63,
+                    "tweet_count": 190,
+                    "listed_count": 0
+                },
+                "username": "HooncorpE",
+                "id": "1370609298745610242",
+                "description": "An Oceania based sim racing team competing primarily in Gran Turismo Sport!                             \n    \nJoin the Discord - https://t.co/vLSRktOVfO",
+                "name": "Hooncorp_Esports"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-07-30T06:20:48.000Z",
+                "public_metrics": {
+                    "followers_count": 1271,
+                    "following_count": 695,
+                    "tweet_count": 9172,
+                    "listed_count": 3
+                },
+                "username": "LuNaticBeaut",
+                "id": "3395086565",
+                "description": "20 | Non professional Apex & Overwatch player. Toxic rank 1 survivor (dbd) huge simp for Steve // Priv Twitter @LunasPriv_",
+                "name": "Luna ☾*✲⋆."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-21T21:00:41.000Z",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 40,
+                    "tweet_count": 1427,
+                    "listed_count": 0
+                },
+                "username": "SmurfnGear",
+                "id": "1440420689257791502",
+                "description": "Welcome to Smurf Gear! Discover a great collection of gaming accessories even for most sophisticated players.",
+                "name": "Smurf Gear"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-12T21:59:29.000Z",
+                "public_metrics": {
+                    "followers_count": 35,
+                    "following_count": 1056,
+                    "tweet_count": 3060,
+                    "listed_count": 1
+                },
+                "username": "jinxdrop",
+                "id": "1260328690023464960",
+                "description": "connoisseur of b films which is really code for being a budget version of MST3K",
+                "name": "🐈‍⬛Jinx🐈‍⬛"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-01-18T22:24:55.000Z",
+                "public_metrics": {
+                    "followers_count": 807,
+                    "following_count": 1771,
+                    "tweet_count": 2516,
+                    "listed_count": 0
+                },
+                "username": "LogoCurry",
+                "id": "2984757353",
+                "description": "following everyone that follows me",
+                "name": "Jake📪"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-02-26T20:22:23.000Z",
+                "public_metrics": {
+                    "followers_count": 120,
+                    "following_count": 446,
+                    "tweet_count": 10780,
+                    "listed_count": 1
+                },
+                "username": "Dawknight316",
+                "id": "968219714974568448",
+                "description": "THE COMMENTATOR | Drink Water | Keep it 💯| NY Knicks | Hip Hop | Los Videojuegos",
+                "name": "Sir Dawkness"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-08-31T05:35:21.000Z",
+                "public_metrics": {
+                    "followers_count": 3825,
+                    "following_count": 743,
+                    "tweet_count": 154691,
+                    "listed_count": 90
+                },
+                "username": "JMaine518",
+                "id": "70319365",
+                "description": "Inspired By Desire 🙏🏿",
+                "name": "King J 🤴🏿"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-02-26T23:12:33.000Z",
+                "public_metrics": {
+                    "followers_count": 393,
+                    "following_count": 1689,
+                    "tweet_count": 6900,
+                    "listed_count": 1
+                },
+                "username": "SmurfyCross",
+                "id": "968262539560792064",
+                "description": "Hi. Lil Darkie and Eminem Fan.",
+                "name": "«Грибной Village Мессия» Smurfy"
+            },
+            {
+                "verified": true,
+                "created_at": "2011-09-10T05:08:41.000Z",
+                "public_metrics": {
+                    "followers_count": 20657,
+                    "following_count": 1069,
+                    "tweet_count": 2835,
+                    "listed_count": 33
+                },
+                "username": "Jitokeze",
+                "id": "371085933",
+                "description": "Co-Owner of @PriceErrors\nI do a lot of stuff\nBusiness Enquiries: Solyman@solyman.co.uk",
+                "name": "Solyman Jami"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-06-26T03:17:39.000Z",
+                "public_metrics": {
+                    "followers_count": 165,
+                    "following_count": 314,
+                    "tweet_count": 4685,
+                    "listed_count": 2
+                },
+                "username": "SechmanTravis",
+                "id": "1143719946876329989",
+                "description": "GAMERTAG : ANIMEHEAVEN X23/\nPSN ID : ANIMEREALM /\nSWITCH FRIEND CODE : 6703 2640 6616 \n\nYOUTUBE CHANNEL : animeheavenx23 /\n\nhttps://t.co/vil3Ti4LMO",
+                "name": "ANIMEHEAVEN X23"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-07-17T22:09:42.000Z",
+                "public_metrics": {
+                    "followers_count": 25797,
+                    "following_count": 543,
+                    "tweet_count": 98868,
+                    "listed_count": 116
+                },
+                "username": "mrpyo1",
+                "id": "337354088",
+                "description": "• SONY • Square Enix • Nintendo \n• Kojima • Capcom • From Software \n🦍 It's time when it's ready!!!!\n@BT_BlackThunder made the header!!!\nYT channel 👇",
+                "name": "Pyo 5️⃣"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-11-10T02:55:38.000Z",
+                "public_metrics": {
+                    "followers_count": 162,
+                    "following_count": 1194,
+                    "tweet_count": 6492,
+                    "listed_count": 1
+                },
+                "username": "robinschauls",
+                "id": "4185816620",
+                "description": "Intern #CodaGrooves , Artist in training\nhttps://t.co/c0z2zB07RK",
+                "name": "Toxicscum"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-08-06T22:22:34.000Z",
+                "public_metrics": {
+                    "followers_count": 597,
+                    "following_count": 963,
+                    "tweet_count": 9773,
+                    "listed_count": 0
+                },
+                "username": "Maiden_VT",
+                "id": "894322835568701441",
+                "description": "Dad and husband just trying to be good at both. He/him. #BidenHarris- FA/FO 🥊 #Resist!",
+                "name": "JCasey💕🏳️‍🌈💯‼️"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-09-04T04:57:42.000Z",
+                "public_metrics": {
+                    "followers_count": 31,
+                    "following_count": 157,
+                    "tweet_count": 1743,
+                    "listed_count": 0
+                },
+                "username": "Yahuizotl",
+                "id": "1036840704721354752",
+                "description": "ソノラ砂漠の骸骨 ！🤠\nTeacher, engineer, translator & pop culture lover. Español, English & some 日本語!",
+                "name": "🄻🅄🄲🄰🅂 🐑"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-04-12T03:55:32.000Z",
+                "public_metrics": {
+                    "followers_count": 59,
+                    "following_count": 68,
+                    "tweet_count": 3611,
+                    "listed_count": 0
+                },
+                "username": "JulesR0480",
+                "id": "1116550391204929536",
+                "description": "Life is a journey. We are evolving. Avoid boxes. Think for yourself. Seek wisdom.",
+                "name": "Jules R"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-26T20:52:07.000Z",
+                "public_metrics": {
+                    "followers_count": 6,
+                    "following_count": 72,
+                    "tweet_count": 37,
+                    "listed_count": 0
+                },
+                "username": "preben_kasane06",
+                "id": "1453102068122669059",
+                "description": "Fotball og fifa er livet",
+                "name": "Preben Kåsene"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-01T20:04:57.000Z",
+                "public_metrics": {
+                    "followers_count": 11,
+                    "following_count": 197,
+                    "tweet_count": 486,
+                    "listed_count": 0
+                },
+                "username": "dav_dir",
+                "id": "1256313637725224961",
+                "description": "Hamburger Jung🇩🇪",
+                "name": "David D."
+            },
+            {
+                "verified": false,
+                "created_at": "2014-05-09T04:54:20.000Z",
+                "public_metrics": {
+                    "followers_count": 154,
+                    "following_count": 4801,
+                    "tweet_count": 15050,
+                    "listed_count": 2
+                },
+                "username": "ConkConk95",
+                "id": "2536508782",
+                "description": "Video Gamer",
+                "name": "Kris"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-04-29T03:17:44.000Z",
+                "public_metrics": {
+                    "followers_count": 921,
+                    "following_count": 824,
+                    "tweet_count": 43222,
+                    "listed_count": 6
+                },
+                "username": "Doubleclams",
+                "id": "36271902",
+                "description": "live from the garden state | NJ | I've got a beard",
+                "name": "knuckle head"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-18T17:42:57.000Z",
+                "public_metrics": {
+                    "followers_count": 1397,
+                    "following_count": 271,
+                    "tweet_count": 8739,
+                    "listed_count": 0
+                },
+                "username": "LeaguesTga",
+                "id": "1273672507351011330",
+                "description": "",
+                "name": "TGALeagues"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-16T23:38:50.000Z",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 37,
+                    "tweet_count": 17,
+                    "listed_count": 0
+                },
+                "username": "mind69_mega",
+                "id": "1416180383981445122",
+                "description": "",
+                "name": "MegaMind69"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-12-05T22:25:56.000Z",
+                "public_metrics": {
+                    "followers_count": 38,
+                    "following_count": 48,
+                    "tweet_count": 143,
+                    "listed_count": 0
+                },
+                "username": "JerzyGameboy",
+                "id": "1467621212096540673",
+                "description": "I play Video Games\n#Gaming #PC #Mods #Retro #Emulator",
+                "name": "JerzyGameboy"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-18T15:27:59.000Z",
+                "public_metrics": {
+                    "followers_count": 6069,
+                    "following_count": 2107,
+                    "tweet_count": 16103,
+                    "listed_count": 31
+                },
+                "username": "Xbox_Series_XS",
+                "id": "1284510174041067520",
+                "description": "Series X|S, Switch, Deck & ps5. LG CX. Humor, sarcasm 👍. U soft, woke or pcmr=🚫. Attempt personal attack=Suspended. I value my time. Dream acquisition?  WB",
+                "name": "🔲 Xbox_Serious_X|S 🔲"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-01-26T20:03:56.000Z",
+                "public_metrics": {
+                    "followers_count": 745,
+                    "following_count": 726,
+                    "tweet_count": 40858,
+                    "listed_count": 7
+                },
+                "username": "nuggiess_",
+                "id": "1354158106339639297",
+                "description": "𝘪𝘧 𝘺𝘰𝘶 𝘦𝘹𝘱𝘦𝘤𝘵 𝘥𝘪𝘴𝘢𝘱𝘱𝘰𝘪𝘯𝘵𝘮𝘦𝘯𝘵 𝘺𝘰𝘶 𝘤𝘢𝘯 𝘯𝘦𝘷𝘦𝘳 𝘳𝘦𝘢𝘭𝘭𝘺 𝘣𝘦 𝘥𝘪𝘴𝘢𝘱𝘱𝘰𝘪𝘯𝘵𝘦𝘥",
+                "name": "ɴᴜɢɢɪɛᴤ 💃"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-14T07:09:27.000Z",
+                "public_metrics": {
+                    "followers_count": 97,
+                    "following_count": 61,
+                    "tweet_count": 4256,
+                    "listed_count": 1
+                },
+                "username": "JakeButkowski",
+                "id": "1360848586028761090",
+                "description": "me",
+                "name": "Jake Butkowski"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-08-19T06:10:05.000Z",
+                "public_metrics": {
+                    "followers_count": 54,
+                    "following_count": 112,
+                    "tweet_count": 363,
+                    "listed_count": 0
+                },
+                "username": "xD12xSLiMx",
+                "id": "898789144465420288",
+                "description": "",
+                "name": "JustSlim"
+            },
+            {
+                "verified": true,
+                "created_at": "2011-02-03T21:15:52.000Z",
+                "public_metrics": {
+                    "followers_count": 949726,
+                    "following_count": 134,
+                    "tweet_count": 18649,
+                    "listed_count": 783
+                },
+                "username": "SMITEGame",
+                "id": "246981058",
+                "description": "SMITE is the Free-To-Play Battleground of the Gods! Check out the latest news: https://t.co/ENMoNKUs7O",
+                "name": "SMITE"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-03-16T00:46:46.000Z",
+                "public_metrics": {
+                    "followers_count": 25,
+                    "following_count": 76,
+                    "tweet_count": 1024,
+                    "listed_count": 0
+                },
+                "username": "Qlxct1",
+                "id": "1106718413890543616",
+                "description": "BAD-MON. 🦋",
+                "name": "Qlxct"
+            },
+            {
+                "verified": true,
+                "created_at": "2016-07-31T08:00:51.000Z",
+                "public_metrics": {
+                    "followers_count": 1087681,
+                    "following_count": 1053,
+                    "tweet_count": 4893,
+                    "listed_count": 208
+                },
+                "username": "adinross",
+                "id": "759660076214853632",
+                "description": "Twitch - https://t.co/4WX1RGh380 ||||||||||||||||||||||||||| YouTube - https://t.co/zVHSC2cOp7 |||||| ||| ||||BUSINESS - contactadinross@gmail.com",
+                "name": "adin"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-11-22T20:05:11.000Z",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 38,
+                    "tweet_count": 23,
+                    "listed_count": 0
+                },
+                "username": "Elay03424069",
+                "id": "1197969233751228416",
+                "description": "",
+                "name": "Elay"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-07-05T19:55:22.000Z",
+                "public_metrics": {
+                    "followers_count": 52,
+                    "following_count": 748,
+                    "tweet_count": 3257,
+                    "listed_count": 9
+                },
+                "username": "Dmoneyo7",
+                "id": "3269343938",
+                "description": "Currently in the US Army saving, while doing the everything I love and enjoy Eating Gaming Traveling! Xbox Console of Choice. Love anything Techie or Nerdy.",
+                "name": "Dom Livas"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-30T14:31:03.000Z",
+                "public_metrics": {
+                    "followers_count": 3,
+                    "following_count": 4,
+                    "tweet_count": 17,
+                    "listed_count": 0
+                },
+                "username": "Dieslexia6",
+                "id": "1454455779877130242",
+                "description": "",
+                "name": "Alicia"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-10T13:27:18.000Z",
+                "public_metrics": {
+                    "followers_count": 62,
+                    "following_count": 105,
+                    "tweet_count": 61,
+                    "listed_count": 0
+                },
+                "username": "Xunr999",
+                "id": "1447191987942268934",
+                "description": "@saziir999❤️@ceaqoo🔮",
+                "name": "🆗"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-02-18T15:47:47.000Z",
+                "public_metrics": {
+                    "followers_count": 51,
+                    "following_count": 225,
+                    "tweet_count": 2609,
+                    "listed_count": 1
+                },
+                "username": "HonorLeo",
+                "id": "3026351082",
+                "description": "",
+                "name": "LeoWest14"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-05-16T19:11:41.000Z",
+                "public_metrics": {
+                    "followers_count": 2030,
+                    "following_count": 983,
+                    "tweet_count": 69309,
+                    "listed_count": 0
+                },
+                "username": "Payaday",
+                "id": "299833819",
+                "description": "716 made. RIP Norm, RIP Ja'Quan. sc: ard_3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ ᖴᖇᗴᗴ ᘜᗩᗰᗴ ᑭOᗪᑕᗩᔕT💎 (coming soon)",
+                "name": "payaday💰"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-01-08T22:02:30.000Z",
+                "public_metrics": {
+                    "followers_count": 57,
+                    "following_count": 106,
+                    "tweet_count": 8,
+                    "listed_count": 0
+                },
+                "username": "eamonntiger7",
+                "id": "2269643722",
+                "description": "Richmond ‘21",
+                "name": "Eamonn McDonald"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-06-12T19:33:13.000Z",
+                "public_metrics": {
+                    "followers_count": 1063,
+                    "following_count": 516,
+                    "tweet_count": 78073,
+                    "listed_count": 27
+                },
+                "username": "sagacyte",
+                "id": "1511442091",
+                "description": "Every tweet is a super tweet || Game opinions no one asked for || #FFXIV #Destiny2  and whatever tickles my fancy || I stream sometimes, too!",
+                "name": "Sagacyte - Gamingway"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-09-09T16:09:23.000Z",
+                "public_metrics": {
+                    "followers_count": 498,
+                    "following_count": 521,
+                    "tweet_count": 42580,
+                    "listed_count": 4
+                },
+                "username": "The_Vaughn_",
+                "id": "188790863",
+                "description": "WCU 🟡🟣🐏 |Tatted| INFP 🎮PSN - Reesescup27",
+                "name": "SENIOR YEAR VINNY® + RATIO THEN"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-27T18:41:41.000Z",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 11,
+                    "tweet_count": 4,
+                    "listed_count": 0
+                },
+                "username": "chong_1988",
+                "id": "1365733811196166148",
+                "description": "",
+                "name": "Chong_1988@hotmail.com"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-09-17T19:17:07.000Z",
+                "public_metrics": {
+                    "followers_count": 294,
+                    "following_count": 188,
+                    "tweet_count": 1153,
+                    "listed_count": 0
+                },
+                "username": "ThomasTorres",
+                "id": "75090244",
+                "description": "Family, EMT/firefighter , gamer, jiu-jitsu, and MMA. Mostly use this for giveaways.",
+                "name": "Thomas Torres"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-12-15T23:45:41.000Z",
+                "public_metrics": {
+                    "followers_count": 108,
+                    "following_count": 830,
+                    "tweet_count": 4589,
+                    "listed_count": 0
+                },
+                "username": "sebadipa1",
+                "id": "809544990410047489",
+                "description": "well...\nI'm half polish and ita.\nI like videogames, comics, movies.\r\nHalf of the days work.",
+                "name": "leon"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-11-08T17:57:44.000Z",
+                "public_metrics": {
+                    "followers_count": 2032,
+                    "following_count": 2182,
+                    "tweet_count": 33611,
+                    "listed_count": 9
+                },
+                "username": "HugoBedward",
+                "id": "407889682",
+                "description": "'ENJOY YOUR TWEETING EXPERIENCE'.\nOwner of @OOCWesternR34, 23\n\nAvatar drawn by @OhDangDoof, original design by @Moi_Hemmo\n\nHeader drawn by @what_the_cheick",
+                "name": "Captain Hugo"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-06-12T23:55:17.000Z",
+                "public_metrics": {
+                    "followers_count": 30165,
+                    "following_count": 663,
+                    "tweet_count": 20613,
+                    "listed_count": 147
+                },
+                "username": "NotZackforWork",
+                "id": "874414836968456193",
+                "description": "🔞 Sex and Trans Positive 🏳️‍⚧️ Art, Comics and more! No minors please. Non-Binary/Bi-Gender Friend. Kindness above all else.",
+                "name": "Your Pal Zi"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-15T23:33:10.000Z",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 22,
+                    "tweet_count": 12,
+                    "listed_count": 0
+                },
+                "username": "Exposing_apex",
+                "id": "1438284729753690117",
+                "description": "I expose Apex players in bot lobbies.",
+                "name": "ExposongApexPlayers"
+            },
+            {
+                "verified": true,
+                "created_at": "2009-01-18T22:56:41.000Z",
+                "public_metrics": {
+                    "followers_count": 30172,
+                    "following_count": 2774,
+                    "tweet_count": 72989,
+                    "listed_count": 381
+                },
+                "username": "JamesStevenson",
+                "id": "19161407",
+                "description": "Community Director at @InsomniacGames. @Huskers alum and superfan. Enjoys pizza. Won a car from @DrewFromTV. Undefeated Big Wheel Spinner. LFAT",
+                "name": "James Stevenson"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1474509870992740355",
+        "oldest_id": "1474509078684700680",
+        "result_count": 100,
+        "next_token": "b26v89c19zqg8o3fpe170z25j90pr8o76wh62b9mmgs59"
+    }
+}

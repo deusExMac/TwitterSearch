@@ -1,0 +1,107 @@
+[30/12/2021 19:34:41] Starting
+[30/12/2021 19:35:06] Starting
+[30/12/2021 19:38:45] Starting search for tweets using query [search covid lang:de from:28/12/2021 until:29/12/2021].
+[30/12/2021 19:38:55] Search finished.
+[30/12/2021 19:49:42] Starting search for tweets using query [search covid lang:el from:28/12/2021 until:29/12/2021].
+[30/12/2021 19:49:42] Getting [300] tweets for period [2021-12-25T00:00:00Z] until [2021-12-26T00:00:00Z]
+[30/12/2021 19:50:04] Stopping due to max period number of tweets [300] reached.
+[30/12/2021 19:50:09] Getting [300] tweets for period [2021-12-27T00:00:00Z] until [2021-12-28T00:00:00Z]
+[30/12/2021 19:50:29] Stopping due to max period number of tweets [300] reached.
+[30/12/2021 19:50:34] Getting [300] tweets for period [2021-12-28T00:00:00Z] until [2021-12-29T00:00:00Z]
+[30/12/2021 19:50:56] Stopping due to max period number of tweets [300] reached.
+[30/12/2021 19:51:01] Search finished.
+[30/12/2021 20:05:03] Starting search for tweets using query [search covid lang:el from:28/12/2021 until:30/12/2021].
+[30/12/2021 20:05:03] Getting [300] tweets for period [2021-12-28T00:00:00Z] until [2021-12-30T00:00:00Z]
+[30/12/2021 20:05:22] Period [2021-12-28T00:00:00Z - 2021-12-30T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[30/12/2021 20:05:28] Search finished.
+[30/12/2021 20:07:05] Starting search for tweets using query [search covid lang:el from:28/12/2021 until:30/12/2021].
+[30/12/2021 20:07:05] Getting [300] tweets for period [2021-12-26T00:00:00Z] until [2021-12-27T00:00:00Z]
+[30/12/2021 20:07:26] Period [2021-12-26T00:00:00Z - 2021-12-27T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[30/12/2021 20:07:31] Getting [300] tweets for period [2021-12-28T00:00:00Z] until [2021-12-30T00:00:00Z]
+[30/12/2021 20:07:52] Period [2021-12-28T00:00:00Z - 2021-12-30T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[30/12/2021 20:07:57] Search finished.
+[31/12/2021 11:49:11] Starting search for tweets using query [search covid19 lang:en from:28/12/2021@21:06:55 until:30/12/2021@04:14:02.123].
+[31/12/2021 11:49:11] Getting [19] tweets for period [2021-12-28T21:06:55Z] until [2021-12-30T04:14:02.123000Z]
+[31/12/2021 11:49:14] Period [2021-12-28T21:06:55Z - 2021-12-30T04:14:02.123000Z] Stopping due to max period number of tweets [19] reached.
+[31/12/2021 11:49:19] Search finished.
+[31/12/2021 12:07:15] Starting search for tweets using query [search μανώλης lang:el from:3/11/2011 until:5/6/2012].
+[31/12/2021 12:07:15] Getting [303] tweets for period [2011-03-11T00:00:00Z] until [2012-05-06T00:00:00Z]
+[31/12/2021 12:07:34] Period [2011-03-11T00:00:00Z - 2012-05-06T00:00:00Z] Stopping due to max period number of tweets [303] reached.
+[31/12/2021 12:07:39] Search finished.
+[31/12/2021 12:15:58] Starting search for tweets using query [search covid from:27/12/2021 until:31/12/2021@02:33:42.145].
+[31/12/2021 12:15:58] Getting [300] tweets for period [2021-12-27T00:00:00Z] until [2021-12-31T02:33:42.145000Z]
+[31/12/2021 12:16:51] Starting search for tweets using query [search covid from:27/12/2021 until:31/12/2021@02:33:42.145].
+[31/12/2021 12:16:51] Getting [300] tweets for period [2021-12-27T00:00:00Z] until [2021-12-31T02:33:42.145000Z]
+[31/12/2021 12:16:51] Period [2021-12-27T00:00:00Z - 2021-12-31T02:33:42.145000Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":["covid lang:"]},"message":"There were errors processing your request: missing EOF at \'lang\' (at position 7)"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[31/12/2021 12:17:40] Starting search for tweets using query [search covid lang:el from:27/12/2021 until:31/12/2021@02:33:42.145].
+[31/12/2021 12:17:40] Getting [300] tweets for period [2021-12-27T00:00:00Z] until [2021-12-31T02:33:42.145000Z]
+[31/12/2021 12:17:59] Period [2021-12-27T00:00:00Z - 2021-12-31T02:33:42.145000Z] Stopping due to max period number of tweets [300] reached.
+[31/12/2021 12:18:04] Search finished.
+[31/12/2021 12:23:57] Starting search for tweets using query [search pcr from:28/12/2021 until:29/12/2021].
+[31/12/2021 12:23:57] Getting [300] tweets for period [2021-12-28T00:00:00Z] until [2021-12-29T00:00:00Z]
+[31/12/2021 12:24:17] Period [2021-12-28T00:00:00Z - 2021-12-29T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[31/12/2021 12:24:22] Search finished.
+[31/12/2021 12:40:23] Starting search for tweets using query [search manolis lang:de from:29/12/2021 until:31/12/2021].
+[31/12/2021 12:40:23] Getting [300] tweets for period [2021-12-29T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:40:23] Period [2021-12-29T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due no more next tokens.
+[31/12/2021 12:40:29] Search finished.
+[31/12/2021 12:44:21] Starting search for tweets using query [search manolis lang:de from:29/12/2021 until:31/12/2021].
+[31/12/2021 12:44:21] Getting [92] tweets for period [2021-12-29T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:44:21] Period [2021-12-29T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due no more next tokens.
+[31/12/2021 12:44:26] Search finished.
+[31/12/2021 12:45:31] Starting search for tweets using query [search manolis lang:el from:24/12/2021 until:31/12/2021].
+[31/12/2021 12:45:31] Getting [92] tweets for period [2021-12-24T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:45:32] Period [2021-12-24T00:00:00Z - 2021-12-31T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2021-12-24T00:00Z"]},"message":"Invalid \'start_time\':\'2021-12-24T00:00Z\'. \'start_time\' must be on or after 2021-12-24T10:44Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[31/12/2021 12:46:56] Starting search for tweets using query [search manolis lang:el from:25/12/2021 until:31/12/2021].
+[31/12/2021 12:46:56] Getting [92] tweets for period [2021-12-25T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:47:03] Period [2021-12-25T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due to max period number of tweets [92] reached.
+[31/12/2021 12:47:08] Search finished.
+[31/12/2021 12:47:58] Starting search for tweets using query [search χρήστος lang:el from:25/12/2021 until:31/12/2021].
+[31/12/2021 12:47:58] Getting [92] tweets for period [2021-12-25T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:48:05] Period [2021-12-25T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due to max period number of tweets [92] reached.
+[31/12/2021 12:48:10] Search finished.
+[31/12/2021 12:48:48] Starting search for tweets using query [search manolis χρήστος μανόλης lang:el from:25/12/2021 until:31/12/2021].
+[31/12/2021 12:48:48] Getting [92] tweets for period [2021-12-25T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:48:49] Period [2021-12-25T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due no more next tokens.
+[31/12/2021 12:48:54] Search finished.
+[31/12/2021 12:49:19] Starting search for tweets using query [search μανώλης χρήστος lang:el from:25/12/2021 until:31/12/2021].
+[31/12/2021 12:49:19] Getting [92] tweets for period [2021-12-25T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 12:49:19] Period [2021-12-25T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due no more next tokens.
+[31/12/2021 12:49:25] Search finished.
+[31/12/2021 12:56:04] Starting search for tweets using query [search xmas lang:en from:25/12/2021 until:30/12/2021].
+[31/12/2021 12:56:04] Getting [4000] tweets for period [2021-12-25T00:00:00Z] until [2021-12-30T00:00:00Z]
+[31/12/2021 13:00:26] Period [2021-12-25T00:00:00Z - 2021-12-30T00:00:00Z] Stopping due to max period number of tweets [4000] reached.
+[31/12/2021 13:00:31] Search finished.
+[31/12/2021 13:32:53] Starting search for tweets using query [search manolis lang=en from:28/12/2021 until:31/12/2021].
+[31/12/2021 13:32:53] Getting [300] tweets for period [2021-12-28T00:00:00Z] until [2021-12-31T00:00:00Z]
+[31/12/2021 13:32:53] Period [2021-12-28T00:00:00Z - 2021-12-31T00:00:00Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[31/12/2021 13:40:48] Starting search for tweets using query [search nikolaus lang:de from:26/12/2021 until:30/12/2021].
+[31/12/2021 13:40:48] Getting [300] tweets for period [2021-12-26T00:00:00Z] until [2021-12-30T00:00:00Z]
+[31/12/2021 13:41:07] Period [2021-12-26T00:00:00Z - 2021-12-30T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[31/12/2021 13:41:12] Search finished.
+[31/12/2021 13:41:25] Starting search for tweets using query [search nikolaus lang:de from:26/12/2021 until:30/12/2021].
+[31/12/2021 13:41:25] Getting [300] tweets for period [2021-12-26T00:00:00Z] until [2021-12-30T00:00:00Z]
+[31/12/2021 13:41:45] Period [2021-12-26T00:00:00Z - 2021-12-30T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[31/12/2021 13:41:51] Search finished.
+[02/01/2022 10:24:48] Starting search for tweets using query [search happy new year lang:en from:31/12/2021 until:1/1/2022].
+[02/01/2022 10:24:48] Getting [129] tweets for period [2021-12-31T00:00:00Z] until [2022-01-01T00:00:00Z]
+[02/01/2022 10:24:58] Period [2021-12-31T00:00:00Z - 2022-01-01T00:00:00Z] Stopping due to max period number of tweets [129] reached.
+[02/01/2022 10:25:03] Search finished.
+[02/01/2022 17:47:27] Starting search for tweets using query [search corona virus lang:en from:31/12/2021 until:1/1/2022].
+[02/01/2022 17:47:27] Getting [101] tweets for period [2021-12-31T00:00:00Z] until [2022-01-01T00:00:00Z]
+[02/01/2022 17:47:34] Period [2021-12-31T00:00:00Z - 2022-01-01T00:00:00Z] Stopping due to max period number of tweets [101] reached.
+[02/01/2022 17:47:39] Search finished.
+[02/01/2022 17:56:38] Starting search for tweets using query [search covid omicron lang:en from:30/12/2021 until:1/1/2022].
+[02/01/2022 17:56:38] Getting [204] tweets for period [2021-12-30T00:00:00Z] until [2022-01-01T00:00:00Z]
+[02/01/2022 17:56:52] Period [2021-12-30T00:00:00Z - 2022-01-01T00:00:00Z] Stopping due to max period number of tweets [204] reached.
+[02/01/2022 17:59:55] Starting search for tweets using query [search covid omicron lang:en from:20/12/2021 until:1/1/2022].
+[02/01/2022 17:59:55] Getting [169] tweets for period [2021-12-20T00:00:00Z] until [2022-01-01T00:00:00Z]
+[02/01/2022 17:59:55] Period [2021-12-20T00:00:00Z - 2022-01-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2021-12-20T00:00Z"]},"message":"Invalid \'start_time\':\'2021-12-20T00:00Z\'. \'start_time\' must be on or after 2021-12-26T15:53Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[02/01/2022 18:01:25] Starting search for tweets using query [search covid omicron lang:en from:30/12/2021 until:1/1/2022].
+[02/01/2022 18:01:25] Getting [169] tweets for period [2021-12-30T00:00:00Z] until [2022-01-01T00:00:00Z]
+[02/01/2022 18:01:39] Period [2021-12-30T00:00:00Z - 2022-01-01T00:00:00Z] Stopping due to max period number of tweets [169] reached.
+[02/01/2022 18:01:45] Search finished. 169 downloaded.
+[02/01/2022 19:57:45] Starting search for tweets using query [search ICU lang:en from:29/12/2021 until:31/12/2021].
+[02/01/2022 19:57:45] Getting [344] tweets for period [2021-12-29T00:00:00Z] until [2021-12-31T00:00:00Z]
+[02/01/2022 19:58:09] Period [2021-12-29T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due to max period number of tweets [344] reached.
+[02/01/2022 19:58:14] Search finished. 344 downloaded.

@@ -1,0 +1,433 @@
+{
+    "data": [
+        {
+            "created_at": "2021-12-19T09:18:47.000Z",
+            "author_id": "956079780604137472",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472493438482489344"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472496623292932096",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1472496623292932096",
+            "text": "RT @p_pavlidis25: Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T09:17:57.000Z",
+            "author_id": "887693736267874305",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472493438482489344"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472496412764090371",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1472496412764090371",
+            "text": "RT @p_pavlidis25: Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T09:10:17.000Z",
+            "author_id": "1444703382556585992",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472493438482489344"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472494486882295808",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1472494486882295808",
+            "text": "RT @p_pavlidis25: Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T09:08:40.000Z",
+            "author_id": "1128201593264930816",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472493438482489344"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472494078856253447",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1472494078856253447",
+            "text": "RT @p_pavlidis25: Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T09:07:51.000Z",
+            "author_id": "1115927428730433537",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472493438482489344"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472493871603011587",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1472493871603011587",
+            "text": "RT @p_pavlidis25: Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T09:06:53.000Z",
+            "author_id": "245517423",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472493438482489344"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472493629142970372",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1472493629142970372",
+            "text": "RT @p_pavlidis25: Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T09:06:07.000Z",
+            "author_id": "2280696486",
+            "reply_settings": "everyone",
+            "conversation_id": "1472493438482489344",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 16,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1472493438482489344",
+            "text": "Ερολ Ούσερ: The metaverse - Το ψηφιακό μετασύμπαν - https://t.co/5vIwQQEebH",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T07:04:44.000Z",
+            "author_id": "1445894400278626309",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472168034915729415"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472462891018338306",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1472462891018338306",
+            "text": "RT @GreeptoGR: ΝΕΟ Άρθρο από @iliasaristidis:\nΤο Metaverse και η πιθανή μεγάλη ανάπτυξη στα NFTs ⬇️\n\n#Metaverse #Metaversemarket #Metaverse…",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T06:58:36.000Z",
+            "author_id": "26963822",
+            "reply_settings": "everyone",
+            "conversation_id": "1472461347652882440",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "WordPress.com",
+            "id": "1472461347652882440",
+            "text": "Ποιοι αγοράζουν οικόπεδα στο metaverse https://t.co/71U7pyyNOm",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T01:42:10.000Z",
+            "author_id": "1348745567191621633",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1463861406898561035"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472381710696341507",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter",
+            "id": "1472381710696341507",
+            "text": "RT @FluxHellas: ⛏️Εξελιγμένοι #minecraft σέρβερς έρχονται στους #FluxNodes.🎮\n$FLUX #cloud #CloudComputing #Blockchaingame #BlockchainGaming…",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T01:42:04.000Z",
+            "author_id": "955443550048608257",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1463861406898561035"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472381687447306242",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter",
+            "id": "1472381687447306242",
+            "text": "RT @FluxHellas: ⛏️Εξελιγμένοι #minecraft σέρβερς έρχονται στους #FluxNodes.🎮\n$FLUX #cloud #CloudComputing #Blockchaingame #BlockchainGaming…",
+            "lang": "el"
+        },
+        {
+            "created_at": "2021-12-19T01:41:35.000Z",
+            "author_id": "1384131812188844034",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1463861406898561035"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1472381567150575620",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter",
+            "id": "1472381567150575620",
+            "text": "RT @FluxHellas: ⛏️Εξελιγμένοι #minecraft σέρβερς έρχονται στους #FluxNodes.🎮\n$FLUX #cloud #CloudComputing #Blockchaingame #BlockchainGaming…",
+            "lang": "el"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "verified": false,
+                "created_at": "2018-01-24T08:22:37.000Z",
+                "name": "Political Thinking",
+                "username": "gresportsvalid",
+                "id": "956079780604137472",
+                "public_metrics": {
+                    "followers_count": 1854,
+                    "following_count": 4998,
+                    "tweet_count": 4670,
+                    "listed_count": 2
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2017-07-19T15:20:54.000Z",
+                "name": "Ο Φιλελεύθερος",
+                "username": "politics_fox",
+                "id": "887693736267874305",
+                "public_metrics": {
+                    "followers_count": 1722,
+                    "following_count": 4989,
+                    "tweet_count": 3701,
+                    "listed_count": 7
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-03T16:38:31.000Z",
+                "name": "Γαλλαίος 🇫🇷",
+                "username": "gallaiosfr",
+                "id": "1444703382556585992",
+                "public_metrics": {
+                    "followers_count": 568,
+                    "following_count": 1236,
+                    "tweet_count": 2426,
+                    "listed_count": 0
+                },
+                "description": "🇫🇷🇬🇷🇪🇺"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-05-14T07:33:15.000Z",
+                "name": "Alex Popolakis",
+                "username": "APopolakis",
+                "id": "1128201593264930816",
+                "public_metrics": {
+                    "followers_count": 1836,
+                    "following_count": 4723,
+                    "tweet_count": 3893,
+                    "listed_count": 1
+                },
+                "description": ""
+            },
+            {
+                "verified": true,
+                "created_at": "2019-04-10T10:40:06.000Z",
+                "name": "tomanifesto.gr",
+                "username": "tomanifesto",
+                "id": "1115927428730433537",
+                "public_metrics": {
+                    "followers_count": 7254,
+                    "following_count": 6491,
+                    "tweet_count": 23729,
+                    "listed_count": 34
+                },
+                "description": "Δυναμική παρέμβαση για τη Δημοκρατία και τη μεσαία τάξη - #29 Alexa Ranking GR"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-01-31T21:44:53.000Z",
+                "name": "Haris Pavlidis",
+                "username": "hpa1958",
+                "id": "245517423",
+                "public_metrics": {
+                    "followers_count": 1155,
+                    "following_count": 1057,
+                    "tweet_count": 12186,
+                    "listed_count": 7
+                },
+                "description": "Αρθρογράφος @tomanifesto"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-01-07T14:48:59.000Z",
+                "name": "Pavlos Pavlidis",
+                "username": "p_pavlidis25",
+                "id": "2280696486",
+                "public_metrics": {
+                    "followers_count": 10443,
+                    "following_count": 8860,
+                    "tweet_count": 6410,
+                    "listed_count": 19
+                },
+                "description": "💻 @avramopoulos - @TeamWarren - @slbenfica - @fczenit_en - @euroleague - @EU_Commission - @tomanifesto  📖 BA @deree_acg - MBA @realmadridue"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-10-06T23:31:25.000Z",
+                "name": "MICHAIL LIAGKOS",
+                "username": "MLiagkos",
+                "id": "1445894400278626309",
+                "public_metrics": {
+                    "followers_count": 429,
+                    "following_count": 3055,
+                    "tweet_count": 15058,
+                    "listed_count": 3
+                },
+                "description": "LOVE nfts  and cryptos!"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-03-27T06:37:59.000Z",
+                "name": "Kefalonia Press",
+                "username": "kefaloniapress",
+                "id": "26963822",
+                "public_metrics": {
+                    "followers_count": 1438,
+                    "following_count": 61,
+                    "tweet_count": 80801,
+                    "listed_count": 23
+                },
+                "description": "Για την Κεφαλονιά που ονειρευόμαστε!\n@kefaloniapress / #kefaloniapress"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-01-11T21:36:25.000Z",
+                "name": "Pixels & Development",
+                "username": "thepixeldevs",
+                "id": "1348745567191621633",
+                "public_metrics": {
+                    "followers_count": 6093,
+                    "following_count": 4,
+                    "tweet_count": 317672,
+                    "listed_count": 47
+                },
+                "description": "Celebrating and promoting #PixelArt and #GameDev! Follow me for more retweets! Created by @sandstormdev"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-01-22T14:14:28.000Z",
+                "name": "NanoBot",
+                "username": "morolswediu",
+                "id": "955443550048608257",
+                "public_metrics": {
+                    "followers_count": 2690,
+                    "following_count": 3,
+                    "tweet_count": 915038,
+                    "listed_count": 67
+                },
+                "description": "I am a bot, develop by @jinnatul_md, to retweet #nodejs OR #javascript OR #100daysofCode\n\n⭐https://t.co/GYO2ev1MUU\n\n☕  https://t.co/pfDHuGBNIq"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-04-19T13:09:03.000Z",
+                "name": "Minecraft For Life!",
+                "username": "Minecraft_SSYT",
+                "id": "1384131812188844034",
+                "public_metrics": {
+                    "followers_count": 3131,
+                    "following_count": 1,
+                    "tweet_count": 535135,
+                    "listed_count": 16
+                },
+                "description": "I am the Bot that Retweet Everything that Contains #Minecraft | Bot Created by @Sukhpreet_SSYT | Follow @Minecraft_SSYT For all #Minecraft Tweets."
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1472496623292932096",
+        "oldest_id": "1472381567150575620",
+        "result_count": 12
+    }
+}

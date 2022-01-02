@@ -1,0 +1,3640 @@
+{
+    "data": [
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473288486224482307"
+                }
+            ],
+            "text": "RT @TaylorMusk_: I want to end the year investing 😎💸\n\nLeave below the best options to invest ⬇️👀\n\n#BNB #Binance #cryptocurrency #NFT #NFTs…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442711772745730",
+            "public_metrics": {
+                "retweet_count": 1974,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:12.000Z",
+            "author_id": "860847281930616832",
+            "id": "1473442711772745730"
+        },
+        {
+            "text": "📈 Binance and Dubai World Trade Centre Authority Sign a Cooperation Agreement 📉\n\nRead more ➡️ https://t.co/tDdXMTx1iG\n\n🔹 \n#forex #StockMarket #investing  #crypto #trading #news #stocks 🔹 https://t.co/DtartUwmhv",
+            "lang": "en",
+            "source": "EconomySquare",
+            "conversation_id": "1473442711436816388",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:12.000Z",
+            "author_id": "1031294099696050176",
+            "id": "1473442711436816388"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473376204103512064"
+                }
+            ],
+            "text": "RT @Eljaboom: Celebrating @binance in Dubai 🇦🇪 \n$5,000 #BNB  to 10 winners \n#BNB  Retweet \n#BNB  Follow @cz_binance &amp; @binance \n#BNB  Comme…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442708400140289",
+            "public_metrics": {
+                "retweet_count": 5910,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:11.000Z",
+            "author_id": "1465694669229068317",
+            "id": "1473442708400140289"
+        },
+        {
+            "in_reply_to_user_id": "3296780478",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473376204103512064"
+                }
+            ],
+            "text": "@Eljaboom @binance @cz_binance All done. Thank you.\n#BNB #BNBUAE🇦🇪❤\n\nGengs letsgooo 10 winner 500$ each! Hope all of us win.💪\n@x_wincityx \n@msfixnov \n@Rectoversa_id \n@DhikkiE \n@BangOtit \n@gustopik",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473376204103512064",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:10.000Z",
+            "author_id": "1398932095947264003",
+            "id": "1473442703744458752"
+        },
+        {
+            "text": "To celebrate the release of the anticipated Cryptogram platform @CryptogramTM has set the buy and sell tax to just 5%.\n#Crtptogramplatform #BSC #binance",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442700691005440",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:09.000Z",
+            "author_id": "1380434386470903813",
+            "id": "1473442700691005440"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473324395720581122"
+                }
+            ],
+            "text": "RT @pitchitagency: We couldn't be happier to be working with the ever so talented @lindsaylohan 🙌\n\nYour project needs a voice, visit #Pitch…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442699437088771",
+            "public_metrics": {
+                "retweet_count": 1570,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:09.000Z",
+            "author_id": "897523713809289216",
+            "id": "1473442699437088771"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442695758680064",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:08.000Z",
+            "author_id": "141740891",
+            "id": "1473442695758680064"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473288486224482307"
+                }
+            ],
+            "text": "RT @TaylorMusk_: I want to end the year investing 😎💸\n\nLeave below the best options to invest ⬇️👀\n\n#BNB #Binance #cryptocurrency #NFT #NFTs…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442692340224003",
+            "public_metrics": {
+                "retweet_count": 1974,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:07.000Z",
+            "author_id": "1428176648172564482",
+            "id": "1473442692340224003"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473442441751502855"
+                }
+            ],
+            "text": "RT @Hauntersad01: @luiravena I sent my crypto to the wrong coinbase address instead of Elon musk metamask for doge is there any trust walle…",
+            "lang": "en",
+            "source": "Twitter",
+            "conversation_id": "1473442692185346049",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:07.000Z",
+            "author_id": "1350172734207102976",
+            "id": "1473442692185346049"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442691664863232",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:07.000Z",
+            "author_id": "1358712107429027841",
+            "id": "1473442691664863232"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473080936375926796"
+                }
+            ],
+            "text": "RT @ShiborgToken: The big day for #SHIBORGINU has finally come! 🤗 \n\nToday trading on #BitMart starts at 9 am UTC! 🚀📈\n\n#SHIBORGARMY #BSCGems…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442687852290049",
+            "public_metrics": {
+                "retweet_count": 5663,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:06.000Z",
+            "author_id": "1427201651958587392",
+            "id": "1473442687852290049"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473413447354400783"
+                }
+            ],
+            "text": "RT @PendragonsPlays: I’m done with @CoinMarketCap\nI’m done with @coinbase \nI’m done with @CoinbaseWallet \nI’m done with @binance \nI’m done…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442686246006787",
+            "public_metrics": {
+                "retweet_count": 88,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:06.000Z",
+            "author_id": "142853556",
+            "id": "1473442686246006787"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442684371152898",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:05.000Z",
+            "author_id": "26951160",
+            "id": "1473442684371152898"
+        },
+        {
+            "in_reply_to_user_id": "4473212565",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473031950864732162"
+                },
+                {
+                    "type": "replied_to",
+                    "id": "1473418737923596291"
+                }
+            ],
+            "text": "@cryptogems555 @CheemsInu https://t.co/xh3jb33kTz\n#hiddengem #gem #x100 #defi #crypto #MonstaVerseIsTheNext1000x #shib #saitama #shinja #ShinjaArmy #ShinjaIsTheNext1000XGem #MonstaVerse #metaverse #MONSTR #MONSTA  #NFT #ETH #NFTCommunity #NFTs #Ethereum  #cryptocurrency  #Binance #altcoin #Uniswap $MONSTR",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473418737923596291",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:05.000Z",
+            "author_id": "1457322736855011330",
+            "id": "1473442683943370756"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473083785646325767"
+                }
+            ],
+            "text": "RT @dazed420gaming: Lucky #pzgd #Metaverse #MYDreamsComeTrueWithAESPA #dazedgaming #dolar #Davido #Omicron #CovidVaccine #COVIDIOTS #COVID1…",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442680281567232",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:04.000Z",
+            "author_id": "960751184939311104",
+            "id": "1473442680281567232"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442676959637507",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:04.000Z",
+            "author_id": "1223102435226341378",
+            "id": "1473442676959637507"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442676582191106",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:03.000Z",
+            "author_id": "1059851977587253253",
+            "id": "1473442676582191106"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473200067834122240"
+                }
+            ],
+            "text": "Very interesting project with specific goals, a good product and a great team that will certainly achieve its goals\n\n@jamecher2\n@alexhuong4\n@loan77490957\n@caemicytyx1\n@daoquynhanh0909\n\n#CPLAY #BSC #IDO #Airdrop #Ecosystem #Binance https://t.co/wCtNvMZE7H",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442673394696198",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:03.000Z",
+            "author_id": "1090984118744240129",
+            "id": "1473442673394696198"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473380003249336325"
+                }
+            ],
+            "text": "RT @CryptogramTM: $CRYPTOGRAM is a low tax utility token only 5% buy and 5% Sell 🚀🚀🚀\n\n#BSC #Binance #cryptocurrencies",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442672413184004",
+            "public_metrics": {
+                "retweet_count": 34,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:03.000Z",
+            "author_id": "1404806493082427398",
+            "id": "1473442672413184004"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442671792635904",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:02.000Z",
+            "author_id": "1425117331018031105",
+            "id": "1473442671792635904"
+        },
+        {
+            "in_reply_to_user_id": "1265155918355980288",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473238127514845186"
+                }
+            ],
+            "text": "@ArtifactsHub @CryptoRealKing @elonmusk @AvatarWars_io @GalaxyHeroesGHC @VT6688 @cz_binance @ThetanArena @binance This gonna be lit!",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473238127514845186",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:02.000Z",
+            "author_id": "1374976560550137860",
+            "id": "1473442668298465281"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472302277503459331"
+                }
+            ],
+            "text": "RT @BinanceChain: The BEP95 real-time $BNB burn is burning BNB with every #BSC transaction; even while you were reading this tweet 😉\n\nLearn…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442666511843328",
+            "public_metrics": {
+                "retweet_count": 237,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:58:01.000Z",
+            "author_id": "1454243897585152003",
+            "id": "1473442666511843328"
+        },
+        {
+            "text": "BITCOIN PRICE PREDICTION\n\nPRICE : RISE in 10 min.\nBUY 0.10 BTC for 48,870.9 USDT at Binance\n\n#bitcoin #BTC #Binance",
+            "lang": "en",
+            "source": "Crypto_Arbitrage",
+            "conversation_id": "1473442659209736196",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:59.000Z",
+            "author_id": "1264448654212919296",
+            "id": "1473442659209736196"
+        },
+        {
+            "in_reply_to_user_id": "1397176758051360770",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473442041065472001"
+                }
+            ],
+            "text": "@GangsterFinance Nuff said. #GFI #NFT #BSC #Binance #BTC https://t.co/luLN3nx10l",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442041065472001",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:59.000Z",
+            "author_id": "1140403506744102912",
+            "id": "1473442658815287303"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442653962326018",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:58.000Z",
+            "author_id": "1152118734061887489",
+            "id": "1473442653962326018"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473188458889826307"
+                }
+            ],
+            "text": "RT @CplayNetwork: #CPLAY Network is a privacy-protected crypto ecosystem that is going to launch world's first crypto app store including c…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442649625403395",
+            "public_metrics": {
+                "retweet_count": 3413,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:57.000Z",
+            "author_id": "1451858785610260480",
+            "id": "1473442649625403395"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442643501797377",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:56.000Z",
+            "author_id": "291450837",
+            "id": "1473442643501797377"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473134037132890117"
+                }
+            ],
+            "text": "RT @ShibaBNB_org: Sneak Peak at our Proof Of Concept for the Shibabnb payment system.                         CA: 0x71fac45700585555c936c20…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442642989961217",
+            "public_metrics": {
+                "retweet_count": 4956,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:55.000Z",
+            "author_id": "1375791164117327874",
+            "id": "1473442642989961217"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442642482679820",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:55.000Z",
+            "author_id": "419803190",
+            "id": "1473442642482679820"
+        },
+        {
+            "text": "PREDICTION RESULT\n\nBUY 0.1BTC for 48,879.99 USDT.\nIt was SOLD for 48,989.98 USDT 0 min ago at Binance.\nTrade Profit: 11.00 USDT\nDaily Profit: 31.73 USDT\n\n#bitcoin #BTC #Binance",
+            "lang": "en",
+            "source": "Crypto_Arbitrage",
+            "conversation_id": "1473442639978840067",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:55.000Z",
+            "author_id": "1264448654212919296",
+            "id": "1473442639978840067"
+        },
+        {
+            "text": "🔻🔻🔻 $MATIC Short Position(v1) 🔻🔻🔻\nEntry Price: 2.3709\nTarget:2.35951\nStop:2.39508\n#Binance #Bitcoin #Signals #Sell #MATICUSDT #MATIC",
+            "lang": "en",
+            "source": "HoBaBot",
+            "conversation_id": "1473442637629775877",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:54.000Z",
+            "author_id": "1048905259",
+            "id": "1473442637629775877"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473231168476614660"
+                }
+            ],
+            "text": "RT @BinanceAfrica: The Binance Mystery Man is back 🥷 🚀\n\n🌟 Visit locations from 12-4pm\n🌟 Search, find &amp; take a selfie with the #BinanceMyste…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442632755986433",
+            "public_metrics": {
+                "retweet_count": 50,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:53.000Z",
+            "author_id": "226561442",
+            "id": "1473442632755986433"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473263998560841729"
+                }
+            ],
+            "text": "RT @mramnobody: Hold, Play and Earn.The ecosystem of Mononoke and fortune.@Mononoke_Inu \n#MononokeInu #Fortune #Mononoke #NokeNation #ETH #…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442627366252548",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:52.000Z",
+            "author_id": "1468514763731005441",
+            "id": "1473442627366252548"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473442037412372480"
+                }
+            ],
+            "text": "RT @Traydez: @bytzcurrency @bingedotcom @Ubisoft @binance @coinbase @coingecko Hello guys , can you read my PM pls ?\n#LetsGoBytz 🚀❤️",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442623826411525",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:51.000Z",
+            "author_id": "1450964829313904641",
+            "id": "1473442623826411525"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442623079817218",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:51.000Z",
+            "author_id": "1546919972",
+            "id": "1473442623079817218"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442622979166208",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:51.000Z",
+            "author_id": "21489697",
+            "id": "1473442622979166208"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442622572220420",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:51.000Z",
+            "author_id": "528813766",
+            "id": "1473442622572220420"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472258150502105090"
+                }
+            ],
+            "text": "RT @RaptorMeta: Wow... 🤯\n\nIn just a week...\n\nWe've got so much exciting things to release over the coming weeks, make sure you have turned…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442622354051072",
+            "public_metrics": {
+                "retweet_count": 1081,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:51.000Z",
+            "author_id": "1352770093625733120",
+            "id": "1473442622354051072"
+        },
+        {
+            "in_reply_to_user_id": "4473212565",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473432478597660675"
+                }
+            ],
+            "text": "@cryptogems555 @FuturaBSC #hiddengem #gem #x100 #defi #crypto #MonstaVerseIsTheNext1000x #shib #saitama #shinja #ShinjaArmy #ShinjaIsTheNext1000XGem #MonstaVerse #metaverse #MONSTR #MONSTA  #NFT #ETH #NFTCommunity #NFTs #Ethereum  #cryptocurrency  #Binance #altcoin #Uniswap $MONSTR https://t.co/FPS50sUoV2",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473432478597660675",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:50.000Z",
+            "author_id": "1457322736855011330",
+            "id": "1473442620475154433"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442617656500227",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:49.000Z",
+            "author_id": "291553784",
+            "id": "1473442617656500227"
+        },
+        {
+            "text": "🔻🔻🔻 $1,667,932 BTCUSDT SHORTED @$48,880.00 on #Binance (23:57:49 UTC) #BTC #cryptocurrency",
+            "lang": "en",
+            "source": "Twitter",
+            "conversation_id": "1473442617350369282",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:49.000Z",
+            "author_id": "1449881932695805959",
+            "id": "1473442617350369282"
+        },
+        {
+            "text": "🐋📈【Buy】 BTCUSDT\nQty：$1,667,932（34.1 BTC）🐳🐳🐳\nPrice：$48,880\n[23:57:49 UTC] on Binance Futures",
+            "lang": "en",
+            "source": "Btc Order detection alert",
+            "conversation_id": "1473442616738222080",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:49.000Z",
+            "author_id": "1086688639621316608",
+            "id": "1473442616738222080"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442615802531844",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:49.000Z",
+            "author_id": "325446952",
+            "id": "1473442615802531844"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442615139848193",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:49.000Z",
+            "author_id": "1289714369698263040",
+            "id": "1473442615139848193"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473428210532630535"
+                }
+            ],
+            "text": "RT @binance: Give the gift of crypto! You can now send crypto to friends who aren't on #Binance.\n\nHere's how ⬇️\n\nhttps://t.co/AcjiAy2Olw",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442614879789062",
+            "public_metrics": {
+                "retweet_count": 144,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:49.000Z",
+            "author_id": "1445688743902339076",
+            "id": "1473442614879789062"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442611637764102",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:48.000Z",
+            "author_id": "572785289",
+            "id": "1473442611637764102"
+        },
+        {
+            "in_reply_to_user_id": "1358081391888580608",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473440000238829569"
+                }
+            ],
+            "text": "@DayumCrypto @thecryptomonk // For the record, I'm not saying scrt can't do well, it can absolutely pump thanks to new peeps that onboard through binance, new ppl don't care for the tech much. But as a \"in it for the tech\" person, I really don't believe in scrt's choices anymore at all on a personal level.",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473391898354192386",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:47.000Z",
+            "author_id": "1355555431796584448",
+            "id": "1473442609158836225"
+        },
+        {
+            "text": "SpaceX Inu is a revolutionized Play2Earn gaming coin with super rich platform embedded with NFT and Metaverse Virtual Estates NFTs plus improved version of Polkadot with its upcoming Mainnet STARL. Visit https://t.co/rNRaRU9kKl via @spacexinucoin #spacexinu @elonmusk @cz_binance",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442609049882624",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:47.000Z",
+            "author_id": "1472745012089835521",
+            "id": "1473442609049882624"
+        },
+        {
+            "in_reply_to_user_id": "1409723314952708096",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473429514659241996"
+                }
+            ],
+            "text": "@SafemoonSurgeon Thomas said he plans to have his token on the SafeMoon blockchain by \"EOY\", he also said SFM talked to Binance &amp; Coinbase while he was there (didn't say when). V1 tax to 20% 12/24. @ADAMBERGMANshow went over the new reflection numbers $50/bil is now $70/bil minimum or prob $100+.",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473429514659241996",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 5,
+                "like_count": 38,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:47.000Z",
+            "author_id": "1437955039939674114",
+            "id": "1473442608705908740"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442607095324674",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:47.000Z",
+            "author_id": "1350151166",
+            "id": "1473442607095324674"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472270158463127553"
+                }
+            ],
+            "text": "RT @RaptorMeta: #RaptorMeta #RAPT #RaptorArmy #GameFi #NFTs \n#Gateio #BitMart #Binance #Huobi #KuCoin #tokens \n\nNice to have you onboard si…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442603060195328",
+            "public_metrics": {
+                "retweet_count": 648,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:46.000Z",
+            "author_id": "1352770093625733120",
+            "id": "1473442603060195328"
+        },
+        {
+            "in_reply_to_user_id": "877807935493033984",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473292118605111296"
+                }
+            ],
+            "text": "@binance @cz_binance 🤖 SPIKE INU 🤖\n@SPIKEINUIO WILL JUMP 1000x 🚀🚀🚀🚀\n🤖Name: SPIKE INU\n🤖Symbol: SPKI\n🤖CA: 0x0f3debf94483beecbfd20167c946a61ea62d000f\n🤖Website: https://t.co/p43KlyxoXQ\n🤖$SPKI launched.\n🤖Buy: Uniswap\nhttps://t.co/IkUHB8nNKI\n#spikeinuio https://t.co/GYwplCl8AX",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473292118605111296",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:46.000Z",
+            "author_id": "2384960923",
+            "id": "1473442601646710784"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442596420792326",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:44.000Z",
+            "author_id": "149656824",
+            "id": "1473442596420792326"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442593178533896",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:44.000Z",
+            "author_id": "44428624",
+            "id": "1473442593178533896"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442593157652483",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:44.000Z",
+            "author_id": "128099669",
+            "id": "1473442593157652483"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473134037132890117"
+                }
+            ],
+            "text": "RT @ShibaBNB_org: Sneak Peak at our Proof Of Concept for the Shibabnb payment system.                         CA: 0x71fac45700585555c936c20…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442592394125312",
+            "public_metrics": {
+                "retweet_count": 4956,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:43.000Z",
+            "author_id": "1370594425328476160",
+            "id": "1473442592394125312"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442587348459523",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:42.000Z",
+            "author_id": "1121361056",
+            "id": "1473442587348459523"
+        },
+        {
+            "in_reply_to_user_id": "1456596500847415302",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473437492699451396"
+                }
+            ],
+            "text": "@TessBotanica 🎮 MetaKombat 🎮\n\nA new P2E gaming project launching on Binance Smart Chain. \n\nPresale date: 29th December 2021 \n\nTelegram: https://t.co/ROS7bu1IeL \n\n#BSC #P2E #Metaverse",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473437492699451396",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:42.000Z",
+            "author_id": "2700527075",
+            "id": "1473442585763004422"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473441390399000578"
+                }
+            ],
+            "text": "RT @Tabraizcrypto: @CrowdloanKabuki Our new Travel Platform is launching soon on Binance. 🛫🏖️❤️ \n\nFind out more about the presale on https:…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442576011345924",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:40.000Z",
+            "author_id": "386424790",
+            "id": "1473442576011345924"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473200067834122240"
+                }
+            ],
+            "text": "RT @CplayNetwork: 🚀🔥 CPLAY Network IDO Sale 🚀🔥 \n\n💎 IDO LaunchPad: CoinTool (Starts from 25th December). \n🌐 Visit: https://t.co/l4RvticA9u\n🏃…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442567664508930",
+            "public_metrics": {
+                "retweet_count": 12637,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:38.000Z",
+            "author_id": "947527621",
+            "id": "1473442567664508930"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473376204103512064"
+                }
+            ],
+            "text": "RT @Eljaboom: Celebrating @binance in Dubai 🇦🇪 \n$5,000 #BNB  to 10 winners \n#BNB  Retweet \n#BNB  Follow @cz_binance &amp; @binance \n#BNB  Comme…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442565894639622",
+            "public_metrics": {
+                "retweet_count": 5910,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:37.000Z",
+            "author_id": "350871366",
+            "id": "1473442565894639622"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473309600300498945"
+                }
+            ],
+            "text": "RT @CRYPT0_SHIELD: This Christmas 🎄 @CRYPT0_SHIELD Present 🎁 Chance to Win #Tesla or $50,000 #BNB\n\n• Follow ➡️ @CRYPT0_SHIELD @elonmusk &amp; @…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442560328671233",
+            "public_metrics": {
+                "retweet_count": 1657,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:36.000Z",
+            "author_id": "1389411674675843074",
+            "id": "1473442560328671233"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1471015042816495618"
+                }
+            ],
+            "text": "RT @Doge_Heros: We are happy to announce that the Doge Hero Presale will Starting today, user can participate in our presale by visiting ht…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442560156835848",
+            "public_metrics": {
+                "retweet_count": 1939,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:36.000Z",
+            "author_id": "1377898816012218369",
+            "id": "1473442560156835848"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1469981033231794178"
+                }
+            ],
+            "text": "RT @CryptogramTM: One small step and one giant leap for Cryptogram🚀\n             🔥 CRYPTOGRAM PLATFORM🔥\n\n#binance #BSC #cryptocurrency",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442557300457475",
+            "public_metrics": {
+                "retweet_count": 170,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:35.000Z",
+            "author_id": "1404806493082427398",
+            "id": "1473442557300457475"
+        },
+        {
+            "in_reply_to_user_id": "877807935493033984",
+            "text": "@Binance VC arm leads $60M round in cross-chain protocol Multichain  https://t.co/3w0jMWOpoE via @cointelegraph",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442555903807498",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:35.000Z",
+            "author_id": "1446179521452027905",
+            "id": "1473442555903807498"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472544529031077888"
+                }
+            ],
+            "text": "RT @ScottLEOWarrior: I will send one random person $1000 in 72hrs all you have to do is RT and be following myself &amp; @AnnihilationCE\n\nRT th…",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442548261670912",
+            "public_metrics": {
+                "retweet_count": 7255,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:33.000Z",
+            "author_id": "1395402378564706304",
+            "id": "1473442548261670912"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473288486224482307"
+                }
+            ],
+            "text": "RT @TaylorMusk_: I want to end the year investing 😎💸\n\nLeave below the best options to invest ⬇️👀\n\n#BNB #Binance #cryptocurrency #NFT #NFTs…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442546743271424",
+            "public_metrics": {
+                "retweet_count": 1974,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:33.000Z",
+            "author_id": "1425310710083383297",
+            "id": "1473442546743271424"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473412444399841280"
+                }
+            ],
+            "text": "RT @floki_jr: @EthMongooseCoin\n\n 112,000$ DOLLAR BUY WOW\n\n#doge #shiba #dogecoin #BSC #BSCGems #altcoin #memecoin #Crypto #bitcoin #shillme…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442545644412930",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:32.000Z",
+            "author_id": "1452463553063964673",
+            "id": "1473442545644412930"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473372611715424258"
+                }
+            ],
+            "text": "RT @Cryptojhonny15: @binance Floki Rocket \n\n#flokirocket \n\nTO THE MOON ! https://t.co/PyP09O31pp",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442542473654273",
+            "public_metrics": {
+                "retweet_count": 16,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:32.000Z",
+            "author_id": "1454295251267489792",
+            "id": "1473442542473654273"
+        },
+        {
+            "text": "To celebrate the release of the anticipated Cryptogram platform @CryptogramTM has set the buy and sell tax to just 5%.\n#Crtptogramplatform #BSC #binance",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442540179398660",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:31.000Z",
+            "author_id": "442018684",
+            "id": "1473442540179398660"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442539537588235",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:31.000Z",
+            "author_id": "162188189",
+            "id": "1473442539537588235"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1471886714503368709"
+                }
+            ],
+            "text": "RT @christmasbsc: Our Roadmap's Phase 1 successfuly ended!\n\n#Christmas #Doge #BSC #BSCGems #BSCGem #BSCStation #BSCS #BSCGemsAlert #Binance…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442536920272899",
+            "public_metrics": {
+                "retweet_count": 16722,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:30.000Z",
+            "author_id": "1458769477491855363",
+            "id": "1473442536920272899"
+        },
+        {
+            "in_reply_to_user_id": "3260096383",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473190637063196673"
+                }
+            ],
+            "text": "@coryklippsten @BitcoinIsSaving I am doing a crypto challenge. $5k to $20k targets in the next 30 days. i will work on binance futures &amp; btc mining Coin Pumps making over 30% daily 💯 guarantee. \ninbox me on Whatsapp\nhttps://t.co/UMuJ9pHEqn\nif you want to participate &amp; for more details",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473190637063196673",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:30.000Z",
+            "author_id": "1314354425142620162",
+            "id": "1473442536438046724"
+        },
+        {
+            "in_reply_to_user_id": "766578266",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473343319170240521"
+                }
+            ],
+            "text": "@1goonrich @cz_binance 🔥Moonshot 🔥\n\nA decentralized community owned metaverse city. Alpha is already developing alpha city in the metaverse where Multiple streams of income produced from alpha city will be injected back into the buybacks and marketing.\n\nTG : https://t.co/uIb1NEUaJt",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473343319170240521",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:30.000Z",
+            "author_id": "1472738787163734018",
+            "id": "1473442534118805504"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442530725285888",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:29.000Z",
+            "author_id": "1296120752345817089",
+            "id": "1473442530725285888"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473200067834122240"
+                }
+            ],
+            "text": "RT @CplayNetwork: 🚀🔥 CPLAY Network IDO Sale 🚀🔥 \n\n💎 IDO LaunchPad: CoinTool (Starts from 25th December). \n🌐 Visit: https://t.co/l4RvticA9u\n🏃…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442529458720774",
+            "public_metrics": {
+                "retweet_count": 12637,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:28.000Z",
+            "author_id": "1067429990482927616",
+            "id": "1473442529458720774"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473151504773226497"
+                }
+            ],
+            "text": "RT @Steam_Exchange: Want to learn more about the #SteamExchange Ecosystem? Our Whitepaper https://t.co/BxEaos2EkP is a great place to start…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442528577798144",
+            "public_metrics": {
+                "retweet_count": 4844,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:28.000Z",
+            "author_id": "1391652582196531202",
+            "id": "1473442528577798144"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472181204950544387"
+                }
+            ],
+            "text": "RT @farm_doge: The Staking and Yield Farming Features in the form of DOGE have arrived on Binance Smart Chain. https://t.co/WW4u35Qa0B",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442527755730944",
+            "public_metrics": {
+                "retweet_count": 282,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:28.000Z",
+            "author_id": "1464562132121444358",
+            "id": "1473442527755730944"
+        },
+        {
+            "in_reply_to_user_id": "1469637342810017797",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1469648049404268560"
+                }
+            ],
+            "text": "@Metaunive @FEGexchange @Shibtoken @PancakeSwap @cz_binance @elonmusk Great project.. \n@airdropblgspot\n@RalphToken \n@ZeropayFinance\n#BSC\n#EmmanuelInGhana \n#DaveGordon",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1469648049404268560",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:28.000Z",
+            "author_id": "1456182903918845956",
+            "id": "1473442526329589761"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442523985203204",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:27.000Z",
+            "author_id": "355037956",
+            "id": "1473442523985203204"
+        },
+        {
+            "in_reply_to_user_id": "4473212565",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473031950864732162"
+                },
+                {
+                    "type": "replied_to",
+                    "id": "1473432478597660675"
+                }
+            ],
+            "text": "@cryptogems555 @FuturaBSC https://t.co/xh3jb33kTz\n#hiddengem #gem #x100 #defi #crypto #MonstaVerseIsTheNext1000x #shib #saitama #shinja #ShinjaArmy #ShinjaIsTheNext1000XGem #MonstaVerse #metaverse #MONSTR #MONSTA  #NFT #ETH #NFTCommunity #NFTs #Ethereum  #cryptocurrency  #Binance #altcoin #Uniswap $MONSTR",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473432478597660675",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:27.000Z",
+            "author_id": "1457322736855011330",
+            "id": "1473442523532177408"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442518570201089",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:26.000Z",
+            "author_id": "304747196",
+            "id": "1473442518570201089"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473228724715888642"
+                }
+            ],
+            "text": "RT @OmaxToken: @cz_binance Sir, and we predicted and was waiting for this ! thank you now 🙏",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442516997316621",
+            "public_metrics": {
+                "retweet_count": 179,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:25.000Z",
+            "author_id": "787878792656150529",
+            "id": "1473442516997316621"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442514938048518",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:25.000Z",
+            "author_id": "364776818",
+            "id": "1473442514938048518"
+        },
+        {
+            "text": "To celebrate the release of the anticipated Cryptogram platform @CryptogramTM has set the buy and sell tax to just 5%.\n#Crtptogramplatform #BSC #binance",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442506381606917",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:23.000Z",
+            "author_id": "1461978812124696578",
+            "id": "1473442506381606917"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473200067834122240"
+                }
+            ],
+            "text": "RT @CplayNetwork: 🚀🔥 CPLAY Network IDO Sale 🚀🔥 \n\n💎 IDO LaunchPad: CoinTool (Starts from 25th December). \n🌐 Visit: https://t.co/l4RvticA9u\n🏃…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442505534279684",
+            "public_metrics": {
+                "retweet_count": 12637,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:23.000Z",
+            "author_id": "1247874818235490305",
+            "id": "1473442505534279684"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473441879995863042"
+                }
+            ],
+            "text": "RT @_Richardprado: @ArtsRunda 🎮 MetaKombat 🎮\n\nA new P2E gaming project launching on Binance Smart Chain. \n\nPresale date: 29th December 2021…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442503558938640",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:22.000Z",
+            "author_id": "1379889951349805065",
+            "id": "1473442503558938640"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442499091914753",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:21.000Z",
+            "author_id": "111300160",
+            "id": "1473442499091914753"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473188458889826307"
+                }
+            ],
+            "text": "RT @CplayNetwork: #CPLAY Network is a privacy-protected crypto ecosystem that is going to launch world's first crypto app store including c…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442498810945537",
+            "public_metrics": {
+                "retweet_count": 3413,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:21.000Z",
+            "author_id": "1463999511639035912",
+            "id": "1473442498810945537"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473376204103512064"
+                }
+            ],
+            "text": "RT @Eljaboom: Celebrating @binance in Dubai 🇦🇪 \n$5,000 #BNB  to 10 winners \n#BNB  Retweet \n#BNB  Follow @cz_binance &amp; @binance \n#BNB  Comme…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442494071205888",
+            "public_metrics": {
+                "retweet_count": 5910,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:20.000Z",
+            "author_id": "1011491013616005120",
+            "id": "1473442494071205888"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442491491831809",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:19.000Z",
+            "author_id": "275439871",
+            "id": "1473442491491831809"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473421924260884484"
+                }
+            ],
+            "text": "RT @MisterGX9: $SAINT \n@saint_inu\n \n$300k+ given to charity\nCertik Audit https://t.co/d11OUwDZ41\nPresale https://t.co/9M3hLuomJP\nFirst ever…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442490153779201",
+            "public_metrics": {
+                "retweet_count": 1159,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:19.000Z",
+            "author_id": "1026474326822776834",
+            "id": "1473442490153779201"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473134037132890117"
+                }
+            ],
+            "text": "RT @ShibaBNB_org: Sneak Peak at our Proof Of Concept for the Shibabnb payment system.                         CA: 0x71fac45700585555c936c20…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442489403342848",
+            "public_metrics": {
+                "retweet_count": 4956,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:19.000Z",
+            "author_id": "1202711265199607808",
+            "id": "1473442489403342848"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1469759469701713921"
+                }
+            ],
+            "text": "RT @CryptogramTM: 🔥Tomorrow is a big day for the Cryptogram community.🔥\n\n🚀🚀🚀🚀🚀\n\n#Binance #BSC #cryptocurrency #100xgem",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442483816349696",
+            "public_metrics": {
+                "retweet_count": 33,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:18.000Z",
+            "author_id": "1404806493082427398",
+            "id": "1473442483816349696"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442481266114562",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:17.000Z",
+            "author_id": "1374764658",
+            "id": "1473442481266114562"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473416700326518788"
+                }
+            ],
+            "text": "RT @matrixgemhunter: 🕵️ 2021 was insane\n\n👀 2022 will be even better\n\n@elonmusk @cz_binance \n\n#Metaverse #BTC #Ethereum #Litecoin #Crypto #B…",
+            "lang": "en",
+            "source": "Twitter for iPhone",
+            "conversation_id": "1473442480154898434",
+            "public_metrics": {
+                "retweet_count": 1205,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:17.000Z",
+            "author_id": "1465544078830223360",
+            "id": "1473442480154898434"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473399677009772550"
+                }
+            ],
+            "text": "Based\n\n@Ayola_2021 @DevinSenaUI @Ayodeji56931948 @IbeGrace6 @Mc_iprof @Mc_iprof\n\n#INT #Solana #Aidrop #INTEXCHANGE #INT_TOKEN #BINANCE #WAGMI https://t.co/BgK0XdADmt",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442477428420611",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:16.000Z",
+            "author_id": "1383700177039417350",
+            "id": "1473442477428420611"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473191218448318467"
+                }
+            ],
+            "text": "RT @herakles_crypto: I’ll Giveaway 100$ BNB in 12 Hours 🎁 \n\nTo Enter\n- Follow Me\n- RT &amp; Like\n\nGood Luck ♥️♥️\n#BSC #Giveaways #giveaway #NFT…",
+            "lang": "en",
+            "source": "Twitter Web App",
+            "conversation_id": "1473442473464762372",
+            "public_metrics": {
+                "retweet_count": 496,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:15.000Z",
+            "author_id": "34557241",
+            "id": "1473442473464762372"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473346449530183683"
+                }
+            ],
+            "text": "RT @Epsilon_Coin: Listed on #CoinMarketCap 🤩\n\nNext up #Coingecko &amp; BOOM 🚀 \n#1000xgem #BinanceSmartChain #DeFi #BSCNews #FairLaunch #Pancake…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442471682228228",
+            "public_metrics": {
+                "retweet_count": 4554,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:15.000Z",
+            "author_id": "1368939285613789185",
+            "id": "1473442471682228228"
+        },
+        {
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1467845246298075143"
+                }
+            ],
+            "text": "RT @NFTart34: https://t.co/DsUGDMFPrA\nJust NFT creator OMGart @thisisomgart \n#NFTshill #NFT #nftcollectors #NFTCommmunity #NFTcollections #…",
+            "lang": "en",
+            "source": "Twitter for Android",
+            "conversation_id": "1473442471610830848",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "created_at": "2021-12-21T23:57:15.000Z",
+            "author_id": "1394698187437400064",
+            "id": "1473442471610830848"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "name": "dowoonie 🌙",
+                "created_at": "2017-05-06T13:22:40.000Z",
+                "verified": false,
+                "description": "Akun buat naksir jodoh orang.",
+                "id": "860847281930616832",
+                "username": "youngkcityx",
+                "public_metrics": {
+                    "followers_count": 243,
+                    "following_count": 1219,
+                    "tweet_count": 60136,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "EconomySquare.com",
+                "created_at": "2018-08-19T21:37:28.000Z",
+                "verified": false,
+                "description": "🌍 FREE daily financial market news, analysis & more 📈",
+                "id": "1031294099696050176",
+                "username": "EconomySquare",
+                "public_metrics": {
+                    "followers_count": 250,
+                    "following_count": 51,
+                    "tweet_count": 8260,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "Halima",
+                "created_at": "2021-11-30T14:50:27.000Z",
+                "verified": false,
+                "description": "Hello everyone\n💯 follow back",
+                "id": "1465694669229068317",
+                "username": "jannath1213",
+                "public_metrics": {
+                    "followers_count": 171,
+                    "following_count": 215,
+                    "tweet_count": 65,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "yossibility @RichQuack",
+                "created_at": "2021-05-30T09:19:44.000Z",
+                "verified": false,
+                "description": "https://t.co/66HoePyO5u.i | 6️⃣5️⃣🎹 | @RichQuack",
+                "id": "1398932095947264003",
+                "username": "ayamgeprexmozza",
+                "public_metrics": {
+                    "followers_count": 56,
+                    "following_count": 1048,
+                    "tweet_count": 4240,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Elja𝕭oom💥",
+                "created_at": "2015-07-27T04:33:03.000Z",
+                "verified": false,
+                "description": "Founder and CEO of https://t.co/LLSurMpk0o | @Ajoobz | @GWR Certified.| Not a Financial advisor.| #DYOR #BTC #BNB",
+                "id": "3296780478",
+                "username": "Eljaboom",
+                "public_metrics": {
+                    "followers_count": 365207,
+                    "following_count": 971,
+                    "tweet_count": 101353,
+                    "listed_count": 880
+                }
+            },
+            {
+                "name": "Saddam Khan",
+                "created_at": "2021-04-09T08:16:31.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1380434386470903813",
+                "username": "Saddam84143611",
+                "public_metrics": {
+                    "followers_count": 380,
+                    "following_count": 1531,
+                    "tweet_count": 657,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Pedro victor 🏁 🏁🎸⚽",
+                "created_at": "2017-08-15T18:21:43.000Z",
+                "verified": false,
+                "description": "Torcedor do Ceará e Liverpool. Viva o esporte",
+                "id": "897523713809289216",
+                "username": "Pedrov954",
+                "public_metrics": {
+                    "followers_count": 42,
+                    "following_count": 218,
+                    "tweet_count": 1663,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "F",
+                "created_at": "2010-05-08T22:41:58.000Z",
+                "verified": false,
+                "description": "أنحازُ لـ | فلسطين | الحرية | العدالة الإجتماعية | الديمقراطية | العروبة | مع الأفكار لا الشخوص. #ديمقراطية_الشيوخ #مقاطعون",
+                "id": "141740891",
+                "username": "mckoi31",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 434,
+                    "tweet_count": 151,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "bian | mau bigwin",
+                "created_at": "2021-08-19T02:07:27.000Z",
+                "verified": false,
+                "description": "ayo december bigwin 🍀 | #jihantesti #chitawinner",
+                "id": "1428176648172564482",
+                "username": "bianbigwin",
+                "public_metrics": {
+                    "followers_count": 258,
+                    "following_count": 3232,
+                    "tweet_count": 10269,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Elon Musk",
+                "created_at": "2021-01-15T20:07:32.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1350172734207102976",
+                "username": "TweetMusk",
+                "public_metrics": {
+                    "followers_count": 16,
+                    "following_count": 6,
+                    "tweet_count": 5755,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "diva 'freetag",
+                "created_at": "2021-02-08T09:39:54.000Z",
+                "verified": false,
+                "description": "🍀'57 trust the process, keep faith, ikhtiar, n spirit🔆",
+                "id": "1358712107429027841",
+                "username": "danny725_8",
+                "public_metrics": {
+                    "followers_count": 210,
+                    "following_count": 4875,
+                    "tweet_count": 36391,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "AdeS",
+                "created_at": "2021-08-16T09:33:11.000Z",
+                "verified": false,
+                "description": "My Motto Is : Fuurinkazan.\nNoob Gamer,Free Tag, \nlazy mode !!!!",
+                "id": "1427201651958587392",
+                "username": "AdeS205",
+                "public_metrics": {
+                    "followers_count": 506,
+                    "following_count": 4963,
+                    "tweet_count": 38748,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Hippie🖤",
+                "created_at": "2010-05-11T23:18:34.000Z",
+                "verified": false,
+                "description": "$SAITA $GRIMEX $FEG 🚀\n\n🤡\n\nI'm all about Gaming. I try hard in life even when things are not going well.\n\nI am a PC mice freak. 🖱️",
+                "id": "142853556",
+                "username": "iiTzHippie",
+                "public_metrics": {
+                    "followers_count": 885,
+                    "following_count": 666,
+                    "tweet_count": 16963,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "anwar alrajhi",
+                "created_at": "2009-03-27T04:38:45.000Z",
+                "verified": false,
+                "description": "أنحازُ لـ | فلسطين | الحرية | العدالة الإجتماعية | الديمقراطية | العروبة | مع الأفكار لا الشخوص. #ديمقراطية_الشيوخ #مقاطعون",
+                "id": "26951160",
+                "username": "wjmeeks",
+                "public_metrics": {
+                    "followers_count": 3,
+                    "following_count": 348,
+                    "tweet_count": 95,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Be careful...",
+                "created_at": "2021-11-07T12:23:28.000Z",
+                "verified": false,
+                "description": "A simple anonymous person on twitter\n\n#BNB\n#bitcoin\n#ETH\n\n#monstaverse #metaverse #MONSTR\n\nhttps://t.co/TVlXtG0w9d\n\n➡ @MonstaVerse666 ⚡\n\n#MonstaVerse ( $MONSTR ) 💀",
+                "id": "1457322736855011330",
+                "username": "Be_carefulfr",
+                "public_metrics": {
+                    "followers_count": 21,
+                    "following_count": 60,
+                    "tweet_count": 1174,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Crypto GEMs 📈🚀",
+                "created_at": "2015-12-13T19:19:47.000Z",
+                "verified": false,
+                "description": "#Bitcoin #Ethereum #BSC #Solana #AVAX #FTM #CryptoMarkets #Defi #NFTs #Memes Not financial advice. DYOR",
+                "id": "4473212565",
+                "username": "cryptogems555",
+                "public_metrics": {
+                    "followers_count": 274996,
+                    "following_count": 12915,
+                    "tweet_count": 30280,
+                    "listed_count": 595
+                }
+            },
+            {
+                "name": "MistaBigSnoop",
+                "created_at": "2018-02-06T05:45:07.000Z",
+                "verified": false,
+                "description": "Head Huncho @prozonegd | True Gamer |Living My Dreams |#PZGD | 👸🏾💍 @trillbillachick #FreeMook https://t.co/NRCEctN31l",
+                "id": "960751184939311104",
+                "username": "mistabigsnoop",
+                "public_metrics": {
+                    "followers_count": 865,
+                    "following_count": 469,
+                    "tweet_count": 14103,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "Lutfi ♡",
+                "created_at": "2020-01-31T04:35:38.000Z",
+                "verified": false,
+                "description": "Insya Allah~~",
+                "id": "1223102435226341378",
+                "username": "Shua_n00na",
+                "public_metrics": {
+                    "followers_count": 708,
+                    "following_count": 1895,
+                    "tweet_count": 23166,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "desember bigwin🌱",
+                "created_at": "2018-11-06T16:56:17.000Z",
+                "verified": false,
+                "description": "GA Hunter, bismillah bigwin.\n$CHMB",
+                "id": "1059851977587253253",
+                "username": "Jens_nie",
+                "public_metrics": {
+                    "followers_count": 272,
+                    "following_count": 2238,
+                    "tweet_count": 8273,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "AHMEDxN",
+                "created_at": "2019-01-31T14:44:18.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1090984118744240129",
+                "username": "AHMEDxN_27",
+                "public_metrics": {
+                    "followers_count": 43,
+                    "following_count": 811,
+                    "tweet_count": 2046,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "bigdan5379",
+                "created_at": "2021-06-15T14:22:36.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1404806493082427398",
+                "username": "bigdan5379",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 49,
+                    "tweet_count": 123,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "kikss",
+                "created_at": "2021-08-10T15:30:34.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1425117331018031105",
+                "username": "prettykikss",
+                "public_metrics": {
+                    "followers_count": 29,
+                    "following_count": 2668,
+                    "tweet_count": 14202,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "difla 🦋 NETFLIX 22K/BLN • JASA KETIK / TULIS",
+                "created_at": "2021-03-25T06:49:02.000Z",
+                "verified": false,
+                "description": "¨̮♡¨̮  #하루토 ¨̮♡¨̮   \nakun gado-gado (GA hunter, Treasure sbt, fangirl, jualan app prem, joki tugas, sambat)   \nhttps://t.co/mqISdWydtu",
+                "id": "1374976560550137860",
+                "username": "timeforharu",
+                "public_metrics": {
+                    "followers_count": 687,
+                    "following_count": 1301,
+                    "tweet_count": 21345,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Museum Archive",
+                "created_at": "2020-05-26T05:41:03.000Z",
+                "verified": false,
+                "description": "A collection of artifacts of cultural and historical relevance made available for public viewing. DM ME FOR PROMOTION & BUSINESS: #DYOR #NFA #BTC #ETH #bnb #NFT",
+                "id": "1265155918355980288",
+                "username": "ArtifactsHub",
+                "public_metrics": {
+                    "followers_count": 687328,
+                    "following_count": 23198,
+                    "tweet_count": 2302,
+                    "listed_count": 1611
+                }
+            },
+            {
+                "name": "ayaz dilawar",
+                "created_at": "2021-10-30T00:29:20.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1454243897585152003",
+                "username": "ayazdilawar2",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 110,
+                    "tweet_count": 104,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Bitcoin Prediction",
+                "created_at": "2020-05-24T06:50:59.000Z",
+                "verified": false,
+                "description": "I will tweet Bitcoin price predictions.\nForecast prices will continue to be provided free of charge.\n\nPlease donate Bitcoin\n1CffeUr3pHJfirmLpWiCDe4bxzSW6DrZ8w",
+                "id": "1264448654212919296",
+                "username": "cryptojohnsmith",
+                "public_metrics": {
+                    "followers_count": 715,
+                    "following_count": 1164,
+                    "tweet_count": 34508,
+                    "listed_count": 7
+                }
+            },
+            {
+                "name": "CryptoFarmerJohn",
+                "created_at": "2019-06-16T23:39:18.000Z",
+                "verified": false,
+                "description": "Agricultural genius, crypto warlord, marketing extraordinaire and blacksmith apprentice.  #WEXARMY",
+                "id": "1140403506744102912",
+                "username": "FarmerBoyJohn1",
+                "public_metrics": {
+                    "followers_count": 646,
+                    "following_count": 3334,
+                    "tweet_count": 740,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "Gangster Finance",
+                "created_at": "2021-05-25T13:04:43.000Z",
+                "verified": false,
+                "description": "🎩 Staking vaults and $GFI on #BinanceSmartChain 💸\n\n💬 https://t.co/tYFDr77ETW 💬",
+                "id": "1397176758051360770",
+                "username": "GangsterFinance",
+                "public_metrics": {
+                    "followers_count": 560,
+                    "following_count": 65,
+                    "tweet_count": 184,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "delski 🌙",
+                "created_at": "2019-07-19T07:31:26.000Z",
+                "verified": false,
+                "description": "pcy ty nana js addict • BISMILLAH BIGWIN ♡ akun wangi ♡ #BUNALOVE #testinyafina #jihantesti #SintinkFamily #cutetesty #rosetesti",
+                "id": "1152118734061887489",
+                "username": "snowballcityx",
+                "public_metrics": {
+                    "followers_count": 147,
+                    "following_count": 1533,
+                    "tweet_count": 8462,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "cryptochainid",
+                "created_at": "2021-10-23T10:31:49.000Z",
+                "verified": false,
+                "description": "Trader be happier\nIf you someone to know more about Cryptocurrency please join to our group here https://t.co/5y6pDio80L",
+                "id": "1451858785610260480",
+                "username": "shiboshisarmy",
+                "public_metrics": {
+                    "followers_count": 62,
+                    "following_count": 433,
+                    "tweet_count": 659,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "بوبو 💙",
+                "created_at": "2011-05-02T01:38:04.000Z",
+                "verified": false,
+                "description": "Ex TV presenter, Free Thinker 🕊 أغرّد عكس الوعي الجمعي ، لا مُقدّس إلاّ الإنسان والعقل 💫",
+                "id": "291450837",
+                "username": "Swizzieify",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 329,
+                    "tweet_count": 100,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Winner 🏆",
+                "created_at": "2021-03-27T12:46:14.000Z",
+                "verified": false,
+                "description": "created by Sar 👀",
+                "id": "1375791164117327874",
+                "username": "jaem_bin_jojon",
+                "public_metrics": {
+                    "followers_count": 110,
+                    "following_count": 2408,
+                    "tweet_count": 9558,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "أميرة",
+                "created_at": "2011-11-23T20:19:15.000Z",
+                "verified": false,
+                "description": "انسانه 💙 كاتبة و باحثة دراسات عليا 💙 اعشق الاطفال و العمل التطوعي 🇦🇿🇰🇼",
+                "id": "419803190",
+                "username": "XxUberAsianxX",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 328,
+                    "tweet_count": 515,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Hoba Bot",
+                "created_at": "2012-12-30T21:55:51.000Z",
+                "verified": false,
+                "description": "Fearless like a Honey Badger... #DYOR, #YTD\nChannel: https://t.co/d3AKCjJkns\nChat: https://t.co/RZIC5ko8KM",
+                "id": "1048905259",
+                "username": "HobaBot",
+                "public_metrics": {
+                    "followers_count": 21901,
+                    "following_count": 8,
+                    "tweet_count": 102806,
+                    "listed_count": 166
+                }
+            },
+            {
+                "name": "Osayi Uwumarongie",
+                "created_at": "2010-12-14T13:49:02.000Z",
+                "verified": false,
+                "description": "",
+                "id": "226561442",
+                "username": "osayi4me",
+                "public_metrics": {
+                    "followers_count": 42,
+                    "following_count": 182,
+                    "tweet_count": 61,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Boggy_Road",
+                "created_at": "2021-12-08T09:36:45.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1468514763731005441",
+                "username": "Boggy_Road",
+                "public_metrics": {
+                    "followers_count": 23,
+                    "following_count": 132,
+                    "tweet_count": 50,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "soyTraydez",
+                "created_at": "2021-10-20T23:19:24.000Z",
+                "verified": false,
+                "description": "💜Creador de contenido en TwitchTV\n🔥 Tik tok : Traydez_\n⭐ IG : Traydez\n💌 Bussines : TraydezOMG@Hotmail.com",
+                "id": "1450964829313904641",
+                "username": "Traydez_",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 130,
+                    "tweet_count": 20,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "راكان الدوسري",
+                "created_at": "2013-06-25T23:55:52.000Z",
+                "verified": false,
+                "description": "Pharmacist🌙Healer🌙 Mystic 🌙 Medicine woman. Healing account",
+                "id": "1546919972",
+                "username": "knight081492",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 413,
+                    "tweet_count": 98,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Norah",
+                "created_at": "2009-02-21T14:54:15.000Z",
+                "verified": false,
+                "description": "عضوه في لجنه كرة القدم 🇰🇼Lawyer ...  كن حراً ولا تسلم عقلك لموروثاتك 🦅 Secularism is justice",
+                "id": "21489697",
+                "username": "Frodo89",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 327,
+                    "tweet_count": 92,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "سـ❣ـہفـ❣ـہيرآلَاحزان💔",
+                "created_at": "2012-03-18T20:17:05.000Z",
+                "verified": false,
+                "description": "شكرا لوجهي المبتسم رغم مهزله الحياه",
+                "id": "528813766",
+                "username": "Sarahhh_93",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 318,
+                    "tweet_count": 113,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Moirangthem Tikendrajit Singh",
+                "created_at": "2021-01-23T00:10:12.000Z",
+                "verified": false,
+                "description": "l'm a dreammer man of billionear.....!",
+                "id": "1352770093625733120",
+                "username": "MoirangthemTik1",
+                "public_metrics": {
+                    "followers_count": 19,
+                    "following_count": 749,
+                    "tweet_count": 1333,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "AmeenaAlffailakawi",
+                "created_at": "2011-05-02T06:32:19.000Z",
+                "verified": false,
+                "description": "عضوه في لجنه كرة القدم 🇰🇼Lawyer ...  كن حراً ولا تسلم عقلك لموروثاتك 🦅 Secularism is justice",
+                "id": "291553784",
+                "username": "vadick1111",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 1845,
+                    "tweet_count": 110,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "ExchangeWhales🐋",
+                "created_at": "2021-10-17T23:36:14.000Z",
+                "verified": false,
+                "description": "Stay up to date on the biggest cryptocurrency trades & liquidations on exchanges. \n#FTX #Binance #Kraken #ByBit #dYdX #Bitcoin #Ethereum #Btc #Eth $BTC $ETH",
+                "id": "1449881932695805959",
+                "username": "ExchangeWhales",
+                "public_metrics": {
+                    "followers_count": 1270,
+                    "following_count": 91,
+                    "tweet_count": 61647,
+                    "listed_count": 10
+                }
+            },
+            {
+                "name": "BTC Market Alert🚨",
+                "created_at": "2019-01-19T18:15:36.000Z",
+                "verified": false,
+                "description": "巨大注文板、ステルス注文板、巨大REKT、巨大成行注文をツイートします。BTC情報アラート @btc_status もどうぞ。作者→ @btc_tainoko",
+                "id": "1086688639621316608",
+                "username": "btc_orderalert",
+                "public_metrics": {
+                    "followers_count": 26550,
+                    "following_count": 2,
+                    "tweet_count": 219315,
+                    "listed_count": 624
+                }
+            },
+            {
+                "name": "Mohamedali",
+                "created_at": "2011-06-28T09:29:58.000Z",
+                "verified": false,
+                "description": "( ‏حبيبّة الكتمان والبّال الطويل ).",
+                "id": "325446952",
+                "username": "melissacortes27",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 329,
+                    "tweet_count": 103,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "neojkoo | don't rt my rts",
+                "created_at": "2020-08-02T00:07:35.000Z",
+                "verified": false,
+                "description": "#CutieBabers • #niceHwan • #Callistars  #supREMIcy • #coluvs • #ayuminati • #cjnotigang • #moonbabies",
+                "id": "1289714369698263040",
+                "username": "jeonpreme",
+                "public_metrics": {
+                    "followers_count": 140,
+                    "following_count": 1532,
+                    "tweet_count": 8738,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Ronald",
+                "created_at": "2021-10-06T09:54:14.000Z",
+                "verified": false,
+                "description": "Jesus Love",
+                "id": "1445688743902339076",
+                "username": "RonaldRoja5",
+                "public_metrics": {
+                    "followers_count": 38,
+                    "following_count": 154,
+                    "tweet_count": 3077,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "مخ خراب",
+                "created_at": "2012-05-06T16:29:08.000Z",
+                "verified": false,
+                "description": "أنحازُ لـ | فلسطين | الحرية | العدالة الإجتماعية | الديمقراطية | العروبة | مع الأفكار لا الشخوص. #ديمقراطية_الشيوخ #مقاطعون",
+                "id": "572785289",
+                "username": "modispxnx",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 357,
+                    "tweet_count": 98,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Davion",
+                "created_at": "2021-01-30T16:36:22.000Z",
+                "verified": false,
+                "description": "If you're actively trying to improve the lives of other people, I love you!\n\nGamedev, tech, nature, art, piano, uke, juggling, bonsai, ...",
+                "id": "1355555431796584448",
+                "username": "DavionTheDK",
+                "public_metrics": {
+                    "followers_count": 294,
+                    "following_count": 280,
+                    "tweet_count": 5636,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "DayumCrypto",
+                "created_at": "2021-02-06T15:53:42.000Z",
+                "verified": false,
+                "description": "Another Plankton swimming around whales. \nBought the 2017 top.\nVery inconsistent trading journal. Tell me if I'm wrong.\n\nOBVIOUSLY not financial advice.",
+                "id": "1358081391888580608",
+                "username": "DayumCrypto",
+                "public_metrics": {
+                    "followers_count": 131,
+                    "following_count": 163,
+                    "tweet_count": 1643,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "Alec",
+                "created_at": "2021-12-20T01:46:10.000Z",
+                "verified": false,
+                "description": "my name is Alec, hello",
+                "id": "1472745012089835521",
+                "username": "Alec858",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 0,
+                    "tweet_count": 17,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Jimmy",
+                "created_at": "2021-09-15T01:43:04.000Z",
+                "verified": false,
+                "description": "A fan of #SAFEMOON, fast cars, treasure hunting, and history.",
+                "id": "1437955039939674114",
+                "username": "JimmySafemoon",
+                "public_metrics": {
+                    "followers_count": 84,
+                    "following_count": 59,
+                    "tweet_count": 759,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Safemoon Surgeon 🎄🌑",
+                "created_at": "2021-06-29T04:00:16.000Z",
+                "verified": false,
+                "description": "Plastic Surgeon - Crypto investor #safemoon and others",
+                "id": "1409723314952708096",
+                "username": "SafemoonSurgeon",
+                "public_metrics": {
+                    "followers_count": 6093,
+                    "following_count": 864,
+                    "tweet_count": 4700,
+                    "listed_count": 24
+                }
+            },
+            {
+                "name": "#هدى_الدغفق",
+                "created_at": "2013-04-13T20:24:18.000Z",
+                "verified": false,
+                "description": "‏‏Electronic Engineer, Motion picture مهندس الكترونيات Technologist & Blogger.",
+                "id": "1350151166",
+                "username": "mateo_soares",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 313,
+                    "tweet_count": 96,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "cryptoking_Spikeinu",
+                "created_at": "2014-03-12T09:12:02.000Z",
+                "verified": false,
+                "description": "",
+                "id": "2384960923",
+                "username": "Crypto_King_5",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 124,
+                    "tweet_count": 16758,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Binance",
+                "created_at": "2017-06-22T08:38:15.000Z",
+                "verified": true,
+                "description": "The world’s leading blockchain ecosystem and digital asset exchange. #Binance #BNB",
+                "id": "877807935493033984",
+                "username": "binance",
+                "public_metrics": {
+                    "followers_count": 6770147,
+                    "following_count": 463,
+                    "tweet_count": 18654,
+                    "listed_count": 21543
+                }
+            },
+            {
+                "name": "Bo Essa",
+                "created_at": "2010-05-29T21:40:45.000Z",
+                "verified": false,
+                "description": "22 | feminist | ✨interested in feminism and everything related to women’s empowerment✨",
+                "id": "149656824",
+                "username": "21EMiller",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 345,
+                    "tweet_count": 111,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "غريبة الدار",
+                "created_at": "2009-06-03T19:04:10.000Z",
+                "verified": false,
+                "description": "‏‏Electronic Engineer, Motion picture مهندس الكترونيات Technologist & Blogger.",
+                "id": "44428624",
+                "username": "kimerella",
+                "public_metrics": {
+                    "followers_count": 259,
+                    "following_count": 1051,
+                    "tweet_count": 1974,
+                    "listed_count": 9
+                }
+            },
+            {
+                "name": "تابع حسابي الثاني",
+                "created_at": "2010-03-31T03:04:49.000Z",
+                "verified": false,
+                "description": "عضو في جمعية حقوق الانسان و مغرد و محب للـ #شعر احياناً ومتضامن مع قضية #البدون",
+                "id": "128099669",
+                "username": "Mschicky79",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 331,
+                    "tweet_count": 102,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "awa🍀",
+                "created_at": "2021-03-13T04:36:00.000Z",
+                "verified": false,
+                "description": "random• akun sambat• akun hunter• freetag• #jihantesti #cutetesty #SobatGarangan",
+                "id": "1370594425328476160",
+                "username": "cutiesweetluv",
+                "public_metrics": {
+                    "followers_count": 403,
+                    "following_count": 2359,
+                    "tweet_count": 9090,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "فتون",
+                "created_at": "2013-01-26T08:24:48.000Z",
+                "verified": false,
+                "description": "كُل شيء هُنا من كتاباتي💙",
+                "id": "1121361056",
+                "username": "IreneAbinesh",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 330,
+                    "tweet_count": 95,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Richard Prado",
+                "created_at": "2014-07-11T21:39:55.000Z",
+                "verified": false,
+                "description": "Money = Motivation || Guanajuato || My life is in God's hands ||",
+                "id": "2700527075",
+                "username": "_Richardprado",
+                "public_metrics": {
+                    "followers_count": 214,
+                    "following_count": 57,
+                    "tweet_count": 14123,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Tesseᴺᶠᵀ 🎩",
+                "created_at": "2021-11-05T12:18:14.000Z",
+                "verified": false,
+                "description": "Digital illustrator✍️ Ecologist🌳 PhD candidate👩‍🎓 Satellite Remote Sensing Phenology🌱🍃🍂🛰 She/her👩‍🔬Opensea: 1/1s “Nyx Jardin”, Elle” Foundation:?",
+                "id": "1456596500847415302",
+                "username": "TessBotanica",
+                "public_metrics": {
+                    "followers_count": 701,
+                    "following_count": 589,
+                    "tweet_count": 6172,
+                    "listed_count": 10
+                }
+            },
+            {
+                "name": "GeraldDM",
+                "created_at": "2011-10-07T08:15:41.000Z",
+                "verified": false,
+                "description": "Crypto-whisperer",
+                "id": "386424790",
+                "username": "gerald325i",
+                "public_metrics": {
+                    "followers_count": 24,
+                    "following_count": 67,
+                    "tweet_count": 974,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "wahyu",
+                "created_at": "2012-11-14T10:52:56.000Z",
+                "verified": false,
+                "description": "",
+                "id": "947527621",
+                "username": "wahyuandriirawa",
+                "public_metrics": {
+                    "followers_count": 23,
+                    "following_count": 174,
+                    "tweet_count": 252,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Hint psikoloğu",
+                "created_at": "2011-08-08T12:53:38.000Z",
+                "verified": false,
+                "description": "Osmania University,\nPsychiatrist - Psychologist",
+                "id": "350871366",
+                "username": "hintpsikologu",
+                "public_metrics": {
+                    "followers_count": 41,
+                    "following_count": 548,
+                    "tweet_count": 346,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Torikul",
+                "created_at": "2021-05-04T02:49:29.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1389411674675843074",
+                "username": "Tomal8001",
+                "public_metrics": {
+                    "followers_count": 61,
+                    "following_count": 981,
+                    "tweet_count": 2381,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Mohammad21771",
+                "created_at": "2021-04-02T08:21:25.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1377898816012218369",
+                "username": "Mohammad21771B",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 47,
+                    "tweet_count": 60,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Jekaz",
+                "created_at": "2021-10-07T18:24:21.000Z",
+                "verified": false,
+                "description": "Btc 🤘",
+                "id": "1446179521452027905",
+                "username": "Jekazbtc",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 226,
+                    "tweet_count": 76,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "BIGWIN juseyoo|| @richQUACK",
+                "created_at": "2021-05-20T15:34:02.000Z",
+                "verified": false,
+                "description": "bigwin please||not a bot|| using new acc||free tag #PickAva #pickaw #SobatGarangan #IwonHanabi 6️⃣5️⃣🎹 #ap8testi @richQUACK",
+                "id": "1395402378564706304",
+                "username": "LuckyWinHyukie",
+                "public_metrics": {
+                    "followers_count": 334,
+                    "following_count": 2014,
+                    "tweet_count": 12537,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "qiya🍀BIGWIN🍀",
+                "created_at": "2021-08-11T04:18:59.000Z",
+                "verified": false,
+                "description": "PENGEN PAKE TESTI #jihantesti #BUNALOVE #kribestie #Laleers",
+                "id": "1425310710083383297",
+                "username": "qiancityx",
+                "public_metrics": {
+                    "followers_count": 61,
+                    "following_count": 1483,
+                    "tweet_count": 8682,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Eth Mongoose army $mong🏛",
+                "created_at": "2021-10-25T02:34:42.000Z",
+                "verified": false,
+                "description": "Named by Congress.Made by the Mongress. @mongoosecoineth\n🏛Mongoose army🏛",
+                "id": "1452463553063964673",
+                "username": "EthMongooseCoin",
+                "public_metrics": {
+                    "followers_count": 98,
+                    "following_count": 107,
+                    "tweet_count": 1132,
+                    "listed_count": 2
+                }
+            },
+            {
+                "name": "Mackenson Georges",
+                "created_at": "2021-10-30T03:56:37.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1454295251267489792",
+                "username": "MackensonGeorg1",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 60,
+                    "tweet_count": 198,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Bruno Pato",
+                "created_at": "2011-12-20T17:24:05.000Z",
+                "verified": false,
+                "description": "Bruno, mas conhecido como Pato",
+                "id": "442018684",
+                "username": "brunopato22",
+                "public_metrics": {
+                    "followers_count": 228,
+                    "following_count": 1413,
+                    "tweet_count": 2000,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "🍌aحmed mوza",
+                "created_at": "2010-07-02T23:36:19.000Z",
+                "verified": false,
+                "description": "أنحازُ لـ | فلسطين | الحرية | العدالة الإجتماعية | الديمقراطية | العروبة | مع الأفكار لا الشخوص. #ديمقراطية_الشيوخ #مقاطعون",
+                "id": "162188189",
+                "username": "GoldSaboteur",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 341,
+                    "tweet_count": 88,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Isfajar g",
+                "created_at": "2021-11-11T12:12:55.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1458769477491855363",
+                "username": "gianto_isfajar",
+                "public_metrics": {
+                    "followers_count": 21,
+                    "following_count": 307,
+                    "tweet_count": 270,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Lina seiche",
+                "created_at": "2020-10-08T23:58:26.000Z",
+                "verified": false,
+                "description": "I’m a binary trade expert\nCryptocurrency 📈\nBinary trading 📉\nBitcoin mining ⛏ \nDm to earn 17k weekly \n100% interest guaranteed",
+                "id": "1314354425142620162",
+                "username": "tinasieche",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 10,
+                    "tweet_count": 218,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Cory Swan.com",
+                "created_at": "2015-06-29T15:35:58.000Z",
+                "verified": false,
+                "description": "Follow me for #Bitcoin signal | founder @swanbitcoin @bitcoinerjobs @bitcoinervc | advisor @riotblockchain | 50x startup investor",
+                "id": "3260096383",
+                "username": "coryklippsten",
+                "public_metrics": {
+                    "followers_count": 57025,
+                    "following_count": 7950,
+                    "tweet_count": 20214,
+                    "listed_count": 649
+                }
+            },
+            {
+                "name": "Staycie",
+                "created_at": "2021-12-20T01:21:13.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1472738787163734018",
+                "username": "Staycie25087091",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 3,
+                    "tweet_count": 205,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Crypto Messiah🐕🐈🐺🦁🐯🐍🦝🦚🐣🐉🐷🐇🐋🦎🦍🕊🌞֎",
+                "created_at": "2012-08-18T23:48:05.000Z",
+                "verified": false,
+                "description": "Creator of the Meme Coin Market 🌞 El Jefe 🌞 IG: 1goonrich 🌞 Rich Slime #MAYC 6991 🌞",
+                "id": "766578266",
+                "username": "1goonrich",
+                "public_metrics": {
+                    "followers_count": 170361,
+                    "following_count": 5938,
+                    "tweet_count": 14430,
+                    "listed_count": 400
+                }
+            },
+            {
+                "name": "Fit 99",
+                "created_at": "2020-08-19T16:25:47.000Z",
+                "verified": false,
+                "description": "music🥰\nMonsta X Monbebe Wenee Monwenee\n🥰🥰🥰🥰\n#ap8testi #BUNALOVE #jihantesti #cutetesty #SobatGarangan",
+                "id": "1296120752345817089",
+                "username": "fitri_won",
+                "public_metrics": {
+                    "followers_count": 397,
+                    "following_count": 5004,
+                    "tweet_count": 49187,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "hoopp kaçtım ben",
+                "created_at": "2018-11-27T14:48:36.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1067429990482927616",
+                "username": "hoopp_kactimben",
+                "public_metrics": {
+                    "followers_count": 48,
+                    "following_count": 102,
+                    "tweet_count": 1500,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "SOLM",
+                "created_at": "2021-05-10T07:20:02.000Z",
+                "verified": false,
+                "description": "hear new music from #LISA, #LALISA #MONEY and #SG for a better life 💃// ngefangirl sambil ngehunter, //#UFO $UFO #UFOARMY",
+                "id": "1391652582196531202",
+                "username": "lineedls",
+                "public_metrics": {
+                    "followers_count": 54,
+                    "following_count": 1195,
+                    "tweet_count": 14102,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "ahmad nuryaman",
+                "created_at": "2021-11-27T11:50:13.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1464562132121444358",
+                "username": "ahmadnuryaman21",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 114,
+                    "tweet_count": 233,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Jakir",
+                "created_at": "2021-11-04T08:54:25.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1456182903918845956",
+                "username": "Mdjakir545",
+                "public_metrics": {
+                    "followers_count": 17,
+                    "following_count": 304,
+                    "tweet_count": 1104,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Meta Universe Token",
+                "created_at": "2021-12-11T11:57:23.000Z",
+                "verified": false,
+                "description": "Meta Universe Token is a new crypto project built for the metaverse community\n\nTelegram channel:\nhttps://t.co/EtmLT0IckR",
+                "id": "1469637342810017797",
+                "username": "Metaunive",
+                "public_metrics": {
+                    "followers_count": 430,
+                    "following_count": 21,
+                    "tweet_count": 31,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "فراغ",
+                "created_at": "2011-08-14T18:36:23.000Z",
+                "verified": false,
+                "description": "‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏ على قيد حُلمَ و أمنِية ..",
+                "id": "355037956",
+                "username": "Mlssjennlfer",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 323,
+                    "tweet_count": 92,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Owen Minto - $SAINT evangelist",
+                "created_at": "2011-05-25T01:43:52.000Z",
+                "verified": false,
+                "description": "This is just a $SAINT fan page these days. #Saint is all you need.",
+                "id": "304747196",
+                "username": "OwenMinto",
+                "public_metrics": {
+                    "followers_count": 35,
+                    "following_count": 49,
+                    "tweet_count": 1151,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Gaurav Saini",
+                "created_at": "2016-10-17T04:51:57.000Z",
+                "verified": false,
+                "description": "",
+                "id": "787878792656150529",
+                "username": "gsaini05",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 23,
+                    "tweet_count": 38,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "جـوليـا..🥀",
+                "created_at": "2011-08-30T09:45:51.000Z",
+                "verified": false,
+                "description": "في البُعد نُرتّق أَزمنة الانتظار بالذكرياتِ",
+                "id": "364776818",
+                "username": "MinecraftMan77",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 325,
+                    "tweet_count": 126,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Hanzlamughal",
+                "created_at": "2021-11-20T08:45:19.000Z",
+                "verified": false,
+                "description": "I'm a student in fsb school.",
+                "id": "1461978812124696578",
+                "username": "Hanzlam40057343",
+                "public_metrics": {
+                    "followers_count": 35,
+                    "following_count": 93,
+                    "tweet_count": 88,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "quyenao",
+                "created_at": "2020-04-08T13:12:02.000Z",
+                "verified": false,
+                "description": "3PEhHDpk1hfsaAKJwq8MusMETQoQf4txicX",
+                "id": "1247874818235490305",
+                "username": "quyenao1",
+                "public_metrics": {
+                    "followers_count": 174,
+                    "following_count": 938,
+                    "tweet_count": 858,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "Runda Arts Productions.",
+                "created_at": "2021-04-07T20:13:11.000Z",
+                "verified": false,
+                "description": "Unique NFT Art from Ireland.\nArtists, Charity Activists and Collectors.\nhttps://t.co/QTTQh1ZJYf\nBig things coming!",
+                "id": "1379889951349805065",
+                "username": "ArtsRunda",
+                "public_metrics": {
+                    "followers_count": 1199,
+                    "following_count": 2445,
+                    "tweet_count": 2450,
+                    "listed_count": 13
+                }
+            },
+            {
+                "name": "om-haneen",
+                "created_at": "2010-02-04T13:01:44.000Z",
+                "verified": false,
+                "description": "عضو في جمعية حقوق الانسان و مغرد و محب للـ #شعر احياناً ومتضامن مع قضية #البدون",
+                "id": "111300160",
+                "username": "Sargurohnaeem",
+                "public_metrics": {
+                    "followers_count": 3,
+                    "following_count": 300,
+                    "tweet_count": 96,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Rafi",
+                "created_at": "2021-11-25T22:34:53.000Z",
+                "verified": false,
+                "description": "",
+                "id": "1463999511639035912",
+                "username": "rafi202187",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 69,
+                    "tweet_count": 144,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Papipapipum",
+                "created_at": "2018-06-26T06:07:05.000Z",
+                "verified": false,
+                "description": "Akun ini resmi dan dikelola oleh staf khusus kaum bumi datar",
+                "id": "1011491013616005120",
+                "username": "ekinfrzl",
+                "public_metrics": {
+                    "followers_count": 413,
+                    "following_count": 728,
+                    "tweet_count": 2541,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "🇬🇧🇸🇦 إيمى",
+                "created_at": "2011-04-01T08:28:57.000Z",
+                "verified": false,
+                "description": "Fatemah (She/Her).",
+                "id": "275439871",
+                "username": "TeamPearce5",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 329,
+                    "tweet_count": 118,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "🍀 cani big win 🥠",
+                "created_at": "2018-08-06T14:25:25.000Z",
+                "verified": false,
+                "description": "i create my own reality alias aku udah siap banget big win",
+                "id": "1026474326822776834",
+                "username": "hearmebIue",
+                "public_metrics": {
+                    "followers_count": 34,
+                    "following_count": 2098,
+                    "tweet_count": 16374,
+                    "listed_count": 1
+                }
+            },
+            {
+                "name": "IronLeaf",
+                "created_at": "2019-12-05T22:08:13.000Z",
+                "verified": false,
+                "description": "#TravLegit #CKLegit #TigerGang\n#FurrFam #LegitFam #LegitrocketX #IWonHanabi #MasterProofs #CRO\n#KingFamily  #EtherealWins #LadyCryptonicPaid #LegitLadyCryptoGem",
+                "id": "1202711265199607808",
+                "username": "SkyCloud1912",
+                "public_metrics": {
+                    "followers_count": 463,
+                    "following_count": 2626,
+                    "tweet_count": 67380,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "Me2you",
+                "created_at": "2013-04-23T15:13:17.000Z",
+                "verified": false,
+                "description": "Fatemah (She/Her).",
+                "id": "1374764658",
+                "username": "gowtham9865",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 330,
+                    "tweet_count": 91,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "wins juseyo—",
+                "created_at": "2021-11-30T04:51:57.000Z",
+                "verified": false,
+                "description": "follow back — lez be moots ☺️ #tigergang",
+                "id": "1465544078830223360",
+                "username": "lckywnnr",
+                "public_metrics": {
+                    "followers_count": 65,
+                    "following_count": 552,
+                    "tweet_count": 1003,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "#CheemsMe",
+                "created_at": "2021-04-18T08:33:34.000Z",
+                "verified": false,
+                "description": "Let us live.. Kindly follow back 😁\n\nコープ $COPE GANG\n\nSend \n@tipzcoin\n (TIPZ) to @Adejoke69586609",
+                "id": "1383700177039417350",
+                "username": "Adejoke69586609",
+                "public_metrics": {
+                    "followers_count": 113,
+                    "following_count": 1721,
+                    "tweet_count": 4074,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "Abdullah Alqassab",
+                "created_at": "2009-04-23T06:59:40.000Z",
+                "verified": false,
+                "description": "You should know by now. - Snapchat: Shgfawyy",
+                "id": "34557241",
+                "username": "Tolga16_14",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 354,
+                    "tweet_count": 101,
+                    "listed_count": 0
+                }
+            },
+            {
+                "name": "FARTORO",
+                "created_at": "2021-03-08T14:59:03.000Z",
+                "verified": false,
+                "description": "Lonely friend",
+                "id": "1368939285613789185",
+                "username": "Iskaldo1",
+                "public_metrics": {
+                    "followers_count": 339,
+                    "following_count": 151,
+                    "tweet_count": 809,
+                    "listed_count": 3
+                }
+            },
+            {
+                "name": "coindoin",
+                "created_at": "2021-05-18T16:55:41.000Z",
+                "verified": false,
+                "description": "♈ a 🦁\nnft trader\nbinance 🤟",
+                "id": "1394698187437400064",
+                "username": "Mimizeze3",
+                "public_metrics": {
+                    "followers_count": 292,
+                    "following_count": 1092,
+                    "tweet_count": 9829,
+                    "listed_count": 1
+                }
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1473442711772745730",
+        "oldest_id": "1473442471610830848",
+        "result_count": 100,
+        "next_token": "b26v89c19zqg8o3fpe16lrcobz1ynzke4o0fwxdzeqlbx"
+    }
+}

@@ -1,0 +1,3663 @@
+{
+    "data": [
+        {
+            "author_id": "2482376614",
+            "conversation_id": "1473439353489788930",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T23:44:51.000Z",
+            "text": "πιάσαν τα παιδιά με τη μελέτη στην πλάτη και έχει ξεφτιλιστεί το σύμπαν και ήταν η α ρ δ γνωστές φίρμες δημοσιογράφοι να αλλάξουν λίγο την ατζέντα έτσι λέει να αλλάξουμε την πολιτική ατζέντα και πως Αλεξάνδρα",
+            "lang": "el",
+            "id": "1473439353489788930",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1041248486426140672",
+            "in_reply_to_user_id": "2277614564",
+            "conversation_id": "1473333270909788164",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T23:36:53.000Z",
+            "text": "@ispring50 @KostasVaxevanis Τι έκανε εμπάργκο η νδ σε κανάλια και δημοσιογράφους\nΣτοχοποιεί ΜΜΕ και δημοσιογράφους η νδ ;\nΈστησε εξεταστική επιτροπή η νδ γιατί οι δημοσιογράφοι και δημοσκοποι τα πήραν από τον πέτσα για να αβαντάρουν κα\nτη κυβέρνηση και να χειραγωγούν τους ψηφοφόρους ..",
+            "lang": "el",
+            "id": "1473437348767711232",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473333270909788164"
+                }
+            ]
+        },
+        {
+            "author_id": "791418542126227456",
+            "conversation_id": "1473434918311141377",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T23:27:14.000Z",
+            "text": "RT @JOANNA13468690: #The2NightShow Πραγματικά ο Γαρδελης είναι απόλαυση. Εγώ τον βρίσκω περισσότερο νορμάλ από πολλούς άλλους που κυκλοφορο…",
+            "lang": "el",
+            "id": "1473434918311141377",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473424546615242752"
+                }
+            ]
+        },
+        {
+            "author_id": "1468725250389164034",
+            "in_reply_to_user_id": "1428424966236745728",
+            "conversation_id": "1473360118616145928",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T23:03:06.000Z",
+            "text": "@AretiAthanasiu Όπως ξεμπροστιάζοντε όλοι.Είναι τόσο συστημικοι που δεν κρατάνε καν τα προσχήματα. Είναι τόσο γλοιώδεις και εμετικοί όλοι οι δημοσιογράφοι που απορώ πώς υπάρχει κόσμος που βλέπει ειδήσεις.",
+            "lang": "el",
+            "id": "1473428847836246016",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473360118616145928"
+                }
+            ]
+        },
+        {
+            "author_id": "3057231651",
+            "in_reply_to_user_id": "1026518913016836097",
+            "conversation_id": "1473403667420225544",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:58:46.000Z",
+            "text": "@PennySmirlis Έλα ντε αντί να του πούνε τι βλακείες είναι αυτές που λέει ... Δημοσιογράφοι κατά τ άλλα",
+            "lang": "el",
+            "id": "1473427754880475139",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473403667420225544"
+                }
+            ]
+        },
+        {
+            "author_id": "1072389158084194310",
+            "conversation_id": "1473427172392116224",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T22:56:27.000Z",
+            "text": "Το γεγονός πως στην Ελλάδα δημοσιογράφοι σχετίζονται ξεκάθαρα με κόμματα και παίρνουν συνεντεύξεις από αρχηγούς ή πολιτικούς αντιπάλων κομμάτων δεν το καταλαβαίνω. Πως αυτή η πρακτική συνεχίζεται μέχρι σήμερα; Βέβαια η ελευθεροτυπία στη χώρα έχει κατρακυλήσει μαζί με την…",
+            "lang": "el",
+            "id": "1473427172392116224",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1155469205862531072",
+            "conversation_id": "1473426884302184450",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:55:18.000Z",
+            "text": "RT @fantomasgr1: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; - https://t.co/giDKzSPpFi https://t.co/4AvDpvA7Hg",
+            "lang": "el",
+            "id": "1473426884302184450",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473403772525232133"
+                }
+            ]
+        },
+        {
+            "author_id": "1369581015178612737",
+            "conversation_id": "1473426484996055041",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:53:43.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473426484996055041",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "949736712476950528",
+            "conversation_id": "1473425490316873729",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:49:46.000Z",
+            "text": "RT @JOANNA13468690: #The2NightShow Πραγματικά ο Γαρδελης είναι απόλαυση. Εγώ τον βρίσκω περισσότερο νορμάλ από πολλούς άλλους που κυκλοφορο…",
+            "lang": "el",
+            "id": "1473425490316873729",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473424546615242752"
+                }
+            ]
+        },
+        {
+            "author_id": "1416126767769792512",
+            "in_reply_to_user_id": "1219458530",
+            "conversation_id": "1473304007603101701",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:49:27.000Z",
+            "text": "@AGiamali Ελπίζω οι συνάδελφοι σας δημοσιογράφοι να πάρουν θέση και για σας που βλέπω στηρίζετε τον μισανδρο φεμινισμο. Άναψε κάνα φως να φύγει το σκοτάδι σου γιαμαλη",
+            "lang": "el",
+            "id": "1473425409438064651",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473304007603101701"
+                }
+            ]
+        },
+        {
+            "author_id": "1066761958328860672",
+            "conversation_id": "1473424546615242752",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:46:01.000Z",
+            "text": "#The2NightShow Πραγματικά ο Γαρδελης είναι απόλαυση. Εγώ τον βρίσκω περισσότερο νορμάλ από πολλούς άλλους που κυκλοφορούν εδώ και χρόνια στην τηλεόραση και αποκαλούνται δημοσιογράφοι, παρουσιαστές, μοντέλα, άσχετοι, γλάστρες κλπ.",
+            "lang": "el",
+            "id": "1473424546615242752",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 1,
+                "like_count": 105,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "721700881939488768",
+            "conversation_id": "1473423643162124290",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:42:26.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473423643162124290",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "1364837139662389248",
+            "conversation_id": "1473420935860531207",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:31:40.000Z",
+            "text": "RT @Yes_P_M: Όσο απροπόνητοι είναι οι βουλευτές ΝΔ με έτοιμες ερωτησεις εξίσου απροπόνητοι είναι οι δημοσιογράφοι πουν νομίζουν οτι ο ερωτη…",
+            "lang": "el",
+            "id": "1473420935860531207",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "following",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473368442631868418"
+                }
+            ]
+        },
+        {
+            "author_id": "979550106113454085",
+            "conversation_id": "1473420465641340928",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:29:48.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473420465641340928",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "2340698022",
+            "conversation_id": "1473417693671956482",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:18:47.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473417693671956482",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "2677180819",
+            "conversation_id": "1473417520845664266",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T22:18:06.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473417520845664266",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "1364837139662389248",
+            "conversation_id": "1473416613982527496",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:14:30.000Z",
+            "text": "RT @JohnnyVKosta: Εφαγε τα μουτρα της η Ζαχαρεα παλι.\nΑφου δεν μπορειτε ρε παιδια γιατι δεν φωναζετε τον Κουλη να σας πει για ντολμαδακια;…",
+            "lang": "el",
+            "id": "1473416613982527496",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411636782411785"
+                }
+            ]
+        },
+        {
+            "author_id": "1275091557658636288",
+            "conversation_id": "1473415939420995585",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:11:49.000Z",
+            "text": "RT @JohnnyVKosta: Εφαγε τα μουτρα της η Ζαχαρεα παλι.\nΑφου δεν μπορειτε ρε παιδια γιατι δεν φωναζετε τον Κουλη να σας πει για ντολμαδακια;…",
+            "lang": "el",
+            "id": "1473415939420995585",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411636782411785"
+                }
+            ]
+        },
+        {
+            "author_id": "1389304557709180936",
+            "conversation_id": "1473415786194784260",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:11:12.000Z",
+            "text": "RT @LarryLl12: #ΝΔ_θελατε \nΤΑ ΒΟΘΡΟΚΑΝΑΛΑ ΕΙΠΑΝ ΚΑΤΙ ΓΙ ΑΥΤΟ ; ΕΕΕ; ΟΙ ΑΛΗΤΕΣ, ΡΟΥΦΙΑΝΟΙ ... ΔΗΜΟΣΙΟΓΡΑΦΟΙ ...;;; https://t.co/Tain4jyRNv",
+            "lang": "el",
+            "id": "1473415786194784260",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473398946718531592"
+                }
+            ]
+        },
+        {
+            "author_id": "883326229037953024",
+            "conversation_id": "1473415330559139845",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:09:24.000Z",
+            "text": "RT @JohnnyVKosta: Εφαγε τα μουτρα της η Ζαχαρεα παλι.\nΑφου δεν μπορειτε ρε παιδια γιατι δεν φωναζετε τον Κουλη να σας πει για ντολμαδακια;…",
+            "lang": "el",
+            "id": "1473415330559139845",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411636782411785"
+                }
+            ]
+        },
+        {
+            "author_id": "2237999076",
+            "conversation_id": "1473414613056188416",
+            "source": "dlvr.it",
+            "created_at": "2021-12-21T22:06:33.000Z",
+            "text": "DW: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/iOzTi5Yk86",
+            "lang": "el",
+            "id": "1473414613056188416",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1364837139662389248",
+            "conversation_id": "1473414568944803851",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:06:22.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473414568944803851",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "1427719781898149889",
+            "conversation_id": "1473414010129289216",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:04:09.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473414010129289216",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "751056600178290688",
+            "conversation_id": "1473413852251500549",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:03:31.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473413852251500549",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "1439870593034297346",
+            "conversation_id": "1473413726032338949",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:03:01.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473413726032338949",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "1231168538",
+            "conversation_id": "1473413633900228609",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:02:39.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473413633900228609",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "1137439078134296576",
+            "conversation_id": "1473413166084280323",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T22:00:48.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473413166084280323",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "237719164",
+            "conversation_id": "1473413047184236552",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T22:00:19.000Z",
+            "text": "RT @michaelstath: Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι…",
+            "lang": "el",
+            "id": "1473413047184236552",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473411042587947020"
+                }
+            ]
+        },
+        {
+            "author_id": "729731197224411137",
+            "conversation_id": "1473411935307763715",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T21:55:54.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473411935307763715",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "1093295274980790272",
+            "conversation_id": "1473411697276817414",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T21:54:57.000Z",
+            "text": "Δημοσιογράφοι-δικαστές. Αυτή η μάστιγα. https://t.co/OHYP1x2SBy",
+            "lang": "el",
+            "id": "1473411697276817414",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473281064940486664"
+                }
+            ]
+        },
+        {
+            "author_id": "394009795",
+            "conversation_id": "1473411636782411785",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T21:54:43.000Z",
+            "text": "Εφαγε τα μουτρα της η Ζαχαρεα παλι.\nΑφου δεν μπορειτε ρε παιδια γιατι δεν φωναζετε τον Κουλη να σας πει για ντολμαδακια; \nΔημοσιογραφοι του κωλου και του Πετσα.\n#εκλογες_τωρα",
+            "lang": "el",
+            "id": "1473411636782411785",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 35,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "3297460272",
+            "conversation_id": "1473411042587947020",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T21:52:21.000Z",
+            "text": "Ο #Τσιπρας αντιμετωπίζεται από τους δημοσιογράφους πάντα πολύ ήπια σε σημείο να αναρωτιέσαι αν τους πληρώνει. Αυτό είναι πολύ άδικο για τον Μητσοτάκη με τον οποίο οι δημοσιογράφοι είναι πάντα αμείλικτοι.",
+            "lang": "el",
+            "id": "1473411042587947020",
+            "public_metrics": {
+                "retweet_count": 49,
+                "reply_count": 28,
+                "like_count": 256,
+                "quote_count": 19
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "267895793",
+            "in_reply_to_user_id": "1371181908877533184",
+            "conversation_id": "1473374542613655553",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T21:45:21.000Z",
+            "text": "@5guyp2eevNQb09M @ToKakoPasok οι δημοσιογράφοι κάνουν τις ερωτήσεις και οι πολιτικοί απαντάνε, στις κανονικές δημοκρατίες.",
+            "lang": "el",
+            "id": "1473409279604449283",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473404905507405837"
+                }
+            ]
+        },
+        {
+            "author_id": "1053287679931179010",
+            "conversation_id": "1473405935225909249",
+            "source": "Twitter",
+            "created_at": "2021-12-21T21:32:04.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; - https://t.co/D2k6CpCoIz https://t.co/mrLlHOHy6l",
+            "lang": "el",
+            "id": "1473405935225909249",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1407766093868023810",
+            "conversation_id": "1473403772525232133",
+            "source": "Twitter",
+            "created_at": "2021-12-21T21:23:28.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; - https://t.co/giDKzSPpFi https://t.co/4AvDpvA7Hg",
+            "lang": "el",
+            "id": "1473403772525232133",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "257962406",
+            "conversation_id": "1473403758617018370",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T21:23:25.000Z",
+            "text": "RT @baphometx: Deutsche Welle: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/02wZZRPpjh https://t.co/FAikojB2tV",
+            "lang": "el",
+            "id": "1473403758617018370",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473400408190115859"
+                }
+            ]
+        },
+        {
+            "author_id": "1275020917",
+            "conversation_id": "1473403677289369601",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T21:23:05.000Z",
+            "text": "RT @YakinthosK: Αναρωτιέμαι : η πλειοψηφία των Ελλήνων δημοσιογράφων , δεν ντρέπονται να δηλώνουν την ιδιότητά τους και να συστήνονται στου…",
+            "lang": "el",
+            "id": "1473403677289369601",
+            "public_metrics": {
+                "retweet_count": 21,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473081724141719560"
+                }
+            ]
+        },
+        {
+            "author_id": "1029382765664501762",
+            "conversation_id": "1473403627926659072",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T21:22:54.000Z",
+            "text": "RT @YakinthosK: Αναρωτιέμαι : η πλειοψηφία των Ελλήνων δημοσιογράφων , δεν ντρέπονται να δηλώνουν την ιδιότητά τους και να συστήνονται στου…",
+            "lang": "el",
+            "id": "1473403627926659072",
+            "public_metrics": {
+                "retweet_count": 21,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473081724141719560"
+                }
+            ]
+        },
+        {
+            "author_id": "822497382319476739",
+            "conversation_id": "1473403239487922185",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T21:21:21.000Z",
+            "text": "RT @kostasargyros: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/49cQ55zU0b",
+            "lang": "el",
+            "id": "1473403239487922185",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473387853178621953"
+                }
+            ]
+        },
+        {
+            "author_id": "213427384",
+            "in_reply_to_user_id": "213427384",
+            "conversation_id": "1473401326235234306",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T21:14:03.000Z",
+            "text": "Κατάθλιψη είναι να έχεις χάσει συγγενείς από τον ιό, να έχεις γνωστούς που δε μπορούν να πάρουν πια τα πόδια τους από #LongCovid και οι δημοσιογράφοι να χαμογελάνε, χωρίς να τους νοιάζει ότι έχουνε 5 μέρες να μας ανακοινώσουν την πληρότητα των νοσοκομείων...\n\nIgnorance is bliss",
+            "lang": "el",
+            "id": "1473401404257669130",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 16,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473401376503963654"
+                }
+            ]
+        },
+        {
+            "author_id": "246231327",
+            "conversation_id": "1473400894150610950",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T21:12:02.000Z",
+            "text": "RT @politis_news: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; | Πολιτική | DW https://t.co/zqZEuLvfEQ via @politis_news #Cyprus",
+            "lang": "el",
+            "id": "1473400894150610950",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473400123652771853"
+                }
+            ]
+        },
+        {
+            "author_id": "186933748",
+            "conversation_id": "1473400408190115859",
+            "source": "Buffer",
+            "created_at": "2021-12-21T21:10:06.000Z",
+            "text": "Deutsche Welle: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/02wZZRPpjh https://t.co/FAikojB2tV",
+            "lang": "el",
+            "id": "1473400408190115859",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "351507362",
+            "conversation_id": "1473400123652771853",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T21:08:58.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; | Πολιτική | DW https://t.co/zqZEuLvfEQ via @politis_news #Cyprus",
+            "lang": "el",
+            "id": "1473400123652771853",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1389304557709180936",
+            "conversation_id": "1473398946718531592",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T21:04:17.000Z",
+            "geo": {
+                "place_id": "0186a05c161f3714"
+            },
+            "text": "#ΝΔ_θελατε \nΤΑ ΒΟΘΡΟΚΑΝΑΛΑ ΕΙΠΑΝ ΚΑΤΙ ΓΙ ΑΥΤΟ ; ΕΕΕ; ΟΙ ΑΛΗΤΕΣ, ΡΟΥΦΙΑΝΟΙ ... ΔΗΜΟΣΙΟΓΡΑΦΟΙ ...;;; https://t.co/Tain4jyRNv",
+            "lang": "el",
+            "id": "1473398946718531592",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "295869364",
+            "in_reply_to_user_id": "347089179",
+            "conversation_id": "1473227021606076426",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:50:08.000Z",
+            "text": "@g_evgenidis @Xans_Cristian @GeorgeTetradis Μα είναι γνωστή τακτική η διαρροή δήθεν \"πληροφοριών\" για να γίνει εκτίμηση αντιδράσεων. Οι δημοσιογράφοι είτε τσιμπάνε ή απλά παίζουν το παιχνίδι των πολιτικών. Δεν είναι απαραίτητα κακό.",
+            "lang": "el",
+            "id": "1473395383917293581",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473232276171497477"
+                }
+            ]
+        },
+        {
+            "author_id": "1197813619658035200",
+            "conversation_id": "1473393632870809604",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:43:11.000Z",
+            "text": "Η δημοσιογράφοι διαρκώς στηλιτευουν διαρκώς και σωστά τους πολίτες που δεν κάνουν εμβόλιο γιατί δεν κάνουν το ίδιο για την κυβέρνηση που έχει διαλύσει το ΕΣΥ και τον πρωθυπουργό που δήθεν δεν ήξερε την έκθεση Τσιοδρα;",
+            "lang": "el",
+            "id": "1473393632870809604",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "495720850",
+            "conversation_id": "1473393141780725761",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T20:41:13.000Z",
+            "text": "RT @FragileAlex: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/L0Z2V747rY",
+            "lang": "el",
+            "id": "1473393141780725761",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473390678566744070"
+                }
+            ]
+        },
+        {
+            "author_id": "391933746",
+            "conversation_id": "1473392433014661127",
+            "source": "Tweetbot for iΟS",
+            "created_at": "2021-12-21T20:38:24.000Z",
+            "text": "RT @Zeljko952: Επειδή οι δημοσιογράφοι έχετε αποδεχθεί να τηρείτε την γραμμή που σας δίνουν τα αφεντικά σας, θέλετε να βάλετε σε λειτουργία…",
+            "lang": "el",
+            "id": "1473392433014661127",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473382203627298822"
+                }
+            ]
+        },
+        {
+            "author_id": "4554120017",
+            "conversation_id": "1473392275891888128",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T20:37:47.000Z",
+            "text": "RT @FragileAlex: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/L0Z2V747rY",
+            "lang": "el",
+            "id": "1473392275891888128",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473390678566744070"
+                }
+            ]
+        },
+        {
+            "author_id": "270946443",
+            "conversation_id": "1473391996731592714",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:36:40.000Z",
+            "text": "Καλά απάντησε ο υπουργός γιατί είχε απέναντί του δημοσιογράφους που ρωτάνε για την ακρίβεια χωρίς αριθμούς. Το πρόβλημα με αυτό το ηχητικό είναι οι δημοσιογράφοι, όχι η απάντηση του υπουργού. Το πηγαίνετε σε ένα σούπερ μάρκετ δεν είναι ερώτηση για την ακρίβεια. https://t.co/DwUe94gjWV",
+            "lang": "el",
+            "id": "1473391996731592714",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473250407531036674"
+                }
+            ]
+        },
+        {
+            "author_id": "1414357183773487104",
+            "conversation_id": "1473391859670134794",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:36:08.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473391859670134794",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "932562770163388417",
+            "conversation_id": "1473391760315502598",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:35:44.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473391760315502598",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "310821585",
+            "conversation_id": "1473391323923337224",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:34:00.000Z",
+            "text": "RT @FragileAlex: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/L0Z2V747rY",
+            "lang": "el",
+            "id": "1473391323923337224",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473390678566744070"
+                }
+            ]
+        },
+        {
+            "author_id": "287815294",
+            "conversation_id": "1473390678566744070",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:31:26.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/L0Z2V747rY",
+            "lang": "el",
+            "id": "1473390678566744070",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1278304248682491905",
+            "conversation_id": "1473390657674924039",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T20:31:21.000Z",
+            "text": "Προφανώς και ο Αντωναρος δεν είναι αξιόπιστη πηγή.\n\nΔημοσιογράφοι και έρευνα λέξεις ασύνδετες πλέον.\n\n#κλαμα https://t.co/dUWNCHpkkx",
+            "lang": "el",
+            "id": "1473390657674924039",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473263710114357249"
+                }
+            ]
+        },
+        {
+            "author_id": "1373244176897343492",
+            "conversation_id": "1473390455522013196",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T20:30:33.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473390455522013196",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "339776319",
+            "conversation_id": "1473387853178621953",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T20:20:13.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/49cQ55zU0b",
+            "lang": "el",
+            "id": "1473387853178621953",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "98872288",
+            "conversation_id": "1473387237219913739",
+            "source": "Echobox",
+            "created_at": "2021-12-21T20:17:46.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/D8QMX5O1Cl",
+            "lang": "el",
+            "id": "1473387237219913739",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "937257174035783680",
+            "conversation_id": "1473385729199943684",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:11:46.000Z",
+            "text": "RT @FragileAlex: Επί πολιτικού απατεώνα Κούλη Μητσοτάκη &amp; των μαφιόζων που φοράνε κουστούμι εκδοτών το 2021 η Ελλάδα κατέβηκε 5 θέσεις στον…",
+            "lang": "el",
+            "id": "1473385729199943684",
+            "public_metrics": {
+                "retweet_count": 12,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473057737009467394"
+                }
+            ]
+        },
+        {
+            "author_id": "411653634",
+            "conversation_id": "1473384614051958794",
+            "source": "Twitter for iPad",
+            "created_at": "2021-12-21T20:07:20.000Z",
+            "text": "RT @Keramidogatos3: Εκεί καταλήγουν οι πληρωμένοι δημοσιογραφοι από την ΝΔ. Να ζητάνε συγγνώμη στο δικαστήριο. \n#Βοθρουμεντο https://t.co/n…",
+            "lang": "el",
+            "id": "1473384614051958794",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "following",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473344011645734918"
+                }
+            ]
+        },
+        {
+            "author_id": "744220059229380608",
+            "conversation_id": "1473384491104325633",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T20:06:51.000Z",
+            "text": "RT @mpaountolino: Έχουν χάσει την μπάλα με την πανδημία και αυτό είναι τραγικό γιατί θα την πληρώσουμε όλοι, τήν μαυρίλα σπάνε λίγο κομματι…",
+            "lang": "el",
+            "id": "1473384491104325633",
+            "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473262321682239505"
+                }
+            ]
+        },
+        {
+            "author_id": "1207768901603528711",
+            "conversation_id": "1473383966522621955",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T20:04:46.000Z",
+            "text": "RT @YakinthosK: Αναρωτιέμαι : η πλειοψηφία των Ελλήνων δημοσιογράφων , δεν ντρέπονται να δηλώνουν την ιδιότητά τους και να συστήνονται στου…",
+            "lang": "el",
+            "id": "1473383966522621955",
+            "public_metrics": {
+                "retweet_count": 21,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473081724141719560"
+                }
+            ]
+        },
+        {
+            "author_id": "1277219509686935553",
+            "conversation_id": "1473383853674975237",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T20:04:19.000Z",
+            "text": "RT @Zeljko952: Επειδή οι δημοσιογράφοι έχετε αποδεχθεί να τηρείτε την γραμμή που σας δίνουν τα αφεντικά σας, θέλετε να βάλετε σε λειτουργία…",
+            "lang": "el",
+            "id": "1473383853674975237",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473382203627298822"
+                }
+            ]
+        },
+        {
+            "author_id": "1270573970803302402",
+            "conversation_id": "1473383846175547399",
+            "source": "Twitter for iPad",
+            "created_at": "2021-12-21T20:04:17.000Z",
+            "text": "RT @YakinthosK: Αναρωτιέμαι : η πλειοψηφία των Ελλήνων δημοσιογράφων , δεν ντρέπονται να δηλώνουν την ιδιότητά τους και να συστήνονται στου…",
+            "lang": "el",
+            "id": "1473383846175547399",
+            "public_metrics": {
+                "retweet_count": 21,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473081724141719560"
+                }
+            ]
+        },
+        {
+            "author_id": "212698662",
+            "conversation_id": "1473382955695419401",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T20:00:45.000Z",
+            "text": "RT @mpaountolino: Έχουν χάσει την μπάλα με την πανδημία και αυτό είναι τραγικό γιατί θα την πληρώσουμε όλοι, τήν μαυρίλα σπάνε λίγο κομματι…",
+            "lang": "el",
+            "id": "1473382955695419401",
+            "public_metrics": {
+                "retweet_count": 14,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473262321682239505"
+                }
+            ]
+        },
+        {
+            "author_id": "1224734683440787458",
+            "conversation_id": "1473382203627298822",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:57:46.000Z",
+            "text": "Επειδή οι δημοσιογράφοι έχετε αποδεχθεί να τηρείτε την γραμμή που σας δίνουν τα αφεντικά σας, θέλετε να βάλετε σε λειτουργία την αστυνομία σκέψης σε όλα τα επαγγέλματα;\n\nΣυγχαρητήρια στον κ. Σιδηρόπουλο, για το θάρρος της γνώμης του και για το πόρισμα στο οποίο κατέληξε! https://t.co/fS3mRyIGvo",
+            "lang": "el",
+            "id": "1473382203627298822",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 27,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1473304007603101701"
+                }
+            ]
+        },
+        {
+            "author_id": "1285289238565736448",
+            "in_reply_to_user_id": "347089179",
+            "conversation_id": "1473263710114357249",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:56:37.000Z",
+            "text": "@g_evgenidis Εσείς οι δημοσιογράφοι έχετε ένα θέμα με το να σας κριτικαρουν. Θέλετε να κρίνετε τους πάντες αλλά αν σας πιάσουν στο στομα τους βγάζετε δοντια. Για ηρεμήστε λίγο...έχετε γίνει κουραστικοί",
+            "lang": "el",
+            "id": "1473381913893163018",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473263710114357249"
+                }
+            ]
+        },
+        {
+            "author_id": "80154515",
+            "conversation_id": "1473377024253345793",
+            "source": "WordPress.com",
+            "created_at": "2021-12-21T19:37:11.000Z",
+            "text": "Deutsche Welle: Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/dDlDpyKTKU",
+            "lang": "el",
+            "id": "1473377024253345793",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1278480931",
+            "conversation_id": "1473376758799994900",
+            "source": "Twitter for iPad",
+            "created_at": "2021-12-21T19:36:07.000Z",
+            "text": "RT @mpoumpivol2: @thanos1625 @FallingStarman Όταν μια μέρα θα είμαι επιτυχημένος και οι δημοσιογράφοι θα κάνουν σεπουκού στην εξώπορτα μου…",
+            "lang": "el",
+            "id": "1473376758799994900",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473376386488406026"
+                }
+            ]
+        },
+        {
+            "author_id": "985587663607656449",
+            "conversation_id": "1473376679326359555",
+            "source": "WordPress.com",
+            "created_at": "2021-12-21T19:35:49.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; | DW | 21.12.2021 https://t.co/g3ocQtchpL",
+            "lang": "el",
+            "id": "1473376679326359555",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "537005413",
+            "conversation_id": "1473376554495447048",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:35:19.000Z",
+            "text": "RT @mpoumpivol2: @thanos1625 @FallingStarman Όταν μια μέρα θα είμαι επιτυχημένος και οι δημοσιογράφοι θα κάνουν σεπουκού στην εξώπορτα μου…",
+            "lang": "el",
+            "id": "1473376554495447048",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473376386488406026"
+                }
+            ]
+        },
+        {
+            "author_id": "1456678857956904968",
+            "in_reply_to_user_id": "537005413",
+            "conversation_id": "1473350510027673604",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T19:34:39.000Z",
+            "text": "@thanos1625 @FallingStarman Όταν μια μέρα θα είμαι επιτυχημένος και οι δημοσιογράφοι θα κάνουν σεπουκού στην εξώπορτα μου για μια δήλωση, θα λέω με συγκίνηση και μελαγχολικό βλέμμα πως όταν είχα απελπιστεί λέγοντας \"Να πάει να γαμηθεί, πάω να παίξω γουίτσερ 3\", έπεσα σε αυτό το θρεντ και άλλαξε η ζωή μου.",
+            "lang": "el",
+            "id": "1473376386488406026",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473355418810335240"
+                }
+            ]
+        },
+        {
+            "author_id": "4678610420",
+            "conversation_id": "1473374793844117510",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:28:19.000Z",
+            "text": "RT @ZKontonikola: @Tzeison_ Και ώσπου το συνεχίζουν αυτό οι δημοσιογράφοι,  οι πολιτικοί μας ποτέ δεν ασχοληθούν σοβαρά με την αυτοκινητιστ…",
+            "lang": "el",
+            "id": "1473374793844117510",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473374393812328450"
+                }
+            ]
+        },
+        {
+            "author_id": "1243965530819756032",
+            "in_reply_to_user_id": "923546151810461696",
+            "conversation_id": "1473361634437521416",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:28:17.000Z",
+            "text": "@CimbrianMarius Έτσι πρέπει να κοιτάνε όλοι οι δημοσιογράφοι όλους τους πολιτικούς που έχουν απέναντι τους και να τους στριμώχνουν με δύσκολες ερωτήσεις..Θα ήταν καλύτερα για όλους μας",
+            "lang": "el",
+            "id": "1473374784339820547",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473373250516365324"
+                }
+            ]
+        },
+        {
+            "author_id": "2908310983",
+            "in_reply_to_user_id": "2908310983",
+            "conversation_id": "1473368732382777355",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:26:44.000Z",
+            "text": "@Tzeison_ Και ώσπου το συνεχίζουν αυτό οι δημοσιογράφοι,  οι πολιτικοί μας ποτέ δεν ασχοληθούν σοβαρά με την αυτοκινητιστική βία και τη ληψη δραστικων διορθωτικων πολιτικων",
+            "lang": "el",
+            "id": "1473374393812328450",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473373169289469956"
+                }
+            ]
+        },
+        {
+            "author_id": "2190423604",
+            "in_reply_to_user_id": "1463866227789647876",
+            "conversation_id": "1473367988321595401",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T19:24:11.000Z",
+            "text": "@KStroumphita @KStockos αυτές ΕΙΝΑΙ δημοσιογράφοι..\nη γιαμαλη ΟΧΙ\nσε κάλυψα συριζόπανο;;;",
+            "lang": "el",
+            "id": "1473373752817856525",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 3,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473372789491089409"
+                }
+            ]
+        },
+        {
+            "author_id": "1328698017361371138",
+            "in_reply_to_user_id": "1421965208180887552",
+            "conversation_id": "1473362510212444173",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T19:10:00.000Z",
+            "text": "@nikoulenas @Ezhna2 Κλάσανε οι δημοσιογράφοι και βγήκε η Σάρα, Μάρα και το κακό συναπάντημα!!!",
+            "lang": "el",
+            "id": "1473370184014602241",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 10,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473362510212444173"
+                }
+            ]
+        },
+        {
+            "author_id": "3123785291",
+            "conversation_id": "1473369999569993730",
+            "source": "Instagram",
+            "created_at": "2021-12-21T19:09:16.000Z",
+            "text": "Η ΕΝΩΤΗΤΑ καλα κρατεί.... Διαπλεκόμενοι δημοσιογράφοι, πολιτευτές,δικαστές, καλιτεχνες γιατροί κλπ «δημοκρατικές» δυνάμεις.... ΔΕΝ ΞΕΧΝΩ🤮 https://t.co/HaAKjt4h26",
+            "lang": "el",
+            "id": "1473369999569993730",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "15055996",
+            "conversation_id": "1473369925586931712",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T19:08:58.000Z",
+            "text": "Αν αύριο και για μία μόνο μέρα οι δημοσιογράφοι ήταν αντικειμενικοί, θα είχε πέσει ο Κούλης. Αν ήταν το ίδιο σκληροί όπως με τον Τσίπρα, θα τον είχαν επιπλέον συλλάβει!",
+            "lang": "el",
+            "id": "1473369925586931712",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1409869325016649737",
+            "conversation_id": "1473368442631868418",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T19:03:05.000Z",
+            "text": "Όσο απροπόνητοι είναι οι βουλευτές ΝΔ με έτοιμες ερωτησεις εξίσου απροπόνητοι είναι οι δημοσιογράφοι πουν νομίζουν οτι ο ερωτηθείς δεν θα απαντησει. Δεν μπορούν να σταθούν απέναντι στον Τσίπρα\n#Τσιπρας #ζαχαρεα #μητσοτακη_παραιτησου #εκλογες_ΤΩΡΑ #λοκνταουν #RapidTests",
+            "lang": "el",
+            "id": "1473368442631868418",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 6,
+                "quote_count": 0
+            },
+            "reply_settings": "following"
+        },
+        {
+            "author_id": "1422591180563431428",
+            "conversation_id": "1473365551451942917",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:51:35.000Z",
+            "text": "Γιατί δεν κάνουν οι δημοσιογράφοι της έγκυρης καθημερινής ενα οδοιπορικό στις μη τουριστικές συνοικίες του κέντρου. Δεν τολμά ένας δημοσιογράφος εκεί μέσα να δημοσιεύσει τις ναρκοπιατσες κ την υποβάθμιση της ποιότητας της ζωής των πολιτών του κέντρου; https://t.co/Cqc4PSLjit",
+            "lang": "el",
+            "id": "1473365551451942917",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1472939856934449153"
+                }
+            ]
+        },
+        {
+            "author_id": "1369025316061143040",
+            "in_reply_to_user_id": "369035067",
+            "conversation_id": "1473352919927906305",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T18:51:28.000Z",
+            "text": "@MsMontecristo Εχω παρατηρήσει πολλά χρόνια τώρα ότι τα ΜΜΕ Ελληνικά και διιεθνή και γενικά οι δημοσιογράφοι καλλιεργούν το φόβο και την αμφιβολία. Αυτό έχει πολλαπλασιαστεί με τα σόσιαλ. Ισως οι φοβισμένοι πολίτες είναι πιο υπάκουοι γιατί δεν έχουν χρόνο να σκεφθούν.",
+            "lang": "el",
+            "id": "1473365518690226179",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473363439544320000"
+                }
+            ]
+        },
+        {
+            "author_id": "1422591180563431428",
+            "in_reply_to_user_id": "186060772",
+            "conversation_id": "1472939856934449153",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:50:57.000Z",
+            "text": "@Kathimerini_gr Γιατί δεν κάνουν οι δημοσιογράφοι της έγκυρης καθημερινής ενα οδοιπορικό στις μη τουριστικές συνοικίες του κέντρου. Δεν τολμά ένας δημοσιογράφος εκεί μέσα να δημοσιεύσει τις ναρκοπιατσες κ την υποβάθμιση της ποιότητας της ζωής των πολιτών του κέντρου;",
+            "lang": "el",
+            "id": "1473365392093556744",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1472939856934449153"
+                }
+            ]
+        },
+        {
+            "author_id": "1415624646175637507",
+            "in_reply_to_user_id": "48426854",
+            "conversation_id": "1473363815060365317",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T18:47:37.000Z",
+            "text": "@babis2019 Αν βάλεις και τα κλεμμένα που πήραν οι δημοσιογράφοι, μέχρι και τα τριπλά μπορούσε να αντέξει η χώρα\n#τι_ψηφισατε_ρε_μαλακες \n#μητσοτακη_παραιτησου \n#Μητσοτακη_γαμιεσαι",
+            "lang": "el",
+            "id": "1473364552620425216",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473363815060365317"
+                }
+            ]
+        },
+        {
+            "author_id": "901368621670289410",
+            "conversation_id": "1473364530109587460",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:47:32.000Z",
+            "text": "Μαθαίνω από φίλους μου δημοσιογράφους ότι όλη την ημέρα ενοχλούνται από διάφορους υπουργούς της κυβέρνησης( ονόματα δεν λεμε)  για δημόσιες σχέσεις. Το ερώτημα που θέτουν οι δημοσιογράφοι είναι ποτε δουλεύουν αυτοί οι υπουργοί? Επίσης το ρουσφετι στους ανωτέρω πάει συννεφο!!!",
+            "lang": "el",
+            "id": "1473364530109587460",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1319901511032426496",
+            "conversation_id": "1473363227572592646",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:42:21.000Z",
+            "text": "RT @GeorghyZhukov: Το πρόβλημα βέβαια ξεκινάει από το γεγονός ότι ένας τρίτος πετάει μια μπούρδα και μετά απαιτεί από την κυβέρνηση να την…",
+            "lang": "el",
+            "id": "1473363227572592646",
+            "public_metrics": {
+                "retweet_count": 61,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473248853776347144"
+                }
+            ]
+        },
+        {
+            "author_id": "1009854294458339333",
+            "conversation_id": "1473363183545069574",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:42:11.000Z",
+            "text": "Μονο οι δημοσιογραφοι του Ελλαδισταν  ρωτανε για ντολμαδες την κυβερνηση  ενω προσπαθουν (χωρις επιτυχια )να στριμωξουν την αντιπολιτευση...#RapidTests #μμε_αποπατος #μμε_ξεφτιλες https://t.co/iZJlMv8u81",
+            "lang": "el",
+            "id": "1473363183545069574",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "389039338",
+            "in_reply_to_user_id": "1134916080",
+            "conversation_id": "1473056242738343942",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T18:40:47.000Z",
+            "text": "@LoukGeorgiadis Εσυ που ξέρεις τα πολλά και ο νους σου κατεβάζει, πόσοι δημοσιογράφοι είναι ανεμβολιαστοι ρε συ?? ενημέρωσε..",
+            "lang": "el",
+            "id": "1473362831147941888",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473056242738343942"
+                }
+            ]
+        },
+        {
+            "author_id": "959076277125832704",
+            "in_reply_to_user_id": "498656622",
+            "conversation_id": "1473361236452691968",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T18:40:43.000Z",
+            "text": "@blobmrpink @FacebookWatch Όχι μόνο, δεν τον έχει αφήσει να ολοκληρώσει απάντηση. Για εμένα δημοσιογράφοι π με μέγιστη επιθετικότητα χτυπάνε αλύπητα καποιον πολιτικό, αυτός πρέπει ν είναι ο επόμενος πρωθυπουργός της χώρας. Για να χτυπήσει το δημοσιογραφικό κατεστημένο που χρησιμοποιεί η #ΝΔ_Χουντα",
+            "lang": "el",
+            "id": "1473362814026887181",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 4,
+                "quote_count": 1
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473361744559067144"
+                }
+            ]
+        },
+        {
+            "author_id": "995083212849319936",
+            "in_reply_to_user_id": "722922079",
+            "conversation_id": "1473078342693924869",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:19:56.000Z",
+            "text": "@Frouku Εννοείται. Κανονισμένα είναι όλα για το ψώνιο τους. Αυτό δεν αναιρεί ότι οι δημοσιογράφοι είναι για τα μπάζα.",
+            "lang": "el",
+            "id": "1473357583721410566",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473357258755035139"
+                }
+            ]
+        },
+        {
+            "author_id": "1276816444253224960",
+            "in_reply_to_user_id": "1276816444253224960",
+            "conversation_id": "1473295784091258883",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T18:15:47.000Z",
+            "text": "@egoetsitovlepo *Λακέδες - σφουγκοκωλάριοι δημοσιογράφοι.",
+            "lang": "el",
+            "id": "1473356540128206851",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473355597487783943"
+                }
+            ]
+        },
+        {
+            "author_id": "995083212849319936",
+            "in_reply_to_user_id": "722922079",
+            "conversation_id": "1473078342693924869",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T18:11:31.000Z",
+            "text": "@Frouku Συμφωνώ αλλά αυτό δεν αναιρεί ότι έχει δικιο. Αν και δεν φταίνε οι δημοσιογράφοι αλλά αυτοί που τους βάζουν.",
+            "lang": "el",
+            "id": "1473355466214461444",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473078342693924869"
+                }
+            ]
+        },
+        {
+            "author_id": "4755935671",
+            "in_reply_to_user_id": "624712750",
+            "conversation_id": "1473248853776347144",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T18:01:55.000Z",
+            "text": "@TheoIT1 @matzyian @GeorghyZhukov Άρα οι δημοσιογραφοι φταίνε",
+            "lang": "el",
+            "id": "1473353050152701968",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473278250868789253"
+                }
+            ]
+        },
+        {
+            "author_id": "1144854817",
+            "conversation_id": "1473352011341082625",
+            "source": "WordPress.com",
+            "created_at": "2021-12-21T17:57:47.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; https://t.co/QjKHRBkUax",
+            "lang": "el",
+            "id": "1473352011341082625",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1471825442600534016",
+            "conversation_id": "1473351729060073477",
+            "source": "Twitter Web App",
+            "created_at": "2021-12-21T17:56:40.000Z",
+            "text": "Πετσομενοι δημοσιογράφοι ξεφτίλες που κάθε μέρα υπερασπιζονται τον αλλοπρόσαλλο Μητσοτακουλα #μητσοτακη_παραιτησου",
+            "lang": "el",
+            "id": "1473351729060073477",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "4524373583",
+            "conversation_id": "1473351589138206720",
+            "source": "WordPress.com",
+            "created_at": "2021-12-21T17:56:07.000Z",
+            "text": "Παρακολουθούνται δημοσιογράφοι στην Ελλάδα; | DW | 21.12.2021 https://t.co/p394vT9mWS",
+            "lang": "el",
+            "id": "1473351589138206720",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone"
+        },
+        {
+            "author_id": "1282259741859876865",
+            "conversation_id": "1473351545840353280",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T17:55:56.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473351545840353280",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "250751924",
+            "conversation_id": "1473350850152210433",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T17:53:10.000Z",
+            "text": "RT @alximistis_r: Ένα πράγμα προσπαθούμε μα καταλάβουμε \n\nΠως οι δημοσιογράφοι στα 10 χρόνια κρίσης \nήταν όλοι οικονομολόγοι \n\nΚαι πως σε δ…",
+            "lang": "el",
+            "id": "1473350850152210433",
+            "public_metrics": {
+                "retweet_count": 38,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473297463993942022"
+                }
+            ]
+        },
+        {
+            "author_id": "720661094138777601",
+            "conversation_id": "1473349338755649537",
+            "source": "Twitter for Android",
+            "created_at": "2021-12-21T17:47:10.000Z",
+            "text": "RT @g_evgenidis: Το εύκολο είναι να κατηγορήσει κανείς τους δημοσιογράφους. Το πρόβλημα είναι ότι οι δημοσιογράφοι δεν έβγαλαν τίποτα από τ…",
+            "lang": "el",
+            "id": "1473349338755649537",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473263710114357249"
+                }
+            ]
+        },
+        {
+            "author_id": "365957742",
+            "conversation_id": "1473345637064261640",
+            "source": "Twitter for iPhone",
+            "created_at": "2021-12-21T17:32:27.000Z",
+            "text": "RT @GeorghyZhukov: Το πρόβλημα βέβαια ξεκινάει από το γεγονός ότι ένας τρίτος πετάει μια μπούρδα και μετά απαιτεί από την κυβέρνηση να την…",
+            "lang": "el",
+            "id": "1473345637064261640",
+            "public_metrics": {
+                "retweet_count": 61,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473248853776347144"
+                }
+            ]
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "verified": false,
+                "created_at": "2014-04-13T19:55:00.000Z",
+                "public_metrics": {
+                    "followers_count": 20796,
+                    "following_count": 408,
+                    "tweet_count": 681774,
+                    "listed_count": 7
+                },
+                "username": "egkataleipsh",
+                "id": "2482376614",
+                "description": "σπιτς του τεξτ τουι",
+                "name": "glifomouni k salata"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-09-16T08:52:39.000Z",
+                "public_metrics": {
+                    "followers_count": 27,
+                    "following_count": 47,
+                    "tweet_count": 1843,
+                    "listed_count": 5
+                },
+                "username": "VNfHDjuf48dRxzy",
+                "id": "1041248486426140672",
+                "description": "",
+                "name": "Ο άρχοντας των κουβάδων"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-01-05T13:28:13.000Z",
+                "public_metrics": {
+                    "followers_count": 3000,
+                    "following_count": 1545,
+                    "tweet_count": 156336,
+                    "listed_count": 7
+                },
+                "username": "ispring50",
+                "id": "2277614564",
+                "description": "",
+                "name": "lena"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-10-26T23:17:39.000Z",
+                "public_metrics": {
+                    "followers_count": 1464,
+                    "following_count": 1432,
+                    "tweet_count": 25639,
+                    "listed_count": 6
+                },
+                "username": "smaragdafilippi",
+                "id": "791418542126227456",
+                "description": "Κ@@@κια μακριά κι αλάργα\nΤα μπλοκ τα μοιράζω άφθονα, αν χρειαστεί ✋",
+                "name": "Smaragda Filippi"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-12-08T23:33:07.000Z",
+                "public_metrics": {
+                    "followers_count": 20,
+                    "following_count": 27,
+                    "tweet_count": 463,
+                    "listed_count": 0
+                },
+                "username": "Maria38458574",
+                "id": "1468725250389164034",
+                "description": "",
+                "name": "Μαρία"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-19T18:34:00.000Z",
+                "public_metrics": {
+                    "followers_count": 3315,
+                    "following_count": 1418,
+                    "tweet_count": 4279,
+                    "listed_count": 14
+                },
+                "username": "AretiAthanasiu",
+                "id": "1428424966236745728",
+                "description": "Δημοσιογράφος",
+                "name": "Areti Athanasiou"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-02-23T21:33:09.000Z",
+                "public_metrics": {
+                    "followers_count": 161,
+                    "following_count": 481,
+                    "tweet_count": 1542,
+                    "listed_count": 0
+                },
+                "username": "vegkos",
+                "id": "3057231651",
+                "description": "Dr Inginer Agronom",
+                "name": "Vegkos Panagiotis"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-08-06T17:22:35.000Z",
+                "public_metrics": {
+                    "followers_count": 1503,
+                    "following_count": 1544,
+                    "tweet_count": 66580,
+                    "listed_count": 5
+                },
+                "username": "PennySmirlis",
+                "id": "1026518913016836097",
+                "description": "",
+                "name": "Penny Smirlis"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-12-11T07:14:34.000Z",
+                "public_metrics": {
+                    "followers_count": 1414,
+                    "following_count": 1410,
+                    "tweet_count": 6262,
+                    "listed_count": 3
+                },
+                "username": "themiszns",
+                "id": "1072389158084194310",
+                "description": "Be moderate even if it’s the hardest thing to do. Tweeting about #IR and more. Political Science | IR | EU Affairs | UNMA - https://t.co/4YiDCtHzT0",
+                "name": "Themis Zanidis"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-07-28T13:25:01.000Z",
+                "public_metrics": {
+                    "followers_count": 664,
+                    "following_count": 4665,
+                    "tweet_count": 8199,
+                    "listed_count": 1
+                },
+                "username": "FavlosK",
+                "id": "1155469205862531072",
+                "description": "Ο Φαύλος ήταν ο νομοθέτης του Μίνωα. Οι νόμοι του ήταν τόσο περίπλοκοι που μόνο αυτός μπορούσε να τους εξηγήσει, εξ ου και ο Λαβύρινθος και ο Φαύλος Κύκλος.",
+                "name": "Φαύλος ο Κρής"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-10T09:29:57.000Z",
+                "public_metrics": {
+                    "followers_count": 332,
+                    "following_count": 130,
+                    "tweet_count": 88952,
+                    "listed_count": 1
+                },
+                "username": "KomnAlex",
+                "id": "1369581015178612737",
+                "description": "",
+                "name": "Alex.komn"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-01-06T20:17:32.000Z",
+                "public_metrics": {
+                    "followers_count": 1772,
+                    "following_count": 1346,
+                    "tweet_count": 38472,
+                    "listed_count": 0
+                },
+                "username": "_Olivaki_",
+                "id": "949736712476950528",
+                "description": "",
+                "name": "😏λιβ"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-16T20:05:52.000Z",
+                "public_metrics": {
+                    "followers_count": 159,
+                    "following_count": 150,
+                    "tweet_count": 1805,
+                    "listed_count": 1
+                },
+                "username": "2Papadopoulos",
+                "id": "1416126767769792512",
+                "description": "Many stand against us but they will never win\nWe said we would return and here we are again!",
+                "name": "Vasilis Papadopoulos 2 🇬🇷"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-02-25T18:03:19.000Z",
+                "public_metrics": {
+                    "followers_count": 33561,
+                    "following_count": 1406,
+                    "tweet_count": 3835,
+                    "listed_count": 152
+                },
+                "username": "AGiamali",
+                "id": "1219458530",
+                "description": "KontraChannel & Realfm/ LSE & City University Alumna",
+                "name": "Αναστασία Γιάμαλη"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-11-25T18:34:05.000Z",
+                "public_metrics": {
+                    "followers_count": 181,
+                    "following_count": 279,
+                    "tweet_count": 3494,
+                    "listed_count": 0
+                },
+                "username": "JOANNA13468690",
+                "id": "1066761958328860672",
+                "description": "Τα μάτια είναι ο καθρέφτης της ψυχής μας. Όταν γελάει η ψυχή ομορφαίνει η ζωή μας.",
+                "name": "JOANNA"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-04-17T14:04:33.000Z",
+                "public_metrics": {
+                    "followers_count": 16400,
+                    "following_count": 1042,
+                    "tweet_count": 1094070,
+                    "listed_count": 70
+                },
+                "username": "lena_lenaki_len",
+                "id": "721700881939488768",
+                "description": "https://t.co/LK4JZsBqdT",
+                "name": "Λένα♎"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-25T07:18:47.000Z",
+                "public_metrics": {
+                    "followers_count": 201,
+                    "following_count": 24,
+                    "tweet_count": 6064,
+                    "listed_count": 0
+                },
+                "username": "LinaSp6",
+                "id": "1364837139662389248",
+                "description": "",
+                "name": "LinaSp"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-03-30T02:45:19.000Z",
+                "public_metrics": {
+                    "followers_count": 2961,
+                    "following_count": 2474,
+                    "tweet_count": 180472,
+                    "listed_count": 13
+                },
+                "username": "Psofo_den_exei",
+                "id": "979550106113454085",
+                "description": "Λαθρεπιβάτης σε τοπικό γκαζάδικο\n\nhttps://t.co/RB2TUTau8E",
+                "name": "Θαδούμε"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-02-12T17:42:46.000Z",
+                "public_metrics": {
+                    "followers_count": 1091,
+                    "following_count": 2886,
+                    "tweet_count": 2367,
+                    "listed_count": 0
+                },
+                "username": "nasoskol1",
+                "id": "2340698022",
+                "description": "οικονομολογος  κηπουρος",
+                "name": "Nasos k"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-07-24T14:15:28.000Z",
+                "public_metrics": {
+                    "followers_count": 2832,
+                    "following_count": 4991,
+                    "tweet_count": 910662,
+                    "listed_count": 189
+                },
+                "username": "velocity2121",
+                "id": "2677180819",
+                "description": "Ⓐ🏴‍☠️🔥",
+                "name": "velocity"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-22T15:42:00.000Z",
+                "public_metrics": {
+                    "followers_count": 440,
+                    "following_count": 359,
+                    "tweet_count": 27112,
+                    "listed_count": 0
+                },
+                "username": "ElpiXatz",
+                "id": "1275091557658636288",
+                "description": "Αν οι \"δυναστείες\"κυβερνούσαν αποτελεσματικά,δίκαια και αξιοκρατικά δεν θα είχαν γίνει η γαλλική και η ρωσική επανάσταση.",
+                "name": "Elpi xatz"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-05-03T19:44:09.000Z",
+                "public_metrics": {
+                    "followers_count": 315,
+                    "following_count": 992,
+                    "tweet_count": 2119,
+                    "listed_count": 0
+                },
+                "username": "LarryLl12",
+                "id": "1389304557709180936",
+                "description": "Λιοντάρι μ' ότι σημαίνει αυτό. Επίμονος, δυναμικός, μεθοδικός, ριψοκίνδυνος, έξυπνος, με καλή αίσθηση του σωστού χιούμορ.",
+                "name": "Larry.L.l"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-07-07T14:05:59.000Z",
+                "public_metrics": {
+                    "followers_count": 4559,
+                    "following_count": 5007,
+                    "tweet_count": 169607,
+                    "listed_count": 17
+                },
+                "username": "AlexChalkiotis",
+                "id": "883326229037953024",
+                "description": "Ξυπνηστε με οταν φυγει η χουντογκαντεμια του Κουλη.",
+                "name": "ΕναΟνομαΜιαΙστορια"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-12-09T17:54:50.000Z",
+                "public_metrics": {
+                    "followers_count": 7169,
+                    "following_count": 4,
+                    "tweet_count": 190738,
+                    "listed_count": 90
+                },
+                "username": "tribunegr",
+                "id": "2237999076",
+                "description": "News Website - Closely Monitoring #YPG|#SDF|#ISIS|#TURKEY|#ISRAEL|#GREECE|#MiddleEast|#AlQaeda|#KURDISTAN|#Τουρκία|#Συρία|#Κουρδιστάν|#Ελλάδα|#Ισραήλ|#Κύπρος",
+                "name": "tribune"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-17T19:51:58.000Z",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 43,
+                    "tweet_count": 294,
+                    "listed_count": 0
+                },
+                "username": "Mia_boos",
+                "id": "1427719781898149889",
+                "description": "",
+                "name": "mia"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-07-07T14:13:42.000Z",
+                "public_metrics": {
+                    "followers_count": 9808,
+                    "following_count": 6182,
+                    "tweet_count": 236971,
+                    "listed_count": 57
+                },
+                "username": "REDSOULMIND",
+                "id": "751056600178290688",
+                "description": "Καλύτερα αισιόδοξη κ να κάνω λάθος,παρά απαισιόδοξη κ να έχω δίκιο.\n#team_musicLov3rs",
+                "name": "red pepper"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-20T08:34:59.000Z",
+                "public_metrics": {
+                    "followers_count": 441,
+                    "following_count": 857,
+                    "tweet_count": 4546,
+                    "listed_count": 3
+                },
+                "username": "antirix1980",
+                "id": "1439870593034297346",
+                "description": "",
+                "name": "Αντιριξ1980"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-03-01T19:52:24.000Z",
+                "public_metrics": {
+                    "followers_count": 10354,
+                    "following_count": 4768,
+                    "tweet_count": 25058,
+                    "listed_count": 19
+                },
+                "username": "constads",
+                "id": "1231168538",
+                "description": "",
+                "name": "Ακραίος συνταγματολάγνος"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-06-08T19:19:43.000Z",
+                "public_metrics": {
+                    "followers_count": 1071,
+                    "following_count": 1421,
+                    "tweet_count": 65371,
+                    "listed_count": 9
+                },
+                "username": "ALANI2X",
+                "id": "1137439078134296576",
+                "description": "iq over 900. OBE +samanism 🙃😎. Enemy of animal and child   abusers .ANTI Fascist anti authoritarian . KKE =ξεφτιλα. FUCK  φασιστες & πολύ αριστερους ..",
+                "name": "ALANI"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-01-13T13:32:38.000Z",
+                "public_metrics": {
+                    "followers_count": 60188,
+                    "following_count": 65237,
+                    "tweet_count": 1593223,
+                    "listed_count": 975
+                },
+                "username": "kanekos69",
+                "id": "237719164",
+                "description": "καφριλες επικαιρότητας, απαισιόλοξος διαστροφολόγος κυνικός, atheist,antisocial pervert, copypasta enthusiast, permanently immature retard, PROUD TO BE MALAKAS",
+                "name": "υπερήφανα ντροπή του έθνους.. #IStandWithJKRowling"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-05-09T17:54:09.000Z",
+                "public_metrics": {
+                    "followers_count": 2369,
+                    "following_count": 1054,
+                    "tweet_count": 241409,
+                    "listed_count": 9
+                },
+                "username": "maraki_sun",
+                "id": "729731197224411137",
+                "description": "Κουμπαράκι μου τρελό κι αγαπημένο η @supermanria",
+                "name": "maria_omicron"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-02-06T23:48:00.000Z",
+                "public_metrics": {
+                    "followers_count": 573,
+                    "following_count": 263,
+                    "tweet_count": 19770,
+                    "listed_count": 2
+                },
+                "username": "GeorgiosSterpis",
+                "id": "1093295274980790272",
+                "description": "Ιστορία & Αρχαιολογία, Εθνικό & Καποδιστριακό Πανεπιστήμιο Αθηνών. 🇬🇷🇨🇾🇫🇷🇪🇬🇮🇱🇦🇲",
+                "name": "georgios_sterpis"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-10-19T12:50:26.000Z",
+                "public_metrics": {
+                    "followers_count": 1511,
+                    "following_count": 1147,
+                    "tweet_count": 13204,
+                    "listed_count": 4
+                },
+                "username": "JohnnyVKosta",
+                "id": "394009795",
+                "description": "https://t.co/8erGizam9Y",
+                "name": "2 eat R"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-07-27T11:47:18.000Z",
+                "public_metrics": {
+                    "followers_count": 4290,
+                    "following_count": 4506,
+                    "tweet_count": 25137,
+                    "listed_count": 12
+                },
+                "username": "michaelstath",
+                "id": "3297460272",
+                "description": "Μικα Σταθάτου Τρεντινιόν, Επικοινωνιολόγος (PhD), Φιλελεύθερη  πατριώτισσα",
+                "name": "Michaela Stathatou"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-03-17T19:14:34.000Z",
+                "public_metrics": {
+                    "followers_count": 91,
+                    "following_count": 62,
+                    "tweet_count": 10878,
+                    "listed_count": 0
+                },
+                "username": "flemetakes",
+                "id": "267895793",
+                "description": "κάτι σαν φωτογράφος",
+                "name": "τακις φλεμετακης"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-14T19:30:42.000Z",
+                "public_metrics": {
+                    "followers_count": 312,
+                    "following_count": 892,
+                    "tweet_count": 17807,
+                    "listed_count": 5
+                },
+                "username": "5guyp2eevNQb09M",
+                "id": "1371181908877533184",
+                "description": "no comment",
+                "name": "Μαπετ Σώου"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-10-19T14:12:06.000Z",
+                "public_metrics": {
+                    "followers_count": 26,
+                    "following_count": 90,
+                    "tweet_count": 14768,
+                    "listed_count": 0
+                },
+                "username": "Anaskopisi_GR",
+                "id": "1053287679931179010",
+                "description": "",
+                "name": "AnaskopisiGR"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-06-23T18:22:50.000Z",
+                "public_metrics": {
+                    "followers_count": 38,
+                    "following_count": 121,
+                    "tweet_count": 10202,
+                    "listed_count": 1
+                },
+                "username": "fantomasgr1",
+                "id": "1407766093868023810",
+                "description": "https://t.co/kzoxQeUThG Ειδήσεις από Ελλάδα | Ειδήσεις με άλλη ματιά στην πολιτική, οικονομία, κοινωνία.\nΗ ηλεκτρονική έκδοση του περιοδικού FANTOMAS.",
+                "name": "Fantomas GR"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-02-26T17:19:48.000Z",
+                "public_metrics": {
+                    "followers_count": 3416,
+                    "following_count": 3709,
+                    "tweet_count": 100053,
+                    "listed_count": 66
+                },
+                "username": "Itanduofores",
+                "id": "257962406",
+                "description": "Ναι, το αιδοίο είναι πολιτικό όταν ο φαλλός είναι εξουσία°",
+                "name": "Itan Mia Mera"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-03-17T13:46:31.000Z",
+                "public_metrics": {
+                    "followers_count": 1050,
+                    "following_count": 1543,
+                    "tweet_count": 22168,
+                    "listed_count": 1
+                },
+                "username": "falstaff_john",
+                "id": "1275020917",
+                "description": "",
+                "name": "περικαλλος νουνεχης"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-08-14T15:02:31.000Z",
+                "public_metrics": {
+                    "followers_count": 1912,
+                    "following_count": 1958,
+                    "tweet_count": 53682,
+                    "listed_count": 2
+                },
+                "username": "a_leftis",
+                "id": "1029382765664501762",
+                "description": "",
+                "name": "Leftis"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-01-20T17:33:52.000Z",
+                "public_metrics": {
+                    "followers_count": 191,
+                    "following_count": 417,
+                    "tweet_count": 2429,
+                    "listed_count": 3
+                },
+                "username": "28Europe",
+                "id": "822497382319476739",
+                "description": "Documentary programme on European issues, presented by #Kostas_Argyros @ Greek public television https://t.co/EJSpIgTNPB.",
+                "name": "28 Europe"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-11-08T22:15:01.000Z",
+                "public_metrics": {
+                    "followers_count": 604,
+                    "following_count": 251,
+                    "tweet_count": 3569,
+                    "listed_count": 22
+                },
+                "username": "Sandbird_",
+                "id": "213427384",
+                "description": "Love coding",
+                "name": "Sandbird"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-02-02T12:03:02.000Z",
+                "public_metrics": {
+                    "followers_count": 4401,
+                    "following_count": 807,
+                    "tweet_count": 87947,
+                    "listed_count": 33
+                },
+                "username": "hc_yiota",
+                "id": "246231327",
+                "description": "#journalist #PolitisNewspaper • RTs Are Not Endorsements/tweeting personal views (Gr/Tr) | #Cyprus 📧: Yiota.h@politis.com.cy",
+                "name": "Yiota Hadjicosta"
+            },
+            {
+                "verified": true,
+                "created_at": "2010-09-04T20:13:14.000Z",
+                "public_metrics": {
+                    "followers_count": 5922,
+                    "following_count": 167,
+                    "tweet_count": 631897,
+                    "listed_count": 356
+                },
+                "username": "baphometx",
+                "id": "186933748",
+                "description": "Εραστής της 7ης Τέχνης - Κυνηγώντας @chimeres & ταξιδεύοντας παλαιότερα σε: @sodeia_net @cinefreaks @SevenArt_gr\nΣυνεργάτης του @tvxs",
+                "name": "George Roussos"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-08-09T10:26:01.000Z",
+                "public_metrics": {
+                    "followers_count": 18667,
+                    "following_count": 422,
+                    "tweet_count": 155436,
+                    "listed_count": 270
+                },
+                "username": "politis_news",
+                "id": "351507362",
+                "description": "Ημερήσια πρωινή εφημερίδα παγκύπριας κυκλοφορίας.",
+                "name": "Εφημερίδα Πολίτης - Politis.com.cy"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-05-09T20:07:15.000Z",
+                "public_metrics": {
+                    "followers_count": 241,
+                    "following_count": 549,
+                    "tweet_count": 2172,
+                    "listed_count": 2
+                },
+                "username": "vkyriak",
+                "id": "295869364",
+                "description": "",
+                "name": "Vassilis"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-08-02T07:59:28.000Z",
+                "public_metrics": {
+                    "followers_count": 23131,
+                    "following_count": 2582,
+                    "tweet_count": 99850,
+                    "listed_count": 194
+                },
+                "username": "g_evgenidis",
+                "id": "347089179",
+                "description": "◾️News Anchor, Political Correspondent @StarChannelGr◾️Political Editor @ReaderGr◾️Columnist @PoliticalGR newspaper ◾️BSc @FU_Berlin, MSc @VUBrussel",
+                "name": "George Evgenidis"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-11-22T09:46:56.000Z",
+                "public_metrics": {
+                    "followers_count": 18,
+                    "following_count": 40,
+                    "tweet_count": 744,
+                    "listed_count": 0
+                },
+                "username": "IQ1RkjXsUpcmGpi",
+                "id": "1197813619658035200",
+                "description": "",
+                "name": "Τσουτσουρας Βλάσης"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-02-18T07:43:00.000Z",
+                "public_metrics": {
+                    "followers_count": 1033,
+                    "following_count": 959,
+                    "tweet_count": 5035,
+                    "listed_count": 0
+                },
+                "username": "PsakasG",
+                "id": "495720850",
+                "description": "Στον έρωτα σου εμπέρδεσα\n και δεν θυμούμαι τώρα \nπόσες φορές εγράθηκα \nστσ'αγάπης σου την μπόρα...",
+                "name": "psakomenos"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-10-16T09:41:34.000Z",
+                "public_metrics": {
+                    "followers_count": 671,
+                    "following_count": 409,
+                    "tweet_count": 245103,
+                    "listed_count": 6
+                },
+                "username": "imonaxos",
+                "id": "391933746",
+                "description": "DEUS. ex. machina",
+                "name": "JohnBlue"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-12-21T06:18:33.000Z",
+                "public_metrics": {
+                    "followers_count": 2405,
+                    "following_count": 2805,
+                    "tweet_count": 196260,
+                    "listed_count": 62
+                },
+                "username": "SineQuaNon2015",
+                "id": "4554120017",
+                "description": "",
+                "name": "Sine_Qua_Non"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-03-23T15:12:21.000Z",
+                "public_metrics": {
+                    "followers_count": 1221,
+                    "following_count": 404,
+                    "tweet_count": 79200,
+                    "listed_count": 85
+                },
+                "username": "spyrosth",
+                "id": "270946443",
+                "description": "Unemployed unskilled worker.\nJack of none trades master of none.",
+                "name": "Spyros Theodoritsis"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-11T22:53:48.000Z",
+                "public_metrics": {
+                    "followers_count": 1374,
+                    "following_count": 4302,
+                    "tweet_count": 27440,
+                    "listed_count": 3
+                },
+                "username": "Babis_flou_gr",
+                "id": "1414357183773487104",
+                "description": "Η εξουσία διαφθείρει.\nΗ απόλυτη εξουσία διαφθείρει απόλυτα!",
+                "name": "Μπάμπης ο φλου"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-11-20T10:54:25.000Z",
+                "public_metrics": {
+                    "followers_count": 12476,
+                    "following_count": 360,
+                    "tweet_count": 181423,
+                    "listed_count": 36
+                },
+                "username": "ksexnawonomata",
+                "id": "932562770163388417",
+                "description": "Καυστικό χιούμορ",
+                "name": "Ξεχνάω Ονόματα ♉"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-06-04T12:09:19.000Z",
+                "public_metrics": {
+                    "followers_count": 540,
+                    "following_count": 484,
+                    "tweet_count": 20802,
+                    "listed_count": 2
+                },
+                "username": "o_aristokratis",
+                "id": "310821585",
+                "description": "🆂E🆁 I 🅰L  🅺 I 🅻L🅴R  &  🆄N🅳E🆁T🅰K🅴R (𝓷𝓸𝓽  🅿A🆁O🅳Y)",
+                "name": "Αριστοκράτης Ξεσφίγγης |🇬🇷|🇺🇸|🇦🇺|🏴‍☠️|🚾|"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-04-25T18:44:19.000Z",
+                "public_metrics": {
+                    "followers_count": 15387,
+                    "following_count": 3955,
+                    "tweet_count": 213290,
+                    "listed_count": 178
+                },
+                "username": "FragileAlex",
+                "id": "287815294",
+                "description": "Αβάδιστα: Έλληνας με κύρος, ισχυρό εκτόπισμα, διαχρονικό έργο και έντονη ερωτική δράση, υψώνει το ανάστημά του ως ανάχωμα στην «κατρακύλα». Πληροφορίες εντός",
+                "name": "Alexandros Charoulis 🌈"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-01T12:27:56.000Z",
+                "public_metrics": {
+                    "followers_count": 626,
+                    "following_count": 457,
+                    "tweet_count": 5001,
+                    "listed_count": 4
+                },
+                "username": "KatePapatheodo1",
+                "id": "1278304248682491905",
+                "description": "Οικονομολόγος. Ελεύθερη. Δεξιά.",
+                "name": "Kate Papatheodorou"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-20T12:06:51.000Z",
+                "public_metrics": {
+                    "followers_count": 3410,
+                    "following_count": 1390,
+                    "tweet_count": 118176,
+                    "listed_count": 15
+                },
+                "username": "elladistan",
+                "id": "1373244176897343492",
+                "description": "https://t.co/5sNMoTfpgB",
+                "name": "Mrs Shirley Temple🎩"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-07-21T16:54:29.000Z",
+                "public_metrics": {
+                    "followers_count": 1633,
+                    "following_count": 836,
+                    "tweet_count": 12779,
+                    "listed_count": 37
+                },
+                "username": "kostasargyros",
+                "id": "339776319",
+                "description": "Journalist, AllRed-YNWA",
+                "name": "Kostas Argyros"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-12-23T12:49:16.000Z",
+                "public_metrics": {
+                    "followers_count": 79562,
+                    "following_count": 0,
+                    "tweet_count": 222631,
+                    "listed_count": 766
+                },
+                "username": "capitalgr",
+                "id": "98872288",
+                "description": "Κεφάλαιο στην οικονομική ενημέρωση",
+                "name": "capital.gr"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-12-03T09:48:18.000Z",
+                "public_metrics": {
+                    "followers_count": 1106,
+                    "following_count": 1547,
+                    "tweet_count": 13687,
+                    "listed_count": 1
+                },
+                "username": "Elenaki65K",
+                "id": "937257174035783680",
+                "description": "",
+                "name": "Elena k."
+            },
+            {
+                "verified": false,
+                "created_at": "2011-11-13T18:09:01.000Z",
+                "public_metrics": {
+                    "followers_count": 390,
+                    "following_count": 910,
+                    "tweet_count": 7007,
+                    "listed_count": 3
+                },
+                "username": "Flowersdontwork",
+                "id": "411653634",
+                "description": "☘️",
+                "name": "Dr. Strange-R"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-06-18T17:27:44.000Z",
+                "public_metrics": {
+                    "followers_count": 565,
+                    "following_count": 3292,
+                    "tweet_count": 21487,
+                    "listed_count": 0
+                },
+                "username": "Achilleas411",
+                "id": "744220059229380608",
+                "description": "",
+                "name": "Αχιλλεας"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-12-19T21:07:06.000Z",
+                "public_metrics": {
+                    "followers_count": 1561,
+                    "following_count": 1703,
+                    "tweet_count": 85885,
+                    "listed_count": 4
+                },
+                "username": "LamprosNikos",
+                "id": "1207768901603528711",
+                "description": "αδερφός του Κούλη (έχω μέσο) αγράμματος",
+                "name": "koulis brother"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-28T12:37:41.000Z",
+                "public_metrics": {
+                    "followers_count": 319,
+                    "following_count": 132,
+                    "tweet_count": 3890,
+                    "listed_count": 0
+                },
+                "username": "BTmlqJv3MjZAG1V",
+                "id": "1277219509686935553",
+                "description": "Στήριξε το σπίτι σου, αποφασιστικά και δυναμικά, διότι εάν δεν το πράξεις, θα πέσει και θα σε καταπλακώσει, μετά πάσης βεβαιότητος !!",
+                "name": "Γρηγόρης Τσούλος"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-10T04:31:12.000Z",
+                "public_metrics": {
+                    "followers_count": 2124,
+                    "following_count": 2090,
+                    "tweet_count": 37930,
+                    "listed_count": 7
+                },
+                "username": "stvaleriana",
+                "id": "1270573970803302402",
+                "description": "Antifa ultra left my middle name is sarcasm but I do it only to get attention . I’m a rural dweller",
+                "name": "valeriανα"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-11-06T20:11:58.000Z",
+                "public_metrics": {
+                    "followers_count": 2296,
+                    "following_count": 4116,
+                    "tweet_count": 23255,
+                    "listed_count": 7
+                },
+                "username": "HatredHunter",
+                "id": "212698662",
+                "description": "Rethink reality. \nGet out of the cave.",
+                "name": "Julius C."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-02-04T16:41:39.000Z",
+                "public_metrics": {
+                    "followers_count": 2154,
+                    "following_count": 834,
+                    "tweet_count": 2317,
+                    "listed_count": 6
+                },
+                "username": "Zeljko952",
+                "id": "1224734683440787458",
+                "description": "Σε έναν κόσμο που οι επιλογές που σου δίνονται είναι ο διεθνισμός και ο εθνικισμός... Δηλώνουμε περήφανα εθνικιστές. 🇬🇷",
+                "name": "Αρκάν"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-20T19:05:04.000Z",
+                "public_metrics": {
+                    "followers_count": 80,
+                    "following_count": 276,
+                    "tweet_count": 996,
+                    "listed_count": 0
+                },
+                "username": "Lyraspan1",
+                "id": "1285289238565736448",
+                "description": "",
+                "name": "Lyraspan"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-10-05T23:24:03.000Z",
+                "public_metrics": {
+                    "followers_count": 10600,
+                    "following_count": 884,
+                    "tweet_count": 60389,
+                    "listed_count": 0
+                },
+                "username": "typologies",
+                "id": "80154515",
+                "description": "",
+                "name": "typologies"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-03-18T18:45:33.000Z",
+                "public_metrics": {
+                    "followers_count": 10095,
+                    "following_count": 1306,
+                    "tweet_count": 56969,
+                    "listed_count": 126
+                },
+                "username": "FallingStarman",
+                "id": "1278480931",
+                "description": "https://t.co/A7qE6UTC3c",
+                "name": "Βιοπαλαιστίνιος"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-04-15T18:36:25.000Z",
+                "public_metrics": {
+                    "followers_count": 93,
+                    "following_count": 1,
+                    "tweet_count": 194242,
+                    "listed_count": 2
+                },
+                "username": "eidiseis_news",
+                "id": "985587663607656449",
+                "description": "Ειδήσεις & νέα από την Ελλάδα & όλον τον κόσμο συγκεντρωμένα από αξιόπιστες πηγές σε έναν ιστότοπο. https://t.co/31ID9uEjtx",
+                "name": "eidiseis.news"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-03-26T07:17:51.000Z",
+                "public_metrics": {
+                    "followers_count": 24710,
+                    "following_count": 6239,
+                    "tweet_count": 138357,
+                    "listed_count": 260
+                },
+                "username": "thanos1625",
+                "id": "537005413",
+                "description": "https://t.co/Y0UWfhJSxM\nhttps://t.co/yyY2ZZckmX",
+                "name": "Captain Beerheart"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-05T17:44:48.000Z",
+                "public_metrics": {
+                    "followers_count": 1357,
+                    "following_count": 289,
+                    "tweet_count": 2753,
+                    "listed_count": 3
+                },
+                "username": "mpoumpivol2",
+                "id": "1456678857956904968",
+                "description": "Άλφα Μέηλ με έγκριση μανούλας",
+                "name": "Μπούμπης"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-12-30T15:19:26.000Z",
+                "public_metrics": {
+                    "followers_count": 6602,
+                    "following_count": 6478,
+                    "tweet_count": 54963,
+                    "listed_count": 48
+                },
+                "username": "Tzeison_",
+                "id": "4678610420",
+                "description": "Husband & father. Road safety🥷🏻. Joint PhD candidate @MUARCresearch/@EuropeanUniCy - 🧑🏻‍💻 at @CoE_CERIDES @respond_a @fireurisk. Blocked by @elonmusk",
+                "name": "(Τζέισων)"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-03-28T18:18:08.000Z",
+                "public_metrics": {
+                    "followers_count": 33,
+                    "following_count": 51,
+                    "tweet_count": 395,
+                    "listed_count": 0
+                },
+                "username": "Gregory20151",
+                "id": "1243965530819756032",
+                "description": "Ελευθερία είναι το δικαίωμα να λες στους ανθρώπους αυτό που δεν θέλουν να ακούσουν. G.O.",
+                "name": "Gregory2015"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-10-26T13:45:36.000Z",
+                "public_metrics": {
+                    "followers_count": 5454,
+                    "following_count": 4398,
+                    "tweet_count": 132653,
+                    "listed_count": 29
+                },
+                "username": "CimbrianMarius",
+                "id": "923546151810461696",
+                "description": "Ι will either find a way or make one ....\nHistorical-Romantic-Political account",
+                "name": "Kωστας Τσεκαιος"
+            },
+            {
+                "verified": false,
+                "created_at": "2014-11-23T15:53:01.000Z",
+                "public_metrics": {
+                    "followers_count": 1347,
+                    "following_count": 2040,
+                    "tweet_count": 8010,
+                    "listed_count": 4
+                },
+                "username": "ZKontonikola",
+                "id": "2908310983",
+                "description": "I'm a cage in search of a bird",
+                "name": "ΖαΚ"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-11-21T20:56:09.000Z",
+                "public_metrics": {
+                    "followers_count": 4484,
+                    "following_count": 4012,
+                    "tweet_count": 112037,
+                    "listed_count": 37
+                },
+                "username": "kon_andreou",
+                "id": "2190423604",
+                "description": "Γενική Γραμματέας Κομματικής Οργάνωσης Βάσης Στάλινγκραντ",
+                "name": "Μπαμπουσκα"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-25T13:44:57.000Z",
+                "public_metrics": {
+                    "followers_count": 82,
+                    "following_count": 128,
+                    "tweet_count": 385,
+                    "listed_count": 0
+                },
+                "username": "KStroumphita",
+                "id": "1463866227789647876",
+                "description": "Έξω οι δεξιοί, βγάζω φλύκταινες.",
+                "name": "Κόκκινη Στρουμφίτα"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-11-17T13:54:53.000Z",
+                "public_metrics": {
+                    "followers_count": 773,
+                    "following_count": 1101,
+                    "tweet_count": 31185,
+                    "listed_count": 0
+                },
+                "username": "KokkiniMartha",
+                "id": "1328698017361371138",
+                "description": "",
+                "name": "Martha Kokkini"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-01T22:45:13.000Z",
+                "public_metrics": {
+                    "followers_count": 304,
+                    "following_count": 443,
+                    "tweet_count": 296,
+                    "listed_count": 7
+                },
+                "username": "nikoulenas",
+                "id": "1421965208180887552",
+                "description": "",
+                "name": "dr.evil"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-03-28T13:21:51.000Z",
+                "public_metrics": {
+                    "followers_count": 115,
+                    "following_count": 437,
+                    "tweet_count": 3964,
+                    "listed_count": 0
+                },
+                "username": "h_dimitriou",
+                "id": "3123785291",
+                "description": "Την μέρα που γεννήθηκα γεννήθηκε το σύμπαν .... από τότε υπάρχουν δυνάμεις που θέλουν να το εξαφανίσουν .... Ανήκω στις δυνάμεις που Αντιστέκονται .....",
+                "name": "Manolis.H_dimitriou"
+            },
+            {
+                "verified": false,
+                "created_at": "2008-06-09T09:51:39.000Z",
+                "public_metrics": {
+                    "followers_count": 32,
+                    "following_count": 22,
+                    "tweet_count": 190,
+                    "listed_count": 1
+                },
+                "username": "Vsam",
+                "id": "15055996",
+                "description": "Well Done!",
+                "name": "MegaSam"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-06-29T13:41:20.000Z",
+                "public_metrics": {
+                    "followers_count": 205,
+                    "following_count": 195,
+                    "tweet_count": 2260,
+                    "listed_count": 1
+                },
+                "username": "Yes_P_M",
+                "id": "1409869325016649737",
+                "description": "Με ανθρώπους συζητάω. Πληρωμένοι και τρολ μακριά από μας!",
+                "name": "Macduck for Prime Minister"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-03T16:12:59.000Z",
+                "public_metrics": {
+                    "followers_count": 78,
+                    "following_count": 138,
+                    "tweet_count": 2299,
+                    "listed_count": 0
+                },
+                "username": "oApopsakias",
+                "id": "1422591180563431428",
+                "description": "Σχολιάζω κ' αναδημοσιεύω όσες τοποθετήσεις εξυπηρετούν τις αγαθές προθέσεις μου",
+                "name": "Βενιαμίν"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-08T20:41:01.000Z",
+                "public_metrics": {
+                    "followers_count": 201,
+                    "following_count": 176,
+                    "tweet_count": 10281,
+                    "listed_count": 0
+                },
+                "username": "KatZfgss1",
+                "id": "1369025316061143040",
+                "description": "Ζούμε σε εποχές που η \"κοινή λογική\" πλέον θεωρείται υπερ-δύναμη.\nAnti-SJW, Replaces idiots w/scripts. Karma's BFF.",
+                "name": "MrHouse"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-09-06T17:08:57.000Z",
+                "public_metrics": {
+                    "followers_count": 1140,
+                    "following_count": 2245,
+                    "tweet_count": 4404,
+                    "listed_count": 3
+                },
+                "username": "MsMontecristo",
+                "id": "369035067",
+                "description": "… κι όταν μεγαλώσω θα γίνω πριγκίπισσα ή πιλότος ή δύτης οξυγονοκολλητής.",
+                "name": "Katerina ♔ Karouta"
+            },
+            {
+                "verified": true,
+                "created_at": "2010-09-02T14:05:36.000Z",
+                "public_metrics": {
+                    "followers_count": 429524,
+                    "following_count": 432,
+                    "tweet_count": 400404,
+                    "listed_count": 1989
+                },
+                "username": "Kathimerini_gr",
+                "id": "186060772",
+                "description": "Ενημέρωση, αναλύσεις και έρευνες με το κύρος της Καθημερινής.\nTwitter account of Greece's leading Newspaper, Kathimerini",
+                "name": "Η ΚΑΘΗΜΕΡΙΝΗ"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-07-15T10:52:11.000Z",
+                "public_metrics": {
+                    "followers_count": 27,
+                    "following_count": 112,
+                    "tweet_count": 1224,
+                    "listed_count": 0
+                },
+                "username": "PatriotisEllin",
+                "id": "1415624646175637507",
+                "description": "Κανείς δεξιός φασίστας, πατροδοκάπηλος, πτωματέμπορας, χριστιανοταλιμπάν, ΝΔκράτης, δεν μπορεί να είναι Πατριώτης, παρά μόνο εχθρός της Ελλάδος.",
+                "name": "ellin-patriotis"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-06-18T17:43:54.000Z",
+                "public_metrics": {
+                    "followers_count": 25768,
+                    "following_count": 297,
+                    "tweet_count": 3275,
+                    "listed_count": 300
+                },
+                "username": "babis2019",
+                "id": "48426854",
+                "description": "Βουλευτής Νότιου Τομέα της Β᾽ Αθηνών | Νέα Δημοκρατία. Δημοσιογράφος. Οικονομολόγος.",
+                "name": "Μπάμπης Παπαδημητρίου"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-08-26T09:00:00.000Z",
+                "public_metrics": {
+                    "followers_count": 30,
+                    "following_count": 78,
+                    "tweet_count": 706,
+                    "listed_count": 0
+                },
+                "username": "Epn1954",
+                "id": "901368621670289410",
+                "description": "",
+                "name": "Green sun"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-10-24T07:20:42.000Z",
+                "public_metrics": {
+                    "followers_count": 112,
+                    "following_count": 103,
+                    "tweet_count": 1691,
+                    "listed_count": 0
+                },
+                "username": "StephieTheodor3",
+                "id": "1319901511032426496",
+                "description": "Don't ever stop",
+                "name": "Stephie Theodoropoulou"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-06-21T17:43:20.000Z",
+                "public_metrics": {
+                    "followers_count": 1076,
+                    "following_count": 902,
+                    "tweet_count": 16620,
+                    "listed_count": 6
+                },
+                "username": "Koulara555",
+                "id": "1009854294458339333",
+                "description": "",
+                "name": "Koulara"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-10-11T19:11:53.000Z",
+                "public_metrics": {
+                    "followers_count": 503,
+                    "following_count": 448,
+                    "tweet_count": 18319,
+                    "listed_count": 6
+                },
+                "username": "geoklf1",
+                "id": "389039338",
+                "description": "Father of four \n\nI DREAM→ I WANT→ I CAN ✌\n\nΑκομάτιστος - Μόνο για την Ελλάδα.\n\nΠιο εύκολο να εξαπατήσεις ανθρώπους παρα να τους πείσεις ότι έχουν εξαπατηθεί.",
+                "name": "𝓖𝓔𝓞𝓡𝓖𝓔"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-01-30T19:12:06.000Z",
+                "public_metrics": {
+                    "followers_count": 14536,
+                    "following_count": 15378,
+                    "tweet_count": 98324,
+                    "listed_count": 53
+                },
+                "username": "LoukGeorgiadis",
+                "id": "1134916080",
+                "description": "Δημοσιογράφος-Οικονομολόγος / Ρεαλισμός-Κοινή Λογική / Twitter - Facebook",
+                "name": "ΛΟΥΚΑΣ ΓΕΩΡΓΙΑΔΗΣ"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-02-01T14:49:38.000Z",
+                "public_metrics": {
+                    "followers_count": 9696,
+                    "following_count": 9585,
+                    "tweet_count": 20267,
+                    "listed_count": 12
+                },
+                "username": "PikosApikos123",
+                "id": "959076277125832704",
+                "description": "Δαιμόνιος Οικονομολόγος. Ισότητα, ισονομία σε όλα, για όλους!\nΝαζί και Φασίστες μακριά. Συναγωνιστές ακολουθήστε ελεύθερα.\nΟι απόψεις, είναι δικές μου.\nNo DMs!",
+                "name": "Pikos Apikos"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-02-21T08:44:33.000Z",
+                "public_metrics": {
+                    "followers_count": 1463,
+                    "following_count": 1919,
+                    "tweet_count": 26298,
+                    "listed_count": 13
+                },
+                "username": "blobmrpink",
+                "id": "498656622",
+                "description": "Γύρισα τον κόσμο όλο, για να ανακαλύψω ότι όλος ο κόσμος ήταν γύρω μου.",
+                "name": "Mr Pink"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-05-11T23:28:20.000Z",
+                "public_metrics": {
+                    "followers_count": 45,
+                    "following_count": 53,
+                    "tweet_count": 1375,
+                    "listed_count": 0
+                },
+                "username": "Stefanos951",
+                "id": "995083212849319936",
+                "description": "",
+                "name": "Stefanos95"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-07-28T22:22:19.000Z",
+                "public_metrics": {
+                    "followers_count": 3466,
+                    "following_count": 1916,
+                    "tweet_count": 46342,
+                    "listed_count": 1
+                },
+                "username": "Frouku",
+                "id": "722922079",
+                "description": "Frouki frouki",
+                "name": "Frouki 🦁"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-27T09:56:05.000Z",
+                "public_metrics": {
+                    "followers_count": 820,
+                    "following_count": 620,
+                    "tweet_count": 4281,
+                    "listed_count": 0
+                },
+                "username": "jrDz7AzM9JbXqe8",
+                "id": "1276816444253224960",
+                "description": "",
+                "name": "Ναι υπάρχει ο παραμυθοιός"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-01-14T02:32:03.000Z",
+                "public_metrics": {
+                    "followers_count": 1306,
+                    "following_count": 707,
+                    "tweet_count": 10496,
+                    "listed_count": 6
+                },
+                "username": "neveragainleft",
+                "id": "4755935671",
+                "description": "Κεντροδεξιός Μητσοτακικός Pharmacist💊",
+                "name": "Christos🇬🇷"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-07-02T14:29:03.000Z",
+                "public_metrics": {
+                    "followers_count": 2816,
+                    "following_count": 1995,
+                    "tweet_count": 49463,
+                    "listed_count": 43
+                },
+                "username": "TheoIT1",
+                "id": "624712750",
+                "description": "",
+                "name": "Ιωάννου"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-02-03T10:49:05.000Z",
+                "public_metrics": {
+                    "followers_count": 771,
+                    "following_count": 256,
+                    "tweet_count": 22219,
+                    "listed_count": 3
+                },
+                "username": "EllinikiGnomi",
+                "id": "1144854817",
+                "description": "",
+                "name": "Elliniki Gnomi"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-12-17T12:52:41.000Z",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 7,
+                    "tweet_count": 19,
+                    "listed_count": 0
+                },
+                "username": "tromos53",
+                "id": "1471825442600534016",
+                "description": "",
+                "name": "tromos"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-12-18T12:01:40.000Z",
+                "public_metrics": {
+                    "followers_count": 76,
+                    "following_count": 0,
+                    "tweet_count": 329617,
+                    "listed_count": 3
+                },
+                "username": "365newsgr",
+                "id": "4524373583",
+                "description": "",
+                "name": "365news.gr"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-12T10:25:33.000Z",
+                "public_metrics": {
+                    "followers_count": 2790,
+                    "following_count": 1082,
+                    "tweet_count": 21635,
+                    "listed_count": 3
+                },
+                "username": "nataliaIzou",
+                "id": "1282259741859876865",
+                "description": "Θεσσαλονίκη",
+                "name": "Ναταλία"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-02-11T18:45:33.000Z",
+                "public_metrics": {
+                    "followers_count": 6045,
+                    "following_count": 2405,
+                    "tweet_count": 236024,
+                    "listed_count": 42
+                },
+                "username": "CheapEripo",
+                "id": "250751924",
+                "description": "Απολωλός αμνός. Once a kid, always a kid https://t.co/uHXP7ef9CF",
+                "name": "iSardonius"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-04-14T17:12:48.000Z",
+                "public_metrics": {
+                    "followers_count": 75,
+                    "following_count": 84,
+                    "tweet_count": 4616,
+                    "listed_count": 1
+                },
+                "username": "p_papagiannakis",
+                "id": "720661094138777601",
+                "description": "Liberté\nÉgalité\nLaïcité",
+                "name": "P. Papagiannakis🇬🇷🇫🇷🇺🇲🇬🇧"
+            },
+            {
+                "verified": false,
+                "created_at": "2011-09-01T09:43:30.000Z",
+                "public_metrics": {
+                    "followers_count": 9351,
+                    "following_count": 4778,
+                    "tweet_count": 47759,
+                    "listed_count": 45
+                },
+                "username": "ZafiriaF",
+                "id": "365957742",
+                "description": "Πίσσα και πούπουλα σε όσους πουλάνε ιδεολογία για να ζουν από τον κόπο των άλλων",
+                "name": "zafiria😷"
+            }
+        ],
+        "places": [
+            {
+                "geo": {
+                    "type": "Feature",
+                    "bbox": [
+                        22.8907869,
+                        40.6565918,
+                        22.9319506,
+                        40.6963665
+                    ],
+                    "properties": {}
+                },
+                "country": "Greece",
+                "country_code": "GR",
+                "id": "0186a05c161f3714",
+                "full_name": "Evosmos, Greece",
+                "place_type": "city",
+                "name": "Evosmos"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1473439353489788930",
+        "oldest_id": "1473345637064261640",
+        "result_count": 100,
+        "next_token": "b26v89c19zqg8o3fpe16lp7yb7duk364keru388vdx859"
+    }
+}

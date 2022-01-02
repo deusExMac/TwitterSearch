@@ -1,0 +1,1841 @@
+{
+    "data": [
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T11:08:27.000Z",
+            "id": "1474336162735136768",
+            "text": "RT @sternde: Konflikt mit China: Biden verbietet Importe aus Xinjiang-Region – und setzt Zeichen gegen Menschenrechtsverletzungen https://t…",
+            "author_id": "3309729687",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPad",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474331072129384471"
+                }
+            ],
+            "conversation_id": "1474336162735136768"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T11:02:45.000Z",
+            "id": "1474334725426843651",
+            "text": "RT @FoxMulder944: JETZT holen sie den Hammer RAUS! Wieder mit den besten dt. Komikern. #Lauterbach #Kretschmann #Kretschmer #Biden #ZDF #AR…",
+            "author_id": "2822501959",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473898446201446400"
+                }
+            ],
+            "conversation_id": "1474334725426843651"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T11:02:19.000Z",
+            "id": "1474334616999895053",
+            "text": "@MarkusSiebert5 @ARaachek @marcfriedrich7 @JoeBiden Ich pfeife auf Trump du dämlicher Eiernacken. Noch schlimmer sind aber geisteskranke Hater, die selbst scheintote fremdgesteuerte Mumien wie Biden und Fakenews feiern, solange sie dadurch weiter über den in ihrem hohlen Kopp mietfrei wohnenden Trumpster ablästern können.",
+            "author_id": "1364282049654325250",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474333038695882783"
+                }
+            ],
+            "in_reply_to_user_id": "1116715652709060609",
+            "conversation_id": "1474116593840017420"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T11:01:03.000Z",
+            "id": "1474334298299899912",
+            "text": "RT @sternde: Konflikt mit China: Biden verbietet Importe aus Xinjiang-Region – und setzt Zeichen gegen Menschenrechtsverletzungen https://t…",
+            "author_id": "1445701572588032018",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474331072129384471"
+                }
+            ],
+            "conversation_id": "1474334298299899912"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:59:26.000Z",
+            "id": "1474333892819759111",
+            "text": "Komm hau raus Putin oder Biden dann hab ich Bingo für 22",
+            "author_id": "1379815485936697345",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "conversation_id": "1474333892819759111"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:54:44.000Z",
+            "id": "1474332712068653069",
+            "text": "RT @b_sappek: Verrichten #Uiguren in #Xinjiang Zwangsarbeit für deutsche Firmen, wie UN-Experten #China vorwerfen? \n\nDie #BASF-Niederlassun…",
+            "author_id": "967323149930061824",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474312949191770114"
+                }
+            ],
+            "conversation_id": "1474332712068653069"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:53:52.000Z",
+            "id": "1474332491465039882",
+            "text": "RT @sternde: Konflikt mit China: Biden verbietet Importe aus Xinjiang-Region – und setzt Zeichen gegen Menschenrechtsverletzungen https://t…",
+            "author_id": "1081915575805329408",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474331072129384471"
+                }
+            ],
+            "conversation_id": "1474332491465039882"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:48:13.000Z",
+            "id": "1474331072129384471",
+            "text": "Konflikt mit China: Biden verbietet Importe aus Xinjiang-Region – und setzt Zeichen gegen Menschenrechtsverletzungen https://t.co/mUoXRC4fzs",
+            "author_id": "18774524",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 15,
+                "like_count": 47,
+                "quote_count": 2
+            },
+            "source": "Hootsuite Inc.",
+            "reply_settings": "everyone",
+            "conversation_id": "1474331072129384471"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:46:00.000Z",
+            "id": "1474330512336560131",
+            "text": "RT @b_sappek: Verrichten #Uiguren in #Xinjiang Zwangsarbeit für deutsche Firmen, wie UN-Experten #China vorwerfen? \n\nDie #BASF-Niederlassun…",
+            "author_id": "3153785929",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474312949191770114"
+                }
+            ],
+            "conversation_id": "1474330512336560131"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:42:56.000Z",
+            "id": "1474329739246534659",
+            "text": "RT @virchow_de: Biden unterzeichnet ein Gesetz zum Verbot v Importen a Xinjiang in d USA, es sei denn, das Unternehmen kann beweisen, daß s…",
+            "author_id": "32262353",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474237282890792963"
+                }
+            ],
+            "conversation_id": "1474329739246534659"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:27:39.000Z",
+            "id": "1474325894827290626",
+            "text": "@EnzoMorricone Okay mit Biden hast du einen Punkt.\n\nAber ich habe noch nie eine Männertoilette ohne Seife gesehen.",
+            "author_id": "3408326085",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474314229280817154"
+                }
+            ],
+            "in_reply_to_user_id": "1349008270611111944",
+            "conversation_id": "1474293675693940736"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:19:59.000Z",
+            "id": "1474323962951782400",
+            "text": "🚀\n\nBiden for Germany - 2024\n\nFührer : A ruthless, tyrannical leader. https://t.co/8Lrav1vpYl",
+            "author_id": "1353069759852474371",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "conversation_id": "1474323962951782400"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:19:33.000Z",
+            "id": "1474323854273261568",
+            "text": "Wie sehr wünsche ich mir dass der Stern über Belmarsch steht und die Könige Präsident Biden mitnehmen Assange zu frei zu sprechen !!! Bitte! https://t.co/A4jxuH2oVG",
+            "author_id": "949686856798625794",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "conversation_id": "1474323854273261568"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:14:43.000Z",
+            "id": "1474322638784901122",
+            "text": "@rahn_rahn @Georg_Pazderski Du musst einfach nur kurz googeln. Von Biden und Fauci gibt es genügend Videos.",
+            "author_id": "2343679141",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1473936542796288000"
+                }
+            ],
+            "in_reply_to_user_id": "1698441272",
+            "conversation_id": "1470378727225933831"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:13:09.000Z",
+            "id": "1474322245497638914",
+            "text": "USA sprechen von „Genozid“ an Uiguren : Biden unterzeichnet Importverbot für Waren aus Chinas Provinz Xinjiang https://t.co/iSFFiIyJhd",
+            "author_id": "1366471610094526471",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "WordPress.com",
+            "reply_settings": "everyone",
+            "conversation_id": "1474322245497638914"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:06:11.000Z",
+            "id": "1474320491821207557",
+            "text": "RT @faznet: US-Präsident Joe Biden hat ein Gesetz unterzeichnet, das den Import von zahlreichen Produkten aus der Region Xinjiang in China…",
+            "author_id": "1424787034015559681",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474311113835749376"
+                }
+            ],
+            "conversation_id": "1474320491821207557"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:05:45.000Z",
+            "id": "1474320380974219265",
+            "text": "#StevieWonder #JoniMitchell #BetteMidler #BarryGordy #Biden #KennedyCenterHonors \n\nListen .... https://t.co/nTPCxgXleh",
+            "author_id": "402483883",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1474174592860057603"
+                }
+            ],
+            "conversation_id": "1474320380974219265"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:04:54.000Z",
+            "id": "1474320168620892162",
+            "text": "Umfrage bestätigt, Biden versagt kläglich: Bidens Zustimmungsrate sinkt auf 38%, Kamala Harris auf 28% https://t.co/QIPSxRvQbi",
+            "author_id": "2983676104",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474320168620892162"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:03:39.000Z",
+            "id": "1474319852383109122",
+            "text": "Bravo!!! Biden unterzeichnet Importverbot für Chinas Xinjiang-Provinz https://t.co/KTIr7rReCu",
+            "author_id": "72519897",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "conversation_id": "1474319852383109122"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:03:16.000Z",
+            "id": "1474319757130317833",
+            "text": "Umfrage bestätigt, Biden versagt kläglich: Bidens Zustimmungsrate sinkt auf 38%, Kamala Harris auf 28% https://t.co/B3u88jKf3a",
+            "author_id": "1391659864519331840",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474319757130317833"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T10:02:30.000Z",
+            "id": "1474319564083240960",
+            "text": "Trump hat den Abzug initiiert, richtig; aber er hätte es gestoppt, als sich das Drama abzeichnete. Biden hat es durchgezogen, ist Schuld an der Afghanisthan- Katastrophe.",
+            "author_id": "1329779150538878977",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 4,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "conversation_id": "1474319564083240960"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:56:52.000Z",
+            "id": "1474318147322884097",
+            "text": "RT @faznet: US-Präsident Joe Biden hat ein Gesetz unterzeichnet, das den Import von zahlreichen Produkten aus der Region Xinjiang in China…",
+            "author_id": "44558656",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474311113835749376"
+                }
+            ],
+            "conversation_id": "1474318147322884097"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:54:38.000Z",
+            "id": "1474317586380824577",
+            "text": "BIDEN MUSS WEG.. SAYTAN",
+            "author_id": "1304759402222813187",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474317586380824577"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:52:46.000Z",
+            "id": "1474317116794937347",
+            "text": "RT @Blog1600Penn: Wer dachte, dass Donald #Trump oder zuletzt auch Joe #Biden schlechte Umfragewerte hatten/haben, sollte einen Blick auf G…",
+            "author_id": "3195419603",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474081621120741378"
+                }
+            ],
+            "conversation_id": "1474317116794937347"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:37:18.000Z",
+            "id": "1474313224682094594",
+            "text": "RT @faznet: US-Präsident Joe Biden hat ein Gesetz unterzeichnet, das den Import von zahlreichen Produkten aus der Region Xinjiang in China…",
+            "author_id": "756579313147908097",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474311113835749376"
+                }
+            ],
+            "conversation_id": "1474313224682094594"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:36:13.000Z",
+            "id": "1474312949191770114",
+            "text": "Verrichten #Uiguren in #Xinjiang Zwangsarbeit für deutsche Firmen, wie UN-Experten #China vorwerfen? \n\nDie #BASF-Niederlassung will bei einem Besuch davon nichts wissen. \n\nBei #Volkswagen endet die Recherche schon am Firmentor\n\n#Biden dagegen ächtet Xinjiang mit #Importverbot",
+            "author_id": "1253258306048733185",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474312949191770114"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:35:01.000Z",
+            "id": "1474312650469302272",
+            "text": "RT @alex_baur: Bedenklich: Die Maskendisziplin im Weissen Haus lässt nach. Lieber @viktorgiacobbo , Du solltest da etwas unternehmen. Deine…",
+            "author_id": "1224339708802666496",
+            "public_metrics": {
+                "retweet_count": 9,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474246063842340868"
+                }
+            ],
+            "conversation_id": "1474312650469302272"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:33:42.000Z",
+            "id": "1474312315407417350",
+            "text": "RT @faznet: US-Präsident Joe Biden hat ein Gesetz unterzeichnet, das den Import von zahlreichen Produkten aus der Region Xinjiang in China…",
+            "author_id": "104479220",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474311113835749376"
+                }
+            ],
+            "conversation_id": "1474312315407417350"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:28:55.000Z",
+            "id": "1474311113835749376",
+            "text": "US-Präsident Joe Biden hat ein Gesetz unterzeichnet, das den Import von zahlreichen Produkten aus der Region Xinjiang in China verbietet. Die USA werfen China „Genozid“ an den in Xinjiang lebenden Uiguren vor. https://t.co/YwquD6HitN",
+            "author_id": "18047862",
+            "public_metrics": {
+                "retweet_count": 8,
+                "reply_count": 8,
+                "like_count": 43,
+                "quote_count": 2
+            },
+            "source": "SocialFlow",
+            "reply_settings": "everyone",
+            "conversation_id": "1474311113835749376"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:25:43.000Z",
+            "id": "1474310308348968961",
+            "text": "Biden klebt bestimmt auch, in meinem Fall der Boden.",
+            "author_id": "1126052728889905152",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 6,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474310127746494464"
+                }
+            ],
+            "in_reply_to_user_id": "1126052728889905152",
+            "conversation_id": "1474310127746494464"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:25:00.000Z",
+            "id": "1474310127746494464",
+            "text": "Weihnachtsvorbereitungen als Frau eines #Lokführers: Einfach ätzend. Quasi alleinerziehend gestern, heute, morgen. Ich freue mich. Oh Du fröhliche. Biden klebt, K1 und 2 kloppen sich und zerstören dir Wohnung. Und der Eierlikör schmeckt nicht dieses Jahr.",
+            "author_id": "1126052728889905152",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 2,
+                "like_count": 7,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "conversation_id": "1474310127746494464"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:06:29.000Z",
+            "id": "1474305467727990793",
+            "text": "RT @EpochTimesDE: Biden unterzeichnet Importverbot für Waren aus chinesischer Provinz Xinjiang https://t.co/ucwcR00B0r",
+            "author_id": "2237588498",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474297766541250588"
+                }
+            ],
+            "conversation_id": "1474305467727990793"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:03:54.000Z",
+            "id": "1474304817019465728",
+            "text": "RT @Tagesspiegel: US-Präsident Joe #Biden macht wegen der Minderheit der Uiguren Druck auf Peking. Er unterzeichnete ein Gesetz, das den Im…",
+            "author_id": "132480278",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474298517375971328"
+                }
+            ],
+            "conversation_id": "1474304817019465728"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T09:03:45.000Z",
+            "id": "1474304778238939144",
+            "text": "@rremydesilva Biden ist 79 😅 Wir werden immer älter, das spiegelt sich auch in den Spitzenpositionen wieder 😉",
+            "author_id": "1179703260971753472",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474303661924929549"
+                }
+            ],
+            "in_reply_to_user_id": "1294992466546917376",
+            "conversation_id": "1474117880845324292"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:58:38.000Z",
+            "id": "1474303491271241728",
+            "text": "@balochi5252 Nhi bhai whi player jiski najaiz beti america mein rul rhi h..whi player jo biden ki cal ka intzr kr kry mar gea .whi player jis sy 3 rd bv b jarhi h whi player jo u turn ko sahi smjhta h whi player jo aik unit bijli 50 mein derha h..is player ko apni gand mei  ghusao",
+            "author_id": "909043446551318528",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474054318517063680"
+                }
+            ],
+            "in_reply_to_user_id": "1208847415182319616",
+            "conversation_id": "1474054318517063680"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:54:59.000Z",
+            "id": "1474302572336926722",
+            "text": "Nachricht via @BR24: Biden unterzeichnet Gesetz gegen Importe aus Zwangsarbeit in China\n\nhttps://t.co/MM3DlzNtdZ",
+            "author_id": "1034488561918201856",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "conversation_id": "1474302572336926722"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:53:00.000Z",
+            "id": "1474302073667833856",
+            "text": "Sollte Präsident @JoeBiden im Jahr 2024 zu Wiederwahl antreten, denkt die Parteilinke der Demokraten darüber nach, einen Gegenkandidaten in die innerparteiliche Vorwahlen zu entsenden. \n\n#Blog1600Penn #uswahl204 #Biden",
+            "author_id": "3195419603",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 4,
+                "like_count": 3,
+                "quote_count": 0
+            },
+            "source": "TweetDeck",
+            "reply_settings": "everyone",
+            "conversation_id": "1474302073667833856"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:49:06.000Z",
+            "id": "1474301093014392869",
+            "text": "@gebirgsziege Einfach am Biden annageln.",
+            "author_id": "1138361423720079360",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474300684057071616"
+                }
+            ],
+            "in_reply_to_user_id": "713177308",
+            "conversation_id": "1474294838296199168"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:48:22.000Z",
+            "id": "1474300908334944256",
+            "text": "US-Präsident Joe #Biden hat ein Gesetz unterzeichnet, das den #Import von zahlreichen Produkten aus der Region #Xinjiang in #China verbietet. \n\nhttps://t.co/kLmXdWFij4\n\nhttps://t.co/0A5FeHKZJB",
+            "author_id": "1260205271844114432",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "conversation_id": "1474300908334944256"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:42:59.000Z",
+            "id": "1474299553197219840",
+            "text": "China ist größter Handelspartner der USA, das von Biden unterzeichnete Gesetz, das den Konflikt mit #China eskaliert, wird die amerikanische Wirtschaft und globale Lieferketten durcheinander https://t.co/MpJuJ0pDzK #handelskrieg #uiguren #usa",
+            "author_id": "1320671239703330816",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Revive Social App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474299553197219840"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:38:58.000Z",
+            "id": "1474298541950615552",
+            "text": "#timkellner #perfektewelle #biden #impfpflich #ichmachdanichtmit #impflüge #schnauzevoll #impfteuchinsknie #bildungsferneeliten\nJETZT holen sie den Hammer RAUS! https://t.co/iwP2tMQfTF via @YouTube",
+            "author_id": "937985002859651073",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474298541950615552"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:38:52.000Z",
+            "id": "1474298517375971328",
+            "text": "US-Präsident Joe #Biden macht wegen der Minderheit der Uiguren Druck auf Peking. Er unterzeichnete ein Gesetz, das den Import von zahlreichen Produkten aus der Region Xinjiang in China verbietet. https://t.co/iL5iUBypjH",
+            "author_id": "22926365",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474298517375971328"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:35:53.000Z",
+            "id": "1474297766541250588",
+            "text": "Biden unterzeichnet Importverbot für Waren aus chinesischer Provinz Xinjiang https://t.co/ucwcR00B0r",
+            "author_id": "310362666",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 4,
+                "like_count": 5,
+                "quote_count": 1
+            },
+            "source": "Twitter Web App",
+            "reply_settings": "everyone",
+            "conversation_id": "1474297766541250588"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:32:43.000Z",
+            "id": "1474296971926163473",
+            "text": "RT @GSPSipo: (KS) #US-Präs. #Biden unterzeichnet Gesetz, das Import zahlreicher Produkte aus #China‘s Region #Xinjiang verbietet, es sei de…",
+            "author_id": "2756189436",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474279253801852930"
+                }
+            ],
+            "conversation_id": "1474296971926163473"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:23:07.000Z",
+            "id": "1474294554652299278",
+            "text": "@okapiajohnstonl @Snowden Er weis ganz genau , dass die beiden im Recht sind und hat es sich für den Wahlkampf so zu recht gelegt wie es ihm passt. Obama und Biden hätten , jedoch nicht so eine ehrliche Antwort gegeben.",
+            "author_id": "1237162862440853504",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474286806522810368"
+                }
+            ],
+            "in_reply_to_user_id": "1099834814658682881",
+            "conversation_id": "1474157273652109317"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:22:39.000Z",
+            "id": "1474294436934914048",
+            "text": "Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. Erhält ein Komplize @AbiyAhmedAli's einen Preis von der @_DASonline. Eine Schande! @Ard @nouripour @HeikoMaas @sz… https://t.co/7QJKDVozLv",
+            "author_id": "1451997882945572869",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "conversation_id": "1474294436934914048"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:19:56.000Z",
+            "id": "1474293754181963814",
+            "text": "Sollte Donald Trump zur Präsidentschaftswahl 2024 antreten, wäre das ein zusätzlicher Ansporn für Joe Biden, noch einmal anzutreten – trotz seines Alters. https://t.co/cJuT8bkl87",
+            "author_id": "17835938",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 3,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Echobox",
+            "reply_settings": "everyone",
+            "conversation_id": "1474293754181963814"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:17:55.000Z",
+            "id": "1474293245245104131",
+            "text": "RT @GSPSipo: (KS) #US-Präs. #Biden unterzeichnet Gesetz, das Import zahlreicher Produkte aus #China‘s Region #Xinjiang verbietet, es sei de…",
+            "author_id": "1411573506911969284",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474279253801852930"
+                }
+            ],
+            "conversation_id": "1474293245245104131"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T08:02:30.000Z",
+            "id": "1474289365031530500",
+            "text": "@Earthmover1964 @tagesschau Und als nächstes behaupten Sie, wie das Simon-Wiesenthal-Center, der hätte gemeinsam mit Biden und Obama in der Ukraine Rechtsaußen an die Macht gebracht! Der arme Mann!",
+            "author_id": "1450370230224556033",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPad",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474237442421141504"
+                }
+            ],
+            "in_reply_to_user_id": "1715292157",
+            "conversation_id": "1474154164519424002"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T07:58:20.000Z",
+            "id": "1474288316224786434",
+            "text": "@reitschuster Mag sein, daß es sich bei Lauterbach um Streß Symptome handelt. Doch Joe Biden schläft bei PK öfter ein. Auch da schweigen die Medien tugendhaft.",
+            "author_id": "582487840",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474059045040529417"
+                }
+            ],
+            "in_reply_to_user_id": "36713389",
+            "conversation_id": "1474059045040529417"
+        },
+        {
+            "lang": "de",
+            "created_at": "2021-12-24T07:54:16.000Z",
+            "id": "1474287294223994891",
+            "text": "@Ollo991 @MdB_Stroebele Ihr Wort in Biden's Ohr...",
+            "author_id": "828998298262450176",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "reply_settings": "everyone",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474280965677666304"
+                }
+            ],
+            "in_reply_to_user_id": "3403390587",
+            "conversation_id": "1474135297571143683"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "description": "Alte Männer ohne Grenzen, (alles nur Satire) später mehr zu dem was in diesem Staat nicht stimmt",
+                "public_metrics": {
+                    "followers_count": 316,
+                    "following_count": 318,
+                    "tweet_count": 22934,
+                    "listed_count": 3
+                },
+                "name": "drumgolf",
+                "id": "3309729687",
+                "created_at": "2015-06-05T20:45:08.000Z",
+                "username": "drumgolf_hub",
+                "verified": false
+            },
+            {
+                "description": "https://t.co/INpl8y4k9h.oec, Finanzwirt, Lehrer Math./Physik. Parteilos aber mit gesundem Verstand",
+                "public_metrics": {
+                    "followers_count": 105,
+                    "following_count": 51,
+                    "tweet_count": 9770,
+                    "listed_count": 1
+                },
+                "name": "Otto der Gerechte",
+                "id": "2822501959",
+                "created_at": "2014-09-20T17:58:17.000Z",
+                "username": "RaymondOtto51",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 4,
+                    "following_count": 14,
+                    "tweet_count": 552,
+                    "listed_count": 0
+                },
+                "name": "HansDampf69",
+                "id": "1364282049654325250",
+                "created_at": "2021-02-23T18:32:53.000Z",
+                "username": "Dampf69Hans",
+                "verified": false
+            },
+            {
+                "description": "#noAfD | #HaltdieFresseBILD | #ImpfpflichtJetzt  | geboosterter Impfzombie | Wahrheitsverkünder und Bullshit-Entlarver | Keine Antwort  ≠  Zustimmung",
+                "public_metrics": {
+                    "followers_count": 69,
+                    "following_count": 207,
+                    "tweet_count": 5211,
+                    "listed_count": 1
+                },
+                "name": "Markus Siebert",
+                "id": "1116715652709060609",
+                "created_at": "2019-04-12T14:52:13.000Z",
+                "username": "MarkusSiebert5",
+                "verified": false
+            },
+            {
+                "description": "Obeserve then talk\n#HumanRights \n#Scientist\n#AbrahamAccords",
+                "public_metrics": {
+                    "followers_count": 171,
+                    "following_count": 377,
+                    "tweet_count": 3769,
+                    "listed_count": 0
+                },
+                "name": "مرحبا ברוך הבא",
+                "id": "1445701572588032018",
+                "created_at": "2021-10-06T10:44:56.000Z",
+                "username": "Lookatoor",
+                "verified": false
+            },
+            {
+                "description": "Gegen jede Form von Radikalität, ob politisch oder religiös.",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 33,
+                    "tweet_count": 178,
+                    "listed_count": 0
+                },
+                "name": "Stubbi",
+                "id": "1379815485936697345",
+                "created_at": "2021-04-07T15:17:15.000Z",
+                "username": "mathian557",
+                "verified": false
+            },
+            {
+                "description": "Bunte Seele",
+                "public_metrics": {
+                    "followers_count": 40,
+                    "following_count": 168,
+                    "tweet_count": 4727,
+                    "listed_count": 0
+                },
+                "name": "Queen-I 💉💉💉",
+                "id": "967323149930061824",
+                "created_at": "2018-02-24T08:59:45.000Z",
+                "username": "QueenI10015311",
+                "verified": false
+            },
+            {
+                "description": "\"Ceterum censeo Carthaginem esse delendam.\" - Cato the Elder (234 - 149 BC)\nRoma invicta!\n\n🇩🇪 by birth, 🇺🇸 by heart.",
+                "public_metrics": {
+                    "followers_count": 28,
+                    "following_count": 407,
+                    "tweet_count": 1877,
+                    "listed_count": 0
+                },
+                "name": "Etoandy",
+                "id": "1081915575805329408",
+                "created_at": "2019-01-06T14:09:09.000Z",
+                "username": "etoandy",
+                "verified": false
+            },
+            {
+                "description": "Willkommen beim stern. Das ist unser offizieller Account. Hier twittert die Redaktion.",
+                "public_metrics": {
+                    "followers_count": 1354398,
+                    "following_count": 505,
+                    "tweet_count": 211965,
+                    "listed_count": 5378
+                },
+                "name": "stern",
+                "id": "18774524",
+                "created_at": "2009-01-08T19:06:38.000Z",
+                "username": "sternde",
+                "verified": true
+            },
+            {
+                "description": "#niemalsAfD\n#niemalsCDU\n#niemalsFDP",
+                "public_metrics": {
+                    "followers_count": 668,
+                    "following_count": 1059,
+                    "tweet_count": 28793,
+                    "listed_count": 0
+                },
+                "name": "RDo3ss3l / Ungeboostert, NOCH!!!",
+                "id": "3153785929",
+                "created_at": "2015-04-13T21:59:06.000Z",
+                "username": "do3ss3lr",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 31,
+                    "following_count": 239,
+                    "tweet_count": 331,
+                    "listed_count": 2
+                },
+                "name": "Lemanakmelo",
+                "id": "32262353",
+                "created_at": "2009-04-17T02:29:09.000Z",
+                "username": "Lemanakmelo",
+                "verified": false
+            },
+            {
+                "description": "Irgendwas mit Astrophysik, Grün, Wissenschafts facts auf Trending #, genereller Blödsinn. \n$DOGE",
+                "public_metrics": {
+                    "followers_count": 176,
+                    "following_count": 421,
+                    "tweet_count": 4775,
+                    "listed_count": 1
+                },
+                "name": "Pablo 🥦🇩🇪🟢",
+                "id": "3408326085",
+                "created_at": "2015-08-08T09:05:10.000Z",
+                "username": "Panderinoz",
+                "verified": false
+            },
+            {
+                "description": "political performance activist with jewish roots\nMeldemäuse aller Sorten: da müssen schon Tatsachen her&nicht Behauptungen...gilt v.a.für 🗣JuristInnen aus D.🙃",
+                "public_metrics": {
+                    "followers_count": 423,
+                    "following_count": 826,
+                    "tweet_count": 34451,
+                    "listed_count": 6
+                },
+                "name": "Enzo Morricone",
+                "id": "1349008270611111944",
+                "created_at": "2021-01-12T15:00:35.000Z",
+                "username": "EnzoMorricone",
+                "verified": false
+            },
+            {
+                "description": "“L’Etica ci proibisce di considerare gli uomini come mezzi e l’Uomo come fine (Per Dio non vi sono che individui).” N.G. Dávila",
+                "public_metrics": {
+                    "followers_count": 3386,
+                    "following_count": 1366,
+                    "tweet_count": 36760,
+                    "listed_count": 3
+                },
+                "name": "Res ‘Publica’ 🎄",
+                "id": "1353069759852474371",
+                "created_at": "2021-01-23T19:59:37.000Z",
+                "username": "ResPubl79983835",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 125,
+                    "following_count": 662,
+                    "tweet_count": 4835,
+                    "listed_count": 0
+                },
+                "name": "Karina Finkenau",
+                "id": "949686856798625794",
+                "created_at": "2018-01-06T16:59:25.000Z",
+                "username": "KarinapostPost",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 5,
+                    "following_count": 0,
+                    "tweet_count": 534,
+                    "listed_count": 0
+                },
+                "name": "T.N.",
+                "id": "2343679141",
+                "created_at": "2014-02-14T14:41:14.000Z",
+                "username": "Thang78",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 125,
+                    "following_count": 265,
+                    "tweet_count": 2305,
+                    "listed_count": 0
+                },
+                "name": "Dense",
+                "id": "1698441272",
+                "created_at": "2013-08-25T07:21:48.000Z",
+                "username": "rahn_rahn",
+                "verified": false
+            },
+            {
+                "description": "Site https://t.co/uN3DYnr3Hd",
+                "public_metrics": {
+                    "followers_count": 1,
+                    "following_count": 0,
+                    "tweet_count": 8623,
+                    "listed_count": 0
+                },
+                "name": "dnachrichten.de",
+                "id": "1366471610094526471",
+                "created_at": "2021-03-01T19:33:28.000Z",
+                "username": "DnachrichtenD",
+                "verified": false
+            },
+            {
+                "description": "Former law teacher, translator, #Democracy #ClimateChange #Human Rights. Like is Like. Views are my own.",
+                "public_metrics": {
+                    "followers_count": 22,
+                    "following_count": 498,
+                    "tweet_count": 652,
+                    "listed_count": 0
+                },
+                "name": "Naomi Lee",
+                "id": "1424787034015559681",
+                "created_at": "2021-08-09T17:38:50.000Z",
+                "username": "NaomiLe08746008",
+                "verified": false
+            },
+            {
+                "description": "LifeLong progressive DEM, Christian-Quaker❤️ Horrified by #45 & GOP. Retired researcher. #FactsMatter. NO LISTS. I block obsessed animal activists & MAGAs,🌊🌊",
+                "public_metrics": {
+                    "followers_count": 21687,
+                    "following_count": 23060,
+                    "tweet_count": 153741,
+                    "listed_count": 0
+                },
+                "name": "Helen Armstrong",
+                "id": "402483883",
+                "created_at": "2011-11-01T04:21:01.000Z",
+                "username": "HelenArmstrong5",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 141,
+                    "following_count": 315,
+                    "tweet_count": 33661,
+                    "listed_count": 2
+                },
+                "name": "Werner Kühnel",
+                "id": "2983676104",
+                "created_at": "2015-01-18T06:58:20.000Z",
+                "username": "WKuhnel",
+                "verified": false
+            },
+            {
+                "description": "Hier twittert Udo Gimbel, Banker im Ruhestand, ganz privat.",
+                "public_metrics": {
+                    "followers_count": 2843,
+                    "following_count": 2239,
+                    "tweet_count": 15378,
+                    "listed_count": 151
+                },
+                "name": "electro banker",
+                "id": "72519897",
+                "created_at": "2009-09-08T10:12:48.000Z",
+                "username": "electro_banker",
+                "verified": false
+            },
+            {
+                "description": "tumbr/LinkedIn/pinterest/",
+                "public_metrics": {
+                    "followers_count": 1190,
+                    "following_count": 4997,
+                    "tweet_count": 18269,
+                    "listed_count": 4
+                },
+                "name": "Petra Hamann/Freie Journalistin/Berlin",
+                "id": "1391659864519331840",
+                "created_at": "2021-05-10T07:42:36.000Z",
+                "username": "shyroma1",
+                "verified": false
+            },
+            {
+                "description": "Geniesser, Europäer, Deutscher, Bayer",
+                "public_metrics": {
+                    "followers_count": 1908,
+                    "following_count": 5000,
+                    "tweet_count": 17724,
+                    "listed_count": 8
+                },
+                "name": "Gabriel von EISENSTEIN",
+                "id": "1329779150538878977",
+                "created_at": "2020-11-20T13:30:53.000Z",
+                "username": "eisenstein_von",
+                "verified": false
+            },
+            {
+                "description": "Teacher and teachers trainer; OAP",
+                "public_metrics": {
+                    "followers_count": 354,
+                    "following_count": 515,
+                    "tweet_count": 69327,
+                    "listed_count": 12
+                },
+                "name": "Heinz Roehrig",
+                "id": "44558656",
+                "created_at": "2009-06-04T06:07:14.000Z",
+                "username": "enzoro53",
+                "verified": false
+            },
+            {
+                "description": "QURAN tells me all",
+                "public_metrics": {
+                    "followers_count": 7,
+                    "following_count": 495,
+                    "tweet_count": 2880,
+                    "listed_count": 1
+                },
+                "name": "habi kaddy",
+                "id": "1304759402222813187",
+                "created_at": "2020-09-12T12:31:21.000Z",
+                "username": "HabiKaddy",
+                "verified": false
+            },
+            {
+                "description": "Politikwissenschaftler Kai-Uwe Hülss🇪🇺 Führender 🇩🇪sprachiger Blog zur Politik des Weißen Hauses🇺🇸 Als 🇧🇾Veteran derzeit auch News zur dortigen Lage.",
+                "public_metrics": {
+                    "followers_count": 4524,
+                    "following_count": 2050,
+                    "tweet_count": 49841,
+                    "listed_count": 58
+                },
+                "name": "1600 Pennsylvania 🇺🇸",
+                "id": "3195419603",
+                "created_at": "2015-04-22T17:19:22.000Z",
+                "username": "Blog1600Penn",
+                "verified": false
+            },
+            {
+                "description": "Hundebesitzerin und selbständig \n - eine tolle Kombination!",
+                "public_metrics": {
+                    "followers_count": 710,
+                    "following_count": 178,
+                    "tweet_count": 169781,
+                    "listed_count": 78
+                },
+                "name": "Doris B",
+                "id": "756579313147908097",
+                "created_at": "2016-07-22T19:58:59.000Z",
+                "username": "DorisBrehm",
+                "verified": false
+            },
+            {
+                "description": "Express my opinion as I have it and not as others would like it\nIf you want to form an opinion, you have to be open to it",
+                "public_metrics": {
+                    "followers_count": 794,
+                    "following_count": 1027,
+                    "tweet_count": 14352,
+                    "listed_count": 3
+                },
+                "name": "b.sappek",
+                "id": "1253258306048733185",
+                "created_at": "2020-04-23T09:44:38.000Z",
+                "username": "b_sappek",
+                "verified": false
+            },
+            {
+                "description": "Physicist. Climate crisis? 🤡😂",
+                "public_metrics": {
+                    "followers_count": 479,
+                    "following_count": 133,
+                    "tweet_count": 100534,
+                    "listed_count": 1
+                },
+                "name": "Karl Erbach 🟢",
+                "id": "1224339708802666496",
+                "created_at": "2020-02-03T14:32:26.000Z",
+                "username": "KarlErbach",
+                "verified": false
+            },
+            {
+                "description": "a learned werewolf",
+                "public_metrics": {
+                    "followers_count": 203,
+                    "following_count": 313,
+                    "tweet_count": 43513,
+                    "listed_count": 2
+                },
+                "name": "Grumpy Dave",
+                "id": "104479220",
+                "created_at": "2010-01-13T13:16:01.000Z",
+                "username": "DaveMandefua",
+                "verified": false
+            },
+            {
+                "description": "Die wichtigsten Nachrichten des Tages, die besten Faz.net-Artikel und Empfehlungen der Redaktion.\n\nImpressum: https://t.co/UeypcoqdNs\nDatenschutz: https://t.co/UBMvMgddMZ",
+                "public_metrics": {
+                    "followers_count": 692956,
+                    "following_count": 330,
+                    "tweet_count": 220567,
+                    "listed_count": 6243
+                },
+                "name": "Frankfurter Allgemeine",
+                "id": "18047862",
+                "created_at": "2008-12-11T14:14:57.000Z",
+                "username": "faznet",
+                "verified": true
+            },
+            {
+                "description": "Adoptivmama zweier Jungs (2 und 4), Mama von zwei Sternenkindern. Liebt Leben in ihrer Bude, aber kommt auch mal aus der Puste. Feministin. Sozialdemokratin.",
+                "public_metrics": {
+                    "followers_count": 830,
+                    "following_count": 479,
+                    "tweet_count": 2868,
+                    "listed_count": 3
+                },
+                "name": "lebeninderbude",
+                "id": "1126052728889905152",
+                "created_at": "2019-05-08T09:14:26.000Z",
+                "username": "lebeninderbude",
+                "verified": false
+            },
+            {
+                "description": "Freier Berichterstatter und Journalist.Gegen Mobbing und Justizwillkür,Psychiatrie. Für Schutz von Schwerbehinderten und freie Meinungsäusserung",
+                "public_metrics": {
+                    "followers_count": 16611,
+                    "following_count": 15845,
+                    "tweet_count": 325829,
+                    "listed_count": 85
+                },
+                "name": "Holger Ewald",
+                "id": "2237588498",
+                "created_at": "2013-12-09T12:43:04.000Z",
+                "username": "HolgerEwald1",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 138,
+                    "following_count": 854,
+                    "tweet_count": 77260,
+                    "listed_count": 0
+                },
+                "name": "Tappy",
+                "id": "132480278",
+                "created_at": "2010-04-13T10:33:54.000Z",
+                "username": "HJD1981",
+                "verified": false
+            },
+            {
+                "description": "Freier Demokrat | bi not queer | Moralapostel verpisst euch!",
+                "public_metrics": {
+                    "followers_count": 535,
+                    "following_count": 1518,
+                    "tweet_count": 15078,
+                    "listed_count": 2
+                },
+                "name": "andré",
+                "id": "1179703260971753472",
+                "created_at": "2019-10-03T10:22:49.000Z",
+                "username": "querulant_nds",
+                "verified": false
+            },
+            {
+                "description": "30 • Politikwissenschaftler, B.A. • 🇪🇺🇩🇪🇫🇷🇮🇱🏳️‍🌈 • Master @ HU • Wannabe-IG-Politfluencer • Content Creator @Bundestag • Kolumnist • Podcaster",
+                "public_metrics": {
+                    "followers_count": 536,
+                    "following_count": 499,
+                    "tweet_count": 3497,
+                    "listed_count": 1
+                },
+                "name": "Rémy de Silva",
+                "id": "1294992466546917376",
+                "created_at": "2020-08-16T13:40:52.000Z",
+                "username": "rremydesilva",
+                "verified": false
+            },
+            {
+                "description": "@chat only",
+                "public_metrics": {
+                    "followers_count": 1312,
+                    "following_count": 2558,
+                    "tweet_count": 6380,
+                    "listed_count": 0
+                },
+                "name": "My love..",
+                "id": "909043446551318528",
+                "created_at": "2017-09-16T13:17:01.000Z",
+                "username": "loveforlove155",
+                "verified": false
+            },
+            {
+                "description": "#Bitcoin Retweets are not endorsements",
+                "public_metrics": {
+                    "followers_count": 41252,
+                    "following_count": 2322,
+                    "tweet_count": 55665,
+                    "listed_count": 16
+                },
+                "name": "Arslan Baloch",
+                "id": "1208847415182319616",
+                "created_at": "2019-12-22T20:31:07.000Z",
+                "username": "balochi5252",
+                "verified": false
+            },
+            {
+                "description": "Leben und leben lassen",
+                "public_metrics": {
+                    "followers_count": 296,
+                    "following_count": 184,
+                    "tweet_count": 85589,
+                    "listed_count": 1
+                },
+                "name": "Monika Haas",
+                "id": "1034488561918201856",
+                "created_at": "2018-08-28T17:11:07.000Z",
+                "username": "MonikaHaas5",
+                "verified": false
+            },
+            {
+                "description": "politisch engagierter, motivierter Teilzeitstey(i)rer. Glaubt an das Gute im Menschen. Antifaschist. Ist bereits gechipt.",
+                "public_metrics": {
+                    "followers_count": 817,
+                    "following_count": 1068,
+                    "tweet_count": 11197,
+                    "listed_count": 4
+                },
+                "name": "der liebe Augustin vulgo Danilo Humpertinck",
+                "id": "1138361423720079360",
+                "created_at": "2019-06-11T08:24:47.000Z",
+                "username": "SimonSchuster9",
+                "verified": false
+            },
+            {
+                "description": "microbiology Prof @uniinnsbruck, interested in fungi, plasmodiophorids, plant and algal pathogens and environmental interactions. currently some covid too.",
+                "public_metrics": {
+                    "followers_count": 4414,
+                    "following_count": 1519,
+                    "tweet_count": 14292,
+                    "listed_count": 54
+                },
+                "name": "Sigrid Neuhauser",
+                "id": "713177308",
+                "created_at": "2013-10-13T18:26:17.000Z",
+                "username": "gebirgsziege",
+                "verified": false
+            },
+            {
+                "description": "#Kultur, #Kunst, #Art #traditionelle #Werte, #Philosophie, #Pädagogik, #Ethik, #Ethic , #ClassicMusic #Menschenwürde und #Natur #China #Menschenrechte",
+                "public_metrics": {
+                    "followers_count": 305,
+                    "following_count": 342,
+                    "tweet_count": 14499,
+                    "listed_count": 0
+                },
+                "name": "🍀Manu Huwyler",
+                "id": "1260205271844114432",
+                "created_at": "2020-05-12T13:51:23.000Z",
+                "username": "ManuH17068685",
+                "verified": false
+            },
+            {
+                "description": "Krass & Konket ist das Magazin der Buchkomplizen, der Internetbuchhandlung für Menschen, die noch gerne selber denken.",
+                "public_metrics": {
+                    "followers_count": 184,
+                    "following_count": 81,
+                    "tweet_count": 706,
+                    "listed_count": 2
+                },
+                "name": "krass-und-konkret.de",
+                "id": "1320671239703330816",
+                "created_at": "2020-10-26T10:19:05.000Z",
+                "username": "buchkomplizen",
+                "verified": false
+            },
+            {
+                "description": "Aufrufe zur Gewalt sind als Satire zu verstehn\nhttps://t.co/29QD07bw4A",
+                "public_metrics": {
+                    "followers_count": 81,
+                    "following_count": 768,
+                    "tweet_count": 2870,
+                    "listed_count": 0
+                },
+                "name": "da fr",
+                "id": "937985002859651073",
+                "created_at": "2017-12-05T10:00:26.000Z",
+                "username": "ShranzFranz",
+                "verified": false
+            },
+            {
+                "description": "Das Leitmedium aus der Hauptstadt. 📰",
+                "public_metrics": {
+                    "followers_count": 459080,
+                    "following_count": 1563,
+                    "tweet_count": 282150,
+                    "listed_count": 4311
+                },
+                "name": "Tagesspiegel",
+                "id": "22926365",
+                "created_at": "2009-03-05T14:47:03.000Z",
+                "username": "Tagesspiegel",
+                "verified": true
+            },
+            {
+                "description": "Epoch Times Deutschland",
+                "public_metrics": {
+                    "followers_count": 13577,
+                    "following_count": 43,
+                    "tweet_count": 92371,
+                    "listed_count": 100
+                },
+                "name": "Epoch Times DE",
+                "id": "310362666",
+                "created_at": "2011-06-03T16:29:00.000Z",
+                "username": "EpochTimesDE",
+                "verified": false
+            },
+            {
+                "description": "mag den Duft einer frisch aufgeschlagenen Tageszeitung • Philosophie & Literatur • (Listen und Beleidigungen werden geblockt)",
+                "public_metrics": {
+                    "followers_count": 358,
+                    "following_count": 730,
+                    "tweet_count": 63232,
+                    "listed_count": 0
+                },
+                "name": "Evening Mists (Dorothee) 🇪🇺",
+                "id": "2756189436",
+                "created_at": "2014-08-22T19:42:26.000Z",
+                "username": "EveningMists",
+                "verified": false
+            },
+            {
+                "description": "#BasedInGermany #RootsInCongo 🇩🇪🇨🇩International Relations Student | VA I #EkiVAAdministration",
+                "public_metrics": {
+                    "followers_count": 391,
+                    "following_count": 778,
+                    "tweet_count": 122,
+                    "listed_count": 0
+                },
+                "name": "EKILA",
+                "id": "1237162862440853504",
+                "created_at": "2020-03-09T23:46:35.000Z",
+                "username": "edenekilaitoko",
+                "verified": false
+            },
+            {
+                "description": "mad woman. Fäuste ballen und Händchen halten!",
+                "public_metrics": {
+                    "followers_count": 27,
+                    "following_count": 311,
+                    "tweet_count": 682,
+                    "listed_count": 0
+                },
+                "name": "karuna",
+                "id": "1099834814658682881",
+                "created_at": "2019-02-25T00:53:48.000Z",
+                "username": "okapiajohnstonl",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 13,
+                    "following_count": 47,
+                    "tweet_count": 262,
+                    "listed_count": 0
+                },
+                "name": "Mimi Gerezgiher",
+                "id": "1451997882945572869",
+                "created_at": "2021-10-23T19:45:20.000Z",
+                "username": "MimiGerezgiher",
+                "verified": false
+            },
+            {
+                "description": "Hier twittern Redakteur:innen der Digitalen Redaktion der Frankfurter Rundschau. | Rhein-Main: @FRlokal | Sport: @FR_sport | Impressum: https://t.co/x3S0Rp4RBF",
+                "public_metrics": {
+                    "followers_count": 212281,
+                    "following_count": 503,
+                    "tweet_count": 107761,
+                    "listed_count": 2023
+                },
+                "name": "FrankfurterRundschau",
+                "id": "17835938",
+                "created_at": "2008-12-03T13:26:40.000Z",
+                "username": "fr",
+                "verified": true
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 624,
+                    "following_count": 606,
+                    "tweet_count": 1661,
+                    "listed_count": 0
+                },
+                "name": "Renate Satler",
+                "id": "1411573506911969284",
+                "created_at": "2021-07-04T06:32:23.000Z",
+                "username": "RenateSatler1",
+                "verified": false
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 1,
+                    "tweet_count": 1425,
+                    "listed_count": 0
+                },
+                "name": "Steffen Plötz",
+                "id": "1450370230224556033",
+                "created_at": "2021-10-19T08:00:34.000Z",
+                "username": "TW_Ploetz",
+                "verified": false
+            },
+            {
+                "description": "Keine Biographie, nur ein Spruch. Zitat: \n\"Eine Rebellion gegen den Landesherren ist unverzeihlich,\n… es sei denn, man gewinnt.\"  \n虎永王子 Fürst Toranaga (Shogun)",
+                "public_metrics": {
+                    "followers_count": 503,
+                    "following_count": 333,
+                    "tweet_count": 44135,
+                    "listed_count": 5
+                },
+                "name": "Andreas, Nachfahre von",
+                "id": "1715292157",
+                "created_at": "2013-08-31T10:15:30.000Z",
+                "username": "Earthmover1964",
+                "verified": false
+            },
+            {
+                "description": "Unternehmer im (Un-) Ruhestand.",
+                "public_metrics": {
+                    "followers_count": 96,
+                    "following_count": 178,
+                    "tweet_count": 2690,
+                    "listed_count": 1
+                },
+                "name": "Frima",
+                "id": "582487840",
+                "created_at": "2012-05-17T06:00:02.000Z",
+                "username": "FMannuss",
+                "verified": false
+            },
+            {
+                "description": "In 16 Jahren als Korrespondent in Moskau allergisch geworden gegen Ideologen, Sozialismus-Nostalgiker und Journalisten-Kollegen, die die Regierung loben.",
+                "public_metrics": {
+                    "followers_count": 115464,
+                    "following_count": 69,
+                    "tweet_count": 11120,
+                    "listed_count": 617
+                },
+                "name": "Boris Reitschuster",
+                "id": "36713389",
+                "created_at": "2009-04-30T17:05:59.000Z",
+                "username": "reitschuster",
+                "verified": true
+            },
+            {
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 6,
+                    "following_count": 57,
+                    "tweet_count": 260,
+                    "listed_count": 1
+                },
+                "name": "Maira Frisch",
+                "id": "828998298262450176",
+                "created_at": "2017-02-07T16:06:11.000Z",
+                "username": "Maira_Frisch",
+                "verified": false
+            },
+            {
+                "description": "Vielseitig einsetzbar seit 1991 - Lehrer, Historiker und Sozialdemokrat 🏰🏫🎸 \"Finanzielle Ungleichheit ist die Mutter aller Probleme\" - Folgt mir gerne✌️",
+                "public_metrics": {
+                    "followers_count": 85,
+                    "following_count": 138,
+                    "tweet_count": 833,
+                    "listed_count": 0
+                },
+                "name": "David Fincher",
+                "id": "3403390587",
+                "created_at": "2015-08-04T23:24:52.000Z",
+                "username": "Ollo991",
+                "verified": false
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1474336162735136768",
+        "oldest_id": "1474287294223994891",
+        "result_count": 51,
+        "next_token": "b26v89c19zqg8o3fpe170sqdbnbhl3c323v0sqizwqpvh"
+    }
+}

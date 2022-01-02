@@ -1,0 +1,1787 @@
+{
+    "data": [
+        {
+            "created_at": "2021-12-24T16:20:03.000Z",
+            "author_id": "966347094",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474412922478678021"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474414576540258306",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474414576540258306",
+            "text": "RT @RusPerspective: Die berüchtigte @Inaruck kritisierte Putins PK, da keine russ. Medien mit Status \"Auslandsagent\" dabei waren. Obwohl si…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:17:45.000Z",
+            "author_id": "849279409131540480",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474412922478678021"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474413998288293893",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474413998288293893",
+            "text": "RT @RusPerspective: Die berüchtigte @Inaruck kritisierte Putins PK, da keine russ. Medien mit Status \"Auslandsagent\" dabei waren. Obwohl si…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:13:28.000Z",
+            "author_id": "2247680059",
+            "reply_settings": "everyone",
+            "conversation_id": "1474412922478678021",
+            "public_metrics": {
+                "retweet_count": 24,
+                "reply_count": 7,
+                "like_count": 73,
+                "quote_count": 1
+            },
+            "source": "Twitter Web App",
+            "id": "1474412922478678021",
+            "text": "Die berüchtigte @Inaruck kritisierte Putins PK, da keine russ. Medien mit Status \"Auslandsagent\" dabei waren. Obwohl sich Putin Fragen von Oppositions- und Auslandsmedien stellte. Zum Vergleich: nicht mal FoxNews durfte Biden etwas fragen, nur handverlesene \"loyale\" Journalisten. https://t.co/8RDoiN1pfA",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:11:44.000Z",
+            "author_id": "854729192226910209",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474376814139224064"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474412487286140928",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474412487286140928",
+            "text": "RT @Turmbewohner: Welcome to the White House. Weihnachtsdekoration à la Biden. \n@dpa #Weihnachten #dpareporter https://t.co/ZmAKvLZyIc",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:10:03.000Z",
+            "author_id": "781788488022777856",
+            "reply_settings": "everyone",
+            "conversation_id": "1474412061232873477",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "TAG24 App",
+            "id": "1474412061232873477",
+            "text": "US-Präsident Joe Biden will Einreisebeschränkungen wegen Omikron aufheben! #Corona #USA https://t.co/k8wP5mf4Mt https://t.co/hDXpXIjZjZ",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:09:48.000Z",
+            "author_id": "1914067015",
+            "reply_settings": "everyone",
+            "conversation_id": "1474411998054170627",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 1
+            },
+            "source": "Twitter for Android",
+            "id": "1474411998054170627",
+            "text": "Natürlich hat er nicht 3 Impfstoffe entwickelt. \nSpanish flu hatte auch nur 50 Mill. Opfer nicht 100 Mill.\nAuch hat nicht Biden mehr Covid-Tote zu verantworten (412:403)\n\nAber sonst hat #Trump recht.\n#Impfung ist 'ne gute Sache, die richtige Entscheidung.\n\nhttps://t.co/CyynBEFZS4 https://t.co/hKpy6zkajA",
+            "lang": "de"
+        },
+        {
+            "in_reply_to_user_id": "1328045232554991616",
+            "created_at": "2021-12-24T16:06:13.000Z",
+            "author_id": "1328825312038285313",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474369559457116168"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474360726336671745",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474411097251885056",
+            "text": "@Nightwolf_ger @ntvde DAS haben die Amis immerhin bewiesen,  denn die letzte Wahl war sicher KEINE pro Biden Wahl sondern eine ANTI TRUMP Wahl. Die Wahlbeteiligung war doch bemerkenswert um diesen Idioten los zu werden und wenn er sich noch einmal zur Wahl stellt wird das genau so enden",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:04:31.000Z",
+            "author_id": "146978122",
+            "reply_settings": "everyone",
+            "conversation_id": "1474410668849872902",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474410668849872902",
+            "text": "Während sich Biden täglich mehr selbst entzaubert, haben Patrioten berechtigte Hoffnung auf die Rückkehr von Trump https://t.co/8gFFbzBX3s",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:03:32.000Z",
+            "author_id": "833733476373377024",
+            "reply_settings": "everyone",
+            "conversation_id": "1474410422417690629",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "WordPress.com",
+            "id": "1474410422417690629",
+            "text": "Corona-Liveblog: Biden will laut Medien Einreisebeschränkungen wegen Omikron aufheben https://t.co/WDUUQgCyBE",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T16:00:33.000Z",
+            "author_id": "1185588511983984640",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1468604077781225476"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474409670882308097",
+            "public_metrics": {
+                "retweet_count": 1600,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474409670882308097",
+            "text": "RT @SHomburg: In den rot markierten US-Staaten ist Bidens #Impfzwang von Gerichten blockiert worden, zuletzt bundesweit.\n\nSo geht Rechtssta…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:58:13.000Z",
+            "author_id": "143534510",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474339020050161671"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474409082442371075",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474409082442371075",
+            "text": "RT @MarianKamensky1: LIEBE MACHT BLIND\nBitte lesen:\nhttps://t.co/w1GNmAmhpU...\nhttps://t.co/VusIgU38Hx\nhttps://t.co/MHSFcJzyGa\nhttps://t.co…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:58:10.000Z",
+            "author_id": "1319292591330869250",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474406763411775498"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474409072296407040",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPad",
+            "id": "1474409072296407040",
+            "text": "RT @RND_de: US-Präsident Joe #Biden will die Einreisebeschränkungen in die #USA wegen der #Omikron-Variante des Coronavirus aufheben. Die B…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:56:35.000Z",
+            "author_id": "1324461791209000964",
+            "reply_settings": "everyone",
+            "conversation_id": "1474408672503730186",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474408672503730186",
+            "text": "Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. Erhält ein Komplize @AbiyAhmedAli's einen Preis von der @_DASonline. Eine Schande! @Ard @nouripour @HeikoMaas @sz… https://t.co/NPdbaVQNWE",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:54:42.000Z",
+            "author_id": "1290709331202187265",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1473639457416908804"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474408197616246787",
+            "public_metrics": {
+                "retweet_count": 3,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474408197616246787",
+            "text": "RT @jungewelt: #jW-Jahresrückblick USA\n\nWährend sich das politische Kräfteverhältnis in den #USA, insbesondere in der Justiz, weiter nach r…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:53:23.000Z",
+            "author_id": "16951795",
+            "reply_settings": "everyone",
+            "conversation_id": "1474407868594102273",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPad",
+            "id": "1474407868594102273",
+            "text": "Corona-News am Heiligabend: Biden will Einreisebeschränkungen wegen Omikron aufheben - DER SPIEGEL https://t.co/beAcIp0a93",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:50:40.000Z",
+            "author_id": "1434608040532189185",
+            "reply_settings": "everyone",
+            "conversation_id": "1474407183404212234",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474407183404212234",
+            "text": "Während @POTUS im Angesicht massiver Gräueltaten in Tigray Sanktionen gegen äthiopische Beamte und Vertreter beschließt. Erhält ein Komplize @AbiyAhmedAli's einen Preis von der @_DASonline. Eine Schande! @Ard @nouripour @HeikoMaas @sz… https://t.co/RnwpUqMN25",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:49:00.000Z",
+            "author_id": "2885573171",
+            "reply_settings": "everyone",
+            "conversation_id": "1474406763411775498",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 1,
+                "like_count": 5,
+                "quote_count": 1
+            },
+            "source": "TweetDeck",
+            "id": "1474406763411775498",
+            "text": "US-Präsident Joe #Biden will die Einreisebeschränkungen in die #USA wegen der #Omikron-Variante des Coronavirus aufheben. Die Beschränkungen gegen Länder im Süden Afrikas sollen demzufolge zum 31. Dezember aufgehoben werden.\nhttps://t.co/rrLuDqUrUX",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:47:55.000Z",
+            "author_id": "1882002834",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474376814139224064"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474406490207309828",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474406490207309828",
+            "text": "RT @Turmbewohner: Welcome to the White House. Weihnachtsdekoration à la Biden. \n@dpa #Weihnachten #dpareporter https://t.co/ZmAKvLZyIc",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:47:14.000Z",
+            "author_id": "1360273298697973760",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1468604077781225476"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474406320765902887",
+            "public_metrics": {
+                "retweet_count": 1600,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474406320765902887",
+            "text": "RT @SHomburg: In den rot markierten US-Staaten ist Bidens #Impfzwang von Gerichten blockiert worden, zuletzt bundesweit.\n\nSo geht Rechtssta…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:42:46.000Z",
+            "author_id": "3421859932",
+            "reply_settings": "everyone",
+            "conversation_id": "1474405194381283329",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Echobox",
+            "id": "1474405194381283329",
+            "text": "Biden will Einreisebeschränkungen wegen Omikron aufheben https://t.co/Tn5HpKbz4Z",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:39:49.000Z",
+            "author_id": "1254074504399241216",
+            "reply_settings": "everyone",
+            "conversation_id": "1474404451897286665",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Echobox",
+            "id": "1474404451897286665",
+            "text": "Biden will Einreisebeschränkungen wegen Omikron aufheben https://t.co/KnH083RnE3",
+            "lang": "de"
+        },
+        {
+            "in_reply_to_user_id": "1366419572602060801",
+            "created_at": "2021-12-24T15:32:14.000Z",
+            "author_id": "1427629354373292036",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474382945720975361"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474382945720975361",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474402544864612359",
+            "text": "@RolandKmmerlin1 @Behindt93065949 Die müssen aber verklebt werden denn sonst fallen die raus wenn er wieder einnickt nach Biden Manier! 🤷",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:28:44.000Z",
+            "author_id": "1358917869619322882",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474105560056438784"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474401664132354048",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474401664132354048",
+            "text": "RT @Hafima10: Respekt vor Biden. Er setzt sich für die deportierten Muslime in China ein. Das finde ich toll. Deutschland hat sich dazu nic…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:27:55.000Z",
+            "author_id": "1670527548",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474400439026298890"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474401457411694612",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474401457411694612",
+            "text": "RT @MarianKamensky1: UND TSCHÜß, CORONA 2022!\nBitte lesen:\nhttps://t.co/rsBqYmy5Ch\nhttps://t.co/VusIgU38Hx\nhttps://t.co/MHSFcJzyGa\nhttps://…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:25:08.000Z",
+            "author_id": "1351936896730075147",
+            "reply_settings": "everyone",
+            "conversation_id": "1474400757185236994",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 2,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474400757185236994",
+            "text": "Das Säbelrasseln zw. #Iran + #Israel/#USA spitzt sich weiter zu.\n\nDie Eskalation fing im Mai 2018 an, als #Trump ohne Sinn und Verstand aus dem Nuklearabkommen ausstieg. Und #Biden ist ein Lügner und tut entgg. seiner Versprechen nichts, um den Deal zu retten.\n\nVia @TimesofIsrael https://t.co/w7uDpsZaug",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:24:45.000Z",
+            "author_id": "938109188152221696",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474400439026298890"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474400662758825985",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474400662758825985",
+            "text": "RT @MarianKamensky1: UND TSCHÜß, CORONA 2022!\nBitte lesen:\nhttps://t.co/rsBqYmy5Ch\nhttps://t.co/VusIgU38Hx\nhttps://t.co/MHSFcJzyGa\nhttps://…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:23:52.000Z",
+            "author_id": "1591016580",
+            "reply_settings": "everyone",
+            "conversation_id": "1474400439026298890",
+            "public_metrics": {
+                "retweet_count": 4,
+                "reply_count": 0,
+                "like_count": 13,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474400439026298890",
+            "text": "UND TSCHÜß, CORONA 2022!\nBitte lesen:\nhttps://t.co/rsBqYmy5Ch\nhttps://t.co/VusIgU38Hx\nhttps://t.co/MHSFcJzyGa\nhttps://t.co/2ME3NnqN0p\n#Klimawandel #facebook #Biden #Coronavirus #Delta https://t.co/mENjkoFaZh",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:22:09.000Z",
+            "author_id": "1288809924726861824",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474393687870382082"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474400007570837511",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474400007570837511",
+            "text": "RT @mark_w21: @FLOTUS @Snapchat Merry Christmas Dr. Biden!",
+            "lang": "de"
+        },
+        {
+            "in_reply_to_user_id": "1427304176334348290",
+            "created_at": "2021-12-24T15:16:46.000Z",
+            "author_id": "2336260051",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474394311756324864"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1473985910731595784",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474398650868588554",
+            "text": "@HansRudiSulze @rectangulus_de @DrJunge @elnin0 @ApothekerDer Eine Bitte hätte ich.\nIch habe mir auf Ihrer Seite das Video mit Biden und Fauci angesehen, leider fand ich keinen kopierbaren Link. \nWären Sie so nett und würden mir den Link schicken? \nIch habe einige gute Freunde verloren, vielleicht kann ich sie damit überzeugen.",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:16:20.000Z",
+            "author_id": "134405375",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474396442236268544"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474398544404652036",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474398544404652036",
+            "text": "RT @Doppelgeist60: Gute Nachrichten für Südafrika. Schlechte Nachrichten für die USA. Das Omikron-Virus breitet sich hier so schnell aus, d…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:13:48.000Z",
+            "author_id": "1268520201341018113",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474319564083240960"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474397908070014994",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474397908070014994",
+            "text": "RT @eisenstein_von: Trump hat den Abzug initiiert, richtig; aber er hätte es gestoppt, als sich das Drama abzeichnete. Biden hat es durchge…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:12:18.000Z",
+            "author_id": "718145940",
+            "reply_settings": "everyone",
+            "conversation_id": "1474397527235387396",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "dlvr.it",
+            "id": "1474397527235387396",
+            "text": "USA : Biden will Einreisebeschränkungen wegen Omikron aufheben https://t.co/DWSWz1p1ep https://t.co/86ex48u5y2",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:07:59.000Z",
+            "author_id": "271883332",
+            "reply_settings": "everyone",
+            "conversation_id": "1474396442236268544",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 5,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474396442236268544",
+            "text": "Gute Nachrichten für Südafrika. Schlechte Nachrichten für die USA. Das Omikron-Virus breitet sich hier so schnell aus, dass der Travel Ban eher umgekehrt gelten müsste. https://t.co/8aiqo2GyiX",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:01:04.000Z",
+            "author_id": "77838776",
+            "reply_settings": "everyone",
+            "conversation_id": "1474394701088309248",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Newsposter-BOT",
+            "id": "1474394701088309248",
+            "text": "USA : Biden will Einreisebeschränkungen wegen Omikron aufheben\n\nWashington (dpa) – Die von der US-Regierung wegen Omikron verhängten Einreisebeschränkungen gegen Länder im südlichen Afrika sollen Medien zufolge aufgehoben werden. Ein ...\n\nhttps://t.co/22Z6z2KEdy",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T15:00:01.000Z",
+            "author_id": "1011647647298486273",
+            "reply_settings": "everyone",
+            "conversation_id": "1474394439376416773",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "SanLMBot",
+            "id": "1474394439376416773",
+            "text": "Kannste dir nicht ausdenken. https://t.co/xd2EoRIxyH",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:59:34.000Z",
+            "author_id": "604278309",
+            "reply_settings": "everyone",
+            "conversation_id": "1474394324725125122",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474394324725125122",
+            "text": "WAS IM ERSTEN WELTKRIEG ALS GUERILLAKRIEG BEGANN, ENDETE 2021 IM DESASTER! DIE USA HABEN AUS DER GESCHICHTE NICHTS GELERNT, ERST US-PRÄSIDENT BIDEN ERKANNTE DIESEN WAHNSINN MIT METHODE!: Auf in den Krieg  https://t.co/IJv4lExf8X https://t.co/2TSZfk3iRh",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:59:22.000Z",
+            "author_id": "1229273843304255489",
+            "reply_settings": "everyone",
+            "conversation_id": "1474394274456383497",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "PostRSS",
+            "id": "1474394274456383497",
+            "text": "USA : Biden will Einreisebeschränkungen wegen Omikron aufheben https://t.co/nMKHASQ7vi",
+            "lang": "de"
+        },
+        {
+            "in_reply_to_user_id": "1349154719386775552",
+            "created_at": "2021-12-24T14:57:02.000Z",
+            "author_id": "1260210245500055553",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474393327210569740"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474393327210569740",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474393687870382082",
+            "text": "@FLOTUS @Snapchat Merry Christmas Dr. Biden!",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:56:41.000Z",
+            "author_id": "49046312",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474392109302099973"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474393598699491329",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474393598699491329",
+            "text": "RT @krus_stern: #Biden soll umgehend Sanktionen gegen Folterer im KZ \"Izolyatsia\" (Isolation) in der von #Russland besetzten Ost-#Ukraine e…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:56:24.000Z",
+            "author_id": "1383970680576778240",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474392109302099973"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474393526276431891",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474393526276431891",
+            "text": "RT @krus_stern: #Biden soll umgehend Sanktionen gegen Folterer im KZ \"Izolyatsia\" (Isolation) in der von #Russland besetzten Ost-#Ukraine e…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:55:01.000Z",
+            "author_id": "4273724428",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474376814139224064"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474393177658429440",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474393177658429440",
+            "text": "RT @Turmbewohner: Welcome to the White House. Weihnachtsdekoration à la Biden. \n@dpa #Weihnachten #dpareporter https://t.co/ZmAKvLZyIc",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:54:24.000Z",
+            "author_id": "1256593481973354497",
+            "reply_settings": "everyone",
+            "conversation_id": "1474393022712492036",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "PostRSS",
+            "id": "1474393022712492036",
+            "text": "USA : Biden will Einreisebeschränkungen wegen Omikron aufheben https://t.co/I7LndEY3Mc",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:50:46.000Z",
+            "author_id": "1294576949738844161",
+            "reply_settings": "everyone",
+            "conversation_id": "1474392109302099973",
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 7,
+                "quote_count": 1
+            },
+            "source": "Twitter Web App",
+            "id": "1474392109302099973",
+            "text": "#Biden soll umgehend Sanktionen gegen Folterer im KZ \"Izolyatsia\" (Isolation) in der von #Russland besetzten Ost-#Ukraine einführen.\nDas fordern in einem Brief⤵️ u.a. @melindaharing @kvolker @FukuyamaFrancis @MatthewRojansky @SuzanneNossel @PENAmerica\n👋👍\nhttps://t.co/j3eggjSaTV",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:48:43.000Z",
+            "author_id": "1247274798637555712",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474349649851043843"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474391593964744707",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474391593964744707",
+            "text": "RT @mol_zeynep: Das ist keine Satire sondern dieser Irrsinn fand wirklich im Weißen Haus statt. Die Truman Show ist nichts dagegen. Joe und…",
+            "lang": "de"
+        },
+        {
+            "in_reply_to_user_id": "38150247",
+            "created_at": "2021-12-24T14:45:06.000Z",
+            "author_id": "746768728856141828",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1474344664207609859"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474344664207609859",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474390684820025353",
+            "text": "@OlafScholz Unser Joe Biden aus Germoney über der WELT lacht die Sonne, über Deutschland die ganze Welt. Euch allen noch ein frohes Julfest",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:34:42.000Z",
+            "author_id": "1195813622628470784",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474368922073841666"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474388065959526403",
+            "public_metrics": {
+                "retweet_count": 5,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474388065959526403",
+            "text": "RT @Wahrheit005: Was erleben wir doch für Zeiten, beunruhigende, wie man konstatieren muss. \nlm Osten drei eiskalte, brutale und nicht nur…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:33:58.000Z",
+            "author_id": "1455217411163054082",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1470380728508690442"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474387881884069902",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474387881884069902",
+            "text": "RT @MrxLinke: Biden warnt Moskau vor einer Invasion in der Ukraine, während Putin einen Stopp der NATO-Mitgliedschaft Kiews fordert ++ \"Wir…",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:32:21.000Z",
+            "author_id": "1363431842574192640",
+            "reply_settings": "everyone",
+            "conversation_id": "1474387475254628356",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474387475254628356",
+            "text": "\"USA fordern Eritrea auf, seine Truppen aus Äthiopien abzuziehen\"\n\n „Danke, Präsident BIDEN“, sagte er.\n Ewiger Ruhm gebührt dem Held vom Badime  Oberst Berhe und seiner Frau!",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:32:18.000Z",
+            "author_id": "138523150",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1474382750824251392"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474387460641771520",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for iPhone",
+            "id": "1474387460641771520",
+            "text": "RT @Rleeatlga: #gapol #gahouse #gasenate #gadems #gagop \n.\nImportant Saporta Report on\nVogtle Vortex \n.\nhttps://t.co/G4GHoSRpcm",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:31:49.000Z",
+            "author_id": "1472455014350217220",
+            "reply_settings": "everyone",
+            "conversation_id": "1474387342605656075",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter for Android",
+            "id": "1474387342605656075",
+            "text": "Die Wahrheit macht frei\nWachet und betet\nhttps://t.co/iBspCbmkJl",
+            "lang": "de"
+        },
+        {
+            "created_at": "2021-12-24T14:28:23.000Z",
+            "author_id": "69553185",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1472531807249833987"
+                }
+            ],
+            "reply_settings": "everyone",
+            "conversation_id": "1474386478633529353",
+            "public_metrics": {
+                "retweet_count": 2,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "source": "Twitter Web App",
+            "id": "1474386478633529353",
+            "text": "RT @GregorKeller27: Trump, der böse, böse Trump wollte eine Mauer an der Grenze zu Mexiko bauen.\nDer gute, gute Biden stoppte dieses böse,…",
+            "lang": "de"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "verified": false,
+                "created_at": "2012-11-23T15:52:52.000Z",
+                "name": "Der Russe ist schuld ☭",
+                "username": "5y5t3m_3rr0r",
+                "id": "966347094",
+                "public_metrics": {
+                    "followers_count": 2502,
+                    "following_count": 4899,
+                    "tweet_count": 127066,
+                    "listed_count": 82
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2017-04-04T15:16:04.000Z",
+                "name": "Jens E",
+                "username": "VoyagerJames",
+                "id": "849279409131540480",
+                "public_metrics": {
+                    "followers_count": 263,
+                    "following_count": 58,
+                    "tweet_count": 53779,
+                    "listed_count": 2
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2013-12-15T19:44:21.000Z",
+                "name": "🇷🇺Russian Perspective🇷🇺",
+                "username": "RusPerspective",
+                "id": "2247680059",
+                "public_metrics": {
+                    "followers_count": 2499,
+                    "following_count": 294,
+                    "tweet_count": 13038,
+                    "listed_count": 31
+                },
+                "description": "Ein russischstämmiger Deutscher, den die systematischen Zerrbilder und Lügen über Russland im DE-Mainstream zornig machen. Betreibe Aufklärung für Interessierte"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-04-19T16:11:34.000Z",
+                "name": "🆁🅰🅻🅵 🥷🏻❤️‍🔥",
+                "username": "ralf_kowollik",
+                "id": "854729192226910209",
+                "public_metrics": {
+                    "followers_count": 233,
+                    "following_count": 501,
+                    "tweet_count": 84796,
+                    "listed_count": 4
+                },
+                "description": "spricht Italienisch | mag lieber Filterkaffee als Espresso | liebt Gegenwartsliteratur | Android-Fan"
+            },
+            {
+                "verified": false,
+                "created_at": "2016-09-30T09:31:15.000Z",
+                "name": "TAG24 NEWS Deutschland",
+                "username": "TAG24",
+                "id": "781788488022777856",
+                "public_metrics": {
+                    "followers_count": 8347,
+                    "following_count": 197,
+                    "tweet_count": 58108,
+                    "listed_count": 31
+                },
+                "description": "TAG24 ist ein regionales Newsportal für Deutschland 🚀 Aktuell haben wir 10 Redaktionen und über 10 Millionen Leser im Monat. Impressum: https://t.co/9Q98G8nQLm"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-09-28T12:28:30.000Z",
+                "name": "J. K. 🌐 💉💉+ 💉👍",
+                "username": "lazid1957",
+                "id": "1914067015",
+                "public_metrics": {
+                    "followers_count": 1321,
+                    "following_count": 253,
+                    "tweet_count": 86591,
+                    "listed_count": 8
+                },
+                "description": "#ImpfenRettetLeben"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-11-17T22:20:33.000Z",
+                "name": "Flatulentius Kacktus",
+                "username": "FKacktus",
+                "id": "1328825312038285313",
+                "public_metrics": {
+                    "followers_count": 10,
+                    "following_count": 54,
+                    "tweet_count": 1575,
+                    "listed_count": 0
+                },
+                "description": "Ganz weit links, aber ohne Extremismus.\nNiemand kann sich aussuchen wo er geboren wird. Aber ein dreckiger Nazi-Arsch zu sein ist eine Entscheidung."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-11-15T18:42:57.000Z",
+                "name": "Nightwolf",
+                "username": "Nightwolf_ger",
+                "id": "1328045232554991616",
+                "public_metrics": {
+                    "followers_count": 64,
+                    "following_count": 288,
+                    "tweet_count": 5780,
+                    "listed_count": 1
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2010-05-22T21:52:13.000Z",
+                "name": "Hans-Jürgen Rock",
+                "username": "Rockypsr",
+                "id": "146978122",
+                "public_metrics": {
+                    "followers_count": 2158,
+                    "following_count": 4250,
+                    "tweet_count": 92709,
+                    "listed_count": 12
+                },
+                "description": "Breaking News-Fighter for democracy, justice and truth ..... against the establishment .... The truth is out there"
+            },
+            {
+                "verified": false,
+                "created_at": "2017-02-20T17:42:05.000Z",
+                "name": "Klaus-D. Sedlacek",
+                "username": "sedlacek_d",
+                "id": "833733476373377024",
+                "public_metrics": {
+                    "followers_count": 243,
+                    "following_count": 25,
+                    "tweet_count": 175501,
+                    "listed_count": 5
+                },
+                "description": "Meine Nachrichten als #Autor und #Herausgeber in den Bereichen:   #Wissen, populäres #Sachbuch, #Bewusstsein, #Roman, #Buchvorstellung. Folge mir!"
+            },
+            {
+                "verified": false,
+                "created_at": "2019-10-19T16:08:58.000Z",
+                "name": "Siggi D",
+                "username": "D28SiggiLupus07",
+                "id": "1185588511983984640",
+                "public_metrics": {
+                    "followers_count": 926,
+                    "following_count": 4093,
+                    "tweet_count": 103710,
+                    "listed_count": 3
+                },
+                "description": "\"Ein gütiger Mensch ist der Liebe wert, und ein Armer ist besser als ein Lügner.\""
+            },
+            {
+                "verified": false,
+                "created_at": "2010-05-13T18:48:49.000Z",
+                "name": "Peter Kuchar",
+                "username": "Sajdak1970",
+                "id": "143534510",
+                "public_metrics": {
+                    "followers_count": 2129,
+                    "following_count": 986,
+                    "tweet_count": 164196,
+                    "listed_count": 166
+                },
+                "description": "Whale with a heart of butterfly"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-10-22T15:01:00.000Z",
+                "name": "Barbara Forster",
+                "username": "Barbara69295425",
+                "id": "1319292591330869250",
+                "public_metrics": {
+                    "followers_count": 49,
+                    "following_count": 487,
+                    "tweet_count": 6830,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2020-11-05T21:21:33.000Z",
+                "name": "John Aregay",
+                "username": "JohnAregay",
+                "id": "1324461791209000964",
+                "public_metrics": {
+                    "followers_count": 272,
+                    "following_count": 469,
+                    "tweet_count": 2171,
+                    "listed_count": 0
+                },
+                "description": "I stand with Tigrai"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-08-04T18:01:29.000Z",
+                "name": "DKP Stormarn",
+                "username": "DKP_Stormarn",
+                "id": "1290709331202187265",
+                "public_metrics": {
+                    "followers_count": 393,
+                    "following_count": 291,
+                    "tweet_count": 34672,
+                    "listed_count": 2
+                },
+                "description": "Dies ist der offizielle Twitter-Account der Deutschen Kommunistischen Partei (DKP) - Kreisorganisation Stormarn"
+            },
+            {
+                "verified": false,
+                "created_at": "2008-10-24T16:19:28.000Z",
+                "name": "rubeneus",
+                "username": "rubenanguiano",
+                "id": "16951795",
+                "public_metrics": {
+                    "followers_count": 2544,
+                    "following_count": 5000,
+                    "tweet_count": 131842,
+                    "listed_count": 18
+                },
+                "description": "arquitecto, constructor, diseñador, escritor, emprendedor y lector empedernido, amo la música y la buena conversación. Nosce te ipsum"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-09-05T20:03:26.000Z",
+                "name": "Kal Kedir Ali",
+                "username": "KalKedirAli1",
+                "id": "1434608040532189185",
+                "public_metrics": {
+                    "followers_count": 165,
+                    "following_count": 295,
+                    "tweet_count": 4546,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": true,
+                "created_at": "2014-11-20T12:49:02.000Z",
+                "name": "RND",
+                "username": "RND_de",
+                "id": "2885573171",
+                "public_metrics": {
+                    "followers_count": 41394,
+                    "following_count": 708,
+                    "tweet_count": 62212,
+                    "listed_count": 414
+                },
+                "description": "Exklusive News, interessante Hintergründe und fundierte Meinungen. Hier twittert das RedaktionsNetzwerk Deutschland (RND)."
+            },
+            {
+                "verified": false,
+                "created_at": "2013-09-19T05:37:14.000Z",
+                "name": "de_la_fina",
+                "username": "epiCCodingNET",
+                "id": "1882002834",
+                "public_metrics": {
+                    "followers_count": 175,
+                    "following_count": 1521,
+                    "tweet_count": 11722,
+                    "listed_count": 5
+                },
+                "description": "What is logic? Be Water... ¡There is no space for time!"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-12T17:03:35.000Z",
+                "name": "BikerJoe",
+                "username": "BikerJoe5",
+                "id": "1360273298697973760",
+                "public_metrics": {
+                    "followers_count": 3,
+                    "following_count": 42,
+                    "tweet_count": 286,
+                    "listed_count": 0
+                },
+                "description": "„Wer die Wahrheit nicht weiß, der ist bloß ein Dummkopf. Aber wer sie weiß und sie eine Lüge nennt, der ist ein Verbrecher!“ - Bertolt Brecht"
+            },
+            {
+                "verified": true,
+                "created_at": "2015-08-14T09:09:39.000Z",
+                "name": "Funke Zentralredaktion",
+                "username": "FunkeBerlin",
+                "id": "3421859932",
+                "public_metrics": {
+                    "followers_count": 4063,
+                    "following_count": 206,
+                    "tweet_count": 55489,
+                    "listed_count": 137
+                },
+                "description": "Nachrichten und mehr. Direkt vom Newsdesk der Funke Zentralredaktion in Berlin-Mitte"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-04-25T15:47:34.000Z",
+                "name": "24hamburg.de",
+                "username": "24hamburg_de",
+                "id": "1254074504399241216",
+                "public_metrics": {
+                    "followers_count": 243,
+                    "following_count": 244,
+                    "tweet_count": 30124,
+                    "listed_count": 3
+                },
+                "description": "https://t.co/DsqZrpWXCM\nhttps://t.co/WEqPd5T4vh"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-17T13:52:54.000Z",
+                "name": "Dirk Matthies",
+                "username": "DirkMatthies2",
+                "id": "1427629354373292036",
+                "public_metrics": {
+                    "followers_count": 53,
+                    "following_count": 245,
+                    "tweet_count": 3157,
+                    "listed_count": 0
+                },
+                "description": "2G - Gesund & Gechillt!"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-03-01T16:06:42.000Z",
+                "name": "Roland Kümmerling",
+                "username": "RolandKmmerlin1",
+                "id": "1366419572602060801",
+                "public_metrics": {
+                    "followers_count": 465,
+                    "following_count": 355,
+                    "tweet_count": 6638,
+                    "listed_count": 5
+                },
+                "description": "Atheist aus Überzeugung. Ungeimpft und ungetestet aus Überzeugung. Mein Herz gehört den Tieren, die lügen nicht, und sind areligiös."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-08T23:17:51.000Z",
+                "name": "Hafima",
+                "username": "Hafima10",
+                "id": "1358917869619322882",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 73,
+                    "tweet_count": 317,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2013-08-14T13:50:08.000Z",
+                "name": "STICHTING BELVOS",
+                "username": "BELVOS_VL",
+                "id": "1670527548",
+                "public_metrics": {
+                    "followers_count": 354,
+                    "following_count": 792,
+                    "tweet_count": 13646,
+                    "listed_count": 8
+                },
+                "description": "Luis in de pels van de Vlissingse Politiek"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-01-20T16:57:35.000Z",
+                "name": "Jakob Reimann",
+                "username": "Jakob_Reimann",
+                "id": "1351936896730075147",
+                "public_metrics": {
+                    "followers_count": 236,
+                    "following_count": 323,
+                    "tweet_count": 612,
+                    "listed_count": 1
+                },
+                "description": "Schreiberling für @jungewelt, @Freiheits_liebe, @analysekritik, @NachDenkSeiten ... über Krieg und Frieden.\n\nAntikapitalist, Feminist, Pazifist, Anarchist."
+            },
+            {
+                "verified": false,
+                "created_at": "2017-12-05T18:13:54.000Z",
+                "name": "Krisztina Juhasz",
+                "username": "Krisztinajuh",
+                "id": "938109188152221696",
+                "public_metrics": {
+                    "followers_count": 8,
+                    "following_count": 24,
+                    "tweet_count": 3872,
+                    "listed_count": 0
+                },
+                "description": "keine Biographie"
+            },
+            {
+                "verified": false,
+                "created_at": "2013-07-13T13:41:35.000Z",
+                "name": "Marian Kamensky",
+                "username": "MarianKamensky1",
+                "id": "1591016580",
+                "public_metrics": {
+                    "followers_count": 5051,
+                    "following_count": 239,
+                    "tweet_count": 6558,
+                    "listed_count": 178
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2020-07-30T12:13:55.000Z",
+                "name": "luvlee.ann@aol.com",
+                "username": "AnnLuvlee",
+                "id": "1288809924726861824",
+                "public_metrics": {
+                    "followers_count": 112,
+                    "following_count": 1017,
+                    "tweet_count": 3545,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2014-02-10T07:22:53.000Z",
+                "name": "Obdc",
+                "username": "DrOlafBorkner",
+                "id": "2336260051",
+                "public_metrics": {
+                    "followers_count": 39,
+                    "following_count": 34,
+                    "tweet_count": 1946,
+                    "listed_count": 0
+                },
+                "description": "Studium der Informatik an der TU-MÜNCHEN, bis 1990\nPromotion an der TU-MÜNCHEN 1996\nAutor verschiedender Bücher: Finanzberatung? Nein Danke!"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-08-16T16:20:37.000Z",
+                "name": "Hans-Rudi Sulzenbacher",
+                "username": "HansRudiSulze",
+                "id": "1427304176334348290",
+                "public_metrics": {
+                    "followers_count": 39,
+                    "following_count": 51,
+                    "tweet_count": 3821,
+                    "listed_count": 4
+                },
+                "description": "Im Zweifel für die Freiheit"
+            },
+            {
+                "verified": false,
+                "created_at": "2010-04-18T09:35:36.000Z",
+                "name": "Johannes Schölch-Mundorf",
+                "username": "JoSchMu",
+                "id": "134405375",
+                "public_metrics": {
+                    "followers_count": 880,
+                    "following_count": 1532,
+                    "tweet_count": 51739,
+                    "listed_count": 105
+                },
+                "description": "Pädagoge im Schuldienst,\nSchrebergärtner, Reisender in Sachen Kultur(en), Film und Fotografie. Radfahrer. Ex Alleinsorgeverpflichteter."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-06-04T12:29:39.000Z",
+                "name": "Sylvi.K.",
+                "username": "KnothSylvana",
+                "id": "1268520201341018113",
+                "public_metrics": {
+                    "followers_count": 352,
+                    "following_count": 241,
+                    "tweet_count": 19048,
+                    "listed_count": 3
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2012-07-26T13:48:05.000Z",
+                "name": "Cityreport24",
+                "username": "CityReport",
+                "id": "718145940",
+                "public_metrics": {
+                    "followers_count": 2158,
+                    "following_count": 4907,
+                    "tweet_count": 1236153,
+                    "listed_count": 116
+                },
+                "description": "Aktuelle Meldungen des Tages auf einer Webseite."
+            },
+            {
+                "verified": true,
+                "created_at": "2011-03-25T11:10:15.000Z",
+                "name": "Karl Doemens",
+                "username": "Doppelgeist60",
+                "id": "271883332",
+                "public_metrics": {
+                    "followers_count": 5408,
+                    "following_count": 1362,
+                    "tweet_count": 28796,
+                    "listed_count": 144
+                },
+                "description": "US Correspondent RND German Newsrooms Network. Reporting for Hannoversche Allgemeine, Augsburger Allgemeine, Frankfurter Rundschau, Leipziger Volkszeitung et al"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-09-27T21:34:46.000Z",
+                "name": "News Poster",
+                "username": "News__Poster",
+                "id": "77838776",
+                "public_metrics": {
+                    "followers_count": 1853,
+                    "following_count": 3380,
+                    "tweet_count": 502416,
+                    "listed_count": 12
+                },
+                "description": "#News #Update #Feed"
+            },
+            {
+                "verified": false,
+                "created_at": "2018-06-26T16:29:29.000Z",
+                "name": "Christian Lehmann",
+                "username": "kannstenicht",
+                "id": "1011647647298486273",
+                "public_metrics": {
+                    "followers_count": 111,
+                    "following_count": 1,
+                    "tweet_count": 84439,
+                    "listed_count": 3
+                },
+                "description": "\"Ersetzt ca. 1000 eurer politischen Accounts.\" - @leogfischer"
+            },
+            {
+                "verified": false,
+                "created_at": "2012-06-10T04:44:31.000Z",
+                "name": "Herbert Gantschacher",
+                "username": "ArbosTheatre",
+                "id": "604278309",
+                "public_metrics": {
+                    "followers_count": 48,
+                    "following_count": 7,
+                    "tweet_count": 26612,
+                    "listed_count": 1
+                },
+                "description": "http://t.co/QCijXK4J\r\nhttp://t.co/OwYAlRUE"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-02-17T05:19:07.000Z",
+                "name": "Discovernauts News - Deutsch",
+                "username": "discovernauts_d",
+                "id": "1229273843304255489",
+                "public_metrics": {
+                    "followers_count": 28,
+                    "following_count": 2,
+                    "tweet_count": 21006,
+                    "listed_count": 1
+                },
+                "description": "Deine Premium-Quelle für die besten Reiseideen, Reiseziele & Reisenachrichten aus dem Netz. Besuche auch unseren Reise-Blog auf https://t.co/BuRREYzK4e"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-12T14:08:41.000Z",
+                "name": "Mark 🕶 🇺🇸",
+                "username": "mark_w21",
+                "id": "1260210245500055553",
+                "public_metrics": {
+                    "followers_count": 266,
+                    "following_count": 505,
+                    "tweet_count": 14420,
+                    "listed_count": 0
+                },
+                "description": "you’re likely here because you’re facing some truth and you’re upset about it. \n\nhe/him 👈 let me guess… this makes you mad too?"
+            },
+            {
+                "verified": true,
+                "created_at": "2021-01-13T00:57:47.000Z",
+                "name": "Jill Biden",
+                "username": "FLOTUS",
+                "id": "1349154719386775552",
+                "public_metrics": {
+                    "followers_count": 3508030,
+                    "following_count": 5,
+                    "tweet_count": 278,
+                    "listed_count": 4561
+                },
+                "description": "First Lady of the United States Jill Biden. Community college educator. Military mother. Grandmother. Wife of @POTUS."
+            },
+            {
+                "verified": false,
+                "created_at": "2009-06-20T16:25:07.000Z",
+                "name": "👤☕🥨 Sonnengott",
+                "username": "virchow_de",
+                "id": "49046312",
+                "public_metrics": {
+                    "followers_count": 509,
+                    "following_count": 293,
+                    "tweet_count": 57711,
+                    "listed_count": 1
+                },
+                "description": "\"Falls Freiheit überhaupt etwas bedeutet, dann das Recht darauf, den Leuten das zu sagen, was sie nicht hören wollen.\"\n\nGeorge Orwell\n\nhttps://t.co/J6FO7B0bpz…"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-04-19T02:28:24.000Z",
+                "name": "#CrimeaIsUkraine 🇺🇦 Crimea is Ukraine",
+                "username": "SWYGAntiMPrty",
+                "id": "1383970680576778240",
+                "public_metrics": {
+                    "followers_count": 144,
+                    "following_count": 726,
+                    "tweet_count": 2937,
+                    "listed_count": 4
+                },
+                "description": "#CrimeaIsUkraine 🇺🇦🇺🇸🤜🏻🤛🏻  Solidarity with Poland Free Eastern Europe and Free Western Europe from Russian Influence"
+            },
+            {
+                "verified": false,
+                "created_at": "2015-11-25T10:55:15.000Z",
+                "name": "Annette Bulut",
+                "username": "annette_bulut",
+                "id": "4273724428",
+                "public_metrics": {
+                    "followers_count": 2195,
+                    "following_count": 1367,
+                    "tweet_count": 31405,
+                    "listed_count": 17
+                },
+                "description": "mother, author, journalist\n(Dipl.-Journ. mit Rundfunkausbildung)"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-05-02T14:37:11.000Z",
+                "name": "World Travel Index News - Deutsch",
+                "username": "Wtravelindex_d",
+                "id": "1256593481973354497",
+                "public_metrics": {
+                    "followers_count": 34,
+                    "following_count": 2,
+                    "tweet_count": 21007,
+                    "listed_count": 0
+                },
+                "description": "Deine Premium-Quelle für die besten Reiseideen, Reiseziele & Reisenachrichten aus dem Netz. Besuche auch unsere Webseite auf https://t.co/iBYvpFmHrB"
+            },
+            {
+                "verified": false,
+                "created_at": "2020-08-15T10:10:02.000Z",
+                "name": "Krus & Stern",
+                "username": "krus_stern",
+                "id": "1294576949738844161",
+                "public_metrics": {
+                    "followers_count": 647,
+                    "following_count": 799,
+                    "tweet_count": 8043,
+                    "listed_count": 13
+                },
+                "description": "Politik und Zeitkritik. \nNachrichten, Hintergründe und Kommentare zu Europa🇪🇺, Ukraine🇺🇦, Deutschland🇩🇪, Russland."
+            },
+            {
+                "verified": false,
+                "created_at": "2020-04-06T21:28:17.000Z",
+                "name": "Zeyno Mol",
+                "username": "__zeyno_____",
+                "id": "1247274798637555712",
+                "public_metrics": {
+                    "followers_count": 2709,
+                    "following_count": 2260,
+                    "tweet_count": 23365,
+                    "listed_count": 10
+                },
+                "description": "Türk, Türkiye sevdalisi, ideolojisi yok ama Emperyalizme sömürüye düsman, Müslüman, Traditionalist ve daima birlikten, huzurdan yana.."
+            },
+            {
+                "verified": false,
+                "created_at": "2016-06-25T18:15:14.000Z",
+                "name": "Daniel Schwiegel",
+                "username": "DanielSchwiegel",
+                "id": "746768728856141828",
+                "public_metrics": {
+                    "followers_count": 49,
+                    "following_count": 132,
+                    "tweet_count": 118,
+                    "listed_count": 0
+                },
+                "description": "Ich bin ein lieber kerl und geb gern mein letztes Hemd aber verarscht man mich das möchtest du dann nicht erleben"
+            },
+            {
+                "verified": true,
+                "created_at": "2009-05-06T10:08:02.000Z",
+                "name": "Olaf Scholz",
+                "username": "OlafScholz",
+                "id": "38150247",
+                "public_metrics": {
+                    "followers_count": 340670,
+                    "following_count": 1438,
+                    "tweet_count": 6484,
+                    "listed_count": 1970
+                },
+                "description": "Hier twittert das Team Olaf Scholz."
+            },
+            {
+                "verified": false,
+                "created_at": "2019-11-16T21:19:38.000Z",
+                "name": "Anita ☮️♏ ✝️",
+                "username": "Felidae69427721",
+                "id": "1195813622628470784",
+                "public_metrics": {
+                    "followers_count": 326,
+                    "following_count": 435,
+                    "tweet_count": 14347,
+                    "listed_count": 2
+                },
+                "description": "Sozial-Liberale Demokratin\nPrivatmensch\n\n°politisch interessiert°profdp\n ° #Fckafd\n\nchaotisch°empathisch°hoffnungslos optimistisch"
+            },
+            {
+                "verified": false,
+                "created_at": "2021-11-01T16:58:33.000Z",
+                "name": "Franzl",
+                "username": "WeidigFr",
+                "id": "1455217411163054082",
+                "public_metrics": {
+                    "followers_count": 33,
+                    "following_count": 62,
+                    "tweet_count": 1498,
+                    "listed_count": 0
+                },
+                "description": "Arbeiter, Sozialist, Antifaschist, Friedensaktivist und Weltbürger.\n\nWas des Volkes Hände schaffen, soll des Volkes eigen sein."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-02-21T10:15:04.000Z",
+                "name": "Gebre Emnetu",
+                "username": "GEmnetu",
+                "id": "1363431842574192640",
+                "public_metrics": {
+                    "followers_count": 10,
+                    "following_count": 0,
+                    "tweet_count": 2159,
+                    "listed_count": 0
+                },
+                "description": ""
+            },
+            {
+                "verified": false,
+                "created_at": "2010-04-29T20:04:00.000Z",
+                "name": "Jacobus Boers",
+                "username": "jfboers",
+                "id": "138523150",
+                "public_metrics": {
+                    "followers_count": 606,
+                    "following_count": 1485,
+                    "tweet_count": 67570,
+                    "listed_count": 23
+                },
+                "description": "International Business Expert, Partnership Development and international management consulting services."
+            },
+            {
+                "verified": false,
+                "created_at": "2021-12-19T06:33:47.000Z",
+                "name": "Peter",
+                "username": "Peter47511843",
+                "id": "1472455014350217220",
+                "public_metrics": {
+                    "followers_count": 0,
+                    "following_count": 9,
+                    "tweet_count": 23,
+                    "listed_count": 0
+                },
+                "description": "Frieden  - Freiheit  - Gerechtigkeit"
+            },
+            {
+                "verified": false,
+                "created_at": "2009-08-28T10:06:44.000Z",
+                "name": "FemokratieBlog",
+                "username": "FemokratieBlog",
+                "id": "69553185",
+                "public_metrics": {
+                    "followers_count": 1451,
+                    "following_count": 1546,
+                    "tweet_count": 45033,
+                    "listed_count": 26
+                },
+                "description": "Unsere Demokratie entwickelt sich zur Femokratie: Politische Instanzen unserer Gesellschaft bevorzugen Frauen, Jungen und Männer werden hingegen benachteiligt"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1474414576540258306",
+        "oldest_id": "1474386478633529353",
+        "result_count": 51,
+        "next_token": "b26v89c19zqg8o3fpe170uv3fh2z1619kvvp0hzwrwpdp"
+    }
+}
