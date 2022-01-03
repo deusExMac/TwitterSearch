@@ -105,3 +105,14 @@
 [02/01/2022 19:57:45] Getting [344] tweets for period [2021-12-29T00:00:00Z] until [2021-12-31T00:00:00Z]
 [02/01/2022 19:58:09] Period [2021-12-29T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due to max period number of tweets [344] reached.
 [02/01/2022 19:58:14] Search finished. 344 downloaded.
+[03/01/2022 10:26:46] Starting search for tweets using query [search omicron lang:en from:31/12/2021 until:2/1/2022].
+[03/01/2022 10:26:46] Getting [405] tweets for period [2021-12-31T00:00:00Z] until [2022-02-01T00:00:00Z]
+[03/01/2022 10:26:46] Period [2021-12-31T00:00:00Z - 2022-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"end_time":["2022-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2022-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[03/01/2022 10:28:03] Starting search for tweets using query [search omicron lang:en from:31/12/2021 until:1/2/2022].
+[03/01/2022 10:28:03] Getting [405] tweets for period [2021-12-31T00:00:00Z] until [2022-01-02T00:00:00Z]
+[03/01/2022 10:28:32] Period [2021-12-31T00:00:00Z - 2022-01-02T00:00:00Z] Stopping due to max period number of tweets [405] reached.
+[03/01/2022 10:28:37] Search finished. 405 downloaded.
+[03/01/2022 10:31:56] Starting search for tweets using query [search cases lang:en from:31/12/2021 until:2/1/2022].
+[03/01/2022 10:31:56] Getting [34] tweets for period [2021-12-31T00:00:00Z] until [2022-01-02T00:00:00Z]
+[03/01/2022 10:31:59] Period [2021-12-31T00:00:00Z - 2022-01-02T00:00:00Z] Stopping due to max period number of tweets [34] reached.
+[03/01/2022 10:32:04] Search finished. 34 downloaded.
