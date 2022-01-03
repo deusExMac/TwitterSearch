@@ -13,3 +13,5 @@ In order for the program to search and fetch tweets properly, you need to create
 # Other related projects
 
 [TweetScraper](https://github.com/jonbakerfish/TweetScraper)
+[Tweepy](https://www.tweepy.org/)
+[Selenium based web scrapers](https://medium.com/@wyfok/web-scrape-twitter-by-python-selenium-part-1-b3e2db29051d)
