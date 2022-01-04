@@ -15,3 +15,8 @@ In order for the program to search and fetch tweets properly, you need to create
 - [TweetScraper](https://github.com/jonbakerfish/TweetScraper)
 - [Tweepy](https://www.tweepy.org/)
 - [Selenium based web scrapers](https://medium.com/@wyfok/web-scrape-twitter-by-python-selenium-part-1-b3e2db29051d)
+
+# Acknowledgement
+
+The code developed in this repository was based on the source code presented in the following article:
+https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
