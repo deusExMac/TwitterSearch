@@ -459,7 +459,7 @@ while True:
        # clear periods
        targetPeriods = []
        
-    elif cParts[0].lower() == "quit":
+    elif cParts[0].lower() == "quit" or cParts[0].lower() == "q":
          break
     elif cParts[0].lower() == "config" or cParts[0].lower() == "settings":
          displayConfigSettings(configSettings)
