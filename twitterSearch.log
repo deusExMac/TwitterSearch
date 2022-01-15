@@ -137,3 +137,55 @@
 [15/01/2022 19:00:18] Getting [700] tweets for period [2016-05-20T00:00:00Z] until [2016-12-05T00:00:00Z]
 [15/01/2022 19:01:10] Period [2016-05-20T00:00:00Z - 2016-12-05T00:00:00Z] Stopping due to max period number of tweets [700] reached.
 [15/01/2022 19:01:16] Search finished. 700 downloaded.
+[15/01/2022 19:17:43] Starting search for tweets using query [search galiatsatou lang:el from:12/12/2019 until:3/5/2020 -is:retweed].
+[15/01/2022 19:17:43] Getting [700] tweets for period [2019-12-12T00:00:00Z] until [2020-05-03T00:00:00Z]
+[15/01/2022 19:17:44] Period [2019-12-12T00:00:00Z - 2020-05-03T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":["galiatsatou -is:retweed lang:el"]},"message":"There were errors processing your request: Reference to invalid operator \'is:retweed\'. Operator is not available in current product or product packaging. Please refer to complete available operator list at http://t.co/operators. (at position 17)"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 19:18:46] Starting search for tweets using query [search galiatsatou lang:el from:12/12/2019 until:23/1/2020 -is:retweed].
+[15/01/2022 19:18:46] Getting [700] tweets for period [2019-12-12T00:00:00Z] until [2020-01-23T00:00:00Z]
+[15/01/2022 19:18:47] Period [2019-12-12T00:00:00Z - 2020-01-23T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":["galiatsatou -is:retweed lang:el"]},"message":"There were errors processing your request: Reference to invalid operator \'is:retweed\'. Operator is not available in current product or product packaging. Please refer to complete available operator list at http://t.co/operators. (at position 17)"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 19:20:02] Starting search for tweets using query [search galiatsatou lang:el from:12/12/2019 until:23/1/2020 -is:retweed].
+[15/01/2022 19:20:02] Getting [700] tweets for period [2019-12-12T00:00:00Z] until [2020-01-23T00:00:00Z]
+[15/01/2022 19:20:03] Period [2019-12-12T00:00:00Z - 2020-01-23T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":["galiatsatou -is:retweed lang:el"]},"message":"There were errors processing your request: Reference to invalid operator \'is:retweed\'. Operator is not available in current product or product packaging. Please refer to complete available operator list at http://t.co/operators. (at position 17)"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 19:20:35] Starting search for tweets using query [search galiatsatou lang:el from:12/12/2019 until:23/1/2020].
+[15/01/2022 19:20:35] Getting [700] tweets for period [2019-12-12T00:00:00Z] until [2020-01-23T00:00:00Z]
+[15/01/2022 19:20:36] Period [2019-12-12T00:00:00Z - 2020-01-23T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:20:41] Search finished. 3 downloaded.
+[15/01/2022 19:21:13] Starting search for tweets using query [search galiatsatou lang:el from:12/12/2019 until:23/1/2020 -is:retweed].
+[15/01/2022 19:21:13] Getting [700] tweets for period [2019-12-12T00:00:00Z] until [2020-01-23T00:00:00Z]
+[15/01/2022 19:21:14] Period [2019-12-12T00:00:00Z - 2020-01-23T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":["galiatsatou -is:retweed lang:el"]},"message":"There were errors processing your request: Reference to invalid operator \'is:retweed\'. Operator is not available in current product or product packaging. Please refer to complete available operator list at http://t.co/operators. (at position 17)"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 19:21:28] Starting search for tweets using query [search galiatsatou lang:el from:12/12/2019 until:23/1/2020].
+[15/01/2022 19:21:28] Getting [700] tweets for period [2019-12-12T00:00:00Z] until [2020-01-23T00:00:00Z]
+[15/01/2022 19:21:29] Period [2019-12-12T00:00:00Z - 2020-01-23T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:21:34] Search finished. 3 downloaded.
+[15/01/2022 19:22:00] Starting search for tweets using query [search γαλιατσάτου lang:el from:12/12/2018 until:23/1/2020].
+[15/01/2022 19:22:00] Getting [700] tweets for period [2018-12-12T00:00:00Z] until [2020-01-23T00:00:00Z]
+[15/01/2022 19:22:23] Period [2018-12-12T00:00:00Z - 2020-01-23T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:22:28] Search finished. 389 downloaded.
+[15/01/2022 19:24:18] Starting search for tweets using query [search γαλιατσάτου from:3/4/2017 until:1/1/2018].
+[15/01/2022 19:24:18] Getting [700] tweets for period [2017-04-03T00:00:00Z] until [2018-01-01T00:00:00Z]
+[15/01/2022 19:24:25] Period [2017-04-03T00:00:00Z - 2018-01-01T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:24:31] Search finished. 148 downloaded.
+[15/01/2022 19:25:10] Starting search for tweets using query [search sonia galiatsatou from:3/4/2017 until:1/1/2018].
+[15/01/2022 19:25:10] Getting [700] tweets for period [2017-04-03T00:00:00Z] until [2018-01-01T00:00:00Z]
+[15/01/2022 19:25:10] Period [2017-04-03T00:00:00Z - 2018-01-01T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:25:15] Search finished. 0 downloaded.
+[15/01/2022 19:25:30] Starting search for tweets using query [search dionygal from:3/4/2017 until:1/1/2018].
+[15/01/2022 19:25:30] Getting [700] tweets for period [2017-04-03T00:00:00Z] until [2018-01-01T00:00:00Z]
+[15/01/2022 19:25:32] Period [2017-04-03T00:00:00Z - 2018-01-01T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:25:37] Search finished. 0 downloaded.
+[15/01/2022 19:25:48] Starting search for tweets using query [search bitcoin from:3/4/2017 until:1/1/2018].
+[15/01/2022 19:25:48] Getting [700] tweets for period [2017-04-03T00:00:00Z] until [2018-01-01T00:00:00Z]
+[15/01/2022 19:26:38] Period [2017-04-03T00:00:00Z - 2018-01-01T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[15/01/2022 19:26:43] Search finished. 700 downloaded.
+[15/01/2022 19:29:06] Starting search for tweets using query [search bitcoin  lang:en from:1/1/2015 until:4/5/2019 -is:retweet].
+[15/01/2022 19:29:06] Getting [700] tweets for period [2015-01-01T00:00:00Z] until [2019-05-04T00:00:00Z]
+[15/01/2022 19:29:58] Period [2015-01-01T00:00:00Z - 2019-05-04T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[15/01/2022 19:30:03] Search finished. 700 downloaded.
+[15/01/2022 19:33:05] Starting search for tweets using query [search etherium from:3/3/2018 until:5/5/2020 -is:retweet].
+[15/01/2022 19:33:05] Getting [700] tweets for period [2018-03-03T00:00:00Z] until [2020-05-05T00:00:00Z]
+[15/01/2022 19:33:06] Period [2018-03-03T00:00:00Z - 2020-05-05T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:33:11] Search finished. 8 downloaded.
+[15/01/2022 19:33:41] Starting search for tweets using query [search ethereum from:3/3/2018 until:5/5/2020 -is:retweet].
+[15/01/2022 19:33:41] Getting [700] tweets for period [2018-03-03T00:00:00Z] until [2020-05-05T00:00:00Z]
+[15/01/2022 19:33:46] Period [2018-03-03T00:00:00Z - 2020-05-05T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 19:33:51] Search finished. 195 downloaded.

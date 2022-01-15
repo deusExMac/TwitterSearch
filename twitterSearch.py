@@ -247,13 +247,19 @@ def searchTweets(q, datePeriods=None, cfg=None):
               print(str(ex))
               sys.exit("\nFaral error. Terminating. Sorry.\n")
 
-           print(".", end="")
-           
+                      
            result_count = json_response['meta']['result_count']
+           
+              
            if result_count is not None and result_count > 0:
               twWritten = append_to_csv(json_response, cfg.get('Storage', 'csvFile', fallback="data.csv"), cfg.get('Storage', 'csvSeparator', fallback=','), cfg.get('Storage', 'excludeTweetsType', fallback=' '), count, max_count)
               count += twWritten              
               total_tweets += twWritten
+              if cfg.getboolean('Debug', 'showProgress', fallback=False):
+                print("(f:", result_count, ", t:", total_tweets, ")", sep="", end="")
+              else:
+                print(".", end="")
+              
               #print("(S:", twWritten, "/",result_count, ")", end="")
 
            if 'next_token' in json_response['meta']:
