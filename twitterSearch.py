@@ -291,14 +291,14 @@ def parseSearchQuery(qList):
         elif tk.lower().startswith('from:'):
             try:
                dtStr = tk[5:].replace('@', ' ') 
-               qryParams['from'] = dateutil.parser.parse(dtStr).isoformat() + 'Z'
+               qryParams['from'] = dateutil.parser.parse(dtStr, dayfirst=True).isoformat() + 'Z'
             except:
                print("Invalid from date") 
                return(None) 
         elif tk.lower().startswith('until:'):
            try:
               dtStr = tk[6:].replace('@', ' ')  
-              qryParams['until'] = dateutil.parser.parse(dtStr).isoformat() + 'Z'
+              qryParams['until'] = dateutil.parser.parse(dtStr, dayfirst=True).isoformat() + 'Z'
            except:
                print("Invalid to date")
                return(None)

@@ -120,3 +120,20 @@
 [06/01/2022 22:17:57] Search finished. 0 downloaded.
 [06/01/2022 22:18:51] Starting search for tweets using query [search fuck you from 4/1/2022 until:5/1/2022 lang:de].
 [06/01/2022 22:18:51] Search finished. 0 downloaded.
+[15/01/2022 18:53:00] Starting search for tweets using query [search manolis lang:en from:20/05/2016 until:5/12/2016 -is:retweet].
+[15/01/2022 18:53:00] Getting [700] tweets for period [2016-05-20T00:00:00Z] until [2016-05-12T00:00:00Z]
+[15/01/2022 18:53:01] Period [2016-05-20T00:00:00Z - 2016-05-12T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2016-05-20T00:00Z"],"end_time":["2016-05-12T00:00Z"]},"message":"Invalid \'start_time\':\'2016-05-20T00:00Z\'. \'start_time\' must be before \'end_time\':2016-05-12T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 18:55:03] Starting search for tweets using query [search manolis lang:en from:20/05/2016 until:5/12/2016 -is:retweet].
+[15/01/2022 18:55:03] Getting [700] tweets for period [2016-05-20T00:00:00Z] until [2016-05-12T00:00:00Z]
+[15/01/2022 18:55:03] Period [2016-05-20T00:00:00Z - 2016-05-12T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2016-05-20T00:00Z"],"end_time":["2016-05-12T00:00Z"]},"message":"Invalid \'start_time\':\'2016-05-20T00:00Z\'. \'start_time\' must be before \'end_time\':2016-05-12T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 18:56:25] Starting search for tweets using query [search manolis lang:en from:20/05/2016 until:25/05/2016 -is:retweet].
+[15/01/2022 18:56:25] Getting [700] tweets for period [2016-05-20T00:00:00Z] until [2016-05-25T00:00:00Z]
+[15/01/2022 18:56:26] Period [2016-05-20T00:00:00Z - 2016-05-25T00:00:00Z] Stopping due no more next tokens.
+[15/01/2022 18:56:31] Search finished. 29 downloaded.
+[15/01/2022 18:56:51] Starting search for tweets using query [search manolis lang:en from:20/05/2016 until:1/06/2016 -is:retweet].
+[15/01/2022 18:56:51] Getting [700] tweets for period [2016-05-20T00:00:00Z] until [2016-01-06T00:00:00Z]
+[15/01/2022 18:56:51] Period [2016-05-20T00:00:00Z - 2016-01-06T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2016-05-20T00:00Z"],"end_time":["2016-01-06T00:00Z"]},"message":"Invalid \'start_time\':\'2016-05-20T00:00Z\'. \'start_time\' must be before \'end_time\':2016-01-06T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[15/01/2022 19:00:18] Starting search for tweets using query [search manolis lang:en from:20/05/2016 until:5/12/2016 -is:retweet].
+[15/01/2022 19:00:18] Getting [700] tweets for period [2016-05-20T00:00:00Z] until [2016-12-05T00:00:00Z]
+[15/01/2022 19:01:10] Period [2016-05-20T00:00:00Z - 2016-12-05T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[15/01/2022 19:01:16] Search finished. 700 downloaded.
