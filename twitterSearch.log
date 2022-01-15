@@ -116,3 +116,7 @@
 [03/01/2022 10:31:56] Getting [34] tweets for period [2021-12-31T00:00:00Z] until [2022-01-02T00:00:00Z]
 [03/01/2022 10:31:59] Period [2021-12-31T00:00:00Z - 2022-01-02T00:00:00Z] Stopping due to max period number of tweets [34] reached.
 [03/01/2022 10:32:04] Search finished. 34 downloaded.
+[06/01/2022 22:17:57] Starting search for tweets using query [search fuck you].
+[06/01/2022 22:17:57] Search finished. 0 downloaded.
+[06/01/2022 22:18:51] Starting search for tweets using query [search fuck you from 4/1/2022 until:5/1/2022 lang:de].
+[06/01/2022 22:18:51] Search finished. 0 downloaded.

@@ -6,6 +6,7 @@
 #
 # v0.4b mmtrd31/12/2021
 
+import nltk
 
 #For sending REST requests to the API Endpoint
 import requests
@@ -32,6 +33,7 @@ import configparser
 import os.path
 
 import pprint
+import argparse
 
 # We define constants in this file
 import appConstants
@@ -289,14 +291,14 @@ def parseSearchQuery(qList):
         elif tk.lower().startswith('from:'):
             try:
                dtStr = tk[5:].replace('@', ' ') 
-               qryParams['from'] = dateutil.parser.parse(dtStr, dayfirst=True).isoformat() + 'Z'
+               qryParams['from'] = dateutil.parser.parse(dtStr).isoformat() + 'Z'
             except:
                print("Invalid from date") 
                return(None) 
         elif tk.lower().startswith('until:'):
            try:
               dtStr = tk[6:].replace('@', ' ')  
-              qryParams['until'] = dateutil.parser.parse(dtStr, dayfirst=True).isoformat() + 'Z'
+              qryParams['until'] = dateutil.parser.parse(dtStr).isoformat() + 'Z'
            except:
                print("Invalid to date")
                return(None)
@@ -343,14 +345,34 @@ def printHelp():
     print("\t* clearperiods : clear all periods")
     
     print("\t* history : a list of previous commands (command history list) given using the interface (for reuse).")
-    print("\t* !<index/position in command history list> : execute command at position <index/position> in the command history list. ")
+    print("\t* !<index> : execute command at position <index> in the command history list. ")
     print("\t* quit : Terminate application and quit.")
     
     print("\t* help : This screen.")
     print("")
 
 
+#
+# IGNORE THIS if you are NOT A MacOS user
+#
+#sys.argv = [sys.argv[0], '-c', 'sensitiveFiles/twitterSearch.conf']
 
+
+######################################################################
+#
+# Program starts here
+#
+######################################################################
+
+
+cmdArgParser = argparse.ArgumentParser(description='Command line arguments')
+cmdArgParser.add_argument('-c', '--config',   default=appConstants.DEFAULTCONFIGFILE)
+args = vars( cmdArgParser.parse_args() )
+
+# Config file that will be used
+configFile = args['config']
+
+      
 print("")        
 print('v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
 
@@ -358,18 +380,19 @@ print('v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
 #       have special meaning for the ConfigParser class
 configSettings = configparser.RawConfigParser(allow_no_value=True)
 
+ 
+
+
 # Check default config file
-if os.path.exists(appConstants.DEFAULTCONFIGFILE):    
-   configSettings.read(appConstants.DEFAULTCONFIGFILE)
+if os.path.exists(configFile):    
+   configSettings.read(configFile)
    configSettings.add_section('__Runtime')
-   configSettings['__Runtime']['__configSource'] = appConstants.DEFAULTCONFIGFILE
-   print("Loaded configuration file ", appConstants.DEFAULTCONFIGFILE, sep="")
+   configSettings['__Runtime']['__configSource'] = configFile
+   print("Loaded configuration file ", configFile, sep="")
 else:
    configSettings.add_section('__Runtime')
    configSettings['__Runtime']['__configSource'] = ''
-   print("Configuration file [", appConstants.DEFAULTCONFIGFILE, "] not found. Continuing with default settings.", sep="")
-
-
+   print("Configuration file [", configFile, "] not found. Continuing with default settings.", sep="")
 
 
     
