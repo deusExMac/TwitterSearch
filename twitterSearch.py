@@ -139,10 +139,12 @@ def append_to_csv(json_response, fileName, sep, extypes, nTweets = 0, mxTweets =
         created_at = dateutil.parser.parse(tweet['created_at'])
 
         # 3. Geolocation
-        if ('geo' in tweet):   
-            geo = tweet['geo']['place_id']
-        else:
-            geo = " "
+        geo = " "
+        if ('geo' in tweet):
+            if 'place_id' in tweet['geo']:
+                geo = tweet['geo']['place_id']
+        
+            
 
         # 4. Tweet ID
         tweet_id = tweet['id']

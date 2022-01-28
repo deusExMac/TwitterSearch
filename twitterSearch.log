@@ -189,3 +189,38 @@
 [15/01/2022 19:33:41] Getting [700] tweets for period [2018-03-03T00:00:00Z] until [2020-05-05T00:00:00Z]
 [15/01/2022 19:33:46] Period [2018-03-03T00:00:00Z - 2020-05-05T00:00:00Z] Stopping due no more next tokens.
 [15/01/2022 19:33:51] Search finished. 195 downloaded.
+[28/01/2022 19:59:08] Starting search for tweets using query [search manolis from:1/1/2010 until:10/10/2010 lang:en].
+[28/01/2022 19:59:08] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-10-10T00:00:00Z]
+[28/01/2022 20:00:48] Starting search for tweets using query [search porn from:3/4/2012 until:5/6/2012 lang:en].
+[28/01/2022 20:00:48] Getting [700] tweets for period [2012-04-03T00:00:00Z] until [2012-06-05T00:00:00Z]
+[28/01/2022 20:01:17] Period [2012-04-03T00:00:00Z - 2012-06-05T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[28/01/2022 20:01:22] Search finished. 700 downloaded.
+[28/01/2022 20:02:09] Starting search for tweets using query [search porn from:1/1/2010 until:5/6/2012 lang:en].
+[28/01/2022 20:02:09] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2012-06-05T00:00:00Z]
+[28/01/2022 20:02:38] Starting search for tweets using query [search manolis from:1/1/2010 until:10/10/2010 lang:en].
+[28/01/2022 20:02:38] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-10-10T00:00:00Z]
+[28/01/2022 20:02:38] Period [2010-01-01T00:00:00Z - 2010-10-10T00:00:00Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[28/01/2022 20:04:15] Starting search for tweets using query [search manolis from:1/1/2010 until:30/1/2010 lang:en].
+[28/01/2022 20:04:15] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-01-30T00:00:00Z]
+[28/01/2022 20:04:16] Period [2010-01-01T00:00:00Z - 2010-01-30T00:00:00Z] Stopping due no more next tokens.
+[28/01/2022 20:04:21] Search finished. 57 downloaded.
+[28/01/2022 20:04:36] Starting search for tweets using query [search manolis from:1/1/2010 until:1/2/2010 lang:en].
+[28/01/2022 20:04:36] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-02-01T00:00:00Z]
+[28/01/2022 20:04:38] Period [2010-01-01T00:00:00Z - 2010-02-01T00:00:00Z] Stopping due no more next tokens.
+[28/01/2022 20:04:43] Search finished. 61 downloaded.
+[28/01/2022 20:05:01] Starting search for tweets using query [search manolis from:1/1/2010 until:1/7/2010 lang:en].
+[28/01/2022 20:05:01] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-07-01T00:00:00Z]
+[28/01/2022 20:05:24] Period [2010-01-01T00:00:00Z - 2010-07-01T00:00:00Z] Stopping due no more next tokens.
+[28/01/2022 20:05:29] Search finished. 679 downloaded.
+[28/01/2022 20:05:42] Starting search for tweets using query [search manolis from:1/1/2010 until:1/9/2010 lang:en].
+[28/01/2022 20:05:42] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-09-01T00:00:00Z]
+[28/01/2022 20:06:08] Period [2010-01-01T00:00:00Z - 2010-09-01T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[28/01/2022 20:06:14] Search finished. 700 downloaded.
+[28/01/2022 20:06:31] Starting search for tweets using query [search manolis from:1/1/2010 until:1/10/2010 lang:en].
+[28/01/2022 20:06:31] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-10-01T00:00:00Z]
+[28/01/2022 20:10:10] Starting search for tweets using query [search manolis from:1/1/2010 until:1/10/2010 lang:en].
+[28/01/2022 20:10:10] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-10-01T00:00:00Z]
+[28/01/2022 20:29:15] Starting search for tweets using query [search manolis from:1/1/2010 until:1/10/2010 lang:en].
+[28/01/2022 20:29:15] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-10-01T00:00:00Z]
+[28/01/2022 20:29:42] Period [2010-01-01T00:00:00Z - 2010-10-01T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[28/01/2022 20:29:47] Search finished. 700 downloaded.
