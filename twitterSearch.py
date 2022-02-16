@@ -532,6 +532,11 @@ while True:
             print("addperiod from:<date> until:<to> step:XDXHXMXS")
             continue
 
+
+         if dt['from'] == '' or dt['until'] == '':
+            print("addperiod from:<date> until:<to> step:XDXHXMXS")
+            continue
+             
          print("Adding period range [", dt['from'], " - ", dt["until"], "] step", dt['stepD'], "days", dt['stepH'], "hours", dt['stepM'], "minutes", dt['stepS'], "seconds") 
                 
          if dt['stepD'] == 0 and dt['stepH'] == 0 and dt['stepM'] == 0 and dt['stepS'] == 0:
