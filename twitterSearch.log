@@ -224,3 +224,95 @@
 [28/01/2022 20:29:15] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-10-01T00:00:00Z]
 [28/01/2022 20:29:42] Period [2010-01-01T00:00:00Z - 2010-10-01T00:00:00Z] Stopping due to max period number of tweets [700] reached.
 [28/01/2022 20:29:47] Search finished. 700 downloaded.
+[15/02/2022 18:38:27] Starting search for tweets using query [search greece lang:en].
+[15/02/2022 18:38:27] Getting [700] tweets for period [2010-01-01T00:00:00Z] until [2010-02-01T00:00:00Z]
+[15/02/2022 18:38:57] Period [2010-01-01T00:00:00Z - 2010-02-01T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[15/02/2022 18:39:02] Getting [700] tweets for period [2010-03-01T00:00:00Z] until [2010-04-01T00:00:00Z]
+[15/02/2022 18:39:33] Period [2010-03-01T00:00:00Z - 2010-04-01T00:00:00Z] Stopping due to max period number of tweets [700] reached.
+[15/02/2022 18:39:38] Search finished. 1400 downloaded.
+[16/02/2022 11:53:19] Starting search for tweets using query [search eros lang:en].
+[16/02/2022 11:53:19] Getting [700] tweets for period [2022-02-14T08:04:06Z] until [2022-02-15T11:04:15Z]
+[16/02/2022 11:53:49] Period [2022-02-14T08:04:06Z - 2022-02-15T11:04:15Z] Stopping due to max period number of tweets [700] reached.
+[16/02/2022 11:53:54] Search finished. 700 downloaded.
+[16/02/2022 11:55:43] Starting search for tweets using query [search eros lang:en].
+[16/02/2022 11:55:43] Getting [700] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T11:04:15Z]
+[16/02/2022 11:55:55] Period [2022-02-14T08:04:06Z - 2022-02-14T11:04:15Z] Stopping due no more next tokens.
+[16/02/2022 11:56:00] Getting [700] tweets for period [2022-02-14T11:04:16Z] until [2022-02-14T14:04:25Z]
+[16/02/2022 11:56:20] Period [2022-02-14T11:04:16Z - 2022-02-14T14:04:25Z] Stopping due no more next tokens.
+[16/02/2022 11:56:25] Getting [700] tweets for period [2022-02-14T14:04:26Z] until [2022-02-14T17:04:35Z]
+[16/02/2022 11:56:44] Period [2022-02-14T14:04:26Z - 2022-02-14T17:04:35Z] Stopping due no more next tokens.
+[16/02/2022 11:56:49] Getting [700] tweets for period [2022-02-14T17:04:36Z] until [2022-02-14T20:04:45Z]
+[16/02/2022 11:57:09] Period [2022-02-14T17:04:36Z - 2022-02-14T20:04:45Z] Stopping due no more next tokens.
+[16/02/2022 11:57:14] Getting [700] tweets for period [2022-02-14T20:04:46Z] until [2022-02-14T23:04:55Z]
+[16/02/2022 11:57:34] Period [2022-02-14T20:04:46Z - 2022-02-14T23:04:55Z] Stopping due no more next tokens.
+[16/02/2022 11:57:39] Getting [700] tweets for period [2022-02-14T23:04:56Z] until [2022-02-15T02:05:05Z]
+[16/02/2022 11:57:54] Period [2022-02-14T23:04:56Z - 2022-02-15T02:05:05Z] Stopping due no more next tokens.
+[16/02/2022 11:57:59] Getting [700] tweets for period [2022-02-15T02:05:06Z] until [2022-02-15T05:05:15Z]
+[16/02/2022 11:58:10] Period [2022-02-15T02:05:06Z - 2022-02-15T05:05:15Z] Stopping due no more next tokens.
+[16/02/2022 11:58:16] Getting [700] tweets for period [2022-02-15T05:05:16Z] until [2022-02-15T08:05:25Z]
+[16/02/2022 11:58:23] Period [2022-02-15T05:05:16Z - 2022-02-15T08:05:25Z] Stopping due no more next tokens.
+[16/02/2022 11:58:28] Getting [700] tweets for period [2022-02-15T08:05:26Z] until [2022-02-15T11:05:35Z]
+[16/02/2022 11:58:36] Period [2022-02-15T08:05:26Z - 2022-02-15T11:05:35Z] Stopping due no more next tokens.
+[16/02/2022 11:58:41] Search finished. 3746 downloaded.
+[16/02/2022 12:04:12] Starting search for tweets using query [search love lang:en].
+[16/02/2022 12:04:12] Getting [700] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T10:04:05Z]
+[16/02/2022 12:04:42] Period [2022-02-14T08:04:06Z - 2022-02-14T10:04:05Z] Stopping due to max period number of tweets [700] reached.
+[16/02/2022 12:04:47] Getting [700] tweets for period [2022-02-14T10:04:06Z] until [2022-02-14T12:04:05Z]
+[16/02/2022 12:05:17] Period [2022-02-14T10:04:06Z - 2022-02-14T12:04:05Z] Stopping due to max period number of tweets [700] reached.
+[16/02/2022 12:05:22] Search finished. 1400 downloaded.
+[16/02/2022 12:07:14] Starting search for tweets using query [search hate lang:en].
+[16/02/2022 12:07:14] Getting [21] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T10:04:05Z]
+[16/02/2022 12:07:17] Period [2022-02-14T08:04:06Z - 2022-02-14T10:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:07:22] Getting [21] tweets for period [2022-02-14T10:04:06Z] until [2022-02-14T12:04:05Z]
+[16/02/2022 12:07:27] Period [2022-02-14T10:04:06Z - 2022-02-14T12:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:07:32] Getting [21] tweets for period [2022-02-14T12:04:06Z] until [2022-02-14T13:30:11Z]
+[16/02/2022 12:07:36] Period [2022-02-14T12:04:06Z - 2022-02-14T13:30:11Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:07:41] Search finished. 63 downloaded.
+[16/02/2022 12:17:44] Starting search for tweets using query [search love lang:en].
+[16/02/2022 12:17:44] Getting [21] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T10:04:05Z]
+[16/02/2022 12:17:48] Period [2022-02-14T08:04:06Z - 2022-02-14T10:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:17:53] Getting [21] tweets for period [2022-02-14T10:04:06Z] until [2022-02-14T12:04:05Z]
+[16/02/2022 12:17:56] Period [2022-02-14T10:04:06Z - 2022-02-14T12:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:18:02] Getting [21] tweets for period [2022-02-14T12:04:06Z] until [2022-02-14T13:30:11Z]
+[16/02/2022 12:18:05] Period [2022-02-14T12:04:06Z - 2022-02-14T13:30:11Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:18:11] Search finished. 63 downloaded.
+[16/02/2022 12:20:49] Starting search for tweets using query [search flowers lang:el].
+[16/02/2022 12:20:49] Getting [21] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T13:30:11Z]
+[16/02/2022 12:20:50] Period [2022-02-14T08:04:06Z - 2022-02-14T13:30:11Z] Stopping due no more next tokens.
+[16/02/2022 12:20:55] Search finished. 21 downloaded.
+[16/02/2022 12:25:25] Starting search for tweets using query [search flowers lang:en].
+[16/02/2022 12:25:25] Getting [21] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T09:04:05Z]
+[16/02/2022 12:25:28] Period [2022-02-14T08:04:06Z - 2022-02-14T09:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:25:34] Getting [21] tweets for period [2022-02-14T09:04:06Z] until [2022-02-14T10:04:05Z]
+[16/02/2022 12:25:37] Period [2022-02-14T09:04:06Z - 2022-02-14T10:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:25:42] Getting [21] tweets for period [2022-02-14T10:04:06Z] until [2022-02-14T11:04:05Z]
+[16/02/2022 12:25:46] Period [2022-02-14T10:04:06Z - 2022-02-14T11:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:25:51] Getting [21] tweets for period [2022-02-14T11:04:06Z] until [2022-02-14T12:04:05Z]
+[16/02/2022 12:25:55] Period [2022-02-14T11:04:06Z - 2022-02-14T12:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:26:00] Getting [21] tweets for period [2022-02-14T12:04:06Z] until [2022-02-14T13:04:05Z]
+[16/02/2022 12:26:04] Period [2022-02-14T12:04:06Z - 2022-02-14T13:04:05Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:26:10] Getting [21] tweets for period [2022-02-14T13:04:06Z] until [2022-02-14T13:30:11Z]
+[16/02/2022 12:26:13] Period [2022-02-14T13:04:06Z - 2022-02-14T13:30:11Z] Stopping due to max period number of tweets [21] reached.
+[16/02/2022 12:26:18] Search finished. 126 downloaded.
+[16/02/2022 12:26:58] Starting search for tweets using query [search love lang:el].
+[16/02/2022 12:26:58] Getting [21000] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T10:04:05Z]
+[16/02/2022 12:27:01] Period [2022-02-14T08:04:06Z - 2022-02-14T10:04:05Z] Stopping due no more next tokens.
+[16/02/2022 12:27:06] Getting [21000] tweets for period [2022-02-14T10:04:06Z] until [2022-02-14T12:04:05Z]
+[16/02/2022 12:27:07] Period [2022-02-14T10:04:06Z - 2022-02-14T12:04:05Z] Stopping due no more next tokens.
+[16/02/2022 12:27:12] Getting [21000] tweets for period [2022-02-14T12:04:06Z] until [2022-02-14T13:30:11Z]
+[16/02/2022 12:27:13] Period [2022-02-14T12:04:06Z - 2022-02-14T13:30:11Z] Stopping due no more next tokens.
+[16/02/2022 12:27:19] Search finished. 219 downloaded.
+[16/02/2022 12:30:42] Starting search for tweets using query [search love lang:en].
+[16/02/2022 12:30:42] Getting [21000] tweets for period [2022-02-14T08:04:06Z] until [2022-02-14T08:04:28Z]
+[16/02/2022 12:41:10] Starting search for tweets using query [search love lang:de].
+[16/02/2022 12:41:10] Getting [70] tweets for period [2022-02-13T00:00:00Z] until [2022-02-13T01:59:59Z]
+[16/02/2022 12:41:11] Period [2022-02-13T00:00:00Z - 2022-02-13T01:59:59Z] Stopping due no more next tokens.
+[16/02/2022 12:41:16] Getting [70] tweets for period [2022-02-13T02:00:00Z] until [2022-02-13T03:59:59Z]
+[16/02/2022 12:41:17] Period [2022-02-13T02:00:00Z - 2022-02-13T03:59:59Z] Stopping due no more next tokens.
+[16/02/2022 12:41:22] Getting [70] tweets for period [2022-02-13T04:00:00Z] until [2022-02-13T05:59:59Z]
+[16/02/2022 12:41:23] Period [2022-02-13T04:00:00Z - 2022-02-13T05:59:59Z] Stopping due no more next tokens.
+[16/02/2022 12:41:28] Getting [70] tweets for period [2022-02-13T06:00:00Z] until [2022-02-13T07:59:59Z]
+[16/02/2022 12:41:29] Period [2022-02-13T06:00:00Z - 2022-02-13T07:59:59Z] Stopping due no more next tokens.
+[16/02/2022 12:41:34] Getting [70] tweets for period [2022-02-13T08:00:00Z] until [2022-02-13T08:05:22Z]
+[16/02/2022 12:41:35] Period [2022-02-13T08:00:00Z - 2022-02-13T08:05:22Z] Stopping due no more next tokens.
+[16/02/2022 12:41:40] Search finished. 250 downloaded.

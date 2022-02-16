@@ -24,7 +24,7 @@ import csv
 # For parsing the dates received from twitter in readable formats
 import datetime
 import dateutil.parser
-from datetime import datetime
+from datetime import datetime, timedelta
 import unicodedata
 #To add wait time between requests
 import time
@@ -227,7 +227,8 @@ def searchTweets(q, datePeriods=None, cfg=None):
         log( configSettings.get('Debug', 'logFile', fallback="app.log") ,
              "Getting [" + cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for period [" + datePeriods[i]['from'] + "] until [" + datePeriods[i]['until'] +"]")
         
-        print(">>> Getting a maximum of [", cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for period [", datePeriods[i]['from'], "] to [", datePeriods[i]['until'], "]", sep="")
+        #print(">>> Getting a maximum of [", cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for period [", datePeriods[i]['from'], "] to [", datePeriods[i]['until'], "]", sep="")
+        print("*** Period [", datePeriods[i]['from'], " - ", datePeriods[i]['until'], "] : Getting a maximum of [", cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
         count = 0 # Counting tweets per time period        
         flag = True
         moreResults = True
@@ -292,7 +293,7 @@ def searchTweets(q, datePeriods=None, cfg=None):
 
 def parseSearchQuery(qList):
     
-    qryParams = {'keywords':'', 'lang':'', 'from':'', 'until':''}
+    qryParams = {'keywords':'', 'lang':'', 'from':'', 'until':'', 'stepD': 0, 'stepH': 0, 'stepM':0, 'stepS':0}
     for tk in qList:
         if tk.lower().startswith('lang:'):
             qryParams['lang'] = tk[5:]
@@ -310,6 +311,40 @@ def parseSearchQuery(qList):
            except:
                print("Invalid to date")
                return(None)
+        elif tk.lower().startswith('step:'):
+              if 'H' not in tk[5:] :
+                  tVal = tk[5:] + "0H0M0S"
+              elif 'M' not in tk[5:] :
+                  tVal = tk[5:] + "0M0S"
+              elif 'S' not in tk[5:]:
+                  tVal = tk[5:] + "0S"
+              else:
+                  tVal = tk[5:]
+
+              # There is an issue if 0D (i.e. zero days) is in the date. strptime does not
+              # consider it a valid value. 0 minutes or secongs are valid though.
+              # We go around this by doing some additional checks
+              zeroDays = False
+              if '0D' in tVal:
+                  tVal = tVal.replace('0D', '')
+                  tmFormat = '%HH%MM%SS'
+                  zeroDays = True
+              else:              
+                  tmFormat = '%dD%HH%MM%SS'
+              
+              try:                 
+                 diffT =  datetime.strptime(tVal, tmFormat)
+
+                 if not zeroDays:
+                    qryParams['stepD'] = diffT.day
+                    
+                 qryParams['stepH'] = diffT.hour
+                 qryParams['stepM'] = diffT.minute
+                 qryParams['stepS'] = diffT.second
+              except Exception as ex:
+                 print( "Invalid date step ", str(ex))
+                 return(None)
+              
         else:
             qryParams['keywords'] = qryParams['keywords'] + " " + tk
 
@@ -413,6 +448,9 @@ setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive
 
 # Simple command line interface to
 # play around with Twitter API v2
+#
+#16/02/2022: Needs to be refactored. Is ugly. Have been
+#            adding functionality quick and dirty. No extensive testing too. Sorry!  
 while True:
     command = input(configSettings.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
     command = command.strip()
@@ -489,12 +527,34 @@ while True:
     elif cParts[0].lower() == "addperiod":
          
          dt = parseSearchQuery(cParts[1:])
-         print("Adding period renage [", dt['from'], " - ", dt["until"], "]")
+         
          if dt is None:
-            print("addperiod from:<date> until:<to>")
+            print("addperiod from:<date> until:<to> step:XDXHXMXS")
             continue
-        
-         targetPeriods.append( {'from': dt['from'], 'until': dt['until']} ) 
+
+         print("Adding period range [", dt['from'], " - ", dt["until"], "] step", dt['stepD'], "days", dt['stepH'], "hours", dt['stepM'], "minutes", dt['stepS'], "seconds") 
+                
+         if dt['stepD'] == 0 and dt['stepH'] == 0 and dt['stepM'] == 0 and dt['stepS'] == 0:
+            targetPeriods.append( {'from': dt['from'], 'until': dt['until']} )
+         else:
+              # TODO: Complete me!
+              #print(":::::", dt['stepD'], " ", dt['stepH'], " " , dt['stepM'])
+              n = 0
+              sDate = datetime.strptime(dt['from'], "%Y-%m-%dT%H:%M:%SZ")              
+              while True:                    
+                    eDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=(dt['stepS']-1))
+                    if eDate >= datetime.strptime(dt['until'], "%Y-%m-%dT%H:%M:%SZ"):
+                        eDate = datetime.strptime(dt['until'], "%Y-%m-%dT%H:%M:%SZ")
+                        targetPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
+                        #print("\tLast: ", sDate, "-", eDate)
+                        break
+
+                    #print("\t", sDate, "-", eDate)
+                    targetPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
+                    sDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=dt['stepS'])
+                    
+                    
+         print("Added ", len(targetPeriods), "periods. Type periods to see the ranges")
     elif cParts[0].lower() == "periods":
          print("Total of ", len(targetPeriods), "periods:" )
          for p in targetPeriods:
