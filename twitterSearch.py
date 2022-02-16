@@ -321,6 +321,12 @@ def parseSearchQuery(qList):
               else:
                   tVal = tk[5:]
 
+              # IMPORTANT! We'll be using strptime to quickly parse the
+              # kind of date format in the form xDyHzMkS. that means that not all
+              # integer values are accepted. I.e. value for days can be between 1 and 31.
+              # That's not 
+              # TODO: Change to allow any valid step for Days, Hours, Minutes and Seconds.
+              #
               # There is an issue if 0D (i.e. zero days) is in the date. strptime does not
               # consider it a valid value. 0 minutes or secongs are valid though.
               # We go around this by doing some additional checks
@@ -452,6 +458,7 @@ setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive
 #16/02/2022: Needs to be refactored. Is ugly. Have been
 #            adding functionality quick and dirty. No extensive testing too. Sorry!  
 while True:
+  try:  
     command = input(configSettings.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
     command = command.strip()
     
@@ -544,22 +551,24 @@ while True:
          else:
               # TODO: Complete me!
               #print(":::::", dt['stepD'], " ", dt['stepH'], " " , dt['stepM'])
-              n = 0
+              pCnt = 0
               sDate = datetime.strptime(dt['from'], "%Y-%m-%dT%H:%M:%SZ")              
-              while True:                    
-                    eDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=(dt['stepS']-1))
+              while True:
+                    pCnt += 1
+                    eDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=(dt['stepS']-1))                    
                     if eDate >= datetime.strptime(dt['until'], "%Y-%m-%dT%H:%M:%SZ"):
                         eDate = datetime.strptime(dt['until'], "%Y-%m-%dT%H:%M:%SZ")
                         targetPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
                         #print("\tLast: ", sDate, "-", eDate)
+                        print("\tAdding search period: [", sDate, "-", eDate, "]")
                         break
 
-                    #print("\t", sDate, "-", eDate)
+                    print("\tAdding search period: [", sDate, "-", eDate, "]")
                     targetPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
                     sDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=dt['stepS'])
                     
                     
-         print("Added ", len(targetPeriods), "periods. Type periods to see the ranges")
+         print("Added ", pCnt, "periods. Type periods to see the ranges")
     elif cParts[0].lower() == "periods":
          print("Total of ", len(targetPeriods), "periods:" )
          for p in targetPeriods:
@@ -574,6 +583,12 @@ while True:
 
     else:
         print("Unknown command:", cParts[0])
+
+  except KeyboardInterrupt:
+       #print("\n")
+       #print("\n")       
+       print("Keyboard interrupt seen.")
+       
 
 print("\nFinished. ByeBye!")
 
