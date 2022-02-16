@@ -332,7 +332,7 @@ def parseSearchQuery(qList):
               # We go around this by doing some additional checks
               zeroDays = False
               if '0D' in tVal:
-                  tVal = tVal.replace('0D', '')
+                  tVal = tVal.replace('0D', '') # TODO: Fix me! This will also replace 10DXXXX and that's not good!
                   tmFormat = '%HH%MM%SS'
                   zeroDays = True
               else:              
