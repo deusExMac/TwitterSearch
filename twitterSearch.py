@@ -323,6 +323,9 @@ def parseSearchQuery(qList):
               else:
                   tVal = tk[5:]
 
+
+              tVal = tVal.strip()
+              
               # IMPORTANT! We'll be using strptime to quickly parse the
               # kind of date format in the form xDyHzMkS. that means that not all
               # integer values are accepted. I.e. value for days can be between 1 and 31.
@@ -331,9 +334,10 @@ def parseSearchQuery(qList):
               #
               # There is an issue if 0D (i.e. zero days) is in the date. strptime does not
               # consider it a valid value. 0 minutes or secongs are valid though.
-              # We go around this by doing some additional checks
+              # We go around this by doing some additional checks (FIXED: on 17/02/2022.
+              # Using .startswith now to avoid misinterpretations.)            
               zeroDays = False
-              if '0D' in tVal:
+              if tVal.startswith('0D'):
                   tVal = tVal.replace('0D', '') # TODO: Fix me! This will also replace 10DXXXX and that's not good!
                   tmFormat = '%HH%MM%SS'
                   zeroDays = True
