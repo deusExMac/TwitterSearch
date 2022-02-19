@@ -8,7 +8,7 @@
 #
 # v0.4b mmtrd31/12/2021
 
-import nltk
+
 
 #For sending REST requests to the API Endpoint
 import requests
@@ -19,8 +19,7 @@ import os
 import sys
 
 import json
-# For displaying the data after
-import pandas as pd
+
 # For saving the response data in CSV format
 import csv
 # For parsing the dates received from twitter in readable formats

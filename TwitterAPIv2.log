@@ -1,0 +1,14 @@
+[19/02/2022 10:38:30] Starting search for tweets using query [search bitcoin lang:en].
+[19/02/2022 10:38:30] Getting [300] tweets for period [2014-01-01T00:00:00Z] until [2014-01-01T03:05:10Z]
+[19/02/2022 10:38:50] Period [2014-01-01T00:00:00Z - 2014-01-01T03:05:10Z] Stopping due to max period number of tweets [300] reached.
+[19/02/2022 10:38:55] Getting [300] tweets for period [2014-01-01T03:05:11Z] until [2014-01-01T06:10:21Z]
+[19/02/2022 10:40:59] Starting search for tweets using query [search bitcoin lang:en].
+[19/02/2022 10:40:59] Getting [300] tweets for period [2017-05-03T00:00:00Z] until [2017-05-03T07:03:12Z]
+[19/02/2022 10:41:19] Period [2017-05-03T00:00:00Z - 2017-05-03T07:03:12Z] Stopping due to max period number of tweets [300] reached.
+[19/02/2022 10:41:25] Getting [300] tweets for period [2017-05-03T07:03:13Z] until [2017-05-03T14:06:25Z]
+[19/02/2022 10:41:45] Period [2017-05-03T07:03:13Z - 2017-05-03T14:06:25Z] Stopping due to max period number of tweets [300] reached.
+[19/02/2022 10:41:50] Getting [300] tweets for period [2017-05-03T14:06:26Z] until [2017-05-03T21:09:38Z]
+[19/02/2022 10:42:13] Period [2017-05-03T14:06:26Z - 2017-05-03T21:09:38Z] Stopping due to max period number of tweets [300] reached.
+[19/02/2022 10:42:18] Getting [300] tweets for period [2017-05-03T21:09:39Z] until [2017-05-04T00:00:00Z]
+[19/02/2022 10:42:38] Period [2017-05-03T21:09:39Z - 2017-05-04T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[19/02/2022 10:42:43] Search finished. 1200 downloaded.
