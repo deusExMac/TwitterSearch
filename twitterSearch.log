@@ -380,3 +380,16 @@
 [16/02/2022 19:50:51] Getting [5] tweets for period [2022-02-14T09:12:00Z] until [2022-02-14T09:15:11Z]
 [16/02/2022 19:50:56] Period [2022-02-14T09:12:00Z - 2022-02-14T09:15:11Z] Stopping due to max period number of tweets [5] reached.
 [16/02/2022 19:51:01] Search finished. 115 downloaded.
+[22/02/2022 21:38:36] Starting search for tweets using query [search lang:en user:eliomusk].
+[22/02/2022 21:38:36] Getting [5] tweets for period [2015-02-01T00:00:00Z] until [2015-02-03T03:10:34Z]
+[22/02/2022 21:38:37] Period [2015-02-01T00:00:00Z - 2015-02-03T03:10:34Z] Stopping due no more next tokens.
+[22/02/2022 21:38:42] Getting [5] tweets for period [2015-02-03T03:10:35Z] until [2015-02-05T06:21:09Z]
+[22/02/2022 21:38:43] Period [2015-02-03T03:10:35Z - 2015-02-05T06:21:09Z] Stopping due no more next tokens.
+[22/02/2022 21:40:53] Starting search for tweets using query [search bitcoin lang:en user:elonmusk].
+[22/02/2022 21:40:53] Getting [5] tweets for period [2019-08-20T00:00:00Z] until [2019-12-20T00:00:00Z]
+[22/02/2022 21:40:54] Period [2019-08-20T00:00:00Z - 2019-12-20T00:00:00Z] Stopping due no more next tokens.
+[22/02/2022 21:40:59] Search finished. 0 downloaded.
+[22/02/2022 21:42:10] Starting search for tweets using query [search bitcoin lang:en user:elonmusk].
+[22/02/2022 21:42:10] Getting [50] tweets for period [2020-01-01T00:00:00Z] until [2020-12-31T00:00:00Z]
+[22/02/2022 21:42:11] Period [2020-01-01T00:00:00Z - 2020-12-31T00:00:00Z] Stopping due no more next tokens.
+[22/02/2022 21:42:16] Search finished. 6 downloaded.

@@ -294,7 +294,7 @@ def searchTweets(q, datePeriods=None, cfg=None):
 
 def parseSearchQuery(qList):
     
-    qryParams = {'keywords':'', 'lang':'', 'from':'', 'until':'', 'stepD': 0, 'stepH': 0, 'stepM':0, 'stepS':0}
+    qryParams = {'keywords':'', 'lang':'', 'from':'', 'until':'', 'stepD': 0, 'stepH': 0, 'stepM':0, 'stepS':0, 'user':''}
     for tk in qList:
         if tk.lower().startswith('lang:'):
             qryParams['lang'] = tk[5:]
@@ -355,7 +355,8 @@ def parseSearchQuery(qList):
               except Exception as ex:
                  print( "Invalid date step ", str(ex))
                  return(None)
-              
+        elif tk.lower().startswith('user:'):
+             qryParams['user'] = tk[5:]              
         else:
             qryParams['keywords'] = qryParams['keywords'] + " " + tk
 
@@ -499,7 +500,10 @@ while True:
 
        if qr['lang'] == '':
           qr['lang'] = configSettings.get('General', 'defaultLang', fallback='en') 
-       
+
+       if qr['user'] != '':
+          qr['keywords'] =  qr['keywords'] + " " + 'from:' + qr['user']
+          
        query = " ".join( cParts[1:])
        print("\nCommencing tweet search")
        print("Search parameters:")
@@ -550,13 +554,13 @@ while True:
             continue
              
          print("Adding period range [", dt['from'], " - ", dt["until"], "] step", dt['stepD'], "days", dt['stepH'], "hours", dt['stepM'], "minutes", dt['stepS'], "seconds") 
-                
+         pCnt = 0       
          if dt['stepD'] == 0 and dt['stepH'] == 0 and dt['stepM'] == 0 and dt['stepS'] == 0:
             targetPeriods.append( {'from': dt['from'], 'until': dt['until']} )
+            pCnt += 1
          else:
               # TODO: Complete me!
-              #print(":::::", dt['stepD'], " ", dt['stepH'], " " , dt['stepM'])
-              pCnt = 0
+              #print(":::::", dt['stepD'], " ", dt['stepH'], " " , dt['stepM'])              
               sDate = datetime.strptime(dt['from'], "%Y-%m-%dT%H:%M:%SZ")              
               while True:
                     pCnt += 1
