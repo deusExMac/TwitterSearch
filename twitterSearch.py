@@ -396,7 +396,7 @@ def printHelp():
     print("\t* config: display configuration settings that have been loaded")
     print("\t* set <section> <setting/key> <new value>: update loaded configuration setting/key <setting/key> in <section> to new value <new value>. Does not affect loaded configuration file.")
     print("\t* set target <historic | recent> : Set on which archive to search. Will change endpoint and bearer token.")
-    print("\t* addperiod from:<date> until:<date> : add a period to search for keywords")
+    print("\t* addperiod from:<date> until:<date> step:<amount>: add a period to search for keywords. If step is given, this specifies the period will be broken down in smaller periods of length specified by step.")
     print("\t* clearperiods : clear all periods")
     
     print("\t* history : a list of previous commands (command history list) given using the interface (for reuse).")
