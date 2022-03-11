@@ -1,0 +1,8 @@
+
+
+# 11/03/2022
+ 
+Refactor the code at some places
+Test the new way of how periods are supported.
+Testing the argument parsing
+Checking how date ranges behave in queries, especially at the margins! 
