@@ -626,7 +626,7 @@ while True:
        #nTweets = searchTweets( qr['keywords'].strip() + " lang:" + qr['lang'], targetPeriods, configSettings )
        nTweets = searchTweets( " ".join(qr['keywords']).strip(), targetPeriods, configSettings )
        
-       print("Searchint terminated. Total of", nTweets, " tweets fetched.") 
+       print("Searching terminated. Total of", nTweets, " tweets fetched.") 
        log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Search finished. " +  str(nTweets) +  " downloaded.")
 
        # clear periods
