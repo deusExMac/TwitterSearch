@@ -41,7 +41,6 @@ import argparse
 # We define constants in this file
 import appConstants
 
-import bs4
 
 def create_headers(bearer_token):
     headers = {"Authorization": "Bearer {}".format(bearer_token)}
