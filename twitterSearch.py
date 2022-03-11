@@ -38,8 +38,20 @@ import os.path
 import pprint
 import argparse
 
+
 # We define constants in this file
 import appConstants
+
+
+
+
+class ArgumentParserError(Exception): pass
+  
+class ThrowingArgumentParser(argparse.ArgumentParser):
+      def error(self, message):
+          raise ArgumentParserError(message)
+
+
 
 
 def create_headers(bearer_token):
@@ -287,12 +299,45 @@ def searchTweets(q, datePeriods=None, cfg=None):
 
 
 
+def doParse(cmdArgs):
+    
+    #prms = {'keywords':'', 'lang':'', 'from':'', 'until':'', 'stepD': 0, 'stepH': 0, 'stepM':0, 'stepS':0, 'user':''}
+    
+    parser = ThrowingArgumentParser()
+    parser.add_argument('-f', '--from',   default= datetime.now().strftime("%d/%m/%Y") )
+    parser.add_argument('-u', '--until', nargs='?', default= datetime.now().strftime("%d/%m/%Y") )
+    parser.add_argument('-t', '--timestep', nargs='?', default="" )
+    parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
+    parser.add_argument('keywords', nargs=argparse.REMAINDER)
+    
+    #parser.add_argument('-s', '--startpos', type=int,   nargs='?', default=0)
+    #parser.add_argument('-v',  action='store_true')
+    #parser.add_argument('-O', '--overwritefile',   action='store_true', default=False)         
+    #parser.add_argument('-o', '--outputfile',   nargs='?')
+    #parser.add_argument('-S', '--skipfetched',   action='store_true', default=False)
+    
+         
+    try: 
+     args = vars( parser.parse_args(cmdArgs) )
+     args['from'] = dateutil.parser.parse(args['from'], dayfirst=True).isoformat() + 'Z'
+     args['until'] = dateutil.parser.parse(args['until'], dayfirst=True).isoformat() + 'Z'
+     return(args)
+    
+    except Exception as argEx:
+      print( str(argEx) ) 
+      print("Usage: <TODO: Fill me>")
+      return(None)      
 
+
+    return(None)
 
 
 
 
 def parseSearchQuery(qList):
+
+
+    return(doParse(qList))
     
     qryParams = {'keywords':'', 'lang':'', 'from':'', 'until':'', 'stepD': 0, 'stepH': 0, 'stepM':0, 'stepS':0, 'user':''}
     for tk in qList:
@@ -355,6 +400,7 @@ def parseSearchQuery(qList):
               except Exception as ex:
                  print( "Invalid date step ", str(ex))
                  return(None)
+                
         elif tk.lower().startswith('user:'):
              qryParams['user'] = tk[5:]              
         else:
@@ -495,14 +541,18 @@ while True:
           print("Usage:search <query terms> lang:<lang code> from:<date> to:<date>")
           continue
 
+       print(qr)
+       print("Query:[", " ".join(qr['keywords']), "]" , sep=""  )
+       #continue
+    
        if qr['from'] != '':        
           targetPeriods.append( {'from': qr['from'], 'until': qr['until']} )
 
-       if qr['lang'] == '':
-          qr['lang'] = configSettings.get('General', 'defaultLang', fallback='en') 
+      # if qr['lang'] == '':
+      #    qr['lang'] = configSettings.get('General', 'defaultLang', fallback='en') 
 
-       if qr['user'] != '':
-          qr['keywords'] =  qr['keywords'] + " " + 'from:' + qr['user']
+      # if qr['user'] != '':
+      #    qr['keywords'] =  qr['keywords'] + " " + 'from:' + qr['user']
           
        query = " ".join( cParts[1:])
        print("\nCommencing tweet search")
@@ -515,9 +565,13 @@ while True:
        print("\tTweets saved to csv file:",  configSettings.get('Storage', 'csvFile', fallback="data.csv"), "\n" )
        
        log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Starting search for tweets using query [" + command + "].")
-       nTweets = searchTweets( qr['keywords'].strip() + " lang:" + qr['lang'], targetPeriods, configSettings )
+
+       #nTweets = searchTweets( qr['keywords'].strip() + " lang:" + qr['lang'], targetPeriods, configSettings )
+       nTweets = searchTweets( " ".join(qr['keywords']).strip(), targetPeriods, configSettings )
+       
        print("Searchint terminated. Total of", nTweets, " tweets fetched.") 
        log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Search finished. " +  str(nTweets) +  " downloaded.")
+
        # clear periods
        targetPeriods = []
        

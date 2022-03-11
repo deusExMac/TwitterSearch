@@ -393,3 +393,35 @@
 [22/02/2022 21:42:10] Getting [50] tweets for period [2020-01-01T00:00:00Z] until [2020-12-31T00:00:00Z]
 [22/02/2022 21:42:11] Period [2020-01-01T00:00:00Z - 2020-12-31T00:00:00Z] Stopping due no more next tokens.
 [22/02/2022 21:42:16] Search finished. 6 downloaded.
+[10/03/2022 21:54:40] Starting search for tweets using query [search metaverse -lang:en from:1/11/2021 until:31/12/2021].
+[10/03/2022 21:54:40] Getting [50] tweets for period [2021-11-01T00:00:00Z] until [2021-12-31T00:00:00Z]
+[10/03/2022 21:54:44] Period [2021-11-01T00:00:00Z - 2021-12-31T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[10/03/2022 21:54:49] Search finished. 50 downloaded.
+[11/03/2022 10:17:00] Starting search for tweets using query [search -f 1/2/2022 -u 20/2/2022 manolis lang:el].
+[11/03/2022 10:19:15] Starting search for tweets using query [search -f 1/2/2022 -u 20/2/2022 manolis lang:el].
+[11/03/2022 10:19:15] Getting [700] tweets for period [1/2/2022] until [20/2/2022]
+[11/03/2022 10:19:15] Period [1/2/2022 - 20/2/2022] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[11/03/2022 10:19:38] Starting search for tweets using query [search -f 10/3/2022 -u 11/3/2022 manolis lang:el].
+[11/03/2022 10:19:38] Getting [700] tweets for period [10/3/2022] until [11/3/2022]
+[11/03/2022 10:19:38] Period [10/3/2022 - 11/3/2022] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[11/03/2022 10:20:48] Starting search for tweets using query [search -f 10/3/2022 -u 11/3/2022 manolis lang:el].
+[11/03/2022 10:20:48] Getting [50] tweets for period [10/3/2022] until [11/3/2022]
+[11/03/2022 10:20:48] Period [10/3/2022 - 11/3/2022] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["10/3/2022"]},"message":"The `start_time` query parameter value [10/3/2022] is not a valid RFC3339 date-time."},{"parameters":{"end_time":["11/3/2022"]},"message":"The `end_time` query parameter value [11/3/2022] is not a valid RFC3339 date-time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 10:27:13] Starting search for tweets using query [search -f 10/3/2022 -u 11/3/2022 manolis lang:el].
+[11/03/2022 10:27:13] Getting [700] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 10:27:13] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[11/03/2022 10:28:29] Starting search for tweets using query [search -f 10/3/2022 -u 11/3/2022 manolis lang:el].
+[11/03/2022 10:28:29] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 10:28:29] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[11/03/2022 10:28:35] Search finished. 10 downloaded.
+[11/03/2022 10:29:08] Starting search for tweets using query [search -f 10/3/2022 -u 11/3/2022 manolis lang:en].
+[11/03/2022 10:29:08] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 10:29:08] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[11/03/2022 10:29:13] Search finished. 27 downloaded.
+[11/03/2022 11:22:41] Starting search for tweets using query [search -f 10/3/2022T06:05:32 -u 11/3/2022 manolis lang:en].
+[11/03/2022 11:22:41] Getting [700] tweets for period [2022-03-10T06:05:32Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 11:22:42] Period [2022-03-10T06:05:32Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[11/03/2022 11:23:27] Starting search for tweets using query [search -f 10/3/2022T06:05:32 -u 11/3/2022 manolis lang:en].
+[11/03/2022 11:23:27] Getting [50] tweets for period [2022-03-10T06:05:32Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 11:23:28] Period [2022-03-10T06:05:32Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[11/03/2022 11:23:33] Search finished. 26 downloaded.
