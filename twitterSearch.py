@@ -28,6 +28,7 @@ import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
 import unicodedata
+
 #To add wait time between requests
 import time
 
@@ -39,7 +40,6 @@ import argparse
 
 # We define constants in this file
 import appConstants
-
 
 
 
