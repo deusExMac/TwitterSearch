@@ -308,6 +308,10 @@ def doParse(cmdArgs):
     parser.add_argument('-u', '--until', nargs='?', default= datetime.now().strftime("%d/%m/%Y") )
     parser.add_argument('-t', '--timestep', nargs='?', default="" )
     parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
+
+    # IMPORTANT! arguments -f, -u -t -n etc on the command line, MUST APPEAR BEFORE
+    #            the remaining arguments. Otherwise, these arguments will not be parsed
+    #            and will be part of the ramaining arguments.
     parser.add_argument('keywords', nargs=argparse.REMAINDER)
     
     #parser.add_argument('-s', '--startpos', type=int,   nargs='?', default=0)
@@ -408,6 +412,55 @@ def parseSearchQuery(qList):
 
     return(qryParams)
            
+
+
+def updatePeriods( f, t, s, tPeriods):
+
+    if s == "":
+       tPeriods.append( {'from': f, 'until': t} )
+       return(1)
+    
+
+    pCnt = 0
+    #parse time period step
+    dayVal = -1 # Days are handled in a special way.
+    if s.startswith('0D'):
+       s = s.replace('0D', '')
+       tmFormat = '%HH%MM%SS'
+       dayVal = 0
+    else:
+        tmFormat = '%dD%HH%MM%SS'
+
+    try: 
+        stepValue =  datetime.strptime(s, tmFormat)
+        if dayVal != 0:
+           dayVal = stepValue.day 
+    except Exception as sEx:
+        print( "Invalid date step ", str(sEx))
+        return(None)
+        
+    
+    sDate = datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ")
+    
+    while True:
+        eDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=(stepValue.second) )                                                            
+        if eDate >= datetime.strptime(t, "%Y-%m-%dT%H:%M:%SZ"):
+           eDate = datetime.strptime(t, "%Y-%m-%dT%H:%M:%SZ")
+           tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
+           pCnt += 1
+           #print("\tLast: ", sDate, "-", eDate)
+           print("\tAdding LAST search period: [", sDate, "-", eDate, "]")
+           return(pCnt)
+
+        print("\tAdding search period: [", sDate, "-", eDate, "]")
+        tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
+        pCnt += 1
+        sDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=stepValue.second)
+
+    return(pCnt)
+
+
+
 
 
 def displayConfigSettings(cs):
@@ -544,15 +597,18 @@ while True:
        print(qr)
        print("Query:[", " ".join(qr['keywords']), "]" , sep=""  )
        #continue
-    
-       if qr['from'] != '':        
-          targetPeriods.append( {'from': qr['from'], 'until': qr['until']} )
 
-      # if qr['lang'] == '':
-      #    qr['lang'] = configSettings.get('General', 'defaultLang', fallback='en') 
+       pAdded = updatePeriods( qr['from'], qr['until'], qr['timestep'], targetPeriods)
+       if pAdded is None:
+          print("Error adding periods")
+          continue
 
-      # if qr['user'] != '':
-      #    qr['keywords'] =  qr['keywords'] + " " + 'from:' + qr['user']
+
+       if qr['numtweets'] != 0:
+          configSettings['General']['maxTweetsPerPeriod'] =  str(qr['numtweets'])
+          
+       print("Added ", pAdded, "periods")
+       
           
        query = " ".join( cParts[1:])
        print("\nCommencing tweet search")
@@ -563,7 +619,8 @@ while True:
        print("\tMaximum number of tweets to fetch for each period:",  configSettings.get('General', 'maxTweetsPerPeriod', fallback="30"))
        print("\tNumber of tweets to ask from endpoint per request:",  configSettings.getint('TwitterAPI', 'maxEndpointTweets', fallback=100) )
        print("\tTweets saved to csv file:",  configSettings.get('Storage', 'csvFile', fallback="data.csv"), "\n" )
-       
+
+       #continue
        log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Starting search for tweets using query [" + command + "].")
 
        #nTweets = searchTweets( qr['keywords'].strip() + " lang:" + qr['lang'], targetPeriods, configSettings )

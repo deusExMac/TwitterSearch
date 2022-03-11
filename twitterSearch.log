@@ -425,3 +425,126 @@
 [11/03/2022 11:23:27] Getting [50] tweets for period [2022-03-10T06:05:32Z] until [2022-03-11T00:00:00Z]
 [11/03/2022 11:23:28] Period [2022-03-10T06:05:32Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
 [11/03/2022 11:23:33] Search finished. 26 downloaded.
+[11/03/2022 11:31:37] Starting search for tweets using query [search -f 10/3/2022T16:05:32 -u 11/3/2022 azov lang:en].
+[11/03/2022 11:31:37] Getting [700] tweets for period [2022-03-10T16:05:32Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 11:31:39] Period [2022-03-10T16:05:32Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[11/03/2022 11:32:15] Starting search for tweets using query [search -f 10/3/2022T06:05:32 -u 11/3/2022 azov lang:en].
+[11/03/2022 11:32:15] Getting [50] tweets for period [2022-03-10T06:05:32Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 11:32:20] Period [2022-03-10T06:05:32Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 11:32:25] Search finished. 50 downloaded.
+[11/03/2022 11:33:51] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 10/03/2022T20:33:14 azov lang:en].
+[11/03/2022 11:33:51] Getting [50] tweets for period [2022-03-09T10:05:32Z] until [2022-03-10T20:33:14Z]
+[11/03/2022 11:33:54] Period [2022-03-09T10:05:32Z - 2022-03-10T20:33:14Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 11:33:59] Search finished. 50 downloaded.
+[11/03/2022 13:01:54] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:05:42 -t 0D0H0M2S azov lang:en].
+[11/03/2022 13:01:54] Getting [50] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:05:33Z]
+[11/03/2022 13:01:54] Period [2022-03-09T10:05:32Z - 2022-03-09T10:05:33Z] Stopping due no more next tokens.
+[11/03/2022 13:01:59] Getting [50] tweets for period [2022-03-09T10:05:34Z] until [2022-03-09T10:05:35Z]
+[11/03/2022 13:02:00] Period [2022-03-09T10:05:34Z - 2022-03-09T10:05:35Z] Stopping due no more next tokens.
+[11/03/2022 13:02:05] Getting [50] tweets for period [2022-03-09T10:05:36Z] until [2022-03-09T10:05:37Z]
+[11/03/2022 13:02:05] Period [2022-03-09T10:05:36Z - 2022-03-09T10:05:37Z] Stopping due no more next tokens.
+[11/03/2022 13:02:10] Getting [50] tweets for period [2022-03-09T10:05:38Z] until [2022-03-09T10:05:39Z]
+[11/03/2022 13:02:11] Period [2022-03-09T10:05:38Z - 2022-03-09T10:05:39Z] Stopping due no more next tokens.
+[11/03/2022 13:02:16] Getting [50] tweets for period [2022-03-09T10:05:40Z] until [2022-03-09T10:05:41Z]
+[11/03/2022 13:02:17] Period [2022-03-09T10:05:40Z - 2022-03-09T10:05:41Z] Stopping due no more next tokens.
+[11/03/2022 13:02:22] Getting [50] tweets for period [2022-03-09T10:05:42Z] until [2022-03-09T10:05:42Z]
+[11/03/2022 13:02:23] Period [2022-03-09T10:05:42Z - 2022-03-09T10:05:42Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-09T10:05Z"],"end_time":["2022-03-09T10:05Z"]},"message":"Invalid \'start_time\':\'2022-03-09T10:05Z\'. \'start_time\' must be before \'end_time\':2022-03-09T10:05Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 13:05:13] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:05:42 -t 0D0H0M1S azov lang:en].
+[11/03/2022 13:05:13] Getting [700] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:05:32Z]
+[11/03/2022 13:05:13] Period [2022-03-09T10:05:32Z - 2022-03-09T10:05:32Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[11/03/2022 13:05:43] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:05:42 -t 0D0H0M1S azov lang:en].
+[11/03/2022 13:05:43] Getting [50] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:05:32Z]
+[11/03/2022 13:05:44] Period [2022-03-09T10:05:32Z - 2022-03-09T10:05:32Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-09T10:05Z"],"end_time":["2022-03-09T10:05Z"]},"message":"Invalid \'start_time\':\'2022-03-09T10:05Z\'. \'start_time\' must be before \'end_time\':2022-03-09T10:05Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 13:08:51] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:05:42 -t 0D0H0M1S azov lang:en].
+[11/03/2022 13:08:51] Getting [50] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:05:33Z]
+[11/03/2022 13:08:51] Period [2022-03-09T10:05:32Z - 2022-03-09T10:05:33Z] Stopping due no more next tokens.
+[11/03/2022 13:08:56] Getting [50] tweets for period [2022-03-09T10:05:33Z] until [2022-03-09T10:05:34Z]
+[11/03/2022 13:08:56] Period [2022-03-09T10:05:33Z - 2022-03-09T10:05:34Z] Stopping due no more next tokens.
+[11/03/2022 13:09:02] Getting [50] tweets for period [2022-03-09T10:05:34Z] until [2022-03-09T10:05:35Z]
+[11/03/2022 13:09:02] Period [2022-03-09T10:05:34Z - 2022-03-09T10:05:35Z] Stopping due no more next tokens.
+[11/03/2022 13:09:07] Getting [50] tweets for period [2022-03-09T10:05:35Z] until [2022-03-09T10:05:36Z]
+[11/03/2022 13:09:08] Period [2022-03-09T10:05:35Z - 2022-03-09T10:05:36Z] Stopping due no more next tokens.
+[11/03/2022 13:09:14] Getting [50] tweets for period [2022-03-09T10:05:36Z] until [2022-03-09T10:05:37Z]
+[11/03/2022 13:09:15] Period [2022-03-09T10:05:36Z - 2022-03-09T10:05:37Z] Stopping due no more next tokens.
+[11/03/2022 13:09:20] Getting [50] tweets for period [2022-03-09T10:05:37Z] until [2022-03-09T10:05:38Z]
+[11/03/2022 13:09:21] Period [2022-03-09T10:05:37Z - 2022-03-09T10:05:38Z] Stopping due no more next tokens.
+[11/03/2022 13:09:27] Getting [50] tweets for period [2022-03-09T10:05:38Z] until [2022-03-09T10:05:39Z]
+[11/03/2022 13:09:28] Period [2022-03-09T10:05:38Z - 2022-03-09T10:05:39Z] Stopping due no more next tokens.
+[11/03/2022 13:09:33] Getting [50] tweets for period [2022-03-09T10:05:39Z] until [2022-03-09T10:05:40Z]
+[11/03/2022 13:09:34] Period [2022-03-09T10:05:39Z - 2022-03-09T10:05:40Z] Stopping due no more next tokens.
+[11/03/2022 13:09:39] Getting [50] tweets for period [2022-03-09T10:05:40Z] until [2022-03-09T10:05:41Z]
+[11/03/2022 13:09:40] Period [2022-03-09T10:05:40Z - 2022-03-09T10:05:41Z] Stopping due no more next tokens.
+[11/03/2022 13:09:46] Getting [50] tweets for period [2022-03-09T10:05:41Z] until [2022-03-09T10:05:42Z]
+[11/03/2022 13:09:47] Period [2022-03-09T10:05:41Z - 2022-03-09T10:05:42Z] Stopping due no more next tokens.
+[11/03/2022 13:09:52] Search finished. 3 downloaded.
+[11/03/2022 13:10:41] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:05:52 -t 0D0H0M1S azov lang:en].
+[11/03/2022 13:10:41] Getting [50] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:05:33Z]
+[11/03/2022 13:10:41] Period [2022-03-09T10:05:32Z - 2022-03-09T10:05:33Z] Stopping due no more next tokens.
+[11/03/2022 13:10:46] Getting [50] tweets for period [2022-03-09T10:05:33Z] until [2022-03-09T10:05:34Z]
+[11/03/2022 13:10:47] Period [2022-03-09T10:05:33Z - 2022-03-09T10:05:34Z] Stopping due no more next tokens.
+[11/03/2022 13:10:52] Getting [50] tweets for period [2022-03-09T10:05:34Z] until [2022-03-09T10:05:35Z]
+[11/03/2022 13:10:52] Period [2022-03-09T10:05:34Z - 2022-03-09T10:05:35Z] Stopping due no more next tokens.
+[11/03/2022 13:10:57] Getting [50] tweets for period [2022-03-09T10:05:35Z] until [2022-03-09T10:05:36Z]
+[11/03/2022 13:10:58] Period [2022-03-09T10:05:35Z - 2022-03-09T10:05:36Z] Stopping due no more next tokens.
+[11/03/2022 13:11:03] Getting [50] tweets for period [2022-03-09T10:05:36Z] until [2022-03-09T10:05:37Z]
+[11/03/2022 13:11:04] Period [2022-03-09T10:05:36Z - 2022-03-09T10:05:37Z] Stopping due no more next tokens.
+[11/03/2022 13:11:09] Getting [50] tweets for period [2022-03-09T10:05:37Z] until [2022-03-09T10:05:38Z]
+[11/03/2022 13:11:11] Period [2022-03-09T10:05:37Z - 2022-03-09T10:05:38Z] Stopping due no more next tokens.
+[11/03/2022 13:11:16] Getting [50] tweets for period [2022-03-09T10:05:38Z] until [2022-03-09T10:05:39Z]
+[11/03/2022 13:11:17] Period [2022-03-09T10:05:38Z - 2022-03-09T10:05:39Z] Stopping due no more next tokens.
+[11/03/2022 13:11:22] Getting [50] tweets for period [2022-03-09T10:05:39Z] until [2022-03-09T10:05:40Z]
+[11/03/2022 13:11:24] Period [2022-03-09T10:05:39Z - 2022-03-09T10:05:40Z] Stopping due no more next tokens.
+[11/03/2022 13:11:29] Getting [50] tweets for period [2022-03-09T10:05:40Z] until [2022-03-09T10:05:41Z]
+[11/03/2022 13:11:30] Period [2022-03-09T10:05:40Z - 2022-03-09T10:05:41Z] Stopping due no more next tokens.
+[11/03/2022 13:11:35] Getting [50] tweets for period [2022-03-09T10:05:41Z] until [2022-03-09T10:05:42Z]
+[11/03/2022 13:11:36] Period [2022-03-09T10:05:41Z - 2022-03-09T10:05:42Z] Stopping due no more next tokens.
+[11/03/2022 13:11:41] Getting [50] tweets for period [2022-03-09T10:05:42Z] until [2022-03-09T10:05:43Z]
+[11/03/2022 13:11:42] Period [2022-03-09T10:05:42Z - 2022-03-09T10:05:43Z] Stopping due no more next tokens.
+[11/03/2022 13:11:47] Getting [50] tweets for period [2022-03-09T10:05:43Z] until [2022-03-09T10:05:44Z]
+[11/03/2022 13:11:48] Period [2022-03-09T10:05:43Z - 2022-03-09T10:05:44Z] Stopping due no more next tokens.
+[11/03/2022 13:11:53] Getting [50] tweets for period [2022-03-09T10:05:44Z] until [2022-03-09T10:05:45Z]
+[11/03/2022 13:11:54] Period [2022-03-09T10:05:44Z - 2022-03-09T10:05:45Z] Stopping due no more next tokens.
+[11/03/2022 13:11:59] Getting [50] tweets for period [2022-03-09T10:05:45Z] until [2022-03-09T10:05:46Z]
+[11/03/2022 13:12:01] Period [2022-03-09T10:05:45Z - 2022-03-09T10:05:46Z] Stopping due no more next tokens.
+[11/03/2022 13:12:06] Getting [50] tweets for period [2022-03-09T10:05:46Z] until [2022-03-09T10:05:47Z]
+[11/03/2022 13:12:07] Period [2022-03-09T10:05:46Z - 2022-03-09T10:05:47Z] Stopping due no more next tokens.
+[11/03/2022 13:12:12] Getting [50] tweets for period [2022-03-09T10:05:47Z] until [2022-03-09T10:05:48Z]
+[11/03/2022 13:12:14] Period [2022-03-09T10:05:47Z - 2022-03-09T10:05:48Z] Stopping due no more next tokens.
+[11/03/2022 13:12:19] Getting [50] tweets for period [2022-03-09T10:05:48Z] until [2022-03-09T10:05:49Z]
+[11/03/2022 13:12:20] Period [2022-03-09T10:05:48Z - 2022-03-09T10:05:49Z] Stopping due no more next tokens.
+[11/03/2022 13:12:25] Getting [50] tweets for period [2022-03-09T10:05:49Z] until [2022-03-09T10:05:50Z]
+[11/03/2022 13:12:27] Period [2022-03-09T10:05:49Z - 2022-03-09T10:05:50Z] Stopping due no more next tokens.
+[11/03/2022 13:12:32] Getting [50] tweets for period [2022-03-09T10:05:50Z] until [2022-03-09T10:05:51Z]
+[11/03/2022 13:12:33] Period [2022-03-09T10:05:50Z - 2022-03-09T10:05:51Z] Stopping due no more next tokens.
+[11/03/2022 13:12:38] Getting [50] tweets for period [2022-03-09T10:05:51Z] until [2022-03-09T10:05:52Z]
+[11/03/2022 13:12:39] Period [2022-03-09T10:05:51Z - 2022-03-09T10:05:52Z] Stopping due no more next tokens.
+[11/03/2022 13:12:45] Search finished. 6 downloaded.
+[11/03/2022 13:25:59] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:07:52 -n 5 -t 0D0H0M1S azov lang:en].
+[11/03/2022 13:25:59] Getting [5] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:05:33Z]
+[11/03/2022 13:25:59] Period [2022-03-09T10:05:32Z - 2022-03-09T10:05:33Z] Stopping due no more next tokens.
+[11/03/2022 13:26:04] Getting [5] tweets for period [2022-03-09T10:05:33Z] until [2022-03-09T10:05:34Z]
+[11/03/2022 13:26:05] Period [2022-03-09T10:05:33Z - 2022-03-09T10:05:34Z] Stopping due no more next tokens.
+[11/03/2022 13:26:10] Getting [5] tweets for period [2022-03-09T10:05:34Z] until [2022-03-09T10:05:35Z]
+[11/03/2022 13:26:10] Period [2022-03-09T10:05:34Z - 2022-03-09T10:05:35Z] Stopping due no more next tokens.
+[11/03/2022 13:26:16] Getting [5] tweets for period [2022-03-09T10:05:35Z] until [2022-03-09T10:05:36Z]
+[11/03/2022 13:26:16] Period [2022-03-09T10:05:35Z - 2022-03-09T10:05:36Z] Stopping due no more next tokens.
+[11/03/2022 13:26:21] Getting [5] tweets for period [2022-03-09T10:05:36Z] until [2022-03-09T10:05:37Z]
+[11/03/2022 13:26:22] Period [2022-03-09T10:05:36Z - 2022-03-09T10:05:37Z] Stopping due no more next tokens.
+[11/03/2022 13:26:27] Getting [5] tweets for period [2022-03-09T10:05:37Z] until [2022-03-09T10:05:38Z]
+[11/03/2022 13:26:28] Period [2022-03-09T10:05:37Z - 2022-03-09T10:05:38Z] Stopping due no more next tokens.
+[11/03/2022 13:26:34] Getting [5] tweets for period [2022-03-09T10:05:38Z] until [2022-03-09T10:05:39Z]
+[11/03/2022 13:26:35] Period [2022-03-09T10:05:38Z - 2022-03-09T10:05:39Z] Stopping due no more next tokens.
+[11/03/2022 13:26:40] Getting [5] tweets for period [2022-03-09T10:05:39Z] until [2022-03-09T10:05:40Z]
+[11/03/2022 13:26:41] Period [2022-03-09T10:05:39Z - 2022-03-09T10:05:40Z] Stopping due no more next tokens.
+[11/03/2022 13:26:46] Getting [5] tweets for period [2022-03-09T10:05:40Z] until [2022-03-09T10:05:41Z]
+[11/03/2022 13:26:48] Period [2022-03-09T10:05:40Z - 2022-03-09T10:05:41Z] Stopping due no more next tokens.
+[11/03/2022 13:26:53] Getting [5] tweets for period [2022-03-09T10:05:41Z] until [2022-03-09T10:05:42Z]
+[11/03/2022 13:26:54] Period [2022-03-09T10:05:41Z - 2022-03-09T10:05:42Z] Stopping due no more next tokens.
+[11/03/2022 13:28:18] Starting search for tweets using query [search -f 09/03/2022T10:05:32 -u 09/03/2022T10:07:52 -n 5 -t 0D0H1M5S ukraine lang:en].
+[11/03/2022 13:28:18] Getting [5] tweets for period [2022-03-09T10:05:32Z] until [2022-03-09T10:06:37Z]
+[11/03/2022 13:28:22] Period [2022-03-09T10:05:32Z - 2022-03-09T10:06:37Z] Stopping due to max period number of tweets [5] reached.
+[11/03/2022 13:28:27] Getting [5] tweets for period [2022-03-09T10:06:37Z] until [2022-03-09T10:07:42Z]
+[11/03/2022 13:28:30] Period [2022-03-09T10:06:37Z - 2022-03-09T10:07:42Z] Stopping due to max period number of tweets [5] reached.
+[11/03/2022 13:28:36] Getting [5] tweets for period [2022-03-09T10:07:42Z] until [2022-03-09T10:07:52Z]
+[11/03/2022 13:28:40] Period [2022-03-09T10:07:42Z - 2022-03-09T10:07:52Z] Stopping due to max period number of tweets [5] reached.
+[11/03/2022 13:28:46] Search finished. 15 downloaded.
