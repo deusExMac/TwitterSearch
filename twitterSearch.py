@@ -223,6 +223,26 @@ def log(logF, m):
          lF.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + m + '\n')
 
 
+
+
+
+def doSearch( q, dateFrom, dateTo, timeStep, cfg=None):
+
+    if q.strip() == '':
+       print('Error: Empty query.')       
+       return(None)
+
+    
+    searchPeriods = []
+    pAdded = updatePeriods( dateFrom, dateTo, timeStep, searchPeriods)
+    if pAdded is None:
+       print("Error adding periods")
+       return(None)
+
+    return( searchTweets(q, searchPeriods, cfg) )
+
+
+
 def searchTweets(q, datePeriods=None, cfg=None):
 
     headers = create_headers(  cfg.get('TwitterAPI', 'Bearer', fallback='') )    
@@ -302,10 +322,11 @@ def searchTweets(q, datePeriods=None, cfg=None):
 def doParse(cmdArgs):
     
     #prms = {'keywords':'', 'lang':'', 'from':'', 'until':'', 'stepD': 0, 'stepH': 0, 'stepM':0, 'stepS':0, 'user':''}
-    
+   try:  
     parser = ThrowingArgumentParser()
-    parser.add_argument('-f', '--from',   default= datetime.now().strftime("%d/%m/%Y") )
-    parser.add_argument('-u', '--until', nargs='?', default= datetime.now().strftime("%d/%m/%Y") )
+    #datetime.now().strftime("%d/%m/%Y")
+    parser.add_argument('-f', '--from',   nargs='?', default= '' )
+    parser.add_argument('-u', '--until', nargs='?', default='' )
     parser.add_argument('-t', '--timestep', nargs='?', default="" )
     parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
 
@@ -321,19 +342,25 @@ def doParse(cmdArgs):
     #parser.add_argument('-S', '--skipfetched',   action='store_true', default=False)
     
          
-    try: 
-     args = vars( parser.parse_args(cmdArgs) )
-     args['from'] = dateutil.parser.parse(args['from'], dayfirst=True).isoformat() + 'Z'
-     args['until'] = dateutil.parser.parse(args['until'], dayfirst=True).isoformat() + 'Z'
-     return(args)
     
-    except Exception as argEx:
+    args = vars( parser.parse_args(cmdArgs) )
+
+    #print(args)
+    if args['from'] != '':       
+       args['from'] = dateutil.parser.parse(args['from'], dayfirst=True).isoformat() + 'Z' 
+       
+    if args['until'] != '':       
+       args['until'] = dateutil.parser.parse(args['until'], dayfirst=True).isoformat() + 'Z'
+       
+    return(args)
+    
+   except Exception as argEx:
       print( str(argEx) ) 
-      print("Usage: <TODO: Fill me>")
+      print("EEE Usage: <TODO: Fill me>")
       return(None)      
 
 
-    return(None)
+   return(None)
 
 
 
@@ -414,25 +441,42 @@ def parseSearchQuery(qList):
            
 
 
-def updatePeriods( f, t, s, tPeriods):
+def updatePeriods( f, u, t, tPeriods):
 
-    if s == "":
-       tPeriods.append( {'from': f, 'until': t} )
+    if t == "":
+       #sDate = datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ")
+       #finalPDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
+
+       if datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ") > datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
+          print('Invalid dates: End-date [', u, '] must be after start-date [', f, ']') 
+          return(None)
+        
+       tPeriods.append( {'from': f, 'until': u} )
        return(1)
-    
 
-    pCnt = 0
+    # Do some normalization if needed
+    if 'D' not in t:
+        return(None)
+    
+    if 'H' not in t:
+        t += '0H0M0S'
+    elif 'M' not in t:
+          t += '0M0S'
+    elif 'S' not in t:
+          t +='0S'
+
     #parse time period step
-    dayVal = -1 # Days are handled in a special way.
-    if s.startswith('0D'):
-       s = s.replace('0D', '')
+    dayVal = -1 # Days are handled in a special way because we use existing date parsing routines and number of days cannot be 0 or exceed 31
+    
+    if t.startswith('0D'):
+       t = t.replace('0D', '')
        tmFormat = '%HH%MM%SS'
        dayVal = 0
     else:
         tmFormat = '%dD%HH%MM%SS'
 
     try: 
-        stepValue =  datetime.strptime(s, tmFormat)
+        stepValue =  datetime.strptime(t, tmFormat)
         if dayVal != 0:
            dayVal = stepValue.day 
     except Exception as sEx:
@@ -441,14 +485,19 @@ def updatePeriods( f, t, s, tPeriods):
         
     
     sDate = datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ")
+    finalPDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
+
+    if sDate >= finalPDate:
+       print('Invalid dates: End date [', u, '] must be after start date [', f, ']')
+       return(None)
     
+    pCnt = 0
     while True:
         eDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=(stepValue.second) )                                                            
-        if eDate >= datetime.strptime(t, "%Y-%m-%dT%H:%M:%SZ"):
-           eDate = datetime.strptime(t, "%Y-%m-%dT%H:%M:%SZ")
+        if eDate >= datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
+           eDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
            tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
-           pCnt += 1
-           #print("\tLast: ", sDate, "-", eDate)
+           pCnt += 1           
            print("\tAdding LAST search period: [", sDate, "-", eDate, "]")
            return(pCnt)
 
@@ -563,6 +612,7 @@ setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive
 #16/02/2022: Needs to be refactored. Is ugly. Have been
 #            adding functionality quick and dirty. No extensive testing too. Sorry!  
 while True:
+
   try:  
     command = input(configSettings.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
     command = command.strip()
@@ -594,10 +644,19 @@ while True:
           print("Usage:search <query terms> lang:<lang code> from:<date> to:<date>")
           continue
 
-       print(qr)
+       print("Got:", qr)
        print("Query:[", " ".join(qr['keywords']), "]" , sep=""  )
        #continue
 
+
+       if len(targetPeriods) == 0:
+         if qr['from'] == '':
+            qr['from'] = (datetime.now() - timedelta(days=2)).isoformat() + 'Z'
+
+         if qr['until'] == '':
+            qr['until'] = (datetime.now() - timedelta(days=1)).isoformat() + 'Z'
+
+          
        pAdded = updatePeriods( qr['from'], qr['until'], qr['timestep'], targetPeriods)
        if pAdded is None:
           print("Error adding periods")
@@ -622,16 +681,30 @@ while True:
 
        #continue
        log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Starting search for tweets using query [" + command + "].")
-
-       #nTweets = searchTweets( qr['keywords'].strip() + " lang:" + qr['lang'], targetPeriods, configSettings )
+       
        nTweets = searchTweets( " ".join(qr['keywords']).strip(), targetPeriods, configSettings )
        
        print("Searching terminated. Total of", nTweets, " tweets fetched.") 
        log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Search finished. " +  str(nTweets) +  " downloaded.")
 
        # clear periods
-       targetPeriods = []
+       # targetPeriods = []
        
+    elif cParts[0].lower() == "searchtweets":
+         
+         qr = parseSearchQuery(cParts[1:])
+         if qr is None:
+          print("Usage:search <query terms> lang:<lang code> from:<date> to:<date>")
+          continue
+
+         if qr['from'] == '':
+            qr['from'] = (datetime.now() - timedelta(days=2)).isoformat() + 'Z'
+
+         if qr['until'] == '':
+            qr['until'] = (datetime.now() - timedelta(days=1)).isoformat() + 'Z'
+
+         nTweets = doSearch(" ".join(qr['keywords']).strip(), qr['from'], qr['until'], qr['timestep'], configSettings )
+
     elif cParts[0].lower() == "quit" or cParts[0].lower() == "q":
          break
     elif cParts[0].lower() == "config" or cParts[0].lower() == "settings":
@@ -653,8 +726,14 @@ while True:
          printHelp() 
     elif cParts[0].lower() == "addperiod":
          
-         dt = parseSearchQuery(cParts[1:])
-         
+         cmdParams = parseSearchQuery(cParts[1:])
+         npA = updatePeriods(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], targetPeriods)
+         if npA is None:
+            print('Error! Could not add periods')
+            continue
+
+         continue
+        
          if dt is None:
             print("addperiod from:<date> until:<to> step:XDXHXMXS")
             continue

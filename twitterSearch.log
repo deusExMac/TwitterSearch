@@ -548,3 +548,142 @@
 [11/03/2022 13:28:36] Getting [5] tweets for period [2022-03-09T10:07:42Z] until [2022-03-09T10:07:52Z]
 [11/03/2022 13:28:40] Period [2022-03-09T10:07:42Z - 2022-03-09T10:07:52Z] Stopping due to max period number of tweets [5] reached.
 [11/03/2022 13:28:46] Search finished. 15 downloaded.
+[11/03/2022 18:22:40] Starting search for tweets using query [search -n 5 twitter].
+[11/03/2022 18:22:40] Getting [5] tweets for period [2004-01-01T01:02:03Z] until [2004-01-15T01:02:03Z]
+[11/03/2022 18:22:40] Period [2004-01-01T01:02:03Z - 2004-01-15T01:02:03Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2004-01-01T01:02Z"]},"message":"Invalid \'start_time\':\'2004-01-01T01:02Z\'. \'start_time\' must be on or after 2006-03-21T00:00Z"},{"parameters":{"end_time":["2004-01-15T01:02Z"]},"message":"Invalid \'end_time\':\'2004-01-15T01:02Z\'. \'end_time\' must be on or after 2006-03-21T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 18:24:31] Starting search for tweets using query [search -n 5 twitter].
+[11/03/2022 18:24:31] Getting [5] tweets for period [2006-03-21T01:02:03Z] until [2006-04-04T01:02:03Z]
+[11/03/2022 18:24:33] Period [2006-03-21T01:02:03Z - 2006-04-04T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:24:38] Getting [5] tweets for period [2006-04-04T01:02:03Z] until [2006-04-18T01:02:03Z]
+[11/03/2022 18:24:39] Period [2006-04-04T01:02:03Z - 2006-04-18T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:24:44] Getting [5] tweets for period [2006-04-18T01:02:03Z] until [2006-05-02T01:02:03Z]
+[11/03/2022 18:24:46] Period [2006-04-18T01:02:03Z - 2006-05-02T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:24:51] Getting [5] tweets for period [2006-05-02T01:02:03Z] until [2006-05-16T01:02:03Z]
+[11/03/2022 18:24:52] Period [2006-05-02T01:02:03Z - 2006-05-16T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:24:57] Getting [5] tweets for period [2006-05-16T01:02:03Z] until [2006-05-30T01:02:03Z]
+[11/03/2022 18:24:59] Period [2006-05-16T01:02:03Z - 2006-05-30T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:25:04] Getting [5] tweets for period [2006-05-30T01:02:03Z] until [2006-06-13T01:02:03Z]
+[11/03/2022 18:25:05] Period [2006-05-30T01:02:03Z - 2006-06-13T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:25:10] Getting [5] tweets for period [2006-06-13T01:02:03Z] until [2006-06-21T00:00:00Z]
+[11/03/2022 18:25:11] Period [2006-06-13T01:02:03Z - 2006-06-21T00:00:00Z] Stopping due no more next tokens.
+[11/03/2022 18:25:16] Getting [5] tweets for period [2022-03-11T00:00:00Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 18:25:18] Period [2022-03-11T00:00:00Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-11T00:00Z"],"end_time":["2022-03-11T00:00Z"]},"message":"Invalid \'start_time\':\'2022-03-11T00:00Z\'. \'start_time\' must be before \'end_time\':2022-03-11T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 18:26:30] Starting search for tweets using query [search -n 5 twitter].
+[11/03/2022 18:26:30] Getting [5] tweets for period [2006-03-21T01:02:03Z] until [2006-04-04T01:02:03Z]
+[11/03/2022 18:26:30] Period [2006-03-21T01:02:03Z - 2006-04-04T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:26:35] Getting [5] tweets for period [2006-04-04T01:02:03Z] until [2006-04-18T01:02:03Z]
+[11/03/2022 18:26:36] Period [2006-04-04T01:02:03Z - 2006-04-18T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:26:41] Getting [5] tweets for period [2006-04-18T01:02:03Z] until [2006-05-02T01:02:03Z]
+[11/03/2022 18:26:41] Period [2006-04-18T01:02:03Z - 2006-05-02T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:26:47] Getting [5] tweets for period [2006-05-02T01:02:03Z] until [2006-05-16T01:02:03Z]
+[11/03/2022 18:26:48] Period [2006-05-02T01:02:03Z - 2006-05-16T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:26:53] Getting [5] tweets for period [2006-05-16T01:02:03Z] until [2006-05-30T01:02:03Z]
+[11/03/2022 18:26:54] Period [2006-05-16T01:02:03Z - 2006-05-30T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:26:59] Getting [5] tweets for period [2006-05-30T01:02:03Z] until [2006-06-13T01:02:03Z]
+[11/03/2022 18:27:01] Period [2006-05-30T01:02:03Z - 2006-06-13T01:02:03Z] Stopping due no more next tokens.
+[11/03/2022 18:27:06] Getting [5] tweets for period [2006-06-13T01:02:03Z] until [2006-06-21T00:00:00Z]
+[11/03/2022 18:27:07] Period [2006-06-13T01:02:03Z - 2006-06-21T00:00:00Z] Stopping due no more next tokens.
+[11/03/2022 18:27:12] Getting [5] tweets for period [2022-03-11T00:00:00Z] until [2022-03-11T00:00:00Z]
+[11/03/2022 18:27:14] Period [2022-03-11T00:00:00Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-11T00:00Z"],"end_time":["2022-03-11T00:00Z"]},"message":"Invalid \'start_time\':\'2022-03-11T00:00Z\'. \'start_time\' must be before \'end_time\':2022-03-11T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 18:57:08] Starting search for tweets using query [search mmms].
+[11/03/2022 18:57:08] Getting [50] tweets for period [2022-03-11T18:57:08.810895Z] until [2022-03-10T18:57:08.810895Z]
+[11/03/2022 18:57:09] Period [2022-03-11T18:57:08.810895Z - 2022-03-10T18:57:08.810895Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-11T18:57Z"]},"message":"Invalid \'start_time\':\'2022-03-11T18:57Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"start_time":["2022-03-11T18:57Z"],"end_time":["2022-03-10T18:57Z"]},"message":"Invalid \'start_time\':\'2022-03-11T18:57Z\'. \'start_time\' must be before \'end_time\':2022-03-10T18:57Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 18:57:59] Starting search for tweets using query [search sssw].
+[11/03/2022 18:57:59] Getting [50] tweets for period [2022-03-09T18:57:59.796860Z] until [2022-03-10T18:57:59.796860Z]
+[11/03/2022 18:58:00] Period [2022-03-09T18:57:59.796860Z - 2022-03-10T18:57:59.796860Z] Stopping due no more next tokens.
+[11/03/2022 18:58:05] Search finished. 29 downloaded.
+[11/03/2022 19:05:55] Starting search for tweets using query [search -f 1/1/2017T15:00:00 -u 3/1/2017T15:00:10 -t 0D5H5M5S manolis lang:en].
+[11/03/2022 19:05:55] Getting [50] tweets for period [2017-01-01T15:00:00Z] until [2017-01-01T20:05:05Z]
+[11/03/2022 19:05:55] Period [2017-01-01T15:00:00Z - 2017-01-01T20:05:05Z] Stopping due no more next tokens.
+[11/03/2022 19:06:00] Getting [50] tweets for period [2017-01-01T20:05:05Z] until [2017-01-02T01:10:10Z]
+[11/03/2022 19:06:01] Period [2017-01-01T20:05:05Z - 2017-01-02T01:10:10Z] Stopping due no more next tokens.
+[11/03/2022 19:06:06] Getting [50] tweets for period [2017-01-02T01:10:10Z] until [2017-01-02T06:15:15Z]
+[11/03/2022 19:06:07] Period [2017-01-02T01:10:10Z - 2017-01-02T06:15:15Z] Stopping due no more next tokens.
+[11/03/2022 19:06:12] Getting [50] tweets for period [2017-01-02T06:15:15Z] until [2017-01-02T11:20:20Z]
+[11/03/2022 19:06:13] Period [2017-01-02T06:15:15Z - 2017-01-02T11:20:20Z] Stopping due no more next tokens.
+[11/03/2022 19:06:18] Getting [50] tweets for period [2017-01-02T11:20:20Z] until [2017-01-02T16:25:25Z]
+[11/03/2022 19:06:20] Period [2017-01-02T11:20:20Z - 2017-01-02T16:25:25Z] Stopping due no more next tokens.
+[11/03/2022 19:06:25] Getting [50] tweets for period [2017-01-02T16:25:25Z] until [2017-01-02T21:30:30Z]
+[11/03/2022 19:06:26] Period [2017-01-02T16:25:25Z - 2017-01-02T21:30:30Z] Stopping due no more next tokens.
+[11/03/2022 19:06:31] Getting [50] tweets for period [2017-01-02T21:30:30Z] until [2017-01-03T02:35:35Z]
+[11/03/2022 19:06:33] Period [2017-01-02T21:30:30Z - 2017-01-03T02:35:35Z] Stopping due no more next tokens.
+[11/03/2022 19:06:38] Getting [50] tweets for period [2017-01-03T02:35:35Z] until [2017-01-03T07:40:40Z]
+[11/03/2022 19:06:39] Period [2017-01-03T02:35:35Z - 2017-01-03T07:40:40Z] Stopping due no more next tokens.
+[11/03/2022 19:06:44] Getting [50] tweets for period [2017-01-03T07:40:40Z] until [2017-01-03T12:45:45Z]
+[11/03/2022 19:06:45] Period [2017-01-03T07:40:40Z - 2017-01-03T12:45:45Z] Stopping due no more next tokens.
+[11/03/2022 19:06:50] Getting [50] tweets for period [2017-01-03T12:45:45Z] until [2017-01-03T15:00:10Z]
+[11/03/2022 19:06:52] Period [2017-01-03T12:45:45Z - 2017-01-03T15:00:10Z] Stopping due no more next tokens.
+[11/03/2022 19:06:57] Search finished. 19 downloaded.
+[11/03/2022 19:12:37] Starting search for tweets using query [search -f 1/1/1970 -u 2/1/1970 mmm].
+[11/03/2022 19:12:37] Getting [50] tweets for period [1970-01-01T00:00:00Z] until [1970-01-02T00:00:00Z]
+[11/03/2022 19:12:37] Period [1970-01-01T00:00:00Z - 1970-01-02T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["1970-01-01T00:00Z"]},"message":"Invalid \'start_time\':\'1970-01-01T00:00Z\'. \'start_time\' must be on or after 2006-03-21T00:00Z"},{"parameters":{"end_time":["1970-01-02T00:00Z"]},"message":"Invalid \'end_time\':\'1970-01-02T00:00Z\'. \'end_time\' must be on or after 2006-03-21T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 19:14:07] Starting search for tweets using query [search manolis].
+[11/03/2022 19:14:07] Getting [50] tweets for period [2022-03-11T19:14:07.798107Z] until [2022-03-11T19:14:07.798107Z]
+[11/03/2022 19:14:08] Period [2022-03-11T19:14:07.798107Z - 2022-03-11T19:14:07.798107Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-11T19:14Z"]},"message":"Invalid \'start_time\':\'2022-03-11T19:14Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2022-03-11T19:14Z"]},"message":"Invalid \'end_time\':\'2022-03-11T19:14Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"start_time":["2022-03-11T19:14Z"],"end_time":["2022-03-11T19:14Z"]},"message":"Invalid \'start_time\':\'2022-03-11T19:14Z\'. \'start_time\' must be before \'end_time\':2022-03-11T19:14Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 19:15:47] Starting search for tweets using query [search manolis].
+[11/03/2022 19:15:47] Getting [50] tweets for period [2022-03-09T19:15:47.213324Z] until [2022-03-10T19:15:47.213324Z]
+[11/03/2022 19:15:48] Period [2022-03-09T19:15:47.213324Z - 2022-03-10T19:15:47.213324Z] Stopping due no more next tokens.
+[11/03/2022 19:15:53] Search finished. 50 downloaded.
+[11/03/2022 19:16:17] Starting search for tweets using query [search σόνια].
+[11/03/2022 19:16:17] Getting [50] tweets for period [2022-03-09T19:15:47.213324Z] until [2022-03-10T19:15:47.213324Z]
+[11/03/2022 19:16:19] Period [2022-03-09T19:15:47.213324Z - 2022-03-10T19:15:47.213324Z] Stopping due no more next tokens.
+[11/03/2022 19:16:24] Getting [50] tweets for period [] until []
+[11/03/2022 19:16:25] Period [ - ] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":[""]},"message":"The `start_time` query parameter value [] is not a valid RFC3339 date-time."},{"parameters":{"end_time":[""]},"message":"The `end_time` query parameter value [] is not a valid RFC3339 date-time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 19:28:07] Starting search for tweets using query [search sonia].
+[11/03/2022 19:28:07] Getting [50] tweets for period [2022-03-09T19:28:07.100387Z] until [2022-03-10T19:28:07.100387Z]
+[11/03/2022 19:28:10] Period [2022-03-09T19:28:07.100387Z - 2022-03-10T19:28:07.100387Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 19:28:15] Search finished. 50 downloaded.
+[11/03/2022 20:48:15] Getting [50] tweets for period [] until []
+[11/03/2022 20:48:15] Period [ - ] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":[""]},"message":"The `start_time` query parameter value [] is not a valid RFC3339 date-time."},{"parameters":{"end_time":[""]},"message":"The `end_time` query parameter value [] is not a valid RFC3339 date-time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 20:49:27] Starting search for tweets using query [search mmm].
+[11/03/2022 20:49:27] Getting [50] tweets for period [2022-03-09T20:49:27.612627Z] until [2022-03-10T20:49:27.612627Z]
+[11/03/2022 20:49:31] Period [2022-03-09T20:49:27.612627Z - 2022-03-10T20:49:27.612627Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 20:49:36] Search finished. 50 downloaded.
+[11/03/2022 20:50:27] Starting search for tweets using query [search -f 21/05/2018 -u 23/05/2018 -n 11 mmm].
+[11/03/2022 20:50:27] Getting [11] tweets for period [2022-03-09T20:49:27.612627Z] until [2022-03-10T20:49:27.612627Z]
+[11/03/2022 20:50:32] Period [2022-03-09T20:49:27.612627Z - 2022-03-10T20:49:27.612627Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:50:37] Getting [11] tweets for period [2018-05-21T00:00:00Z] until [2018-05-23T00:00:00Z]
+[11/03/2022 20:50:41] Period [2018-05-21T00:00:00Z - 2018-05-23T00:00:00Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:50:46] Search finished. 22 downloaded.
+[11/03/2022 20:51:30] Getting [11] tweets for period [2018-05-21T00:00:00Z] until [2018-05-21T10:00:00Z]
+[11/03/2022 20:51:34] Period [2018-05-21T00:00:00Z - 2018-05-21T10:00:00Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:51:39] Getting [11] tweets for period [2018-05-21T10:00:00Z] until [2018-05-21T20:00:00Z]
+[11/03/2022 20:51:43] Period [2018-05-21T10:00:00Z - 2018-05-21T20:00:00Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:51:48] Getting [11] tweets for period [2018-05-21T20:00:00Z] until [2018-05-22T06:00:00Z]
+[11/03/2022 20:51:52] Period [2018-05-21T20:00:00Z - 2018-05-22T06:00:00Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:51:57] Getting [11] tweets for period [2018-05-22T06:00:00Z] until [2018-05-22T16:00:00Z]
+[11/03/2022 20:52:01] Period [2018-05-22T06:00:00Z - 2018-05-22T16:00:00Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:52:07] Getting [11] tweets for period [2018-05-22T16:00:00Z] until [2018-05-23T00:00:00Z]
+[11/03/2022 20:52:10] Period [2018-05-22T16:00:00Z - 2018-05-23T00:00:00Z] Stopping due to max period number of tweets [11] reached.
+[11/03/2022 20:53:30] Getting [11] tweets for period [2018-05-21T19:00:00Z] until [2018-05-22T07:00:10Z]
+[11/03/2022 20:53:31] Period [2018-05-21T19:00:00Z - 2018-05-22T07:00:10Z] Stopping due no more next tokens.
+[11/03/2022 20:53:36] Getting [11] tweets for period [2018-05-22T07:00:10Z] until [2018-05-22T19:00:20Z]
+[11/03/2022 20:53:37] Period [2018-05-22T07:00:10Z - 2018-05-22T19:00:20Z] Stopping due no more next tokens.
+[11/03/2022 20:53:42] Getting [11] tweets for period [2018-05-22T19:00:20Z] until [2018-05-23T07:00:30Z]
+[11/03/2022 20:53:43] Period [2018-05-22T19:00:20Z - 2018-05-23T07:00:30Z] Stopping due no more next tokens.
+[11/03/2022 20:53:48] Getting [11] tweets for period [2018-05-23T07:00:30Z] until [2018-05-23T19:00:40Z]
+[11/03/2022 20:53:49] Period [2018-05-23T07:00:30Z - 2018-05-23T19:00:40Z] Stopping due no more next tokens.
+[11/03/2022 20:53:54] Getting [11] tweets for period [2018-05-23T19:00:40Z] until [2018-05-23T19:05:05Z]
+[11/03/2022 20:53:54] Period [2018-05-23T19:00:40Z - 2018-05-23T19:05:05Z] Stopping due no more next tokens.
+[11/03/2022 20:54:10] Getting [11] tweets for period [2022-03-09T20:54:10.999630Z] until [2022-03-10T20:54:10.999630Z]
+[11/03/2022 20:54:11] Period [2022-03-09T20:54:10.999630Z - 2022-03-10T20:54:10.999630Z] Stopping due no more next tokens.
+[11/03/2022 20:59:50] Getting [11] tweets for period [2022-03-09T20:59:50.617016Z] until [2017-03-08T00:00:00Z]
+[11/03/2022 20:59:50] Period [2022-03-09T20:59:50.617016Z - 2017-03-08T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":[""]},"message":"Invalid \'query\':\'\'. \'query\' must be a non-empty string"},{"parameters":{"start_time":["2022-03-09T20:59Z"],"end_time":["2017-03-08T00:00Z"]},"message":"Invalid \'start_time\':\'2022-03-09T20:59Z\'. \'start_time\' must be before \'end_time\':2017-03-08T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 21:00:33] Getting [50] tweets for period [2022-03-09T21:00:33.272870Z] until [2017-03-08T00:00:00Z]
+[11/03/2022 21:00:33] Period [2022-03-09T21:00:33.272870Z - 2017-03-08T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2022-03-09T21:00Z"],"end_time":["2017-03-08T00:00Z"]},"message":"Invalid \'start_time\':\'2022-03-09T21:00Z\'. \'start_time\' must be before \'end_time\':2017-03-08T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 21:47:54] Getting [50] tweets for period [2022-03-09T21:47:54.287972Z] until [2022-03-10T21:47:54.287972Z]
+[11/03/2022 21:47:55] Period [2022-03-09T21:47:54.287972Z - 2022-03-10T21:47:54.287972Z] Stopping due no more next tokens.
+[11/03/2022 21:55:51] Getting [50] tweets for period [2022-03-09T21:55:51.650374Z] until [2022-03-10T21:55:51.650374Z]
+[11/03/2022 21:55:52] Period [2022-03-09T21:55:51.650374Z - 2022-03-10T21:55:51.650374Z] Stopping due no more next tokens.
+[11/03/2022 21:56:01] Getting [50] tweets for period [2022-03-09T21:56:01.833200Z] until [2022-03-10T21:56:01.833200Z]
+[11/03/2022 21:56:05] Period [2022-03-09T21:56:01.833200Z - 2022-03-10T21:56:01.833200Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 21:56:43] Getting [50] tweets for period [1979-01-01T00:00:00Z] until [1970-01-01T00:00:00Z]
+[11/03/2022 21:56:44] Period [1979-01-01T00:00:00Z - 1970-01-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["1979-01-01T00:00Z"]},"message":"Invalid \'start_time\':\'1979-01-01T00:00Z\'. \'start_time\' must be on or after 2006-03-21T00:00Z"},{"parameters":{"end_time":["1970-01-01T00:00Z"]},"message":"Invalid \'end_time\':\'1970-01-01T00:00Z\'. \'end_time\' must be on or after 2006-03-21T00:00Z"},{"parameters":{"start_time":["1979-01-01T00:00Z"],"end_time":["1970-01-01T00:00Z"]},"message":"Invalid \'start_time\':\'1979-01-01T00:00Z\'. \'start_time\' must be before \'end_time\':1970-01-01T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 21:57:35] Getting [50] tweets for period [2019-05-21T00:00:00Z] until [2019-05-31T00:00:00Z]
+[11/03/2022 21:57:39] Period [2019-05-21T00:00:00Z - 2019-05-31T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 21:57:56] Getting [50] tweets for period [2020-05-21T00:00:00Z] until [2019-05-31T00:00:00Z]
+[11/03/2022 21:57:57] Period [2020-05-21T00:00:00Z - 2019-05-31T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2020-05-21T00:00Z"],"end_time":["2019-05-31T00:00Z"]},"message":"Invalid \'start_time\':\'2020-05-21T00:00Z\'. \'start_time\' must be before \'end_time\':2019-05-31T00:00Z"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[11/03/2022 22:06:17] Getting [50] tweets for period [2020-05-21T00:00:00Z] until [2020-05-31T00:00:00Z]
+[11/03/2022 22:06:21] Period [2020-05-21T00:00:00Z - 2020-05-31T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[11/03/2022 22:08:54] Getting [50] tweets for period [2020-05-21T16:05:20Z] until [2020-05-21T16:07:13Z]
+[11/03/2022 22:08:55] Period [2020-05-21T16:05:20Z - 2020-05-21T16:07:13Z] Stopping due no more next tokens.
