@@ -41,7 +41,7 @@ import argparse
 
 # We define constants in this file
 import appConstants
-
+from commandHistory import commandHistory
 
 
 
@@ -602,6 +602,8 @@ else:
 cmdHistory = []
 targetPeriods = []
 
+cHistory = commandHistory(8, True)
+
 print("Type 'help' to see a list of supported commands.\n")
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
 
@@ -635,6 +637,7 @@ while True:
         
     if not command.lower().startswith('history') and not command.lower() =='h':
            cmdHistory.append(command)
+           cHistory.addCommand( command )
     
     cParts = command.split()
     if cParts[0].lower() == "search":
@@ -775,6 +778,7 @@ while True:
     elif cParts[0].lower() == "clearperiods":
           targetPeriods = []
     elif cParts[0].lower() == "h" or cParts[0].lower() == "history":
+         cHistory.printHistory() 
          pos=0
          for h in cmdHistory:
              pos += 1
@@ -788,7 +792,7 @@ while True:
        #print("\n")       
        print("Keyboard interrupt seen.")
        
-
+cHistory.save()
 print("\nFinished. ByeBye!")
 
 

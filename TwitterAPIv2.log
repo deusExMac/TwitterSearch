@@ -44,3 +44,14 @@
 [12/03/2022 10:23:53] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
 [12/03/2022 10:24:35] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
 [12/03/2022 10:24:36] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 13:01:16] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 13:01:38] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[12/03/2022 13:02:18] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 13:02:39] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[12/03/2022 13:46:03] Starting search for tweets using query [search].
+[12/03/2022 13:46:03] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 13:46:04] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"query":[""]},"message":"Invalid \'query\':\'\'. \'query\' must be a non-empty string"}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 13:56:13] Starting search for tweets using query [search mmk].
+[12/03/2022 13:56:13] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 13:56:34] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[12/03/2022 13:56:39] Search finished. 300 downloaded.
