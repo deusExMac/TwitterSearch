@@ -25,9 +25,15 @@ class commandHistory:
                self.commandHistory.pop(0)
                       
           self.commandHistory.append(cmd)
-          print(self.commandHistory)
+          #print(self.commandHistory)
           
+      def get(self, idx):
+          if len(self.commandHistory) < idx:
+             return ""
 
+          return(self.commandHistory[idx -1])
+
+        
       def printHistory(self):
           cPos = 1
           for c in self.commandHistory:

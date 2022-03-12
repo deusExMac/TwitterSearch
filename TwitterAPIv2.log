@@ -55,3 +55,7 @@
 [12/03/2022 13:56:13] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
 [12/03/2022 13:56:34] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [300] reached.
 [12/03/2022 13:56:39] Search finished. 300 downloaded.
+[12/03/2022 14:25:53] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 14:26:13] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [300] reached.
+[12/03/2022 14:26:24] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 14:26:44] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [300] reached.

@@ -624,15 +624,18 @@ while True:
 
     if command.startswith('!'):
        try:
-          hPos = int(command[1:])
-          if hPos > len(cmdHistory):
-              print("Invalid index", hPos)
-              continue
+          command = cHistory.get( int(command[1:]) )
+          if command == '':
+             continue   
+          #hPos = int(command[1:])
+          #if hPos > len(cmdHistory):
+          #    print("Invalid index", hPos)
+          #    continue
        except:
           print("Invalid index", command[1:]) 
           continue
 
-       command = cmdHistory[hPos-1]
+       #command = cmdHistory[hPos-1]
        print("<<<", command, "\n")
         
     if not command.lower().startswith('history') and not command.lower() =='h':
