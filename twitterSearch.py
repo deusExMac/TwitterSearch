@@ -325,8 +325,8 @@ def doParse(cmdArgs):
    try:  
     parser = ThrowingArgumentParser()
     #datetime.now().strftime("%d/%m/%Y")
-    parser.add_argument('-f', '--from',   nargs='?', default= '' )
-    parser.add_argument('-u', '--until', nargs='?', default='' )
+    parser.add_argument('-f', '--from',   nargs='?', default= (datetime.now() - timedelta(days=2)).strftime("%d/%m/%Y") )
+    parser.add_argument('-u', '--until', nargs='?', default=(datetime.now() - timedelta(days=1)).strftime("%d/%m/%Y") )
     parser.add_argument('-t', '--timestep', nargs='?', default="" )
     parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
 
@@ -346,11 +346,11 @@ def doParse(cmdArgs):
     args = vars( parser.parse_args(cmdArgs) )
 
     #print(args)
-    if args['from'] != '':       
-       args['from'] = dateutil.parser.parse(args['from'], dayfirst=True).isoformat() + 'Z' 
+    #if args['from'] != '':       
+    args['from'] = dateutil.parser.parse(args['from'], dayfirst=True).isoformat() + 'Z' 
        
-    if args['until'] != '':       
-       args['until'] = dateutil.parser.parse(args['until'], dayfirst=True).isoformat() + 'Z'
+    #if args['until'] != '':       
+    args['until'] = dateutil.parser.parse(args['until'], dayfirst=True).isoformat() + 'Z'
        
     return(args)
     
@@ -697,11 +697,11 @@ while True:
           print("Usage:search <query terms> lang:<lang code> from:<date> to:<date>")
           continue
 
-         if qr['from'] == '':
-            qr['from'] = (datetime.now() - timedelta(days=2)).isoformat() + 'Z'
+         #if qr['from'] == '':
+         #   qr['from'] = (datetime.now() - timedelta(days=2)).isoformat() + 'Z'
 
-         if qr['until'] == '':
-            qr['until'] = (datetime.now() - timedelta(days=1)).isoformat() + 'Z'
+         #if qr['until'] == '':
+         #   qr['until'] = (datetime.now() - timedelta(days=1)).isoformat() + 'Z'
 
          nTweets = doSearch(" ".join(qr['keywords']).strip(), qr['from'], qr['until'], qr['timestep'], configSettings )
 
