@@ -1,8 +1,8 @@
-g
-Sonia
-Σόνια
-q
-;
-searchtweets kik
-searchtweets kik
-q
+[DEBUG] Adding search period: [ 25/03/2018 05:03:17 - 25/03/2018 17:03:10 ]
+search -f 21/03/2018T17:03:10 -u 25/03/2018T17:03:10 -t 0D12H0M01S -n 3 -D -o crypto3.csv crypto lang:en
+w
+config
+config
+search -f 21/03/2018T17:03:10 -u 25/03/2018T17:03:10 -t 0D12H0M01S -n 3 -D -o crypto3.csv crypto lang:en
+config
+search -f 21/03/2018T17:03:10 -u 25/03/2018T17:03:10 -t 0D12H0M01S -n 3 -o crypto3.csv crypto lang:en

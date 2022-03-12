@@ -690,3 +690,243 @@
 [12/03/2022 09:23:07] Starting search for tweets using query [search sonia -n 3].
 [12/03/2022 09:23:07] Getting [300] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
 [12/03/2022 09:23:08] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[12/03/2022 17:16:24] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 17:16:27] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 17:22:34] Getting [5] tweets for period [2020-01-01T00:00:00Z] until [2020-01-02T00:00:00Z]
+[12/03/2022 17:22:34] Period [2020-01-01T00:00:00Z - 2020-01-02T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:22:39] Getting [5] tweets for period [2020-01-02T00:00:00Z] until [2020-01-03T00:00:00Z]
+[12/03/2022 17:22:40] Period [2020-01-02T00:00:00Z - 2020-01-03T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:22:45] Getting [5] tweets for period [2020-01-03T00:00:00Z] until [2020-01-04T00:00:00Z]
+[12/03/2022 17:22:46] Period [2020-01-03T00:00:00Z - 2020-01-04T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:22:51] Getting [5] tweets for period [2020-01-04T00:00:00Z] until [2020-01-05T00:00:00Z]
+[12/03/2022 17:22:51] Period [2020-01-04T00:00:00Z - 2020-01-05T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:22:56] Getting [5] tweets for period [2020-01-05T00:00:00Z] until [2020-01-06T00:00:00Z]
+[12/03/2022 17:22:57] Period [2020-01-05T00:00:00Z - 2020-01-06T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:02] Getting [5] tweets for period [2020-01-06T00:00:00Z] until [2020-01-07T00:00:00Z]
+[12/03/2022 17:23:02] Period [2020-01-06T00:00:00Z - 2020-01-07T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:08] Getting [5] tweets for period [2020-01-07T00:00:00Z] until [2020-01-08T00:00:00Z]
+[12/03/2022 17:23:08] Period [2020-01-07T00:00:00Z - 2020-01-08T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:13] Getting [5] tweets for period [2020-01-08T00:00:00Z] until [2020-01-09T00:00:00Z]
+[12/03/2022 17:23:14] Period [2020-01-08T00:00:00Z - 2020-01-09T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:19] Getting [5] tweets for period [2020-01-09T00:00:00Z] until [2020-01-10T00:00:00Z]
+[12/03/2022 17:23:19] Period [2020-01-09T00:00:00Z - 2020-01-10T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:25] Getting [5] tweets for period [2020-01-10T00:00:00Z] until [2020-01-11T00:00:00Z]
+[12/03/2022 17:23:25] Period [2020-01-10T00:00:00Z - 2020-01-11T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:30] Getting [5] tweets for period [2020-01-11T00:00:00Z] until [2020-01-12T00:00:00Z]
+[12/03/2022 17:23:31] Period [2020-01-11T00:00:00Z - 2020-01-12T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:36] Getting [5] tweets for period [2020-01-12T00:00:00Z] until [2020-01-13T00:00:00Z]
+[12/03/2022 17:23:37] Period [2020-01-12T00:00:00Z - 2020-01-13T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:42] Getting [5] tweets for period [2020-01-13T00:00:00Z] until [2020-01-14T00:00:00Z]
+[12/03/2022 17:23:42] Period [2020-01-13T00:00:00Z - 2020-01-14T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:48] Getting [5] tweets for period [2020-01-14T00:00:00Z] until [2020-01-15T00:00:00Z]
+[12/03/2022 17:23:48] Period [2020-01-14T00:00:00Z - 2020-01-15T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:53] Getting [5] tweets for period [2020-01-15T00:00:00Z] until [2020-01-16T00:00:00Z]
+[12/03/2022 17:23:54] Period [2020-01-15T00:00:00Z - 2020-01-16T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:23:59] Getting [5] tweets for period [2020-01-16T00:00:00Z] until [2020-01-17T00:00:00Z]
+[12/03/2022 17:24:02] Period [2020-01-16T00:00:00Z - 2020-01-17T00:00:00Z] Stopping due to max period number of tweets [5] reached.
+[12/03/2022 17:24:08] Getting [5] tweets for period [2020-01-17T00:00:00Z] until [2020-01-18T00:00:00Z]
+[12/03/2022 17:24:08] Period [2020-01-17T00:00:00Z - 2020-01-18T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:14] Getting [5] tweets for period [2020-01-18T00:00:00Z] until [2020-01-19T00:00:00Z]
+[12/03/2022 17:24:14] Period [2020-01-18T00:00:00Z - 2020-01-19T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:19] Getting [5] tweets for period [2020-01-19T00:00:00Z] until [2020-01-20T00:00:00Z]
+[12/03/2022 17:24:20] Period [2020-01-19T00:00:00Z - 2020-01-20T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:25] Getting [5] tweets for period [2020-01-20T00:00:00Z] until [2020-01-21T00:00:00Z]
+[12/03/2022 17:24:26] Period [2020-01-20T00:00:00Z - 2020-01-21T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:31] Getting [5] tweets for period [2020-01-21T00:00:00Z] until [2020-01-22T00:00:00Z]
+[12/03/2022 17:24:31] Period [2020-01-21T00:00:00Z - 2020-01-22T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:36] Getting [5] tweets for period [2020-01-22T00:00:00Z] until [2020-01-23T00:00:00Z]
+[12/03/2022 17:24:37] Period [2020-01-22T00:00:00Z - 2020-01-23T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:42] Getting [5] tweets for period [2020-01-23T00:00:00Z] until [2020-01-24T00:00:00Z]
+[12/03/2022 17:24:46] Period [2020-01-23T00:00:00Z - 2020-01-24T00:00:00Z] Stopping due to max period number of tweets [5] reached.
+[12/03/2022 17:24:51] Getting [5] tweets for period [2020-01-24T00:00:00Z] until [2020-01-25T00:00:00Z]
+[12/03/2022 17:24:52] Period [2020-01-24T00:00:00Z - 2020-01-25T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:24:57] Getting [5] tweets for period [2020-01-25T00:00:00Z] until [2020-01-26T00:00:00Z]
+[12/03/2022 17:24:57] Period [2020-01-25T00:00:00Z - 2020-01-26T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:25:02] Getting [5] tweets for period [2020-01-26T00:00:00Z] until [2020-01-27T00:00:00Z]
+[12/03/2022 17:25:03] Period [2020-01-26T00:00:00Z - 2020-01-27T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:25:08] Getting [5] tweets for period [2020-01-27T00:00:00Z] until [2020-01-28T00:00:00Z]
+[12/03/2022 17:25:09] Period [2020-01-27T00:00:00Z - 2020-01-28T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:25:14] Getting [5] tweets for period [2020-01-28T00:00:00Z] until [2020-01-29T00:00:00Z]
+[12/03/2022 17:25:14] Period [2020-01-28T00:00:00Z - 2020-01-29T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:25:20] Getting [5] tweets for period [2020-01-29T00:00:00Z] until [2020-01-30T00:00:00Z]
+[12/03/2022 17:25:20] Period [2020-01-29T00:00:00Z - 2020-01-30T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:25:25] Getting [5] tweets for period [2020-01-30T00:00:00Z] until [2020-01-31T00:00:00Z]
+[12/03/2022 17:25:26] Period [2020-01-30T00:00:00Z - 2020-01-31T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:43:17] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 17:43:17] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:44:35] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 17:44:36] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 17:50:08] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 17:50:11] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 17:51:02] Getting [15] tweets for period [2017-01-31T00:00:00Z] until [2017-02-03T02:00:05Z]
+[12/03/2022 17:51:05] Period [2017-01-31T00:00:00Z - 2017-02-03T02:00:05Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 17:51:10] Getting [15] tweets for period [2017-02-03T02:00:05Z] until [2017-02-06T04:00:10Z]
+[12/03/2022 17:51:14] Period [2017-02-03T02:00:05Z - 2017-02-06T04:00:10Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 17:51:19] Getting [15] tweets for period [2017-02-06T04:00:10Z] until [2017-02-09T06:00:15Z]
+[12/03/2022 17:51:22] Period [2017-02-06T04:00:10Z - 2017-02-09T06:00:15Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 17:51:27] Getting [15] tweets for period [2017-02-09T06:00:15Z] until [2017-02-12T08:00:20Z]
+[12/03/2022 17:51:31] Period [2017-02-09T06:00:15Z - 2017-02-12T08:00:20Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 17:51:36] Getting [15] tweets for period [2017-02-12T08:00:20Z] until [2017-02-15T10:00:25Z]
+[12/03/2022 17:51:40] Period [2017-02-12T08:00:20Z - 2017-02-15T10:00:25Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 17:51:45] Getting [15] tweets for period [2017-02-15T10:00:25Z] until [2017-02-18T12:00:30Z]
+[12/03/2022 17:51:48] Period [2017-02-15T10:00:25Z - 2017-02-18T12:00:30Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 17:51:54] Getting [15] tweets for period [2017-02-18T12:00:30Z] until [2017-02-20T00:00:00Z]
+[12/03/2022 17:51:57] Period [2017-02-18T12:00:30Z - 2017-02-20T00:00:00Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:01:03] Getting [15] tweets for period [2017-01-31T00:00:00Z] until [2017-02-01T00:00:00Z]
+[12/03/2022 18:01:06] Period [2017-01-31T00:00:00Z - 2017-02-01T00:00:00Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:09:00] Getting [15] tweets for period [2017-01-31T00:00:00Z] until [2017-02-01T00:00:00Z]
+[12/03/2022 18:09:04] Period [2017-01-31T00:00:00Z - 2017-02-01T00:00:00Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:10:42] Getting [15] tweets for period [2017-01-31T00:00:00Z] until [2017-02-03T02:00:05Z]
+[12/03/2022 18:10:45] Period [2017-01-31T00:00:00Z - 2017-02-03T02:00:05Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:10:51] Getting [15] tweets for period [2017-02-03T02:00:05Z] until [2017-02-05T00:00:00Z]
+[12/03/2022 18:10:54] Period [2017-02-03T02:00:05Z - 2017-02-05T00:00:00Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:42:25] Getting [15] tweets for period [2017-01-31T00:00:00Z] until [2017-02-03T02:00:05Z]
+[12/03/2022 18:42:28] Period [2017-01-31T00:00:00Z - 2017-02-03T02:00:05Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:42:33] Getting [15] tweets for period [2017-02-03T02:00:05Z] until [2017-02-05T00:00:00Z]
+[12/03/2022 18:42:37] Period [2017-02-03T02:00:05Z - 2017-02-05T00:00:00Z] Stopping due to max period number of tweets [15] reached.
+[12/03/2022 18:45:30] Getting [15] tweets for period [2027-01-31T00:00:00Z] until [2027-02-01T00:00:00Z]
+[12/03/2022 18:45:30] Period [2027-01-31T00:00:00Z - 2027-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2027-01-31T00:00Z"]},"message":"Invalid \'start_time\':\'2027-01-31T00:00Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2027-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2027-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 18:52:11] Getting [15] tweets for period [2027-01-31T00:00:00Z] until [2027-02-01T00:00:00Z]
+[12/03/2022 18:52:11] Period [2027-01-31T00:00:00Z - 2027-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2027-01-31T00:00Z"]},"message":"Invalid \'start_time\':\'2027-01-31T00:00Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2027-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2027-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 18:53:28] Getting [15] tweets for period [2027-01-31T00:00:00Z] until [2027-02-01T00:00:00Z]
+[12/03/2022 18:53:28] Period [2027-01-31T00:00:00Z - 2027-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2027-01-31T00:00Z"]},"message":"Invalid \'start_time\':\'2027-01-31T00:00Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2027-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2027-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 18:56:12] Getting [15] tweets for period [2027-01-31T00:00:00Z] until [2027-02-01T00:00:00Z]
+[12/03/2022 18:56:14] Period [2027-01-31T00:00:00Z - 2027-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2027-01-31T00:00Z"]},"message":"Invalid \'start_time\':\'2027-01-31T00:00Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2027-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2027-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 18:57:40] Getting [15] tweets for period [2027-01-31T00:00:00Z] until [2027-02-01T00:00:00Z]
+[12/03/2022 18:57:40] Period [2027-01-31T00:00:00Z - 2027-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2027-01-31T00:00Z"]},"message":"Invalid \'start_time\':\'2027-01-31T00:00Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2027-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2027-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 18:58:10] Getting [15] tweets for period [2027-01-31T00:00:00Z] until [2027-02-01T00:00:00Z]
+[12/03/2022 18:58:11] Period [2027-01-31T00:00:00Z - 2027-02-01T00:00:00Z] Twitter endpoint error. Message:(400, '{"errors":[{"parameters":{"start_time":["2027-01-31T00:00Z"]},"message":"Invalid \'start_time\':\'2027-01-31T00:00Z\'. \'start_time\' must be a minimum of 10 seconds prior to the request time."},{"parameters":{"end_time":["2027-02-01T00:00Z"]},"message":"Invalid \'end_time\':\'2027-02-01T00:00Z\'. \'end_time\' must be a minimum of 10 seconds prior to the request time."}],"title":"Invalid Request","detail":"One or more parameters to your request was invalid.","type":"https://api.twitter.com/2/problems/invalid-request"}')
+[12/03/2022 19:01:05] Getting [21] tweets for period [2016-05-21T00:00:00Z] until [2016-06-11T00:00:00Z]
+[12/03/2022 19:01:09] Period [2016-05-21T00:00:00Z - 2016-06-11T00:00:00Z] Stopping due to max period number of tweets [21] reached.
+[12/03/2022 19:01:15] Getting [21] tweets for period [2016-06-11T00:00:00Z] until [2016-07-02T00:00:00Z]
+[12/03/2022 19:01:18] Period [2016-06-11T00:00:00Z - 2016-07-02T00:00:00Z] Stopping due to max period number of tweets [21] reached.
+[12/03/2022 19:01:23] Getting [21] tweets for period [2016-07-02T00:00:00Z] until [2016-07-23T00:00:00Z]
+[12/03/2022 19:01:26] Period [2016-07-02T00:00:00Z - 2016-07-23T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 19:01:31] Getting [21] tweets for period [2016-07-23T00:00:00Z] until [2016-08-13T00:00:00Z]
+[12/03/2022 19:01:35] Period [2016-07-23T00:00:00Z - 2016-08-13T00:00:00Z] Stopping due to max period number of tweets [21] reached.
+[12/03/2022 19:01:40] Getting [21] tweets for period [2016-08-13T00:00:00Z] until [2016-08-15T00:00:00Z]
+[12/03/2022 19:01:41] Period [2016-08-13T00:00:00Z - 2016-08-15T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 19:15:02] Getting [50] tweets for period [2022-03-10T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 19:15:05] Period [2022-03-10T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 19:16:14] Getting [50] tweets for period [2018-03-21T00:00:00Z] until [2022-03-11T00:00:00Z]
+[12/03/2022 19:16:18] Period [2018-03-21T00:00:00Z - 2022-03-11T00:00:00Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:18:18] Getting [50] tweets for period [2016-03-21T14:03:10Z] until [2016-03-22T00:03:20Z]
+[12/03/2022 19:18:21] Period [2016-03-21T14:03:10Z - 2016-03-22T00:03:20Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:18:26] Getting [50] tweets for period [2016-03-22T00:03:20Z] until [2016-03-22T10:03:30Z]
+[12/03/2022 19:18:30] Period [2016-03-22T00:03:20Z - 2016-03-22T10:03:30Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:18:35] Getting [50] tweets for period [2016-03-22T10:03:30Z] until [2016-03-22T20:03:40Z]
+[12/03/2022 19:18:40] Period [2016-03-22T10:03:30Z - 2016-03-22T20:03:40Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:18:45] Getting [50] tweets for period [2016-03-22T20:03:40Z] until [2016-03-23T06:03:50Z]
+[12/03/2022 19:18:48] Period [2016-03-22T20:03:40Z - 2016-03-23T06:03:50Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:18:54] Getting [50] tweets for period [2016-03-23T06:03:50Z] until [2016-03-23T16:04:00Z]
+[12/03/2022 19:18:58] Period [2016-03-23T06:03:50Z - 2016-03-23T16:04:00Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:19:03] Getting [50] tweets for period [2016-03-23T16:04:00Z] until [2016-03-24T02:04:10Z]
+[12/03/2022 19:19:07] Period [2016-03-23T16:04:00Z - 2016-03-24T02:04:10Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:19:12] Getting [50] tweets for period [2016-03-24T02:04:10Z] until [2016-03-24T12:04:20Z]
+[12/03/2022 19:19:15] Period [2016-03-24T02:04:10Z - 2016-03-24T12:04:20Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:19:21] Getting [50] tweets for period [2016-03-24T12:04:20Z] until [2016-03-24T22:04:30Z]
+[12/03/2022 19:19:25] Period [2016-03-24T12:04:20Z - 2016-03-24T22:04:30Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:19:30] Getting [50] tweets for period [2016-03-24T22:04:30Z] until [2016-03-25T08:04:40Z]
+[12/03/2022 19:19:33] Period [2016-03-24T22:04:30Z - 2016-03-25T08:04:40Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:19:39] Getting [50] tweets for period [2016-03-25T08:04:40Z] until [2016-03-25T17:03:10Z]
+[12/03/2022 19:19:43] Period [2016-03-25T08:04:40Z - 2016-03-25T17:03:10Z] Stopping due to max period number of tweets [50] reached.
+[12/03/2022 19:25:01] Getting [3] tweets for period [2016-03-21T14:03:10Z] until [2016-03-22T00:03:20Z]
+[12/03/2022 19:25:04] Period [2016-03-21T14:03:10Z - 2016-03-22T00:03:20Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:25:10] Getting [3] tweets for period [2016-03-22T00:03:20Z] until [2016-03-22T10:03:30Z]
+[12/03/2022 19:25:13] Period [2016-03-22T00:03:20Z - 2016-03-22T10:03:30Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:25:18] Getting [3] tweets for period [2016-03-22T10:03:30Z] until [2016-03-22T20:03:40Z]
+[12/03/2022 19:25:23] Period [2016-03-22T10:03:30Z - 2016-03-22T20:03:40Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:25:28] Getting [3] tweets for period [2016-03-22T20:03:40Z] until [2016-03-23T06:03:50Z]
+[12/03/2022 19:25:32] Period [2016-03-22T20:03:40Z - 2016-03-23T06:03:50Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:25:37] Getting [3] tweets for period [2016-03-23T06:03:50Z] until [2016-03-23T16:04:00Z]
+[12/03/2022 19:25:40] Period [2016-03-23T06:03:50Z - 2016-03-23T16:04:00Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:25:45] Getting [3] tweets for period [2016-03-23T16:04:00Z] until [2016-03-24T02:04:10Z]
+[12/03/2022 19:25:49] Period [2016-03-23T16:04:00Z - 2016-03-24T02:04:10Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:25:55] Getting [3] tweets for period [2016-03-24T02:04:10Z] until [2016-03-24T12:04:20Z]
+[12/03/2022 19:25:58] Period [2016-03-24T02:04:10Z - 2016-03-24T12:04:20Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:26:03] Getting [3] tweets for period [2016-03-24T12:04:20Z] until [2016-03-24T22:04:30Z]
+[12/03/2022 19:26:08] Period [2016-03-24T12:04:20Z - 2016-03-24T22:04:30Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:26:13] Getting [3] tweets for period [2016-03-24T22:04:30Z] until [2016-03-25T08:04:40Z]
+[12/03/2022 19:26:17] Period [2016-03-24T22:04:30Z - 2016-03-25T08:04:40Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:26:22] Getting [3] tweets for period [2016-03-25T08:04:40Z] until [2016-03-25T17:03:10Z]
+[12/03/2022 19:26:27] Period [2016-03-25T08:04:40Z - 2016-03-25T17:03:10Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:27:28] Getting [48] tweets for period [2017-02-10T00:00:00Z] until [2021-06-13T00:00:00Z]
+[12/03/2022 19:27:31] Period [2017-02-10T00:00:00Z - 2021-06-13T00:00:00Z] Stopping due to max period number of tweets [48] reached.
+[12/03/2022 19:31:06] Getting [48] tweets for period [2021-02-10T00:00:00Z] until [2021-06-13T00:00:00Z]
+[12/03/2022 19:31:07] Period [2021-02-10T00:00:00Z - 2021-06-13T00:00:00Z] Stopping due no more next tokens.
+[12/03/2022 19:42:21] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 19:42:25] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:42:30] Getting [3] tweets for period [2018-03-22T05:03:11Z] until [2018-03-22T17:03:12Z]
+[12/03/2022 19:42:34] Period [2018-03-22T05:03:11Z - 2018-03-22T17:03:12Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:42:40] Getting [3] tweets for period [2018-03-22T17:03:12Z] until [2018-03-23T05:03:13Z]
+[12/03/2022 19:42:43] Period [2018-03-22T17:03:12Z - 2018-03-23T05:03:13Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:42:48] Getting [3] tweets for period [2018-03-23T05:03:13Z] until [2018-03-23T17:03:14Z]
+[12/03/2022 19:42:53] Period [2018-03-23T05:03:13Z - 2018-03-23T17:03:14Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:42:58] Getting [3] tweets for period [2018-03-23T17:03:14Z] until [2018-03-24T05:03:15Z]
+[12/03/2022 19:43:01] Period [2018-03-23T17:03:14Z - 2018-03-24T05:03:15Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:43:06] Getting [3] tweets for period [2018-03-24T05:03:15Z] until [2018-03-24T17:03:16Z]
+[12/03/2022 19:43:10] Period [2018-03-24T05:03:15Z - 2018-03-24T17:03:16Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:43:15] Getting [3] tweets for period [2018-03-24T17:03:16Z] until [2018-03-25T05:03:17Z]
+[12/03/2022 19:43:19] Period [2018-03-24T17:03:16Z - 2018-03-25T05:03:17Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:43:24] Getting [3] tweets for period [2018-03-25T05:03:17Z] until [2018-03-25T17:03:10Z]
+[12/03/2022 19:43:27] Period [2018-03-25T05:03:17Z - 2018-03-25T17:03:10Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:46:31] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 19:46:34] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:46:40] Getting [3] tweets for period [2018-03-22T05:03:11Z] until [2018-03-22T17:03:12Z]
+[12/03/2022 19:46:44] Period [2018-03-22T05:03:11Z - 2018-03-22T17:03:12Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:46:49] Getting [3] tweets for period [2018-03-22T17:03:12Z] until [2018-03-23T05:03:13Z]
+[12/03/2022 19:46:53] Period [2018-03-22T17:03:12Z - 2018-03-23T05:03:13Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:46:58] Getting [3] tweets for period [2018-03-23T05:03:13Z] until [2018-03-23T17:03:14Z]
+[12/03/2022 19:47:03] Period [2018-03-23T05:03:13Z - 2018-03-23T17:03:14Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:47:08] Getting [3] tweets for period [2018-03-23T17:03:14Z] until [2018-03-24T05:03:15Z]
+[12/03/2022 19:47:11] Period [2018-03-23T17:03:14Z - 2018-03-24T05:03:15Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:47:16] Getting [3] tweets for period [2018-03-24T05:03:15Z] until [2018-03-24T17:03:16Z]
+[12/03/2022 19:47:20] Period [2018-03-24T05:03:15Z - 2018-03-24T17:03:16Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:47:25] Getting [3] tweets for period [2018-03-24T17:03:16Z] until [2018-03-25T05:03:17Z]
+[12/03/2022 19:47:29] Period [2018-03-24T17:03:16Z - 2018-03-25T05:03:17Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 19:47:34] Getting [3] tweets for period [2018-03-25T05:03:17Z] until [2018-03-25T17:03:10Z]
+[12/03/2022 19:47:38] Period [2018-03-25T05:03:17Z - 2018-03-25T17:03:10Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:00:26] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 20:00:30] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:00:35] Getting [3] tweets for period [2018-03-22T05:03:11Z] until [2018-03-22T17:03:12Z]
+[12/03/2022 20:00:39] Period [2018-03-22T05:03:11Z - 2018-03-22T17:03:12Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:00:44] Getting [3] tweets for period [2018-03-22T17:03:12Z] until [2018-03-23T05:03:13Z]
+[12/03/2022 20:00:48] Period [2018-03-22T17:03:12Z - 2018-03-23T05:03:13Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:00:54] Getting [3] tweets for period [2018-03-23T05:03:13Z] until [2018-03-23T17:03:14Z]
+[12/03/2022 20:00:57] Period [2018-03-23T05:03:13Z - 2018-03-23T17:03:14Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:01:02] Getting [3] tweets for period [2018-03-23T17:03:14Z] until [2018-03-24T05:03:15Z]
+[12/03/2022 20:01:07] Period [2018-03-23T17:03:14Z - 2018-03-24T05:03:15Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:01:12] Getting [3] tweets for period [2018-03-24T05:03:15Z] until [2018-03-24T17:03:16Z]
+[12/03/2022 20:01:16] Period [2018-03-24T05:03:15Z - 2018-03-24T17:03:16Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:01:21] Getting [3] tweets for period [2018-03-24T17:03:16Z] until [2018-03-25T05:03:17Z]
+[12/03/2022 20:01:24] Period [2018-03-24T17:03:16Z - 2018-03-25T05:03:17Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:01:29] Getting [3] tweets for period [2018-03-25T05:03:17Z] until [2018-03-25T17:03:10Z]
+[12/03/2022 20:01:34] Period [2018-03-25T05:03:17Z - 2018-03-25T17:03:10Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:13:05] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 20:13:09] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:13:40] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 20:18:51] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 20:33:51] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 20:33:55] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:34:01] Getting [3] tweets for period [2018-03-22T05:03:11Z] until [2018-03-22T17:03:12Z]
+[12/03/2022 20:34:04] Period [2018-03-22T05:03:11Z - 2018-03-22T17:03:12Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:34:09] Getting [3] tweets for period [2018-03-22T17:03:12Z] until [2018-03-23T05:03:13Z]
+[12/03/2022 20:34:14] Period [2018-03-22T17:03:12Z - 2018-03-23T05:03:13Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:34:19] Getting [3] tweets for period [2018-03-23T05:03:13Z] until [2018-03-23T17:03:14Z]
+[12/03/2022 20:34:23] Period [2018-03-23T05:03:13Z - 2018-03-23T17:03:14Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:35:13] Getting [3] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
+[12/03/2022 20:35:17] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:35:22] Getting [3] tweets for period [2018-03-22T05:03:11Z] until [2018-03-22T17:03:12Z]
+[12/03/2022 20:35:26] Period [2018-03-22T05:03:11Z - 2018-03-22T17:03:12Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:35:31] Getting [3] tweets for period [2018-03-22T17:03:12Z] until [2018-03-23T05:03:13Z]
+[12/03/2022 20:35:34] Period [2018-03-22T17:03:12Z - 2018-03-23T05:03:13Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:35:39] Getting [3] tweets for period [2018-03-23T05:03:13Z] until [2018-03-23T17:03:14Z]
+[12/03/2022 20:35:44] Period [2018-03-23T05:03:13Z - 2018-03-23T17:03:14Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:35:49] Getting [3] tweets for period [2018-03-23T17:03:14Z] until [2018-03-24T05:03:15Z]
+[12/03/2022 20:35:53] Period [2018-03-23T17:03:14Z - 2018-03-24T05:03:15Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:35:58] Getting [3] tweets for period [2018-03-24T05:03:15Z] until [2018-03-24T17:03:16Z]
+[12/03/2022 20:36:02] Period [2018-03-24T05:03:15Z - 2018-03-24T17:03:16Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:36:07] Getting [3] tweets for period [2018-03-24T17:03:16Z] until [2018-03-25T05:03:17Z]
+[12/03/2022 20:36:11] Period [2018-03-24T17:03:16Z - 2018-03-25T05:03:17Z] Stopping due to max period number of tweets [3] reached.
+[12/03/2022 20:36:16] Getting [3] tweets for period [2018-03-25T05:03:17Z] until [2018-03-25T17:03:10Z]
+[12/03/2022 20:36:19] Period [2018-03-25T05:03:17Z - 2018-03-25T17:03:10Z] Stopping due to max period number of tweets [3] reached.

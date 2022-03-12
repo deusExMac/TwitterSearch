@@ -89,6 +89,10 @@ def connect_to_endpoint(url, headers, params, next_token = None):
     return response.json()
 
 
+
+#
+# This needs to be rewritten...
+#
 def append_to_csv(json_response, fileName, sep, extypes, nTweets = 0, mxTweets = -1):
     
     # Iterate over user objects
@@ -229,12 +233,13 @@ def log(logF, m):
 def doSearch( q, dateFrom, dateTo, timeStep, cfg=None):
 
     if q.strip() == '':
-       print('Error: Empty query.')       
+       print('Error: Empty query.')
+       print('Usage: search [-f <start date of tweets>] [-u <end date of tweets>] [-t <subperiod breakup specifications>] [-n <number of tweets to fetch each period>] [-o <csv file name to store fetched tweets>] <query>')
        return(None)
 
     
     searchPeriods = []
-    pAdded = updatePeriods( dateFrom, dateTo, timeStep, searchPeriods)
+    pAdded = generatePeriods( dateFrom, dateTo, timeStep, searchPeriods, cfg)
     if pAdded is None:
        print("Error adding periods")
        return(None)
@@ -244,6 +249,19 @@ def doSearch( q, dateFrom, dateTo, timeStep, cfg=None):
 
 
 def searchTweets(q, datePeriods=None, cfg=None):
+
+
+    print("\nCommencing tweet search")
+    print("Search parameters:")
+    print("\tQuery:", q)
+    print("\tTarget archive:", cfg.get('TwitterAPI', 'targetArchive', fallback="recent") )
+    print("\tNumber of search periods:", len(datePeriods))
+    print("\tMaximum number of tweets to fetch in each period:",  cfg.get('General', 'maxTweetsPerPeriod', fallback="30"))
+    print("\tNumber of tweets to ask from endpoint per request:",  cfg.getint('TwitterAPI', 'maxEndpointTweets', fallback=100) )
+    print("\tTweets saved to csv file:",  cfg.get('Storage', 'csvFile', fallback="data.csv"), "\n" ) 
+
+    time.sleep( 2.3 )
+
 
     headers = create_headers(  cfg.get('TwitterAPI', 'Bearer', fallback='') )    
 
@@ -260,8 +278,8 @@ def searchTweets(q, datePeriods=None, cfg=None):
         log( configSettings.get('Debug', 'logFile', fallback="app.log") ,
              "Getting [" + cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for period [" + datePeriods[i]['from'] + "] until [" + datePeriods[i]['until'] +"]")
         
-        #print(">>> Getting a maximum of [", cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for period [", datePeriods[i]['from'], "] to [", datePeriods[i]['until'], "]", sep="")
-        print("*** Period [", datePeriods[i]['from'], " - ", datePeriods[i]['until'], "] : Getting a maximum of [", cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
+        
+        print(">>> Period [", datetime.strptime(datePeriods[i]['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(datePeriods[i]['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", cfg.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
         count = 0 # Counting tweets per time period        
         flag = True
         moreResults = True
@@ -278,9 +296,8 @@ def searchTweets(q, datePeriods=None, cfg=None):
               url = create_url(q, datePeriods[i]['from'],datePeriods[i]['until'], cfg.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), cfg)
               json_response = connect_to_endpoint(url[0], headers, url[1], next_token)
            except Exception as ex:
-              log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Period [" + datePeriods[i]['from'] + " - " + datePeriods[i]['until'] + "] Twitter endpoint error. Message:" + str(ex) )
-              #moreResults = False
-              print(str(ex))
+              log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Period [" + datePeriods[i]['from'] + " - " + datePeriods[i]['until'] + "] Twitter endpoint error. Message:" + str(ex) )              
+              print(str(ex))              
               sys.exit("\nFaral error. Terminating. Sorry.\n")
 
                       
@@ -329,6 +346,8 @@ def doParse(cmdArgs):
     parser.add_argument('-u', '--until', nargs='?', default=(datetime.now() - timedelta(days=1)).strftime("%d/%m/%Y") )
     parser.add_argument('-t', '--timestep', nargs='?', default="" )
     parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
+    parser.add_argument('-o', '--outfile', type=str, nargs='?', default='' )
+    parser.add_argument('-D',  '--debugmode', action='store_true')
 
     # IMPORTANT! arguments -f, -u -t -n etc on the command line, MUST APPEAR BEFORE
     #            the remaining arguments. Otherwise, these arguments will not be parsed
@@ -345,18 +364,15 @@ def doParse(cmdArgs):
     
     args = vars( parser.parse_args(cmdArgs) )
 
-    #print(args)
-    #if args['from'] != '':       
-    args['from'] = dateutil.parser.parse(args['from'], dayfirst=True).isoformat() + 'Z' 
-       
-    #if args['until'] != '':       
-    args['until'] = dateutil.parser.parse(args['until'], dayfirst=True).isoformat() + 'Z'
-       
+    # We make sure that no . spearator (separating seconds from ms at the end is present (as return by now())
+    # this will destroy all our hypotheses about the formatting.    
+    args['from'] = dateutil.parser.parse( args['from'].split('.')[0] , dayfirst=True).isoformat() + 'Z'        
+    args['until'] = dateutil.parser.parse( args['until'].split('.')[0] , dayfirst=True).isoformat() + 'Z'    
     return(args)
     
    except Exception as argEx:
       print( str(argEx) ) 
-      print("EEE Usage: <TODO: Fill me>")
+      #print("EEE Usage: <TODO: Fill me>")
       return(None)      
 
 
@@ -441,16 +457,14 @@ def parseSearchQuery(qList):
            
 
 
-def updatePeriods( f, u, t, tPeriods):
+def generatePeriods( f, u, t, tPeriods, cfg=None):
 
+
+    if datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ") > datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
+       print('Invalid dates: End-date [', u, '] must be after start-date [', f, ']') 
+       return(None)
+      
     if t == "":
-       #sDate = datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ")
-       #finalPDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
-
-       if datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ") > datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
-          print('Invalid dates: End-date [', u, '] must be after start-date [', f, ']') 
-          return(None)
-        
        tPeriods.append( {'from': f, 'until': u} )
        return(1)
 
@@ -466,8 +480,7 @@ def updatePeriods( f, u, t, tPeriods):
           t +='0S'
 
     #parse time period step
-    dayVal = -1 # Days are handled in a special way because we use existing date parsing routines and number of days cannot be 0 or exceed 31
-    
+    dayVal = -1 # Days are handled in a special way because we use existing date parsing routines and number of days cannot be 0 or exceed 31    
     if t.startswith('0D'):
        t = t.replace('0D', '')
        tmFormat = '%HH%MM%SS'
@@ -485,23 +498,21 @@ def updatePeriods( f, u, t, tPeriods):
         
     
     sDate = datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ")
-    finalPDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
-
-    if sDate >= finalPDate:
-       print('Invalid dates: End date [', u, '] must be after start date [', f, ']')
-       return(None)
-    
     pCnt = 0
     while True:
         eDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=(stepValue.second) )                                                            
         if eDate >= datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
            eDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
            tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
-           pCnt += 1           
-           print("\tAdding LAST search period: [", sDate, "-", eDate, "]")
+           pCnt += 1
+           if cfg.getboolean('Debug', 'debugMode', fallback=False):
+              print("\t[DEBUG] Adding search period: [", sDate.strftime("%d/%m/%Y %H:%M:%S"), "-", eDate.strftime("%d/%m/%Y %H:%M:%S"), "]")
+              
            return(pCnt)
-
-        print("\tAdding search period: [", sDate, "-", eDate, "]")
+      
+        if cfg.getboolean('Debug', 'debugMode', fallback=False):
+           print("\t[DEBUG] Adding search period: [", sDate.strftime("%d/%m/%Y %H:%M:%S"), "-", eDate.strftime("%d/%m/%Y %H:%M:%S"), "]")
+           
         tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
         pCnt += 1
         sDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=stepValue.second)
@@ -555,6 +566,11 @@ def printHelp():
     print("")
 
 
+
+
+
+
+
 #
 # IGNORE THIS if you are NOT A MacOS user
 #
@@ -599,7 +615,7 @@ else:
 
 
     
-cmdHistory = []
+
 targetPeriods = []
 
 cHistory = commandHistory(8, True)
@@ -626,89 +642,49 @@ while True:
        try:
           command = cHistory.get( int(command[1:]) )
           if command == '':
-             continue   
-          #hPos = int(command[1:])
-          #if hPos > len(cmdHistory):
-          #    print("Invalid index", hPos)
-          #    continue
+             continue             
        except:
           print("Invalid index", command[1:]) 
           continue
-
-       #command = cmdHistory[hPos-1]
-       print("<<<", command, "\n")
+       
+       print("[", command, "]\n")
         
-    if not command.lower().startswith('history') and not command.lower() =='h':
-           cmdHistory.append(command)
+    if command.lower() not in ['history', 'h', 'quit', 'q']:           
            cHistory.addCommand( command )
     
     cParts = command.split()
-    if cParts[0].lower() == "search":
+    
+    if cParts[0].lower() == "OLDsearch":
        
-       qr = parseSearchQuery(cParts[1:])
-       if qr is None:
-          print("Usage:search <query terms> lang:<lang code> from:<date> to:<date>")
-          continue
-
-       print("Got:", qr)
-       print("Query:[", " ".join(qr['keywords']), "]" , sep=""  )
-       #continue
-
-
-       if len(targetPeriods) == 0:
-         if qr['from'] == '':
-            qr['from'] = (datetime.now() - timedelta(days=2)).isoformat() + 'Z'
-
-         if qr['until'] == '':
-            qr['until'] = (datetime.now() - timedelta(days=1)).isoformat() + 'Z'
-
-          
-       pAdded = updatePeriods( qr['from'], qr['until'], qr['timestep'], targetPeriods)
-       if pAdded is None:
-          print("Error adding periods")
-          continue
-
-
-       if qr['numtweets'] != 0:
-          configSettings['General']['maxTweetsPerPeriod'] =  str(qr['numtweets'])
-          
-       print("Added ", pAdded, "periods")
+        pass
        
-          
-       query = " ".join( cParts[1:])
-       print("\nCommencing tweet search")
-       print("Search parameters:")
-       print("\tQuery:", query)
-       print("\tTarget archive:", configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
-       print("\tNumber of search periods:", len(targetPeriods))
-       print("\tMaximum number of tweets to fetch for each period:",  configSettings.get('General', 'maxTweetsPerPeriod', fallback="30"))
-       print("\tNumber of tweets to ask from endpoint per request:",  configSettings.getint('TwitterAPI', 'maxEndpointTweets', fallback=100) )
-       print("\tTweets saved to csv file:",  configSettings.get('Storage', 'csvFile', fallback="data.csv"), "\n" )
-
-       #continue
-       log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Starting search for tweets using query [" + command + "].")
-       
-       nTweets = searchTweets( " ".join(qr['keywords']).strip(), targetPeriods, configSettings )
-       
-       print("Searching terminated. Total of", nTweets, " tweets fetched.") 
-       log( configSettings.get('Debug', 'logFile', fallback="app.log") , "Search finished. " +  str(nTweets) +  " downloaded.")
-
-       # clear periods
-       # targetPeriods = []
-       
-    elif cParts[0].lower() == "searchtweets":
+    elif cParts[0].lower() == "search":
          
          qr = parseSearchQuery(cParts[1:])
          if qr is None:
-          print("Usage:search <query terms> lang:<lang code> from:<date> to:<date>")
+          print("Usage:search -f <from date> -u <to date> -n <number of tweets> query")
           continue
 
-         #if qr['from'] == '':
-         #   qr['from'] = (datetime.now() - timedelta(days=2)).isoformat() + 'Z'
+         if qr['numtweets'] != 0:
+          if configSettings.getboolean('Debug', 'debugMode', fallback=False):
+             print("[DEBUG] Overriding setting maxTweetsPerPeriod from [", configSettings['General']['maxTweetsPerPeriod'], "] to [", qr['numtweets'], "]")
+             
+          configSettings['General']['maxTweetsPerPeriod'] =  str(qr['numtweets'])
 
-         #if qr['until'] == '':
-         #   qr['until'] = (datetime.now() - timedelta(days=1)).isoformat() + 'Z'
+         if qr['outfile'] != '':
+            if configSettings.getboolean('Debug', 'debugMode', fallback=False):
+               print("[DEBUG] Overriding setting csvFile from [", configSettings['Storage']['csvFile'], "] to [", qr['outfile'], "]")
+             
+            configSettings['Storage']['csvFile'] =  qr['outfile']
 
+
+         
+         if qr['debugmode']:
+            #if configSettings.getboolean('Debug', 'debugMode', fallback=False):
+            print("[DEBUG] Overriding setting debugMode from [", configSettings['Debug']['debugMode'], "] to [", qr['debugmode'], "]")
+
+            configSettings['Debug']['debugMode'] =  str(qr['debugmode'])
+          
          nTweets = doSearch(" ".join(qr['keywords']).strip(), qr['from'], qr['until'], qr['timestep'], configSettings )
 
     elif cParts[0].lower() == "quit" or cParts[0].lower() == "q":
@@ -733,7 +709,7 @@ while True:
     elif cParts[0].lower() == "addperiod":
          
          cmdParams = parseSearchQuery(cParts[1:])
-         npA = updatePeriods(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], targetPeriods)
+         npA = generatePeriods(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], targetPeriods, configSettings)
          if npA is None:
             print('Error! Could not add periods')
             continue
@@ -782,10 +758,7 @@ while True:
           targetPeriods = []
     elif cParts[0].lower() == "h" or cParts[0].lower() == "history":
          cHistory.printHistory() 
-         pos=0
-         for h in cmdHistory:
-             pos += 1
-             print("\t", str(pos), ".  ", h, sep="")
+         
 
     else:
         print("Unknown command:", cParts[0])
