@@ -6,15 +6,22 @@ import configparser
 import time
 
 import configparser
-
+import appConstants
 
 class twitterSearchClient:
-    #configuration = None
-    
+
+    def __init__(self):
+         self.configuration = configparser.RawConfigParser(allow_no_value=True)
+         self.configuration.read(appConstants.DEFAULTCONFIGFILE)
+         self.configuration.add_section('__Runtime')
+         self.configuration['__Runtime']['__configSource'] = appConstants.DEFAULTCONFIGFILE
+         
+            
     def __init__(self, cfg):
         self.configuration = cfg
         #self.previousRequestTime = None
         
+
 
     def setConfiguration(self, cfg):
         self.configuration = cfg
