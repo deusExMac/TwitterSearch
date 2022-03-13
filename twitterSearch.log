@@ -932,3 +932,4 @@
 [12/03/2022 20:36:19] Period [2018-03-25T05:03:17Z - 2018-03-25T17:03:10Z] Stopping due to max period number of tweets [3] reached.
 [13/03/2022 10:04:29] Getting [33] tweets for period [2018-03-21T17:03:10Z] until [2018-03-22T05:03:11Z]
 [13/03/2022 10:04:30] Period [2018-03-21T17:03:10Z - 2018-03-22T05:03:11Z] Twitter endpoint error. Message:(401, '{\n  "title": "Unauthorized",\n  "type": "about:blank",\n  "status": 401,\n  "detail": "Unauthorized"\n}')
+[13/03/2022 16:56:25] Getting [4] tweets for period [2020-05-03T01:00:10Z] until [2020-05-05T01:00:10Z]

@@ -42,7 +42,7 @@ import argparse
 # We define constants in this file
 import appConstants
 from commandHistory import commandHistory
-
+import twitterV2API 
 
 
 class ArgumentParserError(Exception): pass
@@ -607,7 +607,7 @@ configSettings = configparser.RawConfigParser(allow_no_value=True)
  
 
 
-# Check default config file
+# Load config file
 if os.path.exists(configFile):    
    configSettings.read(configFile)
    configSettings.add_section('__Runtime')
@@ -627,6 +627,11 @@ cHistory = commandHistory(15, True)
 
 print("Type 'help' to see a list of supported commands.\n")
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
+
+
+tAPI = twitterV2API.twitterSearchClient(configSettings)
+
+
 
 
 # Simple command line interface to
@@ -659,8 +664,14 @@ while True:
     
     cParts = command.split()
     
-    if cParts[0].lower() == "OLDsearch":
-        pass
+    if cParts[0].lower() == "newsearch":
+        print('EXECUTING NEWSEARCH!')  
+        qr = parseSearchQuery(cParts[1:])
+        if qr is None:
+          print("Usage:search -f <from date> -u <to date> -n <number of tweets> query")
+          continue
+
+        tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
        
     elif cParts[0].lower() == "search":
          
@@ -681,7 +692,6 @@ while True:
              
             configSettings['Storage']['csvFile'] =  qr['outfile']
 
-
          
          if qr['debugmode']:
             #if configSettings.getboolean('Debug', 'debugMode', fallback=False):
@@ -690,6 +700,10 @@ while True:
             configSettings['Debug']['debugMode'] =  str(qr['debugmode'])
           
          nTweets = doSearch(" ".join(qr['keywords']).strip(), qr['from'], qr['until'], qr['timestep'], configSettings )
+
+         # 
+         # TODO: Set  debugmode to old value if needed.
+         #
 
     elif cParts[0].lower() == "quit" or cParts[0].lower() == "q":
          break
@@ -795,6 +809,12 @@ while True:
          configSettings.add_section('__Runtime')
          configSettings['__Runtime']['__configSource'] = configFile
          print("Configuration file [", configFile, "] successfully loaded.", sep="")
+
+         # Make sure that the target and bearer agree
+         setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
+
+         tAPI.setConfiguration( configSettings )
+         
     else:
         print("Unknown command:", cParts[0])
 
