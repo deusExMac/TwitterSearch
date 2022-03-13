@@ -759,14 +759,14 @@ while True:
     elif cParts[0].lower() == "h" or cParts[0].lower() == "history":
          cHistory.printHistory() 
          
-
+    elif cParts[0].lower() == 'reload':
+         print('Loading configuration file: ', configSettings['__Runtime']['__configSource'])
+         #TODO: Complete me
     else:
         print("Unknown command:", cParts[0])
 
   except KeyboardInterrupt:
-       #print("\n")
-       #print("\n")       
-       print("Keyboard interrupt seen.")
+       print("\nKeyboard interrupt seen.")
        
 cHistory.save()
 print("\nFinished. ByeBye!")
