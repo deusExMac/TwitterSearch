@@ -466,6 +466,10 @@ def generatePeriods( f, u, t, tPeriods, cfg=None):
       
     if t == "":
        tPeriods.append( {'from': f, 'until': u} )
+       if cfg.getboolean('Debug', 'debugMode', fallback=False):
+          print("\t[DEBUG] No time step specified.")   
+          print("\t[DEBUG] Adding SINGLE search period: [", datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "-", datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "]")
+
        return(1)
 
     # Do some normalization if needed
@@ -618,7 +622,7 @@ else:
 
 targetPeriods = []
 
-cHistory = commandHistory(8, True)
+cHistory = commandHistory(15, True)
 
 print("Type 'help' to see a list of supported commands.\n")
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
@@ -655,7 +659,6 @@ while True:
     cParts = command.split()
     
     if cParts[0].lower() == "OLDsearch":
-       
         pass
        
     elif cParts[0].lower() == "search":
@@ -760,8 +763,37 @@ while True:
          cHistory.printHistory() 
          
     elif cParts[0].lower() == 'reload':
-         print('Loading configuration file: ', configSettings['__Runtime']['__configSource'])
-         #TODO: Complete me
+          
+         shellParser = ThrowingArgumentParser()
+         
+         try:
+           shellParser.add_argument('-c', '--config',   nargs='?', default='')
+           shellArgs = vars( shellParser.parse_args( cParts[1:] ) )
+         except Exception as ex:
+             print("Invalid argument. Usage: reload [-f config_file]")
+             continue
+               
+         if  shellArgs['config'] == '':
+             configFile = configSettings['__Runtime']['__configSource']
+         else:
+             configFile = shellArgs['config']
+             
+         
+         if configFile == '':
+            print('No configuration file. No configuration loaded.')   
+            continue
+
+         if not os.path.exists(configFile):
+            print('Configuration file [', configFile ,'] not found', sep='')
+            print('No configuration file loaded.')
+            continue
+
+         print('Loading configuration file: [', configFile, ']', sep="")
+         configSettings = configparser.RawConfigParser(allow_no_value=True)
+         configSettings.read(configFile)
+         configSettings.add_section('__Runtime')
+         configSettings['__Runtime']['__configSource'] = configFile
+         print("Configuration file [", configFile, "] successfully loaded.", sep="")
     else:
         print("Unknown command:", cParts[0])
 
