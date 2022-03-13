@@ -457,8 +457,9 @@ def parseSearchQuery(qList):
            
 
 
-def generatePeriods( f, u, t, tPeriods, cfg=None):
 
+
+def generatePeriods( f, u, t, tPeriods, cfg=None):
 
     if datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ") > datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
        print('Invalid dates: End-date [', u, '] must be after start-date [', f, ']') 
@@ -466,9 +467,8 @@ def generatePeriods( f, u, t, tPeriods, cfg=None):
       
     if t == "":
        tPeriods.append( {'from': f, 'until': u} )
-       if cfg.getboolean('Debug', 'debugMode', fallback=False):
-          print("\t[DEBUG] No time step specified.")   
-          print("\t[DEBUG] Adding SINGLE search period: [", datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "-", datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "]")
+       if cfg.getboolean('Debug', 'debugMode', fallback=False):  
+          print("\t[DEBUG] No time step specified. Adding SINGLE search period: [", datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "-", datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "]")
 
        return(1)
 
@@ -497,7 +497,7 @@ def generatePeriods( f, u, t, tPeriods, cfg=None):
         if dayVal != 0:
            dayVal = stepValue.day 
     except Exception as sEx:
-        print( "Invalid date step ", str(sEx))
+        print( "Invalid time step ", str(sEx))
         return(None)
         
     
@@ -576,9 +576,10 @@ def printHelp():
 
 
 #
-# IGNORE THIS if you are NOT A MacOS user
+# IGNORE the next line if you are NOT A MacOS user with an older version of
+# Python 3.x.x :
 #
-#sys.argv = [sys.argv[0], '-c', 'sensitiveFiles/twitterSearch.conf']
+# sys.argv = [sys.argv[0], '-c', 'sensitiveFiles/twitterSearch.conf']
 
 
 ######################################################################
