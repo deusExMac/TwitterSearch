@@ -665,27 +665,12 @@ while True:
     cParts = command.split()
     
     if cParts[0].lower() == "newsearch":
-        print('EXECUTING NEWSEARCH!')
-        
+        print('EXECUTING NEWSEARCH!')  
         qr = parseSearchQuery(cParts[1:])
         if qr is None:
           print("Usage:search -f <from date> -u <to date> -n <number of tweets> query")
           continue
-
-        if qr['numtweets'] != 0:
-          if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-             print("[DEBUG] Overriding setting maxTweetsPerPeriod from [", configSettings['General']['maxTweetsPerPeriod'], "] to [", qr['numtweets'], "]")
-
-          configSettings['General']['maxTweetsPerPeriod'] =  str(qr['numtweets'])
-
-
-        if qr['outfile'] != '':
-            if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-               print("[DEBUG] Overriding setting csvFile from [", configSettings['Storage']['csvFile'], "] to [", qr['outfile'], "]")
-             
-            configSettings['Storage']['csvFile'] =  qr['outfile'] 
-
-
+  
         tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
        
     elif cParts[0].lower() == "search":

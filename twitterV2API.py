@@ -7,9 +7,6 @@ import time
 
 import configparser
 import appConstants
-import tweetWriter
-
-
 
 class twitterSearchClient:
 
@@ -28,7 +25,7 @@ class twitterSearchClient:
 
     def setConfiguration(self, cfg):
         self.configuration = cfg
-        
+        #print(self.configuration)
 
 
 
@@ -40,8 +37,6 @@ class twitterSearchClient:
         next_token = None
         headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
         search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
-        tWriter = tweetWriter.tweetWriterFactory()
-        wrtr = tWriter.getWriter('csv')
 
         query_params = {'query': q,
                     'start_time': sP,
@@ -56,7 +51,6 @@ class twitterSearchClient:
         numRequests = 0
         totalPeriodTweets = 0
         while True:
-            
           try:
             json_response = self.__sendRequest(search_url, headers, query_params, next_token)
             numRequests += 1
@@ -64,33 +58,18 @@ class twitterSearchClient:
              print( str(netEx) )
              return(None)
 
-          next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
-          #totalPeriodTweets += len(tweetsFetched)
-          if totalPeriodTweets + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
-             # To test something
-             amount =  self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) - totalPeriodTweets             
-             nW = wrtr.write( tweetsFetched[0:amount], userRefs, self.configuration )
-             
-             totalPeriodTweets +=  amount
-             print(".L[pF:", len(tweetsFetched), ", pS:", amount , ", tpS:",totalPeriodTweets,']', sep='')
-             time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
-             return(totalPeriodTweets)
-
-          if  len(tweetsFetched) > 0 :
-              nW = wrtr.write( tweetsFetched, userRefs, self.configuration )
-              totalPeriodTweets +=  len(tweetsFetched)
-              print(".[pF:", len(tweetsFetched), ", pS:", len(tweetsFetched) , ", tpS:",totalPeriodTweets,']', sep='', end='' )
-          
-          # Next commented out code, not needed anymore
+          next_token, tweetCount = self.__parseResponse( json_response, totalPeriodTweets )         
+          totalPeriodTweets += tweetCount
+          print(".[TknC:", tweetCount, ", TotalC:",totalPeriodTweets,']', sep='', end='' )
           '''
           if totalPeriodTweets >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
              print('Max tweets per period', self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ),' reached. Stopping')   
              return(totalPeriodTweets)
-          '''
-          
+          '''  
           if next_token is None:
-             print('[DEBUG] >>>> Found  NONE next token')
-             # Sleep but shorter. Just to make sure that consecutive requests do not bombard the server             
+             #print('[DEBUG] >>>> Found  NONE next token')
+             # Sleep but shorter. Just to make sure that consecutive requests do not bombard the server
+             
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )
              break
             
@@ -99,7 +78,7 @@ class twitterSearchClient:
           #   print('[DEBUG] Sleeping ', self.configuration.getfloat('Request', 'sleepTime', fallback=3.8))
 
           #print('Sleeping...')
-          time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8) )          
+          time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8) )
 
         #print('Done (', totalPeriodTweets, ')')
         print(".[", totalPeriodTweets,']' )  
@@ -116,18 +95,12 @@ class twitterSearchClient:
         if periods is None:
            print('Error creating periods.')
            return(None)
-        print('Total of ', len(periods), ' periods')
-
-        totalTweets = 0
+        
         for p in periods:
             print(">>> Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
             nTweets = self.__qryPeriod(q, p['from'], p['until'])
-            if nTweets is None:
-               break 
-            totalTweets += nTweets
-            #print("\t>>>>", nTweets, 'for period')
-
-        print('<<< Total of ', totalTweets, 'tweets downloaded')
+            print("\t>>>>", nTweets, 'for period')
+      
         
 
 
@@ -153,7 +126,7 @@ class twitterSearchClient:
        if self.configuration.getboolean('Debug', 'debugMode', fallback=False):  
           print("\t[DEBUG] No time step specified. Adding SINGLE search period: [", datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "-", datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "]")
 
-          return(tPeriods)
+       return(tPeriods)
 
       # Do some normalization if needed
       # TODO: DO we need this check????
@@ -212,26 +185,19 @@ class twitterSearchClient:
 
          
 
-    def __parseResponse(self, jsn):
+    def __parseResponse(self, jsn, currentTotalCount):
     
-      
      resultCount = jsn['meta']['result_count']
-     tweetsCollected = []
-     userReferences = {}
+    
      if resultCount is not None and resultCount > 0:
        #print("__parseResponse: Got ", resultCount, " tweets for this token")
     
-              
-       totalUsers = len(jsn['includes']['users'])
-       for k in range(totalUsers):
-           userReferences[jsn['includes']['users'][k]['id']] = jsn['includes']['users'][k]
-
-       
+       nTokenCount = 0 # how many tweets from this token were extracted
        for tweet in jsn['data']:
-           tweetsCollected.append( tweet )
-           # currentTotalCount += 1           
-           #if currentTotalCount >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
-           #   return(None, nTokenCount) 
+           currentTotalCount += 1
+           nTokenCount += 1
+           if currentTotalCount >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
+              return(None, nTokenCount) 
            
      if 'next_token' in jsn['meta']:
        # Save the token to use for next call
@@ -239,9 +205,7 @@ class twitterSearchClient:
      else:
           nextToken = None
      
-     return( nextToken, tweetsCollected, userReferences )
-
-
+     return( nextToken, resultCount )
     
 
     def __sendRequest(self, url, headers, params, next_token = None):

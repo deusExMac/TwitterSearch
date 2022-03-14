@@ -1,15 +1,4 @@
-newsearch -f 30/8/2011 -u 17/10/2011T15:03:12 -t 20D0H1M2S -n 58 -o 58.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 58 -o 2019-58.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 58 -o 2019-58.csv cryptocurrencies lang:en
-https://twitter.com/twitter/status/1174466865608790017
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 2 -o 2019-2.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 11 -o 2019-58.csv cryptocurrencies lang:en
-reload
 config
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 11 -o 2019-58.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
-ç
-newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
+newsearch mans wewew lang:en
+newsearch
+config
