@@ -1,8 +1,15 @@
-[DEBUG] Adding search period: [ 25/03/2018 05:03:17 - 25/03/2018 17:03:10 ]
-search -f 21/03/2018T17:03:10 -u 25/03/2018T17:03:10 -t 0D12H0M01S -n 3 -D -o crypto3.csv crypto lang:en
-w
+newsearch -f 30/8/2011 -u 17/10/2011T15:03:12 -t 20D0H1M2S -n 58 -o 58.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 58 -o 2019-58.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 58 -o 2019-58.csv cryptocurrencies lang:en
+https://twitter.com/twitter/status/1174466865608790017
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 2 -o 2019-2.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 11 -o 2019-58.csv cryptocurrencies lang:en
+reload
 config
-config
-search -f 21/03/2018T17:03:10 -u 25/03/2018T17:03:10 -t 0D12H0M01S -n 3 -D -o crypto3.csv crypto lang:en
-config
-search -f 21/03/2018T17:03:10 -u 25/03/2018T17:03:10 -t 0D12H0M01S -n 3 -o crypto3.csv crypto lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 11 -o 2019-58.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
+ç
+newsearch -f 30/8/2019 -u 17/10/2019T15:03:12 -t 20D0H1M2S -n 31 -o 2019-58.csv cryptocurrencies lang:en
