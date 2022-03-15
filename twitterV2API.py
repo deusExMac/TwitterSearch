@@ -41,8 +41,7 @@ class twitterSearchClient:
         next_token = None
         headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
         search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
-
-         
+        
         # TODO: move this out of here as it will be called many times? i.e. This is executed FOR EVERY PERIOD!
         try:
             # Get an appropriate writer to save the tweets 
@@ -52,7 +51,7 @@ class twitterSearchClient:
             return(-7)
              
         
-
+        # TODO: make this a instance var???
         query_params = {'query': q,
                     'start_time': sP,
                     'end_time': eP,
@@ -75,7 +74,8 @@ class twitterSearchClient:
              errCode, errMsg = netEx.args
              errObj = json.loads(errMsg)
              print('[ERROR] Code:',errCode, " Msg:[", errObj['title'], '] ', errObj['detail'])
-             return(0-errCode)
+             return(0-errCode) #make negative
+
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
           #totalPeriodTweets += len(tweetsFetched)
@@ -134,7 +134,7 @@ class twitterSearchClient:
         periods = self.createPeriods( f, u, t )
         if periods is None:
            print('Error creating periods.')
-           return(None)
+           return(-5)
         
         
         print("\nCommencing tweet search")
