@@ -690,8 +690,10 @@ while True:
 
             configSettings['Debug']['debugMode'] =  str(qr['debugmode'])   
   
-        tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
-       
+        nFetched = tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
+        if nFetched >= 0:
+           print('Fetched total of', nFetched, 'tweets.')
+           
     elif cParts[0].lower() == "search":
          
          qr = parseSearchQuery(cParts[1:])

@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import requests
 import configparser
 import time
+import json
 
 import configparser
 import appConstants
@@ -48,7 +49,7 @@ class twitterSearchClient:
             tWriter = tweetWriter.tweetWriterFactory().getWriter( self.configuration.get('Storage', 'format', fallback='csv') )
         except Exception as fEx:
             print('Error initializing writer. Unknown format [', self.configuration.get('Storage', 'format', fallback='csv'), ']')
-            return(None)
+            return(-7)
              
         
 
@@ -71,13 +72,16 @@ class twitterSearchClient:
             json_response = self.__sendRequest(search_url, headers, query_params, next_token)
             numRequests += 1
           except Exception as netEx:
-             print( str(netEx) )
-             return(None)
+             errCode, errMsg = netEx.args
+             errObj = json.loads(errMsg)
+             print('[ERROR] Code:',errCode, " Msg:[", errObj['title'], '] ', errObj['detail'])
+             return(0-errCode)
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
           #totalPeriodTweets += len(tweetsFetched)
           if totalPeriodTweets + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
              # To test something
+             # TODO: Fix this. Ugly.
              amount =  self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) - totalPeriodTweets             
              nW = tWriter.write( tweetsFetched[0:amount], userRefs, self.configuration )
              
@@ -148,8 +152,10 @@ class twitterSearchClient:
         for p in periods:
             print(">>> Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
             nTweets = self.__qryPeriod(q, p['from'], p['until'])
-            if nTweets is None:
-               break 
+            if nTweets < 0 :
+               print('<<< Terminating due to error [', nTweets, ']') 
+               return(nTweets)
+            
             totalTweets += nTweets
             #print("\t>>>>", nTweets, 'for period')
 
@@ -275,6 +281,10 @@ class twitterSearchClient:
      params['next_token'] = next_token   
      response = requests.request("GET", url, headers = headers, params = params)
      if response.status_code != 200:
+        #print('datatype:', type(response.text) )
+        #print('>>>', response.text['detail'])
+        #errObj = json.loads( response.text )
+        #print('data type ==>', type(errObj) )
         raise Exception(response.status_code, response.text)
         return(None)
     
