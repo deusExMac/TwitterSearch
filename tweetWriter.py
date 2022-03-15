@@ -42,8 +42,7 @@ class csvWriter:
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "a", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',') ) 
              
-          nWritten = 0
-          print("WRITING [", len(tweetList), "]")
+          nWritten = 0          
           for t in tweetList:
               author_id = t['author_id']
               authorName = userList[author_id]['username']
@@ -67,8 +66,7 @@ class csvWriter:
               csvWriter.writerow(csvDataLine)
               nWritten += 1
               
-
-          print("WRITTEN [", nWritten, "]")
+          
           csvFile.close()
           return(nWritten)
           

@@ -1,10 +1,15 @@
 config
-newsearch mans wewew lang:en
-newsearch
-config
-newsearch mans wewew lang:en
-newsearch russia today sputnik lang:en
-config
 newsearch -o russia.csv russia today sputnik lang:en
 newsearch fuck
 newsearch fuck
+newsearch -n 32 -o mounia.csv shiat
+newsearch -n 32 -o mounia1.csv shiat
+reload
+newsearch -n 32 -o war.csv war
+newsearch -n 32 -o war.csv war
+newsearch -n 32 -o war.csv war
+config
+newsearch -n 32 -o war.csv war
+newsearch -n 32 -o -u 14/03/2022T14:03:03 war.csv war
+newsearch -n 32 -o -u 14/03/2022T14:03:03 war.csv war
+newsearch -n 32 -o war.csv -u 14/03/2022T14:03:03 war

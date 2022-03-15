@@ -19,10 +19,10 @@ class twitterSearchClient:
          self.configuration.add_section('__Runtime')
          self.configuration['__Runtime']['__configSource'] = appConstants.DEFAULTCONFIGFILE
          
+         
             
     def __init__(self, cfg):
         self.configuration = cfg
-        #self.previousRequestTime = None
         
 
 
@@ -40,8 +40,16 @@ class twitterSearchClient:
         next_token = None
         headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
         search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
-        tWriter = tweetWriter.tweetWriterFactory()
-        wrtr = tWriter.getWriter('csv')
+
+         
+        # TODO: move this out of here as it will be called many times? i.e. This is executed FOR EVERY PERIOD!
+        try:
+            tWriter = tweetWriter.tweetWriterFactory().getWriter( self.configuration.get('Storage', 'format', fallback='csv') )
+        except Exception as fEx:
+            print('Error initializing writer. Unknown format [', self.configuration.get('Storage', 'format', fallback='csv'), ']')
+            return(None)
+             
+        
 
         query_params = {'query': q,
                     'start_time': sP,
@@ -52,6 +60,7 @@ class twitterSearchClient:
                     'user.fields': 'id,name,username,created_at,description,public_metrics,verified',
                     'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
                     'next_token': {}}
+
 
         numRequests = 0
         totalPeriodTweets = 0
@@ -69,19 +78,21 @@ class twitterSearchClient:
           if totalPeriodTweets + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
              # To test something
              amount =  self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) - totalPeriodTweets             
-             nW = wrtr.write( tweetsFetched[0:amount], userRefs, self.configuration )
+             nW = tWriter.write( tweetsFetched[0:amount], userRefs, self.configuration )
              
              totalPeriodTweets +=  amount
              print(".L[pF:", len(tweetsFetched), ", pS:", amount , ", tpS:",totalPeriodTweets,']', sep='')
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalPeriodTweets)
 
+
           if  len(tweetsFetched) > 0 :
-              nW = wrtr.write( tweetsFetched, userRefs, self.configuration )
+              nW = tWriter.write( tweetsFetched, userRefs, self.configuration )
               totalPeriodTweets +=  len(tweetsFetched)
               print(".[pF:", len(tweetsFetched), ", pS:", len(tweetsFetched) , ", tpS:",totalPeriodTweets,']', sep='', end='' )
           
           # Next commented out code, not needed anymore
+
           '''
           if totalPeriodTweets >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
              print('Max tweets per period', self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ),' reached. Stopping')   
@@ -102,7 +113,7 @@ class twitterSearchClient:
           time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8) )          
 
         #print('Done (', totalPeriodTweets, ')')
-        print(".[", totalPeriodTweets,']' )  
+        #print(".[", totalPeriodTweets,']' )  
         return(totalPeriodTweets)
             
 

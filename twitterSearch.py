@@ -670,6 +670,25 @@ while True:
         if qr is None:
           print("Usage:search -f <from date> -u <to date> -n <number of tweets> query")
           continue
+
+
+        if qr['numtweets'] != 0:
+           configSettings['General']['maxTweetsPerPeriod'] =  str(qr['numtweets'])
+
+
+        if qr['outfile'] != '':
+            if configSettings.getboolean('Debug', 'debugMode', fallback=False):
+               print("[DEBUG] Overriding setting csvFile from [", configSettings['Storage']['csvFile'], "] to [", qr['outfile'], "]")
+             
+            configSettings['Storage']['csvFile'] =  qr['outfile']
+
+
+
+        if qr['debugmode']:
+            #if configSettings.getboolean('Debug', 'debugMode', fallback=False):
+            print("[DEBUG] Overriding setting debugMode from [", configSettings['Debug']['debugMode'], "] to [", qr['debugmode'], "]")
+
+            configSettings['Debug']['debugMode'] =  str(qr['debugmode'])   
   
         tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
        
