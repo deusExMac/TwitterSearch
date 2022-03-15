@@ -2,3 +2,9 @@ config
 newsearch mans wewew lang:en
 newsearch
 config
+newsearch mans wewew lang:en
+newsearch russia today sputnik lang:en
+config
+newsearch -o russia.csv russia today sputnik lang:en
+newsearch fuck
+newsearch fuck
