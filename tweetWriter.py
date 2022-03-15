@@ -37,7 +37,7 @@ class csvWriter:
           if not os.path.exists(cfg.get('Storage', 'csvFile', fallback="data.csv")):
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "w", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',')) 
-             csvWriter.writerow(['author id', 'created_at', 'id', 'lang', 'tweet', 'username', 'tweetcount', 'followers', 'following', 'url'])
+             csvWriter.writerow(['author id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'tweetcount', 'followers', 'following', 'url'])
           else:      
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "a", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',') ) 
@@ -50,7 +50,9 @@ class csvWriter:
               authorFollowing = userList[author_id]['public_metrics']['following_count']
               authorTweetCount = userList[author_id]['public_metrics']['tweet_count']
 
-              created_at = dateutil.parser.parse(t['created_at'])
+              # Format date to be more readable. Dates are UTC 
+              created_at = datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S')
+              
               tweet_id = t['id']
               lang = t['lang']
               text = t['text']
@@ -62,7 +64,7 @@ class csvWriter:
 
               url = 'https://twitter.com/twitter/status/' + tweet_id
 
-              csvDataLine = [author_id, created_at, tweet_id, lang, text, authorName, authorTweetCount, authorFollowers, authorFollowing, url]
+              csvDataLine = [author_id, authorName, tweet_id, created_at, lang, text, authorTweetCount, authorFollowers, authorFollowing, url]
               csvWriter.writerow(csvDataLine)
               nWritten += 1
               

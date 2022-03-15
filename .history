@@ -1,10 +1,3 @@
-config
-newsearch -o russia.csv russia today sputnik lang:en
-newsearch fuck
-newsearch fuck
-newsearch -n 32 -o mounia.csv shiat
-newsearch -n 32 -o mounia1.csv shiat
-reload
 newsearch -n 32 -o war.csv war
 newsearch -n 32 -o war.csv war
 newsearch -n 32 -o war.csv war
@@ -13,3 +6,10 @@ newsearch -n 32 -o war.csv war
 newsearch -n 32 -o -u 14/03/2022T14:03:03 war.csv war
 newsearch -n 32 -o -u 14/03/2022T14:03:03 war.csv war
 newsearch -n 32 -o war.csv -u 14/03/2022T14:03:03 war
+newsearch -n 15 -o war.csv -u 14/03/2022T14:03:03 war
+newsearch -n 67 milfs
+newsearch -n 67 milfs
+newsearch -n 67 -o milf.csv milfs
+newsearch -n 6 -o milf.csv milfs
+newsearch -n 6 -o milf.csv milfs
+newsearch -n 60 -o milf.csv milfs

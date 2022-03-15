@@ -44,6 +44,7 @@ class twitterSearchClient:
          
         # TODO: move this out of here as it will be called many times? i.e. This is executed FOR EVERY PERIOD!
         try:
+            # Get an appropriate writer to save the tweets 
             tWriter = tweetWriter.tweetWriterFactory().getWriter( self.configuration.get('Storage', 'format', fallback='csv') )
         except Exception as fEx:
             print('Error initializing writer. Unknown format [', self.configuration.get('Storage', 'format', fallback='csv'), ']')
@@ -89,7 +90,10 @@ class twitterSearchClient:
           if  len(tweetsFetched) > 0 :
               nW = tWriter.write( tweetsFetched, userRefs, self.configuration )
               totalPeriodTweets +=  len(tweetsFetched)
-              print(".[pF:", len(tweetsFetched), ", pS:", len(tweetsFetched) , ", tpS:",totalPeriodTweets,']', sep='', end='' )
+              if self.configuration.getboolean('Debug', 'showProgress', fallback=False):
+                 print(".[pF:", len(tweetsFetched), ", pS:", len(tweetsFetched) , ", tpS:",totalPeriodTweets,']', sep='', end='' )
+              else:
+                  print('.', end='')
           
           # Next commented out code, not needed anymore
 
