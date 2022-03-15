@@ -82,7 +82,7 @@ class twitterSearchClient:
              nW = tWriter.write( tweetsFetched[0:amount], userRefs, self.configuration )
              
              totalPeriodTweets +=  amount
-             print(".L[pF:", len(tweetsFetched), ", pS:", amount , ", tpS:",totalPeriodTweets,']', sep='')
+             print(".[Period total:",  totalPeriodTweets,']', sep='')
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalPeriodTweets)
 
@@ -132,7 +132,17 @@ class twitterSearchClient:
            print('Error creating periods.')
            return(None)
         
-        print('Total of ', len(periods), ' periods')
+        
+        print("\nCommencing tweet search")
+        print("Search parameters:")
+        print("\tQuery:", q)
+        print("\tTarget archive:", self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
+        print("\tNumber of search periods:", len(periods))
+        print("\tMaximum number of tweets to fetch in each period:",  self.configuration.get('General', 'maxTweetsPerPeriod', fallback="30"))
+        print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100) )
+        print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"), "\n" ) 
+
+        time.sleep( 2.3 )
 
         totalTweets = 0
         for p in periods:
@@ -144,6 +154,7 @@ class twitterSearchClient:
             #print("\t>>>>", nTweets, 'for period')
 
         print('<<< Total of ', totalTweets, 'tweets downloaded')
+        return( totalTweets )
         
 
 

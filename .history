@@ -1,11 +1,3 @@
-newsearch -n 32 -o war.csv war
-newsearch -n 32 -o war.csv war
-newsearch -n 32 -o war.csv war
-config
-newsearch -n 32 -o war.csv war
-newsearch -n 32 -o -u 14/03/2022T14:03:03 war.csv war
-newsearch -n 32 -o -u 14/03/2022T14:03:03 war.csv war
-newsearch -n 32 -o war.csv -u 14/03/2022T14:03:03 war
 newsearch -n 15 -o war.csv -u 14/03/2022T14:03:03 war
 newsearch -n 67 milfs
 newsearch -n 67 milfs
@@ -13,3 +5,11 @@ newsearch -n 67 -o milf.csv milfs
 newsearch -n 6 -o milf.csv milfs
 newsearch -n 6 -o milf.csv milfs
 newsearch -n 60 -o milf.csv milfs
+newsearch -n 12 -o milf.csv milfs
+newsearch -n 12 -o milf.csv milfs
+newsearch  -o milf.csv milfs
+newsearch -n 122 -o milf.csv milfs
+newsearch -n 122 -o milf.csv -t 0D6H5M15S milfs
+newsearch -n 15 -o war.csv -u 14/03/2022T14:03:03 war
+newsearch -n 11 -o russia.csv russia today sputnik
+newsearch -n 11 -f 1/1/2019 -u 2/1/2019 -o russia1.csv russia today sputnik

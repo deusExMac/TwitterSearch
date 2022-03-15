@@ -628,7 +628,7 @@ cHistory = commandHistory(15, True)
 print("Type 'help' to see a list of supported commands.\n")
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
 
-
+# Create a v2 Twitter search API instance. This is our gateway to search and access the tweets
 tAPI = twitterV2API.twitterSearchClient(configSettings)
 
 
@@ -665,7 +665,7 @@ while True:
     cParts = command.split()
     
     if cParts[0].lower() == "newsearch":
-        print('EXECUTING NEWSEARCH!')  
+        
         qr = parseSearchQuery(cParts[1:])
         if qr is None:
           print("Usage:search -f <from date> -u <to date> -n <number of tweets> query")
