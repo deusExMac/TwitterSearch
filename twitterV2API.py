@@ -74,7 +74,7 @@ class twitterSearchClient:
              errCode, errMsg = netEx.args
              errObj = json.loads(errMsg)
              print('[ERROR] Code:',errCode, " Msg:[", errObj['title'], '] ', errObj['detail'])
-             return(0-errCode) #make negative
+             return(errCode) 
 
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
@@ -278,14 +278,21 @@ class twitterSearchClient:
     
 
     def __sendRequest(self, url, headers, params, next_token = None):
-     params['next_token'] = next_token   
-     response = requests.request("GET", url, headers = headers, params = params)
+        
+     params['next_token'] = next_token
+     try:
+       response = requests.request("GET", url, headers = headers, params = params)
+     except Exception as netEx:
+         raise Exception(-8, '{"title":"Network error", "detail":"'+str(netEx) + '"}')
+         return(None)
+        
      if response.status_code != 200:
         #print('datatype:', type(response.text) )
         #print('>>>', response.text['detail'])
         #errObj = json.loads( response.text )
         #print('data type ==>', type(errObj) )
-        raise Exception(response.status_code, response.text)
+        #make negative
+        raise Exception(0-response.status_code, response.text)
         return(None)
     
      return response.json()
