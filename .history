@@ -1,15 +1,15 @@
-set target recent
-config
-config
-newsearch -n 31 -D -o ttt.csv pornhum
-newsearch -n 31 -D -o ttt.csv pornhub
-newsearch -n 31 -D -o ttt.csv pornhub
-newsearch -n 44 -D -o t1.csv findtubes
-newsearch -n 44 -D -o t1.csv porn sites
-newsearch -n 44 -D -o ppp.csv porn sites
-newsearch -n 44 -D -o t1.csv -t 0D6H6M5S porn sites
-newsearch -n 44 -D -o t1.csv -t 0D6H6M5S porn sites
-newsearch -n 47 -D -o pornSites.csv -t 0D6H6M5S porn sites
 ;
 config
 config
+config
+ç
+ç
+newsearch -n 47 -D -o pornSites.csv -t 0D6H6M5S porn sites
+;
+addperiod -f 1/1/1970 -u 5/1/1970 -t 0D10H10M10S
+addperiod -f 1/1/1970 -u 5/1/1970 -t 0D10H10M10S
+addperiod -f 31/1/2020 -u 3/2/2018
+addperiod -f 31/1/2020 -u 3/2/2018 -t 3D10H10M5S
+addperiod -f 31/1/2019 -u 3/2/2020 -t 3D10H10M5S
+addperiod -f 31/1/2019 -u 3/2/2020 -t 3D10H10M5S
+Keyboard interrupt seen.

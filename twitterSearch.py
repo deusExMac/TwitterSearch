@@ -44,6 +44,8 @@ import appConstants
 from commandHistory import commandHistory
 import twitterV2API 
 
+# For testing only
+import utils
 
 class ArgumentParserError(Exception): pass
   
@@ -365,7 +367,8 @@ def doParse(cmdArgs):
     args = vars( parser.parse_args(cmdArgs) )
 
     # We make sure that no . spearator (separating seconds from ms at the end is present (as return by now())
-    # this will destroy all our hypotheses about the formatting.    
+    # this will destroy all our hypotheses about the formatting.
+    # Dates are always returned in isoformat.
     args['from'] = dateutil.parser.parse( args['from'].split('.')[0] , dayfirst=True).isoformat() + 'Z'        
     args['until'] = dateutil.parser.parse( args['until'].split('.')[0] , dayfirst=True).isoformat() + 'Z'    
     return(args)
@@ -767,49 +770,13 @@ while True:
     elif cParts[0].lower() == "help":
          printHelp() 
     elif cParts[0].lower() == "addperiod":
-         
+
          cmdParams = parseSearchQuery(cParts[1:])
-         npA = generatePeriods(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], targetPeriods, configSettings)
-         if npA is None:
-            print('Error! Could not add periods')
-            continue
-
-         continue
-        
-         if dt is None:
-            print("addperiod from:<date> until:<to> step:XDXHXMXS")
-            continue
-
-
-         if dt['from'] == '' or dt['until'] == '':
-            print("addperiod from:<date> until:<to> step:XDXHXMXS")
-            continue
-             
-         print("Adding period range [", dt['from'], " - ", dt["until"], "] step", dt['stepD'], "days", dt['stepH'], "hours", dt['stepM'], "minutes", dt['stepS'], "seconds") 
-         pCnt = 0       
-         if dt['stepD'] == 0 and dt['stepH'] == 0 and dt['stepM'] == 0 and dt['stepS'] == 0:
-            targetPeriods.append( {'from': dt['from'], 'until': dt['until']} )
-            pCnt += 1
-         else:
-              # TODO: Complete me!
-              #print(":::::", dt['stepD'], " ", dt['stepH'], " " , dt['stepM'])              
-              sDate = datetime.strptime(dt['from'], "%Y-%m-%dT%H:%M:%SZ")              
-              while True:
-                    pCnt += 1
-                    eDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=(dt['stepS']-1))                    
-                    if eDate >= datetime.strptime(dt['until'], "%Y-%m-%dT%H:%M:%SZ"):
-                        eDate = datetime.strptime(dt['until'], "%Y-%m-%dT%H:%M:%SZ")
-                        targetPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
-                        #print("\tLast: ", sDate, "-", eDate)
-                        print("\tAdding search period: [", sDate, "-", eDate, "]")
-                        break
-
-                    print("\tAdding search period: [", sDate, "-", eDate, "]")
-                    targetPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
-                    sDate = sDate + timedelta(days= dt['stepD'], hours = dt['stepH'], minutes = dt['stepM'], seconds=dt['stepS'])
-                    
-                    
-         print("Added ", pCnt, "periods. Type periods to see the ranges")
+         pDs = utils.breakUpDate(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], configSettings)
+         if pDs is None:
+            print('Error. No periods created')
+         
+         
     elif cParts[0].lower() == "periods":
          print("Total of ", len(targetPeriods), "periods:" )
          for p in targetPeriods:
