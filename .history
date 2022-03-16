@@ -1,15 +1,15 @@
-newsearch -n 6 -o milf.csv milfs
-newsearch -n 60 -o milf.csv milfs
-newsearch -n 12 -o milf.csv milfs
-newsearch -n 12 -o milf.csv milfs
-newsearch  -o milf.csv milfs
-newsearch -n 122 -o milf.csv milfs
-newsearch -n 122 -o milf.csv -t 0D6H5M15S milfs
-newsearch -n 15 -o war.csv -u 14/03/2022T14:03:03 war
-newsearch -n 11 -o russia.csv russia today sputnik
-newsearch -n 11 -f 1/1/2019 -u 2/1/2019 -o russia1.csv russia today sputnik
-newsearch fff
-newsearch sss2
-newsearcg sss
-newsearch FUCK
-newsearch FUKKK
+set target recent
+config
+config
+newsearch -n 31 -D -o ttt.csv pornhum
+newsearch -n 31 -D -o ttt.csv pornhub
+newsearch -n 31 -D -o ttt.csv pornhub
+newsearch -n 44 -D -o t1.csv findtubes
+newsearch -n 44 -D -o t1.csv porn sites
+newsearch -n 44 -D -o ppp.csv porn sites
+newsearch -n 44 -D -o t1.csv -t 0D6H6M5S porn sites
+newsearch -n 44 -D -o t1.csv -t 0D6H6M5S porn sites
+newsearch -n 47 -D -o pornSites.csv -t 0D6H6M5S porn sites
+;
+config
+config

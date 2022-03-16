@@ -34,7 +34,7 @@ class twitterSearchClient:
 
 
     #
-    # Fetch data for this period [sP - eP] only. 
+    # Fetch data for this period [sP - eP] ONLY. 
     #
     def __qryPeriod(self, q, sP, eP):
 
@@ -62,7 +62,7 @@ class twitterSearchClient:
                     'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
                     'next_token': {}}
 
-
+        
         numRequests = 0
         totalPeriodTweets = 0
         while True:
@@ -80,11 +80,18 @@ class twitterSearchClient:
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
           #totalPeriodTweets += len(tweetsFetched)
           if totalPeriodTweets + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
+
+             if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
+                print('[DEBUG] Reached period tweet limit of', self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),'. Terminating period search')
+                print('[DEBUG] Last batch:', self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) - totalPeriodTweets, ' tweets')
+                
              # To test something
              # TODO: Fix this. Ugly.
              amount =  self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) - totalPeriodTweets             
              nW = tWriter.write( tweetsFetched[0:amount], userRefs, self.configuration )
-             
+             if nW < 0 :
+                return(nW)
+            
              totalPeriodTweets +=  amount
              print(".[Period total:",  totalPeriodTweets,']', sep='')
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
@@ -93,22 +100,20 @@ class twitterSearchClient:
 
           if  len(tweetsFetched) > 0 :
               nW = tWriter.write( tweetsFetched, userRefs, self.configuration )
-              totalPeriodTweets +=  len(tweetsFetched)
-              if self.configuration.getboolean('Debug', 'showProgress', fallback=False):
-                 print(".[pF:", len(tweetsFetched), ", pS:", len(tweetsFetched) , ", tpS:",totalPeriodTweets,']', sep='', end='' )
+              if nW < 0:
+                 return(nW) 
+              totalPeriodTweets +=  nW
+              if self.configuration.getboolean('Debug', 'showProgress', fallback=False) or self.configuration.getboolean('Debug', 'debugMode', fallback=False):
+                 print(". (prF:", len(tweetsFetched), ", prS:", nW , ", ptS:",totalPeriodTweets,')', sep='', end='' )
               else:
                   print('.', end='')
           
-          # Next commented out code, not needed anymore
-
-          '''
-          if totalPeriodTweets >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
-             print('Max tweets per period', self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ),' reached. Stopping')   
-             return(totalPeriodTweets)
-          '''
+          
           
           if next_token is None:
-             print('[DEBUG] >>>> Found  NONE next token')
+             if self.configuration.getboolean('Debug', 'debugMode', fallback=False): 
+                print('[DEBUG] >>>> Found  NONE next token. Terminating period search.')
+                
              # Sleep but shorter. Just to make sure that consecutive requests do not bombard the server             
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )
              break
@@ -118,7 +123,11 @@ class twitterSearchClient:
           #   print('[DEBUG] Sleeping ', self.configuration.getfloat('Request', 'sleepTime', fallback=3.8))
 
           #print('Sleeping...')
+          if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
+             print('[DEBUG] Sleeping for [', self.configuration.getfloat('Request', 'sleepTime', fallback=3.8), '] seconds')
+             
           time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8) )          
+
 
         #print('Done (', totalPeriodTweets, ')')
         #print(".[", totalPeriodTweets,']' )  
@@ -131,6 +140,15 @@ class twitterSearchClient:
     # Starting from here    
     def query(self, f, u, t, q):
 
+
+        if q.strip() == '':
+           print('Empty query')
+           return(-1)
+
+        if f.strip() == '' or u.strip() == '':
+           print('Invalid dates')
+           return(-2)
+        
         periods = self.createPeriods( f, u, t )
         if periods is None:
            print('Error creating periods.')
@@ -143,7 +161,7 @@ class twitterSearchClient:
         print("\tTarget archive:", self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
         print("\tNumber of search periods:", len(periods))
         print("\tMaximum number of tweets to fetch in each period:",  self.configuration.get('General', 'maxTweetsPerPeriod', fallback="30"))
-        print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100) )
+        print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), ' (.)' )
         print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"), "\n" ) 
 
         time.sleep( 2.3 )
@@ -153,13 +171,13 @@ class twitterSearchClient:
             print(">>> Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
             nTweets = self.__qryPeriod(q, p['from'], p['until'])
             if nTweets < 0 :
-               print('<<< Terminating due to error [', nTweets, ']') 
+               #print('<<< Terminating due to error [', nTweets, ']') 
                return(nTweets)
             
             totalTweets += nTweets
             #print("\t>>>>", nTweets, 'for period')
 
-        print('<<< Total of ', totalTweets, 'tweets downloaded')
+        #print('<<< Total of ', totalTweets, 'tweets downloaded')
         return( totalTweets )
         
 
@@ -262,10 +280,7 @@ class twitterSearchClient:
        
        for tweet in jsn['data']:
            tweetsCollected.append( tweet )
-           # currentTotalCount += 1           
-           #if currentTotalCount >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
-           #   return(None, nTokenCount) 
-           
+                      
      if 'next_token' in jsn['meta']:
        # Save the token to use for next call
        nextToken = jsn['meta']['next_token']
@@ -276,23 +291,27 @@ class twitterSearchClient:
 
 
     
-
+    #
+    # TODO: Needs refactoring
+    # 
     def __sendRequest(self, url, headers, params, next_token = None):
         
      params['next_token'] = next_token
      try:
        response = requests.request("GET", url, headers = headers, params = params)
      except Exception as netEx:
+         if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
+            print('[DEBUG] Network error.')
+            
          raise Exception(-8, '{"title":"Network error", "detail":"'+str(netEx) + '"}')
-         return(None)
+         #return(None)
         
      if response.status_code != 200:
-        #print('datatype:', type(response.text) )
-        #print('>>>', response.text['detail'])
-        #errObj = json.loads( response.text )
-        #print('data type ==>', type(errObj) )
-        #make negative
+        if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
+            print('[DEBUG] Response error.')
+            
+        # make negative
         raise Exception(0-response.status_code, response.text)
-        return(None)
+        #return(None)
     
      return response.json()

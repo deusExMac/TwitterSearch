@@ -648,6 +648,12 @@ while True:
     if len(command) == 0:
        continue
 
+
+    if command.strip() == '!!':
+       command = cHistory.getLast()
+       print('[', command, ']')
+       
+          
     if command.startswith('!'):
        try:
           command = cHistory.get( int(command[1:]) )
@@ -658,6 +664,10 @@ while True:
           continue
        
        print("[", command, "]\n")
+
+
+    if command == '':
+       continue   
         
     if command.lower() not in ['history', 'h', 'quit', 'q']:           
            cHistory.addCommand( command )
@@ -682,18 +692,29 @@ while True:
              
             configSettings['Storage']['csvFile'] =  qr['outfile']
 
-
-
+        # Save old value. We get it as a string value as configurations do not support
+        # boolean values (i.e. everything is a string).
+        oldVal = configSettings.get('Debug', 'debugMode', fallback='false')
+        
         if qr['debugmode']:
             #if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-            print("[DEBUG] Overriding setting debugMode from [", configSettings['Debug']['debugMode'], "] to [", qr['debugmode'], "]")
-
-            configSettings['Debug']['debugMode'] =  str(qr['debugmode'])   
+            print("[DEBUG] Overriding setting debugMode from [", configSettings['Debug']['debugMode'], "] to [", str(not configSettings.getboolean('Debug', 'debugMode', fallback=False)), "]")
+            # toggle debug setting
+            configSettings['Debug']['debugMode'] =  str( not configSettings.getboolean('Debug', 'debugMode', fallback=False)) #str(qr['debugmode'])   
   
         nFetched = tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
         if nFetched >= 0:
            print('Fetched total of', nFetched, 'tweets.')
-           
+        else:
+           print('Error ', nFetched, 'encounterred.')   
+
+        
+        if configSettings.getboolean('Debug', 'debugMode', fallback=False):
+           print('[DBUG] Setting debugMode back to [', oldVal, ']')
+
+        # Restore old value    
+        configSettings['Debug']['debugMode'] = oldVal
+        
     elif cParts[0].lower() == "search":
          
          qr = parseSearchQuery(cParts[1:])
@@ -806,7 +827,7 @@ while True:
            shellParser.add_argument('-c', '--config',   nargs='?', default='')
            shellArgs = vars( shellParser.parse_args( cParts[1:] ) )
          except Exception as ex:
-             print("Invalid argument. Usage: reload [-f config_file]")
+             print("Invalid argument. Usage: reload [-c config_file]")
              continue
                
          if  shellArgs['config'] == '':

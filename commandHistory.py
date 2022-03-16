@@ -33,6 +33,14 @@ class commandHistory:
 
           return(self.commandHistory[idx -1])
 
+
+      def getLast(self):
+          if len(self.commandHistory) <= 0:
+             return('')
+
+          return( self.get(len(self.commandHistory)) )  
+      
+
         
       def printHistory(self):
           cPos = 1

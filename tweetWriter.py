@@ -6,7 +6,7 @@ import configparser
 
 
 #
-# Classe to save the tweets in various formats.
+# Class to save the tweets in various formats.
 # The design tries to follow the Factory Method design pattern.
 # See: https://realpython.com/factory-method-python/
 #
@@ -24,7 +24,7 @@ class tweetWriterFactory:
         elif writerFormat.lower() == 'db':
             return dbWriter()
         else:
-            raise ValueError(writerFormat)
+            raise ValueError(writerFormat) # Unsupported format
 
 
 
@@ -34,6 +34,10 @@ class csvWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
 
+        csvFile = None
+          
+        try:
+            
           if not os.path.exists(cfg.get('Storage', 'csvFile', fallback="data.csv")):
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "w", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',')) 
@@ -67,10 +71,16 @@ class csvWriter:
               csvDataLine = [author_id, authorName, tweet_id, created_at, lang, text, authorTweetCount, authorFollowers, authorFollowing, url]
               csvWriter.writerow(csvDataLine)
               nWritten += 1
-              
-          
+                        
           csvFile.close()
           return(nWritten)
+        
+        except Exception as fwEx:
+               if csvFile is not None:
+                  csvFile.close()
+                  
+               return(-6)   
+               
           
 
 
