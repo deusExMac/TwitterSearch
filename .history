@@ -1,5 +1,18 @@
+set -G recent
+config
+set target SONIA
+set -G SONIA
+set --target sss
+set --target historic
+config
+set -G recent
 config
 help
+search -f 3/1/2019 -u 15/4/2019 -t 18D2H0M6S -n 67 -o putin.csv putin
+search -f 3/1/2019 -u 15/4/2019 -t 18D2H0M6S -n 67 -o putin.csv putin
+w
+config
+set -G recent
 help
 help
 help
@@ -8,5 +21,5 @@ help
 help
 help
 help
-help
-help
+w
+dsds

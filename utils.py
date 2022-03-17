@@ -4,6 +4,9 @@ from datetime import datetime, timedelta
 import configparser
 
 
+
+
+
 #
 # Generates periods based on steps specified by t
 # NOTE: from date f, until date u must be strings
