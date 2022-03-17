@@ -160,7 +160,7 @@ class shellCommandExecutioner:
       # TODO: Sorry about this. It's a mess. Needs to be seriously refactored.
       #       This was done quickly.
       def help(self, a):
-            print("Supported commands and their syntax:")
+            print("\n\tSupported commands and their syntax:")
             print("")
             print('\t' + 72*'-')
             print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
@@ -194,10 +194,10 @@ class shellCommandExecutioner:
             print( NLFormat('history (alternatively h)' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( NLFormat('Displays the history of commands executed. Usefull to re-execute commands or copy-paste complicated commands'))
+            print( NLFormat('Displays a numbered list of the history of commands executed. Numbers can be used with ! (see below). Usefull to re-execute commands or copy-paste complicated commands'))
             print('')
             print('\t' + 72*'-')
-            print( NLFormat('set [-G | --target] [historic | recent]' ) )
+            print( NLFormat('set [-G | --target <historic | recent>]' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
             print( NLFormat('Specifies in which archive the search should be condicted. Value recent means that search is limited to tweets published the last 5 days. Value historic means that one may specify any time period without any constraint.' +
@@ -208,7 +208,7 @@ class shellCommandExecutioner:
             print( NLFormat('!<index>' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( NLFormat('From the command history list (see history or h) executes the command at position <index>'))
+            print( NLFormat('Execute command at the position <index> in the command history list (see history or h).'))
             print('')
             print('\t' + 72*'-')
             print( NLFormat('!!' ) )
@@ -486,7 +486,7 @@ def setTargetArchive(cfg, md):
 # TODO: Sorry about this. It's a mess. Needs to be refactored.
 #       Was done quickly.
 def printHelp():
-    print("Supported commands and their syntax:")
+    print("\tSupported commands and syntax:")
     print("")
     
     print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
