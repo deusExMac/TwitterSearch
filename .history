@@ -1,15 +1,10 @@
+newsearch -o ukr111.csv -D -t 0D0H0M0S war ukraine
+newsearch -o ukr111.csv -D -t 0D0H0M0S war ukraine
+newsearch -o ukr111.csv -D -t 0D0H0M0S war ukraine
+set target recent
+newsearch -o ttt122.csv -D -t 0D0H0M0S greek milf
 config
-config
-config
-ç
-ç
-newsearch -n 47 -D -o pornSites.csv -t 0D6H6M5S porn sites
-;
-addperiod -f 1/1/1970 -u 5/1/1970 -t 0D10H10M10S
-addperiod -f 1/1/1970 -u 5/1/1970 -t 0D10H10M10S
-addperiod -f 31/1/2020 -u 3/2/2018
-addperiod -f 31/1/2020 -u 3/2/2018 -t 3D10H10M5S
-addperiod -f 31/1/2019 -u 3/2/2020 -t 3D10H10M5S
-addperiod -f 31/1/2019 -u 3/2/2020 -t 3D10H10M5S
-Keyboard interrupt seen.
-newsearch -n 47 -D -o pornSites.csv -t 0D6H6M5S porn sites
+__configsource
+newsearch -o ukr111.csv -D -t 0D0H0M0S war ukraine
+newsearch -o ukr111.csv -D -t 0D0H0M0S war ukraine
+newsearch -o ukr111.csv -D -t 0D0H0M0S war ukraine

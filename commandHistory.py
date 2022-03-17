@@ -25,7 +25,7 @@ class commandHistory:
                self.commandHistory.pop(0)
                       
           self.commandHistory.append(cmd)
-          #print(self.commandHistory)
+          
           
       def get(self, idx):
           if len(self.commandHistory) < idx:
@@ -55,9 +55,15 @@ class commandHistory:
           with open(self.historyFile, 'r') as histFile:
                self.commandHistory = [cmd.rstrip() for cmd in histFile.readlines()]
 
+          # in case historySize if set to a smaller amount than actual size
+          # prune history by removing oldest commands.
+          if len(self.commandHistory) > self.historySize:
+              diff = len(self.commandHistory) - self.historySize
+              for d in range(diff):
+                  self.commandHistory.pop(0)
 
-      def save(self):
-          #print("Saving history file")
+
+      def save(self):          
           if self.saveToFile:
            with open(self.historyFile, 'w') as histFile:
                histFile.writelines("%s\n" % cmd for cmd in self.commandHistory)

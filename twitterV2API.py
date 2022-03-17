@@ -149,7 +149,7 @@ class twitterSearchClient:
            print('Invalid dates')
            return(-2)
         
-        periods = self.createPeriods( f, u, t )
+        periods = utils.generateSubperiods( f, u, t, self.configuration )
         if periods is None:
            print('Error creating periods.')
            return(-5)
@@ -162,8 +162,10 @@ class twitterSearchClient:
         print("\tNumber of search periods:", len(periods))
         print("\tMaximum number of tweets to fetch in each period:",  self.configuration.get('General', 'maxTweetsPerPeriod', fallback="30"))
         print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), ' (.)' )
-        print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"), "\n" ) 
+        print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"))
+        print("\tConfiguration file loaded:",  self.configuration.get('__Runtime', '__configsource', fallback="???"), "\n" ) 
 
+        # sleep some short amount to allow user to see the settings.
         time.sleep( 2.3 )
 
         totalTweets = 0
@@ -185,7 +187,7 @@ class twitterSearchClient:
 
 
 
-
+    '''
     #
     # Generates periods based on steps specified by t
     # NOTE: from date f, until date u must be strings
@@ -258,7 +260,7 @@ class twitterSearchClient:
       # Remove this?
       return(tPeriods)
 
-
+      '''
 
 
          
@@ -269,9 +271,8 @@ class twitterSearchClient:
      resultCount = jsn['meta']['result_count']
      tweetsCollected = []
      userReferences = {}
+     next_token = None
      if resultCount is not None and resultCount > 0:
-       #print("__parseResponse: Got ", resultCount, " tweets for this token")
-    
               
        totalUsers = len(jsn['includes']['users'])
        for k in range(totalUsers):
@@ -304,14 +305,15 @@ class twitterSearchClient:
             print('[DEBUG] Network error.')
             
          raise Exception(-8, '{"title":"Network error", "detail":"'+str(netEx) + '"}')
-         #return(None)
+         
         
      if response.status_code != 200:
         if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
             print('[DEBUG] Response error.')
             
-        # make negative
+        # make errors negative
         raise Exception(0-response.status_code, response.text)
-        #return(None)
-    
+        
+
+     # No error. Return response as json object
      return response.json()

@@ -624,9 +624,7 @@ else:
 
     
 
-targetPeriods = []
 
-cHistory = commandHistory(15, True)
 
 print("Type 'help' to see a list of supported commands.\n")
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
@@ -634,7 +632,8 @@ setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive
 # Create a v2 Twitter search API instance. This is our gateway to search and access the tweets
 tAPI = twitterV2API.twitterSearchClient(configSettings)
 
-
+cHistory = commandHistory(configSettings.getint('Shell', 'historySize', fallback=10), True)
+targetPeriods = []
 
 
 # Simple command line interface to
@@ -772,7 +771,7 @@ while True:
     elif cParts[0].lower() == "addperiod":
 
          cmdParams = parseSearchQuery(cParts[1:])
-         pDs = utils.breakUpDate(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], configSettings)
+         pDs = utils.generateSubperiods(cmdParams['from'], cmdParams['until'], cmdParams['timestep'], configSettings)
          if pDs is None:
             print('Error. No periods created')
          
