@@ -554,11 +554,16 @@ def setTargetArchive(cfg, md):
           print("Invalid target archive option [", md, "]. Use historic or recent")
 
         
-
+# TODO: Complete me
 def printHelp():
     print("Supported commands and their syntax:")
     print("")
-    print("\t* search <query string> lang:<lang code> from:<from datetime> until:<until datetime> : search for tweets containing <query string> in lang <lang code> and published between <from datetime> until <until datetime>. Enter datetimes as follows Day/Month/Year@Hour:Minutes:Seconds.Milliiseconds . Datetimes are always in UTC. Example: search covid19 lang:en from:29/12/2021@10:07:55 until:31/12/2021@08:32:11.210")
+    print('\tsearch [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>')
+    print('\tAbout:')
+    print( NLprint('| Searches for tweets containing <query> published between dates specified in -f (from) and -u (until). If -t option is specified then the date range is divided in subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many') ) 
+    print("\t* search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>: searches for tweets containing <query> published",
+          "between dates specified in -f (from) and -u (until). If -t option is specified then the date range is divided in subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many" ,
+          "tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off. Enter datetimes as follows Day/Month/Year@Hour:Minutes:Seconds.Milliiseconds . Datetimes are always in UTC. Example: search covid19 lang:en from:29/12/2021@10:07:55 until:31/12/2021@08:32:11.210")
     print("\t* config: display configuration settings that have been loaded")
     print("\t* set <section> <setting/key> <new value>: update loaded configuration setting/key <setting/key> in <section> to new value <new value>. Does not affect loaded configuration file.")
     print("\t* set target <historic | recent> : Set on which archive to search. Will change endpoint and bearer token.")
@@ -573,6 +578,12 @@ def printHelp():
     print("")
 
 
+
+def NLprint(string, every=72):
+    lines = []
+    for i in range(0, len(string), every):
+        lines.append('\t' + string[i:i+every])
+    return '\n'.join(lines)
 
 
 
@@ -631,9 +642,9 @@ setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive
 
 # Create a v2 Twitter search API instance. This is our gateway to search and access the tweets
 tAPI = twitterV2API.twitterSearchClient(configSettings)
-
+# Create a history object
 cHistory = commandHistory(configSettings.getint('Shell', 'historySize', fallback=10), True)
-targetPeriods = []
+
 
 
 # Simple command line interface to
@@ -776,12 +787,7 @@ while True:
             print('Error. No periods created')
          
          
-    elif cParts[0].lower() == "periods":
-         print("Total of ", len(targetPeriods), "periods:" )
-         for p in targetPeriods:
-             print("\tPeriod: from:", p["from"], " until:", p["until"] )
-    elif cParts[0].lower() == "clearperiods":
-          targetPeriods = []
+    
     elif cParts[0].lower() == "h" or cParts[0].lower() == "history":
          cHistory.printHistory() 
          
