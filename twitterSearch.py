@@ -37,7 +37,7 @@ import os.path
 
 import pprint
 import argparse
-
+import copy
 
 # We define constants in this file
 import appConstants
@@ -115,7 +115,14 @@ class shellCommandExecutioner:
              print("Usage: search [-f <from date>] [-u <to date>] [-n <number of tweets>] [-o <csv file>] [-D] <query>")
              return(False)
 
+          #
+          # First, check if some configuration settings need to be overriden by
+          # shell arguments.
+          # NOTE: This mo
 
+            
+          #cmdConfigSettings = copy.deepcopy( self.configuration )
+          
           if sParams['numtweets'] != 0:
              self.configuration['General']['maxTweetsPerPeriod'] =  str(sParams['numtweets'])
 
@@ -284,6 +291,13 @@ class shellCommandExecutioner:
         setTargetArchive(self.configuration, self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
 
 
+
+
+      def status(self, a):
+          print('Status:')
+          print('\tConfig file:', self.configuration.get('__Runtime', '__configSource', fallback="") )
+          print('\tTarget search archive:', self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
+          return(False)
 
 
 
