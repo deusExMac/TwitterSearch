@@ -37,16 +37,17 @@ import copy
 # We define constants in this file
 import appConstants
 from commandHistory import commandHistory
-import twitterV2API 
+import twitterV2API
+import commandShell
 
 
 
 
 # The following two classes are used to parse
 # arguments on the shell 'scommand line
-class ArgumentParserError(Exception): pass
+class ArgumentParserErrorAAA(Exception): pass
   
-class ThrowingArgumentParser(argparse.ArgumentParser):
+class ThrowingArgumentParserAAA(argparse.ArgumentParser):
       def error(self, message):
           raise ArgumentParserError(message)
 
@@ -56,7 +57,7 @@ class ThrowingArgumentParser(argparse.ArgumentParser):
 # Class to execute commands given
 # via the application's shell
 #
-class shellCommandExecutioner:
+class shellCommandExecutionerAAA:
 
       def __init__(self, cfg):
           self.configuration = cfg
@@ -163,7 +164,7 @@ class shellCommandExecutioner:
 
           # IMPORTANT! arguments -f, -u -t -n etc on the command line, MUST APPEAR BEFORE
           #            the remaining arguments. Otherwise, these arguments will not be parsed
-          #            and will be part of the ramaining arguments.
+          #            and will be part of the remaining arguments.
           parser.add_argument('keywords', nargs=argparse.REMAINDER)
           
           
@@ -177,8 +178,7 @@ class shellCommandExecutioner:
           return(args)
     
          except Exception as argEx:
-            print( str(argEx) ) 
-            #print("EEE Usage: <TODO: Fill me>")
+            print( str(argEx) )             
             return(None)      
 
 
@@ -197,7 +197,7 @@ class shellCommandExecutioner:
 
           
           # First, check if some configuration settings need to be overriden by
-          # shell arguments. 
+          # shell/command line arguments given by user. 
           # NOTE: We will make here a deep copy of the original configuration and make
           #       any change on that copy.
           # TODO: Check to see if Memento design pattern would be appropriate    
@@ -613,18 +613,24 @@ else:
 
     
 
-
-
 print("Type 'help' to see a list of supported commands.\n")
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
+
+
+
+appShell = commandShell.commandShell( configSettings )
+appShell.startShell()
+
+
+print("\nFinished. ByeBye!!!!!!!!")
 
 # Create a v2 Twitter search API instance. This is our gateway to search and access the tweets
 #tAPI = twitterV2API.twitterSearchClient(configSettings)
 
-
+'''
 # Create a history object
 cHistory = commandHistory(configSettings.getint('Shell', 'historySize', fallback=10), True)
-commandShell = shellCommandExecutioner( configSettings )
+commandShell123 = shellCommandExecutionerAAA( configSettings )
 
 
 # Simple command line interface to
@@ -635,7 +641,7 @@ commandShell = shellCommandExecutioner( configSettings )
 while True:
 
   try:  
-    command = input('[' + str(commandShell.commandsExecuted) + ']' + configSettings.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
+    command = input('[' + str(commandShell123.commandsExecuted) + ']' + configSettings.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
     command = command.strip()
     
     if len(command) == 0:
@@ -676,7 +682,7 @@ while True:
 
 
     # Execute command
-    if commandShell.executeCommand( cParts ) :
+    if commandShell123.executeCommand( cParts ) :
        break
       
   except KeyboardInterrupt:
@@ -694,5 +700,5 @@ if sts != 0:
 
 print("\nFinished. ByeBye!")
 
-
+'''
 
