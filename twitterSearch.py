@@ -7,6 +7,7 @@
 #
 # TODO: This has been created in a hurry. Needs serious refactoring.
 #
+# v0.77b mmtrd18/03/2022
 # v0.4b mmtrd31/12/2021
 
 
@@ -20,7 +21,7 @@ import os
 # For dealing with json responses we receive from the API
 #import sys
 
-import json
+#import json
 
 # For saving the response data in CSV format
 import csv
