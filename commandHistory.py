@@ -65,6 +65,9 @@ class commandHistory:
 
       def save(self):          
           if self.saveToFile:
-           with open(self.historyFile, 'w') as histFile:
-               histFile.writelines("%s\n" % cmd for cmd in self.commandHistory)
-               
+           try:     
+             with open(self.historyFile, 'w') as histFile:
+                 histFile.writelines("%s\n" % cmd for cmd in self.commandHistory)
+             return(0)
+           except Exception as hWEx:
+                 return(-23)

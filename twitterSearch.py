@@ -15,9 +15,10 @@
 import requests
 # For saving access tokens and for file management when creating and adding to the dataset
 import os
-# For dealing with json responses we receive from the API
 
-import sys
+
+# For dealing with json responses we receive from the API
+#import sys
 
 import json
 
@@ -27,7 +28,7 @@ import csv
 import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
-import unicodedata
+#import unicodedata
 
 #To add wait time between requests
 import time
@@ -46,6 +47,8 @@ import twitterV2API
 
 # For testing only
 import utils
+
+
 
 class ArgumentParserError(Exception): pass
   
@@ -108,57 +111,63 @@ class shellCommandExecutioner:
           return(False)
 
 
+
+
       def search(self, a):
-          print('Executing search')
+
+          
           sParams = parseCommandArguments(a)
           if sParams is None:
              print("Usage: search [-f <from date>] [-u <to date>] [-n <number of tweets>] [-o <csv file>] [-D] <query>")
              return(False)
 
-          #
-          # First, check if some configuration settings need to be overriden by
-          # shell arguments.
-          # NOTE: This mo
-
-            
-          #cmdConfigSettings = copy.deepcopy( self.configuration )
           
+          # First, check if some configuration settings need to be overriden by
+          # shell arguments. 
+          # NOTE: We will make here a deep copy of the original configuration and make
+          #       any change on that copy.
+          # TODO: Check to see if Memento design pattern would be appropriate    
+
+
+
+          # Make a deep copy of the config settings. This copy will be passed as
+          # the settings for search. Any command shell arguments overrides the values
+          # of the copy - not the original.
+          # We consume a little bit of memory more, but
+          # that's a static cost and is required memory is very, very low (i.e. definitely within limits)
+          cmdConfigSettings = copy.deepcopy( self.configuration )
+
+         
           if sParams['numtweets'] != 0:
-             self.configuration['General']['maxTweetsPerPeriod'] =  str(sParams['numtweets'])
+             cmdConfigSettings['General']['maxTweetsPerPeriod'] =  str(sParams['numtweets'])
 
 
           if sParams['outfile'] != '':
-            if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-               print("[DEBUG] Overriding setting csvFile from [", self.configuration['Storage']['csvFile'], "] to [", sParams['outfile'], "]")
+            if cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False):
+               print("[DEBUG] Overriding setting csvFile from [", cmdConfigSettings['Storage']['csvFile'], "] to [", sParams['outfile'], "]")
              
-            self.configuration['Storage']['csvFile'] =  sParams['outfile']
+            cmdConfigSettings['Storage']['csvFile'] =  sParams['outfile']
 
-          # Save old value. We get it as a string value as configurations do not support
-          # boolean values (i.e. everything is a string).
-          oldVal = self.configuration.get('Debug', 'debugMode', fallback='false')
+          
         
           if sParams['debugmode']:
             #if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-            print("[DEBUG] Overriding setting debugMode from [", self.configuration['Debug']['debugMode'], "] to [", str(not self.configuration.getboolean('Debug', 'debugMode', fallback=False)), "]")
+            print("[DEBUG] Overriding setting debugMode from [", cmdConfigSettings['Debug']['debugMode'], "] to [", str(not cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False)), "]")
             # toggle debug setting
-            self.configuration['Debug']['debugMode'] =  str( not self.configuration.getboolean('Debug', 'debugMode', fallback=False)) 
+            cmdConfigSettings['Debug']['debugMode'] =  str( not cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False)) 
 
 
+          
 
-          # Perform actual search for tweets with the parameters given.
-          tAPI = twitterV2API.twitterSearchClient(self.configuration)
+          # Perform actual search for tweets with the configuratio.
+          tAPI = twitterV2API.twitterSearchClient( cmdConfigSettings )
           nFetched = tAPI.query( sParams['from'], sParams['until'], sParams['timestep'], " ".join(sParams['keywords']).strip() ) 
           if nFetched >= 0:
-             print('Fetched total of', nFetched, 'tweets.')
+             print('\nFetched total of', nFetched, 'tweets.')
           else:
-             print('Error ', nFetched, 'encounterred.')   
+             print('\nError ', nFetched, 'encounterred.')   
 
-        
-          if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-             print('[DBUG] Setting debugMode back to [', oldVal, ']')
-
-          # Restore old value    
-          self.configuration['Debug']['debugMode'] = oldVal
+                 
           return(False)
 
 
@@ -497,67 +506,6 @@ def setTargetArchive(cfg, md):
 
         
 
-# TODO: Sorry about this. It's a mess. Needs to be refactored.
-#       Was done quickly.
-def printHelp():
-    print("\tSupported commands and syntax:")
-    print("")
-    
-    print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
-    
-    print('\tAbout:')
-    print( NLFormat('     Performs a period search. Searches for tweets meeting conditions in <query> published between the dates specified in -f (from) and -u (until) arguments which is called a period. If -t , -u are missing, default date range is [two days ago - yesterday].  For a list of supported query operators see: https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators . If -t option is specified then' +
-                   ' the date range is divided into subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many' +
-                   ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off.'))
-    print( NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis" ))
-    print( NLFormat( "-t: Time steps should be specified in the following manner: kDmHnMzS where k, m, n and z integer values. Example 3D10H5M8S. -t format specifies how the date range specified " +
-                    " by -f and -u arguments will be divided into subperiods, in each of which a seperate search will be conducted for the same query. For example the query search -f 3/2/2008 -u 10/2/2008 -t 2D10H5M2S euro " +
-                    " will break up the date range [3/2/2008, 10/2/2008] to subperiods of length 2 days, 10 hours, 5 minutes and 2seconfs and conduct a search in each of these perids. In this example, search " +
-                    "for the term euro in tweets will be conducted in the following periods separately:"))
-    print( NLFormat('[ 03/02/2008 00:00:00 - 05/02/2008 10:05:02 ]'))
-    print( NLFormat('[ 05/02/2008 10:05:02 - 07/02/2008 20:10:04 ]'))
-    print( NLFormat('[ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]'))
-    print("")
-    print( NLFormat('config') )
-    print('\tAbout:')
-    print( NLFormat('Displays currently loaded configuration settings.'))
-    print("")
-    print( NLFormat('reload [-c <path to configuration file>]') )
-    print('\tAbout:')
-    print( NLFormat('Allows loading a configuration file specified by the -c option. Relating file names are supported. In no -c option is provided, the config file loaded during startup is reloaded.'))                
-    print('')
-    print( NLFormat('history (alternatively h)' ) )
-    print('\tAbout:')
-    print( NLFormat('Displays the history of commands executed. Usefull to re-execute commands or copy-paste complicated commands'))
-    print('')
-    print( NLFormat('set target [historic | recent]' ) )
-    print('\tAbout:')
-    print( NLFormat('Specifies in which archive the search should be condicted. Value recent means that search is limited to tweets published the last 5 days. Value historic means that one may specify any time period without any constraint.' +
-                    'Value recent and historic use different bearer tokens and hence tweets are accounted in different developer accounts. You get bearer tokens freely. recent bearer tokens are obtained by ' +
-                    'simply opening a developer account. Search in the historic archive requires an academic bearer token that you can request.'))
-    print('')
-    print( NLFormat('!<index>' ) )
-    print('\tAbout:')
-    print( NLFormat('From the command history list (see history or h) executes the command at position <index>'))
-    print('')
-    print( NLFormat('!!' ) )
-    print('\tAbout:')
-    print( NLFormat('Re-executes last command.'))
-    print('')
-    print('')
-    print( NLFormat('help' ) )
-    print('\tAbout:')
-    print( NLFormat('This screen.'))
-    print('')
-    print( NLFormat('quit or q' ) )
-    print('\tAbout:')
-    print( NLFormat('Terminates and quits the application.'))
-    print('')
-
-
-    print('')
-
-
 
   
 
@@ -662,11 +610,12 @@ while True:
           print("Invalid index", command[1:]) 
           continue
        
-       print("[", command, "]\n")
+       print("[", command, "]")
 
 
     
-        
+    # Don't add history and quit commands to command history list
+    # It clogs it.
     if command.lower() not in ['history', 'h', 'quit', 'q']:           
            cHistory.addCommand( command )
     
@@ -690,129 +639,12 @@ while True:
 
 
 
-  '''  
-    #continue
 
-    #
-    # Let's check what command was given
-    #
-    if cParts[0].lower() == "search":
-        continue
-        qr = parseCommandArguments(cParts[1:])
-        if qr is None:
-          print("Usage: search [-f <from date>] [-u <to date>] [-n <number of tweets>] [-o <csv file>] [-D] <query>")
-          continue
-
-
-        if qr['numtweets'] != 0:
-           configSettings['General']['maxTweetsPerPeriod'] =  str(qr['numtweets'])
-
-
-        if qr['outfile'] != '':
-            if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-               print("[DEBUG] Overriding setting csvFile from [", configSettings['Storage']['csvFile'], "] to [", qr['outfile'], "]")
-             
-            configSettings['Storage']['csvFile'] =  qr['outfile']
-
-        # Save old value. We get it as a string value as configurations do not support
-        # boolean values (i.e. everything is a string).
-        oldVal = configSettings.get('Debug', 'debugMode', fallback='false')
-        
-        if qr['debugmode']:
-            #if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-            print("[DEBUG] Overriding setting debugMode from [", configSettings['Debug']['debugMode'], "] to [", str(not configSettings.getboolean('Debug', 'debugMode', fallback=False)), "]")
-            # toggle debug setting
-            configSettings['Debug']['debugMode'] =  str( not configSettings.getboolean('Debug', 'debugMode', fallback=False)) 
-
-
-
-        # Perform actual search for tweets with the parameters given. 
-        nFetched = tAPI.query( qr['from'], qr['until'], qr['timestep'], " ".join(qr['keywords']).strip() ) 
-        if nFetched >= 0:
-           print('Fetched total of', nFetched, 'tweets.')
-        else:
-           print('Error ', nFetched, 'encounterred.')   
-
-
-
-
-        
-        if configSettings.getboolean('Debug', 'debugMode', fallback=False):
-           print('[DBUG] Setting debugMode back to [', oldVal, ']')
-
-        # Restore old value    
-        configSettings['Debug']['debugMode'] = oldVal
-        
-    
-    elif cParts[0].lower() == "quit" or cParts[0].lower() == "q":
-         break
-    elif cParts[0].lower() == "config" or cParts[0].lower() == "settings":
-         #displayConfigSettings(configSettings)
-          pass
-    elif cParts[0].lower() == "set":
-
-         if cParts[1] == "target":
-            setTargetArchive(configSettings, cParts[2])
-         else:
-             print('Unsupported parameter ', cParts[1])  
-
-         continue             
-         
-    elif cParts[0].lower() == "helpAAA":
-         printHelp() 
-        
-    elif cParts[0].lower() == "h" or cParts[0].lower() == "history":
-         cHistory.printHistory() 
-         
-    elif cParts[0].lower() == 'reload':
-          
-         shellParser = ThrowingArgumentParser()
-         
-         try:
-           shellParser.add_argument('-c', '--config',   nargs='?', default='')
-           shellArgs = vars( shellParser.parse_args( cParts[1:] ) )
-         except Exception as ex:
-             print("Invalid argument. Usage: reload [-c config_file]")
-             continue
-               
-         if  shellArgs['config'] == '':
-             configFile = configSettings['__Runtime']['__configSource']
-         else:
-             configFile = shellArgs['config']
-             
-         
-         if configFile == '':
-            print('No configuration file. No configuration loaded.')   
-            continue
-
-         if not os.path.exists(configFile):
-            print('Configuration file [', configFile ,'] not found', sep='')
-            print('No configuration file loaded.')
-            continue
-
-         print('Loading configuration file: [', configFile, ']', sep="")
-         configSettings = configparser.RawConfigParser(allow_no_value=True)
-         configSettings.read(configFile)
-         configSettings.add_section('__Runtime')
-         configSettings['__Runtime']['__configSource'] = configFile
-         print("Configuration file [", configFile, "] successfully loaded.", sep="")
-
-         # Make sure that the target and bearer agree
-         setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
-
-         tAPI.setConfiguration( configSettings )
-         
-    else:
-        print("OLD:::Unknown command:", cParts[0])
-        print('Type help to see a list of commands.')
-
-  except KeyboardInterrupt:
-       print("\nKeyboard interrupt seen.")
-
-  '''
-
+# Finished. Doing homework...  
        
-cHistory.save()
+sts = cHistory.save()
+if sts != 0:
+   print('Error', str(sts), 'writing history file.')   
 
 print("\nFinished. ByeBye!")
 
