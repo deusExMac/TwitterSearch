@@ -1,16 +1,3 @@
-ilw
-search -n 6 fucker
-search -n 781 -o poutses.csv mmm
-for s in self.configuration.sections():
-print("configuration Section [", s, "]", sep="")
-for key, value in self.configuration[s].items():
-print( "\t-", key, "=", value, ' (value of copy:[', cmdConfigSettings.get(s, key, fallback='?????'),']')
-search -n 781 -D -o poutses.csv mmm
-statusw
-status
-set -G recent
-status
-return codecs.charmap_encode(input,self.errors,encoding_table)[0]
 set --target recent
 status
 search -t 0D7H2M13S -o aTest.csv germany lang:ru
@@ -23,3 +10,16 @@ search -t 0D7H2M13S -o aTest.csv germany lang:ru
 search -t 0D7H2M13S -o aTest.csv germany lang:ru
 search -t 0D7H2M13S -o aTest.csv germany lang:ru
 help
+search -t 0D7H2M13S -o aTest.csv germany lang:ru
+search -t 0D9H2M13S -o aTest111.csv germany lang:ru
+status
+set -G recent
+search -t 0D10H3M9S -o uk.csv boris biden
+search -t 0D10H3M9S -o uk.csv boris biden
+['dsearch', '-t', '1/1/1970', '-u', '2/1/1970', '-t', '0D12H5M3S', '-n', '7', 'mmmmm']
+help
+help
+search -t 0D9H2M13S -o aTest111.csv germany lang:ru
+config
+status
+set --target recent

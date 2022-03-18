@@ -12,19 +12,12 @@
 
 
 
-#For sending REST requests to the API Endpoint
-import requests
+
+
 # For saving access tokens and for file management when creating and adding to the dataset
 import os
 
 
-# For dealing with json responses we receive from the API
-#import sys
-
-#import json
-
-# For saving the response data in CSV format
-import csv
 # For parsing the dates received from twitter in readable formats
 import datetime
 import dateutil.parser
@@ -37,7 +30,7 @@ import time
 import configparser
 import os.path
 
-import pprint
+
 import argparse
 import copy
 
@@ -46,11 +39,11 @@ import appConstants
 from commandHistory import commandHistory
 import twitterV2API 
 
-# For testing only
-import utils
 
 
 
+# The following two classes are used to parse
+# arguments on the shell 'scommand line
 class ArgumentParserError(Exception): pass
   
 class ThrowingArgumentParser(argparse.ArgumentParser):
@@ -59,7 +52,10 @@ class ThrowingArgumentParser(argparse.ArgumentParser):
 
 
 
-    
+#
+# Class to execute commands given
+# via the application's shell
+#
 class shellCommandExecutioner:
 
       def __init__(self, cfg):
@@ -67,10 +63,19 @@ class shellCommandExecutioner:
           self.totalCommands = 0
           self.commandsExecuted = 0
 
+
+      # Main entry point. Call this to execute commands given via the apps command line shell.
+      # commandParts: a list of tokens comprising the command given, spearated by 
+      #               whitespaces at the command line.
+      #               For example, when the following is entered:
+      #               TwitterAPI v2 >> search -t 1/1/1970 -u 2/1/1970 -t 0D12H5M3S -n 7 mmmmm
+      #               commandParts will contain all tokens separated by whitespaces i.e.
+      #               commandParts = ['search', '-t', '1/1/1970', '-u', '2/1/1970', '-t', '0D12H5M3S', '-n', '7', 'mmmmm']
+      #               First item commandParts[0] is always the command and is used to call the method with the same
+      #               name in this class.
+      #               
+      def executeCommand( self, commandParts):
           
-      def shellExecute( self, commandParts):
-          #default = 'Invalid command ' + commandParts[0] + '. Type help for a list of supported commands.'
-          #print('Shell execute [', commandParts[0], ']', sep='')
           self.totalCommands += 1  
           if not hasattr(self, commandParts[0]):
              self.defaultF(commandParts[0])
@@ -78,6 +83,8 @@ class shellCommandExecutioner:
             
           self.commandsExecuted += 1
           return getattr(self, commandParts[0])(commandParts[1:])  
+
+
 
 
 
@@ -631,7 +638,7 @@ while True:
 
 
     # Execute command
-    if commandShell.shellExecute( cParts ) :
+    if commandShell.executeCommand( cParts ) :
        break
       
   except KeyboardInterrupt:
