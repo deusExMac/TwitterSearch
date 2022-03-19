@@ -19,6 +19,8 @@ from commandHistory import commandHistory
 import twitterV2API 
 
 
+
+
 # The following two classes are used to parse
 # arguments on the shell 'scommand line
 class ArgumentParserError(Exception): pass
@@ -26,6 +28,9 @@ class ArgumentParserError(Exception): pass
 class ThrowingArgumentParser(argparse.ArgumentParser):
       def error(self, message):
           raise ArgumentParserError(message)
+
+
+
 
 
 
@@ -37,34 +42,6 @@ class commandShell:
           #self.commandsExecuted = 0
           self.cmdExecutioner = shellCommandExecutioner(cfg)
           self.cmdHistory = commandHistory(self.configuration.getint('Shell', 'historySize', fallback=10), True)
-
-
-      '''
-      def DOIT(self):
-          while True:
-            try: 
-              command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.configuration.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
-              command = command.strip()
-              if len(command) == 0:
-                 continue 
-
-              # Don't add history and quit commands to command history list
-              # It clogs it.
-              if command.lower() not in ['history', 'h', 'quit', 'q']:           
-                 self.cmdHistory.addCommand( command )
-
-              cParts = command.split()
-              if cParts[0] == 'history' or   cParts[0] == 'h':
-                 self.cmdHistory.printHistory()
-                 continue
-                
-              print('Executing ', cParts)
-              if self.cmdExecutioner.executeCommand( cParts ):
-                 print('Returned TRUE!') 
-                 break
-
-            except KeyboardInterrupt:     
-       '''          
 
 
 
