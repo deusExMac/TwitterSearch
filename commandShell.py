@@ -167,17 +167,16 @@ class shellCommandExecutioner:
 
 
       
-      
+      ######################################################################
       # All methods below are application specific as they implement the
       # behavior of various commands.
       #
       # TODO: The methods below should be put in a different class based
       # on some behavioral (command???, strategy???)  or structural design
       # pattern.
-      #
+      ######################################################################
 
       
-
 
       
       def q(self, a):
