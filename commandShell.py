@@ -155,7 +155,6 @@ class shellCommandExecutioner:
 
 
 
-
       # What to execute when no relevant method is found. 
       # I.e. command is not supported
       # NOTE: s is a string; NOT A LIST
@@ -211,47 +210,6 @@ class shellCommandExecutioner:
           
 
                  
-
-
-      '''
-      # Parses only arguments for search command ONLY.
-      # Put in a different method in order not to bloat
-      # the search method.
-      # TODO: should be integrated into search method
-      def parseSearchArguments(self, cmdArgs):
-        
-         try:  
-          parser = ThrowingArgumentParser()
-          
-          parser.add_argument('-f', '--from',   nargs='?', default= (datetime.now() - timedelta(days=2)).strftime("%d/%m/%Y") )
-          parser.add_argument('-u', '--until', nargs='?', default=(datetime.now() - timedelta(days=1)).strftime("%d/%m/%Y") )
-          parser.add_argument('-t', '--timestep', nargs='?', default="" )
-          parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
-          parser.add_argument('-o', '--outfile', type=str, nargs='?', default='' )
-          parser.add_argument('-D',  '--debugmode', action='store_true')
-
-          # IMPORTANT! arguments -f, -u -t -n etc on the command line, MUST APPEAR BEFORE
-          #            the remaining arguments. Otherwise, these arguments will not be parsed
-          #            and will be part of the remaining arguments.
-          parser.add_argument('keywords', nargs=argparse.REMAINDER)
-          
-          
-          args = vars( parser.parse_args(cmdArgs) )
-
-          # We make sure that no . spearator (separating seconds from ms at the end is present (as return by now())
-          # this will destroy all our hypotheses about the formatting.
-          # Dates are always returned in isoformat.
-          args['from'] = dateutil.parser.parse( args['from'].split('.')[0] , dayfirst=True).isoformat() + 'Z'        
-          args['until'] = dateutil.parser.parse( args['until'].split('.')[0] , dayfirst=True).isoformat() + 'Z'    
-          return(args)
-    
-         except Exception as argEx:
-            print( str(argEx) )             
-            return(None)      
-
-         return(None)
-         '''
-
 
 
       def search(self, a):

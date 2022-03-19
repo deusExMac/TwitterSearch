@@ -38,6 +38,19 @@ class twitterSearchClient:
     #
     def __qryPeriod(self, q, sP, eP):
 
+        # inline/nested function
+        # TODO: use this here
+        def NLFormat(string, every=72):
+            lines = []
+            for i in range(0, len(string), every):
+                lines.append('\t' + string[i:i+every])
+
+            return '\n'.join(lines)
+
+         ######################################
+         # __qryPeriod() method starts here
+         ######################################
+        
         next_token = None
         headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
         search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
@@ -78,8 +91,10 @@ class twitterSearchClient:
 
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
-          #totalPeriodTweets += len(tweetsFetched)
-          if totalPeriodTweets + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
+
+          if self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) > 0:
+              
+           if totalPeriodTweets + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
 
              if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
                 print('[DEBUG] Reached period tweet limit of', self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),'. Terminating period search')
@@ -96,6 +111,7 @@ class twitterSearchClient:
              print(".[Period total:",  totalPeriodTweets,']', sep='')
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalPeriodTweets)
+
 
 
           if  len(tweetsFetched) > 0 :
@@ -138,7 +154,9 @@ class twitterSearchClient:
 
 
     
-    # Starting from here    
+    # Does a search for tweets on specific dates.
+    # If no date range is provided, one is generated
+    # automatically as the last 3 days.
     def query(self, f, u, t, q):
 
 
@@ -185,86 +203,7 @@ class twitterSearchClient:
         
 
 
-
-
-
-    '''
-    #
-    # Generates periods based on steps specified by t
-    # NOTE: from date f, until date u must be strings
-    # formatted in ISO time (format %Y-%m-%dT%H:%M:%SZ).
-    #
-    def createPeriods(self, f, u, t ):
-
-      tPeriods = []
-    
-      if datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ") > datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
-       print('Invalid dates: End-date [', u, '] must be after start-date [', f, ']') 
-       return(None)
-      
-      if t == "":
-       tPeriods.append( {'from': f, 'until': u} )
-       if self.configuration.getboolean('Debug', 'debugMode', fallback=False):  
-          print("\t[DEBUG] No time step specified. Adding SINGLE search period: [", datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "-", datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ").strftime("%d/%m/%Y %H:%M:%S"), "]")
-
-       return(tPeriods)
-
-      # Do some normalization if needed
-      # TODO: DO we need this check????
-      if 'D' not in t:
-        return(None)
-    
-      if 'H' not in t:
-        t += '0H0M0S'
-      elif 'M' not in t:
-          t += '0M0S'
-      elif 'S' not in t:
-          t +='0S'
-
-      #parse time period step
-      dayVal = -1 # Days are handled in a special way because we use existing date parsing routines and number of days cannot be 0 or exceed 31    
-      if t.startswith('0D'):
-       t = t.replace('0D', '')
-       tmFormat = '%HH%MM%SS'
-       dayVal = 0
-      else:
-        tmFormat = '%dD%HH%MM%SS'
-
-      try: 
-        stepValue =  datetime.strptime(t, tmFormat)
-        if dayVal != 0:
-           dayVal = stepValue.day 
-      except Exception as sEx:
-        print( "Invalid time step ", str(sEx))
-        return(None)
-           
-      sDate = datetime.strptime(f, "%Y-%m-%dT%H:%M:%SZ")
-      pCnt = 0
-      while True:
-        eDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=(stepValue.second) )                                                            
-        if eDate >= datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ"):
-           eDate = datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ")
-           tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
-           pCnt += 1
-           if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-              print("\t[DEBUG] Adding search period: [", sDate.strftime("%d/%m/%Y %H:%M:%S"), "-", eDate.strftime("%d/%m/%Y %H:%M:%S"), "]")
-              
-           return(tPeriods)
-      
-        if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-           print("\t[DEBUG] Adding search period: [", sDate.strftime("%d/%m/%Y %H:%M:%S"), "-", eDate.strftime("%d/%m/%Y %H:%M:%S"), "]")
-           
-        tPeriods.append( {'from': sDate.strftime("%Y-%m-%dT%H:%M:%SZ"), 'until': eDate.strftime("%Y-%m-%dT%H:%M:%SZ")} )
-        pCnt += 1
-        sDate = sDate + timedelta(days= dayVal, hours = stepValue.hour, minutes = stepValue.minute, seconds=stepValue.second)
-
-      # Remove this?
-      return(tPeriods)
-
-      '''
-
-
-         
+        
 
     def __parseResponse(self, jsn):
     
