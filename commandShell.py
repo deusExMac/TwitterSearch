@@ -383,15 +383,17 @@ class shellCommandExecutioner:
             print('\tAbout:')
             print( NLFormat('     Performs a period search. Searches for tweets meeting conditions in <query> published between the dates specified in -f (from) and -u (until) arguments which is called a period. If -t , -u are missing, default date range is [two days ago - yesterday].  For a list of supported query operators see: https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators . If -t option is specified then' +
                          ' the date range is divided into subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many' +
-                         ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off. -S conducts a simple search, i.e. a search on the recent archive with no date constraints.'))
-            print( NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis" ))
+                         ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off. -S conducts a simple search, i.e. a search on the recent archive with no date constraints.\n'))
+            print( NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis\n" ))
             print( NLFormat( "-t: Time steps should be specified in the following manner: kDmHnMzS where k, m, n and z integer values. Example 3D10H5M8S. -t format specifies how the date range specified " +
                           " by -f and -u arguments will be divided into subperiods, in each of which a seperate search will be conducted for the same query. For example the query search -f 3/2/2008 -u 10/2/2008 -t 2D10H5M2S euro " +
                           " will break up the date range [3/2/2008, 10/2/2008] to subperiods of length 2 days, 10 hours, 5 minutes and 2seconfs and conduct a search in each of these perids. In this example, search " +
                           "for the term euro in tweets will be conducted in the following periods separately:"))
             print( NLFormat('[ 03/02/2008 00:00:00 - 05/02/2008 10:05:02 ]'))
             print( NLFormat('[ 05/02/2008 10:05:02 - 07/02/2008 20:10:04 ]'))
-            print( NLFormat('[ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]'))
+            print( NLFormat('[ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]\n'))
+            print( NLFormat('-S: Conduct a simple search. Simple search means that the recent archive is searched and that no date constraints are enforced. -S option will make any option related to dates such as -f, -u -t obsolete.\n'))
+            print( NLFormat('-D: Toggle debug mode (if true, set to false. If false, set to true).\n'))
             print("")
             print('\t' + 72*'-')
             print( NLFormat('config') )

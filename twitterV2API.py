@@ -35,7 +35,7 @@ class twitterSearchClient:
 
     #
     # Fetch data for this period [sP - eP] ONLY. 
-    #
+    # TODO: Integrate and combine this with __qry method
     def __qryPeriod(self, q, sP, eP):
 
         # inline/nested function
@@ -360,6 +360,7 @@ class twitterSearchClient:
      tweetsCollected = []
      userReferences = {}
      next_token = None
+     
      if resultCount is not None and resultCount > 0:
               
        totalUsers = len(jsn['includes']['users'])
