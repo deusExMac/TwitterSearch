@@ -196,7 +196,7 @@ class twitterSearchClient:
                return(nTweets)
             
             totalTweets += nTweets
-            #print("\t>>>>", nTweets, 'for period')
+            
 
         #print('<<< Total of ', totalTweets, 'tweets downloaded')
         return( totalTweets )
