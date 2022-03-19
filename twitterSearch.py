@@ -13,26 +13,16 @@
 
 
 
-
 # For saving access tokens and for file management when creating and adding to the dataset
 import os
 
-
-# For parsing the dates received from twitter in readable formats
-import datetime
-import dateutil.parser
-from datetime import datetime, timedelta
-#import unicodedata
-
-#To add wait time between requests
-import time
 
 import configparser
 import os.path
 
 
 import argparse
-import copy
+#import copy
 
 # We define constants in this file
 import appConstants
@@ -174,10 +164,11 @@ def append_to_csv(json_response, fileName, sep, extypes, nTweets = 0, mxTweets =
 
 
 
+'''
 def log(logF, m):
     with open(logF, 'a') as lF:
          lF.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + m + '\n')
-
+'''
 
 
 
@@ -205,10 +196,6 @@ def setTargetArchive(cfg, md):
          
 
 
-
-
-
-
 #
 # IGNORE the next line if you are NOT A MacOS user with an older version of
 # Python 3.x.x :
@@ -226,6 +213,8 @@ def setTargetArchive(cfg, md):
 cmdArgParser = argparse.ArgumentParser(description='Command line arguments')
 cmdArgParser.add_argument('-c', '--config',   default=appConstants.DEFAULTCONFIGFILE)
 args = vars( cmdArgParser.parse_args() )
+
+
 
 # Config file that will be used
 configFile = args['config']
@@ -255,6 +244,7 @@ else:
     
 
 print("Type 'help' to see a list of supported commands.\n")
+
 setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
 
 

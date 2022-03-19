@@ -1,25 +1,25 @@
-set -G recent
-set
-config
-config
-config
-search sssd
-Target archive set to historic.
-dfafddf
-ffsfds
-www
-sfdd
-config
+{'parameters': {'query': ['www']}
+!24
+tsearch www
+tsearch wwe
+tsearch www
+search -o manolis.csv manolis
+w
+s
+s
+tsearch www
+search -o manolis.csv manolis
+search -R -n 44 -D milf
+search -R -n 44 -o 1122.csv  milf
+tsearch www
+help
 status
-set
-set -G recent
-malakia
-reload
+search -R milf
+search -R -o xxx.csv greek milf
+search -R -o xxx.csv -n 101 greek milf
+search -R -o xxx.csv -n 101 greek milf
+search -R -o xxx.csv -n 101 greek milf
+search -S -o xxx.csv -D -n 101 greek milf
+search -S -o xxx1.csv -D -n 101 greek milf
 status
-set -G recent
-status
-search -f 1/1/2010 -u 3/1/2010 -n 88 wife
-search wife
-search mouni
-search -n 16 mouni
 help

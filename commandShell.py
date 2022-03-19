@@ -56,6 +56,25 @@ class commandShell:
               if len(command) == 0:
                  continue   
 
+              if command == '!!':
+                 command = self.cmdHistory.getLast()
+                 if command == '':
+                    continue
+                 print('[', command, ']', sep='') 
+
+
+
+              if command.startswith('!'):
+                 #v = command[1:]
+                 try:
+                   hIdx = int(command[1:])
+                   command = self.cmdHistory.get(hIdx)
+                   if command == '':
+                      continue   
+                 except Exception as nmbrEx:
+                       continue
+              
+
               # Don't add history and quit commands to command history list
               # It clogs it.
               if command.lower() not in ['history', 'h', 'quit', 'q']:           
@@ -207,9 +226,14 @@ class shellCommandExecutioner:
              parser.add_argument('-o', '--outfile', type=str, nargs='?', default='' )
              parser.add_argument('-D',  '--debugmode', action='store_true')
 
+             # IMPORTANT! The -S has been added to differentiate -in a quick and dirty manner-between period and simple queries.
+             # if -S is present, this means a simple search will be conducted on the recent archive without any date constraints.
+             # TODO: Get rid of -S and find some other way to differentiate these two type of queries 
+             parser.add_argument('-S',  '--simple', action='store_true')
+
              # IMPORTANT! arguments -f, -u -t -n etc on the command line, MUST APPEAR BEFORE
              #            the remaining arguments. Otherwise, these arguments will not be parsed
-             #            and will be part of the remaining arguments.
+             #            and will be interpreted as part of the remaining arguments i.e. parts of the query.
              parser.add_argument('keywords', nargs=argparse.REMAINDER)
           
           
@@ -217,7 +241,7 @@ class shellCommandExecutioner:
 
              # We make sure that no . spearator (separating seconds from ms at the end is present (as return by now())
              # this will destroy all our hypotheses about the formatting.
-             # Dates are always returned in isoformat.
+             # We also convert dates: Dates are always returned in isoformat.
              args['from'] = dateutil.parser.parse( args['from'].split('.')[0] , dayfirst=True).isoformat() + 'Z'        
              args['until'] = dateutil.parser.parse( args['until'].split('.')[0] , dayfirst=True).isoformat() + 'Z'    
              return(args)
@@ -279,9 +303,24 @@ class shellCommandExecutioner:
 
         
 
-          # Perform actual search for tweets with the configuratio.
+          # Perform actual search for tweets with the configuration. Instantiate an API object,
           tAPI = twitterV2API.twitterSearchClient( cmdConfigSettings )
-          nFetched = tAPI.query( sParams['from'], sParams['until'], sParams['timestep'], " ".join(sParams['keywords']).strip() ) 
+          
+          # Do we require a simple search on the recent archive, without any dates?
+          if sParams['simple']:
+             # Yes. This is a simple query without any dates. Call the appropriate method.   
+             if cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False):
+                print('[DEBUG] Initiating simple query on forced recent archive. No date constraints.')
+                
+             nFetched = tAPI.simpleQuery(  " ".join(sParams['keywords']).strip() )
+          else:
+             # This is a search based on dates. Call the appropriate method.   
+             if cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False):
+                print('[DEBUG] Initiating period query on specified archive. ')
+                
+             nFetched = tAPI.periodQuery( sParams['from'], sParams['until'], sParams['timestep'], " ".join(sParams['keywords']).strip() )
+
+             
           if nFetched >= 0:
              print('\nFetched total of', nFetched, 'tweets.')
           else:
@@ -290,6 +329,37 @@ class shellCommandExecutioner:
                  
           return(False)
 
+
+      ''' 
+      def tsearch(self, a):
+          try:
+           parser = ThrowingArgumentParser()
+           parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
+           parser.add_argument('-o', '--outfile', type=str, nargs='?', default='' )
+           parser.add_argument('-D',  '--debugmode', action='store_true')
+           parser.add_argument('keywords', nargs=argparse.REMAINDER)
+
+           args = vars( parser.parse_args(a) )
+           if args['keywords'] == '':
+              print('Empoty query.')
+              return(False)
+
+
+           cmdConfigSettings = copy.deepcopy( self.configuration )
+           
+           tAPI = twitterV2API.twitterSearchClient( cmdConfigSettings )
+           nFetched = tAPI.simpleQuery( " ".join(args['keywords']).strip() )
+           if nFetched >= 0:
+             print('\nFetched total of', nFetched, 'tweets.')
+           else:
+             print('\nError ', nFetched, 'encounterred.') 
+           
+          except Exception as sX:
+               print('Error', str(sX) )
+
+          return(False)     
+
+        '''    
 
 
       
@@ -308,12 +378,12 @@ class shellCommandExecutioner:
             print("\n\tSupported commands and their syntax:")
             print("")
             print('\t' + 72*'-')
-            print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
+            print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-S] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
             print('\t'+72*'-')
             print('\tAbout:')
             print( NLFormat('     Performs a period search. Searches for tweets meeting conditions in <query> published between the dates specified in -f (from) and -u (until) arguments which is called a period. If -t , -u are missing, default date range is [two days ago - yesterday].  For a list of supported query operators see: https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators . If -t option is specified then' +
                          ' the date range is divided into subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many' +
-                         ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off.'))
+                         ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off. -S conducts a simple search, i.e. a search on the recent archive with no date constraints.'))
             print( NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis" ))
             print( NLFormat( "-t: Time steps should be specified in the following manner: kDmHnMzS where k, m, n and z integer values. Example 3D10H5M8S. -t format specifies how the date range specified " +
                           " by -f and -u arguments will be divided into subperiods, in each of which a seperate search will be conducted for the same query. For example the query search -f 3/2/2008 -u 10/2/2008 -t 2D10H5M2S euro " +
