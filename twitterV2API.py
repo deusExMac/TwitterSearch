@@ -111,6 +111,7 @@ class twitterSearchClient:
           
           
           if next_token is None:
+             print("[Period total:",  totalPeriodTweets,']') 
              if self.configuration.getboolean('Debug', 'debugMode', fallback=False): 
                 print('[DEBUG] >>>> Found  NONE next token. Terminating period search.')
                 

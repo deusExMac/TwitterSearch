@@ -176,16 +176,7 @@ class shellCommandExecutioner:
       # pattern.
       #
 
-      def displayConfigSettings(self):
-         if self.configuration is None:
-            print('No configuration.')
-            return
       
-         print("Configuration settings")
-         for s in self.configuration.sections():
-             print("Section [", s, "]", sep="")
-             for key, value in self.configuration[s].items():
-                 print( "\t-", key, "=", value)
 
 
       
@@ -197,12 +188,33 @@ class shellCommandExecutioner:
       
       
       def config(self, a):
+
+          #Inlide/nested function  
+          def displayConfigSettings(cfg):
+             if cfg is None:
+                print('No configuration.')
+                return
+
+          ####################################
+          #  outer method config starts here
+          ####################################
+          
+             print("Configuration settings")
+             for s in cfg.sections():
+                 print("Section [", s, "]", sep="")
+                 for key, value in cfg[s].items():
+                     print( "\t-", key, "=", value)
+                     
           print('Executing config >>>>>')
-          self.displayConfigSettings()
+          displayConfigSettings(self.configuration)
           return(False)
 
+          
+
+                 
 
 
+      '''
       # Parses only arguments for search command ONLY.
       # Put in a different method in order not to bloat
       # the search method.
@@ -238,16 +250,56 @@ class shellCommandExecutioner:
             print( str(argEx) )             
             return(None)      
 
-
          return(None)
-
+         '''
 
 
 
       def search(self, a):
 
+          # Inner/nested function
+          # Parses only arguments for search command ONLY.
+          # Put in a different method in order not to bloat
+          # the search method.
+          def parseSearchArguments(cmdArgs):
+        
+            try:  
+             parser = ThrowingArgumentParser()
           
-          sParams = self.parseSearchArguments(a)
+             parser.add_argument('-f', '--from',   nargs='?', default= (datetime.now() - timedelta(days=2)).strftime("%d/%m/%Y") )
+             parser.add_argument('-u', '--until', nargs='?', default=(datetime.now() - timedelta(days=1)).strftime("%d/%m/%Y") )
+             parser.add_argument('-t', '--timestep', nargs='?', default="" )
+             parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
+             parser.add_argument('-o', '--outfile', type=str, nargs='?', default='' )
+             parser.add_argument('-D',  '--debugmode', action='store_true')
+
+             # IMPORTANT! arguments -f, -u -t -n etc on the command line, MUST APPEAR BEFORE
+             #            the remaining arguments. Otherwise, these arguments will not be parsed
+             #            and will be part of the remaining arguments.
+             parser.add_argument('keywords', nargs=argparse.REMAINDER)
+          
+          
+             args = vars( parser.parse_args(cmdArgs) )
+
+             # We make sure that no . spearator (separating seconds from ms at the end is present (as return by now())
+             # this will destroy all our hypotheses about the formatting.
+             # Dates are always returned in isoformat.
+             args['from'] = dateutil.parser.parse( args['from'].split('.')[0] , dayfirst=True).isoformat() + 'Z'        
+             args['until'] = dateutil.parser.parse( args['until'].split('.')[0] , dayfirst=True).isoformat() + 'Z'    
+             return(args)
+    
+            except Exception as argEx:
+               print( str(argEx) )             
+               return(None)
+            
+            return(None)
+
+
+          ####################################
+          #  outer method search starts here
+          ####################################
+          
+          sParams = parseSearchArguments(a)
           if sParams is None:
              print("Usage: search [-f <from date>] [-u <to date>] [-n <number of tweets>] [-o <csv file>] [-D] <query>")
              return(False)
@@ -260,12 +312,16 @@ class shellCommandExecutioner:
           # TODO: Check to see if Memento design pattern would be appropriate    
 
 
-
-          # Make a deep copy of the config settings. This copy will be passed as
-          # the settings for search. Any command shell arguments overrides the values
+          
+          # Before doing any change to the settings, make a deep copy of the current
+          # config settings. This copy will be passed as
+          # the search settings. Hence, any command shell arguments overrides the values
           # of the copy - not the original.
           # We consume a little bit of memory more, but
-          # that's a static cost and is required memory is very, very low (i.e. definitely within limits)
+          # that's a static cost and is required memory is very, very low (i.e.
+          # definitely within limits)
+          # PS: We make a deep copy since we want to accommodate future modifications
+          # where more complicate settings might be present in configurations. 
           cmdConfigSettings = copy.deepcopy( self.configuration )
 
          
@@ -287,8 +343,7 @@ class shellCommandExecutioner:
             # toggle debug setting
             cmdConfigSettings['Debug']['debugMode'] =  str( not cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False)) 
 
-
-          
+        
 
           # Perform actual search for tweets with the configuratio.
           tAPI = twitterV2API.twitterSearchClient( cmdConfigSettings )
@@ -303,91 +358,95 @@ class shellCommandExecutioner:
 
 
 
-
-      def NLFormat(self, string, every=72):
-          lines = []
-          for i in range(0, len(string), every):
-              lines.append('\t' + string[i:i+every])
-          return '\n'.join(lines)
-
+      
 
       # TODO: Sorry about this. It's a mess. Needs to be seriously refactored.
       #       This was done quickly.
       def help(self, a):
+
+            # Inner/nested function
+            def NLFormat(string, every=72):
+                lines = []
+                for i in range(0, len(string), every):
+                  lines.append('\t' + string[i:i+every])
+                return '\n'.join(lines)
+            
             print("\n\tSupported commands and their syntax:")
             print("")
             print('\t' + 72*'-')
-            print( self.NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
+            print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
             print('\t'+72*'-')
             print('\tAbout:')
-            print( self.NLFormat('     Performs a period search. Searches for tweets meeting conditions in <query> published between the dates specified in -f (from) and -u (until) arguments which is called a period. If -t , -u are missing, default date range is [two days ago - yesterday].  For a list of supported query operators see: https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators . If -t option is specified then' +
+            print( NLFormat('     Performs a period search. Searches for tweets meeting conditions in <query> published between the dates specified in -f (from) and -u (until) arguments which is called a period. If -t , -u are missing, default date range is [two days ago - yesterday].  For a list of supported query operators see: https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators . If -t option is specified then' +
                          ' the date range is divided into subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many' +
                          ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off.'))
-            print( self.NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis" ))
-            print( self.NLFormat( "-t: Time steps should be specified in the following manner: kDmHnMzS where k, m, n and z integer values. Example 3D10H5M8S. -t format specifies how the date range specified " +
+            print( NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis" ))
+            print( NLFormat( "-t: Time steps should be specified in the following manner: kDmHnMzS where k, m, n and z integer values. Example 3D10H5M8S. -t format specifies how the date range specified " +
                           " by -f and -u arguments will be divided into subperiods, in each of which a seperate search will be conducted for the same query. For example the query search -f 3/2/2008 -u 10/2/2008 -t 2D10H5M2S euro " +
                           " will break up the date range [3/2/2008, 10/2/2008] to subperiods of length 2 days, 10 hours, 5 minutes and 2seconfs and conduct a search in each of these perids. In this example, search " +
                           "for the term euro in tweets will be conducted in the following periods separately:"))
-            print( self.NLFormat('[ 03/02/2008 00:00:00 - 05/02/2008 10:05:02 ]'))
-            print( self.NLFormat('[ 05/02/2008 10:05:02 - 07/02/2008 20:10:04 ]'))
-            print( self.NLFormat('[ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]'))
+            print( NLFormat('[ 03/02/2008 00:00:00 - 05/02/2008 10:05:02 ]'))
+            print( NLFormat('[ 05/02/2008 10:05:02 - 07/02/2008 20:10:04 ]'))
+            print( NLFormat('[ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]'))
             print("")
             print('\t' + 72*'-')
-            print( self.NLFormat('config') )
+            print( NLFormat('config') )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Displays currently loaded configuration settings.'))
+            print( NLFormat('Displays currently loaded configuration settings.'))
             print("")
             print('\t' + 72*'-')
-            print( self.NLFormat('reload [-c <path to configuration file>]') )
+            print( NLFormat('reload [-c <path to configuration file>]') )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Allows loading a configuration file specified by the -c option. Relating file names are supported. In no -c option is provided, the config file loaded during startup is reloaded.'))                
+            print( NLFormat('Allows loading a configuration file specified by the -c option. Relating file names are supported. In no -c option is provided, the config file loaded during startup is reloaded.'))                
             print('')
             print('\t' + 72*'-')
-            print( self.NLFormat('history (alternatively h)' ) )
+            print( NLFormat('history (alternatively h)' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Displays a numbered list of the history of commands executed. Numbers can be used with ! (see below). Usefull to re-execute commands or copy-paste complicated commands'))
+            print( NLFormat('Displays a numbered list of the history of commands executed. Numbers can be used with ! (see below). Usefull to re-execute commands or copy-paste complicated commands'))
             print('')
             print('\t' + 72*'-')
-            print( self.NLFormat('set [-G | --target <historic | recent>]' ) )
+            print( NLFormat('set [-G | --target <historic | recent>]' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Specifies in which archive the search should be condicted. Value recent means that search is limited to tweets published the last 5 days. Value historic means that one may specify any time period without any constraint.' +
+            print( NLFormat('Specifies in which archive the search should be condicted. Value recent means that search is limited to tweets published the last 5 days. Value historic means that one may specify any time period without any constraint.' +
                           'Value recent and historic use different bearer tokens and hence tweets are accounted in different developer accounts. You get bearer tokens freely. recent bearer tokens are obtained by ' +
                           'simply opening a developer account. Search in the historic archive requires an academic bearer token that you can request.'))
             print('')
             print('\t' + 72*'-')
-            print( self.NLFormat('!<index>' ) )
+            print( NLFormat('!<index>' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Execute command at the position <index> in the command history list (see history or h).'))
+            print( NLFormat('Execute command at the position <index> in the command history list (see history or h).'))
             print('')
             print('\t' + 72*'-')
-            print( self.NLFormat('!!' ) )
+            print( NLFormat('!!' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Re-executes last command.'))
+            print( NLFormat('Re-executes last command.'))
             print('')
             print('')
             print('\t' + 72*'-')
-            print( self.NLFormat('help' ) )
+            print( NLFormat('help' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('This screen.'))
+            print( NLFormat('This screen.'))
             print('')
             print('\t' + 72*'-')
-            print( self.NLFormat('quit or q' ) )
+            print( NLFormat('quit or q' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( self.NLFormat('Terminates and quits the application.'))
+            print( NLFormat('Terminates and quits the application.'))
             print('')
 
             print('')
             return(False)
+      
+            
 
-
+      
 
 
       def set(self, a):
@@ -414,25 +473,32 @@ class shellCommandExecutioner:
              print("Invalid target archive option [", shellArgs['target'], "]. Allowed values: historic, recent", sep='')
              return(False)
 
+     
+          
+  
+      def reload(self, a):
 
-      def setTargetArchive(self, md):
+        # Inner/nested function
+        def setTargetArchive(cfg, md):
           if md.lower() == "recent":
             if 'TwitterAPI' in self.configuration.sections(): 
-              self.configuration['TwitterAPI']['apiEndPoint'] =  self.configuration['TwitterAPI']['recentApiEndPoint']
-              self.configuration['TwitterAPI']['bearer'] =  self.configuration['TwitterAPI']['essentialBearer']
-              self.configuration['TwitterAPI']['targetArchive'] = 'recent'
+              cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['recentApiEndPoint']
+              cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['essentialBearer']
+              cfg['TwitterAPI']['targetArchive'] = 'recent'
               print("Target archive set to recent.")
           elif  md.lower() == "historic":
-             self.configuration['TwitterAPI']['apiEndPoint'] =  self.configuration['TwitterAPI']['historicApiEndPoint']
-             self.configuration['TwitterAPI']['bearer'] =  self.configuration['TwitterAPI']['academicBearer']
-             self.configuration['TwitterAPI']['targetArchive'] = 'historic'
+             cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['historicApiEndPoint']
+             cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['academicBearer']
+             cfg['TwitterAPI']['targetArchive'] = 'historic'
              print("Target archive set to historic.")
           else:
              print("Invalid target archive option [", md, "]. Use historic or recent")
 
-          
-  
-      def reload(self, a):
+
+       ####################################
+       #  outer method reload starts here
+       ####################################
+            
         shellParser = ThrowingArgumentParser()         
         try:
            shellParser.add_argument('-c', '--config',   nargs='?', default='')
@@ -464,7 +530,7 @@ class shellCommandExecutioner:
         print("Configuration file [", configFile, "] successfully loaded.", sep="")
 
         # Make sure that the target and bearer agree
-        self.setTargetArchive(self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
+        setTargetArchive(self.configuration, self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
 
 
 
