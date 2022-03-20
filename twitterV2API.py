@@ -398,9 +398,7 @@ class twitterSearchClient:
         
      if response.status_code != 200:
         if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-            print('[DEBUG] Response error [', response.text, ']')
-
-            
+            print('[DEBUG] Response error [', response.text, ']')           
         # make errors negative
         raise Exception(0-response.status_code, response.text)
         
