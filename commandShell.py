@@ -13,6 +13,9 @@ from datetime import datetime, timedelta
 import argparse
 import copy
 
+import pandas as pd
+
+
 # We define constants in this file
 import appConstants
 from commandHistory import commandHistory
@@ -70,7 +73,9 @@ class commandShell:
                    hIdx = int(command[1:])
                    command = self.cmdHistory.get(hIdx)
                    if command == '':
-                      continue   
+                      continue
+                  
+                   print('[', command, ']', sep='')
                  except Exception as nmbrEx:
                        continue
               
@@ -330,36 +335,43 @@ class shellCommandExecutioner:
           return(False)
 
 
-      ''' 
-      def tsearch(self, a):
+      
+      def showcsv(self, a):
+          try:  
+           shellParser = ThrowingArgumentParser()
+           shellParser.add_argument('-f', '--csvfile', nargs='?',  default='tweets.csv')
+           shellParser.add_argument('-s', '--separator', nargs='?',  default=self.configuration.get('Storage', 'csvSeparator', fallback=',') )
+           shellParser.add_argument('-N',  '--noheader', action='store_true')
+           shellParser.add_argument('-F','--fields', nargs='+', default=['username', 'url'])
+           shellArgs = vars( shellParser.parse_args( a ) )
+          except Exception as ex:
+             print( str(ex) )
+             print("Invalid argument. Usage: showcsv [-f <csv file name>] [-s <separator>] [-N] ")
+             return(False)
+
+          if not os.path.exists( shellArgs['csvfile'] ):
+             print('File ', shellArgs['csvfile'], ' does not exist.' )
+             return(False)
+                
+          
+          hdr = 0  
+          if shellArgs['noheader']:
+             hdr = None
+             
           try:
-           parser = ThrowingArgumentParser()
-           parser.add_argument('-n', '--numtweets', type=int, nargs='?', default=0 )
-           parser.add_argument('-o', '--outfile', type=str, nargs='?', default='' )
-           parser.add_argument('-D',  '--debugmode', action='store_true')
-           parser.add_argument('keywords', nargs=argparse.REMAINDER)
+             #print( shellArgs['fields'])   
+             tweetsDF = pd.read_csv(shellArgs['csvfile'], sep=shellArgs['separator'], header=hdr )
+             print('Dimensions: Rows=', tweetsDF.shape[0], ' Columns=', tweetsDF.shape[1], sep='' )
+             print('Columns:', list(tweetsDF.columns) )
+             print('First 15 rows:')
+             print( tweetsDF.loc[:, shellArgs['fields'] ].head(15) )
+          except Exception as dfREx:
+                print('ERROR.',  str(dfREx) )
 
-           args = vars( parser.parse_args(a) )
-           if args['keywords'] == '':
-              print('Empoty query.')
-              return(False)
+          return(False)
+            
 
 
-           cmdConfigSettings = copy.deepcopy( self.configuration )
-           
-           tAPI = twitterV2API.twitterSearchClient( cmdConfigSettings )
-           nFetched = tAPI.simpleQuery( " ".join(args['keywords']).strip() )
-           if nFetched >= 0:
-             print('\nFetched total of', nFetched, 'tweets.')
-           else:
-             print('\nError ', nFetched, 'encounterred.') 
-           
-          except Exception as sX:
-               print('Error', str(sX) )
-
-          return(False)     
-
-        '''    
 
 
       

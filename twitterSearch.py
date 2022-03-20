@@ -228,17 +228,19 @@ print('v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
 configSettings = configparser.RawConfigParser(allow_no_value=True)
 
  
-
+print('Loading configuration file [', configFile, ']........', sep='', end='')
 # Load config file
 if os.path.exists(configFile):    
    configSettings.read(configFile)
    configSettings.add_section('__Runtime')
    configSettings['__Runtime']['__configSource'] = configFile
-   print("Loaded configuration file ", configFile, sep="")
+   #print("Loaded configuration file ", configFile, sep="")
+   print('OK', sep="")
 else:
    configSettings.add_section('__Runtime')
    configSettings['__Runtime']['__configSource'] = ''
-   print("Configuration file [", configFile, "] not found. Continuing with default settings.", sep="")
+   #print("Configuration file [", configFile, "] not found. Continuing with default settings.", sep="")
+   print("ERROR. File not found. Continuing with default settings.", sep="")
 
 
     
@@ -252,6 +254,6 @@ appShell = commandShell.commandShell( configSettings )
 appShell.startShell()
 
 
-print("\nFinished. ByeBye!!!!!!!!")
+print("\nFinished. ByeBye!")
 
 

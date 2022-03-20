@@ -38,7 +38,7 @@ class commandHistory:
           if len(self.commandHistory) <= 0:
              return('')
 
-          return( self.get(len(self.commandHistory)) )  
+          return( self.commandHistory[-1] )  
       
 
         
