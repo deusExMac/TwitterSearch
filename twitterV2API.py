@@ -60,6 +60,11 @@ class twitterSearchClient:
         #
         
         next_token = None
+
+        #
+        # Depending on the dates, we will do a simple or period query
+        #
+        
         if sP =='' and  eP == '':
            headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') )}
            search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
@@ -96,9 +101,11 @@ class twitterSearchClient:
              
         numRequests = 0
         totalTweetsDownloaded = 0
-        while True:
-            
+              
+        while True:    
           try:
+            # Start counting time in order to calculate speed
+            tic = time.perf_counter()  
             json_response = self.__sendRequest(search_url, headers, query_params, next_token)
             numRequests += 1
           except Exception as netEx:
@@ -108,8 +115,10 @@ class twitterSearchClient:
              return(errCode) 
 
 
-          next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )         
-
+          next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )
+          
+          dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)
+          
           if self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) > 0:
               
            if totalTweetsDownloaded + len(tweetsFetched) >= self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ):
@@ -126,7 +135,7 @@ class twitterSearchClient:
                 return(nW)
             
              totalTweetsDownloaded +=  amount
-             print(".[Period total:",  totalTweetsDownloaded,']', sep='')
+             print(".[Period total:",  totalTweetsDownloaded,'] at ', "{:.2f}".format(dSpeed), ' tweets/sec', sep='')
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalTweetsDownloaded)
 
@@ -139,7 +148,7 @@ class twitterSearchClient:
                 
               totalTweetsDownloaded +=  nW
               if self.configuration.getboolean('Debug', 'showProgress', fallback=False) or self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-                 print(". (prF:", len(tweetsFetched), ", prS:", nW , ", ptS:", totalTweetsDownloaded, ')', sep='', end='' )
+                 print(".(prF:", len(tweetsFetched), ", prS:", nW , ", ptS:", totalTweetsDownloaded, ', s:', "{:.2f}".format(dSpeed), ' tweets/sec)', sep='', end='' )
               else:
                   print('.', end='')
                     
@@ -156,7 +165,8 @@ class twitterSearchClient:
          
           if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
              print('[DEBUG] Sleeping for [', self.configuration.getfloat('Request', 'sleepTime', fallback=3.8), '] seconds')
-             
+
+          
           time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8) )          
 
         
