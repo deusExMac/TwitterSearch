@@ -97,3 +97,15 @@ def generateSubperiods(f, u, t, cfg=None ):
 
       # TODO: Remove this?
       return(tPeriods)
+
+
+ 
+# TODO: Check and use this?
+def NLFormatString(string, every=72):
+    lines = []
+    for i in range(0, len(string), every):
+        lines.append('\t' + string[i:i+every])
+
+    return '\n'.join(lines)
+
+

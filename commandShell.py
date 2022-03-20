@@ -341,7 +341,10 @@ class shellCommandExecutioner:
            shellParser = ThrowingArgumentParser()
            shellParser.add_argument('-f', '--csvfile', nargs='?',  default='tweets.csv')
            shellParser.add_argument('-s', '--separator', nargs='?',  default=self.configuration.get('Storage', 'csvSeparator', fallback=',') )
+           shellParser.add_argument('-n', '--numrows', type=int, nargs='?',  default=15)
+           #shellParser.add_argument('-R', '--rows', nargs='?',  default=':')
            shellParser.add_argument('-N',  '--noheader', action='store_true')
+           shellParser.add_argument('-T','--tail', action='store_true')
            shellParser.add_argument('-F','--fields', nargs='+', default=['username', 'url'])
            shellArgs = vars( shellParser.parse_args( a ) )
           except Exception as ex:
@@ -358,13 +361,19 @@ class shellCommandExecutioner:
           if shellArgs['noheader']:
              hdr = None
              
-          try:
-             #print( shellArgs['fields'])   
+          try:             
              tweetsDF = pd.read_csv(shellArgs['csvfile'], sep=shellArgs['separator'], header=hdr )
-             print('Dimensions: Rows=', tweetsDF.shape[0], ' Columns=', tweetsDF.shape[1], sep='' )
-             print('Columns:', list(tweetsDF.columns) )
-             print('First 15 rows:')
-             print( tweetsDF.loc[:, shellArgs['fields'] ].head(15) )
+             print('Number of rows:', tweetsDF.shape[0], sep='' )
+             print('Number of columns:', tweetsDF.shape[1], sep='' )
+             print('Column names:', list(tweetsDF.columns) )
+             
+             if not shellArgs['tail']:
+                print('First ', shellArgs['numrows'], ' rows:', sep='')
+                print( tweetsDF.loc[ :, shellArgs['fields'] ].head(shellArgs['numrows']) )
+             else:
+                 print('Last ', shellArgs['numrows'], ' rows:', sep='')
+                 print( tweetsDF.loc[:, shellArgs['fields'] ].tail(shellArgs['numrows']) )      
+                   
           except Exception as dfREx:
                 print('ERROR.',  str(dfREx) )
 

@@ -35,8 +35,9 @@ class twitterSearchClient:
         
 
     #
-    # Fetch data for this period [sP - eP] ONLY. 
-    # TODO: Integrate and combine this with __qry method
+    # Fetch data - used for simple and period queries. 
+    # TODO: Refactor this method. It's ugly
+    #
     def __qryGENERIC(self, q, sP, eP):
 
         # inline/nested function
@@ -205,16 +206,14 @@ class twitterSearchClient:
 
         totalTweets = 0
         for p in periods:
-            print(">>> Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="")
+            print("Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="") 
             nTweets = self.__qryGENERIC(q, p['from'], p['until'])
             if nTweets < 0 :
-               #print('<<< Terminating due to error [', nTweets, ']') 
                return(nTweets)
             
             totalTweets += nTweets
             
 
-        #print('<<< Total of ', totalTweets, 'tweets downloaded')
         return( totalTweets )
         
 
