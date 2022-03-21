@@ -9,6 +9,7 @@ import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
 
+import signal
 
 import argparse
 import copy
@@ -40,9 +41,9 @@ class ThrowingArgumentParser(argparse.ArgumentParser):
 class commandShell:
 
       def __init__(self, cfg):
-          self.configuration = cfg
-          #self.totalCommands = 0
-          #self.commandsExecuted = 0
+
+          # TODO: Do we really need this instance variable here anyway?
+          self.configuration = cfg          
           self.cmdExecutioner = shellCommandExecutioner(cfg)
           self.cmdHistory = commandHistory(self.configuration.getint('Shell', 'historySize', fallback=10), True)
 
@@ -51,6 +52,8 @@ class commandShell:
 
       def startShell(self):
 
+          
+          
           while True:
              try:
               command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.configuration.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
@@ -85,9 +88,10 @@ class commandShell:
               if command.lower() not in ['history', 'h', 'quit', 'q']:           
                  self.cmdHistory.addCommand( command )
 
+
               cParts = command.split()
 
-              # NOTE: history/h command is the only command executed here!
+              # NOTE: history/h command is the only command handled here!
               #       That's because the cHistory object is instantiated here
               # TODO: Check if there is a better design?
               if cParts[0] == 'history' or   cParts[0] == 'h':
@@ -98,15 +102,30 @@ class commandShell:
               if self.cmdExecutioner.executeCommand( cParts ):                 
                  break
 
+              # Update the configuration in case it has been changed
+              # inside shellCommandExecutioner.
+              # I'm sorry to do this like that, but... this is done
+              # so that the config settings loaded with the reload command (executed in shellCommandExecutioner) 
+              # is visible at this level also.
+              # TODO: Find a better way to do it. Tried to send signal SIGUSR1 and signal handling, but
+              #       SIGUSR1 signals are not supported (??? check this again). Or a better way may be to
+              #       avoid having an instance variable keeping the config in this class, and access config inside
+              #       the shellCommandExecutioner directly. I.e. why keep configuration here anyway???
+              self.configuration = self.cmdExecutioner.configuration
+
              except KeyboardInterrupt:
                  print("\nKeyboard interrupt seen.")
 
 
+          # Save history 
           sts = self.cmdHistory.save()
           if sts != 0:
-              print('Error', str(sts), 'writing history file.')
+              print('Error', str(sts), 'writing .history file.')
 
           return
+
+
+      
             
 
 
@@ -188,7 +207,7 @@ class shellCommandExecutioner:
       
       def config(self, a):
 
-          #Inlide/nested function  
+          #Inline/nested function  
           def displayConfigSettings(cfg):
              if cfg is None:
                 print('No configuration.')
@@ -553,7 +572,12 @@ class shellCommandExecutioner:
         except Exception as ex:
              print("Invalid argument. Usage: reload [-c config_file]")
              return(False)
-               
+
+
+        if shellArgs['config'] is None:
+            print("Invalid argument. Usage: reload [-c config_file]")
+            return(False)  
+                      
         if  shellArgs['config'] == '':
           configFile = self.configuration['__Runtime']['__configSource']
         else:
