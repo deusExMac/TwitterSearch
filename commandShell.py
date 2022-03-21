@@ -9,7 +9,7 @@ import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
 
-import signal
+
 
 import argparse
 import copy
@@ -56,7 +56,7 @@ class commandShell:
           
           while True:
              try:
-              command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.configuration.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
+              command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
     
               if len(command) == 0:
@@ -111,7 +111,8 @@ class commandShell:
               #       SIGUSR1 signals are not supported (??? check this again). Or a better way may be to
               #       avoid having an instance variable keeping the config in this class, and access config inside
               #       the shellCommandExecutioner directly. I.e. why keep configuration here anyway???
-              self.configuration = self.cmdExecutioner.configuration
+              #       Seems that this is not needed anymore....
+              #self.configuration = self.cmdExecutioner.configuration
 
              except KeyboardInterrupt:
                  print("\nKeyboard interrupt seen.")

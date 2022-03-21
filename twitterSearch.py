@@ -13,21 +13,16 @@
 
 
 
-# For saving access tokens and for file management when creating and adding to the dataset
+
 import os
-
-
-import configparser
 import os.path
 
-
+import configparser
 import argparse
-#import copy
+
 
 # We define constants in this file
 import appConstants
-from commandHistory import commandHistory
-import twitterV2API
 import commandShell
 
 

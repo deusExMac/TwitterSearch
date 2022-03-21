@@ -5,6 +5,7 @@ import requests
 import configparser
 import time
 import json
+import statistics
 
 import configparser
 import appConstants
@@ -19,11 +20,12 @@ class twitterSearchClient:
          self.configuration.read(appConstants.DEFAULTCONFIGFILE)
          self.configuration.add_section('__Runtime')
          self.configuration['__Runtime']['__configSource'] = appConstants.DEFAULTCONFIGFILE
-         
+         self.downloadSpeeds = [] 
          
             
     def __init__(self, cfg):
         self.configuration = cfg
+        self.downloadSpeeds = [] 
         
 
 
@@ -48,6 +50,8 @@ class twitterSearchClient:
                 lines.append('\t' + string[i:i+every])
 
             return '\n'.join(lines)
+
+
 
          ######################################
          # __qryGENERIC() method starts here
@@ -116,7 +120,8 @@ class twitterSearchClient:
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )
           
-          dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)
+          dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)          
+          self.downloadSpeeds.append( dSpeed )
           
           if self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) > 0:
               
@@ -134,7 +139,7 @@ class twitterSearchClient:
                 return(nW)
             
              totalTweetsDownloaded +=  amount
-             print(".[Period total:",  totalTweetsDownloaded,'] at ', "{:.2f}".format(dSpeed), ' tweets/sec', sep='')
+             print(".[Period total:",  totalTweetsDownloaded,'] at ', "{:.2f}".format( statistics.mean(self.downloadSpeeds) ), ' tweets/sec', sep='')
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalTweetsDownloaded)
 
@@ -147,7 +152,7 @@ class twitterSearchClient:
                 
               totalTweetsDownloaded +=  nW
               if self.configuration.getboolean('Debug', 'showProgress', fallback=False) or self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-                 print(".(prF:", len(tweetsFetched), ", prS:", nW , ", ptS:", totalTweetsDownloaded, ', s:', "{:.2f}".format(dSpeed), ' tweets/sec)', sep='', end='' )
+                 print(".(prF:", len(tweetsFetched), ", prS:", nW , ", ptS:", totalTweetsDownloaded, ', s:', "{:.2f}".format( statistics.mean(self.downloadSpeeds) ), ' tweets/sec)', sep='', end='' )
               else:
                   print('.', end='')
                     
@@ -185,7 +190,7 @@ class twitterSearchClient:
     # automatically as the last 3 days.
     def periodQuery(self, f, u, t, q):
 
-        print('Enterring periodQuery')
+        
         if q.strip() == '':
            print('Empty query')
            return(-1)
@@ -193,7 +198,9 @@ class twitterSearchClient:
         if f.strip() == '' or u.strip() == '':
            print('Invalid dates')
            return(-2)
-        
+
+        # Chop up date f-u in junks of length specified by t.
+        # If t is empty, add just one period.
         periods = utils.generateSubperiods( f, u, t, self.configuration )
         if periods is None:
            print('Error creating periods.')
@@ -213,9 +220,11 @@ class twitterSearchClient:
         # sleep some short amount to allow user to see the settings.
         time.sleep( 2.3 )
 
+        self.downloadSpeeds.clear() 
         totalTweets = 0
         for p in periods:
-            print("Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="") 
+            print(utils.NLFormatString("Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period") , sep="") 
+            #print("Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="") 
             nTweets = self.__qryGENERIC(q, p['from'], p['until'])
             if nTweets < 0 :
                return(nTweets)
@@ -230,12 +239,11 @@ class twitterSearchClient:
 
 
 
-    
 
 
 
     def simpleQuery(self, q):
-        #print('Enterring simpleQuery')
+        
         print("\nCommencing simple tweet search (no date constraints)")
         print("Search parameters:")
         print("\tQuery:", q)
@@ -248,8 +256,8 @@ class twitterSearchClient:
 
         # sleep some short amount to allow user to review the settings.
         time.sleep( 2.3 )
-        
-        #return( self.__qry(q) )
+
+        self.downloadSpeeds.clear()
         return( self.__qryGENERIC(q, '', '') )
 
 
@@ -268,12 +276,14 @@ class twitterSearchClient:
      next_token = None
      
      if resultCount is not None and resultCount > 0:
-              
+       # Data about users are kept in different parts of the json
+       # document. So, we extract this data and return it separately
+       # from the list of tweets. 
        totalUsers = len(jsn['includes']['users'])
        for k in range(totalUsers):
            userReferences[jsn['includes']['users'][k]['id']] = jsn['includes']['users'][k]
 
-       
+       # Irerate and collect tweets now
        for tweet in jsn['data']:
            tweetsCollected.append( tweet )
                       
@@ -282,6 +292,7 @@ class twitterSearchClient:
        nextToken = jsn['meta']['next_token']
      else:
           nextToken = None
+
      
      return( nextToken, tweetsCollected, userReferences )
 
