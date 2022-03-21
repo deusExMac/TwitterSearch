@@ -338,19 +338,38 @@ class shellCommandExecutioner:
       
       def showcsv(self, a):
           try:  
-           shellParser = ThrowingArgumentParser()
-           shellParser.add_argument('-f', '--csvfile', nargs='?',  default='tweets.csv')
+           shellParser = ThrowingArgumentParser()           
            shellParser.add_argument('-s', '--separator', nargs='?',  default=self.configuration.get('Storage', 'csvSeparator', fallback=',') )
            shellParser.add_argument('-n', '--numrows', type=int, nargs='?',  default=15)
            #shellParser.add_argument('-R', '--rows', nargs='?',  default=':')
            shellParser.add_argument('-N',  '--noheader', action='store_true')
            shellParser.add_argument('-T','--tail', action='store_true')
            shellParser.add_argument('-F','--fields', nargs='+', default=['username', 'url'])
+
+           shellParser.add_argument('csvfile', nargs=argparse.REMAINDER, default='')
+
+          
+
+      
            shellArgs = vars( shellParser.parse_args( a ) )
+           #print(shellArgs)
+           #print('>>>',  shellArgs['csvfile'])
+           if not shellArgs['csvfile']:
+              # Empty. Fill in with default value from config file
+              # We do this, since the REMAINDER option seems
+              # to ignore default values in add_argument.
+              # TODO: check this in a more thorough way
+            shellArgs['csvfile'] = self.configuration.get('Storage', 'csvFile', fallback="data.csv")     
+           else:   
+              shellArgs['csvfile'] =  shellArgs['csvfile'][0]
+
+
+      
           except Exception as ex:
              print( str(ex) )
              print("Invalid argument. Usage: showcsv [-f <csv file name>] [-s <separator>] [-N] ")
              return(False)
+
 
           if not os.path.exists( shellArgs['csvfile'] ):
              print('File ', shellArgs['csvfile'], ' does not exist.' )
@@ -363,6 +382,7 @@ class shellCommandExecutioner:
              
           try:             
              tweetsDF = pd.read_csv(shellArgs['csvfile'], sep=shellArgs['separator'], header=hdr )
+             print('File: ', shellArgs['csvfile'] )
              print('Number of rows:', tweetsDF.shape[0], sep='' )
              print('Number of columns:', tweetsDF.shape[1], sep='' )
              print('Column names:', list(tweetsDF.columns) )

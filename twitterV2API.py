@@ -114,7 +114,6 @@ class twitterSearchClient:
              print('[ERROR] Code:',errCode, " Msg:[", errObj['title'], '] ', errObj['detail'] )
              return(errCode) 
 
-
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )
           
           dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)
@@ -154,7 +153,7 @@ class twitterSearchClient:
                     
           
           if next_token is None:
-             print("[Period total:",  totalTweetsDownloaded,']') 
+             print(".[Period total:",  totalTweetsDownloaded,'] at ', "{:.2f}".format(dSpeed), ' tweets/sec', sep='') 
              if self.configuration.getboolean('Debug', 'debugMode', fallback=False): 
                 print('[DEBUG] >>>> Found  NONE next token. Terminating period search.')
                 
