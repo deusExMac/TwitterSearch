@@ -109,3 +109,53 @@ def NLFormatString(string, every=72):
     return '\n'.join(lines)
 
 
+
+
+
+    
+
+currentLineChars = 0
+def formatAlignment(string,  every=52, startOver=False):
+
+     # How many charcters have been printed on the
+     # current line
+     global currentLineChars
+     #print( currentLineChars, end='')
+     lines = []
+
+     if startOver:        
+        lines.append('\n')
+        currentLineChars = 0
+          
+
+     # Does string fit into the rest of line?
+     if len(string) + currentLineChars  <= every:
+        if currentLineChars == 0:            
+           lines.append('\t' + string)
+        else:           
+            lines.append(string)
+
+        #print(currentLineChars, end='')   
+        currentLineChars = len(string) + currentLineChars 
+        if currentLineChars == every:
+           currentLineChars = 0 
+           return(lines[0] + '\n')
+        
+        return(lines[0]) 
+
+     # No, does not fit. Break it apart in chunks of size every
+     # after having filled the space in existing line.
+     
+     if currentLineChars ==0:         
+         lines.append( '\t' + string[:(every - currentLineChars)])
+     else:            
+         lines.append( string[:(every - currentLineChars)])
+
+     
+     for i in range(every-currentLineChars, len(string), every):
+         lines.append('\t' + string[i:i+every])
+     
+     currentLineChars = len(lines[-1])-1    
+     return '\n'.join(lines)
+  
+
