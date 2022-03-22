@@ -112,20 +112,46 @@ def NLFormatString(string, every=72):
 
 
 
-    
+
+# 
+# Function formatAlignment formats string messages to be printed
+# on the screen as right and left aligned, as the example below:
+#
+#       .(72/72/72/33.59).(72/72/144/44.39).(72/72/216/46.04).(7
+#	2/72/288/47.96).(72/72/360/48.39).(72/72/432/52.74).(72/
+#	72/504/52.48).(72/72/576/52.41).(72/72/648/53.91).(72/72
+#	/720/53.80).(72/72/792/57.08).(72/72/864/59.74).(72/72/9
+#	36/61.53).(72/72/1008/61.32).(72/72/1080/60.90).(72/72/1
+#	152/60.10).(72/72/1224/60.30).(72/72/1296/60.34).(72/72/
+#	1368/60.19).(72/72/1440/60.03).(72/72/1512/59.44).(72/72
+#	/1584/59.75).(72/72/1656/59.59).(72/72/1728/59.24).(72/7    
+#
+# It can do this for sucessive calls of the function
+#
+# TODO: Function has not been thoroughly tested. It has been sloppy
+#       written and must be optimized.
+#
+
+# This is a very important global variable
+# required by formatAlignment to keep track of how many
+# characters have been printed on the current line.
+#
+# Pls don't remove it or change its initialization value
 
 currentLineChars = 0
-def formatAlignment(string,  every=52, startOver=False):
+
+def formatAlignment(string,  every=56, startOver=False):
 
      # How many charcters have been printed on the
      # current line
      global currentLineChars
-     #print( currentLineChars, end='')
+     
      lines = []
 
      if startOver:        
         lines.append('\n')
         currentLineChars = 0
+        
           
 
      # Does string fit into the rest of line?

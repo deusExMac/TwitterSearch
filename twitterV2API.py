@@ -42,17 +42,7 @@ class twitterSearchClient:
     # TODO: Refactor this method. It's ugly
     #
     def __qryGENERIC(self, q, sP, eP):
-
-        # inline/nested function
-        # TODO: use this here
-        def NLFormat(string, every=72):
-            lines = []
-            for i in range(0, len(string), every):
-                lines.append('\t' + string[i:i+every])
-
-            return '\n'.join(lines)
-
-
+        
 
          ######################################
          # __qryGENERIC() method starts here
@@ -106,8 +96,8 @@ class twitterSearchClient:
              
         numRequests = 0
         totalTweetsDownloaded = 0
-        #print( utils.formatAlignment(' ', startOver=True), end='')
-        utils.currentLineChars = 0
+        print( utils.formatAlignment('', startOver=True), end='')
+        #utils.currentLineChars = 0
         #print('curreltLineChars is',utils.currentLineChars )
         while True:    
           try:
@@ -123,7 +113,10 @@ class twitterSearchClient:
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )
           
-          dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)          
+          dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)
+          if len(self.downloadSpeeds) >= self.configuration.getint('General', 'downloadSpeedWindow', fallback=100 ):
+             self.downloadSpeeds.pop(0) # if list is full, remove oldest one to add another one
+             
           self.downloadSpeeds.append( dSpeed )
           
           if self.configuration.getint('General', 'maxTweetsPerPeriod', fallback=30 ) > 0:
@@ -155,15 +148,14 @@ class twitterSearchClient:
                 
               totalTweetsDownloaded +=  nW
               if self.configuration.getboolean('Debug', 'showProgress', fallback=False) or self.configuration.getboolean('Debug', 'debugMode', fallback=False):
-                 print( utils.formatAlignment(".(" + str(len(tweetsFetched)) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + '/' + str("{:.2f}".format( statistics.mean(self.downloadSpeeds) )) + ')'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='', end='' )
-                 #print( utils.formatAlignment(".(" + len(tweetsFetched) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + ')'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='', end='' )
-                 # print( utils.formatAlignment("." + len(tweetsFetched) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + ')'),  sep='', end='' ) 
+                 print( utils.formatAlignment(".(" + str(len(tweetsFetched)) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + '/' + str("{:.2f}".format( statistics.mean(self.downloadSpeeds) )) + ')'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='', end='')                 
               else:
                   print(utils.formatAlignment('.'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), end='')
                     
           
           if next_token is None:
-             print(".[Period total:",  totalTweetsDownloaded,'] at ', "{:.2f}".format(dSpeed), ' tweets/sec', sep='') 
+             
+             print( utils.formatAlignment(".[Period total:" +  str(totalTweetsDownloaded) +'] at ' + str("{:.2f}".format(statistics.mean(self.downloadSpeeds))) + ' tweets/sec'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='') 
              if self.configuration.getboolean('Debug', 'debugMode', fallback=False): 
                 print('[DEBUG] >>>> Found  NONE next token. Terminating period search.')
                 
@@ -230,7 +222,7 @@ class twitterSearchClient:
         totalTweets = 0
         print( utils.formatAlignment('', startOver=True), end='')
         for p in periods:
-            print(utils.formatAlignment("Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period"), clr='green') 
+            print(utils.formatAlignment(">>>Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period", startOver=True, every=68), clr='blue', end='') 
             #print("Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="") 
             nTweets = self.__qryGENERIC(q, p['from'], p['until'])
             if nTweets < 0 :
