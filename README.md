@@ -73,7 +73,7 @@ From within IDLE, open the file twitterSearch.py and execute it by selecting ```
 
 NOTE: this application has been developed and tested on IDLE. It has not been tested on Anaconda, Spyder or any other python IDE.
 
-A successfull execution of TwitterSearch will display the following messages along with a prompt which consitutes TwitterSearch's shell:
+A successfull execution of TwitterSearch will display the following messages along with a prompt which is part of TwitterSearch's command shell:
 
 ```
 v0.77 rd 18/03/2022
@@ -84,10 +84,13 @@ Type 'help' to see a list of supported commands.
 
 {0}TwitterAPI v2 >>
 ```
-The shell of TwitterSearch allows users to issue and execute a limited set of commands related to issuing queries searching for and downloading tweets meeting specific conditions, see the configuration settings etc.
+The command shell of TwitterSearch allows allows users to interact with TwitterSearch and in particular to type and execute a limited set of commands (with their arguments) related to querying and downloading tweets meeting specific conditions, see the configuration settings, changing the target archive etc.
 
 ## Supported shell commands
 
+TwitterSearch command shell supports the following commands and arguments:
+
+-search [-f <datetime>] [-u datetime] [-t time step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>: 
 
 
 # Other related projects
