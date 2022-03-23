@@ -84,7 +84,7 @@ Type 'help' to see a list of supported commands.
 
 {0}TwitterAPI v2 >>
 ```
-TwitterSearch's shell allows users to execute a limited set of commands
+The shell of TwitterSearch allows users to issue and execute a limited set of commands related to issuing queries searching for and downloading tweets meeting specific conditions, see the configuration settings etc.
 
 ## Supported shell commands
 
