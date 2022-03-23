@@ -43,9 +43,9 @@ class commandShell:
       def __init__(self, cfg):
 
           # TODO: Do we really need this instance variable here anyway?
-          self.configuration = cfg          
+          #self.configuration = cfg          
           self.cmdExecutioner = shellCommandExecutioner(cfg)
-          self.cmdHistory = commandHistory(self.configuration.getint('Shell', 'historySize', fallback=10), True)
+          self.cmdHistory = commandHistory(cfg.getint('Shell', 'historySize', fallback=10), True)
 
 
 
@@ -188,12 +188,15 @@ class shellCommandExecutioner:
 
       
       ######################################################################
-      # All methods below are application specific as they implement the
-      # behavior of various commands.
+      #
+      # This section contains the implementation of ths supported shell
+      # commands. All methods below are application specific as they implement the
+      # behavior of various commands. I.e. the config method implements the
+      # behavior of the config command given at the shell prompt.
       #
       # TODO: The methods below should be put in a different class based
       # on some behavioral (command???, strategy???)  or structural design
-      # pattern.
+      # pattern ??????.
       ######################################################################
 
       
