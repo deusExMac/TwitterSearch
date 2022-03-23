@@ -53,19 +53,25 @@ targetArchive = [recent | historic]
 - ```Bearer```: The actual bearer token used in requests to the Twitter v2 endpoints. Bearer will always have a copy of the value in either the essentialBearer or the academicBearer setting.
 - ```targetArchive```: Specifies in which archive the search should be conducted. Take one of two values: recent or historic. Value recent means that the search will be conducted in the recent archive (i.e. tweets published in the last 5 days) while historic means that the search will be conducted on all tweets ever published since the beginning of Twitter. During startup, the application reads the value of targetArchive and sets the value of Bearer to the proper token (essential or academic bearer) in order to ensure consistency: if targetArchive has the value recent, the value of setting essentialBearer is copied to Bearer; if  targetArchive has the value historic, the value of the setting academicBearer is copied to Bearer. You may change the value of targetArchive at tuntime via the set command using the application's shell.
 
-In conclusion: set either the value of essentialBearer to the essential token or the value of academicBearer to the academic token that you got from your Twitter developer account (or set both). Set also the value of targetArchive to the value depending on the type of search you want to conduct (recent or historic). At least the essentialBearer setting needs to have a valid value/token.
+In conclusion: set either the value of essentialBearer to the essential token or the value of academicBearer to the academic token that you got from your Twitter developer account (or set both). Set also the value of targetArchive to the value depending on the type of search you want to conduct (recent or historic). At least the **essentialBearer** and **targetArchive** settings  need to have a valid value/token.
 
 I'm sorry if this sounds complicated; This needs definitely to be changed in future versions or the model needs to be redesigned.
 
 
 ## Running TwitterSearch
 
-Execute TwitterSearch as follows from the command line
+If you have prepared the configuration file, you may execute TwitterSearch using the command line or from within IDLE. From the command line, you may execute TwitterSearch as follows
 
 ```
 C:\>python twitterSearch.py [-c configurationFile]
 ```
-Command line argument -c specifies the configuration file to load during startup. If no -c argument is present, TwitterSearch attempts to load the default configuration file named *twitterSearch.conf* located in the same folder as twitterSearch.py . If no configuration file is found, TwitterSearch exists with error. This means a configuration file is currently required.
+Command line argument -c specifies the configuration file to load during startup. If no -c argument is present, TwitterSearch attempts to load the default configuration file named *twitterSearch.conf* located in the same folder as twitterSearch.py . If no configuration file is found, TwitterSearch exists with error. This means that a configuration file is in the current version required.
+
+From within IDLE, open the file twitterSearch.py and execute it by selecting Run --> Run Module or Run --> Run...Customized if you would like to specify the -c argument.
+
+NOTE: this application has been developed and tested on IDLE. It has not been tested on Anaconda, Spyder or any other python IDE.
+
+
 
 # Other related projects
 
