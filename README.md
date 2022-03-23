@@ -10,7 +10,7 @@ Any bug or design error that you may see is exclusively my fault. Have mercy.
 
 In order to succesfully execute the application, the following is required:
 
-I).  A Twitter bearer token. You can get a free (essential) bearer token by creating a Twitter developer account which is also free. Instructions on how to create a Twitter developer account can be found here https://developer.twitter.com/en/support/twitter-api/developer-account . 
+I).  A **Twitter bearer token**. You can get a free (essential) bearer token by creating a Twitter developer account which is also free. Instructions on how to create a Twitter developer account can be found here https://developer.twitter.com/en/support/twitter-api/developer-account . 
 The Twitter bearer token is a unique string value that identifies your application and is required to be sent along with any request the application does to any v2 Twitter API endpoint e.g. for querying tweets. Twitter offers 3 different types of bearer tokens (this might be a little bit outdated and needs to be rechecked) each of which allows for different things, mainly related to the number of tweets that can be downloaded per month :
 
    - Essential bearer token: This bearer token is the default token that anyone gets freely, when opening a Twitter developer account. See here https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens on how to generate a (free) essential bearer token for your application. An essential token allows the application to download tweets only from the recent archive (i.e. tweets published up until 5 days earlier and not earlier) and allows downloading a total of 500000 tweets per month. You may see how your much of your monthly allowances you have spend by visiting the dashboard on your Twitter developer account. Once you have reached the limit of 500000 dwonloaded tweets, you won't be able to download any more for the rest of the month. This limit resets automatically every month (from the date you generated the token). For example if you generated the token on March 21 and until March 25 you have already downloaded the 500000 tweets, you'll be able to download tweets agan (500000) on April 21st. As already said, this is done automatically.
@@ -23,7 +23,7 @@ good excuse for some of the brain-damages of minix. I can only hope (and assume)
 <br/>
 <br/>
 
-II). You need to install the follwing Python packages, with your prefered package manager (pip/conda/etc), if you don't have them already:
+II). You need to **install the follwing required Python packages**, with your prefered package manager (pip/conda/etc), if you don't have them already:
   - pandas
   - argparse
   - clrprint
