@@ -73,6 +73,21 @@ From within IDLE, open the file twitterSearch.py and execute it by selecting ```
 
 NOTE: this application has been developed and tested on IDLE. It has not been tested on Anaconda, Spyder or any other python IDE.
 
+A successfull execution of TwitterSearch will display the following messages along with a prompt which consitutes TwitterSearch's shell:
+
+```
+v0.77 rd 18/03/2022
+Loading configuration file [twitterSearch.conf]........OK
+Target archive set to recent.
+
+Type 'help' to see a list of supported commands.
+
+{0}TwitterAPI v2 >>
+```
+TwitterSearch's shell allows users to execute a limited set of commands
+
+## Supported shell commands
+
 
 
 # Other related projects
