@@ -29,7 +29,7 @@ The Twitter bearer token is a unique string value that identifies your applicati
     - configparser
 
 
-# How to prepeare and execute TwitterSearch
+# How to prepeare, execute and interact with TwitterSearch
 
 
 ## Preparing the configuration file
