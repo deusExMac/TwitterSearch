@@ -237,26 +237,17 @@ if not os.path.exists(configFile):
 try:        
   configSettings.read(configFile)
   configSettings.add_section('__Runtime')
-  configSettings['__Runtime']['__configSource'] = configFile
-  #print("Loaded configuration file ", configFile, sep="")
+  configSettings['__Runtime']['__configSource'] = configFile  
   print('OK', sep="")
 except Exception as cfgEx:    
     print('Error reading file [', configFile, ']', sep="")
     print(str(cfgEx))
     sys.exit()
     
-#else:
-    
-   #configSettings.add_section('__Runtime')
-   #configSettings['__Runtime']['__configSource'] = ''
-   #print("Configuration file [", configFile, "] not found. Continuing with default settings.", sep="")
-   #print("ERROR. File not found. Continuing with default settings.", sep="")
-
-
-    
 
 
 
+# Set the target archive, that will set the Bearer token properly
 sts = setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
 if sts != 0:
    print('Fatal error. Terminating.')
