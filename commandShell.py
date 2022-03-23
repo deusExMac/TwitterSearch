@@ -42,8 +42,7 @@ class commandShell:
 
       def __init__(self, cfg):
 
-          # TODO: Do we really need this instance variable here anyway?
-          #self.configuration = cfg          
+                    
           self.cmdExecutioner = shellCommandExecutioner(cfg)
           self.cmdHistory = commandHistory(cfg.getint('Shell', 'historySize', fallback=10), True)
 
@@ -102,17 +101,7 @@ class commandShell:
               if self.cmdExecutioner.executeCommand( cParts ):                 
                  break
 
-              # Update the configuration in case it has been changed
-              # inside shellCommandExecutioner.
-              # I'm sorry to do this like that, but... this is done
-              # so that the config settings loaded with the reload command (executed in shellCommandExecutioner) 
-              # is visible at this level also.
-              # TODO: Find a better way to do it. Tried to send signal SIGUSR1 and signal handling, but
-              #       SIGUSR1 signals are not supported (??? check this again). Or a better way may be to
-              #       avoid having an instance variable keeping the config in this class, and access config inside
-              #       the shellCommandExecutioner directly. I.e. why keep configuration here anyway???
-              #       Seems that this is not needed anymore....
-              #self.configuration = self.cmdExecutioner.configuration
+              
 
              except KeyboardInterrupt:
                  print("\nKeyboard interrupt seen.")
