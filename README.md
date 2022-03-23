@@ -22,7 +22,7 @@ The Twitter bearer token is a unique string value that identifies your applicati
 <br/>
 <br/>
 
-2.  You need to **install the follwing required Python packages**, with your prefered package manager (pip/conda/etc), if you don't have them already:
+2.  You need to **install the follwing required Python packages**, with your package manager (pip/conda/etc), if you don't have them already:
     - pandas
     - argparse
     - clrprint
