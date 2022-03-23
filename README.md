@@ -91,7 +91,8 @@ The command shell of TwitterSearch allows allows users to interact with TwitterS
 TwitterSearch command shell supports the following commands and arguments:
 
 - ```search [-f <datetime>] [-u datetime] [-t time step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```
-The search command issues a query 
+
+The search command performs a search for tweets using the v2 API of Twitter. 
 
 
 # Other related projects
