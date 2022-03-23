@@ -67,9 +67,9 @@ If you have prepared the configuration file, you may execute TwitterSearch using
 ```
 C:\>python twitterSearch.py [-c configurationFile]
 ```
-Command line argument -c specifies the configuration file to load during startup. If no -c argument is present, TwitterSearch attempts to load the default configuration file named *twitterSearch.conf* located in the same folder as twitterSearch.py . If no configuration file is found, TwitterSearch exists with error. This means that a configuration file is in the current version required.
+Argument -c specifies the *c*onfiguration file to load during startup. If no -c argument is present, TwitterSearch attempts to load the default configuration file named *twitterSearch.conf* assumed to reside in the same folder as twitterSearch.py . If no configuration file is found, TwitterSearch exists with error. This means that a configuration file is in the current version required.
 
-From within IDLE, open the file twitterSearch.py and execute it by selecting Run --> Run Module or Run --> Run...Customized if you would like to specify the -c argument.
+From within IDLE, open the file twitterSearch.py and execute it by selecting ```Run --> Run Module``` or ```Run --> Run...Customized``` if you would like to specify the -c argument.
 
 NOTE: this application has been developed and tested on IDLE. It has not been tested on Anaconda, Spyder or any other python IDE.
 
