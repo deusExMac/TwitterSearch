@@ -16,6 +16,7 @@
 
 import os
 import os.path
+import sys
 
 import configparser
 import argparse
@@ -175,13 +176,16 @@ def setTargetArchive(cfg, md):
            cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['essentialBearer']
            cfg['TwitterAPI']['targetArchive'] = 'recent'
            print("Target archive set to recent.")
+           return(0)
     elif  md.lower() == "historic":
           cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['historicApiEndPoint']
           cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['academicBearer']
           cfg['TwitterAPI']['targetArchive'] = 'historic'
           print("Target archive set to historic.")
+          return(0)
     else:
-          print("Invalid target archive option [", md, "]. Use historic or recent")
+          print("Invalid target archive option [", md, "] in configuration file. Use historic or recent.", sep='')
+          return(-4)
 
         
 
@@ -225,25 +229,40 @@ configSettings = configparser.RawConfigParser(allow_no_value=True)
  
 print('Loading configuration file [', configFile, ']........', sep='', end='')
 # Load config file
-if os.path.exists(configFile):    
-   configSettings.read(configFile)
-   configSettings.add_section('__Runtime')
-   configSettings['__Runtime']['__configSource'] = configFile
-   #print("Loaded configuration file ", configFile, sep="")
-   print('OK', sep="")
-else:
-   configSettings.add_section('__Runtime')
-   configSettings['__Runtime']['__configSource'] = ''
+if not os.path.exists(configFile):
+   print("ERROR. File not found. Terminating.", sep="")
+   sys.exit()
+
+
+try:        
+  configSettings.read(configFile)
+  configSettings.add_section('__Runtime')
+  configSettings['__Runtime']['__configSource'] = configFile
+  #print("Loaded configuration file ", configFile, sep="")
+  print('OK', sep="")
+except Exception as cfgEx:    
+    print('Error reading file [', configFile, ']', sep="")
+    print(str(cfgEx))
+    sys.exit()
+    
+#else:
+    
+   #configSettings.add_section('__Runtime')
+   #configSettings['__Runtime']['__configSource'] = ''
    #print("Configuration file [", configFile, "] not found. Continuing with default settings.", sep="")
-   print("ERROR. File not found. Continuing with default settings.", sep="")
+   #print("ERROR. File not found. Continuing with default settings.", sep="")
 
 
     
 
-print("Type 'help' to see a list of supported commands.\n")
 
-setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
 
+sts = setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
+if sts != 0:
+   print('Fatal error. Terminating.')
+   sys.exit()
+
+print("\nType 'help' to see a list of supported commands.\n")
 
 appShell = commandShell.commandShell( configSettings )
 appShell.startShell()
