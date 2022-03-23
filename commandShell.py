@@ -176,17 +176,17 @@ class shellCommandExecutioner:
 
 
       
-      ######################################################################
+      ###############################################################################
       #
-      # This section contains the implementation of ths supported shell
+      # This next section contains the implementation of ths supported shell
       # commands. All methods below are application specific as they implement the
       # behavior of various commands. I.e. the config method implements the
       # behavior of the config command given at the shell prompt.
       #
       # TODO: The methods below should be put in a different class based
-      # on some behavioral (command???, strategy???)  or structural design
-      # pattern ??????.
-      ######################################################################
+      # on some behavioral (command???, strategy???) design pattern???
+      # 
+      ###############################################################################
 
       
 
@@ -204,18 +204,18 @@ class shellCommandExecutioner:
           def displayConfigSettings(cfg):
              if cfg is None:
                 print('No configuration.')
-                return
-
-          ####################################
-          #  outer method config starts here
-          ####################################
+                return          
           
              print("Configuration settings")
              for s in cfg.sections():
                  print("Section [", s, "]", sep="")
                  for key, value in cfg[s].items():
                      print( "\t-", key, "=", value)
-                     
+
+          ####################################
+          #  outer method config starts here
+          ####################################
+          
           print('Executing config >>>>>')
           displayConfigSettings(self.configuration)
           return(False)
