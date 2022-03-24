@@ -96,7 +96,12 @@ TwitterSearch command shell supports the following commands and arguments:
 
      - [-f start_date] : (from date) A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17`` which would limit the search to tweets created on April 3rd, 2019 at 14:03:17 and onwards (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
      - [-u end_date] : (until date) A date specifying the latest creation date of tweets to consider. Used in period queries. Together with argument -f specifies the date range in which the creation date of tweets, meeting the queries criteria, has to fall. This is also called a ***search period*** or ***period***. end_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17 -u 15/4/2019`` which would limit the search to tweets created in the period from April 3rd, 2019 at 14:03:17 until April 15, 2019 00:00:00 (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
-     - [-t time_step] : Specifies the how the period defined by the -f and -u arguments should be broken up into subperiods and issue a separate search with the same query in each and every subperiod.
+     - [-t time_step] : Specifies the how the period defined by the -f and -u arguments should be broken up into subperiods and issue a separate search with the same query in each and every subperiod. Time steps should be specified in the following manner: ``kDmHnMzS`` where k, m, n and z integer values specifying the length of each subperiod in days (D), hours(H), minutes(M) and seconds(S). For example the query search -f 3/2/2008 -u 10/2/2008 -t 
+	2D10H5M2S euro  will break up the date range [3/2/2008, 10/2/2008] to su
+ bperiods of length 2 days, 10 hours, 5 minutes and 2seconfs and conduct  a search in each of these perids. In this example, search for the term euro in tweets will be conducted in the following periods separately:
+	[ 03/02/2008 00:00:00 - 05/02/2008 10:05:02 ]
+	[ 05/02/2008 10:05:02 - 07/02/2008 20:10:04 ]
+	[ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]
 
 # Other related projects
 
