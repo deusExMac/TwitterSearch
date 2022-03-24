@@ -172,7 +172,7 @@ def formatAlignment(string,  every=56, startOver=False):
      # No, does not fit. Break it apart in chunks of size every
      # after having filled the space in existing line.
      
-     if currentLineChars ==0:         
+     if currentLineChars == 0:         
          lines.append( '\t' + string[:(every - currentLineChars)])
      else:            
          lines.append( string[:(every - currentLineChars)])
