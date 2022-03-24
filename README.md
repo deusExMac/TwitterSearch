@@ -92,7 +92,7 @@ TwitterSearch command shell supports the following commands and arguments:
 
 - ```search [-f <datetime>] [-u datetime] [-t time step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```
 
-     The search command issues a query to the Twitter archive (recent or historic) for searching and downloading tweets meeting the criteria specified in <query>. 
+     The search command issues a query to the Twitter archive (recent or historic) for searching and downloading tweets meeting the criteria specified in < query >. 
 
 
 # Other related projects
