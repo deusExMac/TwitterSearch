@@ -94,7 +94,7 @@ TwitterSearch command shell supports the following commands and arguments:
 
      The search command issues a query to the Twitter archive (recent or historic)  searching for and downloading tweets meeting the criteria specified in < query >. Returned tweets meeting the criteria will be saved in a csv file. Two types of searches are supported, depending on the supplied arguments: **_Simple and Period searches_**. A **_simple search_** is a type of search always carried out on the recent archive and does not impose any constraints related to the date the tweets were published (except of course the 7day period that defines the recent archive). A **_period search_** is a type of search that imposes constraints related to it creation time i.e. specifies a date period in which the tweet was created (or published). Period searches may be directed to the recent or historic archive and require a date range to be specified in which the tweets, meeting the querie's criteria, have been created.  
 
-     - [-f start_date] : A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid date and time in the following format: <day>/<month>/<year>T<hour>:<min>:<sec>
+     - [-f start_date] : A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>``
 
 # Other related projects
 
