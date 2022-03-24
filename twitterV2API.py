@@ -2,7 +2,6 @@ import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
 import requests
-import configparser
 import time
 import json
 import statistics
@@ -305,7 +304,17 @@ class twitterSearchClient:
         
      params['next_token'] = next_token
      try:
-       response = requests.request("GET", url, headers = headers, params = params)
+       cTm = self.configuration.getfloat('Network', 'netConnectTimeout', fallback=-1)
+       if cTm <= 0 :          
+          cTm = None
+       
+
+       rTm = self.configuration.getfloat('Network', 'netReadTimeout', fallback=-1)
+       if rTm <= 0:          
+          rTm = None
+          
+       response = requests.request("GET", url, headers = headers, params = params, timeout=(cTm, rTm)  )
+       
      except Exception as netEx:
          if self.configuration.getboolean('Debug', 'debugMode', fallback=False):
             print('[DEBUG] Network error.')
