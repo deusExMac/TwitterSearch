@@ -175,16 +175,16 @@ def setTargetArchive(cfg, md):
            cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['recentApiEndPoint']
            cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['essentialBearer']
            cfg['TwitterAPI']['targetArchive'] = 'recent'
-           print("Target archive set to recent.")
+           print("\tTarget archive set to recent.")
            return(0)
     elif  md.lower() == "historic":
           cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['historicApiEndPoint']
           cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['academicBearer']
           cfg['TwitterAPI']['targetArchive'] = 'historic'
-          print("Target archive set to historic.")
+          print("\tTarget archive set to historic.")
           return(0)
     else:
-          print("Invalid target archive option [", md, "] in configuration file. Use historic or recent.", sep='')
+          print("\tInvalid target archive option [", md, "] in configuration file. Use historic or recent.", sep='')
           return(-4)
 
         
@@ -218,16 +218,18 @@ args = vars( cmdArgParser.parse_args() )
 # Config file that will be used
 configFile = args['config']
 
-      
-print("")        
-print('v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
+print('')
+print('Python v', sys.version)
+print("")      
+        
+print('TwitterSearch v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
 
 # Note: We use .RawConfigParser() because some configuration strings contain special chars like % that
 #       have special meaning for the ConfigParser class
 configSettings = configparser.RawConfigParser(allow_no_value=True)
 
  
-print('Loading configuration file [', configFile, ']........', sep='', end='')
+print('\tLoading configuration file [', configFile, ']........', sep='', end='')
 # Load config file
 if not os.path.exists(configFile):
    print("ERROR. File not found. Terminating.", sep="")
