@@ -185,3 +185,119 @@ def formatAlignment(string,  every=56, startOver=False):
      return '\n'.join(lines)
   
 
+
+
+###############
+#
+# Two new versions f and fL .
+# TODO: TEST THE THOROUGHLY!!!!!
+#
+
+
+#Current line count
+clc = 0
+def f(string,  every=26, prefix='', startOver=False):
+    global clc
+
+    if startOver:
+       print('')
+       clc = 0
+
+       
+    rest = every - clc
+    if clc == 0:
+       print( '\t', prefix, string[ :min(len(string), rest)],  sep='', end='')
+    else:
+       print(  string[ :min(len(string), rest)],  sep='', end='')
+
+    clc = clc + min(len(string), rest)
+    strPos = min(len(string), rest)
+    #print('clc=', clc)
+    if clc >= every:
+       print('')
+       clc = 0
+
+    if len(string) <= strPos:
+       return
+        
+       
+    # This means that length of string is greater than line length.
+    numCompleteLines = len( string[strPos:] ) // every
+    lastLineChars = len( string[strPos:] ) % every
+
+    i = strPos
+    s = 0
+    e = strPos
+    for k in range(numCompleteLines):
+        s = strPos + k*every
+        e = s + every
+        print('\t',  prefix, string[s:e],  sep='')
+
+    if lastLineChars == 0:
+       clc = 0
+    else:   
+       print( '\t', prefix, string[e:], sep='', end='')
+       clc = len(string[e:])
+
+    return
+
+
+
+#Current line count
+#clc = 0
+def fL(string,  every=26, prefix='', startOver=False):
+    global clc
+
+    lines = []
+    if startOver:
+       lines.append('$\n')
+       clc = 0
+
+       
+    rest = every - clc
+    if clc == 0:
+       lines.append( '\t'+ prefix + string[ :min(len(string), rest)] )
+    else:
+       lines.append(    string[ :min(len(string), rest)]  )
+
+    clc = clc + min(len(string), rest)
+    strPos = min(len(string), rest)
+    #print('clc=', clc, 'every=', every, 'strPos=', strPos, end='')
+    if clc >= every:
+       #lines.append('')
+       clc = 0
+
+    if len(string) <= strPos:
+       #print('[' +'ppp'.join(lines) + ']')
+       #print('returning without enter at end', end='')
+       if clc==0: 
+          return( '\n'.join(lines)+'\n' )
+       else:
+          return( '\n'.join(lines)) 
+        
+    
+    # This means that length of string is greater than line length.
+    numCompleteLines = len( string[strPos:] ) // every
+    lastLineChars = len( string[strPos:] ) % every
+    #print('numCom=', numCompleteLines, 'lastlineChars=', lastLineChars, end='')
+    
+    i = strPos
+    s = 0
+    e = strPos
+    for k in range(numCompleteLines):
+        s = strPos + k*every
+        e = s + every
+        lines.append('\t' +  prefix + string[s:e] )
+
+    if lastLineChars == 0:
+       #lines.append('\n') 
+       clc = 0
+       #print(lines)
+       return( '\n'.join(lines)+ '\n' )
+    else:   
+       lines.append( '\t' + prefix + string[e:])
+       clc = len(string[e:])
+       return( '\n'.join(lines) )
+
+    
+
