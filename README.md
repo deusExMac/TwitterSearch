@@ -146,9 +146,11 @@ The application allows users to execute commands via the application's command s
      Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
 
 <br/>
+<br/>
 
 - ```reaload [-c configuration file]```
-     Allows loading a configuration file specified by the -c option. Relating file names are supported. In no -c option is provided, the config file  loaded during startup is reloaded (specifically the file specified in  ``__configsource`` option in ``config`` command).
+
+     Allows loading a configuration file specified by the -c option. Relative file names are supported. In no -c option is provided, the configuration file  loaded during startup is reloaded (more specifically the file specified in  ``__configsource`` option in ``config`` command).
 
 
 
