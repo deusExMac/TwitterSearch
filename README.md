@@ -156,7 +156,7 @@ The application allows users to execute commands via the application's command s
 
 - ```history (or h)```
 
-     Displays a numbered list of the history of commands executed. Numbers can be used with ! (see below). Usefull to re-execute commands or copy-paste complicated commands if you are bored to retype complicated commands.
+     Displays a numbered list of the history of commands already executed. Numbers can be used in conjunction with the ``!`` command (see below). Usefull to re-execute commands or copy-pasting complicated commands if you are bored to retype these.
 
 
 
