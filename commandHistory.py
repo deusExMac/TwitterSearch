@@ -50,6 +50,7 @@ class commandHistory:
               
           
       def load(self):
+        #print('Loading history file:', self.historyFile)    
         if os.path.exists(self.historyFile):
               #print("Loading shell history\n")  
           with open(self.historyFile, 'r') as histFile:
