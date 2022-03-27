@@ -194,8 +194,11 @@ def formatAlignment(string,  every=56, startOver=False):
 #
 
 
-#Current line count
+# Current line count
+# Used by f() and fL()
+
 clc = 0
+
 def f(string,  every=26, prefix='', startOver=False):
     global clc
 
