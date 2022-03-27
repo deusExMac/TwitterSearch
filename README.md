@@ -1,8 +1,6 @@
 # TwitterSearch
  
-A simple python program to demonstrate searching and downloading of Twitter tweets using v2 of the Twitter API. Experimental.
-I may have been taken away and have overengineered some aspects. 
-Any bug or design error that you may see is exclusively my fault. Have mercy.
+A simple python program to demonstrate searching and downloading of Twitter tweets using the [v2 of the Twitter API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose is to test the v2 API related to simple searches. This is experimental and has been created hastily. Has not been tested thoroughly. Any bug or design error that you may see is exclusively my fault. Have mercy.
 
 
 
