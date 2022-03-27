@@ -74,7 +74,7 @@ From within IDLE, open the file twitterSearch.py and execute it by selecting ```
 NOTE: this application has been developed and tested on IDLE. It has not been tested on Anaconda, Spyder or any other python IDE.
 
 A successfull execution of TwitterSearch will display the following messages along with a prompt which is part of TwitterSearch's command shell:
-
+***TODO: Change the next code snipped***
 ```
 v0.77 rd 18/03/2022
 Loading configuration file [twitterSearch.conf]........OK
@@ -94,15 +94,22 @@ The application allows users to execute commands via the application's command s
 
      The search command issues a query to the Twitter archive (recent or historic)  searching for and downloading tweets meeting the criteria specified in < query >. Returned tweets meeting the criteria will be saved in a csv file. Two types of searches are supported, depending on the supplied arguments: **_Simple and Period searches_**. A **_simple search_** is a type of search always carried out on the recent archive and does not impose any constraints related to the date the tweets were published (except of course the 7day period that defines the recent archive). A **_period search_** is a type of search that imposes constraints related to it creation time i.e. specifies a date period in which the tweet was created (or published). Period searches may be directed to the recent or historic archive and require a date range to be specified in which the tweets, meeting the querie's criteria, have been created.  
 
-     - ``[-f start_date]`` : (from date) A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17`` which would limit the search to tweets created on April 3rd, 2019 at 14:03:17 and onwards (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
-     - ``[-u end_date]`` : (until date) A date specifying the latest creation date of tweets to consider. Used in period queries. Together with argument -f specifies the date range in which the creation date of tweets, meeting the queries criteria, has to fall. This is also called a ***search period*** or ***period***. end_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17 -u 15/4/2019`` which would limit the search to tweets created in the period from April 3rd, 2019 at 14:03:17 until April 15, 2019 00:00:00 (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
+     - ``[-f start_date]`` : (from date) A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17`` which would limit the search to tweets created on April 3rd, 2019 at 14:03:17 and onwards (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). In period searches, if -f is missing, from date is considered two days earlier from today.
+     - ``[-u end_date]`` : (until date) A date specifying the latest creation date of tweets to consider. Used in period queries. Together with argument -f specifies the date range in which the creation date of tweets, meeting the queries criteria, has to fall. This is also called a ***search period*** or ***period***. end_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17 -u 15/4/2019`` which would limit the search to tweets created in the period from April 3rd, 2019 at 14:03:17 until April 15, 2019 00:00:00 (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). In period searches, if -u is missing, until date is considered one day earlier from today.
      - ``[-t time_step]`` : Specifies the how the period defined by the -f and -u arguments should be broken up into subperiods and issue a separate search with the same query in each and every subperiod. Time steps should be specified in the following manner: ``kDmHnMzS`` where k, m, n and z integer values specifying the length of each subperiod in days (D), hours(H), minutes(M) and seconds(S). For example the query search ``-f 3/2/2008 -u 10/2/2008 -t 
 2D10H5M2S euro``  will break up the date range [3/2/2008, 10/2/2008] to subperiods of length 2 days, 10 hours, 5 minutes and 2seconds each and conduct  a search in each of these periods (last period may differ in length). In this example, search for tweets containing the term euro will be conducted in the following periods **separately**:
        - [ 03/02/2008 00:00:00 - 05/02/2008 10:05:02 ]
        - [ 05/02/2008 10:05:02 - 07/02/2008 20:10:04 ]
        - [ 07/02/2008 20:10:04 - 10/02/2008 00:00:00 ]
 
-       The -t option allows to have a more fine grained control over the distribution of tweets in periods, especially if periods are great in length.
+       The -t option allows to have a more fine grained control over the distribution of tweets in periods, especially if periods are great in length.<br/>
+       ***IMPORTANT:*** The format ``kDmHnMzS`` requires value k to between 1 and 31, value m between 0 and 24, value n between 0 and 59 and value z between 0 and 59. This is due to the way this format is parsed (as a date actually). This needs to be changed in future versions. 
+
+     - ``[-o csvfile]`` : Specifies the csv file where tweets meeting the criteria in < query > will be stored. If no ``-o`` argument is present, tweets will be stored in the file specified by ``csvFile`` in the configuration file. If no configuration setting csvFile is found, tweets will be stored in csv file ``data.csv``.
+     
+     - ``[-n number of tweets]``: Total number of tweets to download. If a period search is conducted, option -n specifies the number of tweets to download in each period or subperiod separately.
+     
+     - ``[-S]``: Signals a simple search as specified in the above section. If missing, a period search is conducted. ``-S`` will ignore any -f or -u arguments given.  
 
 # Other related projects
 
