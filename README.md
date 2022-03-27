@@ -69,7 +69,7 @@ C:\>python twitterSearch.py [-c configurationFile]
 ```
 Argument -c specifies the *c*onfiguration file to load during startup. If no -c argument is present, TwitterSearch attempts to load the default configuration file named *twitterSearch.conf* assumed to reside in the same folder as twitterSearch.py . If no configuration file is found, TwitterSearch exists with error. This means that a configuration file is in the current version required.
 
-From within IDLE, open the file twitterSearch.py and execute it by selecting ```Run --> Run Module``` or ```Run --> Run...Customized``` if you would like to specify the -c argument.
+From within IDLE, open the file twitterSearch.py and execute it by selecting ```Run --> Run Module``` or ```Run --> Run...Customized``` if you would like to specify a custom configuration file using the -c argument.
 
 NOTE: this application has been developed and tested on IDLE. It has not been tested on Anaconda, Spyder or any other python IDE.
 
@@ -88,13 +88,13 @@ The command shell of TwitterSearch allows allows users to interact with TwitterS
 
 ## Supported shell commands
 
-TwitterSearch command shell supports the following commands and arguments:
+The application allows users to execute commands via the application's command shell. The following commands and their arguments are supported:
 
 - ```search [-f <start_date>] [-u end_date] [-t time_step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```
 
      The search command issues a query to the Twitter archive (recent or historic)  searching for and downloading tweets meeting the criteria specified in < query >. Returned tweets meeting the criteria will be saved in a csv file. Two types of searches are supported, depending on the supplied arguments: **_Simple and Period searches_**. A **_simple search_** is a type of search always carried out on the recent archive and does not impose any constraints related to the date the tweets were published (except of course the 7day period that defines the recent archive). A **_period search_** is a type of search that imposes constraints related to it creation time i.e. specifies a date period in which the tweet was created (or published). Period searches may be directed to the recent or historic archive and require a date range to be specified in which the tweets, meeting the querie's criteria, have been created.  
 
-     - [-f start_date] : (from date) A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17`` which would limit the search to tweets created on April 3rd, 2019 at 14:03:17 and onwards (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
+     - **_[-f start_date]_** : (from date) A date specifying the earliest creation date of tweets to consider. Used in period queries. start_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17`` which would limit the search to tweets created on April 3rd, 2019 at 14:03:17 and onwards (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
      - [-u end_date] : (until date) A date specifying the latest creation date of tweets to consider. Used in period queries. Together with argument -f specifies the date range in which the creation date of tweets, meeting the queries criteria, has to fall. This is also called a ***search period*** or ***period***. end_date should be a valid datetime value in the following format: ``<day>/<month>/<year>T<hour>:<min>:<sec>`` . Example ``-f 3/4/2019T14:03:17 -u 15/4/2019`` which would limit the search to tweets created in the period from April 3rd, 2019 at 14:03:17 until April 15, 2019 00:00:00 (all datetime values are in UTC). If time component is missing, midnight is assumed (00:00:00). 
      - [-t time_step] : Specifies the how the period defined by the -f and -u arguments should be broken up into subperiods and issue a separate search with the same query in each and every subperiod. Time steps should be specified in the following manner: ``kDmHnMzS`` where k, m, n and z integer values specifying the length of each subperiod in days (D), hours(H), minutes(M) and seconds(S). For example the query search -f 3/2/2008 -u 10/2/2008 -t 
 	2D10H5M2S euro  will break up the date range [3/2/2008, 10/2/2008] to su
