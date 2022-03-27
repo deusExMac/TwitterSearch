@@ -152,6 +152,12 @@ The application allows users to execute commands via the application's command s
 
      Allows loading a configuration file specified by the -c option. Relative file names are supported. In no -c option is provided, the configuration file  loaded during startup is reloaded (more specifically the file specified in  ``__configsource`` option in ``config`` command).
 
+<br/>
+
+- ```history (or h)```
+
+     Displays a numbered list of the history of commands executed. Numbers can be used with ! (see below). Usefull to re-execute commands or copy-paste complicated commands if you are bored to retype complicated commands.
+
 
 
 
