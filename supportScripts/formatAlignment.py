@@ -150,11 +150,12 @@ f('X', every=2)
 
 #print(fL('hahahaha', every=6))
 
-
+print( fL('Hello there!', startOver=False, prefix=' ', every=16), end='' )
+print( fL('', startOver=True, prefix=' ', every=16), end='' )
 for i in range(23):
-    print(fL('.', prefix='', every=16),end='')
+    print(fL('.', prefix='', every=17),end='')
 #print( fL('', startOver=True), end='' )
-print( fL('Hello there!', startOver=True, every=2), end='' )
+print( fL('Hello there!', startOver=True, prefix=' ', every=2), end='' )
 #print( fL('Stepan Arkadyevitch was a truthful man in his relations with himself. He was incapable of deceiving himself and persuading himself that he repented of his conduct. He could not at this date repent of the fact that he, a handsome, susceptible man of thirty-four, was not in love with his wife, the mother of five living and two dead children, and only a year younger than himself. All he repented of was that he had not succeeded better in hiding it from his wife. But he felt all the difficulty of his position and was sorry for his wife, his children, and himself. Possibly he might have managed to conceal his sins better from his wife if he had anticipated that the knowledge of them would have had such an effect on her. He had never clearly thought out the subject, but he had vaguely conceived that his wife must long ago have suspected him of being unfaithful to her, and shut her eyes to the fact. He had even supposed that she, a worn-out woman no longer young or good-looking, and in no way remarkable or interesting, merely a good mother, ought from a sense of fairness to take an indulgent view. It had turned out quite the other way.', every=78), end='')
 
 '''

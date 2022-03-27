@@ -245,12 +245,14 @@ def f(string,  every=26, prefix='', startOver=False):
 
 #Current line count
 #clc = 0
-def fL(string,  every=26, prefix='', startOver=False):
+def fL(string,  every=57, prefix='', startOver=False):
     global clc
 
     lines = []
     if startOver:
-       lines.append('$\n')
+       if clc != 0: 
+          #print('')
+          lines.append('') #add empty string to force newline at beginning
        clc = 0
 
        
@@ -262,6 +264,7 @@ def fL(string,  every=26, prefix='', startOver=False):
 
     clc = clc + min(len(string), rest)
     strPos = min(len(string), rest)
+
     #print('clc=', clc, 'every=', every, 'strPos=', strPos, end='')
     if clc >= every:
        #lines.append('')
@@ -299,5 +302,5 @@ def fL(string,  every=26, prefix='', startOver=False):
        clc = len(string[e:])
        return( '\n'.join(lines) )
 
-    
+     
 
