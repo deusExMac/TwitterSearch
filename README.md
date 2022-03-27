@@ -132,7 +132,18 @@ The application allows users to execute commands via the application's command s
 	- recentapiendpoint = https://api.twitter.com/2/tweets/search/recent
 	- historicapiendpoint = https://api.twitter.com/2/tweets/search/all
 	- apiendpoint = https://api.twitter.com/2/tweets/search/all
+     <br/>...<br/>
+     Section [Debug]
+	- debugmode = false
+	- showprogress = true
+	- enabledebugging = false
+	- savejsonresponses = true
+	- logfile = TwitterAPIv2.log
+     Section [__Runtime]
+	- __configsource = sensitiveFiles/twitterSearch.conf
+
      ```
+     Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` are some settings added during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` ) 
 
 # Other related projects
 
