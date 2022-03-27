@@ -120,14 +120,14 @@ The application allows users to execute commands via the application's command s
      Displays the current configuration settings, as loaded from the specified configuration file.
      ```
      {2}TwitterAPI v2 >>config
-Executing config >>>>>
-Configuration settings
-Section [General]
+     Executing config >>>>>
+     Configuration settings
+     Section [General]
 	- maxtweets = 4000
 	- maxtweetsperperiod = 103
 	- defaultlang = el
 	- commandprompt = TwitterAPI v2 >>
-Section [TwitterAPI]
+     Section [TwitterAPI]
 	- targetarchive = historic
 	- recentapiendpoint = https://api.twitter.com/2/tweets/search/recent
 	- historicapiendpoint = https://api.twitter.com/2/tweets/search/all
