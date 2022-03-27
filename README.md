@@ -112,8 +112,11 @@ The application allows users to execute commands via the application's command s
      - ``[-S]``: Signals a simple search as specified in the above section. If missing, a period search is conducted. ``-S`` will ignore any -f or -u arguments given. 
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
 
+<br/>
+<br/>
 
 - ```config```
+
      Displays the current configuration settings, as loaded from the specified configuration file.
 
 # Other related projects
