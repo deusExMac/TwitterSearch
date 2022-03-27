@@ -134,7 +134,7 @@ class twitterSearchClient:
                 return(nW)
             
              totalTweetsDownloaded +=  amount
-             print(utils.fL(".[Period total:" +  str(totalTweetsDownloaded) + '] at ' + "{:.2f}".format( statistics.mean(self.downloadSpeeds) ) + ' tweets/sec', prefix='   ', every=53), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='' )
+             print(utils.fL(".[Total:" +  str(totalTweetsDownloaded) + '] at ' + "{:.2f}".format( statistics.mean(self.downloadSpeeds) ) + ' tweets/sec', prefix='   ', every=53), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='' )
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalTweetsDownloaded)
 
@@ -154,7 +154,7 @@ class twitterSearchClient:
           
           if next_token is None:
              
-             print( utils.fL(".[Period total:" +  str(totalTweetsDownloaded) +'] at ' + str("{:.2f}".format(statistics.mean(self.downloadSpeeds))) + ' tweets/sec'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='') 
+             print( utils.fL(".[Total:" +  str(totalTweetsDownloaded) +'] at ' + str("{:.2f}".format(statistics.mean(self.downloadSpeeds))) + ' tweets/sec'), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='') 
              if self.configuration.getboolean('Debug', 'debugMode', fallback=False): 
                 print('[DEBUG] >>>> Found  NONE next token. Terminating period search.')
                 
