@@ -158,7 +158,11 @@ The application allows users to execute commands via the application's command s
 
      Displays a numbered list of the recent commands already executed via the application's command shell (the ***command history***). The number of recent commands kept in history is determined by setting ``historySize`` in the configuration file. Numbers can be used in conjunction with the ``!`` command (see below) to re-execute commands. Usefull to re-execute commands or copy-pasting complicated commands if you are bored to retype these again. Command history is saved in local file ``.history`` when TwitterSearch quits gracefully. Command history file ``.history`` is automatically loaded during startup if present. 
 
+<br/>
 
+- ``set [-G | --target <historic | recent>]``
+
+    Allows setting the value of specific loaded configuration settings. Currently, only target [-G] is supported. This does not modify the content of the configuration file loaded. Affects only settings loaded in memory furing execution of TwitterSearch.
 
 
 # Other related projects
