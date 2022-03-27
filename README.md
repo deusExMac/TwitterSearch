@@ -140,10 +140,18 @@ The application allows users to execute commands via the application's command s
 	- savejsonresponses = true
 	- logfile = TwitterAPIv2.log
      Section [__Runtime]
-	- __configsource = sensitiveFiles/twitterSearch.conf
+	- __configsource = searchsettings/twitterSearch.conf
 
      ```
      Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
+
+<br/>
+
+- ```reaload [-c configuration file]```
+     Allows loading a configuration file specified by the -c option. Relating file names are supported. In no -c option is provided, the config file  loaded during startup is reloaded (specifically the file specified in  ``__configsource`` option in ``config`` command).
+
+
+
 
 # Other related projects
 
