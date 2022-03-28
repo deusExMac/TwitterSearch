@@ -308,6 +308,14 @@ In this section we provide a brief overview of the settings supported by configu
   - ``downloadSpeedWindow`` Integer value. The number of download speed values to keep in a list, out of which the average download speed (in tweets/sec) is calculated and reported.  
 
 
+- Section ``Network``
+
+  Contains settings related to lower level network requests. Supported settings in this section are:
+  
+  - ``netConnectTimeout`` Float value. Timeout value (in seconds) for establishing a tcp connection with the remote host. If time exceeds value of this setting, an exception is raised. Negative values indicate no timeout.
+  - ``netReadTimeout`` Float value. Timeout value (in seconds) for reading a response from the server. If time exceeds value of this setting, an exception is raised. Negative values indicate no timeout.
+
+
 # Other related projects
 
 - [TweetScraper](https://github.com/jonbakerfish/TweetScraper)
