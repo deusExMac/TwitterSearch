@@ -123,7 +123,7 @@ The application allows users to execute commands via the application's command s
 
 - ```config```
 
-     Displays the current configuration settings, as loaded from the specified configuration file.
+     Displays the current configuration settings, as loaded from the specified configuration file. Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
      
      ### Example
      
@@ -156,7 +156,7 @@ The application allows users to execute commands via the application's command s
 	- __configsource = searchsettings/twitterSearch.conf
 
      ```
-     Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
+     
 
 <br/>
 <br/>
