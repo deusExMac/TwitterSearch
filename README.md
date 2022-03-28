@@ -182,9 +182,9 @@ The application allows users to execute commands via the application's command s
    ### Example
    ```
    {12}TwitterAPI v2 >>h
-   1. search -S -n 88 fucker
-   2. search -S -n 144 fucker
-   3. search -S -n 144 -o mmm.csv milf
+   1. search -S -n 88 biden
+   2. search -S -n 144 oscars
+   3. search -S -n 144 -o oscarsWillSmith.csv Will Smith
    4. config
    5. status
    6. search -f 2/3/2016T13:09:22 -u 10/4/2016 -t 11D5H58M59S -o russia.csv -n 1000 russia
