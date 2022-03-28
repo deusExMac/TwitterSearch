@@ -124,6 +124,9 @@ The application allows users to execute commands via the application's command s
 - ```config```
 
      Displays the current configuration settings, as loaded from the specified configuration file.
+     
+     ### Example
+     
      ```
      {2}TwitterAPI v2 >>config
      Executing config >>>>>
