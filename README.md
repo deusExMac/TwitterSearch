@@ -325,7 +325,7 @@ In this section we provide a brief overview of the settings supported by configu
   - ``apiEndPoint`` URI. The endpoint URI that will be actually used during requests. Will have the value of eiter ``recentApiEndPoint`` or ``historicApiEndPoint``
   - ``essentialBearer`` Essential bearer token. A place to hold the essential bearer token.
   - ``academicBearer`` Academic bearer token. A place to hold the academic bearer token.
-  - ``Bearer`` bearer value. The bearer value that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``
+  - ``Bearer`` bearer token. The bearer token that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``. 
 
 
 
