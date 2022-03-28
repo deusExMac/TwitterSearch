@@ -320,6 +320,12 @@ In this section we provide a brief overview of the settings supported by configu
   Contains settings related to the Twitter API. Supported settings in this section are:
   
   - ``targetArchive`` Takes one of two string value: historic or recent. Specifies in which archive the search should be conducted. Depending on the value of this setting, the appropriate bearer token will be used. TwitterSearch tries to make sure that the bearer token used is in accordance with the value in this setting.
+  - ``recentApiEndPoint`` URI. A place to hold the endpoint URI for searching in the recent archive
+  - ``historicApiEndPoint`` URI. A place to hold the endipoint URI for searching in the historic archive
+  - ``apiEndPoint`` URI. The endpoint URI that will be actually used during requests. Will have the value of eiter ``recentApiEndPoint`` or ``historicApiEndPoint``
+  - ``essentialBearer`` Essential bearer token. A place to hold the essential bearer token.
+  - ``academicBearer`` Academic bearer token. A place to hold the academic bearer token.
+  - ``Bearer`` bearer value. The bearer value that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``
 
 
 
