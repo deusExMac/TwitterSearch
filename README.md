@@ -312,8 +312,15 @@ In this section we provide a brief overview of the settings supported by configu
 
   Contains settings related to lower level network requests. Supported settings in this section are:
   
-  - ``netConnectTimeout`` Float value. Timeout value (in seconds) for establishing a tcp connection with the remote host. If time exceeds value of this setting, an exception is raised. Negative values indicate no timeout.
-  - ``netReadTimeout`` Float value. Timeout value (in seconds) for reading a response from the server. If time exceeds value of this setting, an exception is raised. Negative values indicate no timeout.
+  - ``netConnectTimeout`` Float value. Timeout value (in seconds) for establishing a tcp connection with the remote host. If the application waits longer than the value of this setting for a connection, an exception is raised. Negative values indicate no timeout.
+  - ``netReadTimeout`` Float value. Timeout value (in seconds) for reading a response from the server. If the application waits longer than the value of this setting for reading a response from the server, an exception is raised. Negative values indicate no timeout.
+
+- Section ``TwitterAPI``
+
+  Contains settings related to the Twitter API. Supported settings in this section are:
+  
+  - ``targetArchive`` Takes one of two string value: historic or recent. Specifies in which archive the search should be conducted. Depending on the value of this setting, the appropriate bearer token will be used. TwitterSearch tries to make sure that the bearer token used is in accordance with the value in this setting.
+
 
 
 # Other related projects
