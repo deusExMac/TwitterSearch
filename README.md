@@ -294,6 +294,12 @@ The application allows users to execute commands via the application's command s
   [reload]
   ```
 
+# Configuration files
+
+In this section we provide a brief overview of the settings supported by configuration files. Settings are organized into named sections, with each section holding parameters related to a particular aspect of TwitterSearch. For example section named [Shell] has settings related to TwitterSearche's command shell, [TwitterAPI] settings related to the v2 API etc. 
+
+
+
 # Other related projects
 
 - [TweetScraper](https://github.com/jonbakerfish/TweetScraper)
