@@ -325,7 +325,8 @@ In this section we provide a brief overview of the settings supported by configu
   - ``apiEndPoint`` URI. The endpoint URI that will be actually used during requests. Will have the value of eiter ``recentApiEndPoint`` or ``historicApiEndPoint``
   - ``essentialBearer`` Essential bearer token. A place to hold the essential bearer token.
   - ``academicBearer`` Academic bearer token. A place to hold the academic bearer token.
-  - ``Bearer`` bearer token. The bearer token that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``. 
+  - ``Bearer`` bearer token. The bearer token that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``.
+  - ``maxEndpointTweets`` Integer value. Number of tweets that should be returned by endpoint as a response to a query. Note: this is different from the ``maxTweetsPerPeriod`` setting. ``maxEndpointTweets`` determines in essence the maximum number of tweets returned by the endpoint with each request. If the ``maxTweetsPerPeriod`` has the value 100 and ``maxEndpointTweets`` has a value of 10, this means that at most 10 requests need to be done to the endpoint to reach the limit of 100 tweets.
 
 
 
