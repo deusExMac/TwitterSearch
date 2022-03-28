@@ -192,9 +192,9 @@ The application allows users to execute commands via the application's command s
    8. set --target recent
    9. status
    10. search -f 1/10/2015 -u 20/10/2015 -t 7D5H3M2S -n 600 -D -o tesla.csv tesla from:elonmusk OR from:nasa
-   11. [ 15/10/2015 10:06:04 - 20/10/2015 00:00:00 ]
+   11. help
    12. reload
-   13. η
+   13. reload -c twitterSearch.conf
    14. search -S -n 15 bitcoin
    15. search -S -n 15 -o bitcoin.csv bitcoin from:elonmusk
    16. search -S -n 125 -o bitcoin.csv bitcoin -is:retweet
