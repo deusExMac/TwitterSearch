@@ -299,7 +299,11 @@ The application allows users to execute commands via the application's command s
 In this section we provide a brief overview of the settings supported by configuration files. Settings are organized into named sections, with each section holding parameters related to a particular aspect of TwitterSearch. For example section named [Shell] has settings related to TwitterSearche's command shell, [TwitterAPI] settings related to the v2 API etc. 
 
 - Section ``General``
-  Contains general settings related
+
+  Contains general settings. Supported settings in this section are:
+  
+  - ``maxTweets`` takes integer values. Determines the total number of tweets to fetch, across all periods. Currently not supported and not used.
+  - ``maxTweetsPerPeriod`` takes integer value. Specifies the maximum number of tweets to fetch in each period. If a simple search is conducted, specifies the total number of tweets to fetch. Is overridden by option ``-n`` of the search command.
 
 
 # Other related projects
