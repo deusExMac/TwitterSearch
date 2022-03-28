@@ -167,9 +167,11 @@ The application allows users to execute commands via the application's command s
 
      ### Example
      ```
+     {1}TwitterAPI v2 >>reload
      Loading configuration file: [searchsettings/twitterSearch.conf]
      Configuration file [searchsettings/twitterSearch.conf] successfully loaded.
      Target archive set to historic.
+     {2}TwitterAPI v2 >>
      ```
 <br/>
 
