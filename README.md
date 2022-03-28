@@ -179,11 +179,49 @@ The application allows users to execute commands via the application's command s
 
      Displays a numbered list of the recent commands already executed via the application's command shell (the ***command history***). The number of recent commands kept in history is determined by setting ``historySize`` in the configuration file. Numbers can be used in conjunction with the ``!`` command (see below) to re-execute commands. Usefull to re-execute commands or copy-pasting complicated commands if you are bored to retype these again. Command history is saved in local file ``.history`` when TwitterSearch quits gracefully. Command history file ``.history`` is automatically loaded during startup if present. 
 
+   ### Example
+   ```
+   {12}TwitterAPI v2 >>h
+   1. search -S -n 88 fucker
+   2. search -S -n 144 fucker
+   3. search -S -n 144 -o mmm.csv milf
+   4. config
+   5. status
+   6. search -f 2/3/2016T13:09:22 -u 10/4/2016 -t 11D5H58M59S -o russia.csv -n 1000 russia
+   7. help
+   8. set --target recent
+   9. status
+   10. search -f 1/10/2015 -u 20/10/2015 -t 7D5H3M2S -n 600 -D -o tesla.csv tesla from:elonmusk OR from:nasa
+   11. [ 15/10/2015 10:06:04 - 20/10/2015 00:00:00 ]
+   12. reload
+   13. η
+   14. search -S -n 15 bitcoin
+   15. search -S -n 15 -o bitcoin.csv bitcoin from:elonmusk
+   16. search -S -n 125 -o bitcoin.csv bitcoin -is:retweet
+   17. config
+   18. set -G historic
+   19. status
+   20. search -f 5/9/2017T14:09:22 -u 10/9/2017 -o euro.csv euro crisis
+   21. search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 500 -o euro.csv euro crisis
+   22. config
+   23. status
+   24. reload
+   25. reload
+   {12}TwitterAPI v2 >>
+   ```
 <br/>
 
 - ``set [-G | --target <historic | recent>]``
 
-    Allows setting the value of specific loaded configuration settings. Currently, only target [-G] is supported. This does not modify the content of the configuration file loaded. Affects only settings loaded in memory furing execution of TwitterSearch.
+    Allows setting the value of specific loaded configuration settings. Currently, only setting of the search target (recent or historic) [-G | --target] is supported. This does not modify the content of the configuration file loaded. Affects only settings loaded in memory furing execution of TwitterSearch.
+    
+    ### Example
+    
+    ```
+    {0}TwitterAPI v2 >>set --target historic
+    Target archive set to historic.
+    {1}TwitterAPI v2 >>
+    ```
 
 
 # Other related projects
