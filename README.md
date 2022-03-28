@@ -109,6 +109,7 @@ The application allows users to execute commands via the application's command s
      
      - ``[-S]``: Signals a simple search as specified in the above section. If missing, a period search is conducted. ``-S`` will ignore any -f or -u arguments given. 
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
+     - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
 <br/>
 <br/>
