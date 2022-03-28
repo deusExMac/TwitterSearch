@@ -163,8 +163,14 @@ The application allows users to execute commands via the application's command s
 
 - ```reaload [-c configuration file]```
 
-     Allows loading a configuration file specified by the -c option. Relative file names are supported. In no -c option is provided, the configuration file  loaded during startup is reloaded (more specifically the file specified in  ``__configsource`` option in ``config`` command).
+     Allows loading a configuration file specified by the -c option. Relative file names are supported. If no -c option is provided, the configuration file  loaded during startup is reloaded (more specifically the file specified in  ``__configsource`` option in ``config`` command). If configuration file is not found, no new configuration is loaded.
 
+     ### Example
+     ```
+     Loading configuration file: [searchsettings/twitterSearch.conf]
+     Configuration file [searchsettings/twitterSearch.conf] successfully loaded.
+     Target archive set to historic.
+     ```
 <br/>
 
 - ```history (or h)```
