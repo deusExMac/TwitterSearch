@@ -116,7 +116,8 @@ The application allows users to execute commands via the application's command s
      | ------------- | ------------- |
      | search -S -n 1000 -o myData.csv github client  | Does a simple search for tweets on the recent archive, downloading 1000 tweets containing the words github and client. Tweets will be stored in file myData.csv  |
      | search -S -n 1000 -o myData.csv github client -is:retweet -is:reply | Does a simple search for tweets on the recent archive, downloading 1000 tweets that are not retweets nor replies containing the words github and client. Tweets will be stored in file myData.csv  |
-     | search -f 1/10/2015 -u 20/10/2015 -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa | Does a period search for a total of 600 tweets created between 1/10/2015 and 20/10/2015 that contain the string tesla and were published by the account elomusk or nasa. Tweets will be stored in file tesla.csv  |
+     | search -f 1/10/2015 -u 20/10/2015 -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa | Does a period search on the historic archive for a maximum total of 600 tweets created between 1/10/2015 and 20/10/2015 that contain the string tesla and were published by the account elomusk or nasa. Tweets will be stored in file tesla.csv  |
+     | search -f 1/10/2015 -u 20/10/2015 -t 7D5H3M2S -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa  | Does a period search for tweets on the historic archive, dividing the period 1/10/2015 - 20/10/2015 into subperiods of length 7 days, 5 hours, 3 minutes and 2 seconds each downloading a maximum of 600 tweets in each subperiod that contain the string tesla and were published by the account elomusk or nasa. All tweets will be stored in csv file tesla.csv  |
 <br/>
 <br/>
 
