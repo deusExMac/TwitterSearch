@@ -115,7 +115,8 @@ The application allows users to execute commands via the application's command s
      | search command  | Explanation |
      | ------------- | ------------- |
      | search -S -n 1000 -o myData.csv github client  | Does a simple search for tweets on the recent archive, downloading 1000 tweets containing the words github and client. Tweets will be stored in file myData.csv  |
-     | search -S -n 1000 -o myData.csv github client -is:retweet -is:reply | Does a simple search for tweets on the recent archive, downloading 1000 tweets that are not retweets or replies containing the words github and client. Tweets will be stored in file myData.csv  |
+     | search -S -n 1000 -o myData.csv github client -is:retweet -is:reply | Does a simple search for tweets on the recent archive, downloading 1000 tweets that are not retweets nor replies containing the words github and client. Tweets will be stored in file myData.csv  |
+     | search -f 1/10/2015 -u 20/10/2015 -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa | Does a period search for a total of 600 tweets created between 1/10/2015 and 20/10/2015 that contain the string tesla and were published by the account elomusk or nasa. Tweets will be stored in file tesla.csv  |
 <br/>
 <br/>
 
