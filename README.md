@@ -224,7 +224,7 @@ The application allows users to execute commands via the application's command s
     ```
 - ``!< history index > ``
 
-  Re-executes command at position < history index > in command history (the number displayed before each command when command history is shown).
+  Re-executes command at position < history index > in command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
 
   ### Example
   ```
@@ -332,6 +332,27 @@ The application allows users to execute commands via the application's command s
   {0}TwitterAPI v2 >>!!
   [reload]
   ```
+
+
+- ``^X^Y``
+
+  In the last command executed, replace all instances of X with Y and execute new command.
+
+  ### Example
+  
+  ```
+  {0}TwitterAPI v2 >>h
+   1.config
+   2. status
+   3. search -f 2/3/2016T13:09:22 -u 10/4/2016 -t 11D5H58M59S -o russia.csv -n 1000 russia
+   4. help
+   5. set --target recent
+   6. status
+   7. search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 500 -o euro.csv euro crisis
+   {0}TwitterAPI v2 >>^500^2000
+   search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 2000 -o euro.csv euro crisis
+  ```
+
 
 - ``quit (or q)``
 
