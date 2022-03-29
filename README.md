@@ -404,7 +404,7 @@ The application allows users to execute commands via the application's command s
 
 - ``quit (or q)``
 
-  Quits and terminates the application.
+  Quits the shell and terminates the application.
   
   ### Example
   ```
