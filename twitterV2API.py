@@ -33,11 +33,11 @@ class twitterSearchClient:
         self.configuration = cfg
         
 
-    ############################################################
+    
         
 
     #
-    # Fetch data - used for simple and period queries. 
+    # Do the actual query to the endpoint - used for simple and period queries. 
     # TODO: Refactor this method. It's ugly
     #
     def __qryGENERIC(self, q, sP, eP):
@@ -96,9 +96,10 @@ class twitterSearchClient:
         numRequests = 0
         totalTweetsDownloaded = 0
         print( utils.fL('', startOver=True), end='')
-        #utils.currentLineChars = 0
-        #print('curreltLineChars is',utils.currentLineChars )
-        while True:    
+        
+        try:        
+         while True:
+            
           try:
             # Start counting time in order to calculate speed
             tic = time.perf_counter()  
@@ -169,7 +170,10 @@ class twitterSearchClient:
           
           time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8) )          
 
-        
+        except KeyboardInterrupt:        
+               print('\nKeyboard interrupt seen. Stopping querying for tweets...')
+ 
+            
         return(totalTweetsDownloaded)
             
  

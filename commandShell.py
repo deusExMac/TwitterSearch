@@ -49,6 +49,38 @@ class commandShell:
 
 
 
+
+
+      def expandCommand(self, cmd ):
+          if cmd == '!!':
+             return( self.cmdHistory.getLast() )
+                  
+          if cmd.startswith('!'):
+             try:
+               hIdx = int(cmd[1:])
+               return( self.cmdHistory.get(hIdx) )
+               
+             except Exception as nmbrEx:
+                 #print('Executing last command starting with [', command[1:], ']', sep='')
+                 return( self.cmdHistory.getLastStartingWith(cmd[1:] ) )
+                   
+          if cmd.startswith('^'):
+             tokens = cmd.split('^')
+             lcmd = self.cmdHistory.getLast()
+             if lcmd == '':
+                return('')
+            
+             #print('>>>', cmd.replace(tokens[1], tokens[2]))
+             if len(tokens) < 3:
+                return('')
+            
+             return( lcmd.replace(tokens[1], tokens[2]) )
+
+          return(cmd)  
+
+
+
+
       def startShell(self):
 
           
@@ -57,10 +89,18 @@ class commandShell:
              try:
               command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
-    
-              if len(command) == 0:
-                 continue   
 
+              # Check if we need to expand the command i.e. the command is either !!, ! or ^.
+              # If so, expand it and return the expanded form.
+              command = self.expandCommand(command)
+              
+              
+              if len(command) == 0:
+                 continue
+              else:
+                   print(command)  
+
+              '''
               if command == '!!':
                  command = self.cmdHistory.getLast()
                  if command == '':
@@ -84,7 +124,7 @@ class commandShell:
                           continue
                  print('[', command, ']', sep='')
                  
-                 
+              '''  
 
               # Don't add history and quit commands to command history list
               # It clogs it.
