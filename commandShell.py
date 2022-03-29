@@ -78,7 +78,8 @@ class commandShell:
                       continue
                                      
                  except Exception as nmbrEx:
-                       command = self.cmdHistory.getLastStartingWith(command[1:])
+                       #print('Executing last command starting with [', command[1:], ']', sep='')
+                       command = self.cmdHistory.getLastStartingWith(command[1:] )
                        if command == '':
                           continue
                  print('[', command, ']', sep='')
