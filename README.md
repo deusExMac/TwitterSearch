@@ -338,13 +338,26 @@ In this section we provide a brief overview of the settings supported by configu
   
 - Section ``Storage``
 
-  Contains settings related to thew way the tweets will stored localy. Supported settings in this section are:
+  Contains settings related to the way the tweets will stored localy. Supported settings in this section are:
   
   - ``format`` String value (csv). Currently only value csv is supported. The way the tweets and their metadata should be stored locally. The current version supports only storage of tweets and their metadata locally in csv format.
   - ``csvSeparator`` String value. The separator to use when storing tweets and their metadata in csv format.
   - ``csvFile`` String value. The name of the csv file where the tweets and their metadata will be stored. Can be overriden with the -o option during execution of search command.
-  - 
+ 
 
+- Section ``Shell``
+
+  Contains settings related to the application command shell. Supported settings in this section are:
+  
+  - ``historySize`` Integer value. The maximum number of commands to store in the command history. If this number is reached, command history behaves like a FIFO queue: Oldest command added is removed; new command is added at the end. 
+  - ``commandPrompt`` String value. The message/string displayed as the prompt of the shell; an indication that a user command is expected.
+
+- Section ``Debug``
+
+  Contains settings related to debugging the application. Supported settings in this section are:
+  
+  - ``debugMode`` Boolean value (true/false). Specifies if debug messages should be printed out on the screen. Debug messages can be identified by the prefix [DEBUG]. [-D] option of the ``search`` command, toggles the value of this setting.
+  - ``showProgress`` Boolean value (true/false). Specifies if during querying and downloading of messages, reports should be displayed informing about some descriptive statistics. Enabling this setting will result in displaying 4 numbers after each requests in the form ``(k/l/m/n)`` where: k is the number of tweets received by the endpoint during the last request, l the number of tweets, out ot the k received, that were actually stored, m the total number of tweets downloaded until now (in period searches, this expresses the number of tweets downloaded during the current period) and n the average download speed in tweets/sec. If showProgress is false, only one dot . is displayed signalling that tweets have been received by the endpoint.
 
 # Other related projects
 
