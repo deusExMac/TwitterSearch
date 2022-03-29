@@ -220,7 +220,9 @@ The application allows users to execute commands via the application's command s
     - ``[-s separator]`` Separator used to separate fields in lines. Default value of ``csvSeparator`` in configuration file.
     - ``[-N]`` Indicates that the csv file does not have a header. If missing, csv file has a header which is the first line in the file.
     - ``[-T]`` Show tail rows of csv file. If missing, head rows are displayed.
-    - ``[-F field1 field2 field3...]`` Fields of csv file to display. Default fields are username and url of tweets.
+    - ``[-F field1 field2 field3...]`` Fields/columns of csv file to display. Default fields are username and url of tweets.
+    
+    HINT: Due to a bug, the -F option should not preceed the file name. Should be placed BEFORE any -T, -N or -n option.
     
     ### Example
     ```
