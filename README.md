@@ -258,6 +258,45 @@ The application allows users to execute commands via the application's command s
   [search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 500 -o euro.csv euro crisis]
   ```
 
+
+- ``!< string > ``
+
+  Re-executes last command that starts with < string >. If no such command is found, nothing is executed. 
+
+  ### Example
+  ```
+  {0}TwitterAPI v2 >>h
+   1. search -S -n 88 biden
+   2. search -S -n 144 oscars
+   3. search -S -n 144 -o oscarsWillSmith.csv Will Smith
+   4. config
+   5. status
+   6. search -f 2/3/2016T13:09:22 -u 10/4/2016 -t 11D5H58M59S -o russia.csv -n 1000 russia
+   7. help
+   8. set --target recent
+   9. status
+   10. search -f 1/10/2015 -u 20/10/2015 -t 7D5H3M2S -n 600 -D -o tesla.csv tesla from:elonmusk OR from:nasa
+   11. help
+   12. reload
+   13. reload -c twitterSearch.conf
+   14. search -S -n 15 bitcoin
+   15. search -S -n 15 -o bitcoin.csv bitcoin from:elonmusk
+   16. search -S -n 125 -o bitcoin.csv bitcoin -is:retweet
+   17. config
+   18. set -G historic
+   19. status
+   20. search -f 5/9/2017T14:09:22 -u 10/9/2017 -o euro.csv euro crisis
+   21. search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 500 -o euro.csv euro crisis
+   22. config
+   23. status
+   24. reload
+   25. reload
+  {0}TwitterAPI v2 >>!search -f 2
+  [search -f 2/3/2016T13:09:22 -u 10/4/2016 -t 11D5H58M59S -o russia.csv -n 1000 russia]
+  ```
+
+
+
 - ``!!``
 
   Re-executes last command. Or the last command added to the command history.
