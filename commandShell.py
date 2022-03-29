@@ -50,8 +50,10 @@ class commandShell:
 
 
 
-
-      def expandCommand(self, cmd ):
+      #
+      # Check if the command given needs to be expanded
+      #
+      def expandCommand( self, cmd ):
           if cmd == '!!':
              return( self.cmdHistory.getLast() )
                   
@@ -83,10 +85,11 @@ class commandShell:
 
       def startShell(self):
 
-          
-          
+                    
           while True:
+                
              try:
+                   
               command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
 
