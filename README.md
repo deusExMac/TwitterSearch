@@ -211,6 +211,54 @@ The application allows users to execute commands via the application's command s
    ```
 <br/>
 
+
+- ``showcsv [-n number of rows] [-s separator] [-N] [-T] [-F list of fields] <csv file name>``
+
+    Allows displaying the head or tail of csv files containing downloaded tweets and created by TwitterSearch. Arguments:
+    
+    - ``[-n number of rows]`` Number of rows to display. Default 15.
+    - ``[-s separator]`` Separator used to separate fields in lines. Default value of ``csvSeparator`` in configuration file.
+    - ``[-N]`` Indicates that the csv file does not have a header. If missing, csv file has a header which is the first line in the file.
+    - ``[-T]`` Show tail rows of csv file. If missing, head rows are displayed.
+    - ``[-F field1 field2 field3...]`` Fields/columns of csv file to display. Default fields are username and url of tweets.
+    
+    HINT: Due to a bug, the -F option should not preceed the file name. Should be placed BEFORE any -T, -N or -n option.
+    
+    ### Example
+    ```
+    {1}TwitterAPI v2 >>showcsv -F username created_at(utc) -n 22 -T 2000.csv
+    File:  2000.csv
+    Number of rows:278
+    Number of columns:10
+    Column names: ['author_id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'tweetcount', 'followers', 'following', 'url']
+    Last 22 rows:
+                username      created_at(utc)
+    256      PAULJOE2017  26/05/2018 01:22:16
+    257      lecastilloh  26/05/2018 01:22:15
+    258  mundocriptonews  26/05/2018 01:22:15
+    259      Crypto_Popo  26/05/2018 01:22:15
+    260         mbellias  26/05/2018 01:22:11
+    261       noamipolmn  26/05/2018 01:22:05
+    262         J3Crypto  26/05/2018 01:22:05
+    263       arichduvet  26/05/2018 01:22:01
+    264  trackingcryptos  26/05/2018 01:21:58
+    265         Ifechigo  26/05/2018 01:21:57
+    266  CryptoVinceTeam  26/05/2018 01:21:57
+    267   GlobalSEOLinks  26/05/2018 01:21:55
+    268         TayotSam  26/05/2018 01:21:54
+    269       ayanapiokh  26/05/2018 01:21:53
+    270      PapaShitake  26/05/2018 01:21:51
+    271          cwundef  26/05/2018 01:21:48
+    272   DoctorMbitcoin  26/05/2018 01:21:46
+    273  GdHLy32luILFURA  26/05/2018 01:21:45
+    274      Crypto_Popo  26/05/2018 01:21:37
+    275      MdMohib1996  26/05/2018 01:21:35
+    276      danaalikhan  26/05/2018 01:21:26
+    277         BTClinks  26/05/2018 01:21:25
+    ```
+
+
+
 - ``set [-G | --target <historic | recent>]``
 
     Allows setting the value of specific loaded configuration settings. Currently, only setting of the search target (recent or historic) option [-G | --target] is supported. This does not modify the content of the configuration file loaded. Affects only settings loaded in memory furing execution of TwitterSearch.
@@ -224,7 +272,7 @@ The application allows users to execute commands via the application's command s
     ```
 - ``!< history index > ``
 
-  Re-executes command at position < history index > in command history (the number displayed before each command when command history is shown).
+  Re-executes command at position < history index > in command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
 
   ### Example
   ```
@@ -332,6 +380,27 @@ The application allows users to execute commands via the application's command s
   {0}TwitterAPI v2 >>!!
   [reload]
   ```
+
+
+- ``^X^Y``
+
+  In the last command executed, replace all instances of X with Y and execute new command.
+
+  ### Example
+  
+  ```
+  {0}TwitterAPI v2 >>h
+   1.config
+   2. status
+   3. search -f 2/3/2016T13:09:22 -u 10/4/2016 -t 11D5H58M59S -o russia.csv -n 1000 russia
+   4. help
+   5. set --target recent
+   6. status
+   7. search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 500 -o euro.csv euro crisis
+   {0}TwitterAPI v2 >>^500^2000
+   search -f 5/9/2017T14:09:22 -u 10/9/2017 -n 2000 -o euro.csv euro crisis
+  ```
+
 
 - ``quit (or q)``
 
