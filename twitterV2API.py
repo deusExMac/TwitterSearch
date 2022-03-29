@@ -223,16 +223,18 @@ class twitterSearchClient:
 
         self.downloadSpeeds.clear() 
         totalTweets = 0
+        pCount = 0
         print( utils.fL('', startOver=True), end='')
         for p in periods:
-            print(utils.fL(">>>Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period", startOver=True, every=68), clr='blue', end='') 
-            #print("Period [", datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), " - ", datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S'), "] : Getting a maximum of [", self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ),"] tweets for this period", sep="") 
+            pCount += 1
+            print(utils.fL( str(pCount) + '/' + str(len(periods)) +") Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period", startOver=True, every=68), clr='blue', end='')             
             nTweets = self.__qryGENERIC(q, p['from'], p['until'])
             if nTweets < 0 :
                return(nTweets)
-            
+
+            print('')
             totalTweets += nTweets
-            utils.currentLineChars = 0
+            utils.currentLineChars = 0 # Do we need this???
             utils.clc = 0
             
 
