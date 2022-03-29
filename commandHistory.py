@@ -19,6 +19,13 @@ class commandHistory:
           self.load()
 
 
+      def setHistorySize(self, nS):
+           self.historySize = nS           
+           if len(self.commandHistory) > nS:
+              for i in range( len(commandHistory) - nS):
+                  self.commandHistory.pop(0)  
+                      
+
       def addCommand(self, cmd):
           if self.historySize > 0 :
             if len(self.commandHistory) >= self.historySize :

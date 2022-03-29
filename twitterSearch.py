@@ -167,20 +167,41 @@ def log(logF, m):
 '''
 
 
+def generateDefaultConfiguration():
+    cS = configparser.RawConfigParser(allow_no_value=True)
+    cS.add_section('General')
+    cS.add_section('Network')
+    cS.add_section('TwitterAPI')
+    cS.add_section('Request')
+    cS.add_section('Storage')
+    cS.add_section('Shell')
+    cS.add_section('Debug')
+    return(cS)
+    
 
 
 def setTargetArchive(cfg, md):
     if md.lower() == "recent":
-       if 'TwitterAPI' in cfg.sections(): 
-           cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['recentApiEndPoint']
-           cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['essentialBearer']
-           cfg['TwitterAPI']['targetArchive'] = 'recent'
+       if 'TwitterAPI' in cfg.sections():
+           cfg.set('TwitterAPI', 'apiEndPoint', cfg.get('TwitterAPI', 'recentApiEndPoint', fallback='XXXXX') )
+           #cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['recentApiEndPoint']
+
+           cfg.set('TwitterAPI', 'bearer', cfg.get('TwitterAPI', 'essentialBearer', fallback='YYYYYY') )
+           #cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['essentialBearer']
+
+           cfg.set('TwitterAPI', 'targetArchive', 'recent')
+           #cfg['TwitterAPI']['targetArchive'] = 'recent'
            print("\tTarget archive set to recent.")
            return(0)
     elif  md.lower() == "historic":
-          cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['historicApiEndPoint']
-          cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['academicBearer']
-          cfg['TwitterAPI']['targetArchive'] = 'historic'
+          cfg.set('TwitterAPI', 'apiEndPoint', cfg.get('TwitterAPI', 'historicApiEndPoint', fallback='ZZZZZZ') )
+          #cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['historicApiEndPoint']
+
+          cfg.set('TwitterAPI', 'bearer', cfg.get('TwitterAPI', 'academicBearer', fallback='AAAAAA') )
+          #cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['academicBearer']
+
+          cfg.set('TwitterAPI', 'targetArchive', 'historic' )
+          #cfg['TwitterAPI']['targetArchive'] = 'historic'
           print("\tTarget archive set to historic.")
           return(0)
     else:
@@ -232,19 +253,20 @@ configSettings = configparser.RawConfigParser(allow_no_value=True)
 print('\tLoading configuration file [', configFile, ']........', sep='', end='')
 # Load config file
 if not os.path.exists(configFile):
-   print("ERROR. File not found. Terminating.", sep="")
-   sys.exit()
-
-
-try:        
-  configSettings.read(configFile)
-  configSettings.add_section('__Runtime')
-  configSettings['__Runtime']['__configSource'] = configFile  
-  print('OK', sep="")
-except Exception as cfgEx:    
-    print('Error reading file [', configFile, ']', sep="")
-    print(str(cfgEx))
-    sys.exit()
+   print("ERROR. File not found. Continuing with default settings.", sep="")
+   configSettings = generateDefaultConfiguration()
+   
+else:
+   try:        
+    configSettings.read(configFile)
+    configSettings.add_section('__Runtime')
+    configSettings['__Runtime']['__configSource'] = configFile  
+    print('OK', sep="")
+   except Exception as cfgEx:    
+      print('Error reading file [', configFile, ']. Continuing with default settings.', sep="")
+      print(str(cfgEx))
+      configSettings = generateDefaultConfiguration()
+      #sys.exit()
     
 
 
