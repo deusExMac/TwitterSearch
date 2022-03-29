@@ -135,7 +135,7 @@ class twitterSearchClient:
                 return(nW)
             
              totalTweetsDownloaded +=  amount
-             print(utils.fL(".[Total:" +  str(totalTweetsDownloaded) + '] at ' + "{:.2f}".format( statistics.mean(self.downloadSpeeds) ) + ' tweets/sec', prefix='   ', every=53), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='' )
+             print(utils.fL(".(" + str(len(tweetsFetched)) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + " [Total:" +  str(totalTweetsDownloaded) + '] at ' + "{:.2f}".format( statistics.mean(self.downloadSpeeds) ) + ' tweets/sec', prefix='   ', every=53), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='' )
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalTweetsDownloaded)
 
@@ -172,6 +172,7 @@ class twitterSearchClient:
 
         except KeyboardInterrupt:        
                print('\nKeyboard interrupt seen. Stopping querying for tweets...')
+               raise Exception(-69, '{"downloaded":"' + str(totalTweetsDownloaded)+'"}')
  
             
         return(totalTweetsDownloaded)
@@ -226,6 +227,7 @@ class twitterSearchClient:
         pCount = 0
         print( utils.fL('', startOver=True), end='')
         for p in periods:
+          try:  
             pCount += 1
             print(utils.fL( str(pCount) + '/' + str(len(periods)) +") Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period", startOver=True, every=68), clr='blue', end='')             
             nTweets = self.__qryGENERIC(q, p['from'], p['until'])
@@ -236,7 +238,12 @@ class twitterSearchClient:
             totalTweets += nTweets
             utils.currentLineChars = 0 # Do we need this???
             utils.clc = 0
-            
+          except Exception as ex:
+              eC, eM = ex.args
+              if eC == -69: #This was a keyboard interrupt.
+                 eObj = json.loads(eM)
+                 totalTweets += int(eObj["downloaded"])
+              break   
 
         return( totalTweets )
         
