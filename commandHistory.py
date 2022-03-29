@@ -41,7 +41,18 @@ class commandHistory:
           return( self.commandHistory[-1] )  
       
 
-        
+      def getLastStartingWith(self, strt):
+
+          if len(strt) == 0:
+             return('')
+            
+          for cmd in self.commandHistory[::-1]:
+              if cmd.startswith(strt):
+                 return(cmd)
+            
+          return('')
+
+      
       def printHistory(self):
           cPos = 1
           for c in self.commandHistory:

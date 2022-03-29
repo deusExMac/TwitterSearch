@@ -55,7 +55,7 @@ class commandShell:
           
           while True:
              try:
-              command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('General', 'commandPrompt', fallback="(default conf) >>> ") )
+              command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
     
               if len(command) == 0:
@@ -76,11 +76,14 @@ class commandShell:
                    command = self.cmdHistory.get(hIdx)
                    if command == '':
                       continue
-                  
-                   print('[', command, ']', sep='')
+                                     
                  except Exception as nmbrEx:
-                       continue
-              
+                       command = self.cmdHistory.getLastStartingWith(command[1:])
+                       if command == '':
+                          continue
+                 print('[', command, ']', sep='')
+                 
+                 
 
               # Don't add history and quit commands to command history list
               # It clogs it.
