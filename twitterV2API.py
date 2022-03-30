@@ -274,6 +274,31 @@ class twitterSearchClient:
 
 
 
+    # Only for testing purposes
+    def rawRequest(self, q, tFields, uFields, pFields):
+        #TweetFields: id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source
+        # 'user.fields': 'id,name,username,created_at,description,public_metrics,verified',
+        query_params = {'query': q,
+                    'max_results': self.configuration.get('TwitterAPI', 'maxEndpointTweets', fallback=100),
+                    'expansions': self.configuration.get('TwitterAPI', 'expansions', fallback='author_id,in_reply_to_user_id,geo.place_id'),  #'author_id,in_reply_to_user_id,geo.place_id',
+                    'tweet.fields': self.configuration.get('TwitterAPI', 'tweet.fields', fallback='id'),
+                    'user.fields': self.configuration.get('TwitterAPI', 'user.fields', fallback='id,name'),
+                    'place.fields': self.configuration.get('TwitterAPI', 'place.fields', fallback='full_name,id,country,country_code,geo,name,place_type'), #'full_name,id,country,country_code,geo,name,place_type',
+                    'next_token': {}}
+
+        print(query_params) 
+       
+        headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') )}
+        search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
+
+        try:  
+          json_response = self.__sendRequest(search_url, headers, query_params, None)
+          return(json_response)
+        except Exception as srEx:
+            return(None)
+
+
+
 
 
 

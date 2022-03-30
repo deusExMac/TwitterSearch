@@ -89,4 +89,5 @@ class commandHistory:
                  histFile.writelines("%s\n" % cmd for cmd in self.commandHistory)
              return(0)
            except Exception as hWEx:
+                 print( 'ERROR:', str(hWEx) )
                  return(-23)
