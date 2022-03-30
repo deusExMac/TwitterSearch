@@ -59,31 +59,27 @@ class twitterSearchClient:
         # Depending on the dates, we will do a simple or period query
         #
         
+        query_params = {'query': q,
+                    'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
+                    'expansions': 'author_id,in_reply_to_user_id,geo.place_id',
+                    'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source',
+                    'user.fields': 'id,name,username,created_at,description,public_metrics,verified',
+                    'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
+                    'next_token': {}}
+        
         if sP =='' and  eP == '':
+           # This is a simple search
            headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') )}
            search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
-           query_params = {'query': q,
-                    'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
-                    'expansions': 'author_id,in_reply_to_user_id,geo.place_id',
-                    'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source',
-                    'user.fields': 'id,name,username,created_at,description,public_metrics,verified',
-                    'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
-                    'next_token': {}}
         else:
+           # This is a period search 
            headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
            search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
-           # TODO: make this a instance var???        
-           query_params = {'query': q,
-                    'start_time': sP,
-                    'end_time': eP,
-                    'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
-                    'expansions': 'author_id,in_reply_to_user_id,geo.place_id',
-                    'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source',
-                    'user.fields': 'id,name,username,created_at,description,public_metrics,verified',
-                    'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
-                    'next_token': {}}
-         
-      
+           # Add two more params: the dates
+           query_params['start_time'] = sP
+           query_params['end_time'] = eP
+           
+        #print('>>>>>>>>>>>>>>>>> query_params:', query_params )
         
         # TODO: move this out of here as it will be called many times? i.e. This is executed FOR EVERY PERIOD!
         try:
