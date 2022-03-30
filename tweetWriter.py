@@ -51,7 +51,7 @@ class csvWriter:
           if not os.path.exists(cfg.get('Storage', 'csvFile', fallback="data.csv")):
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "w", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',')) 
-             csvWriter.writerow(['author_id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'tweetcount', 'followers', 'following', 'url'])
+             csvWriter.writerow(['author_id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'likes', 'quotes', 'replies', 'retweets',  'tweetcount', 'followers', 'following', 'url'])
           else:      
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "a", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',') ) 
@@ -59,10 +59,19 @@ class csvWriter:
           nWritten = 0          
           for t in tweetList:
               author_id = t['author_id']
+
+              # User metrics
               authorName = userList[author_id]['username']
               authorFollowers = userList[author_id]['public_metrics']['followers_count']
               authorFollowing = userList[author_id]['public_metrics']['following_count']
               authorTweetCount = userList[author_id]['public_metrics']['tweet_count']
+
+              # Tweet metrics
+              # TODO: Error checking! Make sure that this works even for very old tweets
+              likeCount = t['public_metrics'].get('like_count', -1)
+              quoteCount = t['public_metrics'].get('quote_count', -1)
+              replyCount = t['public_metrics'].get('reply_count', -1)
+              retweetCount = t['public_metrics'].get('retweet_count', -1)
 
               # Format date to be more readable. Dates are UTC 
               created_at = datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S')
@@ -78,7 +87,7 @@ class csvWriter:
 
               url = 'https://twitter.com/twitter/status/' + tweet_id
 
-              csvDataLine = [author_id, authorName, tweet_id, created_at, lang, text, authorTweetCount, authorFollowers, authorFollowing, url]
+              csvDataLine = [author_id, authorName, tweet_id, created_at, lang, text, likeCount, quoteCount, replyCount, retweetCount, authorTweetCount, authorFollowers, authorFollowing, url]
               csvWriter.writerow(csvDataLine)
               nWritten += 1
                         
