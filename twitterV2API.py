@@ -108,7 +108,8 @@ class twitterSearchClient:
              return(errCode) 
 
           next_token, tweetsFetched, userRefs = self.__parseResponse( json_response )
-          
+
+          # Calculate download speed in tweets/sec
           dSpeed = len(tweetsFetched)/(time.perf_counter() - tic)
           if len(self.downloadSpeeds) >= self.configuration.getint('General', 'downloadSpeedWindow', fallback=100 ):
              self.downloadSpeeds.pop(0) # if list is full, remove oldest one to add another one
