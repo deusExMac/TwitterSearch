@@ -24,10 +24,20 @@ class tweetWriterFactory:
         elif writerFormat.lower() == 'db':
             return dbWriter()
         else:
-            raise ValueError(writerFormat) # Unsupported format
+            return defaultWriter()
+            #raise ValueError(writerFormat) # Unsupported format
 
 
+# Default writer. Use this instead of raising exception
+class defaultWriter:
 
+      def write(self, tweetList=None, userList=None, cfg=None):
+          count = 0
+          for t in tweetList:
+              count +=1
+              print(str(count), '/', str(len(tweetList)), ') [', t['author_id'], ' ', t['id'], ' ', datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S'), ']', sep='')
+              
+          return(count)
 
 
 class csvWriter:

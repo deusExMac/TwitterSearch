@@ -216,6 +216,7 @@ class twitterSearchClient:
         print("\tNumber of search periods:", len(periods))
         print("\tMaximum number of tweets to fetch in each period:",  self.configuration.get('General', 'maxTweetsPerPeriod', fallback="30"))
         print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), ' (.)' )
+        print("\tTweets saved as format:",  self.configuration.get('Storage', 'format', fallback=""))
         print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"))
         print("\tConfiguration file loaded:",  self.configuration.get('__Runtime', '__configsource', fallback="???"), "\n" ) 
 
@@ -264,6 +265,7 @@ class twitterSearchClient:
         print("\tNumber of search periods: 0")
         print("\tMaximum number of tweets to fetch:",  self.configuration.get('General', 'maxTweetsPerPeriod', fallback="30"))
         print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), ' (.)' )
+        print("\tTweets saved as format:",  self.configuration.get('Storage', 'format', fallback=""))
         print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"))
         print("\tConfiguration file loaded:",  self.configuration.get('__Runtime', '__configsource', fallback="???"), "\n" )
 

@@ -355,7 +355,10 @@ class shellCommandExecutioner:
             if cmdConfigSettings.getboolean('Debug', 'debugMode', fallback=False):
                print("[DEBUG] Overriding setting csvFile from [", cmdConfigSettings['Storage']['csvFile'], "] to [", sParams['outfile'], "]")
              
-            cmdConfigSettings['Storage']['csvFile'] =  sParams['outfile']
+            #cmdConfigSettings['Storage']['format'] =  'csv'
+            cmdConfigSettings.set('Storage', 'format', 'csv')
+            #cmdConfigSettings['Storage']['csvFile'] =  sParams['outfile']
+            cmdConfigSettings.set('Storage', 'csvFile', sParams['outfile'])
 
           
         
