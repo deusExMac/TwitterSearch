@@ -20,11 +20,14 @@ The Twitter bearer token is a unique string value that identifies your applicati
 <br/>
 <br/>
 
-2.  You need to **install the follwing required Python packages**, with your package manager (pip/conda/etc), if you don't have them already:
+2.  You need to have **installed the follwing Python packages** on your system:
     - pandas
     - argparse
     - clrprint
     - configparser
+    - pathlib
+
+
 
 
 # How to prepeare, execute and interact with TwitterSearch
@@ -109,7 +112,7 @@ The application allows users to execute commands via the application's command s
      
      - ``[-S]``: Signals a simple search as specified in the above section. If missing, a period search is conducted. ``-S`` will ignore any -f or -u arguments given. 
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
-     - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
+     - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
      ### Examples
      | search command  | Explanation |
@@ -447,7 +450,12 @@ In this section we provide a brief overview of the settings supported by configu
   - ``academicBearer`` Academic bearer token. A place to hold the academic bearer token.
   - ``Bearer`` bearer token. The bearer token that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``.
   - ``maxEndpointTweets`` Integer value. Number of tweets that should be returned by endpoint as a response to a query. Note: this is different from the ``maxTweetsPerPeriod`` setting. ``maxEndpointTweets`` determines in essence the maximum number of tweets returned by the endpoint with each request. If the ``maxTweetsPerPeriod`` has the value 100 and ``maxEndpointTweets`` has a value of 10, this means that at most 10 requests need to be done to the endpoint to reach the limit of 100 tweets. If ``maxEndpointTweets`` is set to 100, then you just need 1 request to the endpoint to reach the limit of 100 tweets.
+  - ``tweet.fields`` String value (Comma-separated list of fields). Fields to request for Twitter's Tweet object. The data dictionary (i.e. available fields) for tweet objects can be found here: https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/tweet
+  - ``user.fields`` String value (Comma-separated list of fields). Fields to request for Twitter's user objects. The data dictionary for user objects can be found here: https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/user
+  - ``place.fields`` String value (Comma-separated list of fields). Fields to request for Twitter's place objects. The data dictionary for place objects can be found here: https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/place
+  - ``expansions`` String value (Comma-separated list of fields). Fields for which to return more data i.e. expand. For these objects, more fields will be returned.
 
+For more information on Twitter fields and Twitter's object model see: https://developer.twitter.com/en/docs/twitter-api/fields , https://developer.twitter.com/en/docs/twitter-api/data-dictionary/using-fields-and-expansions .
 
 - Section ``Request``
 
