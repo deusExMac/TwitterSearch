@@ -92,6 +92,7 @@ class commandShell:
                    
               command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
+
               
 
               # Check if we need to expand the command i.e. the command is either !!, ! or ^.
@@ -471,6 +472,26 @@ class shellCommandExecutioner:
 
           if not os.path.exists( shellArgs['csvfile'] ):
              print('File ', shellArgs['csvfile'], ' does not exist.' )
+             from pathlib import Path
+             p = Path(shellArgs['csvfile'])
+             #print('Parent dir is [', p.parent, ']')
+             if os.path.isabs( str(p.parent) ) or str(p.parent) == '.' :
+                target = str(p.parent)
+             else:      
+                target = os.path.join(os.path.dirname(__file__), str(p.parent))             
+                
+             if not os.path.exists( target ):                
+                return(False)   
+             
+             csvFiles = utils.listDirectoryFiles( target, '.csv') 
+             if len(csvFiles) != 0:                  
+                print('\nFound the following csv files in the same directory [', str(p.parent), '] which may be of interest to you (newest appear higher in list):', sep='')
+                for fn in csvFiles:
+                    if fn == '':
+                       continue
+                  
+                    print('\t', fn, sep='')  
+             
              return(False)
                 
           

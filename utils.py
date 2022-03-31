@@ -103,12 +103,12 @@ def generateSubperiods(f, u, t, cfg=None ):
 
 
 
-def getFiles(targetDir, extension):
+def listDirectoryFiles(targetDir, extension):
 
-    search_dir = targetDir
-    os.chdir(search_dir)
-    files = filter(os.path.isfile, os.listdir(search_dir))
-    files = [os.path.join(search_dir, f) for f in files if f.endswith(extension)] # add path to each file
+    #search_dir = targetDir
+    os.chdir(targetDir)
+    files = filter(os.path.isfile, os.listdir(targetDir))
+    files = [os.path.join(targetDir, f) for f in files if f.endswith(extension)] # add path to each file
     files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
     return(files)
 
