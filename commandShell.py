@@ -325,7 +325,7 @@ class shellCommandExecutioner:
           
           sParams = parseSearchArguments(a)
           if sParams is None:
-             print("Usage: search [-f <from date>] [-u <to date>] [-n <number of tweets>] [-o <csv file>] [-D] <query>")
+             print("Usage: search [-f <from date>] [-u <to date>] [-n <number of tweets>] [-o <csv file>] [-S] [-D] <query>")
              return(False)
 
           
@@ -466,7 +466,7 @@ class shellCommandExecutioner:
       
           except Exception as ex:
              print( str(ex) )
-             print("Invalid argument. Usage: showcsv [-f <csv file name>] [-s <separator>] [-N] ")
+             print("Invalid argument. Usage: showcsv [-F <field list>] [-s <separator>] [-N] [-n <number of rows>] [-T] <csv file name>")
              return(False)
 
 
