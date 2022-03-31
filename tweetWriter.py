@@ -78,10 +78,10 @@ class csvWriter:
               
               # Tweet metrics
               # TODO: Error checking! Make sure that this works even for very old tweets
-              likeCount = t['public_metrics'].get('like_count', -1)
-              quoteCount = t['public_metrics'].get('quote_count', -1)
-              replyCount = t['public_metrics'].get('reply_count', -1)
-              retweetCount = t['public_metrics'].get('retweet_count', -1)
+              likeCount = t.get('public_metrics', {}).get('like_count', -1)
+              quoteCount = t.get('public_metrics', {}).get('quote_count', -1)
+              replyCount = t.get('public_metrics', {}).get('reply_count', -1)
+              retweetCount = t.get('public_metrics', {}).get('retweet_count', -1)
 
               # Format date to be more readable. Dates are UTC 
               created_at = datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S')

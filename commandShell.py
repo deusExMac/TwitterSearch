@@ -21,7 +21,7 @@ import pandas as pd
 import appConstants
 from commandHistory import commandHistory
 import twitterV2API 
-
+import utils
 
 
 
@@ -92,6 +92,7 @@ class commandShell:
                    
               command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
+              
 
               # Check if we need to expand the command i.e. the command is either !!, ! or ^.
               # If so, expand it and return the expanded form.
