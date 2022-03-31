@@ -58,14 +58,24 @@ class csvWriter:
              
           nWritten = 0          
           for t in tweetList:
-              author_id = t['author_id']
+              #author_id = t['author_id']
+              author_id = t.get('author_id', '') #['author_id']
 
               # User metrics
+              '''
               authorName = userList[author_id]['username']
               authorFollowers = userList[author_id]['public_metrics']['followers_count']
               authorFollowing = userList[author_id]['public_metrics']['following_count']
               authorTweetCount = userList[author_id]['public_metrics']['tweet_count']
+              '''
+              #print(author_id, ' Getting userList (', type(userList), ')')
+              authorName = userList.get(author_id, {}).get('username', '')
+              authorFollowers = userList.get(author_id, {}).get('public_metrics', {}).get('followers_count', '-1')
+              authorFollowing = userList.get(author_id, {}).get('public_metrics', {}).get('following_count', '-1')
+              authorTweetCount = userList.get(author_id, {}).get('public_metrics', {}).get('tweet_count', '-1')
 
+              
+              
               # Tweet metrics
               # TODO: Error checking! Make sure that this works even for very old tweets
               likeCount = t['public_metrics'].get('like_count', -1)
@@ -95,6 +105,7 @@ class csvWriter:
           return(nWritten)
         
         except Exception as fwEx:
+               print( 'ERROR in writer:', str(fwEx) )
                if csvFile is not None:
                   csvFile.close()
                   
