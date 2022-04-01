@@ -95,7 +95,7 @@ The application allows users to execute commands via the application's command s
 
      Retrieves specific tweets identified by their id given as arguments. Fields of tweets retrieved are specified by the settings ``tweet.fields`` in the configuration file.
      
-     ``<list of tweet ids>``: list of tweet ids, separated by whitespace. Can be one or more. For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type (reply, retweed etc) and the actual content/text of the tweet.
+     ``<list of tweet ids>``: list of tweet ids, separated by whitespace. Can be one or more. For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
      
      ### Example
      
