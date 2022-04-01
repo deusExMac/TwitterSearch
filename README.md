@@ -91,6 +91,33 @@ The command shell of TwitterSearch allows allows users to interact with TwitterS
 
 The application allows users to execute commands via the application's command shell. The following commands and their arguments are supported:
 
+- ```get <list of tweet ids>```
+
+     Retrieves specific tweets identified by their id given as arguments. Fields of tweets retrieved are specified by the settings ``tweet.fields`` in the configuration file.
+     
+     ``<list of tweet ids>``: list of tweet ids, separated by space. Can be one or more. For each successfully retrieved tweet, a set of fields are displyed that include: id, author id, date created, type (reply, retweed etc) and the actual content/text of the tweet.
+     
+     ### Example
+     
+     ```
+     {0}TwitterAPI v2 >>get 1509893250198298630 1509882219808100352
+     get 1509893250198298630 1509882219808100352
+     1/2) Tweet id:1509893250198298630
+	 Author id: 1328650617800122369
+	 Created: 01/04/2022 13:59:37
+	 Lang: en
+	 Type: ???
+	 Tweet: One of the biggest anime glow ups https://t.co/txuh3kJgMW
+      2/2) Tweet id:1509882219808100352
+	 Author id: 1126523841604399105
+	 Created: 01/04/2022 13:15:48
+	 Lang: en
+	 Type: ???
+	 Tweet: WHERE'S THE MODEL FOR THIS VEGETA, I DON'T SEE IT https://t.co/8v6r4T3EsP
+      {1}TwitterAPI v2 >>
+      ```
+      
+     
 - ```search [-f <start_date>] [-u end_date] [-t time_step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```
 
      The search command issues a query to the Twitter archive (recent or historic)  searching for and downloading tweets meeting the criteria specified in < query >. Returned tweets meeting the criteria will be saved in a csv file. Two types of searches are supported, depending on the supplied arguments: **_Simple and Period searches_**. A **_simple search_** is a type of search always carried out on the recent archive and does not impose any constraints related to the date the tweets were published (except of course the 7day period that defines the recent archive). A **_period search_** is a type of search that imposes constraints related to it creation time i.e. specifies a date period in which the tweet was created (or published). Period searches may be directed to the recent or historic archive and require a date range to be specified in which the tweets, meeting the querie's criteria, have been created.  
