@@ -271,7 +271,26 @@ class shellCommandExecutioner:
 
           
 
-                 
+
+
+      def get(self, a):
+          try:  
+             cmdArgs = ThrowingArgumentParser()          
+             cmdArgs.add_argument('tweetids',   nargs=argparse.REMAINDER, default=[] )
+             args = vars( cmdArgs.parse_args(a) )
+
+          except Exception as gEx:
+                print( str(gEx) )
+                return(False)
+
+          tAPI = twitterV2API.twitterSearchClient( self.configuration )
+          status = tAPI.getTweets( args['tweetids'] )
+          if status is None:
+             print('Error')
+          
+
+
+
 
 
       def search(self, a):

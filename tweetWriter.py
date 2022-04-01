@@ -23,6 +23,8 @@ class tweetWriterFactory:
             return csvWriter()
         elif writerFormat.lower() == 'db':
             return dbWriter()
+        elif writerFormat.lower() == 'simple':
+             return simpleWriter()
         else:
             return defaultWriter()
             #raise ValueError(writerFormat) # Unsupported format
@@ -38,6 +40,7 @@ class defaultWriter:
               print(str(count), '/', str(len(tweetList)), ') [', t['author_id'], ' ', t['id'], ' ', datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S'), ']', sep='')
               
           return(count)
+
 
 
 class csvWriter:
@@ -113,7 +116,30 @@ class csvWriter:
                
           
 
+class simpleWriter:
 
+      def write(self, tweetList=None, userList=None, cfg=None):
+          count = 0
+          for t in tweetList:
+              count +=1
+              print(str(count), '/', str(len(tweetList)), ') Tweet id:',t['id'], sep='')
+              print('\t Author id:', t['author_id'])
+              print('\t Created:', datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S') )
+              print('\t Lang:', t['lang'])
+              ttp = '???'
+              if 'referenced_tweets' in t:
+                  #TODO: do we need these checks???
+                  if len( t.get('referenced_tweets', []) ) > 0:
+                     ttp = t.get('referenced_tweets', [])[0].get('type', '????') 
+
+              print('\t Type:', ttp)    
+              print('\t Tweet:', t['text'])
+              
+          return(count)
+          
+
+
+           
 class dbWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):

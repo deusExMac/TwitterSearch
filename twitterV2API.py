@@ -180,6 +180,36 @@ class twitterSearchClient:
     ############################################
 
 
+    # Fetches data (fields) for single Tweets.
+    # idList: list with the ids of tweets to fetch.
+    #
+    # Used for testing purposes
+    def getTweets(self, idList):
+
+       headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
+       query_params = {'ids': ','.join(idList),                    
+                    'expansions': self.configuration.get('TwitterAPI', 'expansions', fallback='author_id,in_reply_to_user_id,geo.place_id'),
+                    'tweet.fields': self.configuration.get('TwitterAPI', 'tweet.fields', fallback='id,text'), #'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source'
+                    'user.fields': self.configuration.get('TwitterAPI', 'user.fields', fallback='id,name'), #'id,name,username,created_at,description,public_metrics,verified'
+                    'place.fields': self.configuration.get('TwitterAPI', 'place.fields', fallback='full_name,id,country,country_code,geo,name,place_type'), #'full_name,id,country,country_code,geo,name,place_type'
+                    'next_token': {}}
+
+       try:
+         json_response = self.__sendRequest('https://api.twitter.com/2/tweets', headers, query_params)
+       except Exception as tEx:
+           print( str(tEx) )
+           return(None)
+
+       nT, tweetsFetched, userRef = self.__parseResponse(json_response)
+
+       # Get a default writer
+       tWriter = tweetWriter.tweetWriterFactory().getWriter( 'simple' )
+       tWriter.write( tweetsFetched, userRef, self.configuration )
+              
+       return(0)
+        
+
+
 
 
     
@@ -251,8 +281,6 @@ class twitterSearchClient:
 
 
 
-
-
     def simpleQuery(self, q):
         
         print("\nCommencing simple tweet search (no date constraints)")
@@ -271,6 +299,10 @@ class twitterSearchClient:
 
         self.downloadSpeeds.clear()
         return( self.__qryGENERIC(q, '', '') )
+
+
+
+
 
 
 
@@ -307,8 +339,12 @@ class twitterSearchClient:
 
     def __parseResponse(self, jsn):
     
-      
-     resultCount = jsn['meta']['result_count']
+     try: 
+       #resultCount = jsn['meta']['result_count']
+       resultCount = jsn.get('meta', {}).get('result_count', 1)
+     except Exception as cEx:
+       resultCount = 1 # We assume that it was a request for a single Tweet
+       
      tweetsCollected = []
      userReferences = {}
      next_token = None
@@ -325,7 +361,7 @@ class twitterSearchClient:
        for tweet in jsn['data']:
            tweetsCollected.append( tweet )
                       
-     if 'next_token' in jsn['meta']:
+     if 'next_token' in jsn.get('meta', {}):
        # Save the token to use for next call
        nextToken = jsn['meta']['next_token']
      else:
