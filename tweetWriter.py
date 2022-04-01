@@ -30,7 +30,7 @@ class tweetWriterFactory:
             #raise ValueError(writerFormat) # Unsupported format
 
 
-# Default writer. Use this instead of raising exception
+# Default writer. Displays some fields on the screen.
 class defaultWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
@@ -54,7 +54,7 @@ class csvWriter:
           if not os.path.exists(cfg.get('Storage', 'csvFile', fallback="data.csv")):
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "w", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',')) 
-             csvWriter.writerow(['author_id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'likes', 'quotes', 'replies', 'retweets',  'tweetcount', 'followers', 'following', 'url'])
+             csvWriter.writerow(['retrieved', 'author_id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'type', 'likes', 'quotes', 'replies', 'retweets',  'tweetcount', 'followers', 'following', 'url'])
           else:      
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "a", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',') ) 
@@ -77,7 +77,10 @@ class csvWriter:
               authorFollowing = userList.get(author_id, {}).get('public_metrics', {}).get('following_count', '-1')
               authorTweetCount = userList.get(author_id, {}).get('public_metrics', {}).get('tweet_count', '-1')
 
-              
+              tType = 'op'
+              if 'referenced_tweets' in t:
+                  if len( t.get('referenced_tweets', []) ) > 0:
+                     tType = t.get('referenced_tweets', [])[0].get('type', '????')  
               
               # Tweet metrics
               # TODO: Error checking! Make sure that this works even for very old tweets
@@ -100,7 +103,7 @@ class csvWriter:
 
               url = 'https://twitter.com/twitter/status/' + tweet_id
 
-              csvDataLine = [author_id, authorName, tweet_id, created_at, lang, text, likeCount, quoteCount, replyCount, retweetCount, authorTweetCount, authorFollowers, authorFollowing, url]
+              csvDataLine = [datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S"), author_id, authorName, tweet_id, created_at, lang, text, tType, likeCount, quoteCount, replyCount, retweetCount, authorTweetCount, authorFollowers, authorFollowing, url]
               csvWriter.writerow(csvDataLine)
               nWritten += 1
                         
@@ -115,7 +118,10 @@ class csvWriter:
                return(-6)   
                
           
-
+#
+# A very simple writer, displaying
+# fields formatted on the screen
+#
 class simpleWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
