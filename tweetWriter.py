@@ -132,7 +132,7 @@ class simpleWriter:
               print('\t Author id:', t['author_id'])
               print('\t Created:', datetime.datetime.strptime(t['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ').strftime('%d/%m/%Y %H:%M:%S') )
               print('\t Lang:', t['lang'])
-              ttp = '???'
+              ttp = 'op'
               if 'referenced_tweets' in t:
                   #TODO: do we need these checks???
                   if len( t.get('referenced_tweets', []) ) > 0:
