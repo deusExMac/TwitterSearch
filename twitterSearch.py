@@ -167,7 +167,7 @@ def log(logF, m):
          lF.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + m + '\n')
 '''
 
-
+# Generate an empty configuration, with only the sections
 def generateDefaultConfiguration():
     cS = configparser.RawConfigParser(allow_no_value=True)
     cS.add_section('General')
