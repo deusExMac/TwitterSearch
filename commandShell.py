@@ -277,6 +277,7 @@ class shellCommandExecutioner:
           try:  
              cmdArgs = ThrowingArgumentParser()          
              cmdArgs.add_argument('tweetids',   nargs=argparse.REMAINDER, default=[] )
+             cmdArgs.add_argument('-f', '--idfile',  nargs='?', default='' )
              args = vars( cmdArgs.parse_args(a) )
 
           except Exception as gEx:
@@ -284,9 +285,22 @@ class shellCommandExecutioner:
                 return(False)
 
           tAPI = twitterV2API.twitterSearchClient( self.configuration )
-          status = tAPI.getTweets( args['tweetids'] )
-          if status is None:
-             print('Error')
+          if args['idfile'] == '':
+             status = tAPI.getTweets( args['tweetids'] )
+          else:
+             if not os.path.exists( args['idfile'] ):
+                print('Error. No such file [', args['idfile'], ']')
+             else:
+                idF = open( args['idfile'], 'r')
+                #idList = idF.readlines()
+                idList = mylist = idF.read().splitlines() 
+                idF.close()
+                print( idList )
+                status = tAPI.getTweets( idList + args['tweetids']  )   
+
+
+          #if status is None:
+          #   print('Error')
           
 
 
