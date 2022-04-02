@@ -98,7 +98,9 @@ The application allows users to execute commands via the application's command s
      Downloads fields for specific tweets identified by their ids given as arguments. Fields of tweets retrieved are specified by the settings ``tweet.fields`` in the configuration file.
      - ``[-f <file name>]`` : filename containing list of tweet ids. Each id must be in a separate line
      
-     - ``<list of tweet ids>``: list of tweet ids, separated by whitespace. Can be one or more. For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
+     - ``<list of tweet ids>``: list of tweet ids, separated by whitespace. Can be one or more. If a file name containing tweet ids is provided with the -f option and a list of tweet ids as arguments, these two lists are merged.
+      
+     For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
      
      ### Example
      
@@ -118,6 +120,7 @@ The application allows users to execute commands via the application's command s
 	 Type: ???
 	 Tweet: WHERE'S THE MODEL FOR THIS VEGETA, I DON'T SEE IT https://t.co/8v6r4T3EsP
       {1}TwitterAPI v2 >>
+      
       ```
       
      
