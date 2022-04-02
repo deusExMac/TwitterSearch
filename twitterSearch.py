@@ -1,5 +1,11 @@
+
+
+#
+#
+# TwitterSearch
+#
 # How to use Twitter's v2 API to query and download tweets using Twitter's v2 API.
-# IMPORTANT! Read the README on Github to see how to execute TwitterSearch.
+# IMPORTANT! See the README on Github on how to prepare and execute TwitterSearch.
 #
 # The developed was based on the source code found here:
 #    https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
