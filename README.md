@@ -41,7 +41,7 @@ Upon execution, TwitterSearch reads a configuration file containing all the sett
 
 You may open and edit the configuration file with your favorite text editor. The configuration is organized in named sections marked by square brackers [ ]. E.g. you may find sections [General]  [TwitterAPI] etc. Each section contains settings related to a specific part of the application. 
 
-While a more detailed description of the available configuration settings can be found in another section, here we will describe the absolute necessary ones for executing succesfully the applications. These absolute necessary ones that need to be properly set before executing the app, are the settings related to the Twitter bearer tokens.  These settings can be found in the [TwitterAPI] section of the configuration file and are the following:
+While a more detailed description of the available configuration settings can be found in section [Configuration files] (#Configuration-Settings), here we will describe the absolute necessary ones for executing succesfully the applications. These absolute necessary ones that need to be properly set before executing the app, are the settings related to the Twitter bearer tokens.  These settings can be found in the [TwitterAPI] section of the configuration file and are the following:
 
 ```
 essentialBearer = <value of essential bearer token>
