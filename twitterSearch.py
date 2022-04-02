@@ -1,8 +1,7 @@
-# How to use Twitter's v2 API to searcha nd download for tweets.
-# IMPORTANT! In order to properly execute this program, you'll need
-#            to create a Twitter developer account and get an access and bearer token.
+# How to use Twitter's v2 API to query and download tweets using Twitter's v2 API.
+# IMPORTANT! Read the README on Github to see how to execute TwitterSearch.
 #
-# The developed was dased on the source code found here:
+# The developed was based on the source code found here:
 #    https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
 #
 # TODO: This has been created in a hurry. Needs serious refactoring.
