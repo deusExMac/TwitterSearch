@@ -1,22 +1,24 @@
 
 
-#
+#################################################################################
 #
 # TwitterSearch
 #
-# How to use Twitter's v2 API to query and download tweets using Twitter's v2 API.
+# A simple application to experiment with Twitter's v2 API which allows querying
+# and downloading tweets.
 # IMPORTANT! See the README on Github on how to prepare and execute TwitterSearch.
 #
 # The developed was based on the source code found here:
 #    https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
 #
-# TODO: This has been created in a hurry. Needs serious refactoring.
+# TODO: This has been created in a hurry. Has not been tested thoroughly.
+#       Needs serious refactoring.
 #
 # v0.82b mmtrd30/03/2022
 # v0.77b mmtrd18/03/2022
 # v0.4b mmtrd31/12/2021
 #
-#
+#################################################################################
 
 
 
@@ -33,8 +35,6 @@ import argparse
 # We define constants in this file
 import appConstants
 import commandShell
-
-
 
 
 
@@ -174,7 +174,8 @@ def log(logF, m):
          lF.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + m + '\n')
 '''
 
-# Generate an empty configuration, with only the sections
+# Generate an empty configuration, with only the sections.
+# Used when no valud configuration file is given or found.
 def generateDefaultConfiguration():
     cS = configparser.RawConfigParser(allow_no_value=True)
     cS.add_section('General')
@@ -225,10 +226,14 @@ def setTargetArchive(cfg, md):
 
 
 #
-# IGNORE the next line if you are NOT A MacOS user with an older version of
-# Python 3.x.x :
+# If you are using older version of IDLE (Python 3.x.x) on MacOS
+# uncomment next line to specify command line argument:
 #
-# sys.argv = [sys.argv[0], '-c', 'sensitiveFiles/twitterSearch.conf']
+# sys.argv = [sys.argv[0], '-c', 'twitterSearch.conf']
+#
+
+
+
 
 
 ######################################################################
@@ -270,16 +275,17 @@ else:
     configSettings.add_section('__Runtime')
     configSettings['__Runtime']['__configSource'] = configFile  
     print('OK', sep="")
-   except Exception as cfgEx:    
+   except Exception as cfgEx:
+      print(str(cfgEx)) 
       print('Error reading file [', configFile, ']. Continuing with default settings.', sep="")
-      print(str(cfgEx))
       configSettings = generateDefaultConfiguration()
-      #sys.exit()
+      
     
 
 
 
-# Set the target archive, that will set the Bearer token properly
+# Set the proper bearer token depending on the value of target archive (Allowed values: recent, historic).
+# Invalid target archive values result in termination.
 sts = setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
 if sts != 0:
    print('Fatal error. Terminating.')
@@ -287,6 +293,8 @@ if sts != 0:
 
 print("\nType 'help' to see a list of supported commands.\n")
 
+# Everything looks fine. Start the TwitterSearch command shell through which the user
+# may execute commands.
 appShell = commandShell.commandShell( configSettings )
 appShell.startShell()
 
