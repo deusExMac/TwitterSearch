@@ -155,7 +155,7 @@ The application allows users to execute commands via the application's command s
      
      - ``[-n number of tweets]``: Total number of tweets to download. If a period search is conducted, option -n specifies the number of tweets to download in each period or subperiod separately. If no -n argument is given, maximum number of tweets is equal to the value of setting ``maxTweetsPerPeriod`` in the configuration file.
      
-     - ``[-S]``: Signals a simple search as specified in the above section. If missing, a period search is conducted. ``-S`` will ignore any -f or -u arguments given. 
+     - ``[-S]``: Signals a simple search as defined in the above section. If missing, a period search is conducted. ``-S`` will ignore any -f or -u arguments given. 
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
      - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
