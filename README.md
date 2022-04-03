@@ -166,7 +166,7 @@ The application allows users to execute commands via the application's command s
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
      - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
-     ### Examples
+     ### Example
      | search command  | Explanation |
      | ------------- | ------------- |
      | search -S -n 1000 -o myData.csv github client  | Does a simple search for tweets on the recent archive, downloading 1000 tweets containing the words github and client. Tweets will be stored in csv format in the file myData.csv  |
@@ -174,6 +174,33 @@ The application allows users to execute commands via the application's command s
      | search -f 1/10/2015 -u 20/10/2015 -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa | Does a period search on the historic archive for a maximum total of 600 tweets created between 1/10/2015 and 20/10/2015 that contain the string tesla and were published by the account elomusk or nasa. Tweets will be stored in file tesla.csv  |
      | search -f 1/10/2015 -u 20/10/2015 -t 7D5H3M2S -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa  | Does a period search for tweets on the historic archive, dividing the period 1/10/2015 - 20/10/2015 into subperiods of length 7 days, 5 hours, 3 minutes and 2 seconds each and will download a maximum of 600 tweets in each of the 3 generated subperiods (which will be __[ 01/10/2015 00:00:00 - 08/10/2015 05:03:02 ], [ 08/10/2015 05:03:02 - 15/10/2015 10:06:04 ] and [ 15/10/2015 10:06:04 - 20/10/2015 00:00:00 ]__) that contain the string tesla and were published by the account elomusk or nasa. All tweets will be stored in the same csv file named tesla.csv  |
 <br/>
+
+```
+   (v0.82){6}TwitterSearch >>search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en
+   search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en
+
+   Commencing tweet search
+   Search parameters:
+	Query: euro lang:en
+	Target archive: historic
+	Number of search periods: 1
+	Maximum number of tweets to fetch in each period: 500
+	Number of tweets to ask from endpoint per request: 72  (.)
+	Tweets saved as format: csv
+	Tweets saved to csv file: 2008.csv
+	Configuration file loaded: sensitiveFiles/twitterSearch.conf 
+
+	
+	1/1) Period [03/04/2008 16:03:22 - 05/04/2008 00:00:00] : Getting a 
+	maximum of [500] tweets for this period
+	
+	   .(40/40/40/60.37).[Total:40] at 60.37 tweets/sec
+
+
+   Fetched total of 40 tweets.
+   (v0.82){7}TwitterSearch >>
+```
+
 <br/>
 
 - ```config```
