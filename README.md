@@ -74,7 +74,7 @@ TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the v
 
 ***If no valid bearer token is provided, all Twitter API requests will result in an error.***
 
-NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.
+*NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
 
 
 
