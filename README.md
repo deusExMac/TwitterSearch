@@ -138,7 +138,7 @@ The application allows users to execute commands via the application's command s
 	 Lang: en
 	 Type: ???
 	 Tweet: WHERE'S THE MODEL FOR THIS VEGETA, I DON'T SEE IT https://t.co/8v6r4T3EsP
-      {1}TwitterAPI v2 >>
+     {1}TwitterAPI v2 >>
       
       ```
        
