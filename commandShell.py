@@ -90,7 +90,7 @@ class commandShell:
                 
              try:
                    
-              command = input('{' + str(self.cmdExecutioner.commandsExecuted) + '}(v' +appConstants.APPVERSION + ')' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
+              command = input('(' + appConstants.APPVERSION + ')' +'{' + str(self.cmdExecutioner.commandsExecuted) + '}' + self.cmdExecutioner.configuration.get('Shell', 'commandPrompt', fallback="(default conf) >>> ") )
               command = command.strip()
 
               
