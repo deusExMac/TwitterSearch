@@ -176,7 +176,7 @@ The application allows users to execute commands via the application's command s
 <br/>
 
 ```
-   (v0.82){6}TwitterSearch >>***search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en***
+   (v0.82){6}TwitterSearch >>search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en
    search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en
 
    Commencing tweet search
