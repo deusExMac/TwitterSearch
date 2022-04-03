@@ -295,7 +295,7 @@ class shellCommandExecutioner:
                 #idList = idF.readlines()
                 idList = mylist = idF.read().splitlines() 
                 idF.close()
-                print( idList )
+                print( 'File preview: ', idList[:5], '...', sep='' )
                 status = tAPI.getTweets( idList + args['tweetids']  )   
 
 
