@@ -37,7 +37,9 @@ class twitterSearchClient:
         
 
     #
-    # Do the actual query to the endpoint - used for simple and period queries. 
+    # Do the actual query to the endpoint - used for simple and period queries.
+    # ALso, uses the appriate writer to process the downloaded tweets.
+    # 
     # TODO: Refactor this method. It's ugly
     #
     def __qryGENERIC(self, q, sP, eP):
@@ -56,6 +58,7 @@ class twitterSearchClient:
         next_token = None
 
         #
+        # Prepare the query parameter.
         # Depending on the dates, we will do a simple or period query
         #
         
@@ -79,15 +82,12 @@ class twitterSearchClient:
            query_params['start_time'] = sP
            query_params['end_time'] = eP
            
-        #print('>>>>>>>>>>>>>>>>> query_params:', query_params )
         
-        # TODO: move this out of here as it will be called many times? i.e. This is executed FOR EVERY PERIOD!
-        try:
-            # Get an appropriate writer to save the tweets 
-            tWriter = tweetWriter.tweetWriterFactory().getWriter( self.configuration.get('Storage', 'format', fallback='csv') )
-        except Exception as fEx:
-            print('Error initializing writer. Unknown format [', self.configuration.get('Storage', 'format', fallback='csv'), ']')
-            return(-7)
+        
+        
+        # Get an appropriate writer to save the tweets 
+        tWriter = tweetWriter.tweetWriterFactory().getWriter( self.configuration.get('Storage', 'format', fallback='csv') )
+        
              
         numRequests = 0
         totalTweetsDownloaded = 0
