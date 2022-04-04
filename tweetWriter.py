@@ -125,6 +125,7 @@ class csvWriter:
 class simpleWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
+          print('')
           count = 0
           for t in tweetList:
               count +=1

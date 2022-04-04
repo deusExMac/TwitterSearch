@@ -534,10 +534,12 @@ class shellCommandExecutioner:
              
           try:             
              tweetsDF = pd.read_csv(shellArgs['csvfile'], sep=shellArgs['separator'], header=hdr )
+             print('')
              print('File: ', shellArgs['csvfile'] )
              print('Number of rows:', tweetsDF.shape[0], sep='' )
              print('Number of columns:', tweetsDF.shape[1], sep='' )
              print('Column names:', list(tweetsDF.columns) )
+             #print('Number of duplicate rows:', ) # TODO: Complete me.
              
              if not shellArgs['tail']:
                 print('First ', shellArgs['numrows'], ' rows:', sep='')
