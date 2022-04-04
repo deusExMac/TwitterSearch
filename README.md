@@ -1,8 +1,8 @@
 # TwitterSearch
  
-A simple python program to query and fetch tweets using using the [v2 of the Twitter API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose is experiment with and get to know Twitter's v2 API. 
+A simple python program to query and fetch tweets using using the [v2 of the Twitter API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
 
-This is experimental and has been created hastily. Has not been tested thoroughly. Any bug or design error that you may see is exclusively my fault. Have mercy.
+This is experimental and has been created hastily. Has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
 
 
 
@@ -17,7 +17,7 @@ The Twitter bearer token is a unique string value that identifies your applicati
     - *Academic bearer token*: This bearer token allows doanloading up to 10000000 tweets per month and has no datetime limit on tweets i.e. you may search for tweets as long back in time as you like (this bearer searches also the recent archive). This set of tweets is referred to as the ***historic archive***.  Here too, the limit is automatically reset each month. To obtain an academic bearer token, you have to issue a special application which asks mainly about your cv and the purpose. The application is reviewed by TWitter and a response is given (not immediately though).
     - [TODO: Update me with premium etc] *Commercial bearer token*: I'm not knowledgeable enough to talk about this kind of bearer token. I've seen it mentioned but i do not know what it allows you to do.
   
-    Once you have a valid bearer token, you need to add it to the application's configuration file twitterSearch.conf  (yes, i know it's very bad practice but i'm a uni professor and we a known to do things sloppy or as someone famously said *"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."* See https://www.oreilly.com/openbook/opensources/book/appa.html) . See blow where exactly to put the bearer value you have.
+    Once you have a valid bearer token, you need to add it to the application's configuration file twitterSearch.conf  (yes, i know it's very bad practice but i'm a uni professor and we a known to do things sloppy or as someone famously said *"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."* See https://www.oreilly.com/openbook/opensources/book/appa.html) . See the section [Preparing the configuration file](#preparing-the-configuration-file) on where exactly to put the bearer value(s) you have.
 
 <br/>
 <br/>
