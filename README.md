@@ -142,7 +142,7 @@ The command shell of TwitterSearch allows allows users to interact with TwitterS
 
 The application allows users to execute commands via the application's command shell. The following commands and their arguments are supported:
 
-- ```get [-f <file name>] <list of tweet ids>```
+- ###```get [-f <file name>] <list of tweet ids>```
 
      Downloads fields for specific tweets identified by their ids given as arguments. Fields of tweets retrieved are specified by the settings ``tweet.fields`` in the configuration file.
      - ``[-f <file name>]`` : filename containing list of tweet ids. Each id must be in a separate line
@@ -151,7 +151,7 @@ The application allows users to execute commands via the application's command s
       
      For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
      
-     ### Example
+     #### Example
      
      ```
      {0}TwitterAPI v2 >>get 1509893250198298630 1509882219808100352
