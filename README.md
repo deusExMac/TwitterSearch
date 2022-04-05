@@ -46,9 +46,9 @@ An example configuration file, *twitterSearch.conf*, containing all application 
 
 You may open and edit the configuration file with your favorite text editor. The configuration is organized in named sections marked by square brackers [ ]. E.g. you may find sections [General]  [TwitterAPI] etc. Each section contains settings related to a specific part of the application. 
 
-The settings that need to be set with valid values before the execution of TwitterSearch, in order to guarantee its correct working, are related to the bearer tokens. Below is a more 
+The settings that need to be set with valid values before the execution of TwitterSearch, in order to guarantee its correct working, are related to the bearer tokens. 
 
-### Minimum required settings
+### Bearer token settings
 While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the **settings related to the Twitter bearer tokens**. This is because valid bearer tokens are required to make successful requests to Twitter's v2 API. In the current version, the only way to set the bearer tokens is via the configuration file. Keep in mind that ***if no valid bearer token is provided, all Twitter API requests will result in an error.*** 
 
 In the configuration file, settings related to bearer tokens can be found in the [TwitterAPI] section and are the following:
