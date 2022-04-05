@@ -285,11 +285,13 @@ The application allows users to execute commands via the application's command s
 <br/>
 <br/>
 
-- ```reaload [-c configuration file]```
+- ### reload 
+
+  Syntax: ```reaload [-c configuration file]```
 
      Allows loading a configuration file specified by the -c option. Relative file names are supported. If no -c option is provided, the configuration file  loaded during startup is reloaded (more specifically the file specified in  ``__configsource`` option in ``config`` command). If configuration file is not found, no new configuration is loaded.
 
-     ### Example
+     #### reload example
      ```
      {1}TwitterAPI v2 >>reload
      Loading configuration file: [searchsettings/twitterSearch.conf]
@@ -299,11 +301,13 @@ The application allows users to execute commands via the application's command s
      ```
 <br/>
 
-- ```history (or h)```
+- ### history (or h)
+
+  Syntax: ```history (or h)```
 
      Displays a numbered list of the recent commands already executed via the application's command shell (the ***command history***). The number of recent commands kept in history is determined by setting ``historySize`` in the configuration file. Numbers can be used in conjunction with the ``!`` command (see below) to re-execute commands. Usefull to re-execute commands or copy-pasting complicated commands if you are bored to retype these again. Command history is saved in local file ``.history`` when TwitterSearch quits gracefully. Command history file ``.history`` is automatically loaded during startup if present. 
 
-   ### Example
+   #### history example
    ```
    {12}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -336,7 +340,9 @@ The application allows users to execute commands via the application's command s
 <br/>
 
 
-- ``showcsv [-n number of rows] [-s separator] [-N] [-T] [-F list of fields] <csv file name>``
+- ### showcsv 
+
+    Syntax: ``showcsv [-n number of rows] [-s separator] [-N] [-T] [-F list of fields] <csv file name>``
 
     Allows displaying the head or tail of csv files containing downloaded tweets and created by TwitterSearch. Arguments:
     
@@ -348,7 +354,7 @@ The application allows users to execute commands via the application's command s
     
     HINT: Due to a bug, the -F option should not preceed the file name. Should be placed BEFORE any -T, -N or -n option.
     
-    ### Example
+    #### showcsv example
     ```
     {1}TwitterAPI v2 >>showcsv -F username created_at(utc) -n 22 -T 2000.csv
     File:  2000.csv
@@ -383,22 +389,27 @@ The application allows users to execute commands via the application's command s
 
 
 
-- ``set [-G | --target <historic | recent>]``
+- ### set 
+
+    Syntax: ``set [-G | --target <historic | recent>]``
 
     Allows setting the value of specific loaded configuration settings. Currently, only setting of the search target (recent or historic) option [-G | --target] is supported. This does not modify the content of the configuration file loaded. Affects only settings loaded in memory furing execution of TwitterSearch.
     
-    ### Example
+    #### set example
     
     ```
     {0}TwitterAPI v2 >>set --target historic
     Target archive set to historic.
     {1}TwitterAPI v2 >>
     ```
-- ``!< history index > ``
+    
+- ### ! 
+
+  Syntax: ``!< history index > ``
 
   Re-executes command at position < history index > in command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
 
-  ### Example
+  #### !<index> example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -431,11 +442,13 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ``!< string > ``
+- ### !<string>
+
+  Syntax: ``!< string > ``
 
   Re-executes last command that starts with < string >. If no such command is found, nothing is executed. 
 
-  ### Example
+  #### !<string> Example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -469,11 +482,13 @@ The application allows users to execute commands via the application's command s
 
 
 
-- ``!!``
+- ### !!
+
+  Syntax: ``!!``
 
   Re-executes last command. Or the last command added to the command history.
   
-  ### Example
+  #### !! example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -506,11 +521,13 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ``^X^Y``
+- ### ^ 
 
-  In the last command executed, replace all instances of X with Y and execute new command.
+  Syntax: ``^<substring>^<replacement>``
 
-  ### Example
+  In the last command executed, replace all instances of <suubstring> with <replacement> and execute new command.
+
+  #### ^ example
   
   ```
   {0}TwitterAPI v2 >>h
@@ -526,11 +543,13 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ``quit (or q)``
+- ### quit (or q)
+
+  Syntax: ``quit (or q)``
 
   Quits the shell and terminates the application.
   
-  ### Example
+  #### quit example
   ```
   {18}TwitterAPI v2 >>q
    
