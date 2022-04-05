@@ -205,7 +205,7 @@ The application allows users to execute commands via the application's command s
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
      - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
-     ### search example
+     #### search example
      
      | search command  | Explanation |
      | ------------- | ------------- |
@@ -215,7 +215,7 @@ The application allows users to execute commands via the application's command s
      | search -f 1/10/2015 -u 20/10/2015 -t 7D5H3M2S -n 600 -o tesla.csv tesla from:elonmusk OR from:nasa  | Does a period search for tweets on the historic archive, dividing the period 1/10/2015 - 20/10/2015 into subperiods of length 7 days, 5 hours, 3 minutes and 2 seconds each and will download a maximum of 600 tweets in each of the 3 generated subperiods (which will be __[ 01/10/2015 00:00:00 - 08/10/2015 05:03:02 ], [ 08/10/2015 05:03:02 - 15/10/2015 10:06:04 ] and [ 15/10/2015 10:06:04 - 20/10/2015 00:00:00 ]__) that contain the string tesla and were published by the account elomusk or nasa. All tweets will be stored in the same csv file named tesla.csv  |
 <br/>
 
-```
+   ```
    (v0.82){6}TwitterSearch >>search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en
    search -f 3/4/2008T16:03:22 -u 5/4/2008 -n 500 -o 2008.csv euro lang:en
 
@@ -239,15 +239,17 @@ The application allows users to execute commands via the application's command s
 
    Fetched total of 40 tweets.
    (v0.82){7}TwitterSearch >>
-```
+   ```
 
 <br/>
 
-- ```config```
+- ### config 
+
+     Syntax: ```config```
 
      Displays the current configuration settings, as loaded from the specified configuration file. Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
      
-     ### example
+     #### config example
      
      ```
      {2}TwitterAPI v2 >>config
