@@ -4,7 +4,10 @@ A simple python program to query and fetch tweets using using the [v2 of the Twi
 
 This is experimental and has been created hastily. Has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
 
-# Table of content (https://ecotrust-canada.github.io/markdown-toc/)
+(https://ecotrust-canada.github.io/markdown-toc/)
+
+# TOC
+
 - [TwitterSearch](#twittersearch)
 - [Prerequisites](#prerequisites)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
@@ -13,7 +16,11 @@ This is experimental and has been created hastily. Has not been tested thoroughl
     + [Bearer token settings](#bearer-token-settings)
   * [Running TwitterSearch](#running-twittersearch)
   * [Supported shell commands](#supported-shell-commands)
+    + [```get [-f <file name>] <list of tweet ids>```](#---get---f--file-name----list-of-tweet-ids----)
+      - [get example](#get-example)
+    + [```search [-f <start_date>] [-u end_date] [-t time_step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```](#---search---f--start-date-----u-end-date----t-time-step----o-csvfile----n-number-of-tweets----s----d---query----)
     + [Example](#example)
+      - [search example](#search-example)
     + [Example](#example-1)
     + [Example](#example-2)
     + [Example](#example-3)
@@ -23,8 +30,6 @@ This is experimental and has been created hastily. Has not been tested thoroughl
     + [Example](#example-7)
     + [Example](#example-8)
     + [Example](#example-9)
-    + [Example](#example-10)
-    + [Example](#example-11)
 - [Configuration file](#configuration-file)
 - [Other related projects](#other-related-projects)
 - [Acknowledgements](#acknowledgements)
