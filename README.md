@@ -4,7 +4,7 @@ A simple python program to query and fetch tweets using using the [v2 of the Twi
 
 This is experimental and has been created hastily. Has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
 
-# TOC
+# Table of content (https://ecotrust-canada.github.io/markdown-toc/)
 - [TwitterSearch](#twittersearch)
 - [Prerequisites](#prerequisites)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
