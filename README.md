@@ -403,11 +403,11 @@ The application allows users to execute commands via the application's command s
     {1}TwitterAPI v2 >>
     ```
     
-- ### ! 
+- ### !< integer > 
 
-  Syntax: ``!< history index > ``
+  Syntax: ``!< integer > ``
 
-  Re-executes command at position < history index > in command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
+  Re-executes command at position < integer > in the command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
 
   #### !<index> example
   ```
@@ -442,7 +442,7 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ### !<string>
+- ### !< string >
 
   Syntax: ``!< string > ``
 
@@ -556,6 +556,13 @@ The application allows users to execute commands via the application's command s
    Finished. ByeBye!
   ```
 
+- ### help
+
+  Syntax: ``help``	
+  
+  Displays short help on the supported commands and their arguments.	
+	
+	
 
 # Configuration file
 
