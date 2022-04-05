@@ -4,6 +4,31 @@ A simple python program to query and fetch tweets using using the [v2 of the Twi
 
 This is experimental and has been created hastily. Has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
 
+# TOC
+- [TwitterSearch](#twittersearch)
+- [Prerequisites](#prerequisites)
+- [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
+  * [Preparing the configuration file](#preparing-the-configuration-file)
+    + [Why the need to prepare the configuration file](#why-the-need-to-prepare-the-configuration-file)
+    + [Bearer token settings](#bearer-token-settings)
+  * [Running TwitterSearch](#running-twittersearch)
+  * [Supported shell commands](#supported-shell-commands)
+    + [Example](#example)
+    + [Example](#example-1)
+    + [Example](#example-2)
+    + [Example](#example-3)
+    + [Example](#example-4)
+    + [Example](#example-5)
+    + [Example](#example-6)
+    + [Example](#example-7)
+    + [Example](#example-8)
+    + [Example](#example-9)
+    + [Example](#example-10)
+    + [Example](#example-11)
+- [Configuration file](#configuration-file)
+- [Other related projects](#other-related-projects)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 
 # Prerequisites
