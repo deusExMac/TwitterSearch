@@ -37,19 +37,21 @@ The Twitter bearer token is a unique string value that identifies your applicati
 
 ## Preparing the configuration file
 
-Before executing TwitterSearch, you need to make sure that **some configuration file settings have the proper values**. These settings are related to the Twitter bearer token that you have received from your Twitter developer account.
+Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters are via the configuration file that the application supports.
 
 ### Why the need to prepare the configuration file
-Upon execution, TwitterSearch reads a configuration file containing all the settings with which the application is to be executed. The configuration file contains some default settings required by the execution of commands. Some configuration file settings may be overridden at runtime by specifying arguments on TwitterSearch’s command shell (see section [Supported Shell Commands](#supported-shell-commands) ). However, for some other settings, the configuration file is the only way to set them. 
+Upon execution, TwitterSearch is able to load/read required parameter settings from a configuration file. The configuration file contains the settings required for the execution of commands supported. Some parameter settings may be specified or overridden at runtime by specifying arguments on TwitterSearch’s command shell (see section [Supported Shell Commands](#supported-shell-commands) ). **However, for some other important settings, the configuration file is the only way to set a proper value.** 
 
-An example configuration file, *twitterSearch.conf*, containing all application supported settings is available in this repository. If TwitterSearch is executed without configuration file, it executes with default values for all settings.
+An example configuration file, *twitterSearch.conf*, containing all application supported settings is available in this repository. You may execute TwitterSearch by specifying explicitly the configuration file to use with the -c argument (see [Running TwitterSearch](#running-twittersearch). If TwitterSearch is executed without the -c option, it attempts to load the configuration file named ``twitterSearch.conf`` from the local directory. If no valid cofiguration file is found during startup, the applications executes with default values for all settings.
 
 You may open and edit the configuration file with your favorite text editor. The configuration is organized in named sections marked by square brackers [ ]. E.g. you may find sections [General]  [TwitterAPI] etc. Each section contains settings related to a specific part of the application. 
 
-The settings that need to be set with valid values before the execution of TwitterSearch in order to guarantee its correct working.
+The settings that need to be set with valid values before the execution of TwitterSearch, in order to guarantee its correct working, are related to the bearer tokens. Below is a more 
 
 ### Minimum required settings
-While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the settings related to the Twitter bearer tokens. This is because valid bearer tokens are required to make REST requests to Twitter's v2 API. These settings can be found in the [TwitterAPI] section of the configuration file and are the following:
+While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the **settings related to the Twitter bearer tokens**. This is because valid bearer tokens are required to make successful requests to Twitter's v2 API. In the current version, the only way to set the bearer tokens is via the configuration file. Keep in mind that ***if no valid bearer token is provided, all Twitter API requests will result in an error.*** 
+
+In the configuration file, settings related to bearer tokens can be found in the [TwitterAPI] section and are the following:
 
 ```
 essentialBearer = <value of essential bearer token>
@@ -72,7 +74,7 @@ What are the minimum required settings to be configured:
 
 TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the value of the setting ``Bearer`` (holding the value of token to use during requests) to the appropriate one. 
 
-***If no valid bearer token is provided, all Twitter API requests will result in an error.***
+
 
 *NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
 
@@ -87,7 +89,7 @@ From the command line, you may execute TwitterSearch as follows
 ```
 C:\>python twitterSearch.py [-c configurationFile]
 ```
-Argument -c specifies the *c*onfiguration file to load during startup. If no configuration file is speicified with the -c argument, TwitterSearch attempts to search and load the configuration file named ``twitterSearch.conf`` residing in the local directory. If no configuration file is found, TwitterSearch starts with default settings.
+Argument -c specifies the *c*onfiguration file to load during startup. If no configuration file is speicified with the -c argument, TwitterSearch attempts to search and load the configuration file named ``twitterSearch.conf`` residing in the local directory. If no valid configuration file is found, TwitterSearch starts execution with default settings.
 
 From within IDLE, execute TwitterSearch by opening the file twitterSearch.py and selecting ```Run --> Run Module``` or ```Run --> Run...Customized``` from the main menu. Use the later if you would like to specify a custom configuration file using the -c argument.
 
