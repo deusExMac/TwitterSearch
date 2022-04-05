@@ -65,7 +65,7 @@ Twitter offers 3 different types of bearer tokens (this might be a little bit ou
 
 ## Preparing the configuration file
 
-Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters are via the configuration file that the application supports.
+Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters is via the configuration file that the application supports.
 
 ### Why the need to prepare the configuration file
 Upon execution, TwitterSearch is able to load/read required parameter settings from a configuration file. The configuration file contains the settings required for the execution of commands supported. Some parameter settings may be specified or overridden at runtime by specifying arguments on TwitterSearch’s command shell (see section [Supported Shell Commands](#supported-shell-commands) ). **However, for some other important settings, the configuration file is the only way to set the proper values.** 
@@ -77,7 +77,7 @@ You may open and edit the configuration file with your favorite text editor. The
 The settings that need to be set with valid values before the execution of TwitterSearch, in order to guarantee its correct working, are related to the bearer tokens. 
 
 ### Bearer token settings
-While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the **settings related to the Twitter bearer tokens**. This is because valid bearer tokens are required to make successful requests to Twitter's v2 API. In the current version, the only way to set the bearer tokens is via the configuration file. Keep in mind that ***if no valid bearer token is provided, all Twitter API requests will result in an error.*** 
+While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the **settings related to the Twitter bearer tokens**. This is because valid bearer tokens are required to make successful requests to Twitter's v2 API endpoints. In the current version, the only way to set the bearer tokens is via the configuration file. Keep in mind that ***if no valid bearer token is provided, all Twitter API requests will result in an error.*** 
 
 In the configuration file, settings related to bearer tokens can be found in the [TwitterAPI] section and are the following:
 
