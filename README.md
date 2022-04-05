@@ -167,7 +167,7 @@ The command shell of TwitterSearch allows allows users to interact with TwitterS
 
 The application allows users to execute commands via the application's command shell. The following commands and their arguments are supported:
 
-- ## get
+- ### get
     
      Syntax: ```get [-f <file name>] <list of tweet ids>```
 
@@ -178,7 +178,7 @@ The application allows users to execute commands via the application's command s
       
      For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
      
-     ### get example
+     #### get example
      
      ```
      {0}TwitterAPI v2 >>get 1509893250198298630 1509882219808100352
@@ -200,7 +200,7 @@ The application allows users to execute commands via the application's command s
       ```
        
      
-- ## search
+- ### search
 
   Syntax: ```search [-f <start_date>] [-u end_date] [-t time_step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```
 
@@ -225,7 +225,7 @@ The application allows users to execute commands via the application's command s
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
      - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
-     ### search example
+     #### search example
      
      | search command  | Explanation |
      | ------------- | ------------- |
