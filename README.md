@@ -576,13 +576,13 @@ The application allows users to execute commands via the application's command s
   
   Displays short help on the supported commands and their arguments.	
 	
-	
+<br />	
 
 # Configuration file
 
 In this section we provide a brief overview of the settings supported by configuration files. Settings are organized into named sections, with each section holding parameters related to a particular aspect of TwitterSearch. For example section named [Shell] has settings related to TwitterSearche's command shell, [TwitterAPI] settings related to the v2 API etc. Settings in configuration files are loaded during startup. Configuration files can also be loaded via the shell during the programs execution. The configuration settings act as the default values for some (important) parameters. Some settings (in this version not all though) might be overitten by shell command arguments.
 
-- Section ``General``
+- ## Section ``General``
 
   Contains general settings. Supported settings in this section are:
   
@@ -592,14 +592,14 @@ In this section we provide a brief overview of the settings supported by configu
   - ``downloadSpeedWindow`` Integer value. The number of download speed values to keep in a list, out of which the average download speed (in tweets/sec) is calculated and reported.  
 
 
-- Section ``Network``
+- ## Section ``Network``
 
   Contains settings related to lower level network requests. Supported settings in this section are:
   
   - ``netConnectTimeout`` Float value. Timeout value (in seconds) for establishing a tcp connection with the remote host. If the application waits longer than the value of this setting for a connection, an exception is raised. Negative values indicate no timeout.
   - ``netReadTimeout`` Float value. Timeout value (in seconds) for reading a response from the server. If the application waits longer than the value of this setting for reading a response from the server, an exception is raised. Negative values indicate no timeout.
 
-- Section ``TwitterAPI``
+- ## Section ``TwitterAPI``
 
   Contains settings related to the Twitter API. Supported settings in this section are:
   
@@ -618,14 +618,14 @@ In this section we provide a brief overview of the settings supported by configu
 
 For more information on Twitter fields and Twitter's object model see: https://developer.twitter.com/en/docs/twitter-api/fields , https://developer.twitter.com/en/docs/twitter-api/data-dictionary/using-fields-and-expansions .
 
-- Section ``Request``
+- ## Section ``Request``
 
   Contains settings related to the requests to the endpoint. Supported settings in this section are:
   
   - ``sleepTime`` Float value. The time to sleep (in seconds) between two successive requests to the endpoint in order not to spam the server. If ``sleepTime`` is too short, the endpoint will return an error.
   
   
-- Section ``Storage``
+- ## Section ``Storage``
 
   Contains settings related to the way the tweets will stored localy. Supported settings in this section are:
   
@@ -634,14 +634,14 @@ For more information on Twitter fields and Twitter's object model see: https://d
   - ``csvFile`` String value. The name of the csv file where the tweets and their metadata will be stored. Can be overriden with the -o option during execution of search command.
  
 
-- Section ``Shell``
+- ## Section ``Shell``
 
   Contains settings related to the application command shell. Supported settings in this section are:
   
   - ``historySize`` Integer value. The maximum number of commands to store in the command history. If this number is reached, command history behaves like a FIFO queue: Oldest command added is removed; new command is added at the end. 
   - ``commandPrompt`` String value. The message/string displayed as the prompt of the shell; an indication that a user command is expected.
 
-- Section ``Debug``
+- ## Section ``Debug``
 
   Contains settings related to debugging the application. Supported settings in this section are:
   
