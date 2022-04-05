@@ -201,7 +201,8 @@ The application allows users to execute commands via the application's command s
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
      - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
-     ### Example
+     ### search example
+     
      | search command  | Explanation |
      | ------------- | ------------- |
      | search -S -n 1000 -o myData.csv github client  | Does a simple search for tweets on the recent archive, downloading 1000 tweets containing the words github and client. Tweets will be stored in csv format in the file myData.csv  |
@@ -242,7 +243,7 @@ The application allows users to execute commands via the application's command s
 
      Displays the current configuration settings, as loaded from the specified configuration file. Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
      
-     #### search example
+     ### example
      
      ```
      {2}TwitterAPI v2 >>config
