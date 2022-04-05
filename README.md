@@ -161,7 +161,7 @@ The command shell of TwitterSearch allows allows users to interact with TwitterS
 
 The application allows users to execute commands via the application's command shell. The following commands and their arguments are supported:
 
-- ### get
+- ## get
     
      Syntax: ```get [-f <file name>] <list of tweet ids>```
 
@@ -172,7 +172,7 @@ The application allows users to execute commands via the application's command s
       
      For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
      
-     #### get example
+     ### get example
      
      ```
      {0}TwitterAPI v2 >>get 1509893250198298630 1509882219808100352
@@ -194,7 +194,7 @@ The application allows users to execute commands via the application's command s
       ```
        
      
-- ### search
+- ## search
 
   Syntax: ```search [-f <start_date>] [-u end_date] [-t time_step] [-o csvfile] [-n number of tweets] [-S] [-D] <query>```
 
@@ -219,7 +219,7 @@ The application allows users to execute commands via the application's command s
      - ``[-D]``: Toggles debug mode for this command only (see ``debugMode`` option in configuration file). If debugMode is enabled, [DEBUG] messages are printed during execution of the search command. 
      - ``<query>``: Query specifying the criteria that tweets need to fullfil. Can use any valid operator defined by the v2 Twitter API. For a list of supported query operators and their use see https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators  and https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query 
 
-     #### search example
+     ### search example
      
      | search command  | Explanation |
      | ------------- | ------------- |
@@ -257,13 +257,13 @@ The application allows users to execute commands via the application's command s
 
 <br/>
 
-- ### config 
+- ## config 
 
      Syntax: ```config```
 
      Displays the current configuration settings, as loaded from the specified configuration file. Loaded configuration settings are shown in sections (defined inside the loaded configuration file). Last section with name ``__Runtime`` is not defined inside the configuration file; it contains settings added dynamically during runtime. E.g. which configuration file was actually loaded (see setting ``__configsource`` )
      
-     #### config example
+     ### config example
      
      ```
      {2}TwitterAPI v2 >>config
@@ -299,13 +299,13 @@ The application allows users to execute commands via the application's command s
 <br/>
 <br/>
 
-- ### reload 
+- ## reload 
 
   Syntax: ```reaload [-c configuration file]```
 
      Allows loading a configuration file specified by the -c option. Relative file names are supported. If no -c option is provided, the configuration file  loaded during startup is reloaded (more specifically the file specified in  ``__configsource`` option in ``config`` command). If configuration file is not found, no new configuration is loaded.
 
-     #### reload example
+     ### reload example
      ```
      {1}TwitterAPI v2 >>reload
      Loading configuration file: [searchsettings/twitterSearch.conf]
@@ -315,13 +315,13 @@ The application allows users to execute commands via the application's command s
      ```
 <br/>
 
-- ### history (or h)
+- ## history (or h)
 
   Syntax: ```history (or h)```
 
      Displays a numbered list of the recent commands already executed via the application's command shell (the ***command history***). The number of recent commands kept in history is determined by setting ``historySize`` in the configuration file. Numbers can be used in conjunction with the ``!`` command (see below) to re-execute commands. Usefull to re-execute commands or copy-pasting complicated commands if you are bored to retype these again. Command history is saved in local file ``.history`` when TwitterSearch quits gracefully. Command history file ``.history`` is automatically loaded during startup if present. 
 
-   #### history example
+   ### history example
    ```
    {12}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -354,7 +354,7 @@ The application allows users to execute commands via the application's command s
 <br/>
 
 
-- ### showcsv 
+- ## showcsv 
 
     Syntax: ``showcsv [-n number of rows] [-s separator] [-N] [-T] [-F list of fields] <csv file name>``
 
@@ -368,7 +368,7 @@ The application allows users to execute commands via the application's command s
     
     HINT: Due to a bug, the -F option should not preceed the file name. Should be placed BEFORE any -T, -N or -n option.
     
-    #### showcsv example
+    ### showcsv example
     ```
     {1}TwitterAPI v2 >>showcsv -F username created_at(utc) -n 22 -T 2000.csv
     File:  2000.csv
@@ -403,13 +403,13 @@ The application allows users to execute commands via the application's command s
 
 
 
-- ### set 
+- ## set 
 
     Syntax: ``set [-G | --target <historic | recent>]``
 
     Allows setting the value of specific loaded configuration settings. Currently, only setting of the search target (recent or historic) option [-G | --target] is supported. This does not modify the content of the configuration file loaded. Affects only settings loaded in memory furing execution of TwitterSearch.
     
-    #### set example
+    ### set example
     
     ```
     {0}TwitterAPI v2 >>set --target historic
@@ -417,13 +417,13 @@ The application allows users to execute commands via the application's command s
     {1}TwitterAPI v2 >>
     ```
     
-- ### !< integer > 
+- ## !< integer > 
 
   Syntax: ``!< integer > ``
 
   Re-executes command at position < integer > in the command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
 
-  #### !<index> example
+  ### !<index> example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -456,13 +456,13 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ### !< string >
+- ## !< string >
 
   Syntax: ``!< string > ``
 
   Re-executes last command that starts with < string >. If no such command is found, nothing is executed. 
 
-  #### !<string> Example
+  ### !<string> Example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -496,13 +496,13 @@ The application allows users to execute commands via the application's command s
 
 
 
-- ### !!
+- ## !!
 
   Syntax: ``!!``
 
   Re-executes last command. Or the last command added to the command history.
   
-  #### !! example
+  ### !! example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
@@ -535,13 +535,13 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ### ^ 
+- ## ^ 
 
   Syntax: ``^<substring>^<replacement>``
 
   In the last command executed, replace all instances of <suubstring> with <replacement> and execute new command.
 
-  #### ^ example
+  ### ^ example
   
   ```
   {0}TwitterAPI v2 >>h
@@ -557,7 +557,7 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ### quit (or q)
+- ## quit (or q)
 
   Syntax: ``quit (or q)``
 
@@ -570,7 +570,7 @@ The application allows users to execute commands via the application's command s
    Finished. ByeBye!
   ```
 
-- ### help
+- ## help
 
   Syntax: ``help``	
   
