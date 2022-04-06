@@ -89,7 +89,8 @@ The Twitter bearer token is a unique string value that identifies your (register
     - pathlib
 
 
-
+<br />
+<br />
 
 # How to prepeare, execute and interact with TwitterSearch
 
