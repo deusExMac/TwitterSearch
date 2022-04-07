@@ -134,7 +134,6 @@ These configuration settings have the following role in the context of TwitterSe
 ``bearerEncrypted``: Specifies if the token values in settings ``essentialBearer`` and ``academicBearer`` in this configuration file are encrypted or not. If this value is true, the bearer tokens are encrypted and need to be decrypted before being part of any request to Twitter v2 API endpoints. If this value is false, the bearer tokens are not encrypted and can be used as-is as part of requests. TwitterSearch supports secret-key symmetric encryption. If you want to encrypt all bearer keys (essentialBearer and academicBearer) see [TODO](#TODO...) 
 
 ### Storing bearer tokens as plain text (i.e. not encrypted)	
-
 - If you have a valid essential token, set the value of setting ``essentialBearer`` to the value of the essential token you got from your Twitter developer account and the value of setting ``targetArchive`` to ‘recent’ . This means that all requests will be directed to the recent archive. **This is the minimum settings that need to have proper values in order for TwitterSearch to work correctly.**
 - If you have a valid academic token, set the value of setting ``academicBearer`` to the value of the academic token you have and the value of setting ``targetArchive`` to ‘historic’. 
 - If you have a valid essential and academic bearer token, set the values of ``essentialBearer`` and ``academicBearer`` to the respective token and  the value of ``targetArchive`` to either ‘recent’ or ‘historic’ to specify the bearer token to use.  
