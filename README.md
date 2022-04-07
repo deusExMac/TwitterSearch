@@ -168,7 +168,7 @@ If you would like to store bearer tokens in the configuration file as encrypted 
 			bearerEncrypted = true
 
 
-        (v0.82){1}TwitterSearch >>
+   (v0.82){1}TwitterSearch >>
    ```	
    4. Open the configuration file and update the values of the settings displayed to the exact values displayed. 
    5. Make sure that the file storing the secret-key is in a safe location and that is not versioned or shared with others.	
@@ -176,7 +176,8 @@ If you would like to store bearer tokens in the configuration file as encrypted 
 <br/>
 	*NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
 <br/>
-
+<br/>
+<br/>
 
 ## Running TwitterSearch
 
