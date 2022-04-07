@@ -154,9 +154,9 @@ If you would like to store bearer tokens in the configuration file as encrypted 
 	emic) and use the encrypted tokens in configuration files.
 
 
-	Give the Essential bearer token to encrypt>>  **< essential bearer token here >**
-	Give the Academic bearer token to encrypt >>  **< academic bearer token here  >**
-	Give the local file to store the encryption key >> **etc/key**
+	Give the Essential bearer token to encrypt>>  < essential bearer token here >
+	Give the Academic bearer token to encrypt >>  < academic bearer token here  >
+	Give the local file to store the encryption key >> etc/key
 	
 	Please follow now the next step to complete the process:
 	
@@ -174,7 +174,7 @@ If you would like to store bearer tokens in the configuration file as encrypted 
    5. Make sure that the file storing the secret-key (file etc/key in the above scenario) is in a safe location and that is not versioned or shared with others. If you move this file to another location, you need to update the value of the ``encryptionKeyFile`` settings.	
 	
 <br/>
-	*NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
+	**NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.**
 <br/>
 <br/>
 <br/>
