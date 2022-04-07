@@ -145,7 +145,33 @@ TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the v
 ### Storing bearer tokens as encrypted text in the configuration file
 If you would like to store bearer tokens in the configuration file as encrypted text, you can use TwitterSearch to generate the secret-key and encrypt the tokens. To do this, follow the instructions below:
    1. Execute TwitterSearch (it doesn't matter what configuration file you'll use; you may don't use a configuration file at all)
-   2. On the command shell, type ``encryptBearer``	
+   2. On the command shell, type ``encryptBearer`` and hit enter.
+   3. This command will start the process of encrypt the bearer keys you have and 
+   ```
+   (v0.82){0}TwitterSearch >>encryptBearer
+   encryptBearer
+	This command allows you to encrypt the bearer tokens (Essential and Acad
+	emic) and use the encrypted tokens in configuration files.
+
+
+	Give the Essential bearer token to encrypt>>essential bearer token here
+	Give the Academic bearer token to encrypt >>academic bearer token here
+	Give the local file to store the encryption key >>etc/key
+	
+	Please follow now the next step to complete the process:
+	
+	Update the configuration file with the following settings:
+
+			essentialBearer =
+	                      gAAAAABiTwaFhYbk0sYn3oziakzNZDRvCwYEorQxKQwBoqZ0ztlJYbP9pro3Iggc2H7ILN3QtvuTDFFttllmdACki7kJ9aKwhdGUHuMYCjYvfR9E02Ciipk=
+			academicBearer = 
+	                      gAAAAABiTwaFj_-qjVU8G9xiYrCBx2PY2NAHxTxxQlrCFcegO2MdtAYdvscSO1qMRgInXkA9T2X0au40ZKyODuXgQfREQ2cpGKkKfP2e0kFqEIecmvYqFcU=
+			encryptionKeyFile = etc/key
+			bearerEncrypted = true
+
+
+        (v0.82){1}TwitterSearch >>
+   ```	
 
 *NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
 
