@@ -143,7 +143,9 @@ TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the v
 
 
 ### Storing bearer tokens as encrypted text in the configuration file
-
+If you would like to store bearer tokens in the configuration file as encrypted text, you can use TwitterSearch to generate the secret-key and encrypt the tokens. To do this, follow the instructions below:
+   1. Execute TwitterSearch (it doesn't matter what configuration file you'll use; you may don't use a configuration file at all)
+   2. On the command shell, type ``encryptBearer``	
 
 *NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
 
