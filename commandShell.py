@@ -563,7 +563,7 @@ class shellCommandExecutioner:
       #       This was done quickly.
       def help(self, a):
 
-            # Inner/nested function
+            # Inner/nested function. Move this to utils???
             def NLFormat(string, every=72):
                 lines = []
                 for i in range(0, len(string), every):
@@ -748,4 +748,81 @@ class shellCommandExecutioner:
           print('\tTarget search archive:', self.configuration.get('TwitterAPI', 'targetArchive', fallback="recent") )
           return(False)
 
+
+
+
+      def encryptBearer(self, a):
+
+          # Move this to utils?
+          def NLFormat(string, every=72):
+                lines = []
+                for i in range(0, len(string), every):
+                  lines.append('\t' + string[i:i+every])
+                return '\n'.join(lines)
+
+
+          try:
+            parser = ThrowingArgumentParser()
+            parser.add_argument('-V',  '--verify', action='store_true')
+            args = vars( parser.parse_args(a) )
+
+          except Exception as aEx:
+                 print('ERROR!')
+                 return(False)
+            
+          print( NLFormat('This command allows you to encrypt the bearer tokens (Essential and Academic) and use the encrypted tokens in configuration files.\n\n'))
+          
+          essB = input('\tGive the Essential bearer token to encrypt>>')
+          acaB = input('\tGive the Academic bearer token to encrypt >>')
+          
+          encK, encEssB = utils.encode( essB )
+          encAcaB = utils.encode2(encK, acaB)
+
+          #print('Encrypting....')
+          #print('Key:', encK, sep='')
+          #print('Encoded Essential Bearer Token:', encEssB, sep='')
+          #print('Encoded Academic Bearer Token:', encAcaB, sep='')
+
+          while True:
+             kF = input('\tGive the local file to store the encryption key >>')
+             if kF.strip() != '':
+                try:   
+                  keyFile = open(kF, "wt")
+                  n = keyFile.write(encK)
+                  keyFile.close()
+                  break
+                except Exception as wEx:
+                       print( str(wEx) )
+                       print('Could not write file [', kF, ']')
+                       continue
+                
+          print(NLFormat('\n\tPlease follow now the next step to complete the process:') )
+          
+          print(NLFormat('\n\tUpdate the configuration file with the following settings:') )
+          print('')
+          print(NLFormat('\t\tessentialBearer = ' + encEssB, every=1012) )
+          print(NLFormat('\t\tacademicBearer = ' + encAcaB, every=1012))
+          print(NLFormat('\t\tencryptionKeyFile = ' +  kF) )
+          print(NLFormat('\t\tbearerEncrypted = true') )
+          print('')
+          print('')
+          if args['verify']:
+             print('\tVerifying:')   
+             print('\t\tVerifying essential bearer....', end='')
+             if utils.decode( encK, encEssB ) == essB:
+                print('OK')
+             else:
+                print('ERROR')
+
+             print('\t\tVerifying academic bearer....', end='')
+             if utils.decode( encK, encAcaB ) == acaB:
+                print('OK')
+             else:
+                print('ERROR')
+             
+          #print('\tDecoded Essential Bearer:', utils.decode( encK, encEssB ), sep='')
+          #print('\tDecoded Academic Bearer:', utils.decode( encK, encAcaB ), sep='')
+
+          
+          return(False)
 

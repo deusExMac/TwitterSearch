@@ -71,12 +71,25 @@ class twitterSearchClient:
                     'next_token': {}}
         
         if sP =='' and  eP == '':
+           bearerToken = self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') 
+           if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
+              with open(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), 'r') as file:
+                   encKey = file.read().rstrip()
+              bearerToken = utils.decode( encKey, bearerToken )     
+               
            # This is a simple search
-           headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') )}
+           headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
         else:
-           # This is a period search 
-           headers = {"Authorization": "Bearer {}".format( self.configuration.get('TwitterAPI', 'Bearer', fallback='') )}
+           # This is a period search
+           
+           bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
+           if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
+              with open(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), 'r') as file:
+                   encKey = file.read().rstrip()
+              bearerToken = utils.decode( encKey, bearerToken )
+              
+           headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
            # Add two more params: the dates
            query_params['start_time'] = sP
@@ -132,7 +145,7 @@ class twitterSearchClient:
                 return(nW)
             
              totalTweetsDownloaded +=  amount
-             print(utils.fL(".(" + str(len(tweetsFetched)) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + " [Total:" +  str(totalTweetsDownloaded) + '] at ' + "{:.2f}".format( statistics.mean(self.downloadSpeeds) ) + ' tweets/sec', prefix='   ', every=53), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='' )
+             print(utils.fL(".(" + str(len(tweetsFetched)) + "/" +  str(nW) + "/" + str(totalTweetsDownloaded) + ") [Total:" +  str(totalTweetsDownloaded) + '] at ' + "{:.2f}".format( statistics.mean(self.downloadSpeeds) ) + ' tweets/sec', prefix='   ', every=53), clr=random.choice(['r', 'g', 'b', 'y', 'p', 'm', 'd' ]), sep='' )
              time.sleep( self.configuration.getfloat('Request', 'sleepTime', fallback=3.8)/2.0 )             
              return(totalTweetsDownloaded)
 
@@ -245,6 +258,7 @@ class twitterSearchClient:
         print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), ' (.)' )
         print("\tTweets saved as format:",  self.configuration.get('Storage', 'format', fallback=""))
         print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"))
+        print("\tBearer encrypted:",  self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False))
         print("\tConfiguration file loaded:",  self.configuration.get('__Runtime', '__configsource', fallback="???"), "\n" ) 
 
         # sleep some short amount to allow user to see the settings.
@@ -292,6 +306,7 @@ class twitterSearchClient:
         print("\tNumber of tweets to ask from endpoint per request:",  self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100), ' (.)' )
         print("\tTweets saved as format:",  self.configuration.get('Storage', 'format', fallback=""))
         print("\tTweets saved to csv file:",  self.configuration.get('Storage', 'csvFile', fallback="data.csv"))
+        print("\tBearer encrypted:",  self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False))
         print("\tConfiguration file loaded:",  self.configuration.get('__Runtime', '__configsource', fallback="???"), "\n" )
 
         # sleep some short amount to allow user to review the settings.

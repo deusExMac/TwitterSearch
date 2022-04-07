@@ -4,8 +4,30 @@ from datetime import datetime, timedelta
 import configparser
 import os
 
+# Encoding/decoding
+from cryptography.fernet import Fernet
 
 
+def encode(s):
+    enKey = Fernet.generate_key()
+    cipherSuite = Fernet(enKey)
+    encodedText = cipherSuite.encrypt(bytes(s, 'utf-8'))
+    return(enKey.decode('utf-8'), encodedText.decode('utf-8'))
+
+
+def encode2(k, s):    
+    cipherSuite = Fernet( bytes(k, 'utf-8')  )
+    encodedText = cipherSuite.encrypt(bytes(s, 'utf-8'))
+    return( encodedText.decode('utf-8'))
+
+
+def decode(k, s):
+    cipherSuite = Fernet( bytes(k, 'utf-8') )
+    return( cipherSuite.decrypt( bytes(s, 'utf-8') ).decode('utf-8') )
+      
+
+
+    
 
 
 #
