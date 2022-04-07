@@ -468,7 +468,45 @@ The application allows users to execute commands via the application's command s
     Target archive set to historic.
     {1}TwitterAPI v2 >>
     ```
+
+
+<br />
+	
+- ### encryptBearer 
+
+    Syntax: ``encryptBearer [-V]``
+
+    Allows encryption of bearer tokens. Encrypted bearer tokens may be used instead of plain text tokens. This is useful if configuration files need to be shared with other users and developers. The output of the encryptBearer command should be used to update the configuration file.
     
+    - ``[-V]`` Verify. Makes sure that the encrypted bearer tokens can be properly decrypted.
+        
+    
+    #### encryptBearer example
+    ```
+   (v0.82){0}TwitterSearch >>encryptBearer
+   encryptBearer
+	This command allows you to encrypt the bearer tokens (Essential and Acad
+	emic) and use the encrypted tokens in configuration files.
+
+
+	Give the Essential bearer token to encrypt>>  < essential bearer token here >
+	Give the Academic bearer token to encrypt >>  < academic bearer token here  >
+	Give the local file to store the encryption key >> etc/key
+	
+	Please follow now the next step to complete the process:
+	
+	Update the configuration file with the following settings:
+
+			essentialBearer = gAAAAABiTwaFhYbk0sYn3oz7kJ9aKwhdGUHuMYCjYvfR9E02Ciipk=
+			academicBearer =  gAAAAABiTwaFj_-qjVUInXkA9T2X0au40ZKyODuXgQfREQ2cpGKkKfP2e0kFqEIecmvYqFcU=
+			encryptionKeyFile = etc/key
+			bearerEncrypted = true
+
+
+   (v0.82){1}TwitterSearch >>
+   ```	
+	
+	
 - ### !< integer > 
 
   Syntax: ``!< integer > ``
