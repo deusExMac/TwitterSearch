@@ -112,7 +112,7 @@ The settings that need to be set with valid values before the execution of Twitt
 ### Bearer tokens
 While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the **settings related to the Twitter bearer tokens**. This is because valid bearer tokens are required to make successful requests to Twitter's v2 API endpoints. In the current version, the only way to set the bearer tokens is via the configuration file. Keep in mind that ***if no valid bearer token is provided, all Twitter API requests will result in an error.*** 
 
-TwitterSearch permits storing Twitter bearer tokens in the configuration file as plain text or as encrypted text. Storing bearer tokens as encrypted text may come handy if the configuration files has to be shared with others.
+TwitterSearch permits storing Twitter bearer tokens in the configuration file as plain text or as encrypted text. The later  may come in handy if the configuration files has to be shared with others. Below you'll find instructions on how to store tokens as plain as well as encrypted text.
 
 In the configuration file, settings related to bearer tokens can be found in the [TwitterAPI] section and are the following:
 
