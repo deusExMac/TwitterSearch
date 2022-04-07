@@ -109,8 +109,10 @@ You may open and edit the configuration file with your favorite text editor. The
 
 The settings that need to be set with valid values before the execution of TwitterSearch, in order to guarantee its correct working, are related to the bearer tokens. 
 
-### Bearer token settings
+### Bearer tokens
 While a more detailed description of the available configuration settings can be found in section [Configuration files](#Configuration-File), the absolute necessary ones that need to be properly set before executing the app, are the **settings related to the Twitter bearer tokens**. This is because valid bearer tokens are required to make successful requests to Twitter's v2 API endpoints. In the current version, the only way to set the bearer tokens is via the configuration file. Keep in mind that ***if no valid bearer token is provided, all Twitter API requests will result in an error.*** 
+
+TwitterSearch permits storing Twitter bearer tokens in the configuration file as plain text or as encrypted text. Storing bearer tokens as encrypted text may come handy if the configuration files has to be shared with others.
 
 In the configuration file, settings related to bearer tokens can be found in the [TwitterAPI] section and are the following:
 
@@ -119,7 +121,8 @@ essentialBearer = <value of essential bearer token>
 academicBearer = <value of academic bearer token>
 Bearer = <value of bearer token actually used>
 targetArchive = [recent | historic]
-bearerEncrypted = [true | false]	
+bearerEncrypted = [true | false]
+encryptionKeyFile = <path to file containing encryption key>	
 ```
 
 These configuration settings have the following role in the context of TwitterSearch:
@@ -130,7 +133,8 @@ These configuration settings have the following role in the context of TwitterSe
 - `targetArchive`: Specifies in which archive the search should be conducted. Takes one of two values: ‘recent’ or ‘historic’. Value ‘recent’ means that the search will be conducted in the recent archive (i.e. tweets published in the last 5 days) and hence the essential bearer token will be used while ‘historic’ means that the search will be conducted on all tweets ever published since the beginning of Twitter and the academic bearer token will be used. This means that the value of ``targetArchive`` determines the bearer token that will be used during requests. During startup, the application reads the value of ``targetArchive`` and sets the value of setting Bearer to the proper token value (copying it from essentialBearer or academicBearer setting) in order to ensure consistency. You may change the value of ``targetArchive`` either by editing the configuration file or during runtime via the `set -G` command using the application's shell (see section [Supported shell commands](#supported-shell-commands) ).
 ``bearerEncrypted``: Specifies if the token values in settings ``essentialBearer`` and ``academicBearer`` in this configuration file are encrypted or not. If this value is true, the bearer tokens are encrypted and need to be decrypted before being part of any request to Twitter v2 API endpoints. If this value is false, the bearer tokens are not encrypted and can be used as-is as part of requests. TwitterSearch supports secret-key symmetric encryption. If you want to encrypt all bearer keys (essentialBearer and academicBearer) see [TODO](#TODO...) 
 
-What are the minimum required settings to be configured: 
+### Storing bearer tokens as plain text (i.e. not encrypted)	
+
 - If you have a valid essential token, set the value of setting ``essentialBearer`` to the value of the essential token you got from your Twitter developer account and the value of setting ``targetArchive`` to ‘recent’ . This means that all requests will be directed to the recent archive. **This is the minimum settings that need to have proper values in order for TwitterSearch to work correctly.**
 - If you have a valid academic token, set the value of setting ``academicBearer`` to the value of the academic token you have and the value of setting ``targetArchive`` to ‘historic’. 
 - If you have a valid essential and academic bearer token, set the values of ``essentialBearer`` and ``academicBearer`` to the respective token and  the value of ``targetArchive`` to either ‘recent’ or ‘historic’ to specify the bearer token to use.  
