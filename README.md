@@ -146,7 +146,7 @@ TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the v
 If you would like to store bearer tokens in the configuration file as encrypted text, you can use TwitterSearch to generate the secret-key and encrypt the tokens. To do this, follow the instructions below:
    1. Execute TwitterSearch (it doesn't matter what configuration file you'll use; you may don't use a configuration file at all)
    2. On the command shell, type ``encryptBearer`` and hit enter.
-   3. This command will start the process of encrypt the bearer keys you have and 
+   3. This command will start the process of generating a secret-key and encrypt with it the bearer tokens. TwitterSearch will ask for the essential and academic tokens and a local file name to store the generated secret (emcryption) key. These steps are show below:   
    ```
    (v0.82){0}TwitterSearch >>encryptBearer
    encryptBearer
@@ -154,8 +154,8 @@ If you would like to store bearer tokens in the configuration file as encrypted 
 	emic) and use the encrypted tokens in configuration files.
 
 
-	Give the Essential bearer token to encrypt>>essential bearer token here
-	Give the Academic bearer token to encrypt >>academic bearer token here
+	Give the Essential bearer token to encrypt>>  < essential bearer token here >
+	Give the Academic bearer token to encrypt >>  < academic bearer token here  >
 	Give the local file to store the encryption key >>etc/key
 	
 	Please follow now the next step to complete the process:
@@ -172,9 +172,12 @@ If you would like to store bearer tokens in the configuration file as encrypted 
 
         (v0.82){1}TwitterSearch >>
    ```	
-
-*NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
-
+   4. Open the configuration file and update the values of the settings displayed to the exact values displayed. 
+   5. Make sure that the file specified to store the secret-key is a folder that is not versioned or shared with others.	
+	
+<br/>
+	*NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
+<br/>
 
 
 ## Running TwitterSearch
