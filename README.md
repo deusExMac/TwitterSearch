@@ -146,7 +146,7 @@ TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the v
 If you would like to store bearer tokens in the configuration file as encrypted text, you can use TwitterSearch to generate the secret-key and encrypt the tokens. To do this, follow the instructions below:
    1. Execute TwitterSearch (it doesn't matter what configuration file you'll use; you may don't use a configuration file at all)
    2. On the command shell, type ``encryptBearer`` and hit enter.
-   3. This command will start the process of generating a secret-key and encrypt with it the bearer tokens. TwitterSearch will ask for the essential and academic tokens and a local file name to store the generated secret (emcryption) key. These steps are show below:   
+   3. This command will start the process of generating a secret-key and encrypt with it the bearer tokens. TwitterSearch will ask for the essential and academic tokens and a local file name to store the generated secret (emcryption) key. These steps are shown below:   
    ```
    (v0.82){0}TwitterSearch >>encryptBearer
    encryptBearer
@@ -170,8 +170,8 @@ If you would like to store bearer tokens in the configuration file as encrypted 
 
    (v0.82){1}TwitterSearch >>
    ```	
-   4. Open the configuration file and update the values of the settings displayed to the exact values displayed. 
-   5. Make sure that the file storing the secret-key is in a safe location and that is not versioned or shared with others.	
+   4. Open the configuration file and update the values of the settings mentioned in the output of encryptBearer to the exact same values displayed. 
+   5. Make sure that the file storing the secret-key (file etc/key in the above scenario) is in a safe location and that is not versioned or shared with others. If you move this file to another location, you need to update the value of the ``encryptionKeyFile`` settings.	
 	
 <br/>
 	*NOTE: I'm sorry if this sounds complicated; This model needs to be definitely redesigned in future versions.*
