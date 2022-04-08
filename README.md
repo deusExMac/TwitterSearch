@@ -39,7 +39,9 @@ This is experimental and has been created hastily. Has not been tested thoroughl
     + [!< string >](#string)
       - [! < string > example](#-example-1)
     + [! !](#-)
-      - [! ! example](#-example-2) 
+      - [! ! example](#-example-2)
+    + [ ^ ](#circumflex-accent-)
+      - [ ^ example ](#circumflex-accent--example) 
 
 
 	
