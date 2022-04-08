@@ -34,6 +34,7 @@ This is experimental and has been created hastily. Has not been tested thoroughl
     + [set](#set)
       - [set example](#set-example)
     + [encryptBearer](#encryptbearer)
+      - [encryptBearer example](#encryptbearer-example)
     + [!< integer >](#--integer)
       - [! < integer > example](#-example)
     + [!< string >](#string)
