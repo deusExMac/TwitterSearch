@@ -8,6 +8,33 @@ This is experimental and has been created hastily. Has not been tested thoroughl
 
 
 
+# TOC
+- [TwitterSearch](#twittersearch)
+- [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
+- [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
+  * [Preparing the configuration file](#preparing-the-configuration-file)
+    + [Why the need to prepare the configuration file](#why-the-need-to-prepare-the-configuration-file)
+    + [Bearer tokens](#bearer-tokens)
+    + [Storing bearer tokens as plain text (i.e. not encrypted) in the configuration file](#storing-bearer-tokens-as-plain-text--ie-not-encrypted--in-the-configuration-file)
+    + [Storing bearer tokens as encrypted text in the configuration file](#storing-bearer-tokens-as-encrypted-text-in-the-configuration-file)
+  * [Running TwitterSearch](#running-twittersearch)
+  * [Supported shell commands](#supported-shell-commands)
+    + [get](#get)
+      - [get example](#get-example)
+    + [search](#search)
+      - [search example](#search-example)
+    + [config](#config)
+      - [config example](#config-example)
+    + [reload](#reload)
+      - [reload example](#reload-example)
+    + [history (or h)](#history--or-h-)
+      - [history example](#history-example)
+    + [showcsv](#showcsv)
+      - [showcsv example](#showcsv-example)
+    + [set](#set)
+      - [set example](#set-example)
+    + [encryptBearer](#encryptbearer)
+
 
 	
 
