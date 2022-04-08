@@ -53,7 +53,7 @@ I'm a uni professor and we are known to poorly design and implement software as 
  * [Acknowledgements](#acknowledgements)
  * [Contact](#contact)
 
-<sub>This ToC has been created using the following tool: https://ecotrust-canada.github.io/markdown-toc/ </sub>
+<sub>This ToC has been created using the following GitHub Wiki TOC generator: https://ecotrust-canada.github.io/markdown-toc/ </sub>
 
 <br />
 <br />	
