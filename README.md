@@ -43,6 +43,11 @@ This is experimental and has been created hastily. Has not been tested thoroughl
       - [! ! example](#-example-2)
     + [ ^ ](#circumflex-accent-)
       - [ ^ example ](#circumflex-accent--example) 
+    + [help](#help)
+      - [help example](#help-example)
+ 
+ * [Other Related Projects](#other-related-projects)
+ * [Acknowledgements](#acknowledgements)
 
 
 	
