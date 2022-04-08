@@ -570,7 +570,7 @@ The application allows users to execute commands via the application's command s
 
 
 
-- ### !!
+- ### ! !
 
   Syntax: ``!!``
 
