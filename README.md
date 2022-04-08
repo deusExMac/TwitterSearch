@@ -35,11 +35,11 @@ This is experimental and has been created hastily. Has not been tested thoroughl
       - [set example](#set-example)
     + [encryptBearer](#encryptbearer)
     + [!< integer >](#--integer)
-      - [! < integer >](#-example)
+      - [! < integer > example](#-example)
     + [!< string >](#string)
-      - [! < string >](#-example-1)
+      - [! < string > example](#-example-1)
     + [! !](#-)
-      - [! !](#-example-2) 
+      - [! ! example](#-example-2) 
 
 
 	
@@ -611,7 +611,7 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ### ^ 
+- ### circumflex accent (^)
 
   Syntax: ``^<substring>^<replacement>``
 
