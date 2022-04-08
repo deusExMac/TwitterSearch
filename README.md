@@ -44,7 +44,7 @@ I'm a uni professor and we are known to poorly design and implement software as 
       - [! < string > example](#-example-1)
     + [! !](#-)
       - [! ! example](#-example-2)
-    + [ ^ ](#circumflex-accent-)
+    + [ ^ (circumflex accent](#circumflex-accent-)
       - [ ^ example ](#circumflex-accent--example) 
     + [help](#help)
       - [help example](#help-example)
