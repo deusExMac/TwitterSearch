@@ -2,3 +2,4 @@ sensitiveFiles/
 *.txt
 .history
 etc/
+*.csv
