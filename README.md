@@ -4,7 +4,7 @@ A simple python program to query and fetch tweets using using the [v2 of the Twi
 
 This is experimental and has been created in a hurry. It has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
 
-I'm a uni professor and we are known to poorly design and implement software as someone famously said [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).
+<sub> I'm a uni professor and we are known to poorly design and implement software as someone famously said [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html). </sub>
 
 
 
