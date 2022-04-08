@@ -24,9 +24,8 @@
 
 
 
-import os
-import os.path
 import sys
+import os
 
 import configparser
 import argparse
@@ -192,25 +191,16 @@ def generateDefaultConfiguration():
 def setTargetArchive(cfg, md):
     if md.lower() == "recent":
        if 'TwitterAPI' in cfg.sections():
-           cfg.set('TwitterAPI', 'apiEndPoint', cfg.get('TwitterAPI', 'recentApiEndPoint', fallback='XXXXX') )
-           #cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['recentApiEndPoint']
-
-           cfg.set('TwitterAPI', 'bearer', cfg.get('TwitterAPI', 'essentialBearer', fallback='YYYYYY') )
-           #cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['essentialBearer']
-
+           cfg.set('TwitterAPI', 'apiEndPoint', cfg.get('TwitterAPI', 'recentApiEndPoint', fallback='XXXXX') )           
+           cfg.set('TwitterAPI', 'bearer', cfg.get('TwitterAPI', 'essentialBearer', fallback='YYYYYY') )           
            cfg.set('TwitterAPI', 'targetArchive', 'recent')
-           #cfg['TwitterAPI']['targetArchive'] = 'recent'
+           
            print("\tTarget archive set to recent.")
            return(0)
     elif  md.lower() == "historic":
-          cfg.set('TwitterAPI', 'apiEndPoint', cfg.get('TwitterAPI', 'historicApiEndPoint', fallback='ZZZZZZ') )
-          #cfg['TwitterAPI']['apiEndPoint'] =  cfg['TwitterAPI']['historicApiEndPoint']
-
-          cfg.set('TwitterAPI', 'bearer', cfg.get('TwitterAPI', 'academicBearer', fallback='AAAAAA') )
-          #cfg['TwitterAPI']['bearer'] =  cfg['TwitterAPI']['academicBearer']
-
-          cfg.set('TwitterAPI', 'targetArchive', 'historic' )
-          #cfg['TwitterAPI']['targetArchive'] = 'historic'
+          cfg.set('TwitterAPI', 'apiEndPoint', cfg.get('TwitterAPI', 'historicApiEndPoint', fallback='ZZZZZZ') )          
+          cfg.set('TwitterAPI', 'bearer', cfg.get('TwitterAPI', 'academicBearer', fallback='AAAAAA') )          
+          cfg.set('TwitterAPI', 'targetArchive', 'historic' )          
           print("\tTarget archive set to historic.")
           return(0)
     else:
@@ -238,7 +228,9 @@ def setTargetArchive(cfg, md):
 
 ######################################################################
 #
+#
 # Program starts here
+#
 #
 ######################################################################
 
@@ -255,8 +247,9 @@ configFile = args['config']
 print('')
 print('Python v', sys.version)
 print("")      
-        
 print('TwitterSearch v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
+
+
 
 # Note: We use .RawConfigParser() because some configuration strings contain special chars like % that
 #       have special meaning for the ConfigParser class
@@ -264,6 +257,7 @@ configSettings = configparser.RawConfigParser(allow_no_value=True)
 
  
 print('\tLoading configuration file [', configFile, ']........', sep='', end='')
+
 # Load config file
 if not os.path.exists(configFile):
    print("ERROR. File not found. Continuing with default settings.", sep="")
@@ -293,8 +287,11 @@ if sts != 0:
 
 print("\nType 'help' to see a list of supported commands.\n")
 
+
+
 # Everything looks fine. Start the TwitterSearch command shell through which the user
 # may execute commands.
+# Control is now transferred to the shell
 appShell = commandShell.commandShell( configSettings )
 appShell.startShell()
 
