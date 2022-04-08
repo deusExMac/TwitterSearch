@@ -7,53 +7,6 @@ This is experimental and has been created hastily. Has not been tested thoroughl
 (https://ecotrust-canada.github.io/markdown-toc/)
 
 
-#TOC
-
-- [TwitterSearch](#twittersearch)
-- [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
-- [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
-  * [Preparing the configuration file](#preparing-the-configuration-file)
-    + [Why the need to prepare the configuration file](#why-the-need-to-prepare-the-configuration-file)
-    + [Bearer token settings](#bearer-token-settings)
-  * [Running TwitterSearch](#running-twittersearch)
-  * [Supported shell commands](#supported-shell-commands)
-    + [get](#get)
-      - [get example](#get-example)
-    + [search](#search)
-      - [search example](#search-example)
-    + [config](#config)
-      - [config example](#config-example)
-    + [reload](#reload)
-      - [reload example](#reload-example)
-    + [history (or h)](#history--or-h-)
-      - [history example](#history-example)
-    + [showcsv](#showcsv)
-      - [showcsv example](#showcsv-example)
-    + [set](#set)
-      - [set example](#set-example)
-    + [!< integer >](#---integer--)
-      - [!<index> example](#--index--example)
-    + [!< string >](#---string--)
-      - [!<string> Example](#--string--example)
-    + [!!](#--)
-      - [!! example](#---example)
-    + [^](#-)
-      - [^ example](#--example)
-    + [quit (or q)](#quit--or-q-)
-      - [quit example](#quit-example)
-    + [help](#help)
-      - [help example](#help-example)
-- [Configuration file](#configuration-file)
-  * [Section General](#section-general)
-  * [Section Network](#section-network)
-  * [Section TwitterAPI](#section-twitterapi)
-  * [Section Request](#section-request)
-  * [Section Storage](#section-storage)
-  * [Section Shell](#section-shell)
-  * [Section Debug](#section-debug)
-- [Other related projects](#other-related-projects)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
 
 
 	
@@ -507,7 +460,7 @@ The application allows users to execute commands via the application's command s
    ```	
 	
 	
-- ### !< integer > 
+- ### !  integer
 
   Syntax: ``!< integer > ``
 
@@ -546,7 +499,7 @@ The application allows users to execute commands via the application's command s
   ```
 
 
-- ### !< string >
+- ### !string
 
   Syntax: ``!< string > ``
 
