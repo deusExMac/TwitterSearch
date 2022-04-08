@@ -59,7 +59,7 @@ In order to succesfully execute the application, the following is required:
 
 1.  A **Twitter bearer token**.
 	
-    TwitterSearch uses a so-called application-only authenttication, which is a way of securely identify the application using features of the supported OAuth 2.0 authentication. You can get a free (of type "essential") bearer token by creating a Twitter developer account which is also free and registering your project. Bearer tokens in essence identify a project. Instructions on how to create a Twitter developer account can be found here https://developer.twitter.com/en/support/twitter-api/developer-account while instructions on how to create a project (aka application using Twitter v2 API) can be found here https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2 . 
+    TwitterSearch uses a so-called application-only authentication, which is a way of securely identifying the application using features of the supported OAuth 2.0 authentication. Application-only authentication requires the use of a so-called Twitter bearer token. You can get a free (of type "essential") bearer token by creating a Twitter developer account which is also free and registering your project. Bearer tokens in essence authenticate and identify a project. Instructions on how to create a Twitter developer account can be found here https://developer.twitter.com/en/support/twitter-api/developer-account while instructions on how to create a project (aka application using Twitter v2 API) can be found here https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2 . 
 The Twitter bearer token is a unique string value that identifies your (registered) application/project and is a mechanism for a secure access to the v2 TWitter API. A valid bearer token is required as it sent along with any request the application makes to the v2 Twitter API endpoints (e.g. such as for querying tweets). 
 
     Twitter offers 3 different types of bearer tokens (this might be a little bit outdated and needs to be rechecked) each of which enables access to different Twitter resources and imposes different constraints related to e.g.  number of tweets that can be downloaded per month, number of requests directed to endpoints per minute etc. The three types of bearer tokens supported are:
@@ -750,7 +750,7 @@ For more information on Twitter fields and Twitter's object model see: https://d
 
 # Acknowledgements
 
-The code developed in this repository was based on the source code presented in the following article:
+The code developed in this project was based on the source code presented in the following article:
 https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
 
 
