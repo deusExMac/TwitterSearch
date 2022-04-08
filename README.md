@@ -48,9 +48,10 @@ This is experimental and has been created hastily. Has not been tested thoroughl
  
  * [Other Related Projects](#other-related-projects)
  * [Acknowledgements](#acknowledgements)
+ * [Contact](#contact)
 
-
-	
+<br />
+<br />	
 
 # Prerequisites: Before you execute TwitterSearch 
 
