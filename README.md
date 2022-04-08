@@ -2,13 +2,16 @@
  
 A simple python program to query and fetch tweets using using the [v2 of the Twitter API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
 
-This is experimental and has been created hastily. Has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
+This is experimental and has been created in a hurry. It has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
+
+I'm a uni professor and we are known to poorly design and implement software as someone famously said [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).
 
 (https://ecotrust-canada.github.io/markdown-toc/)
 
 
 
-# TOC
+# Table of Contents
+
 - [TwitterSearch](#twittersearch)
 - [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
@@ -69,7 +72,7 @@ The Twitter bearer token is a unique string value that identifies your (register
     - *Commercial bearer token*: I'm not knowledgeable enough to talk about this kind of bearer token. I've seen it mentioned but i do not know what constraints are associated with it. (TODO: URL to commercial token info)
   
   
-    Once you have a valid Twitter bearer token, you need to add it to the application's configuration file twitterSearch.conf  (yes, i know it's very bad practice but i'm a uni professor and we a known to do things sloppy or as someone famously said *"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."* See https://www.oreilly.com/openbook/opensources/book/appa.html). See the section [Preparing the configuration file](#preparing-the-configuration-file) on where exactly to put the bearer value(s) you have.
+    Once you have valid Twitter bearer tokens, you need to update specific settings in the application's configuration file twitterSearch.conf . See the section [Preparing the configuration file](#preparing-the-configuration-file) on which configuration settings to set.
 
 <br/>
 <br/>
