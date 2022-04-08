@@ -617,7 +617,7 @@ The application allows users to execute commands via the application's command s
 
   In the last command executed, replace all instances of <suubstring> with <replacement> and execute new command.
 
-  #### ^ example
+  #### circumflex accent (^) example
   
   ```
   {0}TwitterAPI v2 >>h
