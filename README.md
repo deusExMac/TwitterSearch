@@ -6,7 +6,7 @@ This is experimental and has been created in a hurry. It has not been tested tho
 
 I'm a uni professor and we are known to poorly design and implement software as someone famously said [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).
 
-(https://ecotrust-canada.github.io/markdown-toc/)
+
 
 
 
@@ -52,6 +52,8 @@ I'm a uni professor and we are known to poorly design and implement software as 
  * [Other Related Projects](#other-related-projects)
  * [Acknowledgements](#acknowledgements)
  * [Contact](#contact)
+
+This ToC has been created using the following tool: https://ecotrust-canada.github.io/markdown-toc/
 
 <br />
 <br />	
