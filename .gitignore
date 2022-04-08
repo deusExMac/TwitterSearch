@@ -3,3 +3,4 @@ sensitiveFiles/
 .history
 etc/
 *.csv
+*.pyc
