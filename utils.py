@@ -20,6 +20,12 @@ def encrypt2(k, s):
     encodedText = cipherSuite.encrypt(bytes(s, 'utf-8'))
     return( encodedText.decode('utf-8'))
 
+
+
+
+
+
+
 # Decrypt using key
 def decrypt(k, s):
     cipherSuite = Fernet( bytes(k, 'utf-8') )
