@@ -40,7 +40,8 @@ class twitterSearchClient:
     # Do the actual query to the endpoint - used for simple and period queries.
     # ALso, uses the appriate writer to process the downloaded tweets.
     # 
-    # TODO: Refactor this method. It's ugly
+    # TODO: This metho needs refactoring.It has become big and ugly.
+    #       It has too many responsibilities.
     #
     def __qryGENERIC(self, q, sP, eP):
         
@@ -71,23 +72,23 @@ class twitterSearchClient:
                     'next_token': {}}
         
         if sP =='' and  eP == '':
+           # This is a simple search 
            bearerToken = self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') 
            if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
               with open(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), 'r') as file:
                    encKey = file.read().rstrip()
-              bearerToken = utils.decode( encKey, bearerToken )     
+              bearerToken = utils.decrypt( encKey, bearerToken )     
                
-           # This is a simple search
            headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
         else:
            # This is a period search
-           
            bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
            if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
+               
               with open(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), 'r') as file:
                    encKey = file.read().rstrip()
-              bearerToken = utils.decode( encKey, bearerToken )
+              bearerToken = utils.decrypt( encKey, bearerToken )
               
            headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
@@ -281,6 +282,7 @@ class twitterSearchClient:
             utils.currentLineChars = 0 # Do we need this???
             utils.clc = 0
           except Exception as ex:
+              #print( str(ex) )
               eC, eM = ex.args
               if eC == -69: #This was a keyboard interrupt.
                  eObj = json.loads(eM)

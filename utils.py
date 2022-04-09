@@ -7,25 +7,41 @@ import os
 # Encoding/decoding
 from cryptography.fernet import Fernet
 
-
-def encode(s):
+# Encrypt generating new key
+def encrypt(s):
     enKey = Fernet.generate_key()
     cipherSuite = Fernet(enKey)
     encodedText = cipherSuite.encrypt(bytes(s, 'utf-8'))
     return(enKey.decode('utf-8'), encodedText.decode('utf-8'))
 
-
-def encode2(k, s):    
+# Encrypt using existing key
+def encrypt2(k, s):    
     cipherSuite = Fernet( bytes(k, 'utf-8')  )
     encodedText = cipherSuite.encrypt(bytes(s, 'utf-8'))
     return( encodedText.decode('utf-8'))
 
-
-def decode(k, s):
+# Decrypt using key
+def decrypt(k, s):
     cipherSuite = Fernet( bytes(k, 'utf-8') )
     return( cipherSuite.decrypt( bytes(s, 'utf-8') ).decode('utf-8') )
-      
 
+
+# Decrypt using file (kFile) containing the key
+def kFileDecrypt(kFile, s):
+    if not os.path.exists( kFile ):
+       raise Exception(-9, '{"message":"no such file [' +  kFile +'] "}')
+
+    # read the key. We assume the file contains a single line with the key
+    # value.
+    with open(kFile, 'r') as file:
+         encKey = file.read().rstrip()
+
+    try:
+       decodedMsg = utils.decode( encKey, s )
+       return(decodedMsg)
+    except Exception as decEx:
+       raise Exception(-9, '{"message":"Error decrypting string."}') 
+       return(None) 
 
     
 

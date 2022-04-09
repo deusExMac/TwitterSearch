@@ -775,8 +775,8 @@ class shellCommandExecutioner:
           essB = input('\tGive the Essential bearer token to encrypt>>')
           acaB = input('\tGive the Academic bearer token to encrypt >>')
           
-          encK, encEssB = utils.encode( essB )
-          encAcaB = utils.encode2(encK, acaB)
+          encK, encEssB = utils.encrypt( essB )
+          encAcaB = utils.encrypt2(encK, acaB)
 
           #print('Encrypting....')
           #print('Key:', encK, sep='')
@@ -809,13 +809,13 @@ class shellCommandExecutioner:
           if args['verify']:
              print('\tVerifying:')   
              print('\t\tVerifying essential bearer....', end='')
-             if utils.decode( encK, encEssB ) == essB:
+             if utils.decrypt( encK, encEssB ) == essB:
                 print('OK')
              else:
                 print('ERROR')
 
              print('\t\tVerifying academic bearer....', end='')
-             if utils.decode( encK, encAcaB ) == acaB:
+             if utils.decrypt( encK, encAcaB ) == acaB:
                 print('OK')
              else:
                 print('ERROR')
