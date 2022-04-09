@@ -13,7 +13,7 @@ This is experimental and has been created in a hurry. It has not been tested tho
 # Table of Contents
 
 - [TwitterSearch](#twittersearch)
-- [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
+- [Prerequisites: Before you execute TwitterSearch](#prerequisites-before-you-execute-twittersearch)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
   * [Preparing the configuration file](#preparing-the-configuration-file)
     + [Why the need to prepare the configuration file](#why-the-need-to-prepare-the-configuration-file)
