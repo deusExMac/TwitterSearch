@@ -72,24 +72,20 @@ class twitterSearchClient:
                     'next_token': {}}
         
         if sP =='' and  eP == '':
-           # This is a simple search 
-           bearerToken = self.configuration.get('TwitterAPI', 'essentialBearer', fallback='') 
+           # This is a simple search
+           
+           bearerToken = self.configuration.get('TwitterAPI', 'essentialBearer', fallback='')
            if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
-              with open(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), 'r') as file:
-                   encKey = file.read().rstrip()
-              bearerToken = utils.decrypt( encKey, bearerToken )     
-               
+              bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
+
            headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
         else:
            # This is a period search
            bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
            if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
-               
-              with open(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), 'r') as file:
-                   encKey = file.read().rstrip()
-              bearerToken = utils.decrypt( encKey, bearerToken )
-              
+              bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
+      
            headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
            # Add two more params: the dates
@@ -283,10 +279,14 @@ class twitterSearchClient:
             utils.clc = 0
           except Exception as ex:
               #print( str(ex) )
-              eC, eM = ex.args
-              if eC == -69: #This was a keyboard interrupt.
-                 eObj = json.loads(eM)
-                 totalTweets += int(eObj["downloaded"])
+              if len(ex.args) < 2:
+                 print('\n[ERROR]', ex.args[0], sep='') 
+              else:    
+                 eC, eM = ex.args
+                 if eC == -69: #This was a keyboard interrupt.
+                    eObj = json.loads(eM)
+                    totalTweets += int(eObj["downloaded"])
+
               break   
 
         return( totalTweets )
@@ -315,7 +315,13 @@ class twitterSearchClient:
         time.sleep( 2.3 )
 
         self.downloadSpeeds.clear()
-        return( self.__qryGENERIC(q, '', '') )
+        try:
+         nTweets = self.__qryGENERIC(q, '', '')
+         return(nTweets)
+        except Exception as qEx:    
+        #return( self.__qryGENERIC(q, '', '') )
+               print( str(qEx) )
+               return(-7)
 
 
 

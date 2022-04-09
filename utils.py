@@ -35,18 +35,19 @@ def decrypt(k, s):
 # Decrypt using file (kFile) containing the key
 def kFileDecrypt(kFile, s):
     if not os.path.exists( kFile ):
-       raise Exception(-9, '{"message":"no such file [' +  kFile +'] "}')
+       raise Exception(-9, '{"message":"no such key file [' +  kFile +'] "}')
 
     # read the key. We assume the file contains a single line with the key
     # value.
     with open(kFile, 'r') as file:
          encKey = file.read().rstrip()
 
+    #print('Encryption key:', encKey)
     try:
-       decodedMsg = utils.decode( encKey, s )
+       decodedMsg = decrypt( encKey, s )
        return(decodedMsg)
     except Exception as decEx:
-       raise Exception(-9, '{"message":"Error decrypting string."}') 
+       raise Exception(-9, '{"message":"Error decrypting string. Unmatched key?"}') 
        return(None) 
 
     
