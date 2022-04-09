@@ -117,8 +117,8 @@ TwitterSearch permits storing Twitter bearer tokens in the configuration file as
 In the configuration file, settings related to bearer tokens can be found in the [TwitterAPI] section and are the following:
 
 ```
-essentialBearer = <value of essential bearer token>
-academicBearer = <value of academic bearer token>
+essentialBearer = <value of essential bearer token - in plain text form or encrypted>
+academicBearer = <value of academic bearer token - in plain text form or encrypted>
 Bearer = <value of bearer token actually used>
 targetArchive = [recent | historic]
 bearerEncrypted = [true | false]
