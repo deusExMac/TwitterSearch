@@ -48,6 +48,18 @@ class commandHistory:
           return( self.commandHistory[-1] )  
       
 
+      
+      def getLastN(self, n):
+          if len(self.commandHistory) <= n:
+             startPos = 0    
+          else:
+             startPos = len(self.commandHistory) - n
+
+          return( self.commandHistory[startPos:] )   
+
+
+
+
       def getLastStartingWith(self, strt):
 
           if len(strt) == 0:

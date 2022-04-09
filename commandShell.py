@@ -143,6 +143,22 @@ class commandShell:
               #       That's because the cHistory object is instantiated here
               # TODO: Check if there is a better design?
               if cParts[0] == 'history' or   cParts[0] == 'h':
+                 hArgs = ThrowingArgumentParser()
+                 hArgs.add_argument('ncommands', nargs=argparse.REMAINDER, default='-1')
+                 args = vars( hArgs.parse_args(cParts[1:]) )
+                 
+                 if len(args['ncommands']) == 0:
+                    #cList = self.cmdHistory.getLastN( len(self.cmdHistory.commandHistory) )
+                    n = len(self.cmdHistory.commandHistory) 
+                 else:
+                      try:
+                         n = int( args['ncommands'][0] )   
+                      except Exception as convEx:
+                            n = 0
+
+                 # TODO: test this 
+                 print('Getting last:', n)           
+                 cList = self.cmdHistory.getLastN(n)           
                  self.cmdHistory.printHistory()
                  continue 
 
