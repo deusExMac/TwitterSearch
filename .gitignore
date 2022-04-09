@@ -4,3 +4,4 @@ sensitiveFiles/
 etc/
 *.csv
 *.pyc
+__pycache__/
