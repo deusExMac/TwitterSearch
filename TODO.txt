@@ -1,11 +1,9 @@
-# 12/03/2022
-Change search command to execute new way of handling periods). I.e rename searchtweets 
-to search
-Test history class
+
 
 # 11/03/2022
  
-Refactor the code at some places
-Test the new way of how periods are supported.
-Testing the argument parsing
-Checking how date ranges behave in queries, especially at the margins! 
+Refactor code at some places
+Proper logging.
+Testing how date ranges behave in queries, especially at the margins.
+Twitter fields
+Test more query operators 
