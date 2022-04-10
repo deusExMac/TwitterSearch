@@ -53,8 +53,8 @@ class twitterSearchClient:
         from clrprint import clrprint as print
 
         #
-        # TODO: redesign the code immediately following
-        #
+        # TODO: redesign the code immediately following.
+        #       e.g. add a method prepareParams(...) doing the job 
         
         next_token = None
 
@@ -82,10 +82,11 @@ class twitterSearchClient:
            search_url = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
         else:
            # This is a period search
-           bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
+           bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='')
            if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
               bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
-      
+              
+              
            headers = {"Authorization": "Bearer {}".format( bearerToken )}
            search_url = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
            # Add two more params: the dates

@@ -81,6 +81,26 @@ class commandShell:
           return(cmd)  
 
 
+      def displayCommandHistory(self, n, fromBegin=False):
+          
+          if n > len(self.cmdHistory.commandHistory):
+             n = len(self.cmdHistory.commandHistory)
+          elif n <= 0:
+               return
+                               
+          cList = self.cmdHistory.getN(n, fromBegin)
+          #  counting commands
+          if fromBegin:
+             pos = 1
+          else:   
+             pos = len(self.cmdHistory.commandHistory)  - n + 1
+             
+          for c in cList:
+              print(pos, '. ', c, sep='')
+              pos += 1
+
+                     
+
 
 
       def startShell(self):
@@ -105,39 +125,17 @@ class commandShell:
               else:
                    print(command)  
 
-              '''
-              if command == '!!':
-                 command = self.cmdHistory.getLast()
-                 if command == '':
-                    continue
-                 print('[', command, ']', sep='') 
+              
+              
+              cParts = command.split()
 
-
-
-              if command.startswith('!'):
-                 #v = command[1:]
-                 try:
-                   hIdx = int(command[1:])
-                   command = self.cmdHistory.get(hIdx)
-                   if command == '':
-                      continue
-                                     
-                 except Exception as nmbrEx:
-                       #print('Executing last command starting with [', command[1:], ']', sep='')
-                       command = self.cmdHistory.getLastStartingWith(command[1:] )
-                       if command == '':
-                          continue
-                 print('[', command, ']', sep='')
-                 
-              '''  
-
+              
               # Don't add history and quit commands to command history list
               # It clogs it.
-              if command.lower() not in ['history', 'h', 'quit', 'q']:           
+              if cParts[0].lower() not in ['history', 'h', 'quit', 'q']:           
                  self.cmdHistory.addCommand( command )
 
 
-              cParts = command.split()
 
               # NOTE: history/h command is the only command handled here!
               #       That's because the cHistory object is instantiated here
@@ -145,21 +143,24 @@ class commandShell:
               if cParts[0] == 'history' or   cParts[0] == 'h':
                  hArgs = ThrowingArgumentParser()
                  hArgs.add_argument('ncommands', nargs=argparse.REMAINDER, default='-1')
+                 hArgs.add_argument('-S',  '--start', action='store_true')
                  args = vars( hArgs.parse_args(cParts[1:]) )
                  
                  if len(args['ncommands']) == 0:
-                    #cList = self.cmdHistory.getLastN( len(self.cmdHistory.commandHistory) )
                     n = len(self.cmdHistory.commandHistory) 
                  else:
                       try:
-                         n = int( args['ncommands'][0] )   
+                         n = int( args['ncommands'][0] )
+                         if n > len(self.cmdHistory.commandHistory):
+                            n = len(self.cmdHistory.commandHistory)
+                         elif n <= 0:
+                              continue
+                        
                       except Exception as convEx:
                             n = 0
 
-                 # TODO: test this 
-                 print('Getting last:', n)           
-                 cList = self.cmdHistory.getLastN(n)           
-                 self.cmdHistory.printHistory()
+
+                 self.displayCommandHistory(n, args['start'])
                  continue 
 
               

@@ -48,12 +48,42 @@ class commandHistory:
           return( self.commandHistory[-1] )  
       
 
-      
+
+
+      def getN(self, n, fromBegin=False):
+          if fromBegin:
+             return( self.getFirstN(n) )
+
+          return( self.getLastN(n) )  
+
+
+
+
+
+      # Return list with last n commands in history
+      def getFirstN(self, n):
+          if n <= 0:
+             return( [] )
+            
+          if len(self.commandHistory) <= n:
+             endPos = len(self.commandHistory)    
+          else:  
+             endPos = n
+
+          return( self.commandHistory[:endPos] )
+
+
+
+
+      # Return list with last n commands in history
       def getLastN(self, n):
+          if n <= 0:
+             return( [] )
+            
           if len(self.commandHistory) <= n:
              startPos = 0    
-          else:
-             startPos = len(self.commandHistory) - n
+          else:  
+             startPos = -n
 
           return( self.commandHistory[startPos:] )   
 
@@ -71,13 +101,8 @@ class commandHistory:
             
           return('')
 
+
       
-      def printHistory(self):
-          cPos = 1
-          for c in self.commandHistory:
-              print(cPos, ". ", c, sep="")
-              cPos += 1
-              
           
       def load(self):
         #print('Loading history file:', self.historyFile)    
