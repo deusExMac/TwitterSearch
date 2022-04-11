@@ -33,8 +33,38 @@ class twitterSearchClient:
         self.configuration = cfg
         
 
-    
+    def buildRequestParameters(self, q, sD, eD):
+        qParams = {'query': q,
+                    'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
+                    'expansions': self.configuration.get('TwitterAPI', 'expansions', fallback='author_id,in_reply_to_user_id,geo.place_id'),
+                    'tweet.fields': self.configuration.get('TwitterAPI', 'tweet.fields', fallback='id,text'), #'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source'
+                    'user.fields': self.configuration.get('TwitterAPI', 'user.fields', fallback='id,name'), #'id,name,username,created_at,description,public_metrics,verified'
+                    'place.fields': self.configuration.get('TwitterAPI', 'place.fields', fallback='full_name,id,country,country_code,geo,name,place_type'), #'full_name,id,country,country_code,geo,name,place_type'
+                    'next_token': {}}
         
+        if sD =='' and  eD == '':
+           # This is a simple search           
+           bearerToken = self.configuration.get('TwitterAPI', 'essentialBearer', fallback='')
+           if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
+              bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
+
+           rqH = {"Authorization": "Bearer {}".format( bearerToken )}
+           rqSUrl = self.configuration.get('TwitterAPI', 'recentApiEndPoint', fallback="")
+        else:
+           # This is a period search
+           bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='')
+           if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
+              bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
+              
+              
+           rqH = {"Authorization": "Bearer {}".format( bearerToken )}
+           rqSUrl = self.configuration.get('TwitterAPI', 'apiEndPoint', fallback="")
+           # Add two more params: the dates
+           qParams['start_time'] = sD
+           qParams['end_time'] = eD
+
+        return( rqSUrl, rqH, qParams )
+         
 
     #
     # Do the actual query to the endpoint - used for simple and period queries.
@@ -62,7 +92,9 @@ class twitterSearchClient:
         # Prepare the query parameter.
         # Depending on the dates, we will do a simple or period query
         #
-        
+
+        search_url, headers, query_params =  self.buildRequestParameters( q, sP, eP )
+        '''
         query_params = {'query': q,
                     'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
                     'expansions': self.configuration.get('TwitterAPI', 'expansions', fallback='author_id,in_reply_to_user_id,geo.place_id'),
@@ -92,7 +124,7 @@ class twitterSearchClient:
            # Add two more params: the dates
            query_params['start_time'] = sP
            query_params['end_time'] = eP
-           
+        '''   
         
         
         
