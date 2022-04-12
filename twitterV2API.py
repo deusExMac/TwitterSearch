@@ -311,7 +311,7 @@ class twitterSearchClient:
             utils.currentLineChars = 0 # Do we need this???
             utils.clc = 0
           except Exception as ex:
-              print( str(ex) )
+              #print( str(ex) )
               if len(ex.args) < 2:
                  print('\n[ERROR]', ex.args[0], sep='') 
               else:    

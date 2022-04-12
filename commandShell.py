@@ -42,7 +42,9 @@ class commandShell:
 
       def __init__(self, cfg):
 
-                    
+          # add here any command you would like to expand
+          self.cmdExpansions = [{"c":"config"} ]
+          
           self.cmdExecutioner = shellCommandExecutioner(cfg)
           self.cmdHistory = commandHistory(cfg.getint('Shell', 'historySize', fallback=10), True)
 
@@ -54,6 +56,14 @@ class commandShell:
       # Check if the command given needs to be expanded
       #
       def expandCommand( self, cmd ):
+
+          # Is it in our manual expansion list?
+          for c in self.cmdExpansions:
+            if c.get(cmd) is not None:
+               return( c.get(cmd) )
+
+            
+                
           if cmd == '!!':
              return( self.cmdHistory.getLast() )
                   
@@ -141,14 +151,18 @@ class commandShell:
               #       That's because the cHistory object is instantiated here
               # TODO: Check if there is a better design?
               if cParts[0] == 'history' or   cParts[0] == 'h':
+                try:    
                  hArgs = ThrowingArgumentParser()
                  hArgs.add_argument('ncommands', nargs=argparse.REMAINDER, default='-1')
-                 hArgs.add_argument('-S',  '--start', action='store_true')
+                 hArgs.add_argument('-s',  '--start', action='store_true')
                  args = vars( hArgs.parse_args(cParts[1:]) )
-                 
-                 if len(args['ncommands']) == 0:
+                except Exception as aEx:
+                       print(str(aEx))
+                       continue
+                
+                if len(args['ncommands']) == 0:
                     n = len(self.cmdHistory.commandHistory) 
-                 else:
+                else:
                       try:
                          n = int( args['ncommands'][0] )
                          if n > len(self.cmdHistory.commandHistory):
@@ -160,10 +174,12 @@ class commandShell:
                             n = 0
 
 
-                 self.displayCommandHistory(n, args['start'])
-                 continue 
+                self.displayCommandHistory(n, args['start'])
+                continue 
 
-              
+
+
+              # Execute command
               if self.cmdExecutioner.executeCommand( cParts ):                 
                  break
 
