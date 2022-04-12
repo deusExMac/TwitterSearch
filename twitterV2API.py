@@ -93,7 +93,13 @@ class twitterSearchClient:
         # Depending on the dates, we will do a simple or period query
         #
 
-        search_url, headers, query_params =  self.buildRequestParameters( q, sP, eP )
+        try:  
+           search_url, headers, query_params =  self.buildRequestParameters( q, sP, eP )
+        except Exception as qPEx:
+               print( str(qPEx) )
+               return(-3)
+               
+            
         '''
         query_params = {'query': q,
                     'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
@@ -145,6 +151,7 @@ class twitterSearchClient:
             json_response = self.__sendRequest(search_url, headers, query_params, next_token)
             numRequests += 1
           except Exception as netEx:
+             # TODO: better error handling. Exception might not be json. 
              errCode, errMsg = netEx.args
              errObj = json.loads(errMsg)             
              print('[ERROR] Code:',errCode, " Msg:[", errObj['title'], '] ', errObj['detail'] )
