@@ -366,7 +366,8 @@ class twitterSearchClient:
 
 
 
-    # Only for testing purposes
+    # Only for testing purposes.
+    # TODO: Remove me.
     def rawRequest(self, q, tFields, uFields, pFields):
         #TweetFields: id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source
         # 'user.fields': 'id,name,username,created_at,description,public_metrics,verified',
