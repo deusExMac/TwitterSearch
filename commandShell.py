@@ -605,13 +605,26 @@ class shellCommandExecutioner:
             
             print("\n\tSupported commands and their syntax:")
             print("")
+
+            print('\t' + 72*'-')
+            print( NLFormat('get [-f <id file>] [< list of tweet ids>]', 72) )
+            print('\t'+72*'-')
+            print('\tAbout:')
+            print( NLFormat('Downloads fields for specific tweets identified by their ids given as arguments.') )
+            print("\tArguments:")
+            print( NLFormat('-f: path to local file containing list of tweet ids to fetch. Must contain each id in a separate line\n'))
+            print( NLFormat('<list of tweet ids>: list of tweet ids to fetch, separated by whitespace.\n'))
+
+            print("")
+            
+
+            
             print('\t' + 72*'-')
             print( NLFormat('search [-f <date>] [-u <date>] [-t <time step>] [-D] [-S] [-o <csv file>] [-n <number of tweets/period>] <query>', 72) )
             print('\t'+72*'-')
-            print('\tAbout:')
-            print( NLFormat('     Performs a period search. Searches for tweets meeting conditions in <query> published between the dates specified in -f (from) and -u (until) arguments which is called a period. If -t , -u are missing, default date range is [two days ago - yesterday].  For a list of supported query operators see: https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators . If -t option is specified then' +
-                         ' the date range is divided into subranges according to the format specified by -t and search is conducted separately in each subrange. -n specifies how many' +
-                         ' tweets to download during each subperiod. -o specifies the csv file to store tweets that meet the conditions. -D toggles the current debug mode on or off. -S conducts a simple search, i.e. a search on the recent archive with no date constraints.\n'))
+            print('\tAbout:')            
+            print( NLFormat('Performs a simple or period search. Searches for tweets meeting conditions in <query>.\n'))
+            print("\tArguments:")
             print( NLFormat('-n: Number of tweets to fetch. If a date query is conducted, -n specifies the number of tweets to download during each period.\n'))
             print( NLFormat( "-f, -u: Datetimes should be enterred as Day/Month/YearTHour:Minutes:Seconds. Datetimes are always in UTC. Example: search -f 29/12/2021T10:07:55 -u 31/12/2021T08:32:11 euro crisis\n" ))
             print( NLFormat( "-t: Time steps should be specified in the following manner: kDmHnMzS where k, m, n and z integer values. Example 3D10H5M8S. -t format specifies how the date range specified " +
@@ -634,28 +647,46 @@ class shellCommandExecutioner:
             print( NLFormat('reload [-c <path to configuration file>]') )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( NLFormat('Allows loading a configuration file specified by the -c option. Relating file names are supported. In no -c option is provided, the config file loaded during startup is reloaded.'))                
+            print( NLFormat('Allows loading a configuration file specified by the -c option. Relating file names are supported.'))
+            print('\tArguments:')
+            print( NLFormat('-c: Path (absolute or relative) to configuration file to load. In no -c option is provided, the same configuration file loaded during startup is reloaded'))
             print('')
+            
             print('\t' + 72*'-')
-            print( NLFormat('history (alternatively h)' ) )
+            print( NLFormat('history (alternatively h) [-s] [<number of commands to display]' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
             print( NLFormat('Displays a numbered list of the history of commands executed. Numbers can be used with ! (see below). Usefull to re-execute commands or copy-paste complicated commands'))
+            print('\tArguments:')
+            print( NLFormat('[<number of commands to display]: number of commands to display.\n'))
+            print( NLFormat('-s: If present, specifies that the FIRST [<number of commands to display] commands in the command history list will be displayed. If not present, the LAST [<number of commands to display] commands (more recent) will be shown.'))
             print('')
+            
             print('\t' + 72*'-')
             print( NLFormat('set [-G | --target <historic | recent>]' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
-            print( NLFormat('Specifies in which archive the search should be condicted. Value recent means that search is limited to tweets published the last 5 days. Value historic means that one may specify any time period without any constraint.' +
-                          'Value recent and historic use different bearer tokens and hence tweets are accounted in different developer accounts. You get bearer tokens freely. recent bearer tokens are obtained by ' +
-                          'simply opening a developer account. Search in the historic archive requires an academic bearer token that you can request.'))
+            print( NLFormat('Specifies in which archive the search should be condicted.') )
+            print('\tArguments:')
+            print( NLFormat('-G: Specifies which archive to use. Allowed values are "recent" or "historic"'))            
             print('')
+            
             print('\t' + 72*'-')
             print( NLFormat('!<index>' ) )
             print('\t' + 72*'-')
             print('\tAbout:')
             print( NLFormat('Execute command at the position <index> in the command history list (see history or h).'))
             print('')
+
+            print( NLFormat('!<string>' ) )
+            print('\t' + 72*'-')
+            print('\tAbout:')
+            print( NLFormat('Execute last command in the command history list starting with <string>.'))
+            print('')
+
+
+
+            
             print('\t' + 72*'-')
             print( NLFormat('!!' ) )
             print('\t' + 72*'-')
