@@ -1,10 +1,10 @@
 # TwitterSearch
  
-A simple python program to query and fetch tweets using using the [v2 of the Twitter API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
+A simple python program that allows querying and fetching tweets using Twitter's [v2 API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
 
-This is experimental and has been created in a hurry. It has not been tested thoroughly. Any design error or bug is exclusively my own fault. Have mercy.
+This is experimental and has been created without much thought. It has not been properly designed. It has not been tested thoroughly. Any design error or bugs manifested are exclusively my own fault. Please be forgiving.
 
-<sub> *I'm a uni professor and we are known to poorly design and implement software as someone famously said [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).* </sub>
+<sub> *I'm a uni professor and we are known to poorly design and implement software as someone famously said in the past [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).* </sub>
 
 
 
@@ -761,4 +761,4 @@ https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twit
 
 # Contact
 
-xxxxx 
+Feel free to contact me in case you should have any question, comment, improvement etc
