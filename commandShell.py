@@ -468,39 +468,7 @@ class shellCommandExecutioner:
 
 
 
-      def rawsearch(self, a):
-          try:  
-            parser = ThrowingArgumentParser()
-            parser.add_argument('-e', '--endpointtweets', type=int, nargs='?', default=22 )
-            parser.add_argument('-T','--twitterfields', nargs='+', default=['id', 'created_at'])
-            parser.add_argument('-U','--userfields', nargs='+', default=['id', 'created_at'])
-
-            parser.add_argument('qry', nargs=argparse.REMAINDER, default='')
-
-            shellArgs = vars( parser.parse_args( a ) )
-            
-            #parser.add_argument('-f', '--from',   nargs='?', default= (datetime.now() - timedelta(days=2)).strftime("%d/%m/%Y") )
-            #parser.add_argument('-u', '--until', nargs='?', default=(datetime.now() - timedelta(days=1)).strftime("%d/%m/%Y") )
-            #parser.add_argument('-t', '--timestep', nargs='?', default="" )
-            
-          except Exception as pEx:
-                return(False)
-
-          cmdConfigSettings = copy.deepcopy( self.configuration )
-
-
-          cmdConfigSettings['TwitterAPI']['maxEndpointTweets'] =  str(shellArgs['endpointtweets'])
-          print( cmdConfigSettings['TwitterAPI']['maxEndpointTweets']  )
-          tAPI = twitterV2API.twitterSearchClient( cmdConfigSettings )
-
-          
-          response = tAPI.rawRequest( ' '.join(shellArgs['qry']).strip(), None, None, None)
-          import json
-          #parsed = json.loads(response)
-          print(json.dumps(response, indent=4, sort_keys=True))
-          
-          #print(response)
-          return(False)
+      
 
 
       
