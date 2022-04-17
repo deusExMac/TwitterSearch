@@ -866,5 +866,6 @@ class shellCommandExecutioner:
 
 
       def github(self, a):
-          webbrowser.open("https://github.com/deusExMac/TwitterSearch/")  
+          #self.configuration.get('General', 'githubURL', fallback='https://github.com/deusExMac/TwitterSearch')  
+          webbrowser.open( self.configuration.get('General', 'githubURL', fallback='https://github.com/deusExMac/TwitterSearch') )  
           return( False ) 
