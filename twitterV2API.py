@@ -343,7 +343,7 @@ class twitterSearchClient:
     
      try: 
        #resultCount = jsn['meta']['result_count']
-       resultCount = jsn.get('meta', {}).get('result_count', 1)
+       resultCount = jsn.get('meta', {}).get('result_count', 1) 
      except Exception as cEx:
        resultCount = 1 # We assume that it was a request for a single Tweet
        
@@ -355,12 +355,15 @@ class twitterSearchClient:
        # Data about users are kept in different parts of the json
        # document. So, we extract this data and return it separately
        # from the list of tweets. 
-       totalUsers = len(jsn['includes']['users'])
+       # totalUsers = len(jsn['includes']['users'])
+       
+       # TODO: Check if include is dict and users a list
+       totalUsers = len(jsn.get('includes', {}).get('users', [])) #len(jsn['includes']['users'])
        for k in range(totalUsers):
            userReferences[jsn['includes']['users'][k]['id']] = jsn['includes']['users'][k]
 
        # Irerate and collect tweets now
-       for tweet in jsn['data']:
+       for tweet in jsn.get('data', {}): #jsn['data']:
            tweetsCollected.append( tweet )
                       
      if 'next_token' in jsn.get('meta', {}):

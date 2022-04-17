@@ -15,7 +15,7 @@ import argparse
 import copy
 
 import pandas as pd
-
+import webbrowser
 
 # We define constants in this file
 import appConstants
@@ -858,3 +858,8 @@ class shellCommandExecutioner:
           
           return(False)
 
+
+
+      def github(self, a):
+          webbrowser.open("https://github.com/deusExMac/TwitterSearch/")  
+          return( False ) 
