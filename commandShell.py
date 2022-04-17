@@ -653,9 +653,7 @@ class shellCommandExecutioner:
             print( NLFormat('Execute last command in the command history list starting with <string>.'))
             print('')
 
-
-
-            
+       
             print('\t' + 72*'-')
             print( NLFormat('!!' ) )
             print('\t' + 72*'-')
@@ -676,6 +674,12 @@ class shellCommandExecutioner:
             print( NLFormat('Terminates and quits the application.'))
             print('')
 
+            print('\t' + 72*'-')
+            print( NLFormat('github' ) )
+            print('\t' + 72*'-')
+            print('\tAbout:')
+            print( NLFormat('Open TwitterSearch github page in browser.'))
+            print('')
             print('')
             return(False)
       
