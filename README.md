@@ -102,7 +102,7 @@ The Twitter bearer token is a unique string value that identifies your (register
 Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters is via the configuration file that the application supports.
 
 
-In the default configuration file [twitterSearch.conf](https://github.com/deusExMac/TwitterSearch/blob/main/twitterSearch.conf), settings related to bearer tokens, that need to have correct values, can be found in the [TwitterAPI] section and are the following:
+In the default configuration file [twitterSearch.conf](https://github.com/deusExMac/TwitterSearch/blob/main/twitterSearch.conf) (or any other configuration file that is given as argument with the [-c](#running-twittersearch) option), settings related to bearer tokens, that need to have correct values, can be found in the [TwitterAPI] section and are the following:
 
 ```
 essentialBearer = <value of essential bearer token - in plain text form or encrypted>
