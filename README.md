@@ -7,19 +7,11 @@ This is experimental and has been created without much thought. It has not been 
 <sub> *I'm a uni professor and we are known to poorly design and implement software as someone famously said in the past [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).* </sub>
 
 
-
-
-
-# Table of Contents
-
+#Table of Contents
 - [TwitterSearch](#twittersearch)
-- [Prerequisites: Before you execute TwitterSearch](#prerequisites-before-you-execute-twittersearch)
-- [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare-execute-and-interact-with-twittersearch)
+- [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
+- [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
   * [Preparing the configuration file](#preparing-the-configuration-file)
-    + [Why the need to prepare the configuration file](#why-the-need-to-prepare-the-configuration-file)
-    + [Bearer tokens](#bearer-tokens)
-    + [Storing bearer tokens as plain text (i.e. not encrypted) in the configuration file](#storing-bearer-tokens-as-plain-text--ie-not-encrypted--in-the-configuration-file)
-    + [Storing bearer tokens as encrypted text in the configuration file](#storing-bearer-tokens-as-encrypted-text-in-the-configuration-file)
   * [Running TwitterSearch](#running-twittersearch)
   * [Supported shell commands](#supported-shell-commands)
     + [get](#get)
@@ -37,21 +29,7 @@ This is experimental and has been created without much thought. It has not been 
     + [set](#set)
       - [set example](#set-example)
     + [encryptBearer](#encryptbearer)
-      - [encryptBearer example](#encryptbearer-example)
-    + [!< integer >](#--integer)
-      - [! < integer > example](#-example)
-    + [!< string >](#string)
-      - [! < string > example](#-example-1)
-    + [! !](#-)
-      - [! ! example](#-example-2)
-    + [ ^ (circumflex accent](#circumflex-accent-)
-      - [ ^ example ](#circumflex-accent--example) 
-    + [help](#help)
-      - [help example](#help-example)
- 
- * [Other Related Projects](#other-related-projects)
- * [Acknowledgements](#acknowledgements)
- * [Contact](#contact)
+
 
 <sub>This ToC has been created using the following GitHub Wiki TOC generator: https://ecotrust-canada.github.io/markdown-toc/ </sub>
 
