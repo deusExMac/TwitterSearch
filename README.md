@@ -479,13 +479,13 @@ The application allows users to execute commands via the application's command s
    ```	
 	
 	
-- ### !  integer
+- ### ! index
 
   Syntax: ``!< integer > ``
 
   Re-executes command at position < integer > in the command history (the number displayed before each command when command history is shown). Belongs to the set of expansion commands (because these will be expanded before execution).
 
-  #### !<index> example
+  #### !< index > example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
