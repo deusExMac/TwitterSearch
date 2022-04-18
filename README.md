@@ -29,6 +29,9 @@ This is experimental and has been created without much thought. It has not been 
     + [set](#set)
       - [set example](#set-example)
     + [encryptBearer](#encryptbearer)
+      - [encryptBearer example](#encryptbearer-example)
+    + [! index](#-index)
+      - [! index example](#-index--example)
 
 
 <sub>This ToC has been created using the following GitHub Wiki TOC generator: https://ecotrust-canada.github.io/markdown-toc/ </sub>
