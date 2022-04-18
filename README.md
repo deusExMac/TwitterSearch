@@ -123,7 +123,7 @@ These configuration settings have the following role in the context of TwitterSe
 - ``encryptionKeyFile``: Path to the local file containing the secret-key required to decrypt the encrypted bearer tokens. This file should never be shared. For more information on this file see the [TwitterAPI section of the configuration file](#section-twitterapi)
 
 
-Follow the instructions in the next sections on how to configure the above settings, depending on whether bearer tokens should be encrypted or not.
+Follow the instructions in the next sections on how to configure the above settings, depending on whether bearer tokens should be encrypted or not. **Please not that if you don't set the above settings properly, requests to API endpoints may result in errors.**
 
 
 If you would like to store the bearer tokens in the configuration file as plain text, follow these instructions to configure properly the necessary settings:
