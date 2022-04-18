@@ -102,7 +102,7 @@ The Twitter bearer token is a unique string value that identifies your (register
 Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters is via the configuration file that the application supports.
 
 
-In the configuration file, settings related to bearer tokens, that need to have correct values, can be found in the [TwitterAPI] section and are the following:
+In the default configuration file [twitterSearch.conf](https://github.com/deusExMac/TwitterSearch/blob/main/twitterSearch.conf), settings related to bearer tokens, that need to have correct values, can be found in the [TwitterAPI] section and are the following:
 
 ```
 essentialBearer = <value of essential bearer token - in plain text form or encrypted>
@@ -120,10 +120,10 @@ These configuration settings have the following role in the context of TwitterSe
 - `Bearer`: The actual bearer token used in requests to the Twitter v2 endpoints. Bearer will always have a copy of the value in either the essentialBearer or the academicBearer setting.
 - `targetArchive`: Specifies in which archive the search should be conducted. Takes one of two values: ‘recent’ or ‘historic’. Value ‘recent’ means that the search will be conducted in the recent archive (i.e. tweets published in the last 5 days) and hence the essential bearer token will be used while ‘historic’ means that the search will be conducted on all tweets ever published since the beginning of Twitter and the academic bearer token will be used. This means that the value of ``targetArchive`` determines the bearer token that will be used during requests. During startup, the application reads the value of ``targetArchive`` and sets the value of setting Bearer to the proper token value (copying it from essentialBearer or academicBearer setting) in order to ensure consistency. You may change the value of ``targetArchive`` either by editing the configuration file or during runtime via the `set -G` command using the application's shell (see section [Supported shell commands](#supported-shell-commands) ).
 - ``bearerEncrypted``: Specifies if the token values in settings ``essentialBearer`` and ``academicBearer`` in this configuration file are encrypted or not. If this value is true, the bearer tokens are encrypted and need to be decrypted before being part of any request to Twitter v2 API endpoints. If this value is false, the bearer tokens are not encrypted and can be used as-is as part of requests. TwitterSearch supports secret-key symmetric encryption. If you want to encrypt all bearer keys (essentialBearer and academicBearer) see [TODO](#TODO...)
-- ``encryptionKeyFile``: Path to the local file containing the secret-key required to decrypt the encrypted bearer tokens. This file should never be shared. For more information on this file see [TwitterAPI section of the configuration file](#section-twitterapi)
+- ``encryptionKeyFile``: Path to the local file containing the secret-key required to decrypt the encrypted bearer tokens. This file should never be shared. For more information on this file see the [TwitterAPI section of the configuration file](#section-twitterapi)
 
 
-
+Follow the instructions in the next sections on how to configure the above settings, depending on whether bearer tokens should be encrypted or not.
 
 
 ### Storing bearer tokens as plain text (i.e. not encrypted) in the configuration file	
