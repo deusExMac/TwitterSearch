@@ -126,7 +126,8 @@ These configuration settings have the following role in the context of TwitterSe
 Follow the instructions in the next sections on how to configure the above settings, depending on whether bearer tokens should be encrypted or not.
 
 
-### Storing bearer tokens as plain text (i.e. not encrypted) in the configuration file	
+If you would like to store the bearer tokens in the configuration file as plain text, follow these instructions to configure properly the necessary settings:
+
 - If you have a valid essential token, set the value of setting ``essentialBearer`` to the value of the essential token you got from your Twitter developer account and the value of setting ``targetArchive`` to ‘recent’ . This means that all requests will be directed to the recent archive. Set the value of ``bearerEncrypted`` to false. Setting ``encryptionKeyFile`` is not relevant in this situation. **This is the minimum settings that need to have proper values in order for TwitterSearch to work correctly.**
 - If you have a valid academic token, set the value of setting ``academicBearer`` to the value of the academic token you have and the value of setting ``targetArchive`` to ‘historic’. Set the value of ``bearerEncrypted`` to false. Setting ``encryptionKeyFile`` is not relevant in this situation.
 - If you have a valid essential and academic bearer token, set the values of ``essentialBearer`` and ``academicBearer`` to the respective token and  the value of ``targetArchive`` to either ‘recent’ or ‘historic’ to specify the bearer token to use. Set the value of ``bearerEncrypted`` to false. Setting ``encryptionKeyFile`` is not relevant in this situation. 
@@ -134,7 +135,8 @@ Follow the instructions in the next sections on how to configure the above setti
 TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the value of the setting ``Bearer`` (holding the value of token to use during requests) to the appropriate one. 
 
 
-### Storing bearer tokens as encrypted text in the configuration file
+If you would like to store the bearer tokens in the configuration file as encrypted text, follow these instructions to configure properly the necessary settings:
+
 If you would like to store bearer tokens in the configuration file as encrypted text, you can use TwitterSearch to generate the secret-key and encrypt the tokens. To do this, follow the instructions below:
    1. Execute TwitterSearch (it doesn't matter what configuration file you'll use; you may don't use a configuration file at all)
    2. On the command shell, type ``encryptBearer`` and hit enter.
