@@ -412,12 +412,12 @@ The application allows users to execute commands via the application's command s
    23. status
    24. reload
    25. reload
-   (v0.82){0}TwitterSearch >>h 3
+   {12}TwitterAPI v2 >>h 3
    h 3
    23. status
    24. reload
    25. reload
-   (v0.82){0}TwitterSearch >>   
+   {12}TwitterAPI v2 >>   
    ```
 <br/>
 
