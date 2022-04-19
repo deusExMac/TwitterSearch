@@ -13,7 +13,7 @@ This is experimental and has been created without much thought. It has not been 
 - [TwitterSearch](#twittersearch)
 - [Prerequisites: Before you execute TwitterSearch](#prerequisites-before-you-execute-twittersearch)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare-execute-and-interact-with-twittersearch)
-  * [Preparing the configuration file](#preparing-the-configuration-file)
+  * [Preparing the configuration file](#preparing-the-configuration-file-setting-the-value-of-essential-parameters)
   * [Running TwitterSearch](#running-twittersearch)
   * [Supported shell commands](#supported-shell-commands)
     + [get](#get)
