@@ -561,13 +561,13 @@ The application allows users to execute commands via the application's command s
 
 
 
-- ### ! !
+- ### ! ! (last command)
 
   Syntax: ``!!``
 
   Re-executes last command. Or the last command added to the command history.
   
-  #### !! example
+  #### !! example (last command)
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
