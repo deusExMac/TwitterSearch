@@ -95,12 +95,12 @@ The Twitter bearer token is a unique string value that identifies your (register
     
     Make sure that the **following Python modules are available on your system** <sub>(in no particular order)</sub>:
     - [pandas](https://pandas.pydata.org/)
-    - argparse
-    - clrprint
-    - configparser
-    - cryptograpy	
-    - pathlib
-    - webbrowser
+    - [argparse](https://docs.python.org/3/library/argparse.html)
+    - [clrprint](https://pypi.org/project/clrprint/)
+    - [configparser](https://docs.python.org/3/library/configparser.html)
+    - [cryptograpy](https://cryptography.io/en/latest/)
+    - [pathlib](https://docs.python.org/3/library/pathlib.html)
+    - [webbrowser](https://docs.python.org/3/library/webbrowser.html)
 
 
 <br />
