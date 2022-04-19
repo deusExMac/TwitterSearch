@@ -93,13 +93,14 @@ The Twitter bearer token is a unique string value that identifies your (register
 
 4.  Required Python modules. 
     
-    You need to have **installed the follwing Python modules** on your system:
-    - pandas
+    Make sure that the **following Python modules are available on your system** <sub>(in no particular order)</sub>:
+    - [pandas](https://pandas.pydata.org/)
     - argparse
     - clrprint
     - configparser
     - cryptograpy	
     - pathlib
+    - webbrowser
 
 
 <br />
