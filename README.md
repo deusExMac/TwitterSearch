@@ -490,6 +490,14 @@ The application allows users to execute commands via the application's command s
    ```	
 	
 	
+- ### github 
+
+    Syntax: ``github``
+
+    Opens TwitterSearch's GitHub page in the default browser.
+	
+	
+	
 - ### ! index
 
   Syntax: ``!< integer > ``
