@@ -82,16 +82,14 @@ The Twitter bearer token is a unique string value that identifies your (register
     Once you have valid Twitter bearer tokens, you need to update specific settings in the application's configuration file (the default configuration file [twitterSearch.conf](https://github.com/deusExMac/TwitterSearch/blob/main/twitterSearch.conf) or any other configuration file used). See the section [Preparing the configuration file: setting the value of essential paramters](#preparing-the-configuration-file-setting-the-value-of-essential-parameters) related to which parameters to set before executing TwitterSearch.
 
 <br/>
-<br/>
 
 2.  Python 3.x.x
 
     TwitterSearch has been developed using Python 3.x.x
 
 <br />
-<br />
 
-4.  Required Python modules. 
+3.  Required Python modules. 
     
     Make sure that the **following Python modules are available on your system** <sub>(in no particular order)</sub>:
     - [pandas](https://pandas.pydata.org/)
