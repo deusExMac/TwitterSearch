@@ -104,10 +104,10 @@ These configuration settings have the following role in the context of TwitterSe
 - ``encryptionKeyFile``: Path to the local file containing the secret-key required to decrypt the encrypted bearer tokens. This file should never be shared. For more information on this file see the [TwitterAPI section of the configuration file](#section-twitterapi)
 
 
-Follow the instructions in the next sections on how to configure the above settings, depending on whether bearer tokens should be encrypted or not. **Please not that if you don't set the above settings properly, requests to API endpoints may result in errors.**
+Depending on whether bearer tokens should be encrypted or not, follow the instructions to properly set the values for the above parameters in the configuration file used by TwitterSearch. **Please note that if you don't set the above settings properly, requests to API endpoints may result in errors.**
 
 
-If you would like to store the bearer tokens in the configuration file as plain text, follow these instructions to configure properly the necessary settings:
+Α) If you would like to store the bearer tokens in the configuration file as plain text, follow these instructions to configure properly the necessary settings:
 
 - If you have a valid essential token, set the value of setting ``essentialBearer`` to the value of the essential token you got from your Twitter developer account and the value of setting ``targetArchive`` to ‘recent’ . This means that all requests will be directed to the recent archive. Set the value of ``bearerEncrypted`` to false. Setting ``encryptionKeyFile`` is not relevant in this situation. **This is the minimum settings that need to have proper values in order for TwitterSearch to work correctly.**
 - If you have a valid academic token, set the value of setting ``academicBearer`` to the value of the academic token you have and the value of setting ``targetArchive`` to ‘historic’. Set the value of ``bearerEncrypted`` to false. Setting ``encryptionKeyFile`` is not relevant in this situation.
@@ -116,7 +116,7 @@ If you would like to store the bearer tokens in the configuration file as plain 
 TwitterSearch, upon startup, reads the value of ``targetArchive`` and sets the value of the setting ``Bearer`` (holding the value of token to use during requests) to the appropriate one. 
 
 
-If you would like to store the bearer tokens in the configuration file as encrypted text, follow these instructions to configure properly the necessary settings (you can use TwitterSearch to generate the secret-key and encrypt the tokens):
+Β) If you would like to store the bearer tokens in the configuration file as encrypted text, follow these instructions to configure properly the necessary settings (you can use TwitterSearch to generate the secret-key and encrypt the tokens):
 
 
    1. Execute TwitterSearch (it doesn't matter what configuration file you'll use; you may don't use a configuration file at all)
