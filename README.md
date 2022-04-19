@@ -77,10 +77,10 @@ The Twitter bearer token is a unique string value that identifies your (register
 # How to prepeare, execute and interact with TwitterSearch
 
 
-## Preparing the configuration file
+## Preparing the configuration file: Setting the value of essential parameters.
 
 
-Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters is via the configuration file that the application supports.
+Before executing TwitterSearch, you need to make sure that **some parameters, required by TwitterSearch, have the proper values**. These parameter settings are related to the Twitter bearer token that you have received from your Twitter developer account. One way of setting these parameters is via the configuration file that the application supports. Upon startup, TwitterSearch attempts to load configuration settings from the file twitterSearch.conf if no other file is specified via the -c option. If no valid configuration file is present, default settings will be used. See section [configuration file]( XXX) for more details.
 
 
 In the default configuration file [twitterSearch.conf](https://github.com/deusExMac/TwitterSearch/blob/main/twitterSearch.conf) (or any other configuration file that is given as argument with the [-c](#running-twittersearch) option), settings related to bearer tokens, that need to have correct values, can be found in the [TwitterAPI] section and are the following:
