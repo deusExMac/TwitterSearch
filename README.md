@@ -229,7 +229,7 @@ The application allows users to execute commands via the application's command s
      
      - ``[<list of tweet ids>]``: list of tweet ids, separated by whitespace. Can be one or more. If a file name containing tweet ids is provided with the -f option and a list of tweet ids as arguments, these two lists are merged.
       
-     For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet.
+     For each successfully retrieved tweet, a set of fields are displayed that include: id, author id, date created, type ( op (meaning original tweet), reply, retweed etc) and the actual content/text of the tweet. If no tweet exists with such id, nothing is returned/displayed.
      
      #### get example
      
