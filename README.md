@@ -1,6 +1,6 @@
 # TwitterSearch
  
-A simple python program that allows querying and fetching tweets using Twitter's [v2 API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
+A simple python program that allows querying and downloading tweets using the [Twitter v2 API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
 
 This is experimental and has been created without much thought. It has not been properly designed. It has not been tested thoroughly. Any design error or bugs manifested are exclusively my own fault. Please be forgiving.
 
