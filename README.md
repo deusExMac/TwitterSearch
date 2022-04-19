@@ -527,7 +527,7 @@ The application allows users to execute commands via the application's command s
 
   Re-executes last command that starts with < string >. If no such command is found, nothing is executed. 
 
-  #### !<string> Example
+  #### ! < string > Example
   ```
   {0}TwitterAPI v2 >>h
    1. search -S -n 88 biden
