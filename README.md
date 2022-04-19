@@ -380,9 +380,9 @@ The application allows users to execute commands via the application's command s
 
      Displays a numbered list of the recent commands already executed via the application's command shell (the ***command history***). The number of recent commands kept in history is determined by setting ``historySize`` in the configuration file. Numbers can be used in conjunction with the ``!`` command (see below) to re-execute commands. Usefull to re-execute commands or copy-pasting complicated commands if you are bored to retype these again. Command history is saved in local file ``.history`` when TwitterSearch quits gracefully. Command history file ``.history`` is automatically loaded during startup if present. 
      
-     -[<number of commands>] : integer. Number of commands to display. IF [-s] option is missing, the last <number of commands> commands will be displayed. If missing, all commands will be displayed.
+     -[ < number of commands > ] : integer. Number of commands to display. IF [-s] option is missing, the last < number of commands > commands will be displayed. If missing, all commands will be displayed.
      
-     -[-s] : display history from the beginning. If specified together with [<number of commands>], the first [<number of commands>] in command history will be displayed.
+     -[-s] : display history from the beginning. If specified together with [< number of commands >], the first [< number of commands >] in command history will be displayed.
 
    #### history example
    ```
