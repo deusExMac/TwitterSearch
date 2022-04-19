@@ -85,6 +85,7 @@ The Twitter bearer token is a unique string value that identifies your (register
 <br/>
 
 2.  Python 3.x.x
+
     TwitterSearch has been developed using Python 3.x.x
 
 <br />
