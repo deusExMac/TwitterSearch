@@ -33,7 +33,26 @@ class twitterSearchClient:
         self.configuration = cfg
         
 
-    def buildRequestParameters(self, q, sD, eD):
+
+
+
+    # TODO: do we need this?
+    def isCustomExceptionMessage( ex ):
+        if len(ex.args) < 2:
+           return(False)        
+        else:
+           return(True)
+
+        
+        #         eC, eM = ex.args
+        #         if eC == -69: #This was a keyboard interrupt.
+        #            eObj = json.loads(eM)
+        #            totalTweets += int(eObj["downloaded"])
+
+
+
+    def buildRequest(self, q, sD, eD):
+      try:  
         qParams = {'query': q,
                     'max_results': self.configuration.getint('TwitterAPI', 'maxEndpointTweets', fallback=100),
                     'expansions': self.configuration.get('TwitterAPI', 'expansions', fallback='author_id,in_reply_to_user_id,geo.place_id'),
@@ -64,6 +83,12 @@ class twitterSearchClient:
            qParams['end_time'] = eD
 
         return( rqSUrl, rqH, qParams )
+    
+      except Exception as bEx:
+             #if self.isCustomExceptionMessage(bEx):
+             raise bEx
+
+
          
 
     #
@@ -94,10 +119,16 @@ class twitterSearchClient:
         #
 
         try:  
-           search_url, headers, query_params =  self.buildRequestParameters( q, sP, eP )
+           search_url, headers, query_params =  self.buildRequest( q, sP, eP )
         except Exception as qPEx:
-               print( str(qPEx) )
-               return(-3)
+               #print( str(qPEx) )
+               if len(qPEx.args) < 2:                   
+                  return(-3)
+               else:
+                    eC, eM = qPEx.args
+                    eObj = json.loads(eM)
+                    print("\n[ERROR]", eC, ':', eObj['message'])
+                    return(eC)
                
             
                 
