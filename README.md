@@ -8,6 +8,7 @@ This is experimental and has been created without much thought. It has not been 
 
 
 #Table of Contents
+
 - [TwitterSearch](#twittersearch)
 - [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
@@ -32,6 +33,13 @@ This is experimental and has been created without much thought. It has not been 
       - [encryptBearer example](#encryptbearer-example)
     + [! index](#-index)
       - [! index example](#-index--example)
+    + [! string](#string)
+      - [! string example](#--string--example)
+    + [!!](#--last-command)
+      - [!! example](#-example-last-command)
+    + [^ (circumflex accent)](#circumflex-accent-)
+      - [^ (circumflex accent)](#circumflex-accent--example)
+    
 
 
 <sub>This ToC has been created using the following GitHub Wiki TOC generator: https://ecotrust-canada.github.io/markdown-toc/ </sub>
