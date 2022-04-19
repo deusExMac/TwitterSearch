@@ -1,9 +1,10 @@
 
-
-# 11/03/2022
-Better exception handling; right now, it's rather ad hoc and not consistent. 
-Refactor code at some places (see TODOs in comments)
-Proper logging.
-Testing how date ranges behave in queries, especially at the margins.
-Twitter fields
-Test more query operators 
+# 19/04/2022 (in no particular order)
+  Testing TwitterSearch when no configuration file is loaded (i.e. when running with default settngs)
+  Fix bug with -F option in showcsv command
+  Better exception handling; right now, it's rather ad hoc and not consistent. 
+  Refactor code at some places (see TODOs in comments)
+  Proper logging.
+  Testing how date ranges behave in queries, especially at the margins.
+  Twitter fields
+  Test more query operators 
