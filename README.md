@@ -7,8 +7,9 @@ This is experimental and has been created without much thought. It has not been 
 <sub> *I'm a uni professor and we are known to poorly design and implement software as someone famously said in the past [*"Re 2: your job is being a professor and researcher: That's one hell of a good excuse for some of the brain-damages of minix. I can only hope (and assume) that Amoeba doesn't suck like minix does."*]( https://www.oreilly.com/openbook/opensources/book/appa.html).* </sub>
 
 
-#Table of Contents
+# Table of Contents
 
+#Table of Contents
 - [TwitterSearch](#twittersearch)
 - [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
@@ -31,6 +32,8 @@ This is experimental and has been created without much thought. It has not been 
       - [set example](#set-example)
     + [encryptBearer](#encryptbearer)
       - [encryptBearer example](#encryptbearer-example)
+    + [github](#github)
+      - [github example](#github-example)
     + [! index](#-index)
       - [! index example](#-index--example)
     + [! string](#string)
@@ -39,7 +42,22 @@ This is experimental and has been created without much thought. It has not been 
       - [!! example](#-example-last-command)
     + [^ (circumflex accent)](#circumflex-accent-)
       - [^ (circumflex accent) example](#circumflex-accent--example)
-    
+    + [quit (or q)](#quit-or-q)
+      - [quit (or q) example](#quit-example)
+    + [help](#help)
+      - [help example](#help-example)
+- [Configuration file](#configuration-file)
+  * [Section General](#section-general)
+  * [Section Network](#section-network)
+  * [Section TwitterAPI](#section-twitterapi)
+  * [Section Request](#section-request)
+  * [Section Storage](#section-storage)
+  * [Section Shell](#section-shell)
+  * [Section Debug](#section-debug)
+  
+- [Other related projects](#other-related-projects) 
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)    
 
 
 <sub>This ToC has been created using the following GitHub Wiki TOC generator: https://ecotrust-canada.github.io/markdown-toc/ </sub>
