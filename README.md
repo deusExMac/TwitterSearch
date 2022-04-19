@@ -694,7 +694,8 @@ In this section we provide a brief overview of the settings supported by configu
   - ``maxTweets``. Integer values. Determines the total number of tweets to fetch, across all periods. Currently not supported and not used.
   - ``maxTweetsPerPeriod``. Integer value. Specifies the maximum number of tweets to fetch in each period. If a simple search is conducted, specifies the total number of tweets to fetch. Is overridden by option ``-n`` of the search command. A negative value indicates that no maximum value is specified (i.e. get as many as possible).
   - ``defaultLang`` Country codes (see https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages ). Specifies the language of tweets to search for, if no language is specified in the query. Currently not supported or used. 
-  - ``downloadSpeedWindow`` Integer value. The number of download speed values to keep in a list, out of which the average download speed (in tweets/sec) is calculated and reported.  
+  - ``downloadSpeedWindow`` Integer value. The number of download speed values to keep in a list, out of which the average download speed (in tweets/sec) is calculated and reported. 
+  - ``githuburl`` URL. URL leading to TwitterSearch's GitHub page. ``github`` command reads the value of this setting to navigate to the appropriate page. NOTE: URL must contain scheme/protocol (http or https).
 
 
 - ## Section Network
