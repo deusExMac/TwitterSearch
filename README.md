@@ -11,7 +11,7 @@ This is experimental and has been created without much thought. It has not been 
 
 #Table of Contents
 - [TwitterSearch](#twittersearch)
-- [Prerequisites: Before you execute TwitterSearch](#prerequisites--before-you-execute-twittersearch)
+- [Prerequisites: Before you execute TwitterSearch](#prerequisites-before-you-execute-twittersearch)
 - [How to prepeare, execute and interact with TwitterSearch](#how-to-prepeare--execute-and-interact-with-twittersearch)
   * [Preparing the configuration file](#preparing-the-configuration-file)
   * [Running TwitterSearch](#running-twittersearch)
