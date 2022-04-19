@@ -38,7 +38,7 @@ This is experimental and has been created without much thought. It has not been 
     + [!!](#--last-command)
       - [!! example](#-example-last-command)
     + [^ (circumflex accent)](#circumflex-accent-)
-      - [^ (circumflex accent)](#circumflex-accent--example)
+      - [^ (circumflex accent) example](#circumflex-accent--example)
     
 
 
