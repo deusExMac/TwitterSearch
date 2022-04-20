@@ -303,6 +303,8 @@ class twitterSearchClient:
         # sleep some short amount to allow user to see the settings.
         time.sleep( 2.3 )
 
+        # Reset some variables to keep stats 
+        avgPeriodTime = []  
         self.downloadSpeeds.clear() 
         totalTweets = 0
         pCount = 0
@@ -310,11 +312,22 @@ class twitterSearchClient:
         for p in periods:
           try:  
             pCount += 1
-            print(utils.fL( str(pCount) + '/' + str(len(periods)) +") Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period", startOver=True, every=68), clr='blue', end='')             
+            print(utils.fL( str(pCount) + '/' + str(len(periods)) +") Period [" + datetime.strptime(p['from'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + " - " + datetime.strptime(p['until'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d/%m/%Y %H:%M:%S') + "] : Getting a maximum of [" + self.configuration.get('General', 'maxTweetsPerPeriod', fallback='30' ) + "] tweets for this period", startOver=True, every=68), clr='blue', end='')
+
+            qStart = time.perf_counter()
             nTweets = self.__qryGENERIC(q, p['from'], p['until'])
+            pElapsed = time.perf_counter() - qStart
+            avgPeriodTime.append( pElapsed )
+              
             if nTweets < 0 :
                return(nTweets)
 
+
+            if self.configuration.getboolean('Debug', 'showProgress', fallback=False):               
+               hms = str( timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime)) ).split(':')
+               print( utils.fL( 'Done in ' + '{:.2f}'.format(pElapsed) + 's. Estimated time until completion: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds.', startOver=True, every=114, prefix='>>> ' ), clr='red')
+               
+             
             print('')
             totalTweets += nTweets
             utils.currentLineChars = 0 # Do we need this???
