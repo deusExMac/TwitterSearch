@@ -1,3 +1,15 @@
+
+"""
+
+Module containing general purpose functions related to encryption/decryption,
+splitting date ranges into subranges and formated output.
+
+Author: mmt
+Version: 20/04/2022
+
+"""
+
+
 import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
@@ -189,8 +201,10 @@ def NLFormatString(string, every=72):
 # It can do this for sucessive calls of the function
 #
 # TODO: Function has not been thoroughly tested. It has been sloppy
-#       written and must be optimized.
+#       written and must be optimized. ALSO, do we really need this?
+#       Aren't there any Python modules that do a similar job?
 #
+
 
 
 # Variable clc (Current Line Count).

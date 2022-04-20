@@ -1,3 +1,20 @@
+
+
+
+
+"""
+
+Module containing class acting as wrapper for REST calls to the Twitter v2 API.
+
+Author: mmt
+Version: 20/04/2022
+
+"""
+
+
+
+
+
 import datetime
 import dateutil.parser
 from datetime import datetime, timedelta
@@ -325,13 +342,14 @@ class twitterSearchClient:
 
             if self.configuration.getboolean('Debug', 'showProgress', fallback=False):               
                hms = str( timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime)) ).split(':')
-               print( utils.fL( '|| [' + str(datetime.now()) + '] Done in ' + '{:.2f}'.format(pElapsed) + 's. Estimated time until completion: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds.', startOver=True, every=114 ), clr='red')
+               #endTime = str( datetime.now() + timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime)) )
+               endTime = (datetime.now() + timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime))).strftime('%d/%m/%Y %H:%M:%S')                
+               print( utils.fL( '||[' + str(datetime.now()) + '] Done in ' + '{:.2f}'.format(pElapsed) + 's. Completion in: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds (ETC: ' + endTime + ')', startOver=True, every=114 ), clr='green')
                
              
             print('')
-            totalTweets += nTweets
-            #utils.currentLineChars = 0 # Do we need this???
-            # reset
+            totalTweets += nTweets            
+            # reset current line counter
             utils.clc = 0
           except Exception as ex:
               #print( str(ex) )

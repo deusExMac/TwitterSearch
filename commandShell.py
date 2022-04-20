@@ -1,4 +1,19 @@
-# For saving access tokens and for file management when creating and adding to the dataset
+
+
+
+"""
+
+Module containing the implementation of the application
+command shell.
+Implementation of the supported commands is also in this module.
+
+Author: mmt
+Version: 20/04/2022
+
+"""
+
+
+
 import os
 import os.path
 
@@ -457,9 +472,9 @@ class shellCommandExecutioner:
 
              
           if nFetched >= 0:
-             print('\nFetched total of', nFetched, 'tweets.')
+             print('\n\n\t[', datetime.now().strftime('%d/%m/%Y %H:%M:%S'), '] Fetched total of ', nFetched, ' tweets.', sep='')
           else:
-             print('\nError ', nFetched, 'encounterred.')   
+             print('\n\n\t[', datetime.now().strftime('%d/%m/%Y %H:%M:%S'),  '] Error ', nFetched, ' encounterred.', sep='')   
 
                  
           return(False)

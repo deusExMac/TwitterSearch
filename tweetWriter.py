@@ -1,3 +1,17 @@
+
+"""
+
+Module containing classes that handle downloaded tweets. Currently,
+the only tweet handling that's done is to save them, hence the Writer in
+the name.
+
+Author: mmt
+Version: 20/04/2022
+
+"""
+
+
+
 import os
 import csv
 import datetime

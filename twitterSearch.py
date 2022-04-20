@@ -14,15 +14,23 @@
 # TODO: This has been created in a hurry. Has not been tested thoroughly.
 #       Needs serious refactoring.
 #
-# v0.85b mmtrd19/04/2022
-# v0.82b mmtrd30/03/2022
-# v0.77b mmtrd18/03/2022
-# v0.4b mmtrd31/12/2021
+# Internal version info:
+#          v0.85b mmtrd20/04/2022
+#          v0.82b mmtrd30/03/2022
+#          v0.77b mmtrd18/03/2022
+#          v0.4b mmtrd31/12/2021
 #
 #################################################################################################################################################
 
 
+"""
 
+Module containing main program. Execution starts from here.
+
+Author: mmt
+Version: 20/04/2022
+
+"""
 
 
 import sys

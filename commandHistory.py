@@ -1,4 +1,18 @@
 
+
+
+"""
+
+Module containing command history that stores commands given
+by the user via the application shell.
+
+Author: mmt
+Version: 20/04/2022
+
+"""
+
+
+
 import os
 
 class commandHistory:
