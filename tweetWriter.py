@@ -30,7 +30,31 @@ class tweetWriterFactory:
             #raise ValueError(writerFormat) # Unsupported format
 
 
+
+
+
+
+
+
+#######################################################################
+#
+#
+# Writer classes. Create below a new writer class if you would like
+# to store/process tweets differently.
+#
+# Don't forget to change getWriter accordingly.
+#
+#
+#######################################################################
+
+
+
+
+
+#
 # Default writer. Displays some fields on the screen.
+#
+
 class defaultWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
@@ -43,21 +67,29 @@ class defaultWriter:
 
 
 
+
+
+
+#
+# CSV writer. Writes tweets to csv files
+#
+
 class csvWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
 
         csvFile = None
           
-        try:
-            
+        try:            
           if not os.path.exists(cfg.get('Storage', 'csvFile', fallback="data.csv")):
+             # Try to create file
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "w", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',')) 
              csvWriter.writerow(['retrieved', 'author_id', 'username', 'id', 'created_at(utc)', 'lang', 'tweet', 'type', 'likes', 'quotes', 'replies', 'retweets',  'tweetcount', 'followers', 'following', 'url'])
           else:      
              csvFile = open(cfg.get('Storage', 'csvFile', fallback="data.csv"), "a", newline="", encoding='utf-8')
              csvWriter = csv.writer(csvFile, delimiter=cfg.get('Storage', 'csvSeparator', fallback=',') ) 
+
              
           nWritten = 0          
           for t in tweetList:
@@ -117,11 +149,14 @@ class csvWriter:
                   
                return(-6)   
                
+
+
           
 #
 # A very simple writer, displaying
 # fields formatted on the screen
 #
+
 class simpleWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
@@ -146,7 +181,16 @@ class simpleWriter:
           
 
 
-           
+
+
+
+
+
+#
+# Database writer. Writes tweets into a database.
+# NOT IMPLEMENTED YET.
+#
+
 class dbWriter:
 
       def write(self, tweetList=None, userList=None, cfg=None):
