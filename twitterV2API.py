@@ -325,12 +325,13 @@ class twitterSearchClient:
 
             if self.configuration.getboolean('Debug', 'showProgress', fallback=False):               
                hms = str( timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime)) ).split(':')
-               print( utils.fL( 'Done in ' + '{:.2f}'.format(pElapsed) + 's. Estimated time until completion: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds.', startOver=True, every=114, prefix='>>> ' ), clr='red')
+               print( utils.fL( '|| [' + str(datetime.now()) + '] Done in ' + '{:.2f}'.format(pElapsed) + 's. Estimated time until completion: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds.', startOver=True, every=114 ), clr='red')
                
              
             print('')
             totalTweets += nTweets
-            utils.currentLineChars = 0 # Do we need this???
+            #utils.currentLineChars = 0 # Do we need this???
+            # reset
             utils.clc = 0
           except Exception as ex:
               #print( str(ex) )
