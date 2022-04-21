@@ -254,7 +254,8 @@ class twitterSearchClient:
        bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
        if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
               bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
-              
+
+       #print("[DEBUG bearer used:", bearerToken)       
        headers = {"Authorization": "Bearer {}".format( bearerToken )}
        query_params = {'ids': ','.join(idList),                    
                     'expansions': self.configuration.get('TwitterAPI', 'expansions', fallback='author_id,in_reply_to_user_id,geo.place_id'),
