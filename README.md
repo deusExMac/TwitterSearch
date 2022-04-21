@@ -4,6 +4,8 @@ A simple python program that allows querying and downloading tweets using the [T
 
 This is experimental and has been created without much thought. It has not been properly designed. It has not been tested thoroughly. Any design error or bugs manifested are exclusively my own fault. Please have mercy.
 
+<sub>***NOTE: Thie README is still under development.***</sub>
+
 <sub> *I'm a uni professor and we are known to poorly design and implement software [as someone famously said in the past](https://www.oreilly.com/openbook/opensources/book/appa.html).*</sub>
 
 
@@ -723,9 +725,9 @@ In this section we provide a brief overview of the settings supported by configu
   Contains settings related to the Twitter API. Supported settings in this section are:
   
   - ``targetArchive`` Takes one of two string value: historic or recent. Specifies in which archive the search should be conducted. Depending on the value of this setting, the appropriate bearer token will be used. TwitterSearch tries to make sure that the bearer token used is in accordance with the value in this setting.
-  - ``recentApiEndPoint`` URI. A place to hold the endpoint URI for searching in the recent archive
-  - ``historicApiEndPoint`` URI. A place to hold the endipoint URI for searching in the historic archive
-  - ``apiEndPoint`` URI. The endpoint URI that will be actually used during requests. Will have the value of eiter ``recentApiEndPoint`` or ``historicApiEndPoint``
+  - ``recentApiEndPoint`` URI. A place to hold the endpoint URL for searching in the recent archive
+  - ``historicApiEndPoint`` URI. A place to hold the endipoint URL for searching in the historic archive
+  - ``apiEndPoint`` URI. The endpoint URL that will be actually used during requests. Will have the value of eiter ``recentApiEndPoint`` or ``historicApiEndPoint``
   - ``essentialBearer`` Essential bearer token. A place to hold the essential bearer token.
   - ``academicBearer`` Academic bearer token. A place to hold the academic bearer token.
   - ``Bearer`` bearer token. The bearer token that will actually be used during requests. Takes the value of setting ``essentialBearer`` or ``academicBearer``.
