@@ -696,7 +696,34 @@ The application allows users to execute commands via the application's command s
   
   #### help example
   ```
-  Lorem ipsum	
+        (v0.85b){0}TwitterSearch >>help
+        help
+
+	Supported commands and their syntax:
+
+	------------------------------------------------------------------------
+	get [-E] [-f <id file>] [< list of tweet ids>]
+	------------------------------------------------------------------------
+	About:
+	Downloads fields for specific tweets identified by their ids given as ar
+	guments.
+	Arguments:
+	-f: path to local file containing list of tweet ids to fetch. Must conta
+	in each id in a separate line
+
+	<list of tweet ids>: list of tweet ids to fetch, separated by whitespace
+	.
+
+	[-E]: Show errors. From the list of ids given to download, display the t
+	weet ids that could not be downloaded (due to error or not existence)
+
+
+	------------------------------------------------------------------------
+	search [-f <date>] [-u <date>] [-t <time step>] [-D] [-S] [-o <csv file>
+	] [-n <number of tweets/period>] <query>
+	------------------------------------------------------------------------
+	About:
+
   ```
 	
 <br />	
