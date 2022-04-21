@@ -695,9 +695,10 @@ The application allows users to execute commands via the application's command s
   Displays short help on the supported commands and their arguments.
   
   #### help example
+  
   ```
-        (v0.85b){0}TwitterSearch >>help
-        help
+   (v0.85b){0}TwitterSearch >>help
+    help
 
 	Supported commands and their syntax:
 
@@ -723,7 +724,8 @@ The application allows users to execute commands via the application's command s
 	] [-n <number of tweets/period>] <query>
 	------------------------------------------------------------------------
 	About:
-
+         
+	... 
   ```
 	
 <br />	
