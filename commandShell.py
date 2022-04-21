@@ -326,6 +326,7 @@ class shellCommandExecutioner:
              cmdArgs = ThrowingArgumentParser()          
              cmdArgs.add_argument('tweetids',   nargs=argparse.REMAINDER, default=[] )
              cmdArgs.add_argument('-f', '--idfile',  nargs='?', default='' )
+             cmdArgs.add_argument('-E',  '--showerrors', action='store_true')
              args = vars( cmdArgs.parse_args(a) )
 
           except Exception as gEx:
@@ -334,7 +335,7 @@ class shellCommandExecutioner:
 
           tAPI = twitterV2API.twitterSearchClient( self.configuration )
           if args['idfile'] == '':
-             status = tAPI.getTweets( args['tweetids'] )
+             status = tAPI.getTweets( args['tweetids'], args['showerrors'] )
           else:
              if not os.path.exists( args['idfile'] ):
                 print('Error. No such file [', args['idfile'], ']')
@@ -344,7 +345,7 @@ class shellCommandExecutioner:
                 idList = mylist = idF.read().splitlines() 
                 idF.close()
                 print( 'File preview: ', idList[:5], '...\n', sep='' )
-                status = tAPI.getTweets( idList + args['tweetids']  )   
+                status = tAPI.getTweets( idList + args['tweetids'], args['showerrors']  )   
 
 
           #if status is None:
@@ -590,13 +591,14 @@ class shellCommandExecutioner:
             print("")
 
             print('\t' + 72*'-')
-            print( NLFormat('get [-f <id file>] [< list of tweet ids>]', 72) )
+            print( NLFormat('get [-E] [-f <id file>] [< list of tweet ids>]', 72) )
             print('\t'+72*'-')
             print('\tAbout:')
             print( NLFormat('Downloads fields for specific tweets identified by their ids given as arguments.') )
-            print("\tArguments:")
+            print("\tArguments:")            
             print( NLFormat('-f: path to local file containing list of tweet ids to fetch. Must contain each id in a separate line\n'))
             print( NLFormat('<list of tweet ids>: list of tweet ids to fetch, separated by whitespace.\n'))
+            print( NLFormat('[-E]: Show errors. From the list of ids given to download, display the tweet ids that could not be downloaded (due to error or not existence)\n'))
 
             print("")
             

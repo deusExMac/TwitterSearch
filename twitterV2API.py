@@ -248,8 +248,8 @@ class twitterSearchClient:
     # Fetches data (fields) for single Tweets.
     # idList: list with the ids of tweets to fetch.
     #
-    # Used for testing purposes
-    def getTweets(self, idList):
+    
+    def getTweets(self, idList, showErrors = False):
 
        bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
        if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
@@ -270,11 +270,16 @@ class twitterSearchClient:
            print( str(tEx) )
            return(None)
 
-       nT, tweetsFetched, userRef = self.__parseResponse(json_response)
+       nT, tweetsFetched, userRef, tErr = self.__parseResponse2(json_response)
 
        # Get a default writer
        tWriter = tweetWriter.tweetWriterFactory().getWriter( 'simple' )
        tWriter.write( tweetsFetched, userRef, self.configuration )
+
+       if showErrors and len(tErr) > 0:
+          print('\nTweet ids not fetched due to errors: ', end='')
+          print( ','.join( tErr ) )
+          print(' ' )
               
        return(0)
         
@@ -404,7 +409,7 @@ class twitterSearchClient:
         
 
     def __parseResponse(self, jsn):
-    
+     
      try: 
        #resultCount = jsn['meta']['result_count']
        resultCount = jsn.get('meta', {}).get('result_count', 1) 
@@ -427,7 +432,7 @@ class twitterSearchClient:
            userReferences[jsn['includes']['users'][k]['id']] = jsn['includes']['users'][k]
 
        # Irerate and collect tweets now
-       for tweet in jsn.get('data', {}): #jsn['data']:
+       for tweet in jsn.get('data', {}): 
            tweetsCollected.append( tweet )
                       
      if 'next_token' in jsn.get('meta', {}):
@@ -438,6 +443,35 @@ class twitterSearchClient:
 
      
      return( nextToken, tweetsCollected, userReferences )
+
+
+
+
+
+
+
+     #
+     # Special form of parseResponse, used only
+     # by getTweets.
+     # As tweets with specified id
+     # may not exist, this method returns also
+     # tweet ids that resulted in errors (e.g.
+     # could not be found).
+     #
+    def __parseResponse2(self, jsn):
+
+         nT, tC, uR = self.__parseResponse(jsn)
+
+         idE = []
+         errs = jsn.get('errors', [])
+         for e in errs:
+             idE.append(e['resource_id'])
+
+         return( nT, tC, uR, idE )     
+
+
+
+
 
 
     
