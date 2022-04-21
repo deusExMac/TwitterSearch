@@ -4,9 +4,10 @@ A simple python program that allows querying and downloading tweets using the [T
 
 This is experimental and has been created without much thought. It has not been properly designed. It has not been tested thoroughly. Any design error or bugs manifested are exclusively my own fault. Please have mercy.
 
-<sub> *NOTE: Thie README is still under development.* </sub>
 
 <sub> *I'm a uni professor and we are known to poorly design and implement software [as someone famously said in the past](https://www.oreilly.com/openbook/opensources/book/appa.html).*</sub>
+
+<sub> *__NOTE: Thie README is still under development.__* </sub>
 
 
 # Table of Contents
