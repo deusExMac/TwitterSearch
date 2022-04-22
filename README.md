@@ -808,6 +808,7 @@ For more information on Twitter fields and Twitter's object model see: https://d
 # Other related projects
 
 - [TweetScraper](https://github.com/jonbakerfish/TweetScraper)
+- [TwitterSearch](https://github.com/ckoepp/TwitterSearch) different project with same name. See also: https://twittersearch.readthedocs.io/en/latest/
 - [Tweepy](https://www.tweepy.org/)
 - [Selenium based web scrapers](https://medium.com/@wyfok/web-scrape-twitter-by-python-selenium-part-1-b3e2db29051d)
 
