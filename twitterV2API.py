@@ -353,7 +353,7 @@ class twitterSearchClient:
                hms = str( timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime)) ).split(':')
                #endTime = str( datetime.now() + timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime)) )
                endTime = (datetime.now() + timedelta(seconds= (len(periods) - pCount) * statistics.mean(avgPeriodTime))).strftime('%d/%m/%Y %H:%M:%S')                
-               print( utils.fL( '||[' + str(datetime.now()) + '] Done in ' + '{:.2f}'.format(pElapsed) + 's. Completion in: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds (ETC: ' + endTime + ')', startOver=True, every=114 ), clr='green')
+               print( utils.fL( '||[' + str(datetime.now()) + '] Done in ' + '{:.2f}'.format(pElapsed) + 's. Completion in: ' + hms[0] + ' hours, ' + hms[1] + ' minutes, ' + '{:.1f}'.format(float(hms[2])) + ' seconds (ETC: ' + endTime + ')', startOver=True, every=93 ), clr='green')
                
              
             print('')
