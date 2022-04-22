@@ -6,6 +6,8 @@
 
 Module containing class acting as wrapper for REST calls to the Twitter v2 API.
 
+
+
 Author: mmt
 Version: 20/04/2022
 

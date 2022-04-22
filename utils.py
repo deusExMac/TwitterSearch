@@ -4,6 +4,8 @@
 Module containing general purpose functions related to encryption/decryption,
 splitting date ranges into subranges and formated output.
 
+
+
 Author: mmt
 Version: 20/04/2022
 

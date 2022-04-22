@@ -4,8 +4,14 @@
 #
 # TwitterSearch
 #
-# A simple application to experiment with Twitter's v2 API which allows querying
-# and downloading tweets.
+# A simple python program that allows querying and downloading tweets using the Twitter v2 API.
+# The sole puprose of this is to experiment with and get to know Twitter's v2 API.
+# This is experimental and has been created without much thought. It has not been properly designed. It has not been tested thoroughly.
+# Any design error or bugs manifested are exclusively my own fault.
+#
+# Please have mercy.
+#
+#
 # IMPORTANT! See the README on Github on how to prepare and execute TwitterSearch.
 #
 # The developed was based on the source code found here:
@@ -26,6 +32,8 @@
 """
 
 Module containing main program. Execution starts from here.
+
+
 
 Author: mmt
 Version: 20/04/2022
