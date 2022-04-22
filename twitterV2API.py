@@ -102,6 +102,7 @@ class twitterSearchClient:
         return( rqSUrl, rqH, qParams )
     
       except Exception as bEx:
+             #print('Exception!')
              #if self.isCustomExceptionMessage(bEx):
              raise bEx
 
@@ -138,7 +139,6 @@ class twitterSearchClient:
         try:  
            search_url, headers, query_params =  self.buildRequest( q, sP, eP )
         except Exception as qPEx:
-               #print( str(qPEx) )
                if len(qPEx.args) < 2:                   
                   return(-3)
                else:
@@ -146,6 +146,7 @@ class twitterSearchClient:
                     eObj = json.loads(eM)
                     print("\n[ERROR]", eC, ':', eObj['message'])
                     return(eC)
+              
                
             
                 
@@ -251,6 +252,7 @@ class twitterSearchClient:
     
     def getTweets(self, idList, showErrors = False):
 
+     try:
        bearerToken = self.configuration.get('TwitterAPI', 'Bearer', fallback='') 
        if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
               bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
@@ -282,7 +284,8 @@ class twitterSearchClient:
           print(' ' )
               
        return(0)
-        
+     except Exception as tEx:
+            print( str(tEx) )
 
 
 
