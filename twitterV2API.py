@@ -79,7 +79,7 @@ class twitterSearchClient:
                     'next_token': {}}
         
         if sD =='' and  eD == '':
-           # This is a simple search           
+           # This is a simple search i.e. no dates at all. Simple search is always on the recent archive           
            bearerToken = self.configuration.get('TwitterAPI', 'essentialBearer', fallback='')
            if self.configuration.getboolean('TwitterAPI', 'bearerEncrypted', fallback=False):
               bearerToken = utils.kFileDecrypt(self.configuration.get('TwitterAPI', 'encryptionKeyFile', fallback='key'), bearerToken)
