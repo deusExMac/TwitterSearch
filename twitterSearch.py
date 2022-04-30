@@ -94,15 +94,67 @@ def setTargetArchive(cfg, md):
 
   
 
-         
+
+def main():
+
+   cmdArgParser = argparse.ArgumentParser(description='Command line arguments')
+   cmdArgParser.add_argument('-c', '--config',   default=appConstants.DEFAULTCONFIGFILE)
+   args = vars( cmdArgParser.parse_args() )
 
 
-#
-# If you are using older version of IDLE (Python 3.x.x) on MacOS
-# uncomment next line to specify command line argument:
-#
-# sys.argv = [sys.argv[0], '-c', 'twitterSearch.conf']
-#
+   # Config file that will be used
+   configFile = args['config']
+
+   print('')
+   print('Python v', sys.version)
+   print("")      
+   print('TwitterSearch v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
+
+
+   # Note: We use .RawConfigParser() because some configuration strings contain special chars like % that
+   #       have special meaning for the ConfigParser class
+   configSettings = configparser.RawConfigParser(allow_no_value=True)
+
+ 
+   print('\tLoading configuration file [', configFile, ']........', sep='', end='')
+
+   # Load config file
+   if not os.path.exists(configFile):
+      print("ERROR. File not found. Continuing with default settings.", sep="")
+      configSettings = generateDefaultConfiguration()
+   else:
+      try:        
+       configSettings.read(configFile)
+       configSettings.add_section('__Runtime')
+       configSettings['__Runtime']['__configSource'] = configFile  
+       print('OK', sep="")
+      except Exception as cfgEx:
+         print(str(cfgEx)) 
+         print('Error reading file [', configFile, ']. Continuing with default settings.', sep="")
+         configSettings = generateDefaultConfiguration()
+      
+    
+   # Set the proper bearer token depending on the value of target archive (Allowed values: recent, historic).
+   # Invalid target archive values result in termination.
+   sts = setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
+   if sts != 0:
+      print('Fatal error. Terminating.')
+      sys.exit()
+
+   print("\nType 'help' to see a list of supported commands.\n")
+
+
+   # Everything looks fine. Start the TwitterSearch command shell through which the user
+   # may execute commands.
+   # Control is now transferred to the shell
+   appShell = commandShell.commandShell( configSettings )
+   appShell.startShell()
+
+   print("\nFinished. ByeBye!")
+
+
+
+
 
 
 
@@ -117,67 +169,20 @@ def setTargetArchive(cfg, md):
 ######################################################################
 
 
-cmdArgParser = argparse.ArgumentParser(description='Command line arguments')
-cmdArgParser.add_argument('-c', '--config',   default=appConstants.DEFAULTCONFIGFILE)
-args = vars( cmdArgParser.parse_args() )
+
+#
+# If you are using older version of IDLE (Python 3.x.x) on MacOS
+# uncomment next line to specify command line argument:
+#
+# sys.argv = [sys.argv[0], '-c', 'twitterSearch.conf']
+#
 
 
 
-# Config file that will be used
-configFile = args['config']
-
-print('')
-print('Python v', sys.version)
-print("")      
-print('TwitterSearch v'+appConstants.APPVERSION, 'rd', appConstants.VERSIONRELEASEDATE )
+if __name__ == '__main__':
+   main() 
 
 
 
-# Note: We use .RawConfigParser() because some configuration strings contain special chars like % that
-#       have special meaning for the ConfigParser class
-configSettings = configparser.RawConfigParser(allow_no_value=True)
-
- 
-print('\tLoading configuration file [', configFile, ']........', sep='', end='')
-
-# Load config file
-if not os.path.exists(configFile):
-   print("ERROR. File not found. Continuing with default settings.", sep="")
-   configSettings = generateDefaultConfiguration()
-   
-else:
-   try:        
-    configSettings.read(configFile)
-    configSettings.add_section('__Runtime')
-    configSettings['__Runtime']['__configSource'] = configFile  
-    print('OK', sep="")
-   except Exception as cfgEx:
-      print(str(cfgEx)) 
-      print('Error reading file [', configFile, ']. Continuing with default settings.', sep="")
-      configSettings = generateDefaultConfiguration()
-      
-    
-
-
-
-# Set the proper bearer token depending on the value of target archive (Allowed values: recent, historic).
-# Invalid target archive values result in termination.
-sts = setTargetArchive(configSettings, configSettings.get('TwitterAPI', 'targetArchive', fallback="recent") )
-if sts != 0:
-   print('Fatal error. Terminating.')
-   sys.exit()
-
-print("\nType 'help' to see a list of supported commands.\n")
-
-
-
-# Everything looks fine. Start the TwitterSearch command shell through which the user
-# may execute commands.
-# Control is now transferred to the shell
-appShell = commandShell.commandShell( configSettings )
-appShell.startShell()
-
-
-print("\nFinished. ByeBye!")
 
 
