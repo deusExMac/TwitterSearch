@@ -102,6 +102,7 @@ The Twitter bearer token is a unique string value that identifies your (register
     - [cryptograpy](https://cryptography.io/en/latest/)
     - [pathlib](https://docs.python.org/3/library/pathlib.html)
     - [webbrowser](https://docs.python.org/3/library/webbrowser.html)
+    - python-dateutil
 
 
 <br />
