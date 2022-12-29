@@ -7,3 +7,4 @@ etc/
 *.pyc
 __pycache__/
 *.log
+*.xml
