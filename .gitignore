@@ -8,3 +8,4 @@ etc/
 __pycache__/
 *.log
 *.xml
+*.iml
