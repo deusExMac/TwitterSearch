@@ -1,6 +1,8 @@
 # TwitterSearch
 
 
+<br/>
+<br/>
 *__30/06/2023 UPDATE: Twitter seems to have changed its policies for bearer tokens. Existing tokens do not seem to function anymore (this needs to be verified). Section Prerequisites may not correctly describe the current situation.__*   
 
 <br/>
