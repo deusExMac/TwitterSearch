@@ -77,6 +77,8 @@ This is experimental and has been created without much thought. It has not been 
 
 # Prerequisites: Before you execute TwitterSearch 
 
+NOTE: As of 30/06/2023 the next sections may describe correctly the changed policy.
+
 In order to succesfully execute the application, the following is required:
 
 1.  A **Twitter bearer token**.
