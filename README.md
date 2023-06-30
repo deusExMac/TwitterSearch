@@ -3,7 +3,8 @@
 
 *__30/06/2023 UPDATE: Twitter seems to have changed its policies for bearer tokens. Existing tokens do not seem to function anymore (this needs to be verified). Section Prerequisites may not correctly describe the current situation.__*   
 
-
+<br/>
+<br/>
 
 A simple python program that allows querying and downloading tweets using the [Twitter v2 API](https://developer.twitter.com/en/support/twitter-api/v2). The sole puprose of this is to experiment with and get to know Twitter's v2 API. 
 
